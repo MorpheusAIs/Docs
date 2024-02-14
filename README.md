@@ -23,5 +23,22 @@ To make Smart Agents accessible to everyone and increase decentralization we pro
 -	Frontend Dashboard: https://github.com/MorpheusAIs/DashBoard
 -	Smart Agents: https://github.com/MorpheusAIs/SmartAgents
 
+
 ## Morpheus Network Diagram
 ![DiagramupdatedwithstETH](https://github.com/MorpheusAIs/Morpheus/assets/1563345/31711e49-0b57-4b41-b231-ee673dbf6664)
+
+## Key Document list
+-	FAQs: https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/10.FAQs.md
+-	Code Guide: https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/11.%20Coder%20Guide.md
+-	Morpheus Meetup Guide: https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/12.%20Morpheus%20Meetup%20Guide.md
+-	WhitePaper : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md
+-	YellowPaper : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/3.YellowPaper.md
+-	Techno Capital Machine : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/4.TechnoCapitalMachineTCM.md
+-	Fair Launch : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/5.FairLaunch.md
+-	Multisig: https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/5a.Multisig.md
+-	Protection Fund Details: https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/6.Protection%20Fund%20Details.md
+-	Yellowstone Compute Model : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/7.Yellowstone%20Compute%20Model.md
+-	Code Contributions Best Practices : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md
+-	Testing Plan : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/9.TestingPlan.md
+-	Integrations : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/Integrations.md
+-	Open Issues : https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/OpenIssues.md
