@@ -131,7 +131,7 @@ Except here the project can skip right to the staking stage and have the benefit
 
 7. As before MOR holders get to keep their principle and the yield goes to the open source project they want to support.
 
-8. Pre prerequisite for this may be in place by Phase 3 as the Code, Capital, Compute are all live on Moprhues and part of Community Front End Builder rewards.
+8. Prerequisite for this may be in place by Phase 3 as the Code, Capital, Compute are all live on Moprhues and part of Community Front End Builder rewards.
 
 ## Conclusion
 Come join a community of people reinventing the way we build, fund and operate open source applications.
