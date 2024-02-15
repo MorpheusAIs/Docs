@@ -56,7 +56,7 @@ In addition to being faster and cheaper than forming a company or foundation, th
 
 For example, the Coder can choose whether or not to merge any open source contribution the community of coders suggests for their project. Based on how they value the code contribution and the hours the contributor wants as credit for the work. The Compute providers choose the type of AI models and tokens they want to support and the price at which they are willing to offer them. The Capital Providers select which projects to direct their stETH yield toward based on their desire to use the software being created. And lastly, Community builders can choose the projects they want to build front ends for, integrate or otherwise support the development of based on the rewards they receive from project creators.
 
-This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
+This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time-consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
 
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.
@@ -110,6 +110,28 @@ Given all this context beyond the funding, what are the simple practical technic
 - The ability to move between devices.
 - The ability to deploy or use agents jurisdiction agnostically.
 - The ability to access uncensored data permissionlessly.
+
+## Extending the Morpheus TCM Using the MOR Token
+The MOR tokens can serve as a means of extending the Techno Capital Machine to developers who want to build on the Morpehus platform.
+This could be implimented in the following way.
+
+1. Reuse the same Smart Contracts, just this time instead of providing stETH, users stake MOR tokens.
+
+2. The protocol can provide a "yield" for MOR staking say 8% of the MOR tokens out of the Community builder reward related to Code.
+
+3. MOR holders can then direct these MOR staking yield to developers who propose / build a specific a Smart Agent.
+
+4. The new project goes through a bootstrapping period which the Smart Agent is being developed.
+
+5. When the code for the new project is delivered those who staked their MOR toward that specific Smart Agent end up getting a portion of the native tokens in the project as "Capital Providers" just as it worked in the Morpheus fair launch. 
+
+6. This brings the capital provision function into the MOR tokenomics.
+Just like the most popular thing to do in Ethereum early on was use ETH to provide resources for projects.
+Except here the project can skip right to the staking stage and have the benefit of all on chain records for supporters of projects.
+
+7. As before MOR holders get to keep their principle and the yield goes to the open source project they want to support.
+
+8. Pre prerequisite for this may be in place by Phase 3 as the Code, Capital, Compute are all live on Moprhues and part of Community Front End Builder rewards.
 
 ## Conclusion
 Come join a community of people reinventing the way we build, fund and operate open source applications.
