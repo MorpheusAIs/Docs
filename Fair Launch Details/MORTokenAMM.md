@@ -24,3 +24,9 @@ Avoiding the typical price spike on the first day of listing the token on the AM
 - This formula will continue daily until all the bootstrapping yield has been added to the AMM.
 
 Best practices for avoiding MEV and other "snipping" type attacks to be developed.
+
+## Post Bootstrapping
+
+stETH yield added to the Protocol Owned Liquidity will be converted to wETH, 50% buying MOR and the other 50% being added as an LP of the pool. This will continue into the future as long as the Capital Provider rewards providing yield to the Protocol Owned Liquidity (256 years).
+
+As other AMMs on other chains are added for MOR trading pairs, then stETH yield will be directed toward those pools in proportion to the total locked value held in those pools vs the total TVM across all MOR AMM pools.
