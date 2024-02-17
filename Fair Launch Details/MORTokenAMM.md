@@ -1,7 +1,7 @@
 # MOR Liquidity Bootstrapping on Uniswap via Arbitrum
 The two primary objectives of the bootstrapping period are to: 
 
-#1 Have fair and transparent price discovery for the MOR token. Avoiding the typical price spike on the first day of listing the token on the AMM.
+#1. Enable fair and transparent price discovery for the MOR token. Avoiding the typical price spike on the first day of listing the token on the AMM.
 
 #2. Implement best practices to avoid MEV or other attacks that would extract the Protocol Owned Liquidity added to the AMM by the protocol.
 
