@@ -16,6 +16,6 @@ Avoiding the typical price spike on the first day of listing the token on the AM
 
 - For Example if 66,877 MOR are deposited of the total 668,778 MOR in circulation (10% of supply), then 10% of the bootstrapping yield will be paired with these tokens. 
 
-- This formula will continue until all the bootstrapping yield has been added to the AMM.
+- This formula will continue daily until all the bootstrapping yield has been added to the AMM.
 
 Best practices for avoiding MEV and other "spipping" type attacks to be developed.
