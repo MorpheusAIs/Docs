@@ -22,4 +22,4 @@ Avoiding the typical price spike on the first day of listing the token on the AM
 
 - This formula will continue daily until all the bootstrapping yield has been added to the AMM.
 
-Best practices for avoiding MEV and other "spipping" type attacks to be developed.
+Best practices for avoiding MEV and other "snipping" type attacks to be developed.
