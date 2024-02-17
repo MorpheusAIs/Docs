@@ -31,4 +31,4 @@ Best practices for avoiding MEV and other "snipping" type attacks to be develope
 
 stETH yield added to the Protocol Owned Liquidity will be converted to wETH, 50% buying MOR and the other 50% being added as an LP of the pool. This will continue into the future as long as the Capital Provider rewards providing yield to the Protocol Owned Liquidity (256 years).
 
-As other AMMs on other chains are added for MOR trading pairs, then stETH yield will be directed toward those pools in proportion to the total locked value held in those pools vs the total TVM across all MOR AMM pools.
+Longer term as additional staked asset yield from Bitcoin, USDT, Solana, gets added as a source of Capital to Morpheus then other AMMs on other chains can be added for MOR trading pairs. Then the yield from those assets will be directed toward those pools in proportion to the total locked value held in those pools vs the total TVM across all MOR AMM pools.
