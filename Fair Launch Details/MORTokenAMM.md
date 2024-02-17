@@ -1,7 +1,9 @@
 # MOR Liquidity Bootstrapping on Uniswap via Arbitrum
+The two primary objectives of the bootstrapping period are to: 
 
-One of the primary objectives of the bootstrapping period is to have fair and transparent price discovery for the MOR token. 
-Avoiding the typical price spike on the first day of listing the token on the AMM or MEV type attacks.
+#1 Have fair and transparent price discovery for the MOR token. Avoiding the typical price spike on the first day of listing the token on the AMM.
+
+#2. Implement best practices to avoid MEV or other attacks that would extract the Protocol Owned Liquidity added to the AMM by the protocol.
 
 ## **Facts for MOR Token Day 90:**
 - About 50,309 of MOR will become claimable by the Protection Fund on day 88 of the fair launch. This will be used to create the MOR AMM pool on Uniswap.
