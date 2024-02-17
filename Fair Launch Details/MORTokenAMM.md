@@ -5,12 +5,12 @@ The two primary objectives of the bootstrapping period are to:
 
 #2. Implement best practices to avoid MEV or other attacks that would extract the Protocol Owned Liquidity added to the AMM by the protocol.
 
-## **Facts for MOR Token Day 90:**
+## Facts for MOR Token Day 90
 - About 50,309 of MOR will become claimable by the Protection Fund on day 88 of the fair launch. This will be used to create the MOR AMM pool on Uniswap.
 
 - There will be 668,778 total MOR tokens in circulation on day 90. Capital + Code + Protection Fund MOR tokens emitted.
 
-## **AMM Bootstrapping Details**
+## AMM Bootstrapping Details
 - The initial yield of stETH will be referred to as the "bootstrapping yield".
 
 - The bootstrapping yield originally in stETH will be converted into wETH (ETH on Arbitrum).
