@@ -2,6 +2,9 @@
 
 **Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).**
 
+**Note the current rule of thumb for hours is $50 per hour in implied value.**
+**So if you submit a pull request and claim its worth 5 hours, you are implying you believe its worth $250 to the code base.**
+
 ## Structuring your Code Contributions.
 All Code Contributions should include the following five elements.
 - 1. The Ethereum / Wallet address to be rewarded.
