@@ -61,10 +61,14 @@ Best practices for avoiding MEV and other "snipping" type attacks to be develope
 - A. How much stETH is deposited in the Morpheus Smart Contract.
 - B. How many MOR will be claimed and then deposited in the Uniswap pool on day 90.
   
-- Using the numbers from the example above if 825 stETH is available on day 90 as the "bootstrapping yield", and 7.522% of that is deposited in the AMM to start, then there would be 62 stETH on one side of the order book and 50,344 MOR on the other side of the order book. If ETH has a dollar price of $3,000 USD in May, then that would imply a per MOR price of $3.69 USD per MOR. 
+- Using the numbers from the example above if 825 stETH is available on day 90 as the "bootstrapping yield", and 7.522% of that is deposited in the AMM to start, then there would be 62 stETH on one side of the order book and 50,344 MOR on the other side of the order book. A price of 0.00123 wETH per MOR.
+
+If wETH has a dollar price of $3,000 USD in May, then that would imply a per MOR price of $3.69 USD per MOR. 
 
 Of course this will change as soon as others begin depositing addtional MOR in the Uniswap pool or buying MOR with wETH.
-Given the other 92.478% of the bootstrapping yield (763 wETH) will be added to the Uniswap pool in proportion as MOR deposits increase, there is effectively a $3.69 USD per MOR floor price until all the initial yield has been deployed. Then the market price will freely float based on the daily yield added to the Protocol Owned Liquidity and whatever the natural buy / sell pressure for MOR is that day.
+Given the other 92.478% of the bootstrapping yield (763 wETH) will be added to the Uniswap pool in proportion as MOR deposits increase, there is effectively the same 0.00123 wETH per MOR ($3.69 USD per MOR) floor price until all the bootstrapping yield has been deployed. 
+
+Then the market price will freely float based on the daily yield added to the Protocol Owned Liquidity and whatever the natural buy / sell pressure for MOR is that day.
 
 - **10) How will you prevent MEV bots attack in the first block? (buy cheap)**
 - The price should be set by the implied amount of stETH vs MOR when both are deposited in the first block.
