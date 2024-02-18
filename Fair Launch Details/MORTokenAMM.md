@@ -32,7 +32,7 @@ Best practices for avoiding MEV and other "snipping" type attacks to be develope
 - This is 2 days earlier than all other MOR become claimable, so that the MOR tokens can be deposited into the Uniswap pool and avoid someone snipping the pool on the first block.
 
 **2) Why 7.522%?**
-- 7.522% of the initial bootstrapping yield equals 1 to 1 the same amount of MOR in the Protection Fund (as compared to the total MOR emitted the first 90 days).
+- 7.522% of the initial bootstrapping yield equals 1 to 1 the same amount of MOR in the Protection Fund (as compared to the total MOR emitted the first 90 days = 668,778 MOR in circulation).
 
 **3) Where did you get 50,344 MOR from?**
 - The Protection Fund gets 4% of the daily emissions (576 MOR per day (minus the decay rate). 50,344 are the MOR that will be avilable to the Protection Fund day 90.
