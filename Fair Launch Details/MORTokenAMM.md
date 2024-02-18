@@ -63,7 +63,7 @@ Best practices for avoiding MEV and other "snipping" type attacks to be develope
   
 - Using the numbers from the example above if 825 wETH is available on day 90 as the "bootstrapping yield", and 7.522% of that is deposited in the AMM to start, then there would be 62 wETH on one side of the order book and 50,344 MOR on the other side of the order book. A price of 0.00123 wETH per 1 MOR.
 
-If wETH has a dollar price of $3,000 USD in May, then that would imply a per MOR price of $3.69 USD per MOR. 
+If wETH has a dollar price of $3,000 USD in May, then that would imply a per MOR price of $3.69 USD per 1 MOR. 
 
 Of course this will change as soon as others begin depositing additional MOR in the Uniswap pool or buying MOR with wETH.
 Given the other 92.478% of the bootstrapping yield (763 wETH) will be added to the Uniswap pool in proportion as MOR deposits increase, there is effectively the same 0.00123 wETH per 1 MOR ($3.69 USD per MOR) implied price until all the bootstrapping yield has been deployed. 
