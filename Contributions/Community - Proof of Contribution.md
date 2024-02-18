@@ -11,3 +11,4 @@ You need a wallet like Metamask that can receive Ethereum based tokens (MOR is a
 | Wallet Address                              | Link to Work | Time Devoted (hrs) | Description of Contribution                                   |
 |---------------------------------------------| ------------ |------|---------------------------------------------------------------|
 | 0x76c22534B60B5dbbe16e9Fc0325435fd68550Bf3  | [Proof of Capital Dune Dashboard](https://dune.com/syncracy/morpheus) | 1 HR | A Dune dashboard to tack the progress of Morpheus fiar launch |
+| 0x2CD0c9906815A5F5b2B0D9BfF8Ebe939534603B2 | [Video Content Marketing](https://drive.google.com/drive/folders/1y97hLKOFZ48xwljuvDQsdjYA6Pw_f1Un?usp=drive_link) | 8 HR | Marketing video I made was requested by The Oracle |
