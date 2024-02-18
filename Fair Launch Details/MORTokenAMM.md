@@ -28,35 +28,34 @@ The two primary objectives of the bootstrapping period are to:
 Best practices for avoiding MEV and other "snipping" type attacks to be developed.
 
 ## FAQs
-
-- **1) Why 88 days?**
+**1) Why 88 days?**
 - This is 2 days earlier than all other MOR become claimable, so that the MOR tokens can be deposited into the Uniswap pool and avoid someone snipping the pool on the first block.
 
-- **2) Why 7.522%?**
+**2) Why 7.522%?**
 - 7.522% of the initial bootstrapping yield equals 1 to 1 the same amount of MOR in the Protection Fund (as compared to the total MOR emitted the first 90 days).
 
-- **3) Where did you get 50,344 MOR from?**
+**3) Where did you get 50,344 MOR from?**
 - The Protection Fund gets 4% of the daily emissions (576 MOR per day (minus the decay rate). 50,344 are the MOR that will be avilable to the Protection Fund day 90.
 
-- **4) When will the pool be set?**
+**4) When will the pool be set?**
 - Just before day 90 when the rest of the MOR become claimable.
 
-- **5) How much bootstrapping yield will be added?**
+**5) How much bootstrapping yield will be added?**
 - This number is unknown until closer to the end of the 90 day Bootstrapping period.
 - However you can calculate a rough estimate based on the amount of stETH deposited in the Morpheus Smart Contract.
 - 100,000 stETH would equal 3,300 stETH of yield per year or 825 stETH in a 90 day period.
 
-- **6) How to add MOR to AMM?**
+**6) How to add MOR to AMM?**
 - The Multisig address will deposit MOR into the AMM before all MOR are released.
 - Once MOR are claimable by everyone on day 90 anyone will be free to deposit their MOR in the AMM.
 
-- **7) Can everyone add liquidity?**
+**7) Can everyone add liquidity?**
 - Yes, after day 90 when the MOR become claimable, every MOR holder will be free to add their MOR to the Uniswap pool.
 
-- **8) What if no one deposit MOR into the LP?**
+**8) What if no one deposit MOR into the LP?**
 - The pool will begin based on the Protection Fund MOR even if no one else has deposited yet.
 
-- **9) What's the MOR price on day 90 (the first day on Uniswap)?**
+**9) What's the MOR price on day 90 (the first day on Uniswap)?**
 - This depends on many variables such as: 
 - A. How much stETH is deposited in the Morpheus Smart Contract.
 - B. How many MOR will be claimed and then deposited in the Uniswap pool on day 90.
@@ -70,7 +69,7 @@ Given the other 92.478% of the bootstrapping yield (763 wETH) will be added to t
 
 Then the market price will freely float based on the daily yield added to the Protocol Owned Liquidity and whatever the natural buy / sell pressure for MOR is that day.
 
-- **10) How will you prevent MEV bots attack in the first block? (buy cheap)**
+**10) How will you prevent MEV bots attack in the first block? (buy cheap)**
 - The price should be set by the implied amount of stETH vs MOR when both are deposited in the first block.
 - Suggestions to avoid attacks are welcome and several experts have been asked.
 
