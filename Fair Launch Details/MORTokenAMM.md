@@ -60,7 +60,7 @@ Best practices for avoiding MEV and other "snipping" type attacks to be develope
 - A. How much stETH is deposited in the Morpheus Smart Contract.
 - B. How many MOR will be claimed and then deposited in the Uniswap pool on day 90.
   
-- Using the numbers from the example above if 825 wETH is available on day 90 as the "bootstrapping yield", and 7.522% of that is deposited in the AMM to start, then there would be 62 wETH on one side of the order book and 50,344 MOR on the other side of the order book. A price of 0.00123 wETH per 1 MOR.
+However using the numbers from above (100,000 stETH staked on average over the 90 days) we can calcuate an example. If 825 wETH is available on day 90 as the "bootstrapping yield" and 7.522% of that is deposited in the AMM to start, then there would be 62 wETH on one side of the order book and 50,344 MOR on the other side of the order book. A price of 0.00123 wETH per 1 MOR.
 
 If wETH has a dollar price of $3,000 USD in May, then that would imply a price of $3.69 USD per 1 MOR. 
 
