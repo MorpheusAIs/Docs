@@ -27,11 +27,12 @@ How to launch your decentralized, open source project in 2024:
 Let’s coalesce to create a frictionless way for developers to launch projects using the Techno Capital Machine, shall we?  
 
 The process for a new project is simple:
-1. Deploy Smart Contracts to direct Capital yield toward the new open source project.
-2. Leverage the available decentralized Compute, Code, and Community which already are involved in open source and freedom tech. 
-3. Connect the project to the Morpheus Virtual Machine to access its users already using Smart Agents today.
+1. Deploy Smart Contracts to direct Capital yield toward the new open source project via a Fair Launch.
+2. Add the token to Uniswap to generate liquidity via a Fair Price Discovery mechanism.
+3. Leverage the available decentralized Compute, Code, and Community which already are involved in open source and freedom tech. 
+4. Connect the project to the Morpheus Virtual Machine to access its users already using Smart Agents today.
 
-## TCM Smart Contracts
+## TCM Smart Contracts for Fair Launch
 1. Users direct yield toward the open source project of their choice by depositing assets such as stETH into a Smart Contract.
 2. 50% of the daily yield purchases tokens in the open source project, which are contributed to an AMM trading pair as Protocol Owned Liquidity.
 3. 50% of the daily yield remains as stETH and is added to an AMM as the other half of the trading pair as Protocol Owned Liquidity.
@@ -40,7 +41,6 @@ The process for a new project is simple:
 6. Projects could also have  access to other contributors of the Freedom-Tech stack for developers to broaden their ecosystem reach more rapidly.
 
 Examples of open source projects could include Smart Agents, Decentralized Applications, Smart Contracts, Fine-Tuned Models, and tools for software to leverage in specific tasks.
-
 
 ## Morpheus Is The First Project to Implement the TCM Smart Contracts
 All the Morpheus Smart Contracts are open source and thus available for anyone looking to launch an open source project. Benefits of the TCM include:
@@ -68,6 +68,21 @@ The Atomic Governance Model is very different from a DAO model. This practically
 - 6. After the code is developed and deployed every user maintains the right to use or not use it. To fork the code and otherwise create a different version or opt out of the project.
 
 This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time-consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
+
+## Fair Price Discovery Mechanism
+Bootstrapping the Uniswap AMM liquidity comes from the 4% of emissions dedicated to the Protection Fund. 
+This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
+The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
+
+**Creating Deep Liquidity & Open Participation**
+It is necessary to ensure equal access to liquidity for all participants and establish rational price discovery. 
+
+This can be achieved through a signaling period:
+- 7 days before the start of claiming MOR tokens, users will have the opportunity to signal their desire to participate in fair price discovery and indicate the amount of MOR tokens (from available for claim) they would like to add to the liquidity pool and receive wETH in return.
+- Users will be able to see in real-time the tokens (MOR/wETH) ratio in the future pool and the amount of wETH they will receive in exchange for participating in fair price discovery, enabling them to make informed decisions.
+- During the signaling period, users can add or reduce the number of tokens participating in fair price discovery from the available amount to them for claim.
+- The signaling period will close 24 hours before the start of claiming MOR tokens.
+- Users can claim the wETH they are entitled to along with the opening of claiming MOR tokens.
 
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.
