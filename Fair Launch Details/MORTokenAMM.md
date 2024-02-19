@@ -5,7 +5,7 @@ The two primary objectives of the bootstrapping period are to:
 
 #2. Implement best practices to avoid MEV or other attacks that would extract the Protocol Owned Liquidity added to the AMM by the protocol.
 
-## Facts for MOR Token Day 90
+## Estimates for MOR Token Day 90
 - About 50,309 of MOR will become claimable by the Protection Fund on day 88 of the fair launch. This will be used to create the MOR AMM pool on Uniswap.
 
 - There will be 668,778 total MOR tokens in circulation on day 90. Capital + Code + Protection Fund MOR tokens emitted.
@@ -72,6 +72,35 @@ Then the market price will freely float based on the daily yield added to the Pr
 **10) How will you prevent MEV bots attack in the first block? (buy cheap)**
 - The price should be set by the implied amount of stETH vs MOR when both are deposited in the first block.
 - Suggestions to avoid attacks are welcome and several experts have been asked.
+
+## Exploring Methods For Fair Price Discovery
+Current Notes On Fair Price Discovery Methods Available:
+
+### Option #1. Balancer Example
+The Liquidity Bootstrapping Pool method used by some projects, where the purchaser does know the price. The price falls on a known curve until a user feels it’s worth buying. See example details here: https://docs.balancer.fi/concepts/pools/liquidity-bootstrapping.html
+
+### Option #2. Camelot Example
+“A 'liquidity bootstrap' would be a way to establish a fair Day 90 price and limit the wild swings that could be otherwise experienced. 
+
+There could do a phased bootstrap approach: 
+
+- (Phase 1) 24 hour period where anyone who wants to commit their MOR to the pool can do so. Deposit only. This could be bolstered by a seed amount from the Protection Fund to ensure there is at least some MOR allocated 
+
+- (Phase 2) 24 period where users contribute ETH to the other side, once again being a deposit only period. 
+
+- (Phase 3) the ending balances on both sides are what set the starting price and total liquidity is moved from the locked contract and into the actual pool. Both sides of the contributions are given their relative piece of the pool, i.e. a user who contributes MOR would have half their MOR swapped for the relative price of ETH.
+
+Limiting the deposits to a single side at a time and only executing the pool at the end of Phase 2 removes the live trading of anyone trying to scalp the market and focuses it as an investment versus a wild trading day of price discovery. I've seen several good roll-outs of this, Camelot ($GRAIL) on Arbitrum was one I thought that had a very smooth and successful execution.
+
+### Option #3. Signaling Example
+Uniswap V3 supports one-sided liquidity which in nature is a limited order.
+It would be difficult to have users add one-sided liquidity themselves as it could turn out to be very complex as the users need specific knowledge of the process and liquidity has to be put in a "specific range".
+
+Instead there is a proposal to have a "signaling period", where a user has to provide approval to the Smart Contract (needs to be developed) and thus say: "Hey, I want to take place in a fair price discovery." Which means his MOR (amount indicated by the user) will be used to create liquidity and he will get wETH in exchange.
+
+All these actions will take place BEFORE liquidity is created, meaning that pool will be rebalanced before it live on mainnet as Smart Contract will withdraw users' MOR and credit them wETH directly from the bootstrapping yield. Thus the risk of possible MEV attack tricks are mitigated and greatly decrease complexity of Smart Contract development.
+
+Pre-launch price discovery period could lasts for week or days and people could see the outcome of their actions/decision and  "AMM listing price" fluctuations in real time and can making thoughtful decisions and reach natural price equilibrium based on free market approach.
 
 ## Post Bootstrapping
 
