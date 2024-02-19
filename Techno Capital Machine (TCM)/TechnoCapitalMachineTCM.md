@@ -56,6 +56,7 @@ In addition to being faster and cheaper than forming a company or foundation, th
 
 For example, the Coder can choose whether or not to merge any open source contribution the community of coders suggests for their project. Based on how they value the code contribution and the hours the contributor wants as credit for the work. The Compute providers choose the type of AI models and tokens they want to support and the price at which they are willing to offer them. The Capital Providers select which projects to direct their stETH yield toward based on their desire to use the software being created. And lastly, Community builders can choose the projects they want to build front ends for, integrate or otherwise support the development of based on the rewards they receive from project creators.
 
+## Atomic Voice & Exit
 The Atomic Goverance Model is very different from a DAO model. This practically looks like: 
 - 1. Proposals get made for improvements, general discussion takes place. https://github.com/MorpheusAIs/MRC
 - 2. Then repository owners watch for people with real knowledge / skill and pull them into the coding planning to technically design an implimentation.  
