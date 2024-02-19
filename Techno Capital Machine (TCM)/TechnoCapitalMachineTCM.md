@@ -74,7 +74,7 @@ Bootstrapping the Uniswap AMM liquidity comes from the 4% of emissions dedicated
 This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
 The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
 
-**Creating Deep Liquidity & Open Participation**
+### Creating Deep Liquidity & Open Participation
 It is necessary to ensure equal access to liquidity for all participants and establish rational price discovery. 
 
 This can be achieved through a signaling period:
