@@ -56,6 +56,14 @@ In addition to being faster and cheaper than forming a company or foundation, th
 
 For example, the Coder can choose whether or not to merge any open source contribution the community of coders suggests for their project. Based on how they value the code contribution and the hours the contributor wants as credit for the work. The Compute providers choose the type of AI models and tokens they want to support and the price at which they are willing to offer them. The Capital Providers select which projects to direct their stETH yield toward based on their desire to use the software being created. And lastly, Community builders can choose the projects they want to build front ends for, integrate or otherwise support the development of based on the rewards they receive from project creators.
 
+The Atomic Goverance Model is very different from a DAO model. This practically looks like: 
+- 1. Proposals get made for improvements, general discussion takes place. https://github.com/MorpheusAIs/MRC
+- 2. Then repository owners watch for people with real knowledge / skill and pull them into the coding planning to technically design an implimentation.  
+- 3. Once the best technical design for coding up a proposal is identified and the developers confirm they can code it and test it in an expected time, then work begins.
+- 4. The broader coding community can add issues, submit pull requests and contribute to the effort.
+- 5. No broad vote on the proposal, its design, or its code is sought. Its much more a consensus by experts and judged by repo owner in the Atomic Governance model.
+- 6. After the code is developed and depolyed every user maintains the right to use or not use it. To fork the code and otherwise create a different version or opt out of the project.
+
 This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time-consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
 
 ## Links To Smart Contract Code and Examples
