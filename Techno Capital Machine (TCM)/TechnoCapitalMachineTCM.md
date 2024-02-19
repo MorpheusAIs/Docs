@@ -8,6 +8,8 @@ This proposal for a Techno Capital Machine is meant to create a platform for dev
 
 The Morpheus community is leveraging this framework of the Techno Capital Machine (TCM) and using it to accelerate the development of Decentralized AI. Beyond AI development, the TCM concept is pertinent to all Smart Contracts, Decentralized Applications, and Web3 programs. See a link to the detailed tokenomics here: [Whitepaper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md).
 
+The model has been well validated during the Morpheus Fair Launch, with over $200 Million USD of stETH Contributed in the first 10 days of the project.
+
 The term Techno Capital Machine is inspired by renowned philosopher [Beff Jezos](https://twitter.com/BasedBeffJezos) and has been first implemented by the Morpheus community.
 
 ## Tl;dr
