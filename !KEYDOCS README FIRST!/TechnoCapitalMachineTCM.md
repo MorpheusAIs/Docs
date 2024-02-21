@@ -6,7 +6,7 @@ Today, there is no easy way for developers who create software to get rewarded f
 
 This proposal for a Techno Capital Machine is meant to create a platform for developers to create and deploy their software.  It does so in a way so that the TCM first handles all the infrastructure and payments before rewarding the developer based on the popularity of the program.
 
-The Morpheus community is leveraging this framework of the Techno Capital Machine (TCM) and using it to accelerate the development of Decentralized AI. Beyond AI development, the TCM concept is pertinent to all Smart Contracts, Decentralized Applications, and Web3 programs. See a link to the detailed tokenomics here: [Whitepaper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md).
+The Morpheus community is leveraging this framework of the Techno Capital Machine (TCM) and using it to accelerate the development of Decentralized AI. Beyond AI development, the TCM concept is pertinent to all Smart Contracts, Decentralized Applications, and Web3 programs. See a link to the detailed tokenomics here: [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
 
 The model has been well validated during the Morpheus Fair Launch, with over $200 Million USD of stETH Contributed in the first 10 days of the project.
 
@@ -87,9 +87,9 @@ This can be achieved through a signaling period:
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.
 
-[Yellowstone Compute Model](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/7.Yellowstone%20Compute%20Model.md) for bidding on Compute.
+[Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) for bidding on Compute.
 
-Example [Proof of Code Contribution.](https://github.com/MorpheusAIs/Morpheus/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
+Example [Proof of Code Contribution.](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
 
 ## The Mismatch of Corporate Structures and Decentralized Tech
 There is a fundamental mismatch between the desire to build open source and freedom-tech for the world and the traditional corporate compute structure. Many projects which begin as open source resort to eventually forming a company in order to scale their efforts and reward their contributors. Over time, the structure of these companies forces their founders to gradually release less open-source solutions, selfishly starving the communities that created them.
