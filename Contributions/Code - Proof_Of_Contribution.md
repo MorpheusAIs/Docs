@@ -1,6 +1,6 @@
 ## Code - Proof of Contribution Table
 
-**Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).**
+**Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md).**
 
 ## Structuring your Code Contributions.
 All Code Contributions should include the following five elements.

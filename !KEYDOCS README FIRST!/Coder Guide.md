@@ -25,9 +25,9 @@ https://github.com/MorpheusAIs/Morpheus/issues
 ## Best Practices for Contributing Code
 The step by step details of how to Contribute Code, increase those odds of having your Pull Request merged.
 
-https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md
+https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md
 
 ## Code Contributor Table To Include In Pull Requests
 Include an update to the Code Contributor table on GitHub with your Code Contributions with your hour request.
 
-https://github.com/MorpheusAIs/Morpheus/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md
+https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md
