@@ -21,7 +21,7 @@ Morpheus社区正在利用这个技术资本机器（TCM）的框架，并使用
 - 然后，将原生代币与另外50%的收益配对，并存入AMM的流动性池中。
 
 如何在2024年启动您的去中心化开源项目：
-![TCMin2024](https://github.com/MorpheusAIs/Morpheus/assets/1563345/26c16eed-a5f6-4605-a628-57b96c2530be)
+![TCMin2024](../Asset/WhitePaper%20Graphics/Chinese/ZH%20meme%20for%20TCM.jpg)
 
 ## TCM作为解决方案
 让我们聚集起来，使用技术资本机器以无摩擦的方式为开发者启动项目，好吗？
