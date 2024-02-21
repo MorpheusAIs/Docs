@@ -80,9 +80,9 @@ And that's not all, there is also the icing on the cake, in the form of a protec
 Morpheus’ tokenomics presents a holistic framework, avoiding pitfalls and built with utility in mind. By incentivizing key contributors, their interactions and maintaining fair market dynamics, it establishes Morpheus as a sustainable innovator in the decentralized realm. Openness, clarity and a fair approach are factors that will naturally attract more and more new users.
 
 ## To read:
-1. [Whitepaper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md)  
-2. [Techno Capital Machine paper](https://github.com/redc1ty/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/4.TechnoCapitalMachineTCM.md)
-3. [Protection Plan Details](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/6.Protection%20Fund%20Details.md)
+1. [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) 
+2. [Techno Capital Machine paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+3. [Protection Plan Details](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
  
 
 
