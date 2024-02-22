@@ -48,5 +48,6 @@ While the exact price of MOR will not be known until May 8th when the Uniswap po
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
 This at least right now implies a per MOR value of 0.00237 stETH per MOR based on real world contributions. Or $6.89 USD at the current 2,900 USD to stETH price on Feb. 21st 2024.
 
-Given the first 365 days there will be a maximum of 5,091,984 MOR emitted this would imply a current market cap of $34,450,000 USD for Morpheus during the first year.
-Or a current implied weight value of $1,640 USD per weight (assuming 21,000 weights in this example).
+**All told this implies a current value of each weight at $400 USD.**
+This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
+At $6.89 per MORe that equals $400 in USD terms.  
