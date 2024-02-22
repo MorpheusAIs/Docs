@@ -13,6 +13,7 @@ All Code Contributions should include the following five elements.
 - 5. Description of Contributions.
 
 - Example: 
+| -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Wallet Address                             | Link to Issue |	Link to Work        | Weights	| Description of Contribution |
 | 0x98eFf980C57c9D333340b3856481bF7B8698987c |	Link to Issue | Link to Commit #127 |	50      |	Integration of ollama       |
 
