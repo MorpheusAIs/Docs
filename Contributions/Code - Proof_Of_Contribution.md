@@ -12,7 +12,8 @@ All Code Contributions should include the following five elements.
 - 4. Number of weights requested (just the # of weights don't include the word "weights").
 - 5. Description of Contributions.
 
-- Example: 
+- Example Table: 
+| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Wallet Address                             | Link to Issue |	Link to Work        | Weights	| Description of Contribution |
 | 0x98eFf980C57c9D333340b3856481bF7B8698987c |	Link to Issue | Link to Commit #127 |	50      |	Integration of ollama       |
