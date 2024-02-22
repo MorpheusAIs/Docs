@@ -1,5 +1,7 @@
 ## Community Frontend Interface Builder - Proof of Work
 
+Community Frontend Inferface Builders rewards will begin in Phase 3 after Code, Capital, and Compute are all deployed as this is a requirement for Frontend Inferface developers to do their work.
+
 Detail the work you are contributing to Morpheus.  You must include a link to the work for the work to be considered.  Examples of proof include links Morpheus related websites, application frontends, user guides or other easily verifiable information that lead directly to Inference usage.
 
 *It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of the inferfaces you are providing. Explain it simply. Limit your descripions to 250 words.*
