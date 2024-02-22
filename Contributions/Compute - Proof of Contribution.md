@@ -1,4 +1,6 @@
-## Compute  - Proof of Contribution
+## Compute Provider  - Proof of Contribution
+
+Compute Providers can start in Phase 2 of Morpheus development after May 8th 2024 when the MOR token goes live and after the Decentralized Router described in the Yellowstone Paper is developed.
 
 Detail the work you are contributing to Morpheus.  You must include a link to the work for the work to be considered.  Examples of proof include links to API endpoints or other easily verifiable information.
 
