@@ -7,7 +7,12 @@ Veröffentlicht - September 2nd 2023
 Link zum Gelbbuch Technische Details: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
 
 ## Einführung
-Morpheus wurde entwickelt, um Anreize für das erste Peer-to-Peer-Netzwerk von persönlichen KIs zu schaffen, die als Smart Agent bekannt sind. Die Bereitstellung von quelloffenen Smart Agent, die sich mit ihren Geldbörsen, Dapps und Smart Contracts verbinden können, verspricht, die Welt des Web3 für alle zu öffnen.
+Morpheus wurde entwickelt, um Anreize für das erste Peer-to-Peer-Netzwerk von persönlichen, universell einsetzbaren KIs zu schaffen, die Smart Contracts im Namen eines Nutzers ausführen können, die so genannten [Smart Agents] (https://github.com/SmartAgentProtocol/SmartAgents/blob/main/White%20Paper.md). Nutzern quelloffene Smart Agents zur Verfügung zu stellen, die sich mit ihren Geldbörsen, Dapps und Smart Contracts verbinden können, verspricht, die Welt des Web3 für alle zu öffnen.
+
+Die Web3-Wallet des Nutzers zur Schlüsselverwaltung und zum Signieren empfohlener Transaktionen bei der Interaktion mit dem Smart Agent.
+Ein großes Sprachmodell, das auf Web3-Daten trainiert wurde, einschließlich Blockchains,Geldbörsen, Dapps, DAOs und Smart Contracts.
+Der [SmartContractRank](https://www.smartcontractrank.org/) Algorithmus zur Bewertung und Empfehlung der besten Smart Contracts für den Nutzer.
+Langzeitspeicher für Nutzerdaten & verbundene Anwendungen, die lokal oder über eine dezentrale Cloud gespeichert werden, um einen breiteren Kontext für Smart-Agent-Aktionen zu bieten.
 
 Schließlich kann der Durchschnittsnutzer mit seinem intelligenten Agenten in normaler Sprache sprechen und ihn dazu bringen, die Frage zu verstehen und auf der Grundlage seiner Absicht/Zustimmung eine Aktion durchzuführen. Dieser Moment ist vergleichbar mit dem, wie die Suchmaschine von Google in den späten 1990er Jahren das Internet durch ihre einfach zu bedienende Weboberfläche für die breite Öffentlichkeit geöffnet hat.
 
@@ -32,7 +37,7 @@ Morpheus ist die Linux-Alternative für Entwickler, die in der Lage sein wollen,
 Da Morpheus über eine grafische Benutzeroberfläche verfügt und mit Hilfe von Electron mit nur einem Klick installiert werden kann, ist Morpheus die erste Open-Source KI, die den berühmten "Friedl-Test" besteht. Dabei handelt es sich um einen Schwellenwert, der angibt, wann eine Software aufgrund ihrer Benutzerfreundlichkeit auch für technisch nicht versierte Bürger zugänglich ist.
 
 ## Token-Belohnungen & Wirtschaft
-Unser Vorschlag sieht dies mit einem Morpheus-Token (Symbol "MOR") vor. MOR wird jeden Tag mit 24% für die Gemeinschaft, 24% für das Kapital, 24% für die Berechnungen und 24% für die Programmierer vergütet. 4% für Schutzfonds.
+Unser Vorschlag sieht dies mit einem Morpheus-Token (Symbol "MOR") vor. MOR wird jeden Tag mit 24% für die Gemeinschaft, 24% für das Kapital, 24% für die Berechnungen, 24% für die Programmierer vergütet und 4% für Schutzfonds.
 
 Dies spiegelt die Tatsache wider, dass Morpheus, um zu wachsen, Folgendes braucht:
 
@@ -48,43 +53,40 @@ Das MOR-Token-Angebot ist auf maximal 42.000.000 Token begrenzt, die jemals exis
 
 ![MOREmissionsCurve2](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img2-German.png)
 
-Die Blockbelohnung beginnt bei 14.400 MOR pro Tag und sinkt dann jeden Tag um 2,468994701 MOR, bis die Belohnung am Tag 5.833 0 erreicht. Zu diesem Zeitpunkt (in etwa 16 Jahren), vorausgesetzt, dass Morpheus weit verbreitet ist, werden die Gebühren zum Hauptanreiz geworden sein. Gebühren, die den Nutzern für ihre Daten gezahlt werden, Gebühren für die Anbieter von Berechnungen, Gebühren für Kapitalanbieter und Gebühren für Programmierer.
+Die Blockbelohnung beginnt bei 14.400 MOR pro Tag und sinkt dann jeden Tag um 2,468994701 MOR bis die Belohnung am Tag 5.833 0 erreicht. Zu diesem Zeitpunkt (in etwa 16 Jahren), vorausgesetzt, dass Morpheus weit verbreitet ist, werden die Gebühren zum Hauptanreiz geworden sein. Gebühren, die den Nutzern für ihre Daten gezahlt werden, Gebühren für die Anbieter von Berechnungen, Gebühren für Kapitalanbieter und Gebühren für Programmierer.
 
-**42 Millionen Angebotsobergrenze für die MOR-Token.** 
-14.400 Token pro Tag gleichmäßig verteilt zwischen Gemeinschaft-Nutzern, Kapital, Code, Berechnungen.
+**42 Millionen Angebotsobergrenze für die MOR-Token.**
+14.400 Token pro Tag gleichmäßig verteilt zwischen Gemeinschaft, Kapital, Code und Berechnungen.
 
-- 3.456 Token für Berechnungen. Proof-Transaktionen für bediente API-Aufrufe.
-- 3.456 Token für Code. Proof-Code übergeben und in das Morpheus Repo eingebunden.
-- 3.456 Token für Kapital. Proof stETH Rendite beigetragen, 50% für MOR getauscht & der Rest in der AMM als Liquiditätsanbieter gesperrt.
+- 3.456 Token für Berechnungen. Nachweis von Transaktionen für bediente API-Aufrufe.
+- 3.456 Token für Code. Nachweis von Code übergeben und in das Morpheus Repo eingebunden.
+- 3.456 Token für Kapital. Nachweis von stETH Rendite beigetragen, 50% gegen MOR getauscht und mit den restlichen 50% gepaart, um die AMM als protokolleigene Liquidität (PoL) einzubinden/
 - 3.456 Token für die Gemeinschaft. Beweis für den Aufbau von Front-End-Anwendungen und Tools, die die Nutzer ansprechen. Der Rest wird für den Schutz von Ressourcen verwendet: 576 Token pro Tag für diesen Zweck. 
 ![5050version3](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img3-German.png)
 
 ## Die Nützlichkeit der MOR-Token
 Das Ziel von MOR ist es, einen breiten Nutzen für viele Funktionen des Morpheus-Netzwerks zu bieten. Folglich bietet die Verwendung des MOR-Tokens einen On-Chain-Abrechnungsmechanismus zur Berechnung von Belohnungen auf der Grundlage der tatsächlichen Nutzung der Software.
 
-Entwickler zahlen MOR an Computing-Anbieter  für Funktionen, die über das hinausgehen, was die lokale Hardware ausführen kann. MOR zahlt für die Morpheus-API-Aufrufe für dezentralisierte Anwendungen, die das Smart-Agent-Protokoll verwenden. Benutzer können MOR für spezialisierte Agenten bezahlen, die von Entwicklern freigegeben werden. Im Gegenzug können Entwickler den Benutzern MOR für Trainingsdaten für neue LLMs/Agenten bezahlen.
+Entwickler zahlen MOR an Computing-Anbieter  für Funktionen, die über das hinausgehen, was die lokale Hardware ausführen kann. Dieses MOR zahlt für die Morpheus-API-Aufrufe für dezentralisierte Anwendungen, die das Smart-Agent-Protokoll verwenden. Benutzer können MOR für spezialisierte Agenten bezahlen, die von Entwicklern freigegeben werden. Im Gegenzug können Entwickler den Benutzern MOR für Trainingsdaten für neue LLMs/Agenten bezahlen.
 
 Alle Projekte durchlaufen verschiedene Phasen der Entwicklung. Es ist wichtig, dass zu Beginn liquide Ressourcen wie ETH verwendet werden, um Entwickler und Ausrüstung zu bezahlen. Ethereum hat das Gleiche getan, als sie BTC von ihrer Gemeinschaft nutzten, um die anfängliche Kodierung ihrer Blockchain zu bezahlen. Der Unterschied besteht darin, dass das Smart Agent Protocol bereits entwickelt wurde und Morpheus eine Version implementiert, um seine Reichweite zu vergrößern, so dass kein Crowd-Sale notwendig ist, bevor das Projekt live geht. MOR-Tokens werden erst nach dem Start der Software vergeben.
 
 ## Kurzfristig: Zum Zeitpunkt der Einführung
-Kapital - ETH, die in einen Smart Contract eingeschlossen sind, der Rendite generiert (ETH in einem stETH Lido Staking Contract zum Beispiel). 50 % des stETH-Ertrags werden regelmäßig über einen AMM in MOR getauscht und die anderen 50 % des stETH-Ertrags werden als stETH im Pool als Liquiditätsgeber gehalten. Die Kapitalgeber fügen also etwa 50 % MOR und 50 % stETH hinzu, um die Liquidität des AMM MOR / stETH-Pools im Laufe der Zeit zu erhöhen.
-
-- Kapital, Der Wert ihres ETH-Ertrags wird mit allen eingebrachten ETH-Erträgen verrechnet und ihnen anteilig als MOR-Ertrag vergütet.
-- Berechnungen, Computing-Anbieter halten MOR für die Benutzeraufforderungen, die sie beantworten.
-- Programmierer, Programmierer erhalten MOR für die Beiträge, die sie zur Morpheus-Software leisten und die zusammengeführt werden.
-- Gemeinschaft, Gemeinschaft-Builder erhalten MOR für die Frontends, Tools, Nutzung und den Wert, den sie in das Morpheus-Netzwerk einbringen.
+- Kapital - Kapitalgeber erhalten MOR-Belohnungen anteilig zu den von ihnen eingezahlten StETH.- Berechnungen, Computing-Anbieter halten MOR für die Benutzeraufforderungen, die sie beantworten.
+- Programmierer - Programmierer erhalten MOR für die Beiträge, die sie zur Morpheus-Software leisten und die zusammengeführt werden.
+- Gemeinschaft - Gemeinschaft-Builder erhalten MOR für die Frontends, Tools, Nutzung und den Wert, den sie in das Morpheus-Netzwerk einbringen.
 
 ## Mittelfristig: Wie MOR größere Verbreitung findet
-- Kapital, Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
-- Berechnungen, Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
-- Programmierer, ein Gleichgewicht zwischen Blockbelohnungen und verdienten Gebühren entwickeln.
-- Gemeinschaft, Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
+- Kapital - Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
+- Berechnungen - Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
+- Programmierer - ein Gleichgewicht zwischen Blockbelohnungen und verdienten Gebühren entwickeln.
+- Gemeinschaft - Es entsteht ein Gleichgewicht zwischen Blockprämien und verdienten Gebühren.
 
 ## Langfristig: Wenn MOR eine hohe Liquidität und eine starke organische Nachfrage hat
-- Kapital, Gebühren für die Bereitstellung von ETH-Liquidität für den MOR-Token werden einen Großteil ihrer Belohnungen ausmachen.
-- Berechnungen, Die an die Anbieter von Datenverarbeitungsdiensten gezahlten Gebühren machen den Großteil ihrer Vergütung aus.
-- Programmierer, Fees going to Programmierer wird die Mehrheit ihrer Belohnungen bilden.
-- Gemeinschaft, Die von den Nutzern gezahlten Gebühren werden einen Großteil der Belohnungen ausmachen.
+- Kapital - Gebühren für die Bereitstellung von stETH-Liquidität für den MOR-Token werden einen Großteil ihrer Belohnungen ausmachen.
+- Berechnungen - Die an die Anbieter von Datenverarbeitungsdiensten gezahlten Gebühren machen den Großteil ihrer Vergütung aus.
+- Programmierer - Fees going to Programmierer wird die Mehrheit ihrer Belohnungen bilden.
+- Gemeinschaft - Die von den Nutzern gezahlten Gebühren werden einen Großteil der Belohnungen ausmachen.
 
 Beachten Sie, dass es sich nicht um eine Zeitleiste handelt. Vielmehr ist jede Phase eine Beschreibung eines Teils des Lebenszyklus. Es kann Jahre dauern, bis die Gemeinschaft in jeder Phase wächst und reift, und die Blockbelohnung verfällt nach etwa 16 Jahren. Dieser lange Verteilungszeitplan soll Zeit geben, damit die Token auf einer sehr breiten Basis weltweit belohnt werden können. Außerdem gibt der allmähliche tägliche Rückgang der Block-Belohnungen über viele Jahre hinweg allen Teilnehmern Zeit, eine Größenordnung zu erreichen und von den anfänglichen subventionierten Belohnungen zu einem Betrieb überzugehen, der ausschließlich durch die von ihnen eingenommenen Gebühren finanziert wird.
 
@@ -95,7 +97,7 @@ ESeit dem Start von Bitcoin haben die Leute darüber gestritten, was passiert, w
 
 Die Tail-Emissionen werden berechnet, indem die Anzahl der in den letzten 5.833 Tagen verbrannten MOR-Token überprüft und der Wert für die Tail-Emissionen auf 50 % der verbrannten Menge festgelegt wird. Dieser Wert wird in der nächsten 5.833-Tage-Periode emittiert. In keinem Fall wird die Emission jedoch mehr als 16 % der damals im Umlauf befindlichen MOR betragen.
 
-Wenn beispielsweise durchschnittlich 25 % der MOR-Token in den ersten 5.833 Tagen verbrannt wurden, dann wären im ersten Emissionsplan 10.500.000 MOR verbrannt worden. Wendet man dann den Wert von 50 % der Tail-Emissionen an, so können in der zweiten Periode von 5.833 Tagen 5.250.000 MOR belohnt werden. Das sind etwa 16,6 % der 31.500.000 MOR, die noch im Umlauf sind. Demnach würde sich dieser Betrag weiter auf 5.040.000 MOR (16% der im Umlauf befindlichen Token) reduzieren, die in der zweiten 5.833-Tage-Periode oder ~864 MOR pro Tag belohnt werden.
+Wenn beispielsweise durchschnittlich 25 % der MOR-Token in den ersten 5.833 Tagen verbrannt wurden, dann wären im ersten Emissionsplan 10.500.000 MOR verbrannt worden. Wendet man dann den Wert von 50 % der Tail-Emissionen an, so können in der zweiten Periode von 5.833 Tagen 5.250.000 MOR belohnt werden. Dies entspricht etwa 16,6 % der 31.500.000 MOR, die noch im Umlauf sind. Dementsprechend würde sich dieser Betrag weiter auf 5.040.000 MOR (16% der im Umlauf befindlichen Token) reduzieren, die in der zweiten 5.833-Tage-Periode oder ~864 MOR pro Tag belohnt werden.
 
 Nach Ablauf des zweiten Zeitraums von 5.833 Tagen wird dieser Vorgang wiederholt. Die Emission am Ende der Periode wird erneut berechnet, indem die Anzahl der in den letzten 5.833 Tagen verbrannten MOR-Token überprüft und der Wert für die Emission am Ende der Periode auf 50% der verbrannten Menge festgelegt wird. Dieser Wert wird in der nächsten 5.833-Tage-Periode emittiert. In keinem Fall wird die Emission jedoch mehr als 16 % der damals im Umlauf befindlichen MOR betragen.
 
@@ -103,15 +105,17 @@ Wenn beispielsweise 25 % der MOR-Token während des zweiten Zeitraums verbrannt 
 
 Dieser Prozess wiederholt sich bis in die Zukunft hinein.
 
-Langfristiges Ergebnis. Etwa 1 % der jährlichen MOR-Belohnungen (im Verhältnis zur Anzahl der dann im Umlauf befindlichen MOR) wird für zukünftige Programmierer, Berechnungenr, Gemeinschaft und Kapital zur Verfügung stehen.
+Das langfristige Ergebnis ist etwa 1 % der jährlichen MOR-Belohnungen (im Verhältnis zur Anzahl der dann im Umlauf befindlichen MOR) wird für zukünftige Programmierer, Berechnungenr, Gemeinschaft und Kapital zur Verfügung stehen.
 
 ![MaxMORScenario25](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img5-German.png)
 
-**WICHTIGER HINWEIS:** Dies ändert nichts an der Natur der harten Angebotsobergrenze von 42 Millionen MOR. Da der Emissionsplan per Definition nur einen Teil der verbrannten MOR-Token darstellt, kann der MOR-Token mit jeder 5.833-Tage-Periode nur noch knapper werden.
+> [HINWEIS]
+> Dies ändert nichts an der Natur der harten Angebotsobergrenze von 42 Millionen MOR.
+> Da der Emissionsplan per Definition nur einen Teil der verbrannten MOR-Token darstellt, kann der MOR-Token mit jeder 5.833-Tage-Periode nur noch knapper werden.
 
 ![MOR25ScenarioV9](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img6-German.png)
 
-Nachfolgend ist die vereinheitlichte MOR-Versorgungskurve dargestellt, die den ersten Zeitraum von 5.833 Tagen zeigt und die Long-Tail-Emissionen von Jahr 17 bis Jahr 256 hinzufügt. Nehmen wir das Beispiel einer durchschnittlichen Verbrennungsrate von 25 % des MOR über die Epochen hinweg an.
+Nachfolgend ist die vereinheitlichte MOR-Versorgungskurve dargestellt, die den ersten Zeitraum von 5.833 Tagen zeigt und die Long-Tail-Emissionen von Jahr 17 bis Jahr 256 hinzufügt wobei von einer durchschnittlichen Verbrennungsrate von 25 % des MOR über die Epochen hinweg an.
 
 ![MORSupplyCurve20231019](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img7-German.png)
 
@@ -119,17 +123,19 @@ Nachfolgend ist die vereinheitlichte MOR-Versorgungskurve dargestellt, die den e
 Der Morpheus-Vollknoten wird mit einer Brieftasche geliefert, oder der Nutzer kann seine bestehende Brieftasche anschließen. Dies ermöglicht es dem Nutzer, die von seinem Smart Agent empfohlenen Transaktionen zu unterzeichnen und zu senden. Die Nutzer können also über die Morpheus-Software an den Proofs teilnehmen. Kapitalgeber sind jedoch nicht verpflichtet, einen vollständigen Knoten zu besitzen. Sie können direkt mit den Smart Contracts auf Ethereum / Arbitrum über stETH interagieren.
 
 ## Kapitalnachweis & Belohnung:
-TDie Definition eines Kapitalanbieters ist, dass jemand dem Morpheus-Netzwerk stETH-Erträge zur Verfügung stellt, die zu protokolleigener Liquidität werden. Dieser Smart Contract des Kapitalanbieters wird 50 % der erzeugten stETH-Rendite an die Morpheus-Swap-Funktion weitergeben. Der Swap kauft die MOR-Token von einem Automated Market Maker (AMM) und fügt sie dann dem AMM-Pool hinzu, während die anderen 50% der stETH-Rendite in den AMM als Liquidität-Anbieter gesperrt werden. Dies wird Liquidität für all die Programmierer, Gemeinschaft-Mitglieder und Computing-Anbieter  bereitstellen.
+Die Definition eines Kapitalanbieters ist jemand, der stETH bereitstellt, das Ertrag für das Morpheus-Netzwerk generiert, der zu protokolleigener Liquidität (PoL) wird. Der Smart Contract des Kapitalanbieters stellt 50 % der erzeugten stETH-Rendite für die Morpheus-Swap-Funktion bereit. Die Swap-Funktion kauft die MOR-Token von einem Automated Market Maker (AMM) und paart sie dann mit den restlichen 50 % der stETH-Rendite und schließt sie als PoL in den AMM-Liquiditätspool ein. Dadurch wird Liquidität für all jene Programmierer, Gemeinschaft-Mitglieder und Compute-Anbieter bereitgestellt. Die durch die Liquiditätsposition erwirtschafteten Gebühren werden in den Pool reinvestiert, um ein stetiges Liquiditätswachstum zu gewährleisten.
 
-Alle stETH-Erträge, die Sie mit Ihrer Einzahlung erwirtschaften, werden in protokolleigene Liquidität (PoL) umgewandelt. Die Rendite verbleibt als PoL auf unbestimmte Zeit, aber Sie können Ihr stETH jederzeit abheben.
+Auf diese Weise wird der gesamte Ertrag aus den stETH-Einlagen der Nutzer in protokolleigene Liquidität (PoL) umgewandelt. Der Ertrag bleibt auf unbestimmte Zeit als PoL erhalten, aber der Nutzer köannen Ihr seine stETH jederzeit abhebennach einer anfänglichen 7-tägigen Sperre jederzeit abheben. Wenn stETH abgezogen werden, werden keine MOR-Belohnungen mehr angehäuft.
 
-Infolgedessen erhält der Kapitalgeber jeden Tag MOR-Token im Verhältnis zu seiner gesamten stETH-Rendite. Wenn es zum Beispiel 100 Kapitalgeber gibt, die am ersten Tag des Starts des Netzwerks jeweils 1 stETH Rendite beigesteuert haben, dann erhält jeder von ihnen jeden Tag 1 % der 3.456 MOR-Token = 34,56 MOR.
+Infolgedessen erhält der Kapitalgeber MOR-Token (die für jeden Block berechnet werden) anteilig zu seinem stETH-Beitrag im Verhältnis zum gesamten hinterlegten stETH-Pool. Wenn es zum Beispiel 100 Kapitalgeber gibt, die am ersten Tag des Starts des Netzwerks jeweils 1 stETH beigesteuert haben, und der Gesamtpool 100 stETH beträgt, dann erhält jeder von ihnen an diesem Tag 1 % der 3.456 MOR-Token = 34,56 MOR.
 
-Es wurde vorgeschlagen, diesen Prozess des Renditebeitrags, des Swaps und der Liquiditätszufuhr als "TCM" zu bezeichnen. Die Abkürzung steht für "Techno-Capital Machine" zu Ehren des E/A-Philosophen Beff Jezos.
+Es wurde vorgeschlagen, diesen Prozess des Renditebeitrags, des Swaps und der Liquiditätszufuhr als "TCM" zu bezeichnen. Die Abkürzung steht für "Techno-Capital Machine" zu Ehren des E/A-Philosophen [Beff Jezos](https://twitter.com/BasedBeffJezos).
+
+Siehe den Link zur ausführlichen Erklärung der Tеchno Kapital Maschine hier: [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
 
 ## Code-Nachweis, Registrierung & Belohnung:
-Die Definition eines Programmierer ist jemand, der den vollständigen Morpheus-Knoten heruntergeladen, seine Brieftasche angeschlossen und einen Agenten, einen intelligenten Vertrag oder eine andere Software zum Morpheus-Netzwerk beigetragen hat.
-
+Die Definition eines Programmierer ist jemand, der den vollständigen Morpheus-Knoten heruntergeladen, seine Brieftasche angeschlossen und einen Agenten, einen Smart Contract oder eine andere Software zum Morpheus-Netzwerk beigetragen hat. Der Code muss sich an die [Code Contributions Best Practices](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)¶¶
+¶
 Der Programmierer sendet eine MOR-Transaktion an den Programmierer Smart Contract, um seinen Agenten/Smart Contract oder seine Software zu registrieren. 
 Der Programmierer wird im Memo der Transaktion die folgenden Metadaten angeben.
 - A. Ein IPFS-Link zum Endpunkt ihrer Software im Memofeld der MOR-Transaktion, wenn sie sich registrieren.
@@ -137,27 +143,48 @@ Der Programmierer wird im Memo der Transaktion die folgenden Metadaten angeben.
 - C. Die Versionsnummer der Software.
 - D. Ein Hash des Programmzustands, damit die Benutzer überprüfen können, ob es sich um eine gültige und unveränderte Kopie handelt.
 
-Die Mitwirkenden an der Morpheus-Codebasis werden im Verhältnis zur kumulativen Entwicklungsarbeit am Repository belohnt, gemessen am Vollzeitäquivalent (FTE) der geleisteten Arbeit. Wenn es zum Beispiel 10 Programmierer gibt, von denen jeder 10 % der Vollzeitäquivalente zum Start des Netzwerks beigetragen hat, dann erhält jeder 10 % der 3.456 MOR-Token pro Tag = 345,6 MOR. Diese Berechnung wird jeden Monat auf der Grundlage der kumulativen VZÄ-Zeitbeiträge der aktuellen Hauptnetzversion der Morpheus-Software aktualisiert.
+Die Mitwirkenden an der Morpheus-Codebasis werden im Verhältnis zur kumulativen Entwicklungsarbeit am Repository belohnt, gemessen am Vollzeitäquivalent (FTE) der geleisteten Arbeit. Wenn es zum Beispiel 10 Programmierer gibt, von denen jeder 10 % der VZÄ-Zeit (in Gewichten ausgedrückt) zum Start des Netzwerks beigetragen hat, dann erhält jeder 10 % der 3.456 MOR-Token pro Tag = 345,6 MOR. Diese Berechnung wird jeden Monat auf der Grundlage der kumulativen VZÄ-Zeitbeiträge (in Gewichten) der aktuellen Hauptnetzversion der Morpheus-Software aktualisiert.
 
-Sobald es spezialisierte Agenten oder Werkzeuge oder Ketten (Abfolge von Aufforderungen/Aufrufen eines LLM) gibt, die mit Morpheus interoperabel sind, wird die Hälfte (50%) der Belohnung an ihre Entwickler gehen. Die Belohnung wird im Verhältnis zur Nutzung dieser Agenten berechnet. Zum Beispiel, wenn es 10 Entwickler gibt, die 10 Agenten gebaut haben, von denen jeder 10% der Agentennutzung im Morpheus-Netzwerk erzeugt. Der Morpheus Smart Contract wird diese Nutzungsstatistiken über MOR-Transaktionen berechnen. Dann würden die Morpheus-Softwareentwickler 50% der MOR-Belohnung erhalten und jeder Entwickler eines spezialisierten Agenten würde 5% der Token bekommen = 172,8 MOR pro Entwickler in diesem Beispiel.
+Das Konzept hier basiert NICHT auf der Arbeitswerttheorie. Es kommt nicht darauf an, wie viele Stunden gearbeitet werden, sondern auf den durch die Arbeit geschaffenen Wert. Deshalb muss der Eigentümer des Repositorys den Code (das Produkt der Arbeit) tatsächlich einbringen, damit er für die Belohnung zählt. Der Eigentümer des Projektarchivs fungiert als "customer" auf dem Marktplatz.
 
-Ein großer Teil der führenden Forschung auf dem Gebiet des "Beitragsnachweises" stammt von den guten Leuten des TEA-Protokolls. Darunter Max Howell, der Entwickler von Home Brew. Link zum Papier mit den Details. Morpheus könnte erwägen, TEA nach seinem Start im Jahr 2024 zu nutzen.
+Wenn der Code-Beitragende zu viel für den Beitrag verlangt, oder die Qualität des Beitrags nicht qualifiziert werden kann, oder von geringer Qualität ist, wird er wahrscheinlich vom Betreiber des Projektarchivs abgelehnt werden. Und obwohl jeder ein Repository erstellen "kann", ist es mit viel Arbeit verbunden, es zu pflegen und Leute dazu zu bewegen, mehr als andere zum eigenen Repository beizutragen, so dass sich der Markt wahrscheinlich auf die besten Repositories mit den meisten Beitragenden und dem besten daraus resultierenden Code konzentrieren wird.
 
-## Nachweis, Registrierung und Belohnung berechnen:
-Die Definition eines Berechnungen-Anbietern ist, dass er den Morpheus Full Node heruntergeladen hat, seine Wallet angeschlossen hat und bereit ist, API / LLM / Berechnungen Anfragen von anderen Morpheus Nutzern zu empfangen. Die bereitgestellte Rechenleistung kann berechnet werden, indem eine signierte Transaktion, die vom Smart Agent generiert wurde, mit der Rückgabe der Ausgabe der MOR-Transaktion verbunden wird.
+Open-Source und freie Marktwirtschaft für den Sieg.
 
-Der Berechnungen-Anbieter sendet eine MOR-Transaktion an den Berechnungen-Anbieter Smart Contract, um den API-Endpunkt für den Empfang von Anfragen zu registrieren. 
-Der Computing-Anbieter  fügt im Memo der Transaktion die folgenden Metadaten ein.
-- A. Ein IPFS-Link zu ihrem API-Endpunkt im Memofeld der MOR-Transaktion, wenn sie sich registrieren.
-- B. Eine kryptografische Signatur, ähnlich der Art und Weise, wie Entwickler App-Versionen signieren/authentifizieren.
-- C. Die Versionsnummer der von ihnen verwendeten Morpheus-Software.
-- D. Ein Hash des Programmzustands, damit die Benutzer überprüfen können, ob es sich um eine gültige und unveränderte Kopie handelt.
+Sobald es spezialisierte Agenten, Werkzeuge oder Ketten (Abfolge von Aufforderungen/Aufrufen eines LLM) gibt, die mit Morpheus interoperabel sind, wird die Hälfte (50%) der Belohnung an ihre Entwickler gehen. Die Belohnung wird im Verhältnis zur Nutzung dieser Agenten berechnet. Zum Beispiel, wenn es 10 Entwickler gibt, die 10 Agenten gebaut haben, von denen jeder 10% der Agentennutzung im Morpheus-Netzwerk erzeugt. Der Morpheus Smart Contract wird diese Nutzungsstatistiken über MOR-Transaktionen berechnen. Dann würden die Morpheus-Softwareentwickler 50% der MOR-Belohnung erhalten und jeder Entwickler eines spezialisierten Agenten würde 5% der Token bekommen = 172,8 MOR pro Entwickler in diesem Beispiel.
 
-Die anteiligen MOR-Transaktionsgebühren, die von jedem Computing-Anbieter  verbrannt werden, dienen als Nachweis für den Status des Computing-Anbietern und verdienen einen Teil der MOR-Tokens pro Tag.
+Ein großer Teil der führenden Forschung auf dem Gebiet des "Beitragsnachweises" stammt von den guten Leuten des TEA-Protokolls. Darunter Max Howell, der Entwickler von Home Brew. Weitere Einzelheiten finden Sie [hier] (https://docs.tea.xyz/tea-white-paper/white-paper). Morpheus könnte erwägen, TEA nach seinem Start im Jahr 2024 zu nutzen.
 
-Wenn es zum Beispiel am Tag 1 des Starts des Netzwerks 100 Computing-Anbieter  gibt, dann erhält jeder eine anteilige Belohnung, die auf der Menge an MOR basiert, die er durch Gebühren verbraucht hat. In diesem Fall, angenommen jeder der 100 Computing-Anbieter  hat 100 MOR verbrannt, dann ist 1% der 3.456 MOR-Token pro Tag = 34,56 MOR.Gemeinschaftliche Baumeister
+## Berechnen Sie Nachweis & Belohnung:
+Ein Berechnungs-Anbieter ist definiert als jede Einheit, die einen vollständigen Knoten betreibt, der Berechnungsressourcen bereitstellt, eine MOR-Adresse hat und IPS-Gebote (Inferenzen pro Sekunde, eine atomare Einheit von Inferenzen in der KI) über den Router abgibt. Wenn ein Anbieter den Zuschlag erhält, stellt er dem Nutzer die Berechnungsressourcen (GPUs usw.) für verschiedene KI-Modelle zur Verfügung. Anbieter sollten nachweisen müssen, dass sie eine bestimmte LLM besitzen, indem sie den Hash des LLM-Modells mit ihrem Schlüssel signieren. Berechnungs-Anbieter werden NUR dann bezahlt, wenn es eine Nachfrage nach ihrer Berechnung gibt. Dies verhindert, dass große Teile der MOR vorzeitig ausgegeben werden, wenn das Netzwerk sie nicht benötigt.
 
-Um sich für den Empfang von Berechnungen-Anfragen zu qualifizieren, muss die Adresse eines Computing-Anbietern MOR-Tokens hodlen. Anfragen werden an die API des Computing-Anbietern weitergeleitet, und zwar im Verhältnis zu den MOR, die sie im Vergleich zu allen anderen registrierten BBerechnungen-Anbietern hodeln.
+Um Berechnungs-Anfragen zu erhalten, muss die Adresse eines Berechnungs-Anbieters HODL MOR-Tokens enthalten, die Sybil-Angriffe verhindern.
+
+Der Hardwaretyp des Anbieters ist für das Netzwerk irrelevant, solange er den Pass/Fail-Test des Nutzers erfüllt. Jeder Anbieter, der mehr Abfragen anbietet, als er effizient bearbeiten kann, wird durch das Nichtbestehen dieses Tests bestraft.
+
+Der Router ist eine Softwareanwendung, die über eine MOR-Adresse verfügt und den zweiseitigen Markt zwischen Nutzern und Anbietern verhandelt. Der Router registriert und verfolgt Adressen und Gebote von Anbietern, bearbeitet Anfragen von Nutzern, zeichnet [Milisekunden] und Pass/Fail-Tests von bearbeiteten Anfragen auf und weist den Berechnungs-Anbieter an, berechtigten Anbietern auf Anfrage eine Zahlung in MOR gutzuschreiben. Der Router sendet oder empfängt niemals MOR-Transaktionen (und auch keine Transaktionen auf einer Blockchain). Der Router sieht weder den Inhalt einer Anfrage noch die Antwort.
+
+### Arbeitsablauf
+1) Nutzer, Anbieter und Router erstellen alle MOR-Pub-Schlüssel (dies ist ihre Identität und alle Nachrichten werden als solche signiert). 
+2) Wenn der Nutzer über ein Guthaben an MOR verfügt, kann er eine signierte Anfrage zur Berechnung ("RFC") an den Router senden.
+3) Der Router priorisiert die RFCs auf der Grundlage des MOR-Guthabens des Nutzers.
+4) Der Router wählt den Anbieter aus, der das [LLM] unterstützt, wobei die Priorisierung auf dem niedrigsten Gebot pro IPS in MOR basiert. 
+5) Router sendet Aktivitätsprüfung an Anbieter. Wenn bestanden, dann:
+6) Der Router verbindet den Nutzer mit dem Anbieter
+7) Nutzer sendet Abfrage ([LLM],[prompt]) an Anbieter 
+8) Anbieter berechnet die Abfrage und sendet das Ergebnis an den Nutzer
+9) Der Nutzer meldet dem Router die Zeit [Millisekunden] zwischen den Schritten 4 und 5, [IPS], die übermittelt wurde, und Pass/Fail
+10) Der Router weist den Berechnungs-Anbieter an, dem Anbieter eine Gutschrift für MOR zu erteilen, wenn die Zeit [Millisekunden] pro [IPS] nicht schlechter ist als X% unter dem Mittelwert der letzten Z Abfragen für diese [LLM] und wenn der Nutzer [Pass] gemeldet hat.
+11) (Einige Zeit später) Der Anbieter fordert die Zahlung der MOR vom Berechnungs-Vertrag an, und der Berechnungs-Vertrag sendet die MOR-Zahlung, wenn sie gültig ist (erste Blockchain TX bisher, kann gestapelt werden).
+
+![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
+
+
+### Berechnung des Bootstrapping-Anreizes
+
+Im ersten Jahr nach der Bootstrapping-Periode des Kapital-Vertrags haben die 100 führenden Berechnungs-Anbieter Anspruch auf einen anteiligen Betrag von 2,4 % der MOR-Emissionen. Dies wird von den Routern berechnet und im Berechnungsvertrag verrechnet.
+
+Ausführliche Informationen finden Sie im [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 
 ## Gemeinschaft Builder-Nachweis, Registrierung & Belohnung:
 Die Definition eines Gemeinschaftliche Baumeister ist, dass er den vollständigen Morpheus-Knoten heruntergeladen hat, seine Brieftasche angeschlossen hat und die Morpheus-API verwendet, um Benutzer-Frontends und Entwickler-Tools bereitzustellen. Die von ihnen geleisteten Beiträge können berechnet werden, indem eine signierte Transaktion, die vom Smart Agent generiert wurde, mit der Rückgabe der Ausgabe der MOR-Transaktion verbunden wird.
@@ -177,23 +204,23 @@ Wenn es zum Beispiel am Tag 1 des Starts des Netzwerks 100 Gemeinschaftliche Bau
 ![UpdatedDiagram2UserFlow](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img8-German.png)
 
 ## Morpheus-Belohnungen werden per Smart Contract auf Ethereum Ebene 2 ausgeliefert 
-Morpheus Token (MOR) werden ursprünglich auf dem Ethereum Ebene 1 vergeben, und es wird einen umhüllten MOR Token (wMOR) geben, der auf Arbitrum für den Zweck von Zahlungen und anderen MOR-bezogenen Aktionen existiert.
+Die Einzahlung von stETH für Belohnungen erfolgt im Ethereum Mainnet, während Morpheus Tokens (MOR) im Ethereum Layer 2 Arbitrum für Zahlungen und andere MOR-bezogene Aktionen vergeben werden.
 
 Da Morpheus auf Ethereum und der zweiten Schicht Arbitrum aufbaut, muss es keine MOR-Belohnungen für den Blockchain-Konsens oder die Ausführung von Transaktionen auf einem verteilten Ledger bereitstellen.
 
 MOR-Inhaber können jederzeit eine Transaktion an die MOR-Smart Contracts senden und ihre MOR-Belohnungen einfordern. Sie können ihr StETH auch jederzeit abheben.
 
 ## Der freie Markt legt die Gebühren für Morpheus fest
-Die besten Systeme setzen auf eine möglichst geringe Anzahl magischer Zahlen und lassen stattdessen den freien Markt über so viele Variablen wie möglich entscheiden. Die Gebühren sind ein gutes Beispiel dafür. Anstatt eine willkürliche Gebühr zu erheben, überlässt Morpheus diese Zahlen den Nutzern, Entwicklern, dem Kapital und den Rechenanbietern. Wenn zum Beispiel ein Computing-Anbieter  einen Preis von 0,02 $ pro 1.000 Sprach-Token für sein LLM anbieten kann und ein Nutzer sich entscheidet, diesen Preis zu zahlen, dann ist das der Preis, den der Markt zu zahlen bereit ist. Da sich die Preise mit steigender Rechenleistung wahrscheinlich ändern werden, ist es besser, diese und andere Variablen den Nutzern der Morpheus-Software zu überlassen.
+Die besten Systeme setzen auf eine möglichst geringe Anzahl magischer Zahlen und lassen stattdessen den freien Markt über so viele Variablen wie möglich entscheiden. Die Gebühren sind ein gutes Beispiel dafür. Anstatt eine willkürliche Gebühr zu erheben, überlässt Morpheus diese Zahlen den Nutzern, Entwicklern, dem Kapital und den Rechenanbietern. Wenn zum Beispiel ein Computing-Anbieter  einen Preis von 0,02 $ pro 1.000 IPS für sein LLM anbieten kann und ein Nutzer sich entscheidet, diesen Preis zu zahlen, dann ist das der Preis, den der Markt zu zahlen bereit ist. Da sich die Preise mit steigender Rechenleistung wahrscheinlich ändern werden, ist es besser, diese und andere Variablen den Nutzern der Morpheus-Software zu überlassen.
 
-Gebühren für Berechnungen
+**Gebühren für Berechnungen**
 Die Höhe der Gebühr wird von Nutzern und Berechnungen-Anbieter festgelegt. Option zur Bezahlung von Berechnungen & Burn MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Berechnungen anstelle von Konsens oder privilegierten Node.
 
-Gebühren für Code / Agent Intelligence
-Die Höhe der Gebühr wird vom Programmierer festgelegt und vom Benutzer akzeptiert. Option zur Zahlung von Gebühren und zum Verbrennen von MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Code anstelle von Konsens über Aufgaben.
+**Gebühren für Code / Agent Intelligence**
+Die Höhe der Gebühr wird im Rahmen eines Ausschreibungsverfahrens zwischen Nutzern und Berechnungs-Anbietern festgelegt. Option zur Zahlung von Gebühren und zum Verbrennen von MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Code anstelle von Konsens über Aufgaben.
 
-Gebühren für Kapital 
-Die Höhe der Gebühr wird von LP festgelegt und vom Benutzer akzeptiert. Option zur Zahlung der Gebühr und zum Verbrennen von MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Kapital anstelle eines Konsenses über die Staatskasse.
+**Gebühren für Kapital** 
+Die Höhe der Gebühr wird von den täglichen MOR-Emissionen festgelegt und vom Nutzer akzeptiert, der Kapital zur Verfügung stellen möchte. Option zur Zahlung der Gebühr und zum Verbrennen von MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Kapital anstelle eines Konsenses über die Staatskasse.
 
 ## Gebühren für die Nutzergemeinschaft
 Die Höhe der Gebühr wird von den Nutzern festgelegt und vom Datenkäufer akzeptiert. Option zur Zahlung von Gebühren und zum Verbrennen von MOR-Tokens mit jeder Gebühr. Offener Markt, der sich mit der Zeit entwickelt. Freier Marktplatz für Daten.
@@ -203,9 +230,11 @@ Alle Gebühren werden in nativen MOR-Tokens gezahlt, was bei wachsender Nutzung 
 ## Verwendung von Gebühren als Anreiz für ehrliche Vermittler und zur Behebung von Verlusten im Falle von Fehlern
 Ein weiterer wichtiger Verwendungszweck für MOR & ETH im Morpheus-Netzwerk wird die Entschädigung von Nutzern im Falle von Fehlern bei Smart Agent / Smart Contracts sein. Wir glauben, dass die Kuratierung und der Aufbau von Reputation, unterstützt durch wirtschaftliche Ressourcen, der Schlüssel für das wachsende Vertrauen in Smart Agent und eine Finanzierungsquelle zur Behebung von Fehlern, Bugs und anderen auftretenden Problemen sein wird. Nach einem schwerwiegenden Fehler und der daraus resultierenden harten Abspaltung von Bitcoin im Jahr 2010 trat ein früher Kernentwickler namens Gavin Andresen auf den Plan, um Bitcoin an Miner zu zahlen, die durch die harte Abspaltung Belohnungen verloren hatten. Diese Aktion war wichtig und löste die harte Abspaltung schnell auf, aber sie war ad hoc.
 
-Frühzeitig erkennen, dass Software nie perfekt ist, und 4 % der MOR-Ressourcen zur Verfügung stellen, um diejenigen zu entschädigen, die von einem Fehler im Code betroffen sind. Die Morpheus-Entwicklergemeinschaft wird als Orakel dienen, um zu erkennen, wann ein Bug oder Fehler einen wirtschaftlichen Effekt auf einen Nutzer, einen Computing-Anbieter  oder einen Kapitalgeber hatte. Eine vordefinierte Reihe von Fehlern wird von diesen Ressourcen abgedeckt, darunter Fehler im Morpheus Smart Contract oder in der lokalen Installation.
+Frühzeitig erkennen, dass Software nie perfekt ist die Morpheus 4 % der MOR-Ressourcen zur Verfügung stellen, um diejenigen zu entschädigen, die von einem Fehler im Code betroffen sind. Die Morpheus-Entwicklergemeinschaft wird als Orakel dienen, um zu erkennen, wann ein Bug oder Fehler einen wirtschaftlichen Effekt auf einen Nutzer, einen Computing-Anbieter  oder einen Kapitalgeber hatte. Eine vordefinierte Reihe von Fehlern wird von diesen Ressourcen abgedeckt, darunter Fehler im Morpheus Smart Contract oder in der lokalen Installation.
 
 Für einen breiteren Schutz könnte eine Integration mit Nexus Mutual oder einem ähnlichen Smart Contract / dezentralen Schutznetzwerk in Betracht gezogen werden, um Randfälle mit Agenten / Smart Contracts abzudecken, die in einen Morpheus Agenteshop aufgenommen oder durch den SmartContractRank-Algorithmus besser eingestuft werden wollen.
+
+Einzelheiten zum Schutzfonds finden Sie [hier](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)¶
 
 ## Speicher für Persistenz und Geldbörsen für Wiederherstellung
 Anstatt persönliche Daten im Morpheus-Netzwerk selbst zu speichern, was kostspielig wäre und eine zentralisierende Kraft darstellen würde, werden Einzelpersonen die privaten Schlüssel besitzen, die den Zugang zu ihren Daten, Aufforderungen und ihrer Geldbörse kontrollieren. Die Daten selbst werden unter Verwendung des IPFS-Standards und des Filecoin-Netzwerks zur dezentralen Langzeitspeicherung gespeichert. Durch die Nutzung des Filecoin EVM und DeFi kann eine permanente, wiederkehrende Speicherung vereinbart werden. Alternativ können die Benutzer jährlich ENS-Stil für die Speicherung zu zahlen. Der Ansatz und die Beibehaltung der privaten Web3-Brieftasche als Schlüssel für die Bewegung/Wiederherstellung dieser Daten auf verschiedenen Geräten, wenn der Benutzer Berechnungenr oder Telefone wechselt.
