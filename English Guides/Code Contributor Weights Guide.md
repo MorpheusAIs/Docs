@@ -1,7 +1,7 @@
 # Code Contributor Guide To Earning Weights & Their Implied Value
 
 ## Tl;dr
-The emissions for Code Contributors are calculated based on "weights". An individual's allocations is equal to the individual's weights divided up by the total number of weights times the daily MOR emissions. 
+The emissions for Code Contributors are calculated based on "weights". An individual's allocation is equal to the individual's weights divided up by the total number of weights times the daily MOR emissions. 
 Morpheus is a marketplace for Code. Thus, Coders are competing to provide high quality code at the best price, and then maintain that code and their weight in the Code Contributors' rewards.
 
 ## Calculating The Implied Value of Weights
@@ -11,7 +11,7 @@ So a coder who has 200 weights out of the current 20,000 weights (200 / 20,000 =
 In other words, they would be earning 34.56 MOR per day or 12,410 MOR over a year (a little less given the decay rate).
 
 To calculate this into ETH or USD terms is harder, but as an example we know there will be 5,091,984 MOR at day 365.
-If the total Morpheus market cap is $100,000,000 USD that would imply a per MOR price of ~$20 USD.
+If the total Morpheus market cap is $100,000,000 USD, that would imply a per MOR price of ~$20 USD.
 Our example developer who earned 12,410 MOR over the course of the 1st year will have earned $248,200 USD worth of MOR.
 In other words, each weight in this example had an implied value of 248,200 divided by 200 equalling $1,241 per weight over the period of 1 year.
 
