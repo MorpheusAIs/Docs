@@ -1,4 +1,4 @@
-# Proposed Date For Morpheus Fair Launch - February 8th 2024
+# Date For Morpheus Fair Launch - February 8th 2024
 Based on the progress of the Smart Contracts in the test nets and the community members who have sponsored auditors to test the Smart Contracts (thank you) it looks like the Morpheus Smart Contracts maybe deployed to Ethereum / Arbitrum mainnet on February 8th 2024 and contributors will begin earning MOR.
 
 This is a proposed date and it could change. But presuming the Smart Contracts continue to test well, this seems a reasonable date after the audits are complete and has been proposed by the Smart Contract developers as the date to begin the fair launch.

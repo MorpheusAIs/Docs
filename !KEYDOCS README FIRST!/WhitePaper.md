@@ -145,11 +145,11 @@ The Coder will include in the memo of the transaction the following metadata.
 - C. The version number of the software.
 - D. A hash of the state of the program, so users can check it is a valid and unaltered copy.
 
-The contributors to the Morpheus codebase are rewarded in proportion to all the cumulative development done on the repository as gauged by Full Time Equivalent (FTE) work contributed. For example, if there are 10 coders each having contributed 10% of the FTE time (denominated in hours) when the network launches, then each one gets 10% of the 3,456 MOR tokens each day = 345.6 MOR. This calculation is updated each month based on the cumulative FTE time (denominated in hours) contributions of the current mainnet version of the Morpheus software.
+The contributors to the Morpheus codebase are rewarded in proportion to all the cumulative development done on the repository as gauged by Full Time Equivalent (FTE) work contributed. For example, if there are 10 coders each having contributed 10% of the FTE time (denominated in weights) when the network launches, then each one gets 10% of the 3,456 MOR tokens each day = 345.6 MOR. This calculation is updated each month based on the cumulative FTE time (denominated in weights) contributions of the current mainnet version of the Morpheus software.
 
 The concept here is NOT based on the Labor Theory of Value. It doesn't matter how many hours are worked but rather the value produced by the work. That's why the repository owner has to actually merge in the code (the product of the work) for it to count toward rewards. The repository owner acts as the "customer" in the marketplace. 
 
-If the Code contributor is asking too many hours for the Contribution, or the quality of the contribution can't be qualified, or is of low quality, it's likely to be rejected by the repository owner. And while anyone "can" make a repository it takes a lot of work to maintain and also attract people to contribute to your repository over others, so the market is likely to focus on the best repositories with the most contributors and the best code resulting.
+If the Code contributor is asking too many weights for the Contribution, or the quality of the contribution can't be qualified, or is of low quality, it's likely to be rejected by the repository owner. And while anyone "can" make a repository it takes a lot of work to maintain and also attract people to contribute to your repository over others, so the market is likely to focus on the best repositories with the most contributors and the best code resulting.
 
 Open source and free market economics for the win.
 
