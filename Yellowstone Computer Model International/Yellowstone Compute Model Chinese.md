@@ -11,7 +11,7 @@
 ## 摘要
 在Yellowstone计算模型中，Morpheus网络仅为实际提供的计算通过竞争性出价过程支付给提供者，并根据余额而非支付将IPS（每秒推断）的稀缺产出按比例分配给MOR代币持有者。这极大地改善了用户体验，同时最小化了Sybil漏洞。Yellowstone还引入了时间和通过/失败测试的重要指标，以确保提供者的响应速度和准确性。Yellowstone通过不通过路由器发送提示或结果，并将区块链交易最小化，以允许大规模操作。通过这种模型，MOR实现了基本价值，因为它使得无需每次推断都进行交易即可获得永久（虽然不是无限的）访问权限无需许可的计算资源。
 
-如果采纳，本文将替代[Morpheus白皮书](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md)中的“计算证明、注册与奖励”部分
+如果采纳，本文将替代[Morpheus白皮书](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) 中的“计算证明、注册与奖励”部分
 
 ## 背景
 Morpheus使用代币经济学激励足够和可扩展的计算资源，以服务于去中心化和无需许可的生成性AI。在其最初的构想中，Morpheus直接按比例向计算提供者发放了24%的MOR排放量，这取决于收到的推断请求，它根据持有的MOR数量优先考虑对这些提供者的推断请求。
