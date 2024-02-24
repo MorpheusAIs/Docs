@@ -1,8 +1,7 @@
 # Morpheus Yellow Paper
 
 This paper describes the technical details of the Morpheus full node, Morpheus Smart Contract, and related proofs.
-Presented as written in the whitepaper contributed by the anonymous developers Morpheus, Trinity & Neo. Link to the whitepaper here: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
-
+Presented as written in the whitepaper contributed by the anonymous developers Morpheus, Trinity & Neo. Link to the whitepaper here: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 ## Local Version 0.0.5 of Morpheus is live at:
 ---------
 **Morpheus Version 0.0.5 for Mac**
@@ -29,7 +28,7 @@ On chain actions that need to be validated by the Morpheus smart contract.
 
 1. Fork of N2 Yield Smart Contract Redeployed On Arbitrum
 - A) Lock ETH through Thorchain, donate yield to Coders + Compute Providers.
-- B) Calculate pro-rata of ETH donated 
+- B) Calculate pro rata of ETH donated 
 
 2. Forever Provable Destruction of MOR:
 - A) Burn address or burn function for MOR tokens.
@@ -87,7 +86,7 @@ Diagrams detailing the distribution of ETH.
 ## Morpheus Developer Tools and Tech Stack.
 - Llama2 - Robust open source LLM run locally.
 - Ollama - Packaging for easy install of Llama2.
-- LangChain - Developer tool for connecting LLM to Vector stores and APIs.
+- LangChain - Developer tool for connecting LLM to vector stores and APIs.
 - LangSmith Editor - Low code for building agents on LangChain.
 - SmartContractRank Algorithm - Curating Smart Contracts For The User Based On Intent
 - AgentRank Algorithm - Curating specialized agents for executing actions for user.
@@ -99,12 +98,12 @@ Diagrams detailing the distribution of ETH.
 ## Morpheus Full Node Diagrams for the Agent / LLMs For Web3 Actions. 
 Audits of Agents performed by Coders generating an "Agent Proof" that the stated functions of the Agent are as presented. And of course contains no malicious code.
 
-Placeholder for description of audit process, who can conduct audits and how to certify their outcomes. Also incentives paid to auditors.
+Placeholder for description of audit process, who can conduct audits and how to certify their outcomes. Also, incentives paid to auditors.
 
-Prompt Proof generated at the time of a user interaction showing the intent expressed, matches the smart contract selection and transaction values are confirmed with the user. 
+Prompt Proof generated at the time of a user interaction showing the intent expressed matches the smart contract selection and transaction values are confirmed with the user. 
 
 ## Morpheus User & Contributor Diagram
-![Morpheus User   Contributor Diagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/2cff8d70-c116-472f-a431-8a82bfa22f9b)
+![Morpheus User Contributor Diagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/2cff8d70-c116-472f-a431-8a82bfa22f9b)
 
 ### Diagram shows the UX flow from user prompt to approval of Web3 action.
 ![UX flow for prompted web3 tasks and ticketing](https://github.com/MorpheusAIs/Morpheus/assets/76454555/942b20fb-d67e-4a57-af2c-cd24a89690a5)
