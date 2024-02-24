@@ -1,0 +1,16 @@
+在Windows上安装Morpheus
+首先，安装WSL2，你可以通过在管理员命令提示符下运行wsl --install来做到这一点。然后打开WSL2，输入wsl并跟随设置过程。
+
+然后运行curl https://ollama.ai/install.sh | sh来安装ollama。
+
+接着通过运行sudo apt-get update和sudo apt-get install python3来安装python。
+
+然后运行pip3 install gdown。
+
+现在通过运行gdown https://drive.google.com/uc?id=1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB来下载morpheus dpkg。
+
+通过运行sha1sum morpheus_0.0.5_amd64.deb来验证Morpheus下载的完整性。确保它与哈希值b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5匹配，否则中止安装过程。
+
+然后运行sudo dpkg -i morpheus_0.0.5_amd64.deb，如果安装初次失败，安装依赖项然后再试一次。
+
+现在一旦你安装了morpheus而没有任何依赖错误，通过打开2个命令行窗口并在两者中输入wsl来打开2个WSL2窗口，然后在其中一个上运行ollama serve，在另一个上运行morpheus。
