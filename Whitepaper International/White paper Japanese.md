@@ -6,11 +6,9 @@ https://github.com/MorpheusAIs/Morpheus/blob/main/WhitePaper.md　
 ## スマートエージェントのためのネットワーク
 著者：Morpheus, Trinity, Neo
 発行 : 2023年9月2日
-イエローペーパー・テクニカルディテールへのリンク：
- https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md 
+イエローペーパー・テクニカルディテールへのリンク：https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
  
 
-　
 ## はじめに
 　Morpheusは、スマート・エージェントとして知られるパーソナルAIにおいて初のピアツーピアネットワークを奨励するよう設計されています。オープンソースのスマート・エージェントをユーザーに提供し、各ユーザーのウォレット、分散型アプリケーション(Dapps)、スマートコントラクトに接続することで、Web3の世界を誰もが使えるものにします。
  
