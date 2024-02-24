@@ -1,7 +1,7 @@
 # Morpheus Sárga Könyv
 
 Ez a dokumentum részletezi a Morpheus teljes csomópontjának, a Morpheus Smart Contractnek és a kapcsolódó bizonyítékoknak a technikai részleteit.
-Ahogyan azt a Morpheus, Trinity és Neo nevű névtelen fejlesztők a fehér könyvben leírták. A fehér könyv elérhető itt: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md
+Ahogyan azt a Morpheus, Trinity és Neo nevű névtelen fejlesztők a fehér könyvben leírták. A fehér könyv elérhető itt: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## A Morpheus 0.0.5 helyi verziója él a következő címeken:
 ---------
