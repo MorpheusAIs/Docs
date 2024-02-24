@@ -1,7 +1,7 @@
 # Morpheus黄皮书
 
 本文档描述了Morpheus全节点、Morpheus智能合约以及相关证明的技术细节。
-如白皮书所述，由匿名开发者Morpheus、Trinity和Neo共同贡献。白皮书链接：https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md
+如白皮书所述，由匿名开发者Morpheus、Trinity和Neo共同贡献。白皮书链接： https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Morpheus的本地版本0.0.5已上线：
 ---------
