@@ -1,8 +1,7 @@
 # Morpheus Yellow Paper
 
 Тази статия описва техническите подробности на пълния възел Morpheus, интелигентния договор Morpheus и свързаните с него доказателства.
-Представен е така, както е написан в бялата книга, предоставена от анонимните разработчици Morpheus, Trinity & Neo. Връзка към белия лист тук: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
-
+Представен е така, както е написан в бялата книга, предоставена от анонимните разработчици Morpheus, Trinity & Neo. Връзка към белия лист тук: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 ## Местната версия 0.0.5 на Morpheus е достъпна на адрес:
 ---------
 **Версия 0.0.5 на Morpheus за Mac**
