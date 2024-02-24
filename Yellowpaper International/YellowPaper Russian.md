@@ -1,7 +1,7 @@
 # Желтая книга Morpheus
 
 В этом документе описываются технические детали полной ноды Morpheus, смарт-контракта Morpheus и связанных с ними доказательств. Представлено в том виде, в котором это было написано в Белой книге, подготовленной анонимными разработчиками Morpheus, Trinity и Neo. 
-Ссылка на статью здесь: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Ссылка на статью здесь: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Локальная версия Morpheus 0.0.5 уже доступна на:
 ---------
