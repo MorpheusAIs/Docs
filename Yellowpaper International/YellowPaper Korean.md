@@ -1,7 +1,7 @@
 # Morpheus Yellow Paper
 
 이 문서는 Morpheus 풀 노드, Morpheus 스마트 컨트랙트 및 관련 증명의 기술적 세부 정보를 설명합니다. 
-익명의 개발자 Morpheus, Trinity 및 Neo가 기여한 백서에 작성된 내용으로 제시됩니다. 백서 링크: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+익명의 개발자 Morpheus, Trinity 및 Neo가 기여한 백서에 작성된 내용으로 제시됩니다. 백서 링크: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Morpheus의 Local Version 0.0.5:
 ---------
