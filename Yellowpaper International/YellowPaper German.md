@@ -1,7 +1,7 @@
 # Morpheus Gelbes Papier
 
 Dieses Papier beschreibt die technischen Details des Morpheus-Vollknotens, des Morpheus-Smart-Contracts und der zugehörigen Beweise.
-Präsentiert wie im Whitepaper der anonymen Entwickler Morpheus, Trinity & Neo geschrieben. Link zum Whitepaper hier: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Präsentiert wie im Whitepaper der anonymen Entwickler Morpheus, Trinity & Neo geschrieben. Link zum Whitepaper hier: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Die lokale Version 0.0.5 von Morpheus ist verfügbar unter:
 ---------
