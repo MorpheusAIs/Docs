@@ -1,6 +1,6 @@
 # Morpheus Qotho Folgho
 
-Hazi kisha shafgea mae shafgegoon qotho folgho, Morpheus full node, Morpheus Smart Contract, maan mae asshekhqoyi. Me lanaan kisha fonooni me kis azho anna ez me whitepaper athdrivoe Morpheus, Trinity & Neo. Shiqeth Yer mae: [https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md](https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md)
+Hazi kisha shafgea mae shafgegoon qotho folgho, Morpheus full node, Morpheus Smart Contract, maan mae asshekhqoyi. Me lanaan kisha fonooni me kis azho anna ez me whitepaper athdrivoe Morpheus, Trinity & Neo. Shiqeth Yer mae: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Shekhi Version 0.0.5 mae Morpheus anhaan virszirik:
 
