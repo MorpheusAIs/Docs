@@ -1,7 +1,7 @@
 # Morpheus Yellow Paper
 
 Questo documento descrive i dettagli tecnici del nodo completo Morpheus, del contratto intelligente Morpheus e delle prove correlate.
-Presentato così come scritto nel whitepaper contribuito dagli sviluppatori anonimi Morpheus, Trinity & Neo. Link al whitepaper qui: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md
+Presentato così come scritto nel whitepaper contribuito dagli sviluppatori anonimi Morpheus, Trinity & Neo. Link al whitepaper qui: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## La versione locale 0.0.5 di Morpheus è attiva su:
 ---------
