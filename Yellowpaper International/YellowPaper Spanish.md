@@ -1,7 +1,7 @@
 # Papel Amarillo de Morpheus
 
 
-Este documento describe los detalles técnicos del nodo completo de Morpheus, el Contrato Inteligente de Morpheus y las pruebas relacionadas. Se presenta tal como está escrito en el libro blanco contribuido por los desarrolladores anónimos Morpheus, Trinity y Neo. Enlace al libro blanco aquí: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Este documento describe los detalles técnicos del nodo completo de Morpheus, el Contrato Inteligente de Morpheus y las pruebas relacionadas. Se presenta tal como está escrito en el libro blanco contribuido por los desarrolladores anónimos Morpheus, Trinity y Neo. Enlace al libro blanco aquí: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Versión Local 0.0.5 de Morpheus está en vivo en:
 ---------
