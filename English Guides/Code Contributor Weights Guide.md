@@ -38,7 +38,7 @@ This is really helpful to understand as it demonstrates the great value to Coder
 But also this high reward will generate a lot of competition among Coders 
 
 ## Market Driven Implied Value of Code Resets Monthly
-Its important to understand thaat the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
+Its important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
 This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community FrontEnd developers.
 
 The initial implied value of 1 weight was $50 USD before their was a market determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
