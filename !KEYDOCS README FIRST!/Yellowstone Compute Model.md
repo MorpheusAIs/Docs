@@ -10,15 +10,15 @@ A suggested revision to the Morpheus tokenomics structure for compute incentiviz
 ## Summary
 In the Yellowstone Compute Model, the Morpheus network pays Providers only for Compute actually provided through a competitive bid process, and allocates the scarce production of IPS (inferences/seconds) pro rata to MOR token holders based on balance, rather than on payment. This drastically improves UX while minimizing Sybil vulnerability. Yellowstone also imbues the important metrics of time and a Pass/Fail test to ensure Providers are adequately prompt and accurate. Yellowstone preserves privacy by never sending prompts or results through the Router, and minimizes blockchain transactions to permit a large scale of operation. Through this model, MOR achieves fundamental value as it enables perpetual (though not unlimited) access to permissionless compute, without requiring transactions per inference. 
 
-If adopted, this paper replaces the “Compute Proof, Registration & Reward” section of the [Morpheus whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
+If adopted, this paper replaces the “Community Builder Proof, Registration & Reward” section of the [Morpheus whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
 
 ## Background
 Morpheus uses tokenomics to incentivize sufficient and scalable compute as a resource for the purpose of decentralized and permissionless generative AI. In its original conception, Morpheus issued 24% of MOR emissions to Compute Providers directly, pro rata depending on the inference requests received, and it prioritized inference requests to those providers based on how much MOR they held. 
 
 ### From the original white paper:
-`“The pro-rata MOR transaction fees burned by each Compute Provider serves as proof of the Compute Providers status and earns a proportion of the MOR tokens each day.`
+`“The prorated MOR transaction fees burned by each Community Builder serves as proof of the Community Builder's status and earns a proportion of the MOR tokens each day.`
  
-`For example, if there are 100 Compute Providers on day 1 when the network launches, then each one gets a pro-rata reward based on the amount of MOR they have burned via fees. In this case, presuming each of the 100 compute providers burned 100 MOR, then 1% of the 3,456 MOR tokens each day = 34.56 MOR.”`
+`For example, if there are 100 Community Builders on day 1 when the network launches, then each one gets a prorated reward based on the amount of MOR they have burned via fees. In this case, presuming each of the 100 Community Builders burned 100 MOR, then 1% of the 3,456 MOR tokens each day = 34.56 MOR.”`
 
 ### There are three major issues with this approach:
 1) It requires users to pay per-inference transaction fees. Even if low, this is substantial friction and will cause poor UX and an ever-present inferiority to OpenAI’s UX. It also requires at least one blockchain transaction per inference, which is probably not scalable even on L2s. Each inference event is extremely low cost, and if a blockchain transaction was required, the economics would be infeasible. 
@@ -74,7 +74,7 @@ There are two types of prompts, defined by the size of response returned by a mo
 - Combine model X with model Y
 - Slice a 3D model into an .stl file
 
-Yellowstone focuses on Determined Length Prompts.  The router described will be constructed in a fashion to handle undetermined prompts in the future, but not to service them today. To accomplish this we use a standardized measurement of Decentralized AI.
+Yellowstone focuses on Determined Length Prompts.  The router described will be constructed in a fashion to handle undetermined prompts in the future, but not to service them today. To accomplish this, we use a standardized measurement of Decentralized AI.
 
 ## DeAI Rates
 
@@ -115,10 +115,10 @@ For the first year following the Capital Contract's bootstrapping period, the to
 
 ## Workflow
 1) Users, Providers, and Router all create MOR pub keys (this is their identity, all messages signed as such). 
-2) If User hodls any balance of MOR, User may submit a signed Request for Compute “RFC” message to the Router. User specifies [LLM] and [IPSMax].
+2) If User holds any balance of MOR, User may submit a signed Request for Compute “RFC” message to the Router. User specifies [LLM] and [IPSMax].
 3) Router prioritizes RFCs based on User’s MOR balance (solves sybil issue)
 4) Router selects Provider that supports the [LLM], prioritized based on lowest Bid per IPS in MOR. 
-5) Router sends liveness check to Provider. If Pass, then
+5) Router sends liveness check to Provider. If Pass, then:
 6) Router connects User to the Provider over TCP/IP
 7) User sends Query ([LLM],[prompt]) to Provider 
 8) Provider computes Query, sends Result to User
@@ -134,7 +134,7 @@ For the first year following the Capital Contract's bootstrapping period, the to
 * Provider received money (MOR) from Compute Contract so long as response was fast enough. Provider received exactly what he asked for to provide the compute. If his ask is too high, others will bid lower, thus the system is efficient and will drive down Provider prices toward the cost of base electricity.  **Solves Goal 3**
 * Number of on-chain transactions was minimized (many Queries can flow with few on-chain TXs). **Solves Goal 4**
 * The ability to get fast, free compute drives the demand for MOR tokens to be held by Users. **Solves Goal 5**
-* Steps 6 & 7 provide reasonable privacy (Query never touches the Router, nor does Result). Providers are selected somewhat randomly, and never know identity of User other than IP address. Better privacy can be later achieved with TOR and/or FHE
+* Steps 6 & 7 provide reasonable privacy (Query never touches the Router, nor does Result). Providers are selected somewhat randomly and never know identity of User other than IP address. Better privacy can be later achieved with TOR and/or FHE
 * MOR balance was reduced from Compute Contract. Contract will be solvent so long as MOR paid < MOR earned per period from emissions.
 * If User sends an RFC which exceeds User’s UserMax, the Router will reject the request.
 
