@@ -1,7 +1,7 @@
 ﻿# Morpheus Żółty Papier
 
 W artykule opisano szczegóły techniczne pełnego węzła Morfeusza, smart contractu Morfeusza i powiązanych dowodów. Przedstawione w białej księdze autorstwa anonimowych programistów Morpheus, Trinity & Neo.
-Link do artykułu tutaj: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Link do artykułu tutaj: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Lokalna wersja 0.0.5 Morpheus jest dostępna pod adresem:
 ---------
