@@ -1,7 +1,7 @@
 # Morpheus sariq qog'ozi
 
 Ushbu maqolada Morpheus to'liq tugunining texnik tafsilotlari, Morpheus Smart Contract va tegishli dalillar tasvirlangan.
-Anonim ishlab chiquvchilar Morpheus, Trinity & Neo tomonidan taqdim etilgan oq qog'ozda yozilganidek taqdim etilgan. Oq qog'ozga havola: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md
+Anonim ishlab chiquvchilar Morpheus, Trinity & Neo tomonidan taqdim etilgan oq qog'ozda yozilganidek taqdim etilgan. Oq qog'ozga havola: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Morpheusning 0.0.5 mahalliy versiyasi jonli efirda:
 ---------
