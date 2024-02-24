@@ -11,7 +11,7 @@ Notion에서 확인하기: https://defiant-wolfsbane-830.notion.site/Morpheus-Ye
 ## 개요
 Yellowstone 컴퓨팅 모델에서 Morpheus 네트워크는 경쟁입찰 프로세스를 통하여 실제로 제공된 컴퓨팅에 대해서만 공급자에게 비용을 지불합니다. 부족한 IPS(추론/초) 생산량을 지불이 아닌 잔액에 따라 MOR 토큰 보유자에게 비례적으로 할당합니다. 이를 통해 사용자의 취약성을 최소화 하면서 UX를 큰폭으로 개선합니다. 또한 Yellowstone은 시간이라는 중요한 지표와 합격/불합격 테스트를 통해 공급자가 적절하고 신속하고 정확한지를 확인합니다. Yellowstone은 라우터를 통하여 프롬프트나 결과를 전송하지 않음으로 개인정보를 보호하며 대규모 운영을 가능하게 하기 위하여 트랜잭션을 최소화 합니다. 이 모델을 통하여 MOR은 추론 당 트랜젝션을 필요로 하지 않은 상태에서 허가없는 컴퓨팅에 대한 영구적(무제한은 아님)액세스를 가능하게 함으로 근본 가치를 실현합니다.
 
-만약 이 백서가 채택된다면,[Morpheus 백서]의 "증명,등록 및 보상" 부분을 대체합니다. (https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md)
+만약 이 백서가 채택된다면,[Morpheus 백서]의 "증명,등록 및 보상" 부분을 대체합니다. (https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
 
 ## 배경 정보
 Morpheus는 무허가 탈중앙화AI를 만들기 위한 수단으로 충분한 컴퓨팅 파워를 제공합니다. 이것을 인센티브화 하기 위해 토크노믹스를 활용합니다. 초기 Morpheus의 구상에 따르면 Morpheus 는 MOR 의 발행량중 24%를 추론 요청을 받은 컴퓨팅 파워 공급자에게 할당 했으며, 이는 요청자가 보유한 MOR 보유량에 따라 추론 요청의 우선순위를 정했습니다.
