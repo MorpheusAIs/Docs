@@ -1,8 +1,7 @@
 # Kertas Kuning Morpheus
 
 Kertas kerja ini menerangkan butiran teknikal nod penuh Morpheus, Kontrak Pintar Morpheus, dan bukti berkaitan.
-Dibentangkan seperti yang ditulis dalam kertas putih yang disumbangkan oleh pembangun tanpa nama Morpheus, Trinity & Neo. Pautan ke kertas putih di sini: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md
-Jemahan oleh @jeremyongws
+Dibentangkan seperti yang ditulis dalam kertas putih yang disumbangkan oleh pembangun tanpa nama Morpheus, Trinity & Neo. Pautan ke kertas putih di sini: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md Jemahan oleh @jeremyongws
 
 ## Versi Tempatan 0.0.5 Morpheus kini tersedia:
 ---------
