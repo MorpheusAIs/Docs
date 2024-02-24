@@ -1,7 +1,7 @@
 # Morpheus Yellow Paper
 
 Dit artikel beschrijft de technische details van de Morpheus full node, het Morpheus Smart Contract en gerelateerde "proofs".
-Gepresenteerd zoals geschreven in de whitepaper bijgedragen door de anonieme ontwikkelaars Morpheus, Trinity & Neo. Link naar de whitepaper hier: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Gepresenteerd zoals geschreven in de whitepaper bijgedragen door de anonieme ontwikkelaars Morpheus, Trinity & Neo. Link naar de whitepaper hier: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Lokale versie 0.0.5 van Morpheus is live voor :
 ---------
