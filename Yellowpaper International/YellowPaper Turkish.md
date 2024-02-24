@@ -1,7 +1,7 @@
 # Morpheus Sarı Kağıt
 
 Bu makale Morpheus tam düğümünün, Morpheus Akıllı Sözleşmesinin ve ilgili kanıtların teknik ayrıntılarını açıklamaktadır.
-Morpheus, Trinity ve Neo'nun anonim geliştiricileri tarafından katkıda bulunulan whitepaper'da yazıldığı şekliyle sunulmuştur. Teknik incelemeye buradan ulaşabilirsiniz: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Morpheus, Trinity ve Neo'nun anonim geliştiricileri tarafından katkıda bulunulan whitepaper'da yazıldığı şekliyle sunulmuştur. Teknik incelemeye buradan ulaşabilirsiniz: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Morpheus'un 0.0.5 Yerel Sürümü şu adreste yayında:
 ---------
