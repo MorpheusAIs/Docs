@@ -1,7 +1,7 @@
 # Morpheus Yellow Paper
 
 Αυτό το έγγραφο περιγράφει τεχνικές λεπτομέρειες για τον πλήρη κόμβο Morpheus, το Έξυπνο Συμβόλαιο Morpheus και τις σχετικές αποδείξεις.
-Παρουσιάζεται όπως έχει γραφεί στο λευκό χαρτί που συνέβαλαν οι ανώνυμοι προγραμματιστές Morpheus, Trinity & Neo. Σύνδεσμος για το λευκό χαρτί εδώ: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Παρουσιάζεται όπως έχει γραφεί στο λευκό χαρτί που συνέβαλαν οι ανώνυμοι προγραμματιστές Morpheus, Trinity & Neo. Σύνδεσμος για το λευκό χαρτί εδώ: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Η τοπική έκδοση 0.0.5 του Morpheus είναι ζωντανή στο:
 ---------
