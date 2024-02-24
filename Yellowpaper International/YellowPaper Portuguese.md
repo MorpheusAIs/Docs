@@ -1,6 +1,6 @@
 # Morpheus Papel Amarelo
 
-Este artigo descreve os detalhes técnicos do nó completo Morpheus, do Contrato Inteligente Morpheus e das provas relacionadas. Apresentado conforme escrito no whitepaper contribuído pelos desenvolvedores anônimos Morpheus, Trinity & Neo. Link para o whitepaper aqui: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Este artigo descreve os detalhes técnicos do nó completo Morpheus, do Contrato Inteligente Morpheus e das provas relacionadas. Apresentado conforme escrito no whitepaper contribuído pelos desenvolvedores anônimos Morpheus, Trinity & Neo. Link para o whitepaper aqui: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## A versão local 0.0.5 do Morpheus está disponível em::
 ---------
