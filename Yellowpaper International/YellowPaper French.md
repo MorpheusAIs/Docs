@@ -1,7 +1,7 @@
 # Morpheus Yellow Paper
 
 Ce document décrit les détails techniques du nœud complet Morpheus, du contrat intelligent Morpheus, et des preuves associées.
-Présenté tel que rédigé dans le livre blanc contribué par les développeurs anonymes Morpheus, Trinity et Neo. Lien vers le livre blanc ici : https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Présenté tel que rédigé dans le livre blanc contribué par les développeurs anonymes Morpheus, Trinity et Neo. Lien vers le livre blanc ici : https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
 
 ## Version locale 0.0.5 de Morpheus en direct :
 ---------
