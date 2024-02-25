@@ -4,7 +4,7 @@
 ## Verkko Älykkäiden Agenttien Voimanlähteenä
 ### Kirjoittanut Morpheus, Trinity ja Neo
 Julkaistu - 2. syyskuuta 2023
-Linkki keltaiseen paperiin teknisistä yksityiskohdista: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Linkki keltaiseen paperiin teknisistä yksityiskohdista: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Johdanto
 Morpheus on suunniteltu kannustamaan ensimmäistä vertaisverkonälykkäiden agenttien, tunnettu nimellä Smart Agents, verkostoa. Tarjoten käyttäjille avoimen lähdekoodin Smart Agentteja, joihin voi yhdistää lompakkonsa, Dappinsa ja älykkäänsopimuksensa, lupaa avata Web3-maailman kaikille.
@@ -150,7 +150,7 @@ Keltaisenkiven laskentamallissa Morpheus-verkko maksaa Laskentatodistajille vain
 
 Jotta Laskentatodistaja voi osallistua Laskennan pyyntöihin, hänen on omistettava MOR-tokeneita. Pyyntöjä ohjataan Laskentatodistajien API:lle suhteessa niihin MOR-tokeneihin, joita he omistavat verrattuna muihin rekisteröityihin Laskentatodistajiin.
 
-Yksityiskohdat on käsitelty Keltaisenkiven laskentamallin paperissa: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+Yksityiskohdat on käsitelty Keltaisenkiven laskentamallin paperissa: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## Yhteisörakentajan todistus, rekisteröinti ja palkkio:
 Yhteisörakentajan määritelmä on, että he ovat ladanneet ja käynnistäneet Morpheus-koko solmun, yhdistäneet lompakkonsa ja käyttävät Morpheus API: ta tarjotakseen käyttäjille käyttöliittymiä ja kehittäjätyökaluja. Heidän tekemänsä panokset voidaan laskea mukaan ottamalla Smart Agentin generoima allekirjoitettu transaktio, jossa on palautettu tulos MOR-transaktiosta.
