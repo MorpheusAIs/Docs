@@ -5,7 +5,7 @@
 ### Morpheus팀 Trinity, & Neo 작성
 작성 - 2023년 9월 2일
 
-기술 세부정보에 대한 Yello Paper 링크: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+기술 세부정보에 대한 Yello Paper 링크: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## 소개
 Morpheus는 스마트 에이전트(Smart Agent)로 알려진 최초의 개인 AI로 이루어진 P2P 네트워크를 장려하도록 설계되었습니다. 사용자에게 지갑, Dapp 및 스마트 컨트랙트에 연결할 수 있는 오픈 소스 스마트 에이전트를 제공하게 되면 모든 사람들에게 Web3의 세계를 개방할 수 있게 됩니다.
@@ -158,7 +158,7 @@ Yellowstone 연산 모델에서 Morpheus 네트워크는 경쟁 입찰 프로세
 
 요청에 대한 연산을 수용할 수 있는 자격을 갖추기 위해서는 연산력 공급자의 주소에 MOR 토큰이 있어야 합니다. 요청은 등록된 다른 모든 연산력 공급자들의 보유한 MOR에 비례하여 연산력 공급자 API로 라우팅됩니다.
 
-자세한 사항은 Yellowstone 연산 모델 문서에 설명되어있습니다: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+자세한 사항은 Yellowstone 연산 모델 문서에 설명되어있습니다: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## 커뮤니티 빌더 증명, 등록 & 보상:
 커뮤니티 빌더는 "Morpheus 전체 노드를 다운로드하여 실행하고 지갑을 연결하며 Morpheus API를 사용하여 사용자 프런트 엔드 및 개발자 도구를 제공하는 자"입니다. 제공된 기여도는 스마트 에이전트가 생성한 서명된 트랜잭션을 MOR 트랜잭션의 결과 반환과 함께 포함하여 계산할 수 있습니다.
