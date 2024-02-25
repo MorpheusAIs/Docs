@@ -3,7 +3,7 @@
 # Morpheus
 Egy hálózat az Okos Ügynökök Háttérhálózatáért
 Szerző: Morpheus, Trinity és Neo
-Kiadva - 2023. szeptember 2. Hivatkozás a Sárga Könyv Műszaki Részleteihez: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Kiadva - 2023. szeptember 2. Hivatkozás a Sárga Könyv Műszaki Részleteihez: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Bevezetés
 A Morpheus arra van tervezve, hogy ösztönözze az első peer-to-peer hálózatot a személyes AI-k számára, amit Okos Ügynököknek nevezünk. A felhasználók számára nyílt forráskódú Okos Ügynökök biztosítása, amelyek csatlakozhatnak a pénztárcájukhoz, Dappsaikhoz és okos szerződéseikhez, lehetővé teszi, hogy mindenki számára megnyíljon a Web3 világa.
@@ -145,7 +145,7 @@ A Yellowstone Compute Model szerint a Morpheus hálózat csak a számítási aj�
 
 Ahhoz, hogy egy Számítási Szolgáltató kérelmet kapjon, a Számítási Szolgáltató címe rendelkeznie kell MOR tokenekkel. A kérelmeket pro-rata alapján küldik a Számítási Szolgáltatók API-jához a MOR-hoz képest más regisztrált Számítási Szolgáltatókhoz képest.
 
-A részletek megtalálhatók a Yellowstone Compute Model papírban: [itt](https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md)
+A részletek megtalálhatók a Yellowstone Compute Model papírban: [itt](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 
 ## Közösségépítő Bizonyíték, Regisztráció és Jutalom:
 
