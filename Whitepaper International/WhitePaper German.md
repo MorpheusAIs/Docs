@@ -4,7 +4,7 @@
 ## Ein Netzwerk für die Versorgung intelligenter Agenten
 ### Verfasst von Morpheus, Trinity, & Neo
 Veröffentlicht - September 2nd 2023
-Link zum Gelbbuch Technische Details: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Link zum Gelbbuch Technische Details: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Einführung
 Morpheus wurde entwickelt, um Anreize für das erste Peer-to-Peer-Netzwerk von persönlichen, universell einsetzbaren KIs zu schaffen, die Smart Contracts im Namen eines Nutzers ausführen können, die so genannten [Smart Agents] (https://github.com/SmartAgentProtocol/SmartAgents/blob/main/White%20Paper.md). Nutzern quelloffene Smart Agents zur Verfügung zu stellen, die sich mit ihren Geldbörsen, Dapps und Smart Contracts verbinden können, verspricht, die Welt des Web3 für alle zu öffnen.
