@@ -4,7 +4,7 @@
 ## Un Réseau pour Alimenter les Agents Intelligents
 ### Rédigé par Morpheus, Trinity, & Neo
 Publié - 2 septembre 2023
-Lien vers les détails techniques du livre jaune : https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Lien vers les détails techniques du livre jaune: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Introduction 
 Morpheus est conçu pour encourager le premier réseau peer-to-peer d'IA personnelles, connues sous le nom d'agents intelligents.  Fournir aux utilisateurs des agents intelligents open-source pour se connecter à leurs portefeuilles, Dapps, et contrats intelligents promet d'ouvrir le monde du Web3 à tout le monde. 
