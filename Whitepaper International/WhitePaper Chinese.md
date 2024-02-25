@@ -1,7 +1,7 @@
 Morpheus —— 强势赋能智能代理的创新网络
 作者：Morpheus, Trinity, & Neo
 发表日期：2023年9月2日 
-黄皮书技术细节：https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+黄皮书技术细节：https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 
 ## 简介
@@ -183,7 +183,7 @@ D. 程序状态的哈希值，以便用户检查它是否是有效且未被更�
 
 要有资格接收计算请求，算力提供者的地址必须持有MOR代币。请求将按比例分配给算力提供者的API，比例是他们持有的MOR代币 vs 其他已注册的计算提供者持有的MOR代币。
 
-有关详细信息，请参阅黄石计算模型论文：https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+有关详细信息，请参阅黄石计算模型论文：https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 
 ## 社区Builder证明、注册和奖励：
