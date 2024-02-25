@@ -4,7 +4,7 @@
 ## Una red para potenciar agentes inteligentes
 ### Escrito por Morpheus, Trinity, & Neo
 Publicado - 2 de septiembre de 2023
-Enlace a los detalles técnicos del Papel Amarillo: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Enlace a los detalles técnicos del Papel Amarillo: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Introducción 
 Morpheus está diseñado para incentivar la primera red peer-to-peer de AIs personales, conocida como Smart Agents. Proporcionar a los usuarios Smart Agents de código abierto para conectar con sus billeteras, Dapps y contratos inteligentes promete abrir el mundo de Web3 a todos.
