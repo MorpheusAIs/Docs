@@ -1,14 +1,14 @@
 # 原文：
-https://github.com/MorpheusAIs/Morpheus/blob/main/WhitePaper.md　
- 
+https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md
+
 ＃ Morpheusモーフィアス
  
 ## スマートエージェントのためのネットワーク
 著者：Morpheus, Trinity, Neo
 発行 : 2023年9月2日
 イエローペーパー・テクニカルディテールへのリンク：
- https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md 
- 
+https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
+
 
 　
 ## はじめに
