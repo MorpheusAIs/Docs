@@ -4,7 +4,7 @@ Morpheus
 O Rețea pentru Alți Inteligenți Puternici
 Autori: Morpheus, Trinity și Neo
 Publicat - 2 septembrie 2023
-Link către Detaliile Tehnice din Cartea Galbenă: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Link către Detaliile Tehnice din Cartea Galbenă: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Introducere
 Morpheus este conceput pentru a stimula prima rețea peer-to-peer de AI-uri personale, cunoscute sub numele de Agente Inteligente. Furnizarea utilizatorilor a unor Agente Inteligente open-source pentru a se conecta la portofelele lor, Dapps și smart contracte promite să deschidă lumea Web3 pentru toată lumea.
@@ -154,7 +154,7 @@ O mare parte din cercetarea de frunte efectuată în această zonă de "Dovada C
 
 Pentru a califica pentru a primi solicitări de calcul, adresa Furnizorului de Calcul trebuie să dețină tokenuri MOR. Solicitările vor fi direcționate către API-urile Furnizorilor de Calcul proporțional cu cantitatea de MOR pe care o dețin în comparație cu toți ceilalți Furnizori de Calcul înregistrați.
 
-Detaliile sunt discutate în documentul Modelului de Calcul Yellowstone: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+Detaliile sunt discutate în documentul Modelului de Calcul Yellowstone: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## Dovada, Înregistrarea și Răsplata Constructorului Comunității:
 Definiția unui Constructor al Comunității este că au descărcat și rulează nodul complet Morpheus, au conectat portofelul și utilizează API-ul Morpheus pentru a furniza interfețe de utilizator și instrumente pentru dezvoltatori. Contribuțiile lor pot fi calculate prin includerea unei tranzacții semnate generată de Smart Agent împreună cu returnarea rezultatului din tranzacția MOR.
