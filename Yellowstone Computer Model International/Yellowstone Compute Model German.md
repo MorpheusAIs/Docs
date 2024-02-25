@@ -10,15 +10,15 @@ Ansehen auf Notion: https://defiant-wolfsbane-830.notion.site/Morpheus-Yellowsto
 ## Zusammenfassung
 Im Yellowstone-Berechnungsmodell zahlt das Morpheus-Netzwerk Anbietern nur für tatsächlich erbrachte Berechnungen im Rahmen eines wettbewerbsfähigen Angebotsverfahrens und verteilt die knappe Produktion von Tokens pro-rata an MOR-Token-Inhaber basierend auf dem Kontostand, anstatt auf Zahlungen. Dies verbessert drastisch die Benutzererfahrung und minimiert die Sybil-Anfälligkeit. Yellowstone integriert auch die wichtigen Metriken Zeit und einen Bestehen/Fehler-Test, um sicherzustellen, dass Anbieter angemessen schnell und genau sind. Yellowstone bewahrt die Privatsphäre, indem es niemals Aufforderungen oder Ergebnisse über den Router sendet, und minimiert Blockchain-Transaktionen, um einen großen Betriebsumfang zu ermöglichen. Durch dieses Modell erreicht MOR einen grundlegenden Wert, da es einen dauerhaften (wenn auch nicht unbegrenzten) Zugang zu berechtigten Berechnungen ermöglicht, ohne Transaktionen pro Inferenz zu erfordern.
 
-Wenn dies angenommen wird, ersetzt dieses Papier den Abschnitt "Berechnungsnachweis, Registrierung & Belohnung" des [Morpheus-Whitepapers](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
+Wenn dies angenommen wird, ersetzt dieses Papier den Abschnitt "Gemeinschaft Builder-Nachweis, Registrierung & Belohnung" des [Morpheus-Whitepapers](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
 
 ## Hintergrund
 Morpheus verwendet Tokenomics, um ausreichende und skalierbare Berechnungen als Ressource für dezentrale und berechtigungslose generative KI zu fördern. In seiner ursprünglichen Konzeption gab Morpheus 24 % der MOR-Emissionen direkt an Berechnungsanbieter aus, pro-rata abhängig von den erhaltenen Inferenzanfragen, und priorisierte Inferenzanfragen an diese Anbieter basierend darauf, wie viel MOR sie besaßen.
 
 ### Aus dem ursprünglichen Whitepaper:
-"Die pro-rata durch jeden Berechnungsanbieter verbrannten MOR-Transaktionsgebühren dienen als Nachweis für den Status des Berechnungsanbieters und verdienen einen Anteil der MOR-Token jeden Tag.
+"Die anteiligen MOR-Transaktionsgebühren, die von jedem Gemeinschaftliche Baumeister verbrannt werden, dienen als Nachweis für den Status des Gemeinschaftliche Baumeister und verdienen einen Teil der MOR-Tokens pro Tag.
 
-Zum Beispiel, wenn es am Tag 1 des Netzwerkstarts 100 Berechnungsanbieter gibt, dann erhält jeder von ihnen eine pro-rata Belohnung basierend auf der Menge an MOR, die sie über Gebühren verbrannt haben. In diesem Fall, unter der Annahme, dass jeder der 100 Berechnungsanbieter 100 MOR verbrannt hat, beträgt 1 % der 3.456 MOR-Token jeden Tag = 34,56 MOR."
+Wenn es zum Beispiel am Tag 1 des Starts des Netzwerks 100 Gemeinschaftliche Baumeister gibt, dann erhält jeder eine anteilige Belohnung, die auf der Menge an MOR basiert, die er durch Gebühren verbraucht hat. In diesem Fall, angenommen, jeder der 100 Gemeinschaftliche Baumeister hat 100 MOR verbrannt, dann ist 1% der 3.456 MOR-Token pro Tag = 34,56 MOR."
 
 ### Es gibt drei Hauptprobleme mit diesem Ansatz:
 1) Es erfordert von Benutzern Gebühren pro Inferenz-Transaktion zu zahlen. Selbst wenn sie niedrig sind, stellt dies eine erhebliche Reibung dar und führt zu einer schlechten Benutzererfahrung sowie einer dauerhaften Unterlegenheit gegenüber der Benutzererfahrung von OpenAI. Es erfordert auch mindestens eine Blockchain-Transaktion pro Inferenz, was wahrscheinlich selbst auf L2s nicht skalierbar ist. Jedes Inferenzereignis ist äußerst kostengünstig, und wenn eine Blockchain-Transaktion erforderlich wäre, wären die ökonomischen Rahmenbedingungen nicht realisierbar.
