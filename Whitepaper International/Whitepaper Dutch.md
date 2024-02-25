@@ -4,7 +4,7 @@
 ## Een netwerk voor smart agents
 ### Geschreven door Morpheus, Trinity & Neo
 Gepubliceerd - 2 september 2023
-Link naar technische details yellow paper: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Link naar technische details yellow paper: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Introductie 
 Morpheus is ontworpen om het eerste peer-to-peer netwerk van persoonlijke AI's, bekend als Smart Agents, te stimuleren.  Door gebruikers open-source Smart Agents te bieden om verbinding te maken met hun wallets, Dapps en smart contracts, wordt de wereld van Web3 voor iedereen toegankelijk. 
