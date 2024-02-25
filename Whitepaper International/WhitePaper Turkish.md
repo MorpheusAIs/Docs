@@ -4,7 +4,7 @@
 ## Akıllı aracılara güç sağlayan bir ağ
 ### Yazarlar: Morpheus, Trinity и Neo
 Yayınlandı - 2 Eylül 2023
-Yellow Paper'a bağlantı Teknik Ayrıntılar: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Yellow Paper'a bağlantı Teknik Ayrıntılar: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Giriş
 Morpheus, "Smart Agents" olarak bilinen ilk eşler arası kişisel yapay zeka ağını katalize etmek üzere tasarlanmıştır. Kullanıcılara cüzdanlarına, uygulamalarına ve akıllı sözleşmelerine bağlanmaları için açık kaynaklı akıllı aracılar sağlamak, Web3 dünyasını herkese açmayı vaat ediyor.
