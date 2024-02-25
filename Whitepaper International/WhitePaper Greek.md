@@ -4,8 +4,7 @@
 ## Ένα Δίκτυο Για την Ενίσχυση Έξυπνων Πρακτόρων
 ### Συντάχθηκε από τον Morpheus, την Trinity και τον Neo
 Δημοσιεύτηκε - 2 Σεπτεμβρίου 2023
-Σύνδεσμος για Τεχνικές Λεπτομέρειες Κίτρινου Χαρτιού: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
-
+Σύνδεσμος για Τεχνικές Λεπτομέρειες Κίτρινου Χαρτιού: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 ## Εισαγωγή
 Ο Morpheus σχεδιάστηκε για να ενθαρρύνει το πρώτο peer-to-peer δίκτυο προσωπικών Τεχνητών Νοημοσύνης, γνωστών ως Smart Agents. Η παροχή στους χρήστες Smart Agents ανοιχτού κώδικα για σύνδεση με τα πορτοφόλια τους, τις Dapps και τα έξυπνα συμβόλαια υπόσχεται να ανοίξει τον κόσμο του Web3 σε όλους.
 
@@ -150,7 +149,7 @@ D. Ένα hash της κατάστασης του προγράμματος, ώσ
 
 Για να προκριθεί για την λήψη αιτημάτων Υπολογισμού, η διεύθυνση ενός Παρόχου Υπολογισμού πρέπει να HODL MOR tokens. Τα αιτήματα θα κατευθύνονται στο API των Παρόχων Υπολογισμού pro-rata στο MOR που κρατούν σε σύγκριση με όλους τους άλλους εγγεγραμμένους Παρόχους Υπολογισμού.
 
-Λεπτομέρειες συζητούνται στο έγγραφο του Yellowstone Compute Model: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md
+Λεπτομέρειες συζητούνται στο έγγραφο του Yellowstone Compute Model: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## Απόδειξη, Εγγραφή και Ανταμοιβή Κοινοτικού Δημιουργού:
 
