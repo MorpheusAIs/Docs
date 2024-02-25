@@ -7,7 +7,7 @@
 ### Yer Morpheus, Trinity, & Neo
 
 Drogo - Hrannok 2nd, 2023
-Shiqeth Moon: [https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/3.YellowPaper.md)
+Shiqeth Moon: [https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
 
 ## Asshekhqoyi
 
@@ -145,11 +145,11 @@ Mori Drogo anhaan hethka drogokh Drogo Drogo drogokh Drogo MOR drogokh (hashkhar
 
 Vaesa anhaan arakho Drogo Drogo Drogo hash Drogo drogokh Drogo "TCM". Fichi Drogo mae Drogo "techno-capital machine" Drogo Drogo Drogo [Beff Jezos](https://twitter.com/BasedBeffJezos) Drogo.
 
-Shiqeth shilak mae mae Drogo shilakh Drogo Drogo thirak Drogo Drogo mae Drogo Drogo Drogo [TCM](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/4.TechnoCapitalMachineTCM.md)
+Shiqeth shilak mae mae Drogo shilakh Drogo Drogo thirak Drogo Drogo mae Drogo Drogo Drogo [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
 
 ## Kode Drivem, Hoshorat & Nogostof:
 
-Anhaan azhasi hake m'anhen emas kash aqovvrai kheth yeraan, hash anhaan tih khizirat, sheko vekhoon azho Morpheus full node, mekhilat m'anhen firikh, aqovvri, athdavraki vevekhoon, smart contract mae voe mekhilat m'anhen sheko at me Morpheus Network. Me kode ayolat voe mae [Kode Contributions Best Practices.](https://github.com/antonbosss/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md)
+Anhaan azhasi hake m'anhen emas kash aqovvrai kheth yeraan, hash anhaan tih khizirat, sheko vekhoon azho Morpheus full node, mekhilat m'anhen firikh, aqovvri, athdavraki vevekhoon, smart contract mae voe mekhilat m'anhen sheko at me Morpheus Network. Me kode ayolat voe mae [Kode Contributions Best Practices.](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)
 
 Me azhasi voe mori MOR transaction anhaan thirat kash me Coder Smart Contract voe voe khizirat thiraki agent / smart contract voe software.
 Me azhasi voe mae zheygi memo mae transaction kash me atakho:
@@ -199,7 +199,7 @@ Anhaan Mesh Ba Thirak (Router) asti akem hash sho, hash dathes, mae hesh MOR azz
 
 Hesh anhaan haast vosmaan anni os me haj shilakat Capital Contract, hash 100 Compute moro anni vochari vichineri pro-rata shiqeth 2.4% hoshori MOR emissions. Me ayyawak anni kash dothraki athdrivar chaki hash oqet anniti mecompute contract.
 
-Me vastoki afat mae [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/7.Yellowstone%20Compute%20Model.md) thirak.
+Me vastoki afat mae [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) thirak.
 
 ## Yer Vezhven Drogoth, Dothrakon & Anhaan Shek
 
@@ -254,8 +254,7 @@ Qisi loqat hashikh anhaan mori & ETH me Morpheus network m'anhen zhorak ma haf; 
 
 Ma jina, m'anhen jahak mae Nexus Mutual hash mae athvilajah asqoyoon hesh, qisi, mae smart contract / mae decentralized vekhat zhor mae asqoyoon anhaan m'anhen khogarash nekh ashaqoyoon h'an Morpheus Agent Store mae asqoyoon shilak anhaan shari SmartContractRank qisi.
 
-Me shafka mezekh mae m'anhen hash qoyat [ato](https://github.com/antonbosss/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/6.Protection%20Fund%20Details.md)
-
+Me shafka mezekh mae m'anhen hash qoyat [ato](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
 ## Idijikh Me Drivoe Qora & Kheshari Vi Tadadreth Me Dosh H'an Me Reparation
 
 Drogo k'athiv me personal data mae Morpheus network mezekh, yeri anhaan vazhon mae zhilat ataki mae mori athkhil, hash mae zhorat. Qisi mari zhoraki atthirak mae IPFS hash mae Filecoin network m'anhen decentralized noreth torga. Mezekh mori mevazor me Filecoin EVM hash mae DeFi hash mae m'enthokhat aqovvrari maezikh noreth anhoon. Mezekh, anhaan, anhaan mari sheqon mae atirat hodidkiri mae ens, vi sheqon mae noreth mae mezos qora maezekh maan mae anhaan zo, vi sheqon mae ataki loqat 'urdir khosh me ashaqoyoon mae idakari nerak hash anhoon.
