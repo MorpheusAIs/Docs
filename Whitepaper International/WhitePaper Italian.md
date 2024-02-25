@@ -4,7 +4,7 @@
 ## Una Rete Per Alimentare Agenti Intelligenti
 ### Scritto da Morpheus, Trinity e Neo
 Pubblicato - 2 Settembre 2023
-Link ai Dettagli Tecnici del Libro Giallo: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Link ai Dettagli Tecnici del Libro Giallo: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 Introduzione
 Morpheus è progettato per incentivare la prima rete peer-to-peer di IA personali, nota come Smart Agents. Fornendo agli utenti Smart Agent open-source per connettersi ai loro wallet, Dapp e contratti smart promette di aprire il mondo del Web3 a tutti.
@@ -124,7 +124,7 @@ Questo processo si ripete per sempre nel futuro.
 Risultato a lungo termine. Circa l'1% dei vantaggi annuali (rispetto al numero di MOR allora in circolazione) sarà disponibile per futuri programmatori, computer, community e capitale.
 
 
-![MaxMORScenario25] (https://github.com/Bullfluencer/jsgame/blob/master/276706806-81c7794a-b5bc-4a9e-bb2d-1f28b98ea079%20(1)-1.png)
+![MaxMORScenario25](https://github.com/Bullfluencer/jsgame/blob/master/276706806-81c7794a-b5bc-4a9e-bb2d-1f28b98ea079%20(1)-1.png)
 
 **NOTA IMPORTANTE:** Ciò non altera la natura del massimale di fornitura rigida di 42 milioni di MOR. Poiché il programma di emissione della coda è per definizione solo una parte dei gettoni MOR che sono stati bruciati, il token MOR può diventare sempre più scarso con ogni periodo di 5.833 giorni.
 
