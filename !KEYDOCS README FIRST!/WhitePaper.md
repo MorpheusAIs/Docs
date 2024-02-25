@@ -74,7 +74,7 @@ All projects go through phases of development. It's important that at the beginn
 
 ## Near-term: At Time of Launch
 - Capital - Capital providers receive MOR rewards prorated to stETH they contributed against all stETH deposited.
-- Compute - Compute providers receive MOR as the user prompts their reply to. 
+- Compute - Compute providers receive MOR for the user prompts they reply to. 
 - Coders - Coders receive MOR for the contributions they make to the Morpheus software which are merged.
 - Community - Community builders receive MOR for the front ends, tools, usage, & value they bring into the Morpheus network.
 
@@ -127,7 +127,7 @@ The Morpheus full node comes with a wallet or the user can connect their existin
 ## Capital Proof & Reward:
 The definition of a Capital Provider is someone who provides stETH that generates yield for the Morpheus network, which becomes Protocol-owned Liquidity (PoL). The Capital Provider Smart Contract will provide 50% of the stETH yield produced to the Morpheus swap function. The swap buys the MOR tokens from an Automated Market Maker (AMM) then pairs them with the rest 50% of the stETH yield and lock into the AMM Liquidity Pool as PoL. This will provide liquidity to all those coders, community builders and compute providers. The fees earned by liquidity position are re-invested in the pool, ensuring steady liquidity growth.
 
-This way, all the yield earned from user stETH deposits are converted into protocol-owned liquidity (PoL). The yield remains as PoL indefinitely, but the user can withdraw their stETH whenever after a 7-day initial lock. If stETH are withdrawn, MOR rewards will cease to be accrued.
+This way, all the yield earned from user stETH deposits is converted into protocol-owned liquidity (PoL). The yield remains as PoL indefinitely, but the user can withdraw their stETH whenever after a 7-day initial lock. If stETH are withdrawn, MOR rewards will cease to be accrued.
 
 As a result, the Capital Provider will receive MOR tokens (calculated every block) prorated to their stETH contribution against the total deposited stETH pool. For example, if there are 100 Capital Providers who each contributed 1 stETH on day 1 when the network launches, and the total pool equals 100 stETH, then each one gets 1% of the 3,456 MOR tokens this day = 34.56 MOR.
 
