@@ -3,7 +3,7 @@
 # मॉर्फियस
 ## स्मार्ट एजेंट्स को संचालित करने के लिए एक नेटवर्क
 ### द्वारा लेखित: मॉर्फियस, ट्रिनिटी, और नीओ
-Published - September 2nd 2023 Link to Yellow Paper Technical Details: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Published - September 2nd 2023 Link to Yellow Paper Technical Details: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## परिचय
 
