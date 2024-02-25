@@ -4,7 +4,7 @@
 ## Sieć do zasilania Smart Agentów
 ### Autorami są Morpheus, Trinity i Neo
 Opublikowano - 2 września 2023 r.
-Link do szczegółów technicznych Yellow Paper: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Link do szczegółów technicznych Yellow Paper: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Wprowadzenie 
 Morpheus został zaprojektowany, aby zachęcić pierwszą sieć peer-to-peer osobistych sztucznej inteligencji, znaną jako Smart Agents.  Zapewnienie użytkownikom inteligentnych agentów o otwartym kodzie źródłowym do łączenia się z ich portfelami, Dapps i inteligentnymi kontraktami obiecuje otworzyć świat Web3 dla wszystkich. 
@@ -150,7 +150,7 @@ W Yellowstone Compute Model sieć Morpheus płaci Postawcom tylko za Obliczenia 
 
 Aby zakwalifikować się do otrzymywania żądań Obliczeń, adres Dostawcy Obliczeń musi posiadać tokeny HODL MOR. Żądania będą kierowane do interfejsu API Dostawców Obliczeń proporcjonalnie do tokenów MOR, które hodlują, w porównaniu do wszystkich innych zarejestrowanych Dostawców Obliczeń obliczeniowych.
 
-Szczegóły omówiono w dokumencie Yellowstone Compute Model: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+Szczegóły omówiono w dokumencie Yellowstone Compute Model: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## Dowód, Rejestracja i Nagrody dla Community Buildera:
 Definicja Community Builder polega na pobraniu i uruchomieniu pełnego węzła Morpheus, podłączeniu portfela i korzystaniu z Morpheus API w celu zapewnienia interfejsu użytkownika i narzędzi programistycznych. Ich wkład można obliczyć poprzez uwzględnienie podpisanej transakcji wygenerowanej przez Smart Agenta ze zwrotem wyniku z transakcji MOR.
