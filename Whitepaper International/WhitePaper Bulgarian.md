@@ -5,7 +5,7 @@
 ## Мрежа за захранване на интелигентни агенти
 ### Автор: Морфей, Тринити и Нео
 Публикувано - 2 септември 2023 г.
-Връзка към техническите подробности на жълтата книга: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Връзка към техническите подробности на жълтата книга: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 
 ## Въведение 
