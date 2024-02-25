@@ -4,7 +4,7 @@
 ## Et nettverk for å drive smarte agenter
 ### Forfattet av Morpheus, Trinity, & Neo
 Publisert - 2. september 2023
-Lenke til tekniske detaljer i Gult Papir: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Lenke til tekniske detaljer i Gult Papir: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Innledning
 Morpheus er designet for å motivere det første peer-to-peer-nettverket av personlige AI-er, kjent som Smarte Agenter. Ved å tilby brukerne åpen kildekode Smarte Agenter for å koble seg til deres lommebøker, Dapps og smartkontrakter, lover det å åpne Web3-verdenen for alle.
@@ -151,7 +151,7 @@ I Yellowstone Beregningsmodellen betaler Morpheus-nettverket Leverandører kun f
 
 For å kvalifisere til å motta Beregningsforespørsler, må en Beregningsleverandørs adresse HOLDE MOR-tokens. Forespørsler vil bli rute til Beregningsleverandørens API proporsjonalt til MOR de holder sammenlignet med alle andre registrerte Beregningsleverandører.
 
-Detaljer diskuteres i Yellowstone Beregningsmodell-papiret: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+Detaljer diskuteres i Yellowstone Beregningsmodell-papiret: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md
 
 ## Samfunnsbygger Bevis, Registrering & Belønning:
 Definisjonen av en Samfunnsbygger er at de har lastet ned og kjørt Morpheus fullnoden, koblet til sin lommebok og bruker Morpheus API for å tilby brukergrensesnitt og utviklerverktøy. Deres bidrag kan beregnes ved å inkludere en signert transaksjon generert av Smart Agenten med retur av output fra MOR-transaksjonen.
