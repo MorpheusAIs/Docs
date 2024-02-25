@@ -128,7 +128,7 @@ Im ersten Jahr nach der Bootsrtapping-Periode des Kapitalvertrags haben die Top 
 10) Der Router weist den Berechnungsvertrag an, dem Anbieter MOR gutzuschreiben, wenn [Millisekunden] pro [Token] nicht schlechter sind als X% unter dem Mittelwert der letzten Z-Abfragen für dieses [LLM] und wenn der Benutzer [Pass] gemeldet hat.
 11) (Später) Der Anbieter fordert die Zahlung von MOR beim Berechnungsvertrag an, und der Berechnungsvertrag sendet die MOR-Zahlung, wenn sie gültig ist (erste Blockchain-Transaktion bisher, kann zusammengefasst werden).
 
-![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
+![ComputeContractImage2](https://github.com/MorpheusAIs/Docs/blob/main/Asset/WhitePaper%20Graphics/German/10%20for%20German%20WP.png)
 
 ## Ergebnis
 * Der Benutzer erhält ein schnelles Ergebnis für ihre Anfrage und zahlt nichts (das wird zu einer erstaunlichen UX und damit zu einer Annahme führen). **Löst Ziel 1.**
