@@ -4,7 +4,7 @@
 ## Smart Agent quvvatlantirish tarmog'i
 ### Muallif: Morpheus, Trinity va Neo
 Nashr etilgan - 2023 yil 2 sentyabr
-Sariq qog'ozning texnik ma'lumotlariga havola: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+Sariq qog'ozning texnik ma'lumotlariga havola: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Kirish
 Morpheus Smart Agentlar deb nomlanuvchi shaxsiy AIlarning birinchi tengdoshlari tarmog'ini rag'batlantirish uchun mo'ljallangan. Foydalanuvchilarga ochiq manbali Smart Agentlarni hamyonlariga, Dapps va aqlli shartnomalariga ulanish uchun taqdim etish Web3 dunyosini hamma uchun ochishni va'da qiladi.
