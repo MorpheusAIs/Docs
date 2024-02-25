@@ -177,7 +177,7 @@ Der Router ist eine Softwareanwendung, die über eine MOR-Adresse verfügt und d
 10) Der Router weist den Berechnungs-Anbieter an, dem Anbieter eine Gutschrift für MOR zu erteilen, wenn die Zeit [Millisekunden] pro [IPS] nicht schlechter ist als X% unter dem Mittelwert der letzten Z Abfragen für diese [LLM] und wenn der Nutzer [Pass] gemeldet hat.
 11) (Einige Zeit später) Der Anbieter fordert die Zahlung der MOR vom Berechnungs-Vertrag an, und der Berechnungs-Vertrag sendet die MOR-Zahlung, wenn sie gültig ist (erste Blockchain TX bisher, kann gestapelt werden).
 
-![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
+![ComputeContractImage2](https://github.com/MorpheusAIs/Docs/blob/main/Asset/WhitePaper%20Graphics/German/10%20for%20German%20WP.png)
 
 
 ### Berechnung des Bootstrapping-Anreizes
