@@ -4,8 +4,7 @@
 ## Ett Nätverk För Drift Av Smarta Agenter
 ### Författare: Morpheus, Trinity och Neo
 Publicerad - 2 september 2023
-Länk till teknisk information om gult papper: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
-
+Länk till teknisk information om gult papper: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 ## Inledning
 Morpheus är designad för att skapa incitament till det första peer-to-peer-nätverket av personliga AI:n, känt som "smarta agenter".  Genom att ge användarna öppen källkod för Smart Agents att ansluta till sina plånböcker, Dapps, & smarta kontrakt lovar att öppna världen av Web3 för alla.
 
@@ -152,7 +151,7 @@ I Yellowstone Compute-modellen betalar Morpheus-nätverket endast leverantörer 
 
 För att vara kvalificerad att ta emot beräkningsbegäranden måste en datorleverantörs adress ha MOR-token. Begäranden dirigeras till API:t för beräkningsproviders i proportion till den MOR som de innehar jämfört med alla andra registrerade datorproviders.
 
-Mer information finns i dokumentet Yellowstone Compute Model: https://github.com/MorpheusAIs/Morpheus/blob/main/Yellowstone%20Compute%20Model.md 
+Mer information finns i dokumentet Yellowstone Compute Model: https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md
 
 ## Community Builder Proof, Registration & Reward:
 Definitionen av en Community Builder är att de har laddat ner och kör Morpheus full nod, ansluten sin plånbok och använder Morpheus API för att ge användaren front & utvecklarverktyg. Deras bidrag kan beräknas genom att inkludera en undertecknad transaktion som genereras av Smart Agent med avkastningen från MOR-transaktionen.
