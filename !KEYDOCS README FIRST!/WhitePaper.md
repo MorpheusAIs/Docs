@@ -172,11 +172,11 @@ The Router is a software application that has a MOR address and negotiates the 2
 3) Router prioritizes RFCs based on User’s MOR balance.
 4) Router selects Provider that supports the [LLM], prioritized based on lowest Bid per IPS in MOR. 
 5) Router sends liveness check to Provider. If Pass, then:
-6) Router connects User to the Provider
-7) User sends Query ([LLM],[prompt]) to Provider 
-8) Provider computes Query, sends Result to User
-9) User reports Time [milliseconds] between Steps 4 & 5, [IPS] delivered, and Pass/Fail to Router
-10) Router instructs Compute Contract to credit Provider with MOR if [milliseconds] per [IPS] is no worse than X% below mean of past Z queries for that [LLM] and if User reported [Pass].
+6) Router connects User to the Provider over TCP/IP.
+7) User sends Query ([LLM],[prompt]) to Provider. 
+8) Provider computes Query, sends Result to User.
+9) User reports success metrics to Router (such as IPSs received or time taken, or pass/fail vote).
+10) Router instructs Compute Contract to credit Provider with MOR if job was completed satisfactorily.
 11) (Some time later) Provider requests payment of MOR from Compute Contract and Compute Contract sends MOR payment if valid (first blockchain TX so far, can be batched).
 
 ![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
@@ -184,7 +184,7 @@ The Router is a software application that has a MOR address and negotiates the 2
 
 ### Compute Bootstrapping Incentive
 
-For the first year following the Capital Contract's bootstrapping period, the top 100 Compute providers will be entitled to a prorated amount of 2.4% of MOR emissions.  This is calculated by the routers and accounted for in the compute contract.
+For the first year following the Capital Contract's bootstrapping period, the top 100 Compute providers may be entitled to a prorated amount of 2.4% of MOR emissions.  This is calculated by the routers and accounted for in the compute contract.
 
 For detailed information visit the [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 
