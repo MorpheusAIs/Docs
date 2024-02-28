@@ -202,3 +202,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/MorpheusAIs/Morpheus/pull/618 | 1  | Check and Use OLLAMA_HOST environment variable |
 | 0x31E985b4f7af6B479148d260309B7BcEcEF0fa7B | https://github.com/MorpheusAIs/Morpheus/pull/332 | 15 | Translated the whitepaper from English to Swedish |
 | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | https://github.com/MorpheusAIs/Morpheus/pull/627 | 8  | Added send button to Morpheus main UI |
+| 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://drive.google.com/file/d/14a43HQu7Da33xRtrtlBUbJIM8e2gJ8Ss/view?usp=sharing | 50 | Morephus node architecture - Initial |
