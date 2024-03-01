@@ -13,12 +13,10 @@ All Code Contributions should include the following five elements.
 
 > [!NOTE]
 > *Please include the "pipe" "|" symbol correctly as seen below so your contribution will format with the table.* \
-> **Format:** \
-> | Wallet Address | Link to Issue | Link to Work | Weights Requested (weights) | Description of Contribution | 
+> **Format:** | Wallet Address | Link to Issue | Link to Work | Weights Requested (weights) | Description of Contribution |  
+> **Example:** | 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue   | Link to Commit #127 | 50 |	Integration of ollama |
 
 
-**Example:**
-- | 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue   | Link to Commit #127 | 50                      |	Integration of ollama       |
 
 ## Follow These Best Practices
 
@@ -40,15 +38,15 @@ If you are considering working on something substantial that will take a lot of 
 If you are concerned about contributing something closed source and it being picked up by someone else, consider starting with a more restrictive license and offer to flip it to the MIT open source standard if the pull request / weights are accepted by the repository owner. 
 
 ## 6. Avoid Overlapping Commits on the Last Line of The Code - Proof_Of_Contribution.md File
-Often when people make contributions they add their address, proof, weights, and description to the very last line of the Code Contributions file.
+Often when people make contributions they add their address, proof, weights, and description to the very last line of the [Code Contributions](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md) file.
 So when multiple people do this and the first Pull Request is merged, it causes conflicts will all the other Pull Requests that added their Contribution to the same line.
 Consider placing your commit on a line other than the last one. As Code proof moves to a monthly basis consider adding your Code to a line equal to the date of its commitment.
 
 ## 7. Timeline for Submission and Acceptance / Rejection of Code Contribution
-- If an idea for a future contribution is being requested, then the requester should include a timeline in the request.
+If an idea for a future contribution is being requested, then the requester should include a timeline in the request.
 So for example if the GitHub repo owner wants contributors to create an Italian version of the white paper, then they should set a timeline say 7 days for submissions. Then contributors should expect that the GitHub repo owner will accept the best work done at the lowest number of weights requested. 
 
-- This creates a free market for code and lets people freely compete and the GitHub repo owner gets the benefit of comparing submissions at the same time instead of just accepting whichever contributor finished first. This ought to result in better outcomes and clear expectations from both sides.
+This creates a free market for code and lets people freely compete and the GitHub repo owner gets the benefit of comparing submissions at the same time instead of just accepting whichever contributor finished first. This ought to result in better outcomes and clear expectations from both sides.
 
 ## 8. Review process to rate quality.
 A second contributor can review other works submitted for quality and submit the review for 20% of the weights related to the submission.
