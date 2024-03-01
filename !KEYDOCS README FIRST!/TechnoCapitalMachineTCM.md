@@ -84,6 +84,11 @@ This can be achieved through a signaling period:
 - The signaling period will close 24 hours before the start of claiming MOR tokens.
 - Users can claim the wETH they are entitled to along with the opening of claiming MOR tokens.
 
+## Automated Recurring Revenue = "ARR"
+One of the great benefits of the this model its recurring nature.
+Instead of a one time funding event, the yield provided continues to flow into the project everyday for as long as the Capital rewards continue.
+In the Morpheus context the Capital Providers continue to earn rewards for 16 years, providing the project a longterm source of demand for the tokens and support for its development.
+
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.
 
