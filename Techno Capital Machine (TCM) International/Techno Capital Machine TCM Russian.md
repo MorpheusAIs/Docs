@@ -57,7 +57,37 @@
 
 Например, программист может решить принять или не принять любой вклад с открытым исходным кодом, который сообщество программистов предложило для их проекта. Основываясь на том, как они оценивают вклад кода и на количестве часов, которые хочет получить автор в качестве кредита за работу. Поставщики вычислений выбирают типы моделей и токенов ИИ, которые они хотят поддерживать, и цену, по которой они готовы предложить их. Поставщики капитала выбирают в какие проекты направить свой доход от stETH в зависимости от их желания использовать создаваемое программное обеспечение. И, наконец, строители сообщества могут выбирать проекты, для которых они хотят создавать интерфейсы, интегрировать или иным образом поддерживать разработку на основе вознаграждений, которые они получают от создателей проектов.
 
+## Atomic Voice & Exit
+The Atomic Governance Model is very different from a DAO model. This practically looks like: 
+1. Proposals get made for improvements, general discussion takes place. https://github.com/MorpheusAIs/MRC
+2. Then repository owners watch for people with real knowledge / skill and pull them into the coding planning to technically design an implementation.  
+3. Once the best technical design for coding up a proposal is identified and the developers confirm they can code it and test it in an expected time, then work begins.
+4. The broader coding community can add issues, submit pull requests and contribute to the effort.
+5. No broad vote on the proposal, its design, or its code is sought. Its much more a consensus by experts and judged by repo owner in the Atomic Governance model.
+6. After the code is developed and deployed every user maintains the right to use or not use it. To fork the code and otherwise create a different version or opt out of the project.
+
 Эта структура TCM гораздо лучше соответствует чисто рыночному подходу, чем попытка достижения согласия и координации между большим числом людей, что занимает много времени и труда, особенно на ранних этапах, когда программное обеспечение должно быстро изменяться и итерироваться до достижения хорошего соответствия продукта рынку и даже после этого, чтобы адаптироваться к новым рыночным условиям.
+
+## Fair Price Discovery Mechanism
+Bootstrapping the Uniswap AMM liquidity comes from the 4% of emissions dedicated to the Protection Fund. 
+This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
+The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
+
+### Creating Deep Liquidity & Open Participation
+It is necessary to ensure equal access to liquidity for all participants and establish rational price discovery. 
+
+This can be achieved through a signaling period:
+- 7 days before the start of claiming MOR tokens, users will have the opportunity to signal their desire to participate in fair price discovery and indicate the amount of MOR tokens (from available for claim) they would like to add to the liquidity pool and receive wETH in return.
+- Users will be able to see in real-time the tokens (MOR/wETH) ratio in the future pool and the amount of wETH they will receive in exchange for participating in fair price discovery, enabling them to make informed decisions.
+- During the signaling period, users can add or reduce the number of tokens participating in fair price discovery from the available amount to them for claim.
+- The signaling period will close 24 hours before the start of claiming MOR tokens.
+- Users can claim the wETH they are entitled to along with the opening of claiming MOR tokens.
+
+## Automated Recurring Revenue = "ARR"
+One of the great benefits of the this model its recurring nature.
+Instead of a one time funding event, the yield provided continues to flow into the project everyday for as long as the Capital rewards continue.
+
+In the Morpheus context the Capital Providers continue to earn rewards for 16 years, providing the project a longterm source of demand for the tokens and support for its development.
 
 ## Ссылки на код смарт контрактов и примеры
 Смарт контракты поставщиков капитала, которые предоставляют stETH и зарабатывают собственные токены проекта.
