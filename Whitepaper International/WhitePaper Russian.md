@@ -127,7 +127,7 @@ Morpheus - это альтернатива по типу Linux для разра
 
 Было предложено назвать процесс внесения доходности, обмена и добавления ликвидности "TCM". Сокращение от "Машина Технокапитала" ("techno-capital machine") в честь философа e/acc [Беффа Джезоса](https://twitter.com/BasedBeffJezos). 
 
-Документ детально поясняющий концепцию Машины технокапитала, доступен по [ссылке](https://github.com/antonbosss/Docs/blob/main/Yellowpaper%20International/YellowPaper%20Russian.md)
+Документ детально поясняющий концепцию Машины технокапитала, доступен по [ссылке](https://github.com/MorpheusAIs/Docs/blob/main/Techno%20Capital%20Machine%20(TCM)%20International/Techno%20Capital%20Machine%20TCM%20Russian.md)
 
 ## Доказательство, регистрация и вознаграждение за вклад в разработку кода: 
 Программист (кодер) - это тот, кто загрузил и запустил полный узел Morpheus, подключил свой кошелек и внес свой вклад (код) в разработку агента, смарт-контракт или другое программное обеспечение в сети Morpheus. При этом код должен соответствовать определенным [критериям и стандартам.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)
