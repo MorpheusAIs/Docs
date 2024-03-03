@@ -92,14 +92,11 @@
 Замість одноразового фінансування, наданий дохід продовжує надходити в проект щодня доти, доки триває винагорода за капітал. У контексті Morpheus постачальники капіталу отримуватимуть винагороди протягом 16 років, забезпечуючи проекту довгострокове джерело попиту на токени та підтримку його розвитку.
 
 ## Посилання на код смарт контрактів та приклади
-Смарт контракти постачальників капіталу, які надають stETH і заробляють власні токени проєкту:  
-[Посилання](https://github.com/MorpheusAIs/SmartContracts)
+Смарт контракти постачальників капіталу, які надають stETH і заробляють власні токени проєкту: [Посилання](https://github.com/MorpheusAIs/SmartContracts)
 
-Модель обчислень Yellowstone для ставок на обчислення.
-[Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Yellowstone%20Computer%20Model%20International/Yellowstone%20Compute%20Model%20Ukrainian.md)
+Модель обчислень Yellowstone для ставок на обчислення. [Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Yellowstone%20Computer%20Model%20International/Yellowstone%20Compute%20Model%20Ukrainian.md)
 
-Example Proof of Code Contribution.  
-[Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
+Example Proof of Code Contribution. [Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
 
 
 ## Невідповідність корпоративних структур та децентралізованих технологій
