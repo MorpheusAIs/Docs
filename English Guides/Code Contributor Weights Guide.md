@@ -54,7 +54,7 @@ At $6.89 per MORe that equals $400 in USD terms.
 
 See the Morstats.info website page where you can run this estimates dynamically. https://morstats.info/code-weights/
 
-## Weights Emissions Schedule
+## Weights Emissions Schedule & Supply Cap
 The weights earned by Coders are only valuable if they are scarce. So to offer clarity on the estimate for the number of Coder weights that will exist lets presume there is a cap of 42 thousand weights the end of the period where the reference implementations are coded (the first 2 years of the project).
 
 - Months 1 to 6 =  21,000 weights 
