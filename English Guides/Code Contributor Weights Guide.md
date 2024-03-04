@@ -51,3 +51,32 @@ This at least right now implies a per MOR value of 0.00237 stETH per MOR based o
 **All told this implies a current value of each weight at $400 USD.**
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
 At $6.89 per MORe that equals $400 in USD terms.  
+
+See the Morstats.info website page where you can run this estimates dynamically. https://morstats.info/code-weights/
+
+## Weights Emissions Schedule
+The weights earned by Coders are only valuable if they are scarce. So to offer clarity on the estimate for the number of Coder weights that will exist lets presume there is a cap of 42 thousand weights the end of the period where the reference implementations are coded (the first 2 years of the project).
+
+Months 1 to 6 =  21,000 weights 
+Months 7 to 12 = 10,500 weights
+Months 13 to 18 = 5,250 weights
+Months 18 to 24 = 2,625 weights
+
+**Total weights earned: 39,375 weights**
+
+Remaining weights go to funding new MRCs.
+
+Year 3 = 187.5 weights
+Year 4 = 187.5 weights
+Year 5 = 187.5 weights
+Year 6 = 187.5 weights
+Year 7 = 187.5 weights
+Year 8 = 187.5 weights
+Year 9 = 187.5 weights
+Year 10 = 187.5 weights
+Year 11 = 187.5 weights
+Year 12 = 187.5 weights
+Year 13 = 187.5 weights
+Year 14 = 187.5 weights
+Year 15 = 187.5 weights
+Year 16 = 187.5 weights
