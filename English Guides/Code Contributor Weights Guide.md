@@ -62,7 +62,7 @@ The weights earned by Coders are only valuable if they are scarce. So to offer c
 - Months 13 to 18 = 5,250 weights
 - Months 18 to 24 = 2,625 weights
 
-**Total weights earned: 39,375 weights**
+**Total weights available to be earned: 39,375 weights**
 
 Remaining weights go to funding new MRCs.
 
@@ -80,5 +80,7 @@ Remaining weights go to funding new MRCs.
 - Year 14 = 187.5 weights
 - Year 15 = 187.5 weights
 - Year 16 = 187.5 weights
+
+**Max weights that can be issued by end of year 16: 42,000 weights**
 
 Again, this represents the MAX weights that can be earned in a period. Its the buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve. 
