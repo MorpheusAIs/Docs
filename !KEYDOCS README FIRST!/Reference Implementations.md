@@ -11,7 +11,7 @@
 
 ## List of New Morpheus Reference Implementations
 - 6. Capital Proofs Extended beyond Lido stETH
-- 7. Compute Prooofs Morpheus / Lumerin
+- 7. Compute Proofs Morpheus / Lumerin
 - 8. Code Proofs & Dashboards
 - 9. Frontend Proofs & Examples 
 - 10. Interoperability   
