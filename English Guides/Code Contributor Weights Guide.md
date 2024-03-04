@@ -23,7 +23,7 @@ If you are asking for 100 weights, you are saying the Code is worth $124,100 USD
 The Morpheus code is constantly growing and changing and so lets calculate an example of a new coder who Contributes their code.
 
 Lets take for example the coding work being done on the Compute Proofs for the network. 
-In this case their are coders bidding to design, impliment, and test the Yellowstone proposal's "Decentralized Router".
+In this case there are coders bidding to design, implement, and test the Yellowstone proposal's "Decentralized Router".
 Say the winning bid is 1,000 weights to contribute the code.
 Say there are 10 developers involved, who would each earn 100 weights. 
 
@@ -38,11 +38,11 @@ This is really helpful to understand as it demonstrates the great value to Coder
 But also this high reward will generate a lot of competition among Coders 
 
 ## Market Driven Implied Value of Code Resets Monthly
-Its important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
-This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community FrontEnd developers.
+It is important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
+This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community Front End developers.
 
-The initial implied value of 1 weight was $50 USD before their was a market determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
-However now that there is a real world implied value of 1 weight this ought to be considered in each monthly snap shot.
+The initial implied value of 1 weight was $50 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
+However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
 
 While the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the current implied price can be estimated based on the total stETH deposited.
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
@@ -52,7 +52,7 @@ This at least right now implies a per MOR value of 0.00237 stETH per MOR based o
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
 At $6.89 per MORe that equals $400 in USD terms.  
 
-See the Morstats.info website page where you can run this estimates dynamically. https://morstats.info/code-weights/
+See the Morstats.info website page where you can run these estimates dynamically. https://morstats.info/code-weights/
 
 ## Weights Emissions Schedule & Supply Cap
 The weights earned by Coders are only valuable if they are scarce. 
@@ -77,4 +77,4 @@ So to offer clarity on the estimate for the number of Coder weights that will ex
 
 **Max weights that can be issued by end of year 16: 50,000 weights**
 
-Again, this represents the MAX weights that can be earned in a period. Its the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
+Again, this represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
