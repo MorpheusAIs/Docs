@@ -145,7 +145,7 @@ Given all this context beyond the funding, what are the simple practical technic
 
 ## Extending the Morpheus TCM Using the MOR Token
 The MOR tokens can serve as a means of extending the Techno Capital Machine to developers who want to build on the Morpheus platform.
-This could be implimented in the following way.
+This could be implemented in the following way.
 
 1. Reuse the same Smart Contracts, just this time instead of providing stETH, users stake MOR tokens.
 
