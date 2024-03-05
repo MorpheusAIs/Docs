@@ -60,20 +60,20 @@ So to offer clarity on the estimate for the number of Coder weights that will ex
 
 - Year 1 =  25,000 weights 
 - Year 2 = 12,500 weights
-- Year 3 = 5,250 weights
-- Year 4 = 2,625 weights
-- Year 5 = 1,312 weights
-- Year 6 = 656 weights
-- Year 7 = 328 weights
-- Year 8 = 164 weights
-- Year 9 = 82 weights
-- Year 10 = 41 weights
-- Year 11 = 20 weights
-- Year 12 = 10 weights
-- Year 13 = 5 weights
-- Year 14 = 2.5 weights
-- Year 15 = 1.25 weights
-- Year 16 = 0.5 weights
+- Year 3 = 6,250 weights
+- Year 4 = 3,125 weights
+- Year 5 = 1,563 weights
+- Year 6 = 781 weights
+- Year 7 = 391 weights
+- Year 8 = 195 weights
+- Year 9 = 98 weights
+- Year 10 = 49 weights
+- Year 11 = 24 weights
+- Year 12 = 12 weights
+- Year 13 = 6.1 weights
+- Year 14 = 3.1 weights
+- Year 15 = 1.5 weights
+- Year 16 = 0.8 weights
 
 **Max weights that can be issued by end of year 16: 50,000 weights**
 
