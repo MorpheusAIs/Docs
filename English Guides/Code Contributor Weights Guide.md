@@ -75,7 +75,7 @@ So to offer clarity on the estimate for the number of Coder weights that will ex
 - Year 14 /	3
 - Year 15 /	2
 - Year 16 /	2
-**Total	50,000**
+- **Total	50,000**
 
 **Max weights that can be issued by end of year 16: 50,000 weights**
 
