@@ -58,22 +58,24 @@ See the Morstats.info website page where you can run this estimates dynamically.
 The weights earned by Coders are only valuable if they are scarce. 
 So to offer clarity on the estimate for the number of Coder weights that will exist lets presume there is a cap of 50 thousand weights the end of the Coder reward period (16 years).
 
-- Year 1 =  25,000 weights 
-- Year 2 = 12,500 weights
-- Year 3 = 5,250 weights
-- Year 4 = 2,625 weights
-- Year 5 = 1,312 weights
-- Year 6 = 656 weights
-- Year 7 = 328 weights
-- Year 8 = 164 weights
-- Year 9 = 82 weights
-- Year 10 = 41 weights
-- Year 11 = 20 weights
-- Year 12 = 10 weights
-- Year 13 = 5 weights
-- Year 14 = 2.5 weights
-- Year 15 = 1.25 weights
-- Year 16 = 0.5 weights
+## Yearly Coding Weights
+- Year 1 / 25,000
+- Year 2 / 12,500
+- Year 3 / 6,250
+- Year 4 / 3,125
+- Year 5 / 1,563
+- Year 6 /	781
+- Year 7 /	391
+- Year 8 /	195
+- Year 9 /	98
+- Year 10 /	49
+- Year 11 /	24
+- Year 12	/ 12
+- Year 13 /	6
+- Year 14 /	3
+- Year 15 /	2
+- Year 16 /	2
+**Total	50,000**
 
 **Max weights that can be issued by end of year 16: 50,000 weights**
 
