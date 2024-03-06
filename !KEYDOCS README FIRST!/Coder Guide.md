@@ -10,6 +10,7 @@ To get started here is a short list of resources and some of the best ways to ge
 - Review Morpheus Request for Comment (MRC) list for high level understanding.
 - Review list of GitHub Issues for specifics.
 - Review Best Practices for tips on how to get your code added.
+- Review Code Contributor Guide to Earning Weights & Their Implied Value
 - Submit a Pull Request that adds value to Morpheus.
 
 ## Morpheus Request For Comments:
@@ -26,6 +27,11 @@ https://github.com/MorpheusAIs/Morpheus/issues
 The step by step details of how to Contribute Code, increase those odds of having your Pull Request merged.
 
 https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md
+
+## Code Contributor Guide to Earning Weights & Their Implied Value
+The detailed description of the implied value per weight which is updated each month.
+
+https://github.com/antonbosss/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md
 
 ## Code Contributor Table To Include In Pull Requests
 Include an update to the Code Contributor table on GitHub with your Code Contributions with your hour request.
