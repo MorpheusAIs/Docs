@@ -211,3 +211,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://drive.google.com/file/d/1wRYjtIzVgYQkvuo6SsUZrkat83W2MF7v/view?usp=sharing | 50 | Morephus provider marketplace UI design |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://drive.google.com/file/d/1cDVXvzYaRnDArzh9QPE4W-KDG1obUzyC/view?usp=sharing | 50 | Router architecture and logic flows |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://docs.google.com/document/d/1_3JAxTBsrUXM6wkyLGZx58FlPYj1cbWv1yS8PhLV4s4/edit?usp=sharing | 80 | Morpheus Ecosystem Smart Contract |
+| 0x478aC52c212d5e98EdF0e5877f50AfF38f1f647E | https://github.com/MorpheusAIs/Docs/issues/6| 2 | Discovered bug: 7 day withdrawal lock resets after staking more stETH for total stETH contributed |
