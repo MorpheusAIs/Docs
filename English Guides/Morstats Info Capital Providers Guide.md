@@ -46,6 +46,20 @@ Detailed Schedule the projected MOR price based on various overall market capita
 3) MOR price projection based off of the circulating supply at end of Year 1
 4) MOR price projection based off of the max supply of 42,000,000. Also known as the fully diluted value (FDV)
 
+Alternative pricing model that is based off of the stETH yield from Capital Providers.
+1) Range of average deposited stETH over the 90 day bootstrapping period.
+2) Scenario 1 is based off of the community documentation noting 7.522% of yield to be paired with Protection Fund MOR
+3) Scenario 2 is the maximum potential starting price based off of 100% of yield to be paired with Protection Fund MOR
+
+## Resources Page
+Links to find additional resources on Morpheus documentation and communities
+1) Website - https://mor.org
+2) Discord invite link
+3) GitHub Repository
+4) Twitter link
+5) Reddit link
+6) Contribution link - https://morpheus.206.189.243.3.sslip.io/capital#/mainnet/capital
+
 # Code Snippets
 Below are several code snippets that are useful for anyone else looking to build a website, dashboard, or analytics incorporating similar features.
 
