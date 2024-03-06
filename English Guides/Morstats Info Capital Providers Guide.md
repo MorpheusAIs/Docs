@@ -34,8 +34,13 @@ Detailed schedule showing the daily emissions broken down by
 8) Compute Allocation 
 9) Protection Allocation
 
+## Code Weights Page
+Details surrounding the newly released code weight guidance and emission schedules. Provides supporting documentation to help community understand potential earnings from the contribution of code.
+1) Annual Earnings Calculator - Users can enter their own estimates for MOR price and their Code Weights. The resulting output provides the comparison against total annual weights, the estimated annual MOR earned, and the estimated USD earned.
+2) The Estimated Earnings table provides a schedule showing the expected emissions schedule, cumulative weights, MOR earned per weight, a hypothetical MOR price, and then the resulting monthly value of weights. This helps to provide a framework for users to better think through the value of weights.
+
 ## MOR Price Projection Page
-Detailed Schedule the projected MOR price based on various overall market capitalization amounts. 
+Detailed Schedule the projected MOR price based on various overall market capitalization amounts. This provides a dropdown with two calculation methodologies and associated tables: Capital Provider stETH Yield Method and the Market Cap vs Supply Method. This provides two different ways for the community to think through potential prices.
 1) Estimated Market Cap
 2) MOR price projection based off of the circulating supply at Day 90
 3) MOR price projection based off of the circulating supply at end of Year 1
