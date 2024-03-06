@@ -50,7 +50,7 @@ This at least right now implies a per MOR value of 0.00237 stETH per MOR based o
 
 **All told this implies a current value of each weight at $400 USD.**
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
-At $6.89 per MORe that equals $400 in USD terms.  
+At $6.89 per MOR that equals $400 in USD terms.  
 
 See the Morstats.info website page where you can run this estimates dynamically. https://morstats.info/code-weights/
 
