@@ -1,6 +1,6 @@
 # Code Contributor Guide To Earning Weights & Their Implied Value
 
-## Tl;dr
+## TL;DR
 The emissions for Code Contributors are calculated based on "weights". An individual's weights divided up the total number of weights times the daily MOR emissions. 
 Morpheus is a marketplace for Code. Thus Coders are competing to provide high quality code at the best price, and then maintain that code and their weight in the Coder rewards.
 
