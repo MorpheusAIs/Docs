@@ -1,6 +1,6 @@
 # Жовта книга Morpheus
 
-Ця стаття описує технічні деталі повної ноди Morpheus, смарт-контракту Morpheus і пов'язані з ними докази. Представлено так, як написано в Білій книзі, наданій анонімними розробниками Morpheus, Trinity & Neo. 
+Ця стаття описує технічні деталі повної ноди Morpheus, смарт-контракту Morpheus і пов'язані з ними докази. Представлено так, як написано в Білій книзі, наданій анонімними розробниками Morpheus, Trinity & Neo.  
 Посилання на документ тут: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
 
 ## Локальна версія Morpheus 0.0.5 вже доступна на:
@@ -20,6 +20,17 @@ sudo dpkg -i /path/to/your/morpheus.deb
 b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5
 Версія: morpheus_0.0.5_amd64.deb
 ---------
+
+**Встановлення Morpheus версії 0.0.5 на Windows**
+
+- Спочатку встановіть WSL2, ви можете це зробити через команду `wsl  --install`. Потім відкрийте WSL2 за допомогою `wsl` та встановіть додаток.
+- Встановіть ollama за допомогою `curl https://ollama.ai/install.sh | sh`
+- Встановіть python за допомогою `sudo apt-get update` and `sudo apt-get install python3`.
+- Потім введіть `pip3 install gdown`.
+- ПОтім завантажте Linux версію Morphrus за допомогою `gdown https://drive.google.com/uc?id=1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB`.
+- Перевірте оригінальність версії через `sha1sum morpheus_0.0.5_amd64.deb` та переконайтеся що хеш співпадає з `b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5`, якщо ні, то відмініть встановлення.
+- Потім запустіть `sudo dpkg -i morpheus_0.0.5_amd64.deb`.
+- Тепер, коли morpheus встановлено без будь-яких помилок залежностей, відкрийте 2 вікна WSL2, відкривши 2 вікна командного рядка та ввівши wsl в обох із них, потім в одному з них запустіть `ollama serve`, а в іншому — `morpheus`.
 
 Перша взаємодія з Morpheus 22 жовтня 2023 року.
 ![FirstInteractionWithMorpheus20231022](https://github.com/MorpheusAIs/Morpheus/assets/1563345/35509f3a-4346-4f58-bb60-f7881fd10f7e)

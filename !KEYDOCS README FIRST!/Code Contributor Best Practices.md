@@ -36,7 +36,7 @@ If you are considering working on something substantial that will take a lot of 
 If you are concerned about contributing something closed source and it being picked up by someone else, consider starting with a more restrictive license and offer to flip it to the MIT open source standard if the Contribution is accepted by the repository owner. 
 
 ### 6. Avoid Overlapping Commits on the Last Line of The Code - Proof_Of_Contribution.md File
-When requesting weights, contributors often add their entry to the last line of the Code Contributions table. This can cause conflicts when merging pull requests as multiple requests may modify the same line. 
+When requesting weights, contributors often add their entry to the last line of the [Code Contributions](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md) table. This can cause conflicts when merging pull requests as multiple requests may modify the same line. 
 
 Consider placing your commit on a line other than the last one. As Code proof moves to a monthly basis consider adding your Code to a line equal to the date of its commitment.
 
@@ -44,7 +44,7 @@ Consider placing your commit on a line other than the last one. As Code proof mo
 - If an idea for a future contribution is being requested, then the requester should include a timeline in the request.
 So for example if the GitHub repo owner wants contributors to create an Italian version of the white paper, then they should set a timeline say 7 days for submissions. Then contributors should expect that the GitHub repo owner will accept the best work done at the lowest number of weights requested. 
 
-- This creates a free market for code and lets people freely compete and the GitHub repo owner gets the benefit of comparing submissions at the same time instead of just accepting whichever contributor finished first. This ought to result in better outcomes and clear expectations from both sides.
+This creates a free market for code and lets people freely compete and the GitHub repo owner gets the benefit of comparing submissions at the same time instead of just accepting whichever contributor finished first. This ought to result in better outcomes and clear expectations from both sides.
 
 ### 8. Review process to rate quality.
 A second contributor can review other works submitted for quality and submit the review for 20% of the weights related to the submission.
