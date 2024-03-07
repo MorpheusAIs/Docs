@@ -31,7 +31,7 @@ https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20
 ## Code Contributor Guide to Earning Weights & Their Implied Value
 The detailed description of the implied value per weight which is updated each month.
 
-https://github.com/MorpheusAIs/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md
+https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md
 
 ## Code Contributor Table To Include In Pull Requests
 Include an update to the Code Contributor table on GitHub with your Code Contributions with your hour request.
