@@ -74,7 +74,7 @@ Bootstrapping the Uniswap AMM liquidity comes from the 4% of emissions dedicated
 This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
 The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
 
-### Creating Deep Liquidity & Open Participation
+## Creating Deep Liquidity & Open Participation
 It is necessary to ensure equal access to liquidity for all participants and establish rational price discovery. 
 
 This can be achieved through a signaling period:
@@ -83,6 +83,12 @@ This can be achieved through a signaling period:
 - During the signaling period, users can add or reduce the number of tokens participating in fair price discovery from the available amount to them for claim.
 - The signaling period will close 24 hours before the start of claiming MOR tokens.
 - Users can claim the wETH they are entitled to along with the opening of claiming MOR tokens.
+
+## Automated Recurring Revenue = "ARR"
+One of the great benefits of the this model its recurring nature.
+Instead of a one time funding event, the yield provided continues to flow into the project everyday for as long as the Capital rewards continue.
+
+In the Morpheus context the Capital Providers continue to earn rewards for 16 years, providing the project a longterm source of demand for the tokens and support for its development.
 
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.

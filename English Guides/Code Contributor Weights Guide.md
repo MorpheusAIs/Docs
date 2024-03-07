@@ -37,6 +37,7 @@ This is really helpful to understand as it demonstrates the great value to Coder
 But, this high reward will also generate a lot of competition among Coders. 
 
 ## Market Driven Implied Value of Code Resets Monthly
+
 It's important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
 This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community FrontEnd developers.
 
@@ -49,4 +50,33 @@ This at least right now implies a per MOR value of 0.00237 stETH per MOR based o
 
 **All told this implies a current value of each weight at $400 USD.**
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
-At $6.89 per MORe that equals $400 in USD terms.  
+At $6.89 per MOR that equals $400 in USD terms.  
+
+See the Morstats.info website page where you can run this estimates dynamically. https://morstats.info/code-weights/
+
+## Weights Emissions Schedule & Supply Cap
+The weights earned by Coders are only valuable if they are scarce. 
+So to offer clarity on the estimate for the number of Coder weights that will exist lets presume there is a cap of 50 thousand weights the end of the Coder reward period (16 years).
+
+## Yearly Coding Weights
+- Year 1 / 25,000
+- Year 2 / 12,500
+- Year 3 / 6,250
+- Year 4 / 3,125
+- Year 5 / 1,563
+- Year 6 /	781
+- Year 7 /	391
+- Year 8 /	195
+- Year 9 /	98
+- Year 10 /	49
+- Year 11 /	24
+- Year 12	/ 12
+- Year 13 /	6
+- Year 14 /	3
+- Year 15 /	2
+- Year 16 /	2
+- **Total	50,000**
+
+**Max weights that can be issued by end of year 16: 50,000 weights**
+
+Again, this represents the MAX weights that can be earned in a period. Its the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
