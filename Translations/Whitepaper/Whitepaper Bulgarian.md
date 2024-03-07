@@ -1,6 +1,5 @@
 ![Morpheuslogo](https://github.com/MorpheusAIs/Morpheus/assets/1563345/235b9c04-f3b1-4520-a328-2070c9c890ab)
 
-
 # Morpheus
 ## Мрежа за захранване на интелигентни агенти
 ### Автор: Морфей, Тринити и Нео
