@@ -10,7 +10,7 @@
 6) Morpheus uses crypto-based financial rails to reward AI & Smart Agent providers.
 7) Follow the white rabbit. Free your mind.
 
-## FAIR LAUNCH
+## [FAIR LAUNCH](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
 1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. All earning of MOR rewards starts at the same time.
 2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts to move to Ethereum mainnet.
 3) Bootstrap period goes for 90 days, MOR tokens are only claimable on day 91 (~ May 9th).
@@ -24,27 +24,14 @@
 **What is Morpheus?**  
 Morpheus is a Decentralized AI network and local inference. 
 
+**What is a Smart Agent?**  
+Smart Agent is a term to describe a general purpose AI that can execute Smart Contracts on behalf of a user using LLM Transformer language that converts human language into actionable code for Web3 interactions using intent based abstractions.
+
 **Who are the founders?**  
-The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/3.YellowPaper.md) September 2nd 2023. 
+The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
 
 **Who is on the team?**  
 There is no formal team, company or Foundation. Morpheus is fully decentralized and community driven.
-
-**How can I contribute?**  
-If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/AhuF3Nxc) or ⁠👥︱[designer-intros](https://discord.gg/TfAPbYGH).
-If your skills are outside of the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/sqhs22PU)
-
-**Who can I contact regarding cooperation/marketing proposals?**  
-You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
-
-**Where can I get more information about Morpheus?**  
-This FAQ is the best start and Morpheus [Whitepaper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md) next.
-
-**How do I contribute to be considered part of the Morpheus community?**  
-Using any skills at your disposal to provide clear value to the community, if you are unsure of how your skills can be used please go to the ⁠🎣︱[skills](https://discord.gg/sqhs22PU) channel 
-
-**What is a Smart Agent?**  
-Smart Agent is a term to describe a general purpose AI that can execute Smart Contracts on behalf of a user using LLM Transformer language that converts human language into actionable code for Web3 interactions using intent based abstractions.
 
 **How does Morpheus make it technically possible that everyone can run the assistant on their own computer?**  
 Think of Morpheus as the base layer 0 for the agents to be able to interact across Web3 in a Decentralized fashion. Like what Google search was to the internet in the 90s it allows an aggregation of and accessible to all the Web3 on-chain activity through a Smart Agent controlled by the user that is familiar with them. This in turn should reduce the friction for all users, crypto native and retail, when interacting in the space where everything is currently siloed with a large barrier to entry. While there is no chain for Morpheus itself for people to build dapps on (Yet) it will allow users freedom of accessibility in the space that hasn't been possible before.
@@ -55,6 +42,16 @@ At the moment, there are no such plans, but it's not ruled out in the future.
 **Why did you choose Ethereum and Arbitrum for the launch?**  
 Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. 
 
+**How can I contribute?**  
+If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/AhuF3Nxc) or ⁠👥︱[designer-intros](https://discord.gg/TfAPbYGH).
+If your skills are outside of the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/sqhs22PU)
+
+**Who can I contact regarding cooperation/marketing proposals?**  
+You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
+
+**Where can I get more information about Morpheus?**  
+This FAQ is the best start and Morpheus [Whitepaper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
+
 
 ## MOR TOKEN AND LIQUIDITY
 **What is MOR?**   
@@ -64,7 +61,7 @@ MOR is the underlying token of the Morpheus network.
 The objective is for MOR to provide broad utility in many of the functions of the Morpheus network. As a result, the use of the MOR token offers an on-chain accounting mechanism to calculate rewards based on real usage of the software.
 
 **How/where can I buy tokens?**  
-You will be able to purchase MOR token ONLY after a 90-day of bootstrapping period (tentatively May 9th). A liquidity pool will be created on Uniswap for the Arbitrum network for this purpose.
+You will be able to purchase MOR token ONLY after a 90-day of bootstrapping period (tentatively May 8th). A liquidity pool will be created on Uniswap for the Arbitrum network for this purpose.
 
 **Can I know more about tokenomics?**  
 42 million MOR is the max supply that will ever exist.
@@ -85,9 +82,10 @@ By providing one of the 4C's:
 Phase 1: Code & Capital
 Phase 2: Compute
 Phase 3: Community
+Phase 4: Adding More Chains / Yield Types
 
 **Where will the AMM liquidity pool be created?**    
-Uniswap on Arbitrum chain with wstETH/MOR pair.
+Uniswap on Arbitrum chain with wETH/MOR pair.
 
 **How will the initial liquidity be created?**   
 51,444 MOR tokens by day 90 dedicated to the protection fund and leveraged for bootstrapping purpose will be paired with yield generated from deposited stETH and put into AMM liquidity pool.
@@ -104,7 +102,7 @@ The yield of stETH contributed stays in the Morpheus protocol and adds depth to 
 This period will ensure enough MOR tokens are ready for circulation to fulfill the utility functions of the network, thus avoiding extreme token scarcity and extreme market volatility.
 
 **What is the duration of this period?**  
-90 days, starting from when the Capital and Code Providers contract begins calculating rewards until those MOR tokens are claimable/sendable by users (~ May 9th). 
+90 days, starting from when the Capital and Code Providers contract begins calculating rewards until those MOR tokens are claimable/sendable by users (~ May 8th). 
 
 **Can I withdraw stETH during bootstrapping?**  
 Yes. You can withdraw stETH after 7 days initial lockup.
@@ -116,12 +114,15 @@ It is not locked. You are free to withdraw any time after 7 days.
 This measure was introduced in order to avoid people gaming the yield timing as protocol in fact rewards in advance from the moment you deposit, when yield is generated once a day.
 
 **Can I claim MOR token during the bootstrapping period?**  
-MOR token will be only claimable after the bootstrapping period on the 91st Day. 
+MOR token will be only claimable after the bootstrapping period on the 90th Day. 
 
 
 ## CODE
-**What is the Morpheus GitHub link?**  
-All important links are here: ⁠📚︱resources
+**How can I get involved with Morpheus?** 
+An onboarding process is described in the [Coder Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
+
+**What are the requirements to code contributors?**  
+There are Code Contributor Best Practices on [GitHub](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).
 
 **How do I get in touch with other builders for collaborations?**  
 The Accelerator Corner is your go to
@@ -131,10 +132,8 @@ The Accelerator Corner is your go to
 ⁠🖼︱[front-end](https://discord.gg/c9r6Y7E9)
 
 **How do code providers get rewarded?**  
-They get emissions depending on their contributed hours vs the total amount of hours daily.
+They get emissions depending on their contributed weights vs the total amount of hours daily.
 
-**What are the requirements to code contributors?**  
-There are Code Contributor Best Practices on [GitHub](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).
 
 
 ## CAPITAL
@@ -147,17 +146,20 @@ stETH can either be minted directly through the Lido or bought on exchanges.
 **When does the staking for stEth start?**  
 Staking for stETH starts on Feb 8th
 
+**When does the staking for stEth end?**  
+There is no cut off date. Emissions are a built-in feature of the protocol and will continue for at least 16 years of the first epoch.
+
 **How long should I deposit stETH?**  
 It’s completely up to you. You can deposit for days, weeks, months or years. While your stETH deposited and contributes yield, it earns you MOR rewards.
 
-**Should I withdraw stETH after 91 days?**  
+**Should I withdraw stETH after 90 days?**  
 The choice is yours, you can keep stETH deposited and continue to receive MOR rewards.
 
 **Is there a minimum or maximum amount of stETH one can deposit?**  
 The minimum deposit amount is 0.01 stETH and there is no maximum contribution limit. In other words No Cap on Capital Deposits.
 
 **Have contracts been audited?**  
-Yes, both the community and a dedicated auditor have reviewed the Smart Contracts, see the reports on [GitHub](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/9.TestingPlan.md).
+Yes, both the community and a dedicated auditor have reviewed the Smart Contracts, see the reports on [GitHub](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TestingPlan.md).
 
 **How will the stETH deposit contract be managed?**  
 There are 4 of 7 multisig managed by core open source contributors. The address is [MOR.ETH](https://etherscan.io/name-lookup-search?id=mor.eth)
@@ -182,7 +184,7 @@ There are always risks with smart contracts like bugs or vulnerabilities. To ens
 
 
 ## COMMUNITY
-**What is the Community emissions Bucket for?**
+**What is the Community emissions bucket for?**
 Community is for Front End and UI Developers as well as Smart Agents.
 
 
@@ -197,13 +199,10 @@ A regular user will be able to use Morpheus without running a node and while run
 There is no reward for running a Local inference at the moment, however, a full node will be rewarded when providing Morpheus Compute and Community functions.
 
 **How can I run the node?**  
-You need a Mac or PC with Linux Debian with 64gb storage, 16gb VRAM 16gb system RAM and 4CPU core, this a minimum requirement to ensure that there will be no issue on the system side and run most LLMs, follow steps from the guides located in the readme on GitHub. 
+You need a Mac or PC with Linux Debian with 64gb storage, 16gb VRAM 16gb system RAM and 4CPU core, this a minimum requirement to ensure that there will be no issue on the system side and run most LLMs, follow steps from the guides located in the [readme](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub. 
 
 **Can I run the node on Windows?**  
-No, only Mac and Linux Debian are supported at the moment. A guide located in the readme on GitHub.
-
-**Why is there only Mac and Linux?**  
-Ollama does not provide support for Windows and that is what provides the inference.
+Yes, by using Windows Subsystem for Linux (WSL). A guide located in the [readme](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub.
 
 **Can I run the node on VPS?**  
 You can not run one at the moment as there is no version of the node that can operate without a GUI yet.

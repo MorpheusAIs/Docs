@@ -1,4 +1,6 @@
-## Community Builder Contributor - Proof of Work
+## Community Frontend Interface Builder - Proof of Work
+
+Community Frontend Inferface Builders rewards will begin in Phase 3 after Code, Capital, and Compute are all deployed as this is a requirement for Frontend Inferface developers to do their work.
 
 Detail the work you are contributing to Morpheus.  You must include a link to the work for the work to be considered.  Examples of proof include links Morpheus related websites, application frontends, user guides or other easily verifiable information that lead directly to Inference usage.
 
@@ -8,6 +10,6 @@ Create a pull request and add a row to the following table. A good way to includ
 
 You need an EVM wallet like MetaMask/Rabby that can receive Ethereum-based (EVM) tokens and supports Arbitrum. MOR is an ERC-20 token.
 
-| Wallet Address                              | Link to Work | Time Devoted (hrs) | Description of Contribution                                   |
+| Wallet Address                              | Link to Work | Weights | Description of Contribution                                   |
 |---------------------------------------------| ------------ |------|---------------------------------------------------------------|
-| 0x76c22534B60B5dbbe16e9Fc0325435fd68550Bf3  | [Proof of Capital Dune Dashboard](https://dune.com/syncracy/morpheus) | 1 HR | A Dune dashboard to track the progress of Morpheus fair launch |
+

@@ -4,14 +4,14 @@
 ## A Network For Powering Smart Agents
 ### Authored by Morpheus, Trinity, & Neo
 Published - September 2nd 2023
-Link to Yellow Paper Technical Details: [https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/3.YellowPaper.md)
+Link to Yellow Paper Technical Details: [https://github.com/MorpheusAIs/Docs/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
 
 ## Introduction 
 Morpheus is designed to incentivize the first peer-to-peer network of personal general purpose AIs that can execute Smart Contracts on behalf of a user, known as [Smart Agents.](https://github.com/SmartAgentProtocol/SmartAgents/blob/main/White%20Paper.md) Providing users open-source Smart Agents to connect to their wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. 
 
 The user’s Web3 wallet for key management & to sign recommended transactions when interacting with the Smart Agent.
 A Large Language Model trained on Web3 data including Blockchains, Wallets, Dapps, DAOs, & Smart Contracts.
-The [SmartContractRank algorithm](https://www.smartcontractrank.org/) to score & recommend the best Smart Contracts to the user.
+The [SmartContractRank](https://www.smartcontractrank.org/) algorithm to score & recommend the best Smart Contracts to the user.
 Longterm memory of user data & connected applications stored locally or via decentralized cloud to provide a broader context to Smart Agent actions.
 
 Finally, the average user can talk with their Smart Agent in normal language and have it understand the question and take an action based on their intent/approval.  This moment is similar to how Google's search engine opened the early internet up to the general public through their easy to use web interface in the late 1990s.
@@ -111,8 +111,9 @@ The longterm result is about 1% of annual MOR rewards (relative to the number of
 
 ![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
 
-**IMPORTANT NOTE:** This does not alter the nature of the hard Supply Cap of 42 Million MOR. 
-Since the tail emission schedule is by definition only a portion of the MOR tokens which were burned, thus the MOR token can only become ever more scarce with each 5,833 day period.
+> [!NOTE] 
+> This does not alter the nature of the hard Supply Cap of 42 Million MOR. 
+> Since the tail emission schedule is by definition only a portion of the MOR tokens which were burned, thus the MOR token can only become ever more scarce > with each 5,833 day period.
 
 ![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
 
@@ -132,10 +133,10 @@ As a result, the Capital Provider will receive MOR tokens (calculated every bloc
 
 It has been proposed to refer to this process of yield contribution, swap and adding liquidity as the "TCM". Short for the "techno-capital machine" in honor of the e/acc philosopher [Beff Jezos](https://twitter.com/BasedBeffJezos). 
 
-See the link to the detailed explanation of Tеchno Capital Machine here: [TCM](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/4.TechnoCapitalMachineTCM.md)
+See the link to the detailed explanation of Tеchno Capital Machine here: [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
 
 ## Code Proof, Registration & Reward:
-The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Code Contributions Best Practices.](https://github.com/antonbosss/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md)
+The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Code Contributions Best Practices.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)
 
 The Coder will send a MOR transaction to the Coder Smart Contract to register their agent / smart contract or software. 
 The Coder will include in the memo of the transaction the following metadata. 
@@ -144,11 +145,11 @@ The Coder will include in the memo of the transaction the following metadata.
 - C. The version number of the software.
 - D. A hash of the state of the program, so users can check it is a valid and unaltered copy.
 
-The contributors to the Morpheus codebase are rewarded in proportion to all the cumulative development done on the repository as gauged by Full Time Equivalent (FTE) work contributed. For example, if there are 10 coders each having contributed 10% of the FTE time (denominated in hours) when the network launches, then each one gets 10% of the 3,456 MOR tokens each day = 345.6 MOR. This calculation is updated each month based on the cumulative FTE time (denominated in hours) contributions of the current mainnet version of the Morpheus software.
+The contributors to the Morpheus codebase are rewarded in proportion to all the cumulative development done on the repository as gauged by Full Time Equivalent (FTE) work contributed. For example, if there are 10 coders each having contributed 10% of the FTE time (denominated in weights) when the network launches, then each one gets 10% of the 3,456 MOR tokens each day = 345.6 MOR. This calculation is updated each month based on the cumulative FTE time (denominated in weights) contributions of the current mainnet version of the Morpheus software.
 
 The concept here is NOT based on the Labor Theory of Value. It doesn't matter how many hours are worked but rather the value produced by the work. That's why the repository owner has to actually merge in the code (the product of the work) for it to count toward rewards. The repository owner acts as the "customer" in the marketplace. 
 
-If the Code contributor is asking too many hours for the Contribution, or the quality of the contribution can't be qualified, or is of low quality, it's likely to be rejected by the repository owner. And while anyone "can" make a repository it takes a lot of work to maintain and also attract people to contribute to your repository over others, so the market is likely to focus on the best repositories with the most contributors and the best code resulting.
+If the Code contributor is asking too many weights for the Contribution, or the quality of the contribution can't be qualified, or is of low quality, it's likely to be rejected by the repository owner. And while anyone "can" make a repository it takes a lot of work to maintain and also attract people to contribute to your repository over others, so the market is likely to focus on the best repositories with the most contributors and the best code resulting.
 
 Open source and free market economics for the win.
 
@@ -163,7 +164,7 @@ To qualify to receive Compute requests, a Compute Provider's address must HODL M
 
 Provider’s hardware type is irrelevant to the network, so long as they satisfy the User’s Pass/Fail test. Any Provider bidding on more Queries than they can efficiently process will be penalized by failing this test.
 
-The Router is a software application that has a MOR address and negotiates the 2-sided market between Users and Providers. The Router registers and tracks Provider addresses and bids, processes Requests from Users, records (miliseconds) and Pass/Fail tests of processed Requests, and instructs the Compute Contract to credit eligible Providers for payment in MOR when requested. The Router never sends or receives MOR transactions (nor transactions on any blockchain). The Router never sees the content of a Request, nor the response.
+The Router is a software application that has a MOR address and negotiates the 2-sided market between Users and Providers. The Router registers and tracks Provider addresses and bids, processes Requests from Users, records [miliseconds] and Pass/Fail tests of processed Requests, and instructs the Compute Contract to credit eligible Providers for payment in MOR when requested. The Router never sends or receives MOR transactions (nor transactions on any blockchain). The Router never sees the content of a Request, nor the response.
 
 ### Workflow
 1) Users, Providers, and Router all create MOR pub keys (this is their identity and all messages are signed as such). 
@@ -171,11 +172,11 @@ The Router is a software application that has a MOR address and negotiates the 2
 3) Router prioritizes RFCs based on User’s MOR balance.
 4) Router selects Provider that supports the [LLM], prioritized based on lowest Bid per IPS in MOR. 
 5) Router sends liveness check to Provider. If Pass, then:
-6) Router connects User to the Provider
-7) User sends Query ([LLM],[prompt]) to Provider 
-8) Provider computes Query, sends Result to User
-9) User reports Time [milliseconds] between Steps 4 & 5, [IPS] delivered, and Pass/Fail to Router
-10) Router instructs Compute Contract to credit Provider with MOR if [milliseconds] per [IPS] is no worse than X% below mean of past Z queries for that [LLM] and if User reported [Pass].
+6) Router connects User to the Provider over TCP/IP.
+7) User sends Query ([LLM],[prompt]) to Provider. 
+8) Provider computes Query, sends Result to User.
+9) User reports success metrics to Router (such as IPSs received or time taken, or pass/fail vote).
+10) Router instructs Compute Contract to credit Provider with MOR if job was completed satisfactorily.
 11) (Some time later) Provider requests payment of MOR from Compute Contract and Compute Contract sends MOR payment if valid (first blockchain TX so far, can be batched).
 
 ![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
@@ -183,9 +184,9 @@ The Router is a software application that has a MOR address and negotiates the 2
 
 ### Compute Bootstrapping Incentive
 
-For the first year following the Capital Contract's bootstrapping period, the top 100 Compute providers will be entitled to a prorated amount of 2.4% of MOR emissions.  This is calculated by the routers and accounted for in the compute contract.
+For the first year following the Capital Contract's bootstrapping period, the top 100 Compute providers may be entitled to a prorated amount of 2.4% of MOR emissions.  This is calculated by the routers and accounted for in the compute contract.
 
-For detailed information visit the [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/7.Yellowstone%20Compute%20Model.md)
+For detailed information visit the [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 
 ## Community Builder Proof, Registration & Reward:
 The definition of a Community Builder is they have downloaded and run the Morpheus full node, connected their wallet and are using the Morpheus API to provide user front ends & developer tools. Their contributions provided can be calculated by including a signed transaction generated by the Smart Agent with the return of the output from the MOR transaction.
@@ -235,7 +236,7 @@ Recognizing ahead of time that software is never perfect Morpheus is setting asi
 
 For broader protection, an integration with Nexus Mutual or similar smart contract / decentralized protection network could be considered to cover edge cases with agents / smart contracts that want to be included in a Morpheus Agent Store or better ranked by the SmartContractRank algorithm. 
 
-Details about the protection fund are available [here](https://github.com/antonbosss/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/6.Protection%20Fund%20Details.md)
+Details about the protection fund are available [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
 
 ## Storage for Persistence & Wallets for Recovery
 Rather than store personal data in the Morpheus network itself, which would be cost prohibitive and a centralizing force, individuals will hold the private keys controlling access to their data, prompts & wallet. The data itself will be stored using the IPFS standard and the Filecoin network for decentralized long-term storage. Leveraging the Filecoin EVM and DeFi for yield a permanent recurring storage can be arranged. Alternatively, users can pay annually ENS style for storage. This approach enables keeping the private Web3 wallet as the key for movement/recovery of this data to different devices as the user changes computers or phones.
