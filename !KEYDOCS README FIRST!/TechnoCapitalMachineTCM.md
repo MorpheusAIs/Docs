@@ -69,20 +69,15 @@ The Atomic Governance Model is very different from a DAO model. This practically
 
 This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time-consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
 
-## Fair Price Discovery Mechanism
-Bootstrapping the Uniswap AMM liquidity comes from the 4% of emissions dedicated to the Protection Fund. 
-This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
-The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
+## Fair Price Discovery Mechanism with Deep Liquidity
+The community has designed a process to launch a Uniswap Automated Market Maker (AMM) pool at a fair price with deep liquidity. Additional details can be found at MRC 09 https://github.com/MorpheusAIs/MRC?tab=readme-ov-file#mrc-09-amm-launch-process. 
 
-## Creating Deep Liquidity & Open Participation
-It is necessary to ensure equal access to liquidity for all participants and establish rational price discovery. 
-
-This can be achieved through a signaling period:
-- 7 days before the start of claiming MOR tokens, users will have the opportunity to signal their desire to participate in fair price discovery and indicate the amount of MOR tokens (from available for claim) they would like to add to the liquidity pool and receive wETH in return.
-- Users will be able to see in real-time the tokens (MOR/wETH) ratio in the future pool and the amount of wETH they will receive in exchange for participating in fair price discovery, enabling them to make informed decisions.
-- During the signaling period, users can add or reduce the number of tokens participating in fair price discovery from the available amount to them for claim.
-- The signaling period will close 24 hours before the start of claiming MOR tokens.
-- Users can claim the wETH they are entitled to along with the opening of claiming MOR tokens.
+The basics of this approach include:
+- Bootstrapping the MOR side of Uniswap AMM liquidity from the 4% of emissions dedicated to the Protection Fund. The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
+- 52% of Morpheus' earned yield from Capital Providers' stETH is also added to the AMM pool. 52% represents the emissions in circulation at the completion of the Boostrapping Phase: Code (24%), Capital (24%), Protection Fund (4%) are circulating while Compute (24%) and Community (24%) are not yet circulating.
+- Opening price is set at the price where 52% of yield = 100% of Protection Fund MOR.
+- Remaining 48% of Morpheus' earned yield is allocated to a Uniswap V3 concentrated liquidity range from 0 to the initiation ratio (aka opening price), adjusted once per week based on market price.
+- This is smart as it avoids some bad actors from starting the pool with parameters meant to benefit themselves. 
 
 ## Automated Recurring Revenue = "ARR"
 One of the great benefits of the this model its recurring nature.
