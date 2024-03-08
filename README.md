@@ -14,11 +14,9 @@ Published - September 2nd 2023
 ---------
 **Morpheus Version 0.0.5 for Linux Debian**
 - Download: https://drive.google.com/file/d/1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB/view?usp=sharing
-- Instructions: To install, run this command:
+- Instructions: To install, run this command: `sudo dpkg -i /path/to/your/morpheus.deb`
 
-`sudo dpkg -i /path/to/your/morpheus.deb`
-
-NOTE: In the above command, replace "/path/to/your/morpheus.deb" with your path to the morpheus_0.0.5_amd64.deb file.
+**NOTE:** In the above command, replace "/path/to/your/morpheus.deb" with your path to the morpheus_0.0.5_amd64.deb file.
 - SHA Hash for Verifiction:
 b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5
 - Version: morpheus_0.0.5_amd64.deb
@@ -27,10 +25,22 @@ Morpheus Linux Debian Guide:
 https://docs.google.com/document/d/1PLRxWIKppNHIy461ZeHHP1Lz6ZC7rcbSRyD7SJCkyKg/edit#heading=h.85k2a53a2as
 
 ---------
+**Installing Morpheus Version 0.0.5 on Windows**
+
+- First, install WSL2, you can do that by running `wsl  --install` on an admin command prompt. Then open WSL2 with `wsl` and follow the setup process.
+- Then run `curl https://ollama.ai/install.sh | sh` to install ollama.
+- Then install python by doing `sudo apt-get update` and `sudo apt-get install python3`.
+- Then run `pip3 install gdown`.
+- Now download the morpheus dpkg by running `gdown https://drive.google.com/uc?id=1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB`.
+- Verify the integrity of the Morpheus download by `sha1sum morpheus_0.0.5_amd64.deb`. make sure it matches the hash `b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5`, otherwise abort the installation process.
+- Then run `sudo dpkg -i morpheus_0.0.5_amd64.deb`, if the installation fails at first, install the dependencies, and try again.
+- Now once you have morpheus installed without any dependency errors, open 2 WSL2 windows by opening 2 commandline windows and typing wsl on both of them, then on one of them run `ollama serve` and on the other run `morpheus`.
+
+---------
 ## Introduction 
 The Smart Agent concept of connecting LLMs and AI Agents to wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. Chatting in normal language with your Smart Agent and having it understand the question or task, is similar to how Google's search engine opened the early internet up to the general public.
 
-To make Smart Agents accessible to everyone and increase decentralization we propose a network & fairly launched token for incentivizing all four of the key contributors to their operation. Namely, the community of users, coders contributing to the Morpheus software / agents, capital providers funding development / operations and those suppling computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
+To make Smart Agents accessible to everyone and increase decentralization we propose a network & fairly launched token for incentivizing all four of the key contributors to their operation. Namely, the community of users, coders contributing to the Morpheus software / agents, capital providers funding development / operations and those supplying computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
 
 ## Key documents list:
 - [White Paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
