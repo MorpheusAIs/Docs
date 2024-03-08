@@ -1,25 +1,27 @@
 # Date For Morpheus Fair Launch - February 8th 2024
-Based on the progress of the Smart Contracts in the test nets and the community members who have sponsored auditors to test the Smart Contracts (thank you) it looks like the Morpheus Smart Contracts maybe deployed to Ethereum / Arbitrum mainnet on February 8th 2024 and contributors will begin earning MOR.
+Following successful audits and testnet deployments, smart contracts for the Morpheus (MOR) token and its fair launch were deployed to Ethereum and Arbitrum mainnet on February 7th 2024.
 
-This is a proposed date and it could change. But presuming the Smart Contracts continue to test well, this seems a reasonable date after the audits are complete and has been proposed by the Smart Contract developers as the date to begin the fair launch.
+The fair launch commenced on February 8th for Code and Capital contributors, as per the bootstrapping schedule outlined below.
 
 ## Bootstrapping Period Phase 1 - Code & Capital
-The Smart Contracts will begin creating MOR token emissions for Code, Capital, Compute, and Community from day 1 however keep in mind the stETH and MOR tokens will not be claimable / sendable until day 91 after phase 1 of the bootstrapping period is complete for Code & Capital Providers.
+The Smart Contracts began allocating MOR token emissions for Code, Capital, Compute, and Community from day 1. Keep in mind MOR tokens are not be claimable or transferrable until day 91 after phase 1 of the bootstrapping period is complete for Code & Capital Providers.
 
 ## Bootstrapping Period Phase 2 - Compute
-As part of the broader bootstrapping period but may last longer than 90 days for Compute Providers the Smart Contracts will build up MOR tokens rewards from day 1. However the Smart Contracts will not distribute the MOR tokens to Compute Providers until the Compute Router and other details are developed by the community.
+While rewards for Compute contributors began accruing on day 1, they will not be distributed until the Compute Router and other details are developed by the community.
 
 ## Bootstrapping Period Phase 3 - Community Front End Builders
-As part of the broader bootstrapping period but after the Compute Smart Contracts go live, the Community Builder Smart Contracts will build up MOR tokens rewards from day 1. However the Smart Contracts will not distribute the MOR tokens to Community Builders until the Community Smart Contracts and other details are developed by the community.
+Similarly, rewards for Community (frontend) contributors began accruing on day 1, but will not be distributed until distribution details are developed by the community.
 
 ## Bootstrapping Period Phase 4 - Adding More Chains / Yield Types
-As Morpheus is meant to be chain agnostic its worth considering proposals to extend both the MOR token functions to other chains and the yield provision from other sources. 
-Examples of extending the chains would be to use Wormhole or LayerZero to move MOR tokens between ETH, ARB, POLY, Solana, and the Cosmos chains.
-Examples of adding yield would be to allow BTC yield from Thorchain or mSOL from Solana to become Capital Contributors and earn a pro-rata amount of rewards.
-These are significant and interrelated projects as adding yield sources necessitates adding the MOR tokens to other chains in a way where the messaging can work cross chain. 
+As Morpheus is intended to be chain-agnostic, it is worth considering proposals to deploy the MOR token on other chains and provision yield (with eligibility for Capital rewards) from other sources.
+
+- Examples of cross-chain deployments could entail using Wormhole or LayerZero to move MOR tokens between ETH, ARB, POLY, Solana, and the Cosmos chains.
+- Examples of alternative yield sources could include BTC yield from Thorchain or mSOL from Solana.
+
+These are significant and interrelated projects as adding yield sources necessitates adding the MOR token to other chains in a way where cross-chain messaging is possible. 
 
 ## Updated Testing Plan
-Outlined here is the testing plan the Morpheus Smart Contracts has been through before launch.
+Outlined here is the testing plan the Morpheus Smart Contracts were subject to before launch:
 https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TestingPlan.md
 
 ## History
