@@ -189,6 +189,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x9f953211e1C05548B9A4fc8eD3Ea3Ee90B971E5F | https://github.com/MorpheusAIs/Morpheus/commit/2d37b70a02bd4b3abc3f3d716f344764045e301a | 2 | Albanian whitepaper translation |
 | 0x4a4eAE6b3246fa1768a9cB54609eD4903278858D | https://github.com/MorpheusAIs/Docs/pull/32 | 5 | Expansive Urdu Translations for Enhanced Global Reach |
 | 0x4E1ebaf42b37Fa8af7a5544F06E8c4aefe06F0B8 | https://github.com/MorpheusAIs/Morpheus/pull/540 | 1 | Reviewed language etc |
+| 0x06fe938d02C4AB732Db5918dA83Eeb712AD453Ad | https://github.com/MorpheusAIs/Docs/pull/49 | 1.5 | Spell check code contribution weight |
 | 0xbc012fae5b08b244ae680b307a1e03f697d337f6 | https://github.com/MorpheusAIs/Morpheus/pull/547 | 8 | Add funds protection doc translations |
 | 0xaA5CaAcfD7a79A3A3B7d99D0c35DB90AF8C27676 | https://github.com/MorpheusAIs/Morpheus/pull/597 | 2 | Spell check and natural language corrections |
 | 0x06fe938d02C4AB732Db5918dA83Eeb712AD453Ad | https://github.com/MorpheusAIs/Morpheus/pull/624 | 2 | French installation guide |
