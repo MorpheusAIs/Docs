@@ -5,7 +5,7 @@
 - **Stage 1:** Open source developers publish the source code.
 - **Stage 2:** Colleagues of original devs test the Smart Contracts.
 - **Stage 3:** Community members test for vulnerabilities.
-- **Stage 4:** Dedicated testing firm reviews the Smart Contracts on testnet. [Link](https://github.com/MorpheusAIs/Docs/blob/main/Testing%20Reports/report-v2%20of%20Morpheus%20Audit.pdf) to Audit report.
+- **Stage 4:** Dedicated testing firm reviews the Smart Contracts on testnet. [Link](https://github.com/antonbosss/Docs/blob/main/Security%20Audit%20Reports/Renascence%20Morpheus%20Audit%20v2.pdf) to Audit report.
 - **Stage 5:** Public Audit and bug bounty.  
   The competition was held through https://www.codehawks.com/.  
   Link to [Audit Competition](https://www.codehawks.com/contests/clrzgrole0007xtsq0gfdw8if).  

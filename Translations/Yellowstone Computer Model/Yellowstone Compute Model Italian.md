@@ -5,7 +5,6 @@
 ### 3 gennaio 2024
 
 Una revisione suggerita della struttura tokenomica di Morpheus per l'incentivazione del calcolo su una rete AI decentralizzata. 
-Visualizza su Notion: https://defiant-wolfsbane-830.notion.site/Morpheus-Yellowstone-Compute-Model-2ca9b4e7e1374c898937fdbd1b964cc1
 
 ## Riassunto
 Nel Modello di Calcolo Yellowstone, la rete Morpheus paga i Provider solo per il Calcolo effettivamente fornito attraverso un processo di offerta competitiva e assegna la produzione scarsa di Token pro-rata ai detentori di token MOR in base al saldo, anziché al pagamento. Ciò migliora drasticamente l'esperienza utente riducendo al minimo la vulnerabilità Sybil. Yellowstone conferisce anche metriche importanti come il tempo e un test Pass/Fail per garantire che i Provider siano sufficientemente rapidi e precisi. Yellowstone preserva la privacy evitando di inviare mai prompt o risultati attraverso il Router e minimizza le transazioni blockchain per consentire una scala operativa ampia. Attraverso questo modello, MOR raggiunge un valore fondamentale poiché consente l'accesso perpetuo (sebbene non illimitato) a un calcolo senza permessi, senza richiedere transazioni per inferenza.

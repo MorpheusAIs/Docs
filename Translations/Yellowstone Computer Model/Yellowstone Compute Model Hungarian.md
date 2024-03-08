@@ -5,7 +5,6 @@
 ### 2024. január 3.
 
 Egy javasolt módosítás a Morpheus tokenomics struktúrájához a decentralizált AI hálózaton történő számítási ösztönzéshez. 
-Megtekintés a Notion-on: https://defiant-wolfsbane-830.notion.site/Morpheus-Yellowstone-Compute-Model-2ca9b4e7e1374c898937fdbd1b964cc1
 
 ## Összefoglaló
 A Yellowstone Számítási Modellben a Morpheus hálózat csak az általuk nyújtott számítási kapacitásért fizet a szolgáltatóknak egy versenyképes ajánlati folyamat során, és a Tokenek korlátozott előállítását pro-rata elosztja a MOR token tulajdonosoknak az egyensúly alapján, nem pedig a fizetés alapján. Ez jelentősen javítja a felhasználói élményt, miközben minimalizálja a Sybil sebezhetőséget. A Yellowstone időt és egy Átmeni/Teljesítmény tesztet is belefoglal, hogy biztosítsa a szolgáltatók megfelelő gyorsaságát és pontosságát. A Yellowstone megőrzi a magánéletet azzal, hogy soha nem küld promptokat vagy eredményeket a Router-en keresztül, és minimalizálja a blokklánc tranzakciókat a nagyméretű működés lehetővé tétele érdekében. Ezen a modellen keresztül a MOR alapvető értéket ér el, mivel lehetővé teszi a folyamatos (bár nem korlátlan) hozzáférést a jogosulatlan számításhoz, anélkül, hogy tranzakciók szülnének becslésekért.

@@ -136,7 +136,7 @@ It has been proposed to refer to this process of yield contribution, swap and ad
 See the link to the detailed explanation of Tеchno Capital Machine here: [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
 
 ## Code Proof, Registration & Reward:
-The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Code Contributions Best Practices.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)
+The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Coder Guide.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 
 The Coder will send a MOR transaction to the Coder Smart Contract to register their agent / smart contract or software. 
 The Coder will include in the memo of the transaction the following metadata. 

@@ -21,7 +21,7 @@ Please use the format below (including the pipe (|) symbol) to ensure contributi
 ### 1. The Key Is To Add Value To Get Merged / Rewarded
 Weights are NOT based on the Labor Theory of Value. It doesn't matter how many hours are worked but rather the value produced by the work. That's why the repository owner has to actually merge in the code (the product of the work) for it to count toward rewards. The repository owner acts as the "customer" in the marketplace. Look at other contributors to the repo and gauge the needs of the repository owner or read the current proposals in the MRC repository to see what future coding work is being proposed: https://github.com/MorpheusAIs/MRC
 
-Please read the [Code Contributor Weights Guide.](https://github.com/MorpheusAIs/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md) to understand the implied value per weight which is updated each month.
+Please read the [Code Contributor Weights Guide.](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) to understand the implied value per weight which is updated each month.
 
 ### 2. Be Reasonable and Competitive 
 If the Code contributor is asking too many weights for the Contribution or the quality of the contribution cannot be assessed or is of low quality, it is likely to be rejected by the repository owner.
