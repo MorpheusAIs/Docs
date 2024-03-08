@@ -222,3 +222,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://github.com/MorpheusAIs/Node, https://mor.software, https://github.com/MorpheusAIs/Docs | 138 | Morpheus 0.0.6, mor.software, repo management, setup of liet client from node and morpheus lumerin node |
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/MorpheusAIs/Docs/pull/13 | 2 | Translated whitepaper and yellowpaper to Traditional Chinese |
 | 0xC54d82BD1255a7C7b605f5D6c56823Fd3188ADb9 | https://github.com/MorpheusAIs/Docs/pull/9 | 1 | Translation of Polish paper |
+| 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/Morpheus/pull/658 https://github.com/MorpheusAIs/Node/pull/44 | 8 | UI improvement and API integration for listing locally installed models |
