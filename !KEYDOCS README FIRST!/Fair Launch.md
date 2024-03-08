@@ -1,6 +1,6 @@
-# Morpheus Fair Launch Date - February 8th 2024
+[# Morpheus Fair Launch Date - February 8th 2024
 Based on the progress of the Smart Contracts in the testnets and the community members who have sponsored auditors to test the Smart Contracts (thank you) Morpheus Smart Contracts have been deployed to Ethereum / Arbitrum mainnet on February 8th 2024 and contributors began earning MOR.
-
+https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md?plain=1
 ## Bootstrapping Period Phase 1 - Code & Capital (Live)
 The Smart Contracts have started creating MOR token emissions for Code, Capital, Compute, and Community from day 1 however keep in mind that MOR tokens will not be claimable / sendable until day 91 of phase 1 of the bootstrapping period.
 
@@ -24,3 +24,4 @@ https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Testing
 February 8th 2024 is the 28th Anniversary of "A Declaration of the Independence of Cyberspace" (February 8th 1996). 
 Seems like a good day to release Decentralized AI into the world.
 https://www.eff.org/cyberspace-independence
+](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md?plain=1)https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md?plain=1
