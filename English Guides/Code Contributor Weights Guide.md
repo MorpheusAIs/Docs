@@ -1,31 +1,30 @@
 # Code Contributor Guide To Earning Weights & Their Implied Value
 
 ## Tl;dr
-The emissions for Code Contributors are calculated based on "weights". An individual's weights divided up the total number of weights times the daily MOR emissions. 
-Morpheus is a marketplace for Code. Thus Coders are competing to provide high quality code at the best price, and then maintain that code and their weight in the Coder rewards.
+The emissions for Code Contributors are calculated based on "weights". An individual's allocation is equal to the individual's weights divided up by the total number of weights times the daily MOR emissions. 
+Morpheus is a marketplace for Code. Thus, Coders are competing to provide high quality code at the best price, and then maintain that code and their weight in the Code Contributors' rewards.
 
 ## Calculating The Implied Value of Weights
 Weights have an implied value due to the fact that they translate into MOR token emissions.
 3,456 MOR every day (starting on Day 1) are rewarded across all the coders.
-So a coder who has 200 weights out of the current 20,000 weights (1%). 
-Then they would receive 1% of MOR emitted to Coders each day.
-In other words they would be earning 34.56 MOR per day or 12,410 MOR over a year (a little less given the decay rate).
+So a coder who has 200 weights out of the current 20,000 weights (200 / 20,000 = 1%) would receive 1% of MOR emitted to Coders each day.
+In other words, they would be earning 34.56 MOR per day or 12,410 MOR over a year (a little less given the decay rate).
 
 To calculate this into ETH or USD terms is harder, but as an example we know there will be 5,091,984 MOR at day 365.
-If the total Morpheus market cap is $100,000,000 USD that would imply a per MOR price of $20 USD.
-So our example developer who earned 12,410 MOR over the course of the 1st year, will have earned $248,200 USD worth of MOR.
-In other words each weight in this example had an implied value of 248,200 dividend by 200 equals $1,241 per weight over the period of 1 year.
+If the total Morpheus market cap is $100,000,000 USD, that would imply a per MOR price of ~$20 USD.
+Our example developer who earned 12,410 MOR over the course of the 1st year will have earned $248,200 USD worth of MOR.
+In other words, each weight in this example had an implied value of 248,200 divided by 200 equalling $1,241 per weight over the period of 1 year.
 
 **So keep this in mind if you are bidding on Code work. 
 If you are asking for 100 weights, you are saying the Code is worth $124,100 USD worth of MOR.**
 
 ## New Coding Weights
-The Morpheus code is constantly growing and changing and so lets calculate an example of a new coder who Contributes their code.
+The Morpheus code is constantly growing and changing and so let's calculate an example of a new coder who contributes their code.
 
-Lets take for example the coding work being done on the Compute Proofs for the network. 
-In this case their are coders bidding to design, impliment, and test the Yellowstone proposal's "Decentralized Router".
+Let's take for example the coding work being done on the Compute Proofs for the network. 
+In this case there are coders bidding to design, implement, and test the Yellowstone proposal's "Decentralized Router".
 Say the winning bid is 1,000 weights to contribute the code.
-Say there are 10 developers involved, who would each earn 100 weights. 
+If there are 10 developers involved, each would earn 100 weights. 
 
 Given there are already almost 20,000 weights for existing Coders, this would constitute an additional 5% of the Coding weights.
 The new total weights are 21,000 in total and the per weight payout in year 1 would be 0.16 MOR per day, per weight (3,456 divided by 21,000).
@@ -35,14 +34,15 @@ Presuming the same $20 per MOR as in the example above that would value this Cod
 Over 10 developers that is a reward of $120,136 USD worth of MOR over the period of the 1st year.
 
 This is really helpful to understand as it demonstrates the great value to Coders who provide their Contributions to the Morpheus network.
-But also this high reward will generate a lot of competition among Coders 
+But, this high reward will also generate a lot of competition among Coders. 
 
 ## Market Driven Implied Value of Code Resets Monthly
-Its important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
+
+It's important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
 This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community FrontEnd developers.
 
-The initial implied value of 1 weight was $50 USD before their was a market determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
-However now that there is a real world implied value of 1 weight this ought to be considered in each monthly snap shot.
+The initial implied value of 1 weight was $50 USD before there was a market determined price, as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
+However, now that there is a real world implied value of 1 weight, this ought to be considered in each monthly snapshot.
 
 While the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the current implied price can be estimated based on the total stETH deposited.
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
