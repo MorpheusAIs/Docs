@@ -157,8 +157,8 @@ The Morpheus network allocates the scarce resource of IPS production through the
 
 ### Example Assumptions: 
 **MOR Supply** = 10,000,000 MOR tokens  
-**Prior Day Compute Contract Balance** = 300,000
-**MOR Compute Budget** = 3,000 MOR tokens per day (1% of above)
+**Prior Day Compute Contract Balance** = 300,000  
+**MOR Compute Budget** = 3,000 MOR tokens per day (1% of above)  
 **MOR Price** = $20  
 **IPS Price** = $0.002 per 1000 IPS  
 **User Balance** = 5 MOR tokens
