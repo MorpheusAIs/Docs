@@ -6,7 +6,7 @@
 
 Дана пропозиція Машини Технокапіту (TCM) передбачає створення платформи, на якій розробники можуть створювати та розгортати своє програмне забезпечення. При цьому TCM спочатку вирішує питання пов'язані з інфраструктурою та платежами, перш ніж винагороджувати розробника залежно від популярності програми.
 
-Спільнота Morpheus використовує концепцію TCM для прискорення розробки децентралізованого штучного інтелекту (ШІ). Хоча концепція є актуальною для всіх смарт-контрактів, децентралізованих додатків та веб3 програм. Детальну інформацію про токеноміку можна знайти за [посиланням на Whitepaper.](https://github.com/MorpheusAIs/Docs/blob/main/Whitepaper%20International/WhitePaper%20Ukrainian.md)
+Спільнота Morpheus використовує концепцію TCM для прискорення розробки децентралізованого штучного інтелекту (ШІ). Хоча концепція є актуальною для всіх смарт-контрактів, децентралізованих додатків та веб3 програм. Детальну інформацію про токеноміку можна знайти за [посиланням на Whitepaper.](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Ukrainian/Whitepaper%20Ukrainian.md)
 
 Термін Машини Технокапіталу натхненний відомим філософом [Беффом Джезосом](https://twitter.com/BasedBeffJezos) і вперше був запроваджений спільнотою Morpheus.
 
@@ -20,7 +20,7 @@
 - Власні токени потім поєднуються з рештою 50% доходу і вносяться до пулу ліквідності на AMM.
 
 Як запустити свій децентралізований проект з відкритим вихідним кодом у 2024 році:
-![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Asset/WhitePaper%20Graphics/Ukrainian/UA%20meme%20for%20TCM.jpg)
+![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/Docs%20Graphics/Ukrainian/Meme%20for%20TCM%20UA.jpg)
 
 
 ## Машина Технокапіталу (TCM) як рішення
@@ -94,7 +94,7 @@
 ## Посилання на код смарт контрактів та приклади
 Смарт контракти постачальників капіталу, які надають stETH і заробляють власні токени проєкту: [Посилання](https://github.com/MorpheusAIs/SmartContracts)
 
-Модель обчислень Yellowstone для ставок на обчислення. [Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Yellowstone%20Computer%20Model%20International/Yellowstone%20Compute%20Model%20Ukrainian.md)
+Модель обчислень Yellowstone для ставок на обчислення. [Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Ukrainian/Yellowstone%20Compute%20Model%20Ukrainian.md)
 
 Example Proof of Code Contribution. [Посилання](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
 
