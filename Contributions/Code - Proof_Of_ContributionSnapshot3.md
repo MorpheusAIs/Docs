@@ -2,7 +2,7 @@
 
 **Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 & 
-**[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md)**
+**T[he Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
 
 ## Structuring your Code Contributions.
 All Code Contributions should include the following five elements:
