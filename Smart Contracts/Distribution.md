@@ -6,14 +6,14 @@
 
 ## Public Variables
 
-| Name                          | Type              | Description                                                       |
-|-------------------------------|-------------------|-------------------------------------------------------------------|
-| `depositToken`                | address           | The address of the deposit token on Ethereum (stETH).             |
-| `l1Sender`                    | address           | The address of the `L1Sender` contract.                           |
-| `pools`                       | [`Pool[]`](#pool) | Configurations for all pools through which rewards are allocated. |
-| `poolsData`                   | mapping           | Tracking data for pools.                                          |
-| `usersData`                   | mapping           | Tracking data for users.                                          |
-| `totalDepositedInPublicPools` | uint256           | The total amount of the deposit token in all public pools.        |
+| Name                          | Type                                                            | Description                                                       |
+|-------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------|
+| `depositToken`                | address                                                         | The address of the deposit token on Ethereum (stETH).             |
+| `l1Sender`                    | address                                                         | The address of the `L1Sender` contract.                           |
+| `pools`                       | [`Pool[]`](#pool)                                               | Configurations for all pools through which rewards are allocated. |
+| `poolsData`                   | mapping(uint256 => [`PoolData`](#pooldata))                     | Ongoing tracking data for all pools.                              |
+| `usersData`                   | mapping(address => mapping(uint256 => [`UserData`](#userdata))) | Ongoing tracking data for user participation in pools.            |
+| `totalDepositedInPublicPools` | uint256                                                         | The total amount of the deposit token in all public pools.        |
 
 ## Functions
 
