@@ -44,7 +44,7 @@ This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidi
 ## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $50 USD per Weight
 The initial implied value of 1 weight was $50 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
 
-## February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 Per Weight
+## February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD Per Weight
 While the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the current implied price can be estimated based on the total stETH deposited.
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
 This at least right now implies a per MOR value of 0.00237 stETH per MOR based on real world contributions. Or $6.89 USD at the current 2,900 USD to stETH price on Feb. 21st 2024.
