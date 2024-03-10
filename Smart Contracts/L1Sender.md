@@ -1,6 +1,6 @@
 # L1Sender
 
-`L1Sender.sol` is responsible for sending tokens and messages from Ethereum to Arbitrum. It is called by [`Distribution`](Distribution.md) to:
+[`L1Sender.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L1Sender.sol) is responsible for sending tokens and messages from Ethereum to Arbitrum. It is called by [`Distribution`](Distribution.md) to:
 * Wrap and send the deposit token (stETH) to Arbitrum via the native Arbitrum bridge
 * Send instructions to mint MOR to Arbitrum via LayerZero
 

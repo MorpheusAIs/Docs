@@ -1,6 +1,6 @@
 # L2MessageReceiver
 
-`L2MessageReceiver.sol` is an implementation of the [`ILayerZeroReceiver`](https://layerzero.gitbook.io/docs/evm-guides/evm-solidity-interfaces/ilayerzeroreceiver) interface used to receive messages via LayerZero. It receives instructions to mint MOR tokens (e.g. to Capital Providers) from [`L1Sender`](L1Sender.md) on Ethereum.
+[`L2MessageReceiver.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2MessageReceiver.sol) is an implementation of the [`ILayerZeroReceiver`](https://layerzero.gitbook.io/docs/evm-guides/evm-solidity-interfaces/ilayerzeroreceiver) interface used to receive messages via LayerZero. It receives instructions to mint MOR tokens (e.g. to Capital Providers) from [`L1Sender`](L1Sender.md) on Ethereum.
 
 ## Variables
 

@@ -1,6 +1,6 @@
 # Distribution
 
-`Distribution.sol` is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+[`Distribution.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
 `Distribution` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
 

@@ -14,6 +14,8 @@ Morpheus smart contracts are deployed across Ethereum and Arbitrum. This hybrid 
 
 With the exception of the MOR token and LinearDistributionIntervalDecrease library, all contracts utilize the UUPS proxy pattern to enable upgradeability.
 
+[**Source Code Repository**](https://github.com/MorpheusAIs/SmartContracts)
+
 ## Deployments
 
 ### Arbitrum Contracts

@@ -1,6 +1,6 @@
 # L2TokenReceiver
 
-`L2TokenReceiver.sol` is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [`L1Sender`](L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
+[`L2TokenReceiver.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol) is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [`L1Sender`](L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
 
 All functions on `L2TokenReceiver` can only be called by the contract owner – the Morpheus multisig.
 

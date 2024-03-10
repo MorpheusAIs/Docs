@@ -1,6 +1,6 @@
 # MOR
 
-`MOR.sol`, the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the `ERC20Capped` and `ERC20Burnable` extensions.
+[`MOR.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol), the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the `ERC20Capped` and `ERC20Burnable` extensions.
 
 New tokens can only be minted by the contract owner – [`L2MessageReceiver`](L2MessageReceiver.md) – up to the immutable cap of 42,000,000 tokens.
 
