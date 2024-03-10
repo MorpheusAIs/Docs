@@ -11,6 +11,7 @@ To get started here is a short list of resources and some of the best ways to ge
 - Review list of GitHub Issues for specifics.
 - Review Best Practices for tips on how to get your code added.
 - Review Code Contributor Guide to Earning Weights & Their Implied Value
+- Review Reference Implementations List
 - Submit a Pull Request that adds value to Morpheus.
 
 ## Morpheus Request For Comments:
@@ -31,9 +32,16 @@ https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20
 ## Code Contributor Guide to Earning Weights & Their Implied Value
 The detailed description of the implied value per weight which is updated each month.
 
-https://github.com/antonbosss/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md
+https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md
+
+## Reference Implementations List
+Existing and new Morpheus implementations 
+
+https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md
 
 ## Code Contributor Table To Include In Pull Requests
 Include an update to the Code Contributor table on GitHub with your Code Contributions with your hour request.
 
 https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md
+
+If a developer is looking for committees, and RFPs he us looking at the wrong project. The nature of Morpheus is [Atomic Governance](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md#atomic-governance). That means experts build what they want and GitHub maintainers act as judges to merge if its in the platform or users decide to use the Smart Agent in an open marketplace. Coders here compete. No guarantees anyone will use the Code until its released.
