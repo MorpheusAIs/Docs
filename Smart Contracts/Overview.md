@@ -12,7 +12,7 @@ Morpheus smart contracts are deployed across Ethereum and Arbitrum. This hybrid 
 * [`L2MessageReceiver`](L2MessageReceiver.md) – receives and processes MOR minting requests on Arbitrum
 * [`L2TokenReceiver`](L2TokenReceiver.md) – receives wstETH and manages Protocol-Owned Liquidity on Arbitrum
 
-With the exception of the MOR token and LinearDistributionIntervalDecrease library, all contracts utilize the UUPS proxy pattern to enable upgradeability.
+With the exception of the MOR token and LinearDistributionIntervalDecrease library, all contracts utilize the UUPS proxy pattern to enable upgradeability. For more information on this, see the [OpenZeppelin `UUPSUpgradeable` documentation](https://docs.openzeppelin.com/contracts/5.x/api/proxy#UUPSUpgradeable).
 
 [**Source Code Repository**](https://github.com/MorpheusAIs/SmartContracts)
 
@@ -45,6 +45,8 @@ The MOR token contract is owned by `L2MessageReceiver`, which enables new tokens
 With the exception of the `LinearDistributionIntervalDecrease` library which is not ownable, all other contracts are owned by the Morpheus multisigs on their respective chains:
 - `L2MessageReceiver` and `L2TokenReceiver` are owned by the Arbitrum multisig [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)
 - `Distribution` and `L1Sender` are owned by the Ethereum multisig [0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E](https://etherscan.io/address/0x1fe04bc15cf2c5a2d41a0b3a96725596676eba1e)
+
+For ownability, these smart contracts inherit `OwnableUpgradeable`. For more information on this, see the [OpenZeppelin Access Control Documentation](https://docs.openzeppelin.com/contracts/5.x/api/access).
 
 ## Audits
 
