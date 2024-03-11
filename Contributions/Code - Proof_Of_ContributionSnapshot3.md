@@ -34,3 +34,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+| 0xa3f01fD8Adc1e5f2ca8ae7f7027114b54eC9A846 | https://github.com/MorpheusAIs/Docs/pull/92 | 1 | Yellowstone Compute Model translated to Portuguese |
+
