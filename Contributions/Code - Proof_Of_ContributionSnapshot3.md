@@ -32,5 +32,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+| 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/Morpheus/pull/658/commits/9ca6638fa80c24d14986721a77229e33865e0b53  | 10 | New feature - downloading new models locally |
