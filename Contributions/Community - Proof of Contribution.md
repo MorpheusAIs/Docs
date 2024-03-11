@@ -12,4 +12,4 @@ You need an EVM wallet like MetaMask/Rabby that can receive Ethereum-based (EVM)
 
 | Wallet Address                              | Link to Work | Weights | Description of Contribution                                   |
 |---------------------------------------------| ------------ |------|---------------------------------------------------------------|
-
+| 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://65ef171c0045e665e76f0b73--keen-alfajores-3ce4aa.netlify.app | 4 | Frontend that allows users to check what their MOR balance is on different pools, based on their contributions. More features coming soon |
