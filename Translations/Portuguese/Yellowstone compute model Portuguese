@@ -1,0 +1,195 @@
+![Image1forYellowstone](https://github.com/MorpheusAIs/Morpheus/assets/1563345/80a6c1cf-fe52-42ba-bfd4-91d9faf67f07)
+
+# Modelo de Computação "Yellowstone" Morpheus
+### Erik Voorhees
+### 3 de janeiro de 2024
+
+Uma revisão sugerida para a estrutura de tokenomics do Morpheus para incentivo de computação em uma rede de IA descentralizada. 
+
+
+## Resumo
+No Modelo de Computação Yellowstone, a rede Morpheus paga aos Provedores apenas pela Computação efetivamente fornecida através de um processo de licitação competitiva, e aloca a produção escassa de IPS (inferências/segundos) proporcionalmente aos detentores do token MOR com base no saldo, em vez de no pagamento. Isso melhora drasticamente a experiência do usuário enquanto minimiza a vulnerabilidade a ataques Sybil. O Yellowstone também incorpora as métricas importantes de tempo e um teste de Aprovação/Reprovação para garantir que os Provedores sejam adequadamente rápidos e precisos. O Yellowstone preserva a privacidade ao nunca enviar prompts ou resultados através do Roteador, e minimiza transações na blockchain para permitir uma operação em grande escala. Por meio desse modelo, o MOR alcança valor fundamental, pois possibilita acesso perpétuo (embora não ilimitado) a computação sem permissão, sem exigir transações por inferência. 
+
+Se adotado, este documento substitui a seção “Prova de Computação, Registro & Recompensa” do [whitepaper do Morpheus](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
+
+## Premissas
+Morpheus usa tokenomics para incentivar computação suficiente e escalável como um recurso para o propósito de IA generativa descentralizada e sem permissão. Em sua concepção original, o Morpheus emitia 24% das emissões de MOR diretamente para os Provedores de Computação, proporcionalmente dependendo das solicitações de inferência recebidas, e priorizava solicitações de inferência para esses provedores com base em quanto MOR eles possuíam.
+
+### Do white paper orginal:
+`“As taxas de transação de MOR proporcional queimadas por cada Provedor de Computação servem como prova do status dos Provedores de Computação e ganham uma proporção dos tokens MOR a cada dia.`
+ 
+`Por exemplo, se houver 100 Provedores de Computação no dia 1 quando a rede for lançada, então cada um recebe uma recompensa proporcional com base na quantidade de MOR que eles queimaram via taxas. Neste caso, presumindo que cada um dos 100 provedores de computação queimou 100 MOR, então 1% dos 3.456 tokens MOR a cada dia = 34,56 MOR.”`
+
+### Existem três grandes problemas com esta abordagem:
+1) Requer que os usuários paguem taxas de transação por inferência. Mesmo que baixas, isso representa uma fricção substancial e causará uma má experiência do usuário e uma inferioridade constante em relação à experiência do usuário da OpenAI. Também requer pelo menos uma transação na blockchain por inferência, o que provavelmente não é escalável mesmo em L2s. Cada evento de inferência tem um custo extremamente baixo, e se uma transação na blockchain fosse necessária, a economia seria inviável.
+2) Este modelo é substancialmente explorável porque a receita esperada para os provedores de computação é muito maior do que os custos de computação reais. Um adversário poderia, portanto, inundar solicitações de inferência de spam para seu próprio nó de Provedor de Computação e ganhar uma parte relativamente grande dos tokens MOR todos os dias, embora nenhum valor econômico fosse fornecido a ninguém. Provavelmente, isso levaria a grandes quantidades de computação inicial (não utilizada), que desaparece uma vez que a enorme oportunidade de receita se dissipa, e o MOR gasto nesse subsídio inicial seria desperdiçado/perdido.
+3) Se as solicitações de inferência forem priorizadas com base na quantidade de MOR que os Provedores possuem, então o desempenho desses provedores (tempo de resposta) e o custo do seu processamento de inferência são ignorados pela rede, e são precisamente esses dois fatores que a rede deveria tentar otimizar (tempo de resposta e custo de computação devem ser idealmente reduzidos ao mínimo possível). Se o provedor com mais MOR estivesse rodando uma GPU de $200 dos seus dias de faculdade, o desempenho da inferência para muitos usuários seria extremamente pobre. A prioridade deveria ser baseada no preço da oferta e no desempenho, não na posse de MOR.
+Abaixo é proposto o "Modelo Yellowstone", que modifica a tokenomics do Morpheus para provisão de computação para abordar os problemas acima. Este modelo funciona independentemente de qual porção das emissões é alocada para computação, e assumiremos o status quo de 24% das emissões totais. 
+
+### Os objetivos são:
+1) Permitir que os usuários não paguem por inferência (idealmente, não pagar nada).
+2) Alcançar uma provisão eficiente, escalável e sustentável de recurso de computação sem permissão sem pagar demais por isso.
+3) Incentivar baixo tempo de resposta e competição de custo entre os Provedores de Computação.
+4) Minimizar o número de transações na blockchain (seja L2 ou de outra forma).
+5) Demonstrar uma demanda fundamental economicamente sólida para MOR.
+
+## Modelo Yellowstone
+Os Quatro Componentes Envolvidos:
+
+### Usuários
+* Têm Consultas
+* Querem inferência rápida/precisa gratuitamente e sem censura/vigilância
+
+### Provedores
+* Têm computação
+* Querem dinheiro (MOR)
+
+### Roteador 
+* Motor de processamento de alta capacidade
+* Descentralizado
+
+### Contrato de Computação
+* Contrato inteligente sem permissão que recebe emissões de MOR, rastreia créditos e débitos para os Provedores, e paga os Provedores quando chamado.
+
+## Padrões de Pesos e Medidas
+
+Existe uma unidade atômica de inferências em IA, medida em inferências por segundo (IPS). Isso pode ser comparado conceitualmente ao wei na blockchain. Inferências são usadas para definir taxas no roteador Yellowstone. O peso de uma única unidade de IA Morpheus é, portanto, uma inferência. Dependendo do tipo de solicitação, isso pode ser aplicado a qualquer tarefa de computação.
+À medida que IA e blockchain fundem comunalidades, o Morpheus busca fornecer um padrão de medições de código aberto para esclarecer a terminologia usada por ambos IA e Blockchain.
+
+Existem dois tipos de prompts, definidos pelo tamanho da resposta retornada por um modelo:
+
+**Prompts de Comprimento Determinado**, onde a resposta considera o comprimento da resposta a retornar. Exemplos disso são:
+- Criação de Chat/Imagem
+- Diagnóstico de doenças
+- Reconhecimento de objetos
+- Detecção de fraude
+
+
+**Prompts de Comprimento Indeterminado** exigem recursos para responder que só são conhecíveis após a resposta ser criada. Exemplos de prompts de respostas não determinísticas são:
+- Cantar uma sonata sobre espaguete.
+- Gerar um vídeo de Feliz Aniversário
+- Combinar o modelo X com o modelo Y
+- Fatiar um modelo 3D em um arquivo .stl
+
+Yellowstone foca em Prompts de Comprimento Determinado. O roteador descrito será construído de maneira a lidar com prompts indeterminados no futuro, mas não para atendê-los hoje. Para realizar isso, usamos uma medição padronizada de IA Descentralizada.
+
+## Taxas de DeAI
+
+### Expressões de inferência/segundo:
+
+| Tipo | Resposta | Taxa |
+|------|----------|------|
+| Determinado | Idioma | Tokens Inferidos por segundo (TPS)|
+| Indeterminado - mídia | Áudio | Amostras Inferidas por segundo (ISPS) |
+| Indeterminado - mídia | Video | Frames Inferidos por segundo (IFPS) |
+| Indeterminado - tecnologia futura |Formato Futuro Desconhecido | NA |
+
+A primeira medida de inferência para o roteador Yellowstone será TPS. Outros formatos de inferência a seguir.
+
+### Tempo
+
+O tempo de bloco para inferência é de 12 segundos, significando que um bloco de transações de inferência é publicado e contabilizado 5 vezes por minuto.
+
+## Definições
+
+**“Usuários”**: definidos como qualquer entidade que possui um endereço MOR e envia Solicitações ao Roteador, usando a computação. Isso pode ser uma pessoa específica enviando Solicitações de um nó de desktop Morpheus, ou pode ser um bot, ou pode ser uma empresa ou site de terceiros que interage com a rede Morpheus em nome de seus usuários finais (tais “usuários finais” de terceiros neste caso são insignificantes para a rede Morpheus e não devem ser confundidos com Usuários conforme definido acima). 
+
+**“Provedores”**: definidos como qualquer entidade, executando um nó que fornece recursos de computação, possui um endereço MOR e oferece lances de IPS através do Roteador. Quando um Provedor vence o lance do Roteador, o Provedor fornece o recurso de computação (GPUs, etc.) para o modelo de IA solicitado pelo Usuário ao Usuário. 
+
+**“Roteador”**:  definido como um aplicativo de software que possui um endereço MOR e negocia o mercado bilateral entre Usuários e Provedores. O Roteador registra e rastreia endereços de Provedores e lances, processa Solicitações de Usuários, registra [milissegundos] e testes de Aprovação/Reprovação de Solicitações processadas, e instrui o Contrato de Computação a creditar Provedores elegíveis para pagamento em MOR. O Roteador nunca envia ou recebe transações MOR (nem transações em qualquer blockchain). O Roteador nunca vê o conteúdo de uma Solicitação, nem a resposta.
+
+**“Contrato de Computação”**: definido como um contrato inteligente que possui um endereço MOR, recebe todos os MOR emitidos alocados para o balde de Computação, rastreia quantias devidas a Provedores elegíveis, e paga MOR a Provedores elegíveis quando os Provedores solicitam pagamento.
+
+**"Inferências por segundo" (IPS)**: é uma unidade atômica de inferências em IA. Inferências são usadas para definir taxas no roteador Yellowstone. O peso de uma única unidade de IA Morpheus é, portanto, uma inferência.
+
+**“IPSMax”**: refere-se a um número máximo de IPS aceitos para pagamento pelo Roteador.
+
+**“RFC”**: significa “Solicitação de Computação”. Um usuário envia um RFC ao Roteador, e especifica o [LLM] que o Usuário deseja acessar, bem como o [IPSMax], que é um limite no IPS aceitável em resposta. O Usuário vai querer limitar isso porque números mais altos = tempos de espera mais longos para respostas, e conta mais em direção ao [UserMax], que é limitado a cada dia. 
+
+### Incentivo de Inicialização de Computação
+
+No primeiro ano após o período de inicialização do Contrato de Capital, os 100 melhores Provedores de Computação podem ter direito a uma quantidade proporcional de 2,4% das emissões de MOR. Isso é calculado pelos roteadores e contabilizado no contrato de computação.
+
+
+## Fluxo de Trabalho
+1) Usuários, Provedores e Roteador todos criam chaves públicas MOR (essa é a identidade deles, todas as mensagens assinadas como tal). 
+2) Se o Usuário tiver qualquer saldo de MOR, o Usuário pode enviar uma mensagem de Solicitação de Computação “RFC” assinada ao Roteador. O Usuário especifica [LLM] e [IPSMax].
+3) Roteador prioriza RFCs com base no saldo de MOR do Usuário (resolve o problema de ataque sybil)
+4) Roteador seleciona o Provedor que suporta o [LLM], priorizado com base no menor lance por IPS em MOR. 
+5) Roteador envia verificação de atividade ao Provedor. Se Passar, então
+6) Roteador conecta o Usuário ao Provedor por TCP/IP
+7) Usuário envia Consulta ([LLM],[prompt]) ao Provedor
+8) Provedor processa Consulta, envia Resultado ao Usuário
+9) Usuário relata métricas de sucesso ao Roteador (como IPSs recebidos ou tempo tomado, ou voto de aprovação/reprovação)
+10) Roteador instrui o Contrato de Computação a creditar o Provedor com MOR se o trabalho foi completo de forma satisfatoria.
+11) (Algum tempo depois) Provedor solicita pagamento de MOR do Contrato de Computação e o Contrato de Computação envia pagamento de MOR se válido (primeira transação na blockchain até agora, pode ser agrupada).
+
+![ComputeContractImage2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/e66ea20c-9851-4f9e-9caa-66c6d798c462)
+
+## Resultado
+* Usuário recebeu Resultado rápido para sua Consulta, e não pagou nada (isso levará a uma experiência do usuário incrível e, portanto, adoção). **Resolve o Objetivo 1.**
+* Contrato de Computação pagou por Computação através de um processo de licitação competitiva, e uma verificação de qualidade/satisfação do Usuário que a ordenou. **Resolve o Objetivo 2.**
+* Provedor recebeu dinheiro (MOR) do Contrato de Computação desde que a resposta fosse rápida o suficiente. O Provedor recebeu exatamente o que pediu para fornecer a computação. Se seu pedido for muito alto, outros oferecerão menos, assim o sistema é eficiente e reduzirá os preços dos Provedores em direção ao custo da eletricidade básica.  **Resolve o Objetivo 3**
+* O número de transações na blockchain foi minimizado (muitas Consultas podem fluir com poucas transações na blockchain).. **Resolve o Objetivo 4**
+* A capacidade de obter computação rápida e gratuita impulsiona a demanda por tokens MOR a serem mantidos pelos Usuários. **Resolve o Objetivo 5**
+* Os passos 6 e 7 proporcionam privacidade razoável (a Consulta nunca toca o Roteador, nem o Resultado). Os Provedores são selecionados de forma um tanto aleatória e nunca conhecem a identidade do Usuário além do endereço IP. Melhor privacidade pode ser alcançada posteriormente com TOR e/ou FHE
+* O saldo de MOR foi reduzido do Contrato de Computação. O contrato será solvente desde que o MOR pago < MOR ganho por período das emissões.
+* Se o Usuário enviar um RFC que exceda o UserMax do Usuário, o Roteador rejeitará a solicitação.
+
+—-------------
+
+## Orçamento de Computação
+A rede Morpheus precisa determinar quanto MOR está disposta a gastar em computação em um determinado período (como cada dia), isso é referido como o Orçamento de Computação. Cada período, até essa quantidade de MOR pode ser gasta pelo Contrato de Computação. Este número multiplicado pelo preço do MOR nos dá um orçamento em dólares para aquisição de Computação a cada dia.
+
+Orçamento de Computação = 1% do saldo de MOR do Contrato de Computação no final do dia anterior.
+
+* Porque o orçamento é uma porcentagem fixa do pool, ele nunca pode se esgotar (ele só pode decair assintoticamente).
+* Além disso, porque sob nenhuma circunstância realista cada único MOR utilizaria sua capacidade máxima todos os dias, isso significa que na realidade o orçamento nunca atingirá seu limite de 1% do saldo do Contrato de Computação do dia anterior. Isso se mantém verdadeiro desde que mesmo um único MOR fique ociosamente em uma carteira ou exchange.
+
+## Taxa de Acesso
+A rede Morpheus aloca o recurso escasso de produção de IPS através do conceito da “Taxa de Acesso”. A Taxa de Acesso determina quantos IPS cada token MOR pode acessar por dia. Acesso não utilizado não acumula. A Taxa de Acesso é sempre exibida como uma quantidade de IPS por 1 token MOR (como 1 MOR = 15.000 IPS). A Taxa de Acesso é determinada em parte pelo MaxIPS, que quantifica o número máximo de IPS que a rede pode comprar por dia.
+
+**MaxIPS** = ((Orçamento de Computação MOR * Preço MOR) / Preço IPS) * 1000
+**Taxa de Acesso** = (1/Suprimento MOR) * MaxIPS  
+**UserMax** = Taxa de Acesso * saldo de MOR do Usuário
+
+### Exemplo de Suposições: 
+**Suprimento MOR** = 10.000.000 tokens MOR
+**Saldo do Contrato de Computação do Dia Anterior** = 300,000
+**Orçamento de Computação MOR** = 3.000 tokens MOR por dia (1% do acima)
+**Preço MOR** = $20  
+**Preço IPS** = $0.002 por 1000 IPS
+**Saldo do Usuário** = 5 tokens MOR
+
+### Exemplo de Resultado:
+**MaxIPS** = 30.000.000.000 IPS (esse é o máximo de IPS que a rede pode comprar/produzir cada dia)
+**Taxa de Acesso** = 3.000 (assim, cada token MOR concede acesso a 3.000 IPS por dia) 
+**UserMax** = 15.000 (um Usuário com 5 tokens MOR pode acessar até 15.000 IPS por dia)
+
+* Cada período (cada dia), a rede Morpheus tem fundos suficientes para comprar X número de IPS de Provedores de Computação. X é uma função da quantidade de MOR que o Contrato de Computação está disposto a gastar (o “Orçamento de Computação”) multiplicado pelo preço atual do MOR dividido pela taxa de mercado para IPS. 
+* Se o Orçamento de Computação for 3.000 MOR, e cada um valer $20, então a rede pode comprar (produzir) até $60.000 de IPS naquele dia. Se a taxa de mercado para 1.000 IPS for $0.002, então a rede pode comprar até 30 bilhões de IPS (30m x 1000 IPS).
+* Essa produção potencial de 30 bilhões de IPS é alocada por saldo de MOR, proporcionalmente. Suponha que existam 10.000.000 MOR em existência. Um usuário com 500 tokens MOR (0.005% do total) poderia acessar livremente até 1.5m IPS naquele dia. 
+* Desde que o Orçamento de Computação seja definido como uma % do saldo do Contrato de Computação, o Contrato de Computação não pode ficar sem MOR (ele só pode decair assintoticamente).  
+* Na realidade, a maioria dos tokens MOR ficará em carteiras e exchanges, e apenas uma fração será usada para demandar a produção de IPS.
+
+## Notas
+* A demanda fundamental por MOR vem de Usuários que desejam ter acesso a IA generativa e outras formas de computação na rede Morpheus “de graça” de forma sob demanda. Quanto mais MOR eles possuem, mais IA eles podem obter todos os dias. 
+ 
+* O tipo de hardware do Provedor é irrelevante para a rede, desde que eles satisfaçam o teste de aprovação/reprovação do Usuário. Qualquer Provedor que ofereça em mais Consultas do que pode processar eficientemente será penalizado por falhar neste teste (eles não serão pagos).
+
+* O modelo acima importante paga Provedores APENAS quando há demanda por sua computação. Isso previne a situação onde grandes porções de MOR são emitidas prematuramente quando a rede não precisa dela.
+
+* Provedores devem provar que têm um dado LLM, assinando o hash do modelo LLM com sua chave. Isso não prova que eles o usaram, mas prova que eles baixaram e instalaram, o que representa trabalho, prevenindo assim algumas formas de fraude sensíveis a sybil. Se Provedores fornecerem resultados inúteis ao Usuário, o Usuário pode enviar [Falha] junto com [milissegundos] de volta ao Roteador, e o Provedor não será creditado por essa computação. O Morpheus não precisa que todas as respostas sejam perfeitas... ele só precisa que respostas suficientes sejam boas o suficiente, em relação a alternativas concorrentes. 
+
+* Ataques de sybil de inundar a rede com RFCs são prevenidos pela Taxa de Acesso. O “custo” de enviar um RFC é o custo de adquirir um token MOR dividido pelo número de RFCs submetidos em seu nome. O custo é, portanto, nunca zero, e ainda assim um usuário não sentirá uma perda cada vez que um RFC é feito. Isso parecerá barato para todos os usuários reais, e proibitivamente caro para spammers. Na verdade, como com as taxas de mineração do Bitcoin, o Morpheus pode considerar todos os RFCs válidos e não se importa em decifrar entre spam e “legítimo”. Em todos os casos, um Usuário possuía uma quantidade suficiente de MOR para fazer a solicitação em primeiro lugar, e assim tinha o direito de fazê-lo, independentemente do conteúdo.  
+
+* Aprovação/Reprovação é determinada pelo Usuário, e polícia a qualidade até certo ponto. Usuário transmite resultado de Aprovação/Reprovação junto com [milissegundos] de volta ao Roteador. Se Reprovar, ou sem recompensa ou ponto de penalidade (a ser determinado). Não há incentivo para Reprovar falsamente um Provedor (sem incentivo monetário ao fazê-lo). Este mecanismo impede Provedores de enviar Resultados rápidos, mas inúteis. Considere: talvez Sem Recompensa ocorra na Reprovação apenas se o MOR do Usuário > MOR do Provedor. Caso contrário, apenas um ponto negativo que o Roteador pode usar em sua lógica de privatização.
+Considere: talvez Sem Recompensa ocorra na Reprovação apenas se o MOR do Usuário > MOR do Provedor. Caso contrário, apenas um ponto negativo que o Roteador pode usar em sua lógica de privatização.
+
+* Todas as quatro partes (Usuário, Provedor, Roteador e Contrato de Computação) têm endereço MOR único como sua identidade. Todas as mensagens entre as partes exigem assinaturas (mas a maioria não exige transações na blockchain)
+
+* Provedores devem ter saldo não zero para desencorajar ataque sybil do lado do Provedor.
+
+* Se [milissegundos] critério for mais alto, a rede será geralmente mais rápida, mas desencoraja Provedores menores
+
+* Há um desincentivo para fornecer Resultados lentos (sem receita após computação)
