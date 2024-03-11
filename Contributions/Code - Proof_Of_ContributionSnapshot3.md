@@ -34,3 +34,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+| 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/Node/pull/49 | 4 | Warning: ReactDOM.render is no longer supported fix
