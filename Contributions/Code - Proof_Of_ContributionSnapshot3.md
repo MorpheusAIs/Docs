@@ -34,3 +34,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+|0x9B5192396689DA57391b33e851A43F76869D9Db1|https://github.com/MorpheusAIs/Docs/pull/57|3|Testnet, TCM, and translation for Chinese community |
