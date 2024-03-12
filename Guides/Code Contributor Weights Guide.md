@@ -41,16 +41,25 @@ But, this high reward will also generate a lot of competition among Coders.
 It is important to understand that the implied value is decided by the market. The amount of stETH deposited creates a certain amount of yield that in turns buys up MOR from the AMM.
 This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community Front End developers.
 
-The initial implied value of 1 weight was $50 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members.
-However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
+## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $50 USD per Weight
+The initial implied value of 1 weight was $50 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
 
+## February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD Per Weight
 While the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the current implied price can be estimated based on the total stETH deposited.
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
 This at least right now implies a per MOR value of 0.00237 stETH per MOR based on real world contributions. Or $6.89 USD at the current 2,900 USD to stETH price on Feb. 21st 2024.
 
-**All told this implies a current value of each weight at $400 USD.**
+**All told this implies a current value of each weight at $400 USD for Snapshot 2 (February 8th to March 8th 2024).**
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
-At $6.89 per MOR that equals $400 in USD terms.  
+At $6.89 per MOR that equals $400 in USD terms.
+
+## March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $641 USD per Weight
+The current implied price can be estimated based on the total stETH deposited. 
+
+At 110,000 stETH annually providing 3,740 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. This at least right now implies a per MOR value of 0.00306 stETH per MOR based on real world contributions. Or $12.08 USD at the current 3,950 USD to stETH price on March 8th 2024.
+
+**All told this implies a current value of each weight at $641 USD.**
+This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 23,000 which equals 53 MOR per weight. At $12.08 USD per MOR that equals $641 in USD terms.
 
 See the Morstats.info website page where you can run these estimates dynamically. https://morstats.info/code-weights/
 
