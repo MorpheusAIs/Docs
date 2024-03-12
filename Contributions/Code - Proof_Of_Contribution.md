@@ -4,10 +4,9 @@ This table is historical for snapshot 1 and 2.
 Please direct all new pull requests to the current snapshot 3 file.
 https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md
 
-**Before adding a pull request to this table please read [the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+**Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
-
 - September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $50 USD per Weight
 - February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD Per Weight
 - March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $641 USD per Weight
@@ -20,10 +19,10 @@ All Code Contributions should include the following five elements:
 4. Number of weights requested (just the # of weights don't include the word "weights").
 5. Description of Contributions.
 
-**Example fields below:**
+Example fields below: 
 
-`| Wallet Address | Link to Issue | Link to Work | Weights | Description of Contribution |`    
-`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50 | Integration of ollama |`  
+| Wallet Address                             | Link to Issue | Link to Work        | Weights	| Description of Contribution |  
+| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50      |	Integration of ollama       |  
 
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
@@ -233,7 +232,6 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0Ba7a85Af6323686a1fE29423bd72c2ce81Fe923 | @TigerBuidl | 8 | Building FAQ for Morpheus community.
 | 0x3476ee81BA812D56b571bCc2e6122De698084E15 | Morstats.info , https://github.com/MorpheusAIs/Docs/pull/51 , https://github.com/MorpheusAIs/Docs/pull/52 , https://docs.google.com/document/d/1PYeWnu3KpQdExwwuKFgGbRl9eajc6oP1poEQZmf7S2w/edit , https://docs.google.com/document/d/1TfnIJXGCJWVPNFrXnbHvoZBs2KOauZQZz6GOhAeTCcI/edit#heading=h.rqskt7b9rus2 , https://docs.google.com/document/d/1uMvRT_WA1KqJAkoHbs7fxDkMtYrcdprXrbOmssEXtGg/edit?usp=sharing , https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Price%20Discovery.md , https://docs.google.com/document/d/15d9VkMinNykq0i9LCxjqb9Dz_p8E73GRkV8GPFjp1aA/edit | 43  | Morstats.info code weights table, calculators, MOR market cap analytics, and updated for community feedback. Collaborated, developed analytics for, and helped to create and test the following concepts: Fair Price Discovery and AMM Launch, Protection Fund Diversification, Waterloo Community Model, Code Contributor Weights Guide, Dev Morpheus U3 aka Signaling Fair Launch|
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://github.com/MorpheusAIs/Node, https://mor.software, https://github.com/MorpheusAIs/Docs | 138 | Morpheus 0.0.6, mor.software, repo management, setup of liet client from node and morpheus lumerin node |
-| 0x3476ee81BA812D56b571bCc2e6122De698084E15 | Morstats.info , https://github.com/MorpheusAIs/Docs/pull/51 , https://github.com/MorpheusAIs/Docs/pull/52 , https://docs.google.com/document/d/1PYeWnu3KpQdExwwuKFgGbRl9eajc6oP1poEQZmf7S2w/edit , https://docs.google.com/document/d/1TfnIJXGCJWVPNFrXnbHvoZBs2KOauZQZz6GOhAeTCcI/edit#heading=h.rqskt7b9rus2 , https://docs.google.com/document/d/1uMvRT_WA1KqJAkoHbs7fxDkMtYrcdprXrbOmssEXtGg/edit?usp=sharing , https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Price%20Discovery.md , https://docs.google.com/document/d/15d9VkMinNykq0i9LCxjqb9Dz_p8E73GRkV8GPFjp1aA/edit | 43  | Morstats.info code weights table, calculators, MOR market cap analytics, and updated for community feedback. Collaborated, developed analytics for, and helped to create and test the following concepts: Fair Price Discovery and AMM Launch, Protection Fund Diversification, Waterloo Community Model, Code Contributor Weights Guide, Dev Morpheus U3 aka Signaling Fair Launch| 
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://github.com/MorpheusAIs/Node, https://github.com/MorpheusAIs/Docs | 138 | Morpheus 0.0.6, mor.software, repo management, setup of liet client from node and morpheus lumerin node |
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/MorpheusAIs/Docs/pull/13 | 2 | Translated whitepaper and yellowpaper to Traditional Chinese |
 | 0xC54d82BD1255a7C7b605f5D6c56823Fd3188ADb9 | https://github.com/MorpheusAIs/Docs/pull/9 | 1 | Translation of Polish paper |
