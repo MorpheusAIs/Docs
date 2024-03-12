@@ -4,7 +4,7 @@ This table is historical for snapshot 1 and 2.
 Please direct all new pull requests to the current snapshot 3 file.
 https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md
 
-**Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+**Before adding a pull request to this table please read [the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
 
