@@ -8,6 +8,10 @@ https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
 
+- September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $50 USD per Weight
+- February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD Per Weight
+- March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $641 USD per Weight
+
 ## Structuring your Code Contributions.
 All Code Contributions should include the following five elements:
 1. The Ethereum / Wallet address to be rewarded.
