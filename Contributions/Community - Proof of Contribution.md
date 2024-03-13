@@ -12,4 +12,4 @@ You need an EVM wallet like MetaMask/Rabby that can receive Ethereum-based (EVM)
 
 | Wallet Address                              | Link to Work | Weights | Description of Contribution                                   |
 |---------------------------------------------| ------------ |------|---------------------------------------------------------------|
-
+| 0xefc7d0a88AA9AA7c161CF93B78dAD64f86d9358d | https://docs.google.com/spreadsheets/d/1m8CQ31m2tr6_sanKa1wLeQFfzzXPUCBRN7l0jRFmIs0/edit#gid=1509949973 | 3 | Full tokenomics, emission schedule, LP & capital contribution analysis, financial model |
