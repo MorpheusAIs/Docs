@@ -69,7 +69,15 @@ Make multiple swaps with different combinations of tokens and amounts.
 
 
 ## How to add liquidity tokens to Uniswap?
+Go to https://app.uniswap.org/pool 
 
+Click `+New position`
+
+Add MOR Mock and wETH Mock tokens by entering their smart conctract addresses
+
+
+
+## How to increase liquidity on Uniswap?
 
 ## How to remove liquidity from Uniswap?
 
