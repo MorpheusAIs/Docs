@@ -122,7 +122,7 @@ MOR token will be only claimable after the bootstrapping period on the 90th Day.
 An onboarding process is described in the [Coder Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 
 **What are the requirements to code contributors?**  
-There are Code Contributor Best Practices on [GitHub](hhttps://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md).
+There are Code Contributor Best Practices on [GitHub](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md).
 
 **How do I get in touch with other builders for collaborations?**  
 The Accelerator Corner is your go to
