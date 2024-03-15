@@ -160,7 +160,7 @@ Except here the project can skip right to the staking stage and have the benefit
 
 8. Prerequisite for this may be in place by Phase 3 as the Code, Capital, Compute are all live on Moprhues and part of Community Front End Builder rewards.
 
-## Automated Recurring Revenue (ARR) Generalizing the TCM Model - MOR20 Token Standard
+## Automated Recurring Revenue / Rewards (ARR) Generalizing the TCM Model - MOR20 Token Standard
 - Any project inside or even outside the context of Web3 & AI, can use Morpheus to bootstrap their project with the push of a button.
 - The use the MOR20 Smart Contracts to collect stETH in order to provide Automated Recurring Revenue (ARR) to the project is a compelling new framework.
 - Easily create a fair launch for projects, fair price discovery mechanism and access the large network effect of the Morpheus community.
