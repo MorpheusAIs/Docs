@@ -1,6 +1,6 @@
 ## Guide d'installation de Morpheus sur Windows
 
-<img src="/Asset/Installation-Graphics/French/Installation-Guide-French.jpeg" width=50% height=50%>
+<img src="/Graphics/Docs%20Graphics/French/Installation%20Guide.jpeg" width=75% height=75%>
 
 > [!NOTE]
 > Ce guide détaillé vous accompagne pas à pas dans l'installation de Morpheus.
