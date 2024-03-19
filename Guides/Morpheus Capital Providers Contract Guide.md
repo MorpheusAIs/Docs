@@ -4,9 +4,10 @@
 1) Smart Contracts Addresses (Ethereum mainnet).
 2) How to get stETH?
 3) How to deposit stETH into the contract? **DO NOT SEND stETH DIRECTLY TO THE CONTRACT ADDRESS**
-4) What is the amount of MOR rewards earned? 
-5) How can I get information about how much I have deposited?
-6) How to withdraw stETH from the contract?
+4) Please note: **If you deposit additional stETH the 7 day withdraw clock is restarted for all your stETH from that address.**
+5) What is the amount of MOR rewards earned? 
+6) How can I get information about how much I have deposited?
+7) How to withdraw stETH from the contract?
 
 
 ## Smart Contracts Addresses (Ethereum mainnet)
