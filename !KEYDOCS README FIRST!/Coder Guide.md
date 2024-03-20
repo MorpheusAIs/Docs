@@ -10,12 +10,12 @@ To get started here is a short list of resources and some of the best ways to ge
 - Review Morpheus Request for Comment (MRC) list for high level understanding.
 - Review list of GitHub Issues for specifics.
 - Review Best Practices for tips on how to get your code added.
-- Review Code Contributor Guide to Earning Weights & Their Implied Value
-- Review Reference Implementations List
+- Review Code Contributor Guide to Earning Weights & Their Implied Value.
+- Review Reference Implementations List.
 - Submit a Pull Request that adds value to Morpheus.
 
 ## Morpheus Request For Comments:
-Includes a list of all the papers / proposals related to improving , implementing Morpheus, Smart Agents, Tokenomics, & the Techno Capital Machine.
+Includes a list of all the papers / proposals related to improving, implementing Morpheus, Smart Agents, Tokenomics, & the Techno Capital Machine.
 
 https://github.com/MorpheusAIs/MRC/blob/main/Morpheus%20Request%20For%20Comments%20(MRC).md
 
