@@ -6,7 +6,7 @@
 
 Данное предложение Машины Технокапита (TCM) подразумевает создание платформы, на которой разработчики могут создавать и развертывать свое программное обеспечение. При этом TCM сначала решает вопросы связанные с инфраструктурой и платежами, прежде чем вознаграждать разработчика в зависимости от популярности программы.
 
-Сообщество Morpheus использует концепцию TCM для ускорения разработки децентрализованного искусственного интеллекта (ИИ). Хотя концепция актуальна для всех смарт-контрактов, децентрализованных приложений и веб3 программ. Подробную информацию о токеномике можно найти по [ссылке на Whitepaper.](https://github.com/MorpheusAIs/Docs/blob/main/Whitepaper%20International/WhitePaper%20Russian.md)
+Сообщество Morpheus использует концепцию TCM для ускорения разработки децентрализованного искусственного интеллекта (ИИ). Хотя концепция актуальна для всех смарт-контрактов, децентрализованных приложений и веб3 программ. Подробную информацию о токеномике можно найти по [ссылке на Whitepaper.](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Russian/Whitepaper%20Russian.md)
 
 Термин Машины Технокапитала вдохновлен известным философом [Беффом Джезосом](https://twitter.com/BasedBeffJezos) и впервые был внедрен сообществом Morpheus.
 
@@ -19,7 +19,7 @@
 - Собственные токены затем сопоставляются с остальными 50% дохода и вносятся в пул ликвидности на AMM.
 
 Как запустить свой децентрализованный проект с открытым исходным кодом в 2024 году:
-![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Asset/WhitePaper%20Graphics/Russian/RU%20meme%20for%20TCM.jpg)
+![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/Docs%20Graphics/Russian/%20Meme%20for%20TCM%20RU.jpg)
 
 
 ## Машина Технокапитала (TCM) как решение
@@ -91,7 +91,7 @@
 ## Ссылки на код смарт контрактов и примеры
 Смарт контракты поставщиков капитала, которые предоставляют stETH и зарабатывают собственные токены проекта: [Ссылка:](https://github.com/MorpheusAIs/SmartContracts)
 
-Модель вычислений Yellowstone для ставок на вычисления: [Ссылка](https://github.com/MorpheusAIs/Docs/blob/main/Yellowstone%20Computer%20Model%20International/Yellowstone%20Compute%20Model%20Russian.md)
+Модель вычислений Yellowstone для ставок на вычисления: [Ссылка](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Russian/Yellowstone%20Compute%20Model%20Russian.md)
 
 Пример доказательства участия в разработке кода: [Ссылка](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
 
