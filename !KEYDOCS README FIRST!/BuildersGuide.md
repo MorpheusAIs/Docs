@@ -5,7 +5,7 @@ At its heart everything contributors are adding to the Morpheus platform from Co
 
 What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral platform for all to leverage. A protocol not owned or controlled by any company or central party. Fair launched and built in public from day one.
 
-## COMPUTE / INFERENCE:
+## 1. COMPUTE / INFERENCE:
 The starting place for many developers building on Morpheus is to use open source models and decentralized inference to replace their expensive OpenAI API in their application. Morpheus is model and compute agnostic. Compute Providers can use Akash or Bittensor, or whatever platform they want to offer Inference on Morpheus. So think of Morpheus as aggregating and incentivizing Inference for developers with a single API.
 
 The heart of connecting Inference Providers and developers is the Decentralized Router. You can see the latest code here: 
@@ -17,7 +17,7 @@ This code base is leveraging the existing Lumerin code base built for hashrate d
 
 This will come online after the MOR token goes live May 8th 2024. This represents the 2nd phase of Morpheus where Decentralized Compute goes live.
 
-## [CAPITAL / MOR20 SMART CONTRACTS](https://www.mor20.org/):
+## 2. [CAPITAL / MOR20 SMART CONTRACTS](https://www.mor20.org/):
 The other popular use case for Morpheus is for builders to leverage the Smart Contacts & Dashboard that Morpheus built for its fair launch. Letting other open source projects rally their communities to provide stETH and contribute yield to bootstrap their own efforts.
 
 These Smart Contracts are being upgraded to a generalized MOR20 Token Standard.
@@ -25,7 +25,7 @@ Available on the Morpheus Github in the Smart Contract and Dashboard repos:
 - https://github.com/MorpheusAIs/SmartContracts
 - https://github.com/MorpheusAIs/DashBoard
 
-## CODE / SMART AGENT TOOLS / REFERENCE VERSION:
+## 3. CODE / SMART AGENT TOOLS / REFERENCE VERSION:
 Latestly the tools for Smart Agents are under development here:
 - https://github.com/MorpheusAIs/SmartAgents
 
