@@ -12,6 +12,7 @@ The heart of connecting Inference Providers and developers is the Decentralized 
 https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
 
 This code base is leveraging the existing Lumerin code base built for hashrate decentralization and is now being adapted to Inference. See the talk by Ryan Condron at ETH Denver here. 
+
 https://streameth.org/watch?event=decentralize_ai_day__eth_denver_2024&session=65df6584bf97e02da98d28a5
 
 This will come online after the MOR token goes live May 8th 2024. This represents the 2nd phase of Morpheus where Decentralized Compute goes live.
