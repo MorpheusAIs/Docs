@@ -74,6 +74,9 @@ Akash
 **Forges / Agent Builders**
 Langchain / Langsmith
 Polywrap
+Tensorplex
+Hive network
+Shinkai
 
 **Data**
 Syntropy
