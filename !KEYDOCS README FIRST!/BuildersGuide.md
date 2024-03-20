@@ -33,5 +33,5 @@ If you want to experiment with the existing local Reference version of Morpheus,
 https://github.com/MorpheusAIs/Morpheus 
 
 ## Other Ways to Contribute To Morpheus
-If you have improvements you want to propose to the Morpheus Reference Implementations there is the Morpheus Request for Comments section here:
+If you have improvements you want to propose to the Morpheus Reference Implementations, the Morpheus Request for Comments (MRC) repository is here:
 https://github.com/MorpheusAIs/MRC
