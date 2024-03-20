@@ -33,8 +33,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights)  | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
-
-
-
-
+| 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/Lite-Client/issues/47 | https://github.com/MorpheusAIs/Lite-Client/pull/49 | 4 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet
 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | https://github.com/MorpheusAIs/MRC/pull/6, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/MRC/pull/13, https://github.com/MorpheusAIs/MRC/pull/10, https://github.com/MorpheusAIs/Docs/pull/83, https://github.com/MorpheusAIs/Docs/pull/77, https://github.com/MorpheusAIs/Docs/pull/70, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/Docs/pull/108 | 41 | Constant management, improving and keeping up to date /Docs and /MRC repositories, setup MRC dissussion forum, setup and customisation of discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contrinution to MRCs |
