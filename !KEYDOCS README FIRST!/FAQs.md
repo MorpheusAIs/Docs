@@ -1,7 +1,7 @@
 # FAQs
 ## Answers to Your Burning Questions: Morpheus FAQ
 
-## [WHITEPAPER](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md) TL;DR
+## [WHITEPAPER](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) TL;DR
 1) Access to AI has become fundamental to modern life.
 2) Large centralized companies currently gatekeep access to AI, they actively restrict access & use censorship.
 3) Having a personal AI that is open source, decentralized, and permissionless fixes this.
@@ -10,7 +10,7 @@
 6) Morpheus uses crypto-based financial rails to reward AI & Smart Agent providers.
 7) Follow the white rabbit. Free your mind.
 
-## [FAIR LAUNCH](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
+## [FAIR LAUNCH](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
 1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. All earning of MOR rewards starts at the same time.
 2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts to move to Ethereum mainnet.
 3) Bootstrap period goes for 90 days, MOR tokens are only claimable on day 91 (~ May 9th).
@@ -28,7 +28,7 @@ Morpheus is a Decentralized AI network and local inference.
 Smart Agent is a term to describe a general purpose AI that can execute Smart Contracts on behalf of a user using LLM Transformer language that converts human language into actionable code for Web3 interactions using intent based abstractions.
 
 **Who are the founders?**  
-The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
+The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
 
 **Who is on the team?**  
 There is no formal team, company or Foundation. Morpheus is fully decentralized and community driven.
@@ -50,7 +50,7 @@ If your skills are outside of the scope of these two channels please put your sk
 You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
 
 **Where can I get more information about Morpheus?**  
-This FAQ is the best start and Morpheus [Whitepaper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
+This FAQ is the best start and Morpheus [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
 
 
 ## MOR TOKEN AND LIQUIDITY
@@ -122,7 +122,7 @@ MOR token will be only claimable after the bootstrapping period on the 90th Day.
 An onboarding process is described in the [Coder Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 
 **What are the requirements to code contributors?**  
-There are Code Contributor Best Practices on [GitHub](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).
+There are Code Contributor Best Practices on [GitHub](hhttps://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md).
 
 **How do I get in touch with other builders for collaborations?**  
 The Accelerator Corner is your go to

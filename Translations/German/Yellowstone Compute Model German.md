@@ -5,12 +5,11 @@
 ### 3. Januar 2024
 
 Ein vorgeschlagener Überarbeitungsvorschlag für die Morpheus-Tokenomics-Struktur zur Anreizgebung für Berechnungen in einem dezentralen KI-Netzwerk.
-Ansehen auf Notion: https://defiant-wolfsbane-830.notion.site/Morpheus-Yellowstone-Compute-Model-2ca9b4e7e1374c898937fdbd1b964cc1
 
 ## Zusammenfassung
 Im Yellowstone-Berechnungsmodell zahlt das Morpheus-Netzwerk Anbietern nur für tatsächlich erbrachte Berechnungen im Rahmen eines wettbewerbsfähigen Angebotsverfahrens und verteilt die knappe Produktion von Tokens pro-rata an MOR-Token-Inhaber basierend auf dem Kontostand, anstatt auf Zahlungen. Dies verbessert drastisch die Benutzererfahrung und minimiert die Sybil-Anfälligkeit. Yellowstone integriert auch die wichtigen Metriken Zeit und einen Bestehen/Fehler-Test, um sicherzustellen, dass Anbieter angemessen schnell und genau sind. Yellowstone bewahrt die Privatsphäre, indem es niemals Aufforderungen oder Ergebnisse über den Router sendet, und minimiert Blockchain-Transaktionen, um einen großen Betriebsumfang zu ermöglichen. Durch dieses Modell erreicht MOR einen grundlegenden Wert, da es einen dauerhaften (wenn auch nicht unbegrenzten) Zugang zu berechtigten Berechnungen ermöglicht, ohne Transaktionen pro Inferenz zu erfordern.
 
-Wenn dies angenommen wird, ersetzt dieses Papier den Abschnitt "Berechnungsnachweis, Registrierung & Belohnung" des [Morpheus-Whitepapers](https://github.com/antonbosss/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md).
+Wenn dies angenommen wird, ersetzt dieses Papier den Abschnitt "Berechnungsnachweis, Registrierung & Belohnung" des [Morpheus-Whitepapers](https://github.com/MorpheusAIs/Docs/blob/main/Translations/German/Whitepaper%20German.md).
 
 ## Hintergrund
 Morpheus verwendet Tokenomics, um ausreichende und skalierbare Berechnungen als Ressource für dezentrale und berechtigungslose generative KI zu fördern. In seiner ursprünglichen Konzeption gab Morpheus 24 % der MOR-Emissionen direkt an Berechnungsanbieter aus, pro-rata abhängig von den erhaltenen Inferenzanfragen, und priorisierte Inferenzanfragen an diese Anbieter basierend darauf, wie viel MOR sie besaßen.

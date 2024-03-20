@@ -7,6 +7,9 @@
 - February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD Per Weight
 - March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $641 USD per Weight
 
+**NOTE: Weights are being rebased by 2,000 X this snap shot to create more granulatriy as fractions of weights are not supported in the Smart Contract.**
+https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md
+
 ## Structuring your Code Contributions.
 All Code Contributions should include the following five elements:
 1. The Ethereum / Wallet address to be rewarded.
@@ -17,8 +20,8 @@ All Code Contributions should include the following five elements:
 
 Example fields below: 
 
-| Wallet Address                             | Link to Issue | Link to Work        | Weights	| Description of Contribution |  
-| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50      |	Integration of ollama       |  
+`| Wallet Address                             | Link to Issue | Link to Work        | Weights	| Description of Contribution |`    
+`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50      |	Integration of ollama       |`  
 
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
@@ -30,8 +33,10 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
 
-| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
+| Wallet Address | Link to Work | Weight of Value Contributed (Weights)  | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
-| 0x66c743440673aB280AD2EB3dB51466E76B7a70fB | https://github.com/MorpheusAIs/Docs/pull/90, https://github.com/MorpheusAIs/Docs/pull/89 | 1 | Fixed typos and broken links |
+| 0x66c743440673aB280AD2EB3dB51466E76B7a70fB | https://github.com/MorpheusAIs/Docs/pull/90, https://github.com/MorpheusAIs/Docs/pull/89 | 0.2 | Fixed typos and broken links |
+| 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | https://github.com/MorpheusAIs/Morpheus/pull/634/commits/18ca822b43e114204a57ea8b2efadca2552bda1e | 14 | New and ongoing technical integrations with Sei, Monad, Hive Network, Tensorplex, Shinkai
+| 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/Lite-Client/issues/47 | https://github.com/MorpheusAIs/Lite-Client/pull/49 | 4 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | https://github.com/MorpheusAIs/MRC/pull/6, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/MRC/pull/13, https://github.com/MorpheusAIs/MRC/pull/10, https://github.com/MorpheusAIs/Docs/pull/83, https://github.com/MorpheusAIs/Docs/pull/77, https://github.com/MorpheusAIs/Docs/pull/70, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/Docs/pull/108 | 41 | Constant management, improving and keeping up to date /Docs and /MRC repositories, setup MRC dissussion forum, setup and customisation of discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contrinution to MRCs |

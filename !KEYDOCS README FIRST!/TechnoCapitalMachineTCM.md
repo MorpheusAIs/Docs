@@ -56,7 +56,7 @@ All the Morpheus Smart Contracts are open source and thus available for anyone l
 ## Atomic Governance
 In addition to being faster and cheaper than forming a company or foundation, the TCM uses what we call “Atomic Governance” to streamline all the decisions related to the software, infrastructure, capital and frontends. In the Atomic Governance model every person involved is able to freely associate and individually decide their contributions without any votes or friction being introduced.
 
-For example, the Coder can choose whether or not to merge any open source contribution the community of coders suggests for their project. Based on how they value the code contribution and the hours the contributor wants as credit for the work. The Compute providers choose the type of AI models and tokens they want to support and the price at which they are willing to offer them. The Capital Providers select which projects to direct their stETH yield toward based on their desire to use the software being created. And lastly, Community builders can choose the projects they want to build front ends for, integrate or otherwise support the development of based on the rewards they receive from project creators.
+For example, the Coder can choose whether or not to merge any open source contribution the community of coders suggests for their project. Based on how they value the code contribution and the weights the contributor wants as credit for the work. The Compute providers choose the type of AI models and requests for compute they want to support and the price at which they are willing to offer them. The Capital Providers select which projects to direct their stETH yield toward based on their desire to use the software being created. And lastly, Community builders can choose the projects they want to build front ends for, integrate or otherwise support the development of based on the rewards they receive from project creators.
 
 ## Atomic Voice & Exit
 The Atomic Governance Model is very different from a DAO model. This practically looks like: 
@@ -160,13 +160,14 @@ Except here the project can skip right to the staking stage and have the benefit
 
 8. Prerequisite for this may be in place by Phase 3 as the Code, Capital, Compute are all live on Moprhues and part of Community Front End Builder rewards.
 
-## Generalizing the TCM Model Using Ethereum, SOL & Stablecoins - MOR20
-- If you project is outside the context of Web3 & AI you can still use the TCM and bootstrap your project with the push of a button. 
-- Use the TCM Smart Contracts to collect stETH, SOL & Stablecoins in order to provide on going funding.
-- Create a fair launch for your project, fair price discovery mechanism and access the TCM's large network effect.
+## Automated Recurring Revenue / Rewards (ARR) Generalizing the TCM Model - MOR20 Token Standard
+- Any project inside or even outside the context of Web3 & AI, can use Morpheus to bootstrap their project with the push of a button.
+- The use the MOR20 Smart Contracts to collect stETH in order to provide Automated Recurring Revenue (ARR) to the project is a compelling new framework.
+- Easily create a fair launch for projects, fair price discovery mechanism and access the large network effect of the Morpheus community.
 - This model can be extended to many software as a service projects as a means of building reacurring revenue / payments from users via yield.
-- 10% of the stETH yield collected by third party projects using the TCM adds to the Morpheus Protocol Liquidity.
-- This adds to the Network Effect of Morpheus when it comes to bootstraping new projects, growing liquidity for all TCM users. 
+- The Morpheus platform charges only 0.35% (35 basis points) of the stETH yield collected by projects using the MOR20 Smart Contracts / Dashboards.
+- This yield collected is added to the Morpheus Protocol Liquidity and provides on going support for further Dashboards, Smart Contract development and audits.
+- This adds to the Network Effect of Morpheus when it comes to bootstraping new projects, growing liquidity for all MOR20 Smart Contract users.
 
 ## Conclusion
 Come join a community of people reinventing the way we build, fund and operate open source applications.

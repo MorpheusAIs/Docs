@@ -6,7 +6,7 @@ Heutzutage gibt es für Entwickler, die Programme erstellen, keine einfache Mög
 
 Mit diesem Vorschlag für eine Techno Capital Machine soll eine Plattform für Entwickler geschaffen werden, auf der sie ihre Programme entwickeln und bereitstellen können.  Dabei wird so vorgegangen, dass die TCM zunächst die gesamte Infrastruktur und die Zahlungen abwickelt, bevor sie den Entwickler je nach Beliebtheit des Programms belohnt.
 
-Die Morpheus-Gemeinschaft nutzt dieses Rahmenwerk der Techno Capital Machine (TCM), um die Entwicklung von dezentraler KI zu beschleunigen. Über die KI-Entwicklung hinaus ist das TCM-Konzept für alle Smart Contracts, dezentralen Anwendungen und Web3-Programme von Bedeutung. Einen Link zu den detaillierten Tokenomics finden Sie hier: [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
+Die Morpheus-Gemeinschaft nutzt dieses Rahmenwerk der Techno Capital Machine (TCM), um die Entwicklung von dezentraler KI zu beschleunigen. Über die KI-Entwicklung hinaus ist das TCM-Konzept für alle Smart Contracts, dezentralen Anwendungen und Web3-Programme von Bedeutung. Einen Link zu den detaillierten Tokenomics finden Sie hier: [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/Translations/German/Whitepaper%20German.md).
 
 Das Modell hat sich bei der Einführung der Morpheus-Messe gut bewährt, denn in den ersten 10 Tagen des Projekts wurden über 200 Mio. USD an StETH eingebracht.
 
@@ -21,7 +21,8 @@ Der Begriff "Techno Capital Machine" geht auf den bekannten Philosophen [Beff Je
 - Die nativen Token werden dann mit den anderen 50 % des Ertrags gepaart und in einen Liquiditätspool auf einem AMM eingezahlt.
 
 Wie Sie Ihr dezentrales Open-Source-Projekt im Jahr 2024 starten:
-![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Asset/WhitePaper%20Graphics/German/German%20meme%20for%20TCM.jpeg)
+
+![TCMin2024](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/Docs%20Graphics/German/Meme%20for%20TCM%20German.jpeg)
 
 ## TCM als Lösung
 Lassen Sie uns zusammenarbeiten, um einen reibungslosen Weg für Entwickler zu schaffen, Projekte mit der Techno Capital Machine zu starten, sollen wir?  
