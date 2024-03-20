@@ -17,8 +17,8 @@ All Code Contributions should include the following five elements:
 
 Example fields below: 
 
-| Wallet Address                             | Link to Issue | Link to Work        | Weights	| Description of Contribution |  
-| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50      |	Integration of ollama       |  
+`| Wallet Address                             | Link to Issue | Link to Work        | Weights	| Description of Contribution |`    
+`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Issue | Link to Commit #127 | 50      |	Integration of ollama       |`  
 
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
@@ -30,7 +30,11 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
 
-| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
+| Wallet Address | Link to Work | Weight of Value Contributed (Weights)  | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+
+
+
+
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | https://github.com/MorpheusAIs/MRC/pull/6, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/MRC/pull/13, https://github.com/MorpheusAIs/MRC/pull/10, https://github.com/MorpheusAIs/Docs/pull/83, https://github.com/MorpheusAIs/Docs/pull/77, https://github.com/MorpheusAIs/Docs/pull/70, https://github.com/MorpheusAIs/MRC/pull/21, https://github.com/MorpheusAIs/Docs/pull/108 | 41 | Constant management, improving and keeping up to date /Docs and /MRC repositories, setup MRC dissussion forum, setup and customisation of discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contrinution to MRCs |
