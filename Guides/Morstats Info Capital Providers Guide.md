@@ -34,19 +34,25 @@ Detailed schedule showing the daily emissions broken down by
 8) Compute Allocation 
 9) Protection Allocation
 
-## Code Weights Page
+## Code Weights Menu
 Details surrounding the newly released code weight guidance and emission schedules. Provides supporting documentation to help community understand potential earnings from the contribution of code.
-1) Annual Earnings Calculator - Users can enter their own estimates for MOR price and their Code Weights. The resulting output provides the comparison against total annual weights, the estimated annual MOR earned, and the estimated USD earned.
-2) The Estimated Earnings table provides a schedule showing the expected emissions schedule, cumulative weights, MOR earned per weight, a hypothetical MOR price, and then the resulting monthly value of weights. This helps to provide a framework for users to better think through the value of weights.
+1) Earned MOR - This page allows a user to query their wallet address and review the MOR they have earned for Code Contributions.
+2) User Value - Users can enter their own estimates for MOR price alongside their Code Weights. The resulting output provides total MOR Emissions, total cumulative weights, user weights, the monthly estimated MOR earned by user, and the estimated USD earned. This helps to provide a framework for users to better think through the value of weights.
+3) Weights Snapshot - This documents the snapshots that have been completed for assigning values to weights on a monthly basis. The top table will document the official analysis as each month completes. At the bottom, users can input their own estimates for how much stETH will be deposited and ETH prices: these two inputs allow a user to calculate an expected USD per weight.
 
 ## MOR Price Projection Page
-Detailed Schedule the projected MOR price based on various overall market capitalization amounts. This provides a dropdown with two calculation methodologies and associated tables: Capital Provider stETH Yield Method and the Market Cap vs Supply Method. This provides two different ways for the community to think through potential prices.
+Opening Price - Per the recently released guidance for the Automated Market Maker launch, this page details how users can calculate the expected opening price.
+1) Default amounts are included, but users can input their own esimates for Average Staked ETH, Annual Yield %, ETH Price, and optionally their own Staked ETH amount.
+2) The caluclate will step users through the process of applying 52% of the stETH yield against the Protection Fund MOR, and thus reaching a USD per MOR value.
+3) Any user who optionally inputs their own stETH amount will get to see the estimated total value of the MOR they'll earn during bootstrapping. 
+
+Market Cap Method - Detailed Schedule the projected MOR price based on various overall market capitalization amounts. This provides a dropdown with two calculation methodologies and associated tables: Capital Provider stETH Yield Method and the Market Cap vs Supply Method. This provides two different ways for the community to think through potential prices.
 1) Estimated Market Cap
 2) MOR price projection based off of the circulating supply at Day 90
 3) MOR price projection based off of the circulating supply at end of Year 1
 4) MOR price projection based off of the max supply of 42,000,000. Also known as the fully diluted value (FDV)
 
-Alternative pricing model that is based off of the stETH yield from Capital Providers.
+stETH Yield Method - Pricing model that is based off of the stETH yield from Capital Providers.
 1) Range of average deposited stETH over the 90 day bootstrapping period.
 2) Scenario 1 is based off of the community documentation noting 7.522% of yield to be paired with Protection Fund MOR
 3) Scenario 2 is the maximum potential starting price based off of 100% of yield to be paired with Protection Fund MOR
@@ -256,3 +262,97 @@ Below are several code snippets that are useful for anyone else looking to build
         echo 'Error parsing JSON or missing required fields.';
     }
 
+## Opening Price Calculator
+    <script>
+        function formatNumber(number) {
+            return number.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function calculateValues() {
+            var averageStakedETH = parseFloat(document.getElementById('averageStakedETH').value);
+            var ethPrice = parseFloat(document.getElementById('ethPrice').value);
+            var annualYieldPercentage = parseFloat(document.getElementById('yieldPercentage').value);
+            var yourStakedETH = parseFloat(document.getElementById('yourStakedETH').value);
+
+            // Calculate annual ETH yield in both ETH and USD
+            var annualEthYield = (averageStakedETH * annualYieldPercentage / 100);
+            var annualUsdYield = annualEthYield * ethPrice;
+
+            // Calculate 90-day ETH yield in both ETH and USD
+            var ninetyDayEthYield = (averageStakedETH * annualYieldPercentage * (90/365) / 100);
+            var ninetyDayUsdYield = ninetyDayEthYield * ethPrice;
+
+            // Calculate Allocated Yield of 52%: (52% of 90-day yield) in both ETH and USD
+            var allocatedYieldEth = ninetyDayEthYield * 0.52;
+            var allocatedYieldUsd = allocatedYieldEth * ethPrice;
+
+            // Fixed total MOR tokens
+            var totalMorTokens = 50309.95;
+
+            // Calculate USD per MOR Token
+            var usdPerMorToken = allocatedYieldUsd / totalMorTokens;
+
+            // Calculate user's MOR earned
+            var userMorEarned = (yourStakedETH / averageStakedETH) * 308666.8;
+
+            // Calculate user's total value
+            var userTotalValue = userMorEarned * usdPerMorToken;
+
+            // Update the table
+            var resultTable = document.getElementById('resultTable');
+            resultTable.innerHTML = '<tr><th>Parameter</th><th>Value</th></tr>' +
+                '<tr><td>Annual ETH Yield</td><td>' + formatNumber(annualEthYield) + ' ETH ($' + formatNumber(annualUsdYield) + ')</td></tr>' +
+                '<tr><td>90-day ETH Yield</td><td>' + formatNumber(ninetyDayEthYield) + ' ETH ($' + formatNumber(ninetyDayUsdYield) + ')</td></tr>' +
+                '<tr><td>Allocated Yield of 52%</td><td>' + formatNumber(allocatedYieldEth) + ' ETH ($' + formatNumber(allocatedYieldUsd) + ')</td></tr>' +
+                '<tr><td>MOR in Liquidity Pool</td><td>' + formatNumber(totalMorTokens) + '</td></tr>' +
+                '<tr><td>USD per MOR Token</td><td>$' + formatNumber(usdPerMorToken) + '</td></tr>' +
+                '<tr><td>Your Staked ETH</td><td>' + formatNumber(yourStakedETH) + ' ETH</td></tr>' +
+                '<tr><td>Your MOR Earned</td><td>' + formatNumber(userMorEarned) + ' MOR</td></tr>' +
+                '<tr><td>Your MOR Value</td><td>$' + formatNumber(userTotalValue) + '</td></tr>';
+
+## Snapshot Calculator
+    <script>
+    function calculate() {
+      // Get user inputs
+      var stETH = parseFloat(document.getElementById('stETH').value);
+      var ethPrice = parseFloat(document.getElementById('ethPrice').value);
+
+      // Perform calculations
+      var yieldValue = 0.034 * stETH;
+      var usdYield = yieldValue * ethPrice;
+      var impliedMORPrice = usdYield / 1222076;
+      var weights = 25000;
+      var annualMOR = 1222076;
+      var morPerWeight = annualMOR / weights;
+      var usdPerWeight = morPerWeight * impliedMORPrice;
+
+      // Format results
+      function formatNumberWithCommas(number) {
+        return number.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      // Display results
+      var resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = `
+        <p>1. stETH: ${formatNumberWithCommas(stETH)}</p>
+        <p>2. Yield: ${formatNumberWithCommas(yieldValue)}</p>
+        <p>3. ETH Price: $${formatNumberWithCommas(ethPrice)}</p>
+        <p>4. USD Yield: $${formatNumberWithCommas(usdYield)}</p>
+        <p>5. Annual MOR: ${formatNumberWithCommas(annualMOR)}</p>
+        <p>6. Implied MOR Price: $${formatNumberWithCommas(impliedMORPrice)}</p>
+        <p>7. Weights: ${formatNumberWithCommas(weights)}</p>
+        <p>8. MOR per Weight: $${formatNumberWithCommas(morPerWeight)}</p>
+        <p>9. USD per Weight: $${formatNumberWithCommas(usdPerWeight)}</p>
+      `;
+
+## Query Code Contribution Rewards
+     async function getBalance(account){
+            document.getElementById("loading").style.display="block"
+            const provider = new ethers.providers.JsonRpcProvider("https://eth.llamarpc.com");
+            const morpheusAI = "0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790";
+            const abi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"previousAdmin","type":"address"},{"indexed":false,"internalType":"address","name":"newAdmin","type":"address"}],"name":"AdminChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"beacon","type":"address"}],"name":"BeaconUpgraded","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint8","name":"version","type":"uint8"}],"name":"Initialized","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"},{"indexed":false,"internalType":"bytes","name":"uniqueId","type":"bytes"}],"name":"OverplusBridged","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":false,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"poolId","type":"uint256"},{"components":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"indexed":false,"internalType":"struct IDistribution.Pool","name":"pool","type":"tuple"}],"name":"PoolCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"poolId","type":"uint256"},{"components":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"indexed":false,"internalType":"struct IDistribution.Pool","name":"pool","type":"tuple"}],"name":"PoolEdited","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"implementation","type":"address"}],"name":"Upgraded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"poolId","type":"uint256"},{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":false,"internalType":"address","name":"receiver","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"UserClaimed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"poolId","type":"uint256"},{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"UserStaked","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"poolId","type":"uint256"},{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"UserWithdrawn","type":"event"},{"inputs":[{"internalType":"address","name":"depositToken_","type":"address"},{"internalType":"address","name":"l1Sender_","type":"address"},{"components":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"internalType":"struct IDistribution.Pool[]","name":"poolsInfo_","type":"tuple[]"}],"name":"Distribution_init","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"gasLimit_","type":"uint256"},{"internalType":"uint256","name":"maxFeePerGas_","type":"uint256"},{"internalType":"uint256","name":"maxSubmissionCost_","type":"uint256"}],"name":"bridgeOverplus","outputs":[{"internalType":"bytes","name":"","type":"bytes"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"address","name":"receiver_","type":"address"}],"name":"claim","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"components":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"internalType":"struct IDistribution.Pool","name":"pool_","type":"tuple"}],"name":"createPool","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"depositToken","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"components":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"internalType":"struct IDistribution.Pool","name":"pool_","type":"tuple"}],"name":"editPool","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"address","name":"user_","type":"address"}],"name":"getCurrentUserReward","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"uint128","name":"startTime_","type":"uint128"},{"internalType":"uint128","name":"endTime_","type":"uint128"}],"name":"getPeriodReward","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"isNotUpgradeable","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"l1Sender","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"address[]","name":"users_","type":"address[]"},{"internalType":"uint256[]","name":"amounts_","type":"uint256[]"}],"name":"manageUsersInPrivatePool","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"overplus","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"pools","outputs":[{"internalType":"uint128","name":"payoutStart","type":"uint128"},{"internalType":"uint128","name":"decreaseInterval","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriod","type":"uint128"},{"internalType":"uint128","name":"claimLockPeriod","type":"uint128"},{"internalType":"uint128","name":"withdrawLockPeriodAfterStake","type":"uint128"},{"internalType":"uint256","name":"initialReward","type":"uint256"},{"internalType":"uint256","name":"rewardDecrease","type":"uint256"},{"internalType":"uint256","name":"minimalStake","type":"uint256"},{"internalType":"bool","name":"isPublic","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"poolsData","outputs":[{"internalType":"uint128","name":"lastUpdate","type":"uint128"},{"internalType":"uint256","name":"rate","type":"uint256"},{"internalType":"uint256","name":"totalDeposited","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"proxiableUUID","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"removeUpgradeability","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"uint256","name":"amount_","type":"uint256"}],"name":"stake","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"totalDepositedInPublicPools","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"}],"name":"upgradeTo","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"upgradeToAndCall","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"},{"internalType":"uint256","name":"","type":"uint256"}],"name":"usersData","outputs":[{"internalType":"uint128","name":"lastStake","type":"uint128"},{"internalType":"uint256","name":"deposited","type":"uint256"},{"internalType":"uint256","name":"rate","type":"uint256"},{"internalType":"uint256","name":"pendingRewards","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"poolId_","type":"uint256"},{"internalType":"uint256","name":"amount_","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+            const contract = new ethers.Contract(morpheusAI, abi, provider);
+            balance = await contract.getCurrentUserReward("1", account)
+            document.getElementById("userBalance").innerHTML = ethers.utils.formatUnits(balance, 18) + " MOR"
+			document.getElementById("loading").style.display = "none"
+        }
