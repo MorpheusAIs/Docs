@@ -30,7 +30,8 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
 
-| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
-| -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
+| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution|
+| -------------- | ------------ |---------------------------------------|----------------------------|
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
+| 0x01974549C9B9a30d47c548A16b120b1cAa7B586C | https://github.com/MorpheusAIs/Docs/pull/107 | 6 | Translate FAQs, Mastery of Tokenomics, Morpheus Meetup Guide, and Phased AMM Deployment and Fair Price Discovery in Chinese |
+
