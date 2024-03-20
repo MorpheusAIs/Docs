@@ -1,7 +1,7 @@
 # Morpheus Builders Guide
 
 ## Intro & Purpose:
-At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are permissionless, open source, and provide unrestricted intelligence to the world.
+At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are directed by individuals, permissionless, open source, and provide unrestricted intelligence to the world.
 
 What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral platform for all to leverage. A protocol not owned or controlled by any company or central party. Fair launched and built in public from day one.
 
