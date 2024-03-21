@@ -17,7 +17,7 @@ To get started here is a short list of resources and some of the best ways to ge
 ## Morpheus Request For Comments:
 Includes a list of all the papers / proposals related to improving, implementing Morpheus, Smart Agents, Tokenomics, & the Techno Capital Machine.
 
-https://github.com/MorpheusAIs/MRC/blob/main/Morpheus%20Request%20For%20Comments%20(MRC).md
+https://github.com/MorpheusAIs/MRC/blob/main/README.md
 
 ## Check the list of Issue On GitHub For Details Of On Going Work
 Includes a list of active issues reported on the Morpheus GitHub.
