@@ -43,8 +43,8 @@ At the moment, there are no such plans, but it's not ruled out in the future.
 Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. 
 
 **How can I contribute?**  
-If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/Dc26EFb6JK) or ⁠👥︱[designer-intros](https://discord.gg/Dc26EFb6JK).
-If your skills are outside the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/Dc26EFb6JK)
+If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/morpheusai) or ⁠👥︱[designer-intros](https://discord.gg/morpheusai).
+If your skills are outside the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/morpheusai)
 
 **Who can I contact regarding cooperation/marketing proposals?**  
 You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
@@ -126,10 +126,10 @@ There are Code Contributor Best Practices on [GitHub](hhttps://github.com/Morphe
 
 **How do I get in touch with other builders for collaborations?**  
 The Accelerator Corner is your go to
-⁠🤖︱[smart-agent-devs](https://discord.gg/Dc26EFb6JK)
-⁠🦾︱[rag-devs](https://discord.gg/Dc26EFb6JK)
-⁠🎛︱[llm-fine-tunes](https://discord.gg/Dc26EFb6JK)
-⁠🖼︱[front-end](https://discord.gg/Dc26EFb6JK)
+⁠🤖︱[smart-agent-devs](https://discord.gg/morpheusai)
+⁠🦾︱[rag-devs](https://discord.gg/morpheusai)
+⁠🎛︱[llm-fine-tunes](https://discord.gg/morpheusai)
+⁠🖼︱[front-end](https://discord.gg/morpheusai)
 
 **How do code providers get rewarded?**  
 They get emissions depending on their contributed weights vs the total amount of hours daily.
