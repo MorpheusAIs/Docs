@@ -7,12 +7,12 @@ Please direct all new pull requests to the current [snapshot 3 file](https://git
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
 
-## Snapshot Timelines and Implied Value of a Weight.
+## Snapshot Timelines and Implied Value of a Weight
 **Snapshot 1.** September 2nd 2023 to February 8th 2024 Implied Value of a Weight = $50 USD per Weight  
 **Snapshot 2.** February 8th to March 8th 2024 Implied Value of a Weight = $400 USD per Weight  
 **Snapshot 3**. March 8th to April 8th 2024 Implied Value of a Weight = $641 USD per Weight
 
-## Structuring your Code Contributions.
+## Structuring your Code Contributions
 All Code Contributions should include the following five elements:
 1. The Ethereum / Wallet address to be rewarded.
 2. Link to the Issue being addressed.
@@ -34,6 +34,8 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - Detail the work you are contributing to Morpheus. You must include a link to the work for the work to be considered. Examples of proof include links to pull requests, github issues, or other easily verifyable information.  
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
+
+## Code Contributions for Snapshot 1 and Snapshot 2
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -1,5 +1,8 @@
 ## Code Provider - Proof of Contribution Table Snapshot 3 March 8th to April 8th 2024
 
+This table is for code contributions in snapshot 3.
+See [snapshot 1 & 2 code contribution details](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md#code-contributions-for-snapshot-1-and-snapshot-2).
+
 **Before adding a pull request to this table [please read the BEST PRACTICES GUIDE](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
@@ -32,6 +35,8 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - Detail the work you are contributing to Morpheus. You must include a link to the work for the work to be considered. Examples of proof include links to pull requests, github issues, or other easily verifyable information.  
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
+
+## Code Contributions for Snapshot 3
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights)  | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
