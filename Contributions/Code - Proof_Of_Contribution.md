@@ -39,6 +39,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x75AdC3921610A67538538Dd5d06a4f4a66108583 | https://github.com/MorpheusAIs/Docs/pull/1 | 5 | Moved documents from Morpheus to Docs repo |
 | 0x3a3539aDDCB51a5b1050A3Ca673fBf3d0fb7b005 | Farcaster setup | 2 | Setting up and subscribing to a Farcaster channel - https://warpcast.com/~/channel/mor|
 | 0x49B6123A10B022D5847335d5ad32eB198a14bc58 | https://github.com/MorpheusAIs/Docs/pull/44 | 3 | Proofread and edit key docs |
 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | Akash Backend | 6 | Fixing truncation issue + Akash deployment for mor.chat  |
