@@ -5,7 +5,7 @@ At its heart everything contributors are adding to the Morpheus platform from Co
 
 What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral platform for all to leverage. A protocol not owned or controlled by any company or central party. Fair launched and built in public from day one.
 
-![Builders Guide Decision Tree Diagram](https://github.com/MorpheusAIs/Docs/assets/1563345/8c5e8a18-74e5-4fa9-9f81-14f147b7e644)
+![BuildersGuideDiagram2](https://github.com/MorpheusAIs/Docs/assets/1563345/0a7d235a-77e6-45a7-837a-177b60856dd6)
 
 ## 1. COMPUTE / INFERENCE:
 The starting place for many developers building on Morpheus is to use open source models and decentralized inference to replace their expensive OpenAI API in their application. Morpheus is model and compute agnostic. Compute Providers can use Akash or Bittensor, or whatever platform they want to offer Inference on Morpheus. So think of Morpheus as aggregating and incentivizing Inference for developers with a single API.
