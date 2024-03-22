@@ -70,7 +70,8 @@ At this point, the protocol reverts to the procedures as outlined in the Whitepa
 * 52% of Yield for Initiation: 260 ETH
 * 48% of Yield for Liquidity Support Range: 240 ETH
 
-![1](https://github.com/generativeone/Images/blob/main/1.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/1.png">
+
 
 ### Appendix 2: Range Example:
 
@@ -82,17 +83,17 @@ If the prevailing market price falls into the Liquidity Support Range at 12:00 p
 
 Starting Ratio: 0.00516796 ETH / MOR
 
-![range1](https://github.com/generativeone/Images/blob/main/range1-.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/range1-.png">
 
 However, if the prevailing market price has increased, then the Liquidity Support Range is adjusted. For example, if the prevailing market price has increased to 0.01033592 ETH / MOR, then the new Support Range would be as follows:
 
 Prevailing Market Price: 0.01033592 ETH / MOR
 
-![range2](https://github.com/generativeone/Images/blob/main/range2.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/range2.png">
 
 ### Appendix 3: AMM Balancing Phase Examples
 
-![2](https://github.com/generativeone/Images/blob/main/2-.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/2-.png">
 
 ** All prices are denoted in MOR per wETH
 
@@ -100,11 +101,11 @@ Prevailing Market Price: 0.01033592 ETH / MOR
 
 ### Appendix 4: Timeline of Phases & Key Events
 
-![3](https://github.com/generativeone/Images/blob/main/3.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/3.png">
 
 ### Appendix 5: User Actions Available During Various Phases
 
-![4](https://github.com/generativeone/Images/blob/main/4.png)
+<img src="/Graphics/Docs Graphics/English/Phased%20AMM%20Deployment/4.png">
 
 ### Appendix 6: Glossary
 
