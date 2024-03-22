@@ -28,7 +28,10 @@ Available on the Morpheus Github in the Smart Contract and Dashboard repos:
 - https://github.com/MorpheusAIs/DashBoard
 
 ## 3. CODE / SMART AGENT TOOLS / REFERENCE VERSION:
-Latestly the tools for Smart Agents are under development here:
+Developers can register themselves or their Smart Agents at Mor.Software as a starting place to track opportunities to contribute and their contributions.
+- https://mor.software/
+
+The latestly the tools for Smart Agents are under development here:
 - https://github.com/MorpheusAIs/SmartAgents
 
 If you want to experiment with the existing local Reference version of Morpheus, its connections to wallets and Smart Contracts, check out this repo: 
