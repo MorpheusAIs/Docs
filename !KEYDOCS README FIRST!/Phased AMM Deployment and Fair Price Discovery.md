@@ -46,7 +46,7 @@ Post the AMM Initiation Phase, in adherence to Morpheus's Whitepaper, the Capita
 
 The goal for the Liquidity Support Range is to expand to a full-range position at the completion of the AMM Initiation Phase (Day 120), the Liquidity Support could be in two situations:
 1. The price is above the Liquidity Support Range, meaning that the Liquidity Support Range consists of 100% wETH and 0% MOR
-2. The price falls somewhere within the Liquidity Support Range, meaning the the balance consists of greater than 0% MOR
+2. The price falls somewhere within the Liquidity Support Range, meaning the balance consists of greater than 0% MOR
 
 To transition from a concentrated position requires a 50-50 balance of wETH and MOR. Therefore, Morpheus will need some mechanism to achieve this ratio.
 #### Scenario 1: Should the Liquidity Support Range comprise over 50% wETH at the end of the AMM Initiation Phase, the following strategy will be implemented:

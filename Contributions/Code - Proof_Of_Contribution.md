@@ -7,12 +7,12 @@ Please direct all new pull requests to the current [snapshot 3 file](https://git
 & 
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
 
-## Snapshot Timelines and Implied Value of a Weight.
+## Snapshot Timelines and Implied Value of a Weight
 **Snapshot 1.** September 2nd 2023 to February 8th 2024 Implied Value of a Weight = $50 USD per Weight  
 **Snapshot 2.** February 8th to March 8th 2024 Implied Value of a Weight = $400 USD per Weight  
 **Snapshot 3**. March 8th to April 8th 2024 Implied Value of a Weight = $641 USD per Weight
 
-## Structuring your Code Contributions.
+## Structuring your Code Contributions
 All Code Contributions should include the following five elements:
 1. The Ethereum / Wallet address to be rewarded.
 2. Link to the Issue being addressed.
@@ -35,8 +35,11 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > -  You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
 
+## Code Contributions for Snapshot 1 and Snapshot 2
+
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x75AdC3921610A67538538Dd5d06a4f4a66108583 | https://github.com/MorpheusAIs/Docs/pull/1 | 5 | Moved documents from Morpheus to Docs repo |
 | 0x3a3539aDDCB51a5b1050A3Ca673fBf3d0fb7b005 | Farcaster setup | 2 | Setting up and subscribing to a Farcaster channel - https://warpcast.com/~/channel/mor|
 | 0x49B6123A10B022D5847335d5ad32eB198a14bc58 | https://github.com/MorpheusAIs/Docs/pull/44 | 3 | Proofread and edit key docs |
 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | Akash Backend | 6 | Fixing truncation issue + Akash deployment for mor.chat  |
