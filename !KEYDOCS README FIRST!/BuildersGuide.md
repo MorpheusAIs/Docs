@@ -1,6 +1,5 @@
 # Morpheus Builders Guide
-
-![Diagram4forBuilderGuide](https://github.com/MorpheusAIs/Docs/assets/1563345/04f6b4ed-0fb5-4f2a-af35-a91ae11c6261)
+![BuilderRewardMRCMORStaking](https://github.com/MorpheusAIs/Docs/assets/1563345/275ff51f-673d-4ce1-859c-e4a02e06dcdb)
 
 ## Quick Links Section
 
