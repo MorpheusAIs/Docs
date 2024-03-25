@@ -67,6 +67,7 @@ NOUS Research
 **Tools**
 Ora(Previously HyperOracle)
 Lumerin
+OKX wallet
 
 **Compute**
 Akash
@@ -84,6 +85,7 @@ Jackal Protocol
 Bagel
 HyperSpaceAI
 Lighthouse
+Inferix
 
 **Smart Contracts**
 Syntropy
@@ -91,6 +93,8 @@ Arbitrum
 Monad
 Sei
 Polygon
+BSC
+Rango
 
 **Inference**
 Livepeer
