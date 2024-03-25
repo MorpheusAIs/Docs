@@ -1,10 +1,5 @@
 # Morpheus Builders Guide
 
-## Intro & Purpose:
-At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are directed by individuals, permissionless, open source, and provide unrestricted intelligence to the world.
-
-What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral platform for all to leverage. A protocol not owned or controlled by any company or central party. Fair launched and built in public from day one.
-
 ![Diagram4forBuilderGuide](https://github.com/MorpheusAIs/Docs/assets/1563345/04f6b4ed-0fb5-4f2a-af35-a91ae11c6261)
 
 ## Quick Links Section
@@ -20,6 +15,11 @@ What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral plat
 - Code: MRC Repository on Github for new proposals (https://github.com/MorpheusAIs/MRC)
 - Inference: Decentralized Router for Morpheus / Lumerin Code Base (https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 - Smart Agents: Mor.Software Website to Register as a Developer or register your Smart Agent (https://mor.software/)
+
+## Intro & Purpose:
+At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are directed by individuals, permissionless, open source, and provide unrestricted intelligence to the world.
+
+What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral platform for all to leverage. A protocol not owned or controlled by any company or central party. Fair launched and built in public from day one.
 
 ## 1. COMPUTE / INFERENCE:
 The starting place for many developers building on Morpheus is to use open source models and decentralized inference to replace their expensive OpenAI API in their application. Morpheus is model and compute agnostic. Compute Providers can use Akash or Bittensor, or whatever platform they want to offer Inference on Morpheus. So think of Morpheus as aggregating and incentivizing Inference for developers with a single API.
