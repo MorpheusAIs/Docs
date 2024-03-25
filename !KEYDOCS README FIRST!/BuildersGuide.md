@@ -8,7 +8,7 @@
 - Capital: MOR20 Smart Contracts Github Repo (https://github.com/MorpheusAIs/SmartContracts)
 - Code: Documentation for Building Morpheus (https://github.com/MorpheusAIs/Docs)
 - Inference: Dashboard for Compute (https://github.com/MorpheusAIs/DashBoard)
-- Smart Agents: MRC for Non-Fungilbe Agents (NFA) (https://github.com/MorpheusAIs/MRC/blob/main/MRC21.md)
+- Smart Agents: MRC for Non Fungible Agents (NFA) (https://github.com/MorpheusAIs/MRC/blob/main/MRC21.md)
 
 ### Contributor Links:
 - Capital: Dashboard for Capital Contributors (https://morpheus.206.189.243.3.sslip.io/#/mainnet/capital)
