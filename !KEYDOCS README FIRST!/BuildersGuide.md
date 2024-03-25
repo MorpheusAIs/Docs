@@ -1,5 +1,21 @@
 # Morpheus Builders Guide
 
+![Diagram4forBuilderGuide](https://github.com/MorpheusAIs/Docs/assets/1563345/04f6b4ed-0fb5-4f2a-af35-a91ae11c6261)
+
+## Quick Links Section
+
+### User Links:
+- Capital: MOR20 Smart Contracts Github Repo (https://github.com/MorpheusAIs/SmartContracts)
+- Code: Documentation for Building Morpheus (https://github.com/MorpheusAIs/Docs)
+- Inference: Dashboard for Compute (https://github.com/MorpheusAIs/DashBoard)
+- Smart Agents: MRC for Non Fungible Agents (NFA) (https://github.com/MorpheusAIs/MRC/blob/main/MRC21.md)
+
+### Contributor Links:
+- Capital: Dashboard for Capital Contributors (https://morpheus.206.189.243.3.sslip.io/#/mainnet/capital)
+- Code: MRC Repository on Github for new proposals (https://github.com/MorpheusAIs/MRC)
+- Inference: Decentralized Router for Morpheus / Lumerin Code Base (https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+- Smart Agents: Mor.Software Website to Register as a Developer or register your Smart Agent (https://mor.software/)
+
 ## Intro & Purpose:
 At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are directed by individuals, permissionless, open source, and provide unrestricted intelligence to the world.
 
@@ -26,7 +42,10 @@ Available on the Morpheus Github in the Smart Contract and Dashboard repos:
 - https://github.com/MorpheusAIs/DashBoard
 
 ## 3. CODE / SMART AGENT TOOLS / REFERENCE VERSION:
-Latestly the tools for Smart Agents are under development here:
+Developers can register themselves or their Smart Agents at Mor.Software as a starting place to track opportunities to contribute and their contributions.
+- https://mor.software/
+
+The latestly the tools for Smart Agents are under development here:
 - https://github.com/MorpheusAIs/SmartAgents
 
 If you want to experiment with the existing local Reference version of Morpheus, its connections to wallets and Smart Contracts, check out this repo: 
