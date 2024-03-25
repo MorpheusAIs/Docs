@@ -7,6 +7,20 @@ What Ethereum is to Smart Contracts, Morpheus is to Smart Agents. A neutral plat
 
 ![Diagram4forBuilderGuide](https://github.com/MorpheusAIs/Docs/assets/1563345/04f6b4ed-0fb5-4f2a-af35-a91ae11c6261)
 
+## Quick Links Section
+
+### User Links:
+[- Capital: MOR20 Smart Contracts Github Repo](https://github.com/MorpheusAIs/SmartContracts)
+[- Code: Documentation for Building Morpheus ](https://github.com/MorpheusAIs/Docs)
+[- Inference: Dashboard for Compute](https://github.com/MorpheusAIs/DashBoard)
+[- Smart Agents: MRC for Non-Fungilbe Agents (NFA) ](https://github.com/MorpheusAIs/MRC/blob/main/MRC21.md)
+
+### Contributor Links:
+[- Capital: Dashboard for Capital Contributors](https://morpheus.206.189.243.3.sslip.io/#/mainnet/capital)
+[- Code: MRC Repository on Github for new proposals](https://github.com/MorpheusAIs/MRC)
+[- Inference: Decentralized Router for Morpheus / Lumerin Code Base](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+[- Smart Agents: Mor.Software Website to Register as a Developer or register your Smart Agent](https://mor.software/)
+
 ## 1. COMPUTE / INFERENCE:
 The starting place for many developers building on Morpheus is to use open source models and decentralized inference to replace their expensive OpenAI API in their application. Morpheus is model and compute agnostic. Compute Providers can use Akash or Bittensor, or whatever platform they want to offer Inference on Morpheus. So think of Morpheus as aggregating and incentivizing Inference for developers with a single API.
 
