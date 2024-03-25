@@ -7,9 +7,10 @@ Please direct all new pull requests to the current [snapshot 3 file](https://git
 &
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**.
 
-- September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $50 USD per Weight
-- February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $400 USD per Weight
-- March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $641 USD per Weight
+## Snapshot Timelines and Implied Value of a Weight
+**Snapshot 1.** September 2nd 2023 to February 8th 2024 Implied Value of a Weight = $50 USD per Weight  
+**Snapshot 2.** February 8th to March 8th 2024 Implied Value of a Weight = $400 USD per Weight  
+**Snapshot 3.** March 8th to April 8th 2024 Implied Value of a Weight = $641 USD per Weight
 
 ## Structuring your Code Contributions
 
@@ -35,8 +36,11 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > - It is your responsibility to make the proof easily verifiable. Don't assume reviewers of this table have an understanding of your code. Explain it simply. Limit your descriptions to 250 words.
 > - You need a wallet like Metamask that can receive Ethereum based tokens. MOR is an ERC-20 type token. Also must support Arbitrum.
 
+## Code Contributions for Snapshot 1 and Snapshot 2
+
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x75AdC3921610A67538538Dd5d06a4f4a66108583 | https://github.com/MorpheusAIs/Docs/pull/1 | 5 | Moved documents from Morpheus to Docs repo |
 | 0x3a3539aDDCB51a5b1050A3Ca673fBf3d0fb7b005 | Farcaster setup | 2 | Setting up and subscribing to a Farcaster channel - https://warpcast.com/~/channel/mor|
 | 0x49B6123A10B022D5847335d5ad32eB198a14bc58 | https://github.com/MorpheusAIs/Docs/pull/44 | 3 | Proofread and edit key docs |
 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | Akash Backend | 6 | Fixing truncation issue + Akash deployment for mor.chat  |
@@ -246,3 +250,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8ed1221d896a32a1a37a4c6b67577e7eaa67b2d3 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md | 3 | Helped construct tokenomics and mechanism design for Morpheus |
 | 0x3476ee81BA812D56b571bCc2e6122De698084E15 | https://github.com/MorpheusAIs/Docs/pull/19 , https://github.com/MorpheusAIs/Docs/pull/22 , https://github.com/MorpheusAIs/MRC , https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Price%20Discovery.md , https://docs.google.com/document/d/1uMvRT_WA1KqJAkoHbs7fxDkMtYrcdprXrbOmssEXtGg/edit , MorStats.info| 52 | Updated MorStats.info with stETH withdrawals, yield, resources, and price analytics. Proofread, collaborated, and contributed to the following documents: Fair Price Discovery, Fair Launch Process, Waterloo Community Model, Code Contributor Weights Guide|
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://mor.software, https://github.com/MorpheusAIs/Morpheus/issues/106, https://github.com/MorpheusAIs/Morpheus/issues/633, https://github.com/MorpheusAIs/Morpheus/pull/606, https://github.com/MorpheusAIs/Morpheus/pull/576, https://github.com/MorpheusAIs/Morpheus/pull/618, https://github.com/MorpheusAIs/Morpheus/pull/527  | 163 | mor.software MVP, issues and pull requests, onbarding |
+| 0xa884B8Ac0eD93fBB39155754fAC4B4C898CEAD96 | https://www.reddit.com/r/MorpheusAIs/ | 2 | Setting up the reddit community and first post with graphics

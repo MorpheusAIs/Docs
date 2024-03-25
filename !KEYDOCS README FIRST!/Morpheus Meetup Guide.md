@@ -4,7 +4,7 @@ Organizing a crypto meetup can be an exciting opportunity to connect with like-m
 
 # Meetup Formats:
 ## Casual Meetup at a Bar or Cafe:
-An informal gathering held at a local bar, cafe, or restaurant where attendees can mingle, network, and discuss crypto-related topics in a relaxed setting.   Typical duration is 2-3 hours, allowing attendees to drop in and out as they please. Open discussions, lightning talks, or informal presentations. Consider incorporating networking activities to facilitate connections.
+An informal gathering held at a local bar, cafe, or restaurant where attendees can mingle, network, and discuss crypto-related topics in a relaxed setting. Typical duration is 2-3 hours, allowing attendees to drop in and out as they please. Open discussions, lightning talks, or informal presentations. Consider incorporating networking activities to facilitate connections.
 ## Interactive Workshop at a Coworking Space:
 A hands-on workshop hosted at a coworking space or community center, focusing on specific topics or skill-building exercises related to Morpheus (how to run and use node Morpheus node, for example).   
 Typical duration is 2-4 hours, providing ample time for interactive sessions and group activities. You could also prepare tutorials and make a mini-hackathon where attendees can learn new concepts, collaborate on projects, and gain practical experience.
@@ -63,7 +63,7 @@ Typical duration is 3-4 hours, allowing each presenter sufficient time to showca
 
 # Requirements for proof of the meetup and rewards:
 1) Meetups can only be organized in cities specified in the appendix (last page), with no more than one per month.
-2) All expenses are the responsibility of the organizer, which may be reimbursed as Full Time Equivalent at a rate of $50 per hour. All expenses must be documented and confirmed.
+2) All expenses are the responsibility of the organizer, which may be reimbursed as Full Time Equivalent according to actual [implied value of weight](https://github.com/antonbosss/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md). All expenses must be documented and confirmed.
 3) A report on the meetup must be published on GitHub along with evidence of its usefulness, which may include:  
 a) photo and video documentation;  
 b) discussion notes;  
@@ -73,9 +73,9 @@ e) project demos and feedback;
 f) social media mentions and engagement;  
 g) attendance and participation metrics;  
 h) testimonials and quotes.
-4) The number of hours worked is not as important as the value produced by the work. If no value is created, no hours are credited.
+4) The number of hours worked is not as important as the value produced by the work. If no value is created, no weights are credited.
 5) Before organizing the meetup, familiarize yourself with the Code Contributor Best Practices and post in the “Issues” section about the need for a Morpheus Meetup in your city.
-6) The expected number of rewarded hours is 2 to 6 hours. 2 hours per 1 hour of the meetup and the resulting report, data, notes, analysis, on boarding of Smart Agent developers.
+6) The expected number of rewarded weights is 1 to 4. 1 weight per 1 hour of the meetup and the resulting report, data, notes, analysis, on boarding of Smart Agent developers.
 7) This is a one time reward for each city. Meetups should be community led after the first meetup because it generates value for them. Hopefully the first meeting sparks an interest by local Code Contributors, Compute Providers, Capital Providers and Front End builders to meetup on a regular basis.
 
 **To be clear anyone can hold a Morpheus Meetup. No permission is required. There is no team. The community drives this project in a permissionless manner.**
@@ -114,7 +114,7 @@ Perth, Australia
 Istanbul, Turkey  
 
 ## Europe (24)
-Kyiv, Ukraine  
+Kyiv, Ukraine (held on March 21, 2024)
 London, United Kingdom  
 Paris, France  
 Berlin, Germany  

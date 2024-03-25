@@ -7,13 +7,13 @@
 All Code Contributions should include the following four elements:
 1. The Ethereum wallet address to be rewarded.
 2. Link to the Code Contribution (this may be a commit or PR).
-3. The number of [weights](https://github.com/MorpheusAIs/Docs/blob/main/English%20Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
+3. The number of [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
 4. Description of Contributions.
 
-Please use the format below (including the pipe (|) symbol) to ensure contributions appear correctly in the table:
+Please use the format below (including the pipe (|) symbol) to ensure contributions appear correctly in the table:  
 ```| Wallet Address | Link to Work | Weights Requested (weights) | Description of Contribution |```
 
-**Example:**
+**Example:**  
 ```| 0x98eFf980C57c9D333340b3856481bF7B8698987c | [PR 1](https://github.com/MorpheusAIs/Morpheus/pull/1) | 50 | Integration of ollama |```
 
 ## Best Practices
@@ -36,12 +36,12 @@ If you are considering working on something substantial that will take a lot of 
 If you are concerned about contributing something closed source and it being picked up by someone else, consider starting with a more restrictive license and offer to flip it to the MIT open source standard if the Contribution is accepted by the repository owner. 
 
 ### 6. Avoid Overlapping Commits on the Last Line of The Code - Proof_Of_Contribution.md File
-When requesting weights, contributors often add their entry to the last line of the [Code Contributions](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md) table. This can cause conflicts when merging pull requests as multiple requests may modify the same line. 
+When requesting weights, contributors often add their entry to the last line of the [Code Contributions](https://github.com/MorpheusAIs/Docs/tree/main/Contributions) table. This can cause conflicts when merging pull requests as multiple requests may modify the same line. 
 
-Consider placing your commit on a line other than the last one. As Code proof moves to a monthly basis consider adding your Code to a line equal to the date of its commitment.
+Consider placing your commit on a line other than the last one. As Code proof moves to a monthly basis consider adding your Code to a line equal to the date of its commitment. Please use the latest snapshot table to add your contribution.
 
 ### 7. Timeline for Submission and Acceptance / Rejection of Code Contribution
-- If an idea for a future contribution is being requested, then the requester should include a timeline in the request.
+If an idea for a future contribution is being requested, then the requester should include a timeline in the request.
 So for example if the GitHub repo owner wants contributors to create an Italian version of the white paper, then they should set a timeline say 7 days for submissions. Then contributors should expect that the GitHub repo owner will accept the best work done at the lowest number of weights requested. 
 
 This creates a free market for code and lets people freely compete and the GitHub repo owner gets the benefit of comparing submissions at the same time instead of just accepting whichever contributor finished first. This ought to result in better outcomes and clear expectations from both sides.

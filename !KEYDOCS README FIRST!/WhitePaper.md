@@ -210,7 +210,7 @@ Depositing of stETH for rewards will be made on the Ethereum mainnet, when Morph
 
 Note that Morpheus does not need to set aside MOR rewards for blockchain consensus or transaction execution on a distributed ledger thanks to building on Ethereum and 2nd layer Arbitrum. 
 
-MOR holders will be able to send a transaction to the MOR Smart Contracts and claim their MOR rewards at any time. They can also withdraw their stETH at any time.
+Depositors will be able to send a transaction to the MOR Smart Contracts and claim their MOR rewards at any time. They can also withdraw their stETH at any time.
 
 ## The Free Market Sets Fees on Morpheus
 The best systems pick the least number of magic numbers and instead let the free market decide as many variables as possible. Fees are a great example of this. Rather than picking an arbitrary fee to charge instead, Morpheus leaves these numbers up to users, devs, capital and compute providers. For example, if a compute provider can offer a $0.02 price per 1,000 IPS for their LLM and a user decides to pay it, then that's what the market is willing to pay. As compute speeds up prices are likely to change and so it's better to leave these and other variables up to those using the Morpheus software.
@@ -229,10 +229,10 @@ Amount of fee set by users and accepted by data buyer. Option to pay fee & burn 
 
 All fees are paid in native MOR tokens creating natural demand in the system as usage grows.
 
-## Use of Fees to Incentivize Honest Agents & Repair Losses in Case of Errors
+## Use of Emissions to Incentivize Honest Agents & Repair Losses in Case of Errors
 Another important use for MOR & ETH in the Morpheus network will be compensating users in case of Smart Agent / Smart Contract failures. We believe curating and building reputation backed up with economic resources will be key to growing confidence in Smart Agents and having a source of funding to address errors, bugs, and other issues that arise. After a major bug and the resulting hard fork of Bitcoin in 2010, an early core developer named Gavin Andresen stepped up to pay Bitcoin to miners who had lost rewards due to the hard fork. This action was important and quickly resolved the hard fork but it was ad hoc.
 
-Recognizing ahead of time that software is never perfect Morpheus is setting aside 4% of MOR resources to repay those affected by a bug in the code. The Morpheus developer community will serve as an oracle to recognize when a bug or error has had an economic effect on a user, compute provider, or capital provider. A predefined set of failures will be covered by these resources to include bugs in the Morpheus Smart Contract or local install.
+Recognizing ahead of time that software is never perfect Morpheus is setting aside 4% of MOR resources to repay those affected by a possible bug in the code. The Morpheus developer community will serve as an oracle to recognize when a bug or error has had an economic effect on a user, compute provider, or capital provider. A predefined set of failures will be covered by these resources to include bugs in the Morpheus Smart Contract or local install.
 
 For broader protection, an integration with Nexus Mutual or similar smart contract / decentralized protection network could be considered to cover edge cases with agents / smart contracts that want to be included in a Morpheus Agent Store or better ranked by the SmartContractRank algorithm. 
 
@@ -244,9 +244,9 @@ Rather than store personal data in the Morpheus network itself, which would be c
 ## Morpheus Tech Stack, Smart Contract & Development
 The Morpheus implementation of the Smart Agent Protocol will be a direct fork of the existing locally run repo. The most significant change will be to update SmartContractRank to include knowledge of the MOR token and its functions in powering a network of Smart Agents.
 
-The Morpheus MOR token is being developed as a Smart Contract on Ethereum via the ERC20 standard for fungible tokens. Most smart contracts are on Ethereum and the Ethereum Virtual Machine has become the lingua franca of the Web3 space. To reduce the cost of gas fees for sending daily rewards we will leverage Ethereum's layer 2 called Arbitrum.
+The Morpheus MOR token is being developed as a Smart Contract on Ethereum via the ERC20 standard for fungible tokens. Most smart contracts are on Ethereum and the Ethereum Virtual Machine has become the lingua franca of the Web3 space. To reduce the cost of gas fees for sending daily rewards Morpheus will leverage Ethereum's layer 2 called Arbitrum.
 
-We believe the choice of the Ethereum blockchain is the best starting place given on chain actions such as staking ETH can only be validated by a smart contract running on the same chain. In addition on chain validation of coding via ENS domains or Ethereum public addresses adds another means of connecting code contributed to the wallet of the coder who provided it. A record of which the Morpheus Smart Contract can access daily.
+The choice of the Ethereum blockchain is the best starting place given on-chain actions such as staking ETH can only be validated by a smart contract running on the same chain. In addition on-chain validation of coding via ENS domains or Ethereum public addresses adds another means of connecting code contributed to the wallet of the coder who provided it. A record of which the Morpheus Smart Contract can access daily.
 
 Also, zero-knowledge proofs for scalability and privacy are key to many use cases. So, starting with these capabilities, day one will put the Smart Agent community in the best position for the future. Arbitrum is in the process of adding ZK tech, much of which is already live.
 

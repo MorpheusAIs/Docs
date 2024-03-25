@@ -4,13 +4,10 @@
 ### Erik Voorhees
 ### January 3rd 2024
 
-A suggested revision to the Morpheus tokenomics structure for compute incentivization on a decentralized AI network.   
-
-
 ## Summary
 In the Yellowstone Compute Model, the Morpheus network pays Providers only for Compute actually provided through a competitive bid process, and allocates the scarce production of IPS (inferences/seconds) pro rata to MOR token holders based on balance, rather than on payment. This drastically improves UX while minimizing Sybil vulnerability. Yellowstone also imbues the important metrics of time and a Pass/Fail test to ensure Providers are adequately prompt and accurate. Yellowstone preserves privacy by never sending prompts or results through the Router, and minimizes blockchain transactions to permit a large scale of operation. Through this model, MOR achieves fundamental value as it enables perpetual (though not unlimited) access to permissionless compute, without requiring transactions per inference. 
 
-If adopted, this paper replaces the “Compute Proof, Registration & Reward” section of the [Morpheus whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
+This model replaced original version of the “Compute Proof, Registration & Reward” section of the [Morpheus whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
 
 ## Background
 Morpheus uses tokenomics to incentivize sufficient and scalable compute as a resource for the purpose of decentralized and permissionless generative AI. In its original conception, Morpheus issued 24% of MOR emissions to Compute Providers directly, pro rata depending on the inference requests received, and it prioritized inference requests to those providers based on how much MOR they held. 
@@ -157,8 +154,8 @@ The Morpheus network allocates the scarce resource of IPS production through the
 
 ### Example Assumptions: 
 **MOR Supply** = 10,000,000 MOR tokens  
-**Prior Day Compute Contract Balance** = 300,000
-**MOR Compute Budget** = 3,000 MOR tokens per day (1% of above)
+**Prior Day Compute Contract Balance** = 300,000  
+**MOR Compute Budget** = 3,000 MOR tokens per day (1% of above)  
 **MOR Price** = $20  
 **IPS Price** = $0.002 per 1000 IPS  
 **User Balance** = 5 MOR tokens

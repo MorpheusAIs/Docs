@@ -1,7 +1,7 @@
 # FAQs
 ## Answers to Your Burning Questions: Morpheus FAQ
 
-## [WHITEPAPER](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/2.WhitePaper.md) TL;DR
+## [WHITEPAPER](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) TL;DR
 1) Access to AI has become fundamental to modern life.
 2) Large centralized companies currently gatekeep access to AI, they actively restrict access & use censorship.
 3) Having a personal AI that is open source, decentralized, and permissionless fixes this.
@@ -10,7 +10,7 @@
 6) Morpheus uses crypto-based financial rails to reward AI & Smart Agent providers.
 7) Follow the white rabbit. Free your mind.
 
-## [FAIR LAUNCH](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
+## [FAIR LAUNCH](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
 1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. All earning of MOR rewards starts at the same time.
 2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts to move to Ethereum mainnet.
 3) Bootstrap period goes for 90 days, MOR tokens are only claimable on day 91 (~ May 9th).
@@ -28,7 +28,7 @@ Morpheus is a Decentralized AI network and local inference.
 Smart Agent is a term to describe a general purpose AI that can execute Smart Contracts on behalf of a user using LLM Transformer language that converts human language into actionable code for Web3 interactions using intent based abstractions.
 
 **Who are the founders?**  
-The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
+The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
 
 **Who is on the team?**  
 There is no formal team, company or Foundation. Morpheus is fully decentralized and community driven.
@@ -43,14 +43,14 @@ At the moment, there are no such plans, but it's not ruled out in the future.
 Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. 
 
 **How can I contribute?**  
-If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/AhuF3Nxc) or ⁠👥︱[designer-intros](https://discord.gg/TfAPbYGH).
-If your skills are outside of the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/sqhs22PU)
+If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/morpheusai) or ⁠👥︱[designer-intros](https://discord.gg/morpheusai).
+If your skills are outside the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/morpheusai)
 
 **Who can I contact regarding cooperation/marketing proposals?**  
 You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
 
 **Where can I get more information about Morpheus?**  
-This FAQ is the best start and Morpheus [Whitepaper](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
+This FAQ is the best start and Morpheus [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
 
 
 ## MOR TOKEN AND LIQUIDITY
@@ -122,14 +122,14 @@ MOR token will be only claimable after the bootstrapping period on the 90th Day.
 An onboarding process is described in the [Coder Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 
 **What are the requirements to code contributors?**  
-There are Code Contributor Best Practices on [GitHub](https://github.com/MorpheusAIs/Morpheus/blob/main/!KEYDOCS%20README%20FIRST!/8.Code%20Contributor%20Best%20Practices.md).
+There are Code Contributor Best Practices on [GitHub](hhttps://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md).
 
 **How do I get in touch with other builders for collaborations?**  
 The Accelerator Corner is your go to
-⁠🤖︱[smart-agent-devs](https://discord.gg/by7hmJP9)
-⁠🦾︱[rag-devs](https://discord.gg/zjSgp4xw)
-⁠🎛︱[llm-fine-tunes](https://discord.gg/zFrtFy8V)
-⁠🖼︱[front-end](https://discord.gg/c9r6Y7E9)
+⁠🤖︱[smart-agent-devs](https://discord.gg/morpheusai)
+⁠🦾︱[rag-devs](https://discord.gg/morpheusai)
+⁠🎛︱[llm-fine-tunes](https://discord.gg/morpheusai)
+⁠🖼︱[front-end](https://discord.gg/morpheusai)
 
 **How do code providers get rewarded?**  
 They get emissions depending on their contributed weights vs the total amount of hours daily.
@@ -168,7 +168,7 @@ There are 4 of 7 multisig managed by core open source contributors. The address 
 It is locked for the first week (7 days) after deposit and you can withdraw any time after.
 
 **Is the MOR earned proportional to the amount of stETH deposited?**  
-Yes, MOR rewards for Capital start at 3,456 MOR per day and decrease from there over the 16 year emissions curve. This will be rebased to the Capital provider according to their contribution and the total TVL.
+Yes, MOR rewards for Capital start at 3,456 MOR per day and decrease from there over the 16-year emissions curve. This will be rebased to the Capital provider according to their contribution and the total TVL.
 
 **Do I lose earned MOR rewards if I decide to withdraw stETH?**  
 No, you don’t, but you will not earn rewards any longer as you are not the Capital Provider anymore.
