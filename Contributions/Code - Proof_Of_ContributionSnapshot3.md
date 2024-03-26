@@ -55,3 +55,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | https://github.com/MorpheusAIs/Docs/pull/120 | 1 | FAQs.md questions linkable for better communications |
 | 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | https://github.com/MorpheusAIs/Lite-Client/issues/58, https://github.com/MorpheusAIs/Lite-Client/pull/59 | 4 | Give mac developers actionable feedback when Lite-Client yarn install fails for missing Python 3.10 dependency |
 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | https://github.com/MorpheusAIs/Docs/pull/124 | 11 | New and ongoing technical integrations with Shinkai, OKX wallet, BSC, Inferix, Rango, ongoing support with docs and MRC discussion support |
+| 0x5CD4C60f0e566dCa1Ae8456C36a63bc7A8D803de | https://t.me/morpheus_ai_info_bot | 14 | Created and constantly updating Telegram Bot for checking statistics of MorpheusAIs contracts and users.|
