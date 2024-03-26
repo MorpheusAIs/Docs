@@ -1,6 +1,5 @@
 # Morpheus Builders Guide
-
-![Diagram4forBuilderGuide](https://github.com/MorpheusAIs/Docs/assets/1563345/04f6b4ed-0fb5-4f2a-af35-a91ae11c6261)
+![Builders Guide Decision Tree 3](https://github.com/MorpheusAIs/Docs/assets/1563345/466ec65d-37c8-4ba1-bdd8-831886aac995)
 
 ## Quick Links Section
 
