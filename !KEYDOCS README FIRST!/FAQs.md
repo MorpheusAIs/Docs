@@ -77,10 +77,10 @@ You will be able to purchase MOR token ONLY after a 90-day of bootstrapping peri
 ### Can I know more about tokenomics?
 42 million MOR is the max supply that will ever exist.
 Emissions curve starts at 14,400 MOR per day and decreases by 2.468994701 MOR each day until the reward reaches 0 on day 5,833 (~16 years)
-- 3,456 MOR per day for Capital Providers.
-- 3,456 MOR per day for Code Providers.
-- 3,456 MOR per day for Compute Providers.
-- 3,456 MOR per day for Community Providers.
+- 3,456 MOR per day for Capital Providers
+- 3,456 MOR per day for Code Providers
+- 3,456 MOR per day for Compute Providers
+- 3,456 MOR per day for Community Providers
 
 ### How do I earn MOR?
 By providing one of the 4C's:
@@ -90,10 +90,10 @@ By providing one of the 4C's:
 - Compute
 
 ### How many phases is the MOR earning categorized into?
-Phase 1: Code & Capital (live)
-Phase 2: Compute (May/June)
-Phase 3: Community (July/August)
-Phase 4: Adding More Chains / Yield Types
+Phase 1: Code & Capital (live)  
+Phase 2: Compute (May/June)  
+Phase 3: Community (July/August)  
+Phase 4: Adding More Chains / Yield Types  
 
 ### Where will the AMM liquidity pool be created?    
 It will be Uniswap on Arbitrum chain with wETH/MOR pair. 
