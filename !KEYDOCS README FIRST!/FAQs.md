@@ -27,29 +27,33 @@
 ## GENERAL QUESTIONS
 
 ### What is Morpheus?
-Morpheus is a Decentralized AI network and local inference. 
+Morpheus is the Decentralized AI network and local inference with purpose to incentivize network of Smart Agents. 
 
 ### What is a Smart Agent?  
 Smart Agent is a term to describe a general purpose AI that can execute Smart Contracts on behalf of a user using LLM Transformer language that converts human language into actionable code for Web3 interactions using intent based abstractions.
 
 ### Who are the founders?
-The anonymous authors of the paper are Morpheus, Trinity, and Neo. They published [the paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) September 2nd 2023. 
+There are no founders. The anonymous authors who called themselves Morpheus, Trinity, and Neo published [the paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) on September 2nd, 2023, what marking the beginning of Morpheus.
 
 ### Who is on the team?
-There is no formal team, company or Foundation. Morpheus is fully decentralized and community driven.
+There is no formal team, company or Foundation. Morpheus is fully decentralized and driven by community of open source contributors.
 
-### How does Morpheus make it technically possible that everyone can run the assistant on their own computer?
+### What are benefits of having own Smart Agent?
 Think of Morpheus as the base layer 0 for the agents to be able to interact across Web3 in a Decentralized fashion. Like what Google search was to the internet in the 90s it allows an aggregation of and accessible to all the Web3 on-chain activity through a Smart Agent controlled by the user that is familiar with them. This in turn should reduce the friction for all users, crypto native and retail, when interacting in the space where everything is currently siloed with a large barrier to entry. While there is no chain for Morpheus itself for people to build dapps on (Yet) it will allow users freedom of accessibility in the space that hasn't been possible before.
 
 ### Are there any plans for Morpheus to have its own chain in the future?
 At the moment, there are no such plans, but it's not ruled out in the future.
 
 ### Why did you choose Ethereum and Arbitrum for the launch?
-Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. 
+Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. Morpheus is chain agnostic by design, there will be more chains integrated later.
 
 ### How can I contribute?
-If you have any particular skills you'd like to offer please look to ⁠👥︱[dev-intros](https://discord.gg/morpheusai) or ⁠👥︱[designer-intros](https://discord.gg/morpheusai).
-If your skills are outside the scope of these two channels please put your skills down here ⁠🎣︱[skills](https://discord.gg/morpheusai)
+There are User and Contributor paths available in four categories:
+- Capital Provider
+- Code Provider
+- Compute Provider
+- Frontends builder  
+You can find detailed information in this [guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/BuildersGuide.md)
 
 ### Who can I contact regarding cooperation/marketing proposals?
 You don't need anyone's permission to talk about Morpheus or add value as a Contributor. It's all built publicly.
@@ -57,7 +61,7 @@ You don't need anyone's permission to talk about Morpheus or add value as a Cont
 ### Where can I get more information about Morpheus?
 This FAQ is the best start and Morpheus [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) next.
 
----
+-------
 
 ## MOR TOKEN AND LIQUIDITY
 
@@ -65,18 +69,18 @@ This FAQ is the best start and Morpheus [Whitepaper](https://github.com/Morpheus
 MOR is the underlying token of the Morpheus network.
 
 ### What is the utility of MOR?
-The objective is for MOR to provide broad utility in many of the functions of the Morpheus network. As a result, the use of the MOR token offers an on-chain accounting mechanism to calculate rewards based on real usage of the software.
+The purpose of MOR is to offer extensive utility across various functions within the Morpheus network. The MOR token serves as an on-chain accounting mechanism, calculating rewards based on actual software usage. Additionally, MOR provides proportional to holdings free access to Morpheus' network compute resources.
 
 ### How/where can I buy tokens?
 You will be able to purchase MOR token ONLY after a 90-day of bootstrapping period (tentatively May 8th). A liquidity pool will be created on Uniswap for the Arbitrum network for this purpose.
 
 ### Can I know more about tokenomics?
 42 million MOR is the max supply that will ever exist.
-Emissions curve starts at 14,400 MOR per day and decreases to 0 per day by year 16.
-3,456 MOR per day for Capital Providers.
-3,456 MOR per day for Code Providers.
-3,456 MOR per day for Compute Providers.
-3,456 MOR per day for Community Providers.
+Emissions curve starts at 14,400 MOR per day and decreases by 2.468994701 MOR each day until the reward reaches 0 on day 5,833 (~16 years)
+- 3,456 MOR per day for Capital Providers.
+- 3,456 MOR per day for Code Providers.
+- 3,456 MOR per day for Compute Providers.
+- 3,456 MOR per day for Community Providers.
 
 ### How do I earn MOR?
 By providing one of the 4C's:
@@ -86,22 +90,22 @@ By providing one of the 4C's:
 - Compute
 
 ### How many phases is the MOR earning categorized into?
-Phase 1: Code & Capital
-Phase 2: Compute
-Phase 3: Community
+Phase 1: Code & Capital (live)
+Phase 2: Compute (May/June)
+Phase 3: Community (July/August)
 Phase 4: Adding More Chains / Yield Types
 
 ### Where will the AMM liquidity pool be created?    
-Uniswap on Arbitrum chain with wETH/MOR pair.
+It will be Uniswap on Arbitrum chain with wETH/MOR pair. 
 
 ### How will the initial liquidity be created?   
-51,444 MOR tokens by day 90 dedicated to the protection fund and leveraged for bootstrapping purpose will be paired with yield generated from deposited stETH and put into AMM liquidity pool.
+MOR tokens by day 90 dedicated to the Protection Fund and leveraged for bootstrapping purpose will be paired with yield generated from deposited stETH and put into AMM liquidity pool. Step by step process explained [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md).
 
 ### What is the initial price of the MOR token? What will be the marketсap/FDV of the MOR token?
-It’s unpredictable as it entirely depends on the volume of stETH deposited during the bootstrap period. 
+The initial price of the MOR token is unpredictable as it entirely depends on the volume of stETH deposited during the bootstrap period. You can make your own estimates using the price projection tool available on this website: https://morstats.info/mor-price-projection/
 
 ### What is Protocol Owned Liquidity?   
-The yield of stETH contributed stays in the Morpheus protocol and adds depth to Uniswap and similar pools so that MOR becomes more liquid over time. 
+Protocol Owned Liquidity refers to the yield generated from stETH contributions that remains within the Morpheus protocol. This yield increases and enhancing the liquidity depth of the MOR token over time. It's important to note that this liquidity is owned and managed by the Morpheus protocol itself rather than individual users.
 
 ---
 
@@ -111,10 +115,11 @@ The yield of stETH contributed stays in the Morpheus protocol and adds depth to 
 This period will ensure enough MOR tokens are ready for circulation to fulfill the utility functions of the network, thus avoiding extreme token scarcity and extreme market volatility.
 
 ### What is the duration of this period?
-90 days, starting from when the Capital and Code Providers contract begins calculating rewards until those MOR tokens are claimable/sendable by users (~ May 8th). 
+90 days, starting from when the Capital and Code Providers contract begins calculating rewards (8th of February) until those MOR tokens are claimable/sendable by users (8th of May). 
 
 ### Can I withdraw stETH during bootstrapping?
-Yes. You can withdraw stETH after 7 days initial lockup.
+Yes. You can withdraw stETH, but after 7 days initial lockup.  
+Please note: If you deposit additional stETH the 7 day withdraw clock is restarted for all your stETH from that address.
 
 ### Is deposited stETH locked?
 It is not locked. You are free to withdraw any time after 7 days.
@@ -123,7 +128,7 @@ It is not locked. You are free to withdraw any time after 7 days.
 This measure was introduced in order to avoid people gaming the yield timing as protocol in fact rewards in advance from the moment you deposit, when yield is generated once a day.
 
 ### Can I claim MOR token during the bootstrapping period?
-MOR token will be only claimable after the bootstrapping period on the 90th Day. 
+MOR token will be only claimable after the bootstrapping period on the 90th Day (~ Mau 8th)
 
 ---
 
@@ -144,6 +149,8 @@ The Accelerator Corner is your go to
 
 ### How do code providers get rewarded?
 They get emissions depending on their contributed weights vs the total amount of hours daily.
+
+
 
 ---
 
