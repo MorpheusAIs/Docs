@@ -150,7 +150,8 @@ The Accelerator Corner is your go to
 ### How do code providers get rewarded?
 They get emissions depending on their contributed weights vs the total amount of hours daily.
 
-
+### Where can I see a task list?
+There is no task list available. Developers build what they want based on their experience and belief in its value for Morpheus. GitHub maintainers act as judges to merge contributors' work. Coders here compete, but there are no guarantees that anyone will use the code until it's released.
 
 ---
 
@@ -163,7 +164,7 @@ stETH is a yield generating token that represents an Ethereum token that is stak
 stETH can either be minted directly through the Lido or bought on exchanges.
 
 ### When does the staking for stEth start?
-Staking for stETH starts on Feb 8th
+Staking for stETH starts on Feb 8th.
 
 ### When does the staking for stEth end?
 There is no cut off date. Emissions are a built-in feature of the protocol and will continue for at least 16 years of the first epoch.
@@ -175,13 +176,13 @@ It’s completely up to you. You can deposit for days, weeks, months or years. W
 The choice is yours, you can keep stETH deposited and continue to receive MOR rewards.
 
 ### Is there a minimum or maximum amount of stETH one can deposit?
-The minimum deposit amount is 0.01 stETH and there is no maximum contribution limit. In other words No Cap on Capital Deposits.
+The minimum deposit amount is 0.01 stETH and there is no maximum contribution limit. In other words no Cap on Capital Deposits.
 
 ### Have contracts been audited?
 Yes, both the community and a dedicated auditor have reviewed the Smart Contracts, see the reports on [GitHub](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TestingPlan.md).
 
 ### How will the stETH deposit contract be managed?
-There are 4 of 7 multisig managed by core open source contributors. The address is [MOR.ETH](https://etherscan.io/name-lookup-search?id=mor.eth)
+There are 4 of 7 multisig managed by community trusted open source contributors. The address is [MOR.ETH](https://etherscan.io/name-lookup-search?id=mor.eth)
 
 ### Is my stETH locked?
 It is locked for the first week (7 days) after deposit, and you can withdraw any time after.
@@ -193,7 +194,8 @@ Yes, MOR rewards for Capital start at 3,456 MOR per day and decrease from there 
 No, you don’t, but you will not earn rewards any longer as you are not the Capital Provider anymore.
 
 ### How many MOR tokens I`ll get?
-It is a dynamic value that depends on the ratio of your contribution to the total amount of deposited stETH.
+It is a dynamic value that depends on the ratio of your contribution to the total amount of deposited stETH.  
+You can project your earnings using this website: https://morstats.info/staked_eth/
 
 ### What is APY for staking?
 You can’t calculate APY until MOR has a price.
@@ -203,29 +205,22 @@ There are always risks with smart contracts like bugs or vulnerabilities. To ens
 
 ---
 
-## COMMUNITY
-
-### What is the Community emissions bucket for?
-Community is for Front End and UI Developers as well as Smart Agents.
-
----
-
 ## COMPUTE AND NODE RUNNING
 
 ### What is the Morpheus node?
 Currently, Morpheus node is the local LLM, but will be evolving into the Node release by release, for people to be able to provide an inference to a MOR user.
 
 ### Is running a node mandatory?
-A regular user will be able to use Morpheus without running a node and while running the node isn’t a strict requirement for Capital and Code providers, you won’t be able to provide Compute and Community services without one.
+Running a node is not mandatory unless you wish to have your own Smart Agent settled locally. Users will still be able to use Smart Agents without running a node. While running a node isn't strictly required for Capital and Code providers, you will need one to provide Compute and Community apps.
 
 ### Are there rewards for running the Morpheus node?
-There is no reward for running a Local inference at the moment, however, a full node will be rewarded when providing Morpheus Compute and Community functions.
+There is no reward for running a local inference at the moment, however, a full node will be rewarded when providing Morpheus Compute and Community functions.
 
 ### How can I run the node?
-You need a Mac or PC with Linux Debian with 64gb storage, 16gb VRAM 16gb system RAM and 4CPU core, this a minimum requirement to ensure that there will be no issue on the system side and run most LLMs, follow steps from the guides located in the [readme](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub. 
+To run the node effectively, ensure your PC meets the minimum requirements of 64GB storage, a GPU with 16GB vRAM, 16GB system RAM, and a CPU with 4 cores. These specifications will help avoid system issues and enable smooth operation, especially when running large language models (LLMs). Follow the installation steps outlined in the [readme guide](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub for detailed instructions. 
 
 ### Can I run the node on Windows?
-Yes, by using Windows Subsystem for Linux (WSL). A guide located in the [readme](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub.
+Yes, a guide located in the [readme](https://github.com/MorpheusAIs/Docs/blob/main/README.md) on GitHub.
 
 ### Can I run the node on VPS?
 You can not run one at the moment as there is no version of the node that can operate without a GUI yet.
@@ -248,9 +243,6 @@ Akash, Bittensor, Ritual, EdgeLlama, whatever you want.
 
 ### Do compute providers earn emissions during the bootstrapping period?
 As the compute contracts are not finalized there will be no way to provide compute at this time, however, the compute emissions will still emit into the bucket to which will be used to reward providers once compute provision is possible.
-
-### How can computer providers earn MOR during the bootstrap period when compute contract isn’t live?
-They can’t, until Compute Contracts are up and running which will hopefully be soon after bootstrapping.
 
 ### What will happen with accumulated and unused MOR Compute emissions?
 MOR emissions intended for Compute Providers will be stored in the reward distribution contract.
