@@ -1,4 +1,4 @@
-The document provides an overview of the Morpheus node architecture and design principles based on Ryan Condron's insightful presentation at the Decentralize AI Day in Denver on February 28, 2024
+### The document provides an overview of the Morpheus node architecture and design principles based on Ryan Condron's insightful presentation at the Decentralize AI Day in Denver on February 28, 2024
 
 # Introduction:
 Ryan founded Lumerin as a response to Bitcoin's centralization issue in mining, aiming to create a decentralized hashpower routing system. The architecture of Lumerin, which emphasizes decentralization, transparency, and efficiency, serves as a solid foundation for the Morpheus node. By adopting the principles and design patterns established in Lumerin, Morpheus inherits the benefits of decentralization, such as increased security, reduced risk of manipulation or censorship, and improved scalability.
@@ -40,6 +40,8 @@ The Morpheus node architecture incorporates significant elements (highlighted in
 # Morpheus Smart Contracts Structure
 The cornerstone of Morpheus' smart contract architecture is the ecosystem registry contract. This contract serves as a versioning mechanism for managing the complexity of operating across multiple blockchain networks. Instead of dealing with the challenges of tracking smart contracts, addresses, and versions separately on each chain, Morpheus simplifies this process by using the ecosystem registry. When deploying on a new blockchain, the first step is deploying the registry contract, which then registers all subsequent contracts deployed on that chain. Developers and users interacting with Morpheus can easily access all relevant contracts by calling the main ecosystem contract for that specific blockchain. This streamlined approach ensures efficient access to the Morpheus functionalities across different chains.
 
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Node/%20Smart%20Contracts%20Structure.png" width=75% height=75%>
+
 ## The full list of contracts:
 - Ecosystem Registry
 - Provider Registry (whitelist)
@@ -56,6 +58,7 @@ In the initial stages Morpheus will rely on whitelists as a trust mechanism. Thi
 # Morpheus Session Flow
 The basic pattern is adopted from Lumerin node structure
 
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Node/%20Session%20Flow.png" width=75% height=75%>
 
 ## The full session cycles includes six stages:
 **1. Get Providers**  
@@ -83,14 +86,14 @@ The provider claims payment from the router.
 ---------------------
 
 For detailed technical information, refer to the full documentation and resources available on the provided links:
-- Gitbook
-- Presentation
-- Video 
+- [Github](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+- [Presentation](https://drive.google.com/file/d/1Tute7WQD8djn1S5ZAQEgCTCDnDMOG3Em/view?usp=sharing)
+- [Video](https://youtu.be/l83Zq12tCpg?si=owcmcqLYzhoEFvht) 
 
 -------------------
 
 **Ryan’s contacts:**
-Telegram: @rkcondron
-X/Twitter: @ryankcondron
-Email: ryan@titan.io
+- Telegram: [@rkcondron](https://t.me/rkcondron)
+- X/Twitter: [@ryankcondron](https://twitter.com/ryankcondron)
+- Email: ryan@titan.io
  
