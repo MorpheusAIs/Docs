@@ -1,24 +1,36 @@
 # Morpheus Yellow Paper
 
 This paper describes the technical details of the Morpheus full node, Morpheus Smart Contract, and related proofs.
-Presented as written in the whitepaper contributed by the anonymous developers Morpheus, Trinity & Neo. Link to the whitepaper here: https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md 
+Presented as written in the whitepaper contributed by the anonymous developers Morpheus, Trinity & Neo. Link to the whitepaper here: https://github.com/MorpheusAIs/SmartAgents/blob/main/MorpheusWP.md 
 
-## Local Version 0.0.5 of Morpheus is live at:
----------
-**Morpheus Version 0.0.5 for Mac**
-- Download from Google Drive: https://drive.google.com/file/d/1x-wR4HWjKqT_g6VRjrWPXu3rVm9ukOc9/view?usp=sharing
-- SHA-256 Hash for validation: 9092d543023fb95086cf4a7039d42cbcbbdf5283d670c4de6396b3d89e57b064
-- Version: Morpheus-0.0.5-x64.dmg
+## Local Version 0.0.6 of Morpheus is live at:
 
 ---------
-**Morpheus Version 0.0.5 for Linux Debian**
-- Download: https://drive.google.com/file/d/1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB/view?usp=sharing
-- Instructions: To install, run this command:
-sudo dpkg -i /path/to/your/morpheus.deb
-NOTE: In the above command, replace "/path/to/your/morpheus.deb" with your path to the morpheus_0.0.5_amd64.deb file.
-- SHA-256 Hash for Verification:
-b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5
-Version: morpheus_0.0.5_amd64.deb
+**Linux: There are now two linux builds (RPM and DEB)**
+- Download RPM: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-rpm.zip
+- SHA 256 hash for validation: fa811b823f80c6afc537b608edff99feb1bc68451c0bba9d22f7abedf5e66c0a
+- Version: Morpheus-0.0.6-rpm
+
+
+- Download DEB: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-deb.zip
+- SHA 256 hash for validation: 04044442119e4ab296ffa6c5d3ae297b178197b4855e42dcbd8a4634e2d8d8ad
+- Version: Morpheus-0.0.6-deb
+
+---------
+**Mac OS: For Intel & Apple M Series Silicon Chips**
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-x64.dmg
+- SHA 256 hash for validation: 004948f4dcc3702ea41f6050d0d3a86db2198e1ebfd599aca20a9a6cdefcd8e3  
+- Version: morpheus-0.0.6-x64.dmg
+
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-arm64.dmg
+- SHA 256 hash for validation: 2179c229c8f1acca5b8c3e9a813d75f5a42b971c8aff555ad30f0a8ada9dbb1c  
+- Version: morpheus-0.0.6-arm64.dmg
+
+---------
+**Windows:**
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6_x86_64_win.zip
+- SHA 256 hash for validation: 37cb37a7a8443da87541fb1896d9f23112fecff650e3cfc053d51938a1e326a3
+- Version: morpheus-0.0.6_x86_64_win
 ---------
 
 First interaction with Morpheus October 22nd 2023.
