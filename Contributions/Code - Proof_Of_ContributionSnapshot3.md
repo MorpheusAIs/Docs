@@ -64,3 +64,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0xA946525128aFDB3854e89943a21757BB73A2048C | https://github.com/cliffordattractor/morpheus-data-agent | 50 | Crypto pricing and data agent |
 | 0xA946525128aFDB3854e89943a21757BB73A2048C | https://github.com/cliffordattractor/morpheus-data-agent | 75 | Crypto swaps agent |
 | 0xa0810A4C7b5d947dc7CE79C334c1E6284FB7ED7b | https://github.com/polywrap/AutoTx/pull/123, https://github.com/polywrap/AutoTx/pull/119 | 35 | FLock.io is developing the LLM to empower the AI agent within AutoTx to operate directly on your local device. With AutoTx and local LLM, you can access to functionality including token swapping, sending, and more, all while ensuring that your data and conversations remain local.
+| 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | https://github.com/MorpheusAIs/Docs/pull/132 | 1 | Updating `Capital - Proof of Contribution.md` links, including resolving two 404 errors |
+
