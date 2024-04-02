@@ -1,19 +1,21 @@
 # Distribution
 
-`Distribution.sol` is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+[`Distribution.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
 `Distribution` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
 
+This contract is also used to track other MOR emissions through private pools. For instance, pool `1` is a private pool used to track Code emissions, where deposit "amounts" correspond to [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md).
+
 ## Public Variables
 
-| Name                          | Type              | Description                                                       |
-|-------------------------------|-------------------|-------------------------------------------------------------------|
-| `depositToken`                | address           | The address of the deposit token on Ethereum (stETH).             |
-| `l1Sender`                    | address           | The address of the `L1Sender` contract.                           |
-| `pools`                       | [`Pool[]`](#pool) | Configurations for all pools through which rewards are allocated. |
-| `poolsData`                   | mapping           | Tracking data for pools.                                          |
-| `usersData`                   | mapping           | Tracking data for users.                                          |
-| `totalDepositedInPublicPools` | uint256           | The total amount of the deposit token in all public pools.        |
+| Name                          | Type                                                            | Description                                                       |
+|-------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------|
+| `depositToken`                | address                                                         | The address of the deposit token on Ethereum (stETH).             |
+| `l1Sender`                    | address                                                         | The address of the `L1Sender` contract.                           |
+| `pools`                       | [`Pool[]`](#pool)                                               | Configurations for all pools through which rewards are allocated. |
+| `poolsData`                   | mapping(uint256 => [`PoolData`](#pooldata))                     | Ongoing tracking data for all pools.                              |
+| `usersData`                   | mapping(address => mapping(uint256 => [`UserData`](#userdata))) | Ongoing tracking data for user participation in pools.            |
+| `totalDepositedInPublicPools` | uint256                                                         | The total amount of the deposit token in all public pools.        |
 
 ## Functions
 
@@ -189,7 +191,9 @@ function manageUsersInPrivatePool(
     ) external onlyOwner poolExists(poolId_)
 ```
 
-Manages user stakes in a private pool by adjusting their deposited amounts based on the specified array of amounts. This function can only be called by the owner of the contract.
+Manages user stakes in a private pool used for non-Capital emissions by adjusting their deposited "amounts" based on a specified array. This function can only be called by the owner of the contract.
+
+In the case of Code emissions (e.g. pool `1`), amounts correspond to [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md).
 
 #### Parameters
 

@@ -43,6 +43,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x49b6123a10b022d5847335d5ad32eb198a14bc58 | https://github.com/MorpheusAIs/Docs/pull/132, https://github.com/MorpheusAIs/Docs/issues/95 | 4 | Additions to smart contract documentation; review of and contributions to MRC12; flagging and assessment of MOR trading pair implementation and alternatives |
 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | https://github.com/MorpheusAIs/Docs/pull/67 | 1 | WhitePaper translated to Slovenian |
 | 0x66c743440673aB280AD2EB3dB51466E76B7a70fB | https://github.com/MorpheusAIs/Docs/pull/90, https://github.com/MorpheusAIs/Docs/pull/89 | 0.2 | Fixed typos and broken links |
 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | https://github.com/MorpheusAIs/Morpheus/pull/634/commits/18ca822b43e114204a57ea8b2efadca2552bda1e | 14 | New and ongoing technical integrations with Sei, Monad, Hive Network, Tensorplex, Shinkai |

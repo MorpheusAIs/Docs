@@ -1,6 +1,6 @@
 # LinearDistributionIntervalDecrease
 
-`LinearDistributionIntervalDecrease.sol` is a custom library used by [`Distribution`](Distribution.md) to calculate MOR token rewards for a specified period. It supports linear distribution schedules with stepped decreases at regular intervals.
+[`LinearDistributionIntervalDecrease.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/libs/LinearDistributionIntervalDecrease.sol) is a custom library used by [`Distribution`](Distribution.md) to calculate MOR token rewards for a specified period. It supports linear distribution schedules with stepped decreases at regular intervals.
 
 ## Functions
 
