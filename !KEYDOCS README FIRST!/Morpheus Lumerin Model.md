@@ -1,13 +1,12 @@
 # Morpheus Lumerin Model
-
-#### Ryan Condron - March 16th 2024
+### Ryan Condron
+### March 16th 2024
 
 ## Summary
 
-The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the Yellowstone Compute Model and Lake Travis System.
+The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and Lake Travis System.
 
 The following proposal will explain the key design principles that have been incorporated as well as outline each part of the on-chain ecosystem model, client-side node, and underlying protocol.
-
 
 ## Design Principles
 
@@ -41,32 +40,26 @@ Ensuring that the prompt and inference data stream seamlessly between the user a
 
 For providers, protecting their IP address or URL endpoint is paramount to maintaining the integrity and security of the Morpheus network. Utilizing proxies, load balancers, VPNs, or other obfuscation methods helps shield their digital footprint, making it significantly more challenging for malicious actors to target or exploit the system. Similarly, ensuring user nodes are only visible to providers during active sessions enhances privacy and security for all users. This layer of anonymity is crucial; it prevents potential attackers from easily mapping the network or identifying vulnerable points for attacks. Together, these strategies form a robust defense mechanism, bolstering the network's resilience against cyber threats and preserving the confidentiality and integrity of the data flowing through it.
 
-## 
+
+
+
 ## Ecosystem Model
 
 The Morpheus ecosystem will consist of several on-chain and off-chain systems. On-chain systems can be divided into two categories: capital systems and compute systems. Capital systems are deployed on blockchains for the purpose of locking up capital in exchange for minted MOR tokens while compute systems are deployed on blockchains for the purposes of creating an AI model and agent market.
 
-![Enter image alt description](Images/smx_Image_1.png)
-
-*Figure 1. On-chain ecosystem*
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Lumerin%20Model/figure1.png">
+<i>Figure 1. On-chain ecosystem</i>
 
 ### Layer 1 Contracts
 
-#### **Ecosystem Registry** \
+#### **Ecosystem Registry**
 The ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
 ##### Variables
 
 | Name | Type | Description |
 |---|---|---|
-| Pointer | struct | Complex object containing pointer variables.
-
-{
-     (string) Name,
-     (address) Address,
-     (address) AddedBy,
-     (uint) AddedTimestamp
-} |
+| Pointer | struct | Complex object containing pointer variables.<br>{ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) Name, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) Address, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) AddedBy, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) AddedTimestamp <br>} |
 | PointerIds | string[] | Array of pointer names. |
 | Pointers | mapping | Mapping of pointers by name. (string => Pointer) |
 | Owner | address | The owner of the contract. |
@@ -78,24 +71,21 @@ The ecosystem registry is a reference list of all official Morpherus contracts d
 | getPointer | Name (string) | Returns a Pointer object with the given name. |
 | getPointers | none | Returns an array of pointer objects. |
 | getPointerIds | none | Returns an array of pointer names. |
-| addPointer | Addr (address), 
-Name (string) | Adds new pointer to Pointers and PointerIds |
-| updatePointer | Name (string),
-OldAddr (address),
-NewAddr (address) | Updates pointer record with new address. |
+| addPointer | Addr (address),<br>Name (string) | Adds new pointer to Pointers and PointerIds |
+| updatePointer | Name (string),<br>OldAddr (address),<br>NewAddr (address) | Updates pointer record with new address. |
 | deletePointer | Name (string) | Removes pointer from Pointers and PointerIds. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
 | getOwner | none | Returns the current owner of the contract. |
 
-#### **Token Distributor** \
-The token distribution contract is responsible for attributing MOR to the different tokenomic model tranches. \
+#### **Token Distributor**
+The token distribution contract is responsible for attributing MOR to the different tokenomic model tranches.
 
 
-“Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+<i>"Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
-Distribution utilizes [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [LinearDistributionIntervalDecrease](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.”^1 \
- \
-^[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol) \
+Distribution utilizes [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [LinearDistributionIntervalDecrease](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/LinearDistributionIntervalDecrease.md) is used to calculate pool rewards."</i> <sup>1</sup> 
+ 
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol) \
 [https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
 At the time of this writing there are five pools setup in the distribution contract.
@@ -104,7 +94,7 @@ At the time of this writing there are five pools setup in the distribution contr
  \
 Pool 0 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the capital tranche. \
-Minting amount decreases by 0.[59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
+Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their deposit against total deposits. \
 User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
 Staked Ethereum deposited in this contract cannot be withdrawn for 7 days. \
@@ -114,16 +104,15 @@ Staked Ethereum deposited in this contract has a withdrawal hold time of 7 days.
  \
 Pool 1 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the code tranche. \
-Minting amount decreases by 0.[59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
+Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
 User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
-
 
 3. Community Tranche (Pool 2) \
  \
 Pool 2 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the community tranche. \
-Minting amount decreases by 0.[59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
+Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
 User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
 
@@ -132,7 +121,7 @@ User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
  \
 Pool 3 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the compute tranche. \
-Minting amount decreases by 0.[59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
+Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Providers can claim up to 1% of the compute tranche every 24 hours starting after May 8th, 2024 at midnight GMT. \
 
 
@@ -140,42 +129,41 @@ Providers can claim up to 1% of the compute tranche every 24 hours starting afte
  \
 Pool 4 started February 8th, 2024 at midnight GMT.  \
 It mints 576 MOR every 24 hours to the protection tranche. \
-Minting amount decreases by 0.0[9875978804](https://etherscan.io/unitconverter?wei=98759788040000000) MOR every 24 hours. \
+Minting amount decreases by [0.09875978804](https://etherscan.io/unitconverter?wei=98759788040000000) MOR every 24 hours. \
 Tokens in this pool are claimable after May 6th, 2024 at midnight GMT.
 
 #### Layer 1 Sender
 
 The layer 1 sender contract facilitates the bridging of tokens and messages to the layer 2 receiver contracts.
 
-“L1Sender.sol is responsible for sending tokens and messages from Ethereum to Arbitrum. It is called by [Distribution](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/Distribution.md) to:
+<i>"L1Sender.sol is responsible for sending tokens and messages from Ethereum to Arbitrum. It is called by [Distribution](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/Distribution.md) to:
 
 - Wrap and send the deposit token (stETH) to Arbitrum via the native Arbitrum bridge
 
-- Send instructions to mint MOR to Arbitrum via LayerZero“^2^
+- Send instructions to mint MOR to Arbitrum via LayerZero"</i> <sup>2</sup>
 
 [https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L1Sender.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L1Sender.sol) \
 [https://etherscan.io/address/0x2Efd4430489e1a05A89c2f51811aC661B7E5FF84](https://etherscan.io/address/0x2Efd4430489e1a05A89c2f51811aC661B7E5FF84)
 
 ### Layer 2 Contracts
 
-#### **Ecosystem Registry** \
+#### **Ecosystem Registry**
 Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
-#### **Layer 2 Minter** \
+#### **Layer 2 Minter**
 The layer 2 minter contract owns the Morpheus Token (MOR) contract and is responsible for receiving messages from the layer 1 sender contract and executing the minting of MOR based on those messages.
 
-“L2MessageReceiver.sol is an implementation of the [ILayerZeroReceiver](https://layerzero.gitbook.io/docs/evm-guides/evm-solidity-interfaces/ilayerzeroreceiver) interface used to receive messages via LayerZero. It receives instructions to mint MOR tokens (e.g. to Capital Providers) from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) on Ethereum.”^3^
+<i>"L2MessageReceiver.sol is an implementation of the [ILayerZeroReceiver](https://layerzero.gitbook.io/docs/evm-guides/evm-solidity-interfaces/ilayerzeroreceiver) interface used to receive messages via LayerZero. It receives instructions to mint MOR tokens (e.g. to Capital Providers) from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) on Ethereum."</i> <sup>3</sup>
 
 [https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2MessageReceiver.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2MessageReceiver.sol) \
 [https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
 
-#### **Morpheus Token (MOR)** \
+#### **Morpheus Token (MOR)**
 The MOR contract is a standard ERC20 token contract deployed on Arbitrum.
 
-“MOR.sol, the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the ERC20Capped and ERC20Burnable extensions. \
+<i>"MOR.sol, the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the ERC20Capped and ERC20Burnable extensions.
 
-
-New tokens can only be minted by the contract owner – [L2MessageReceiver](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md) – up to the immutable cap of 42,000,000 tokens.”^4^
+New tokens can only be minted by the contract owner – [L2MessageReceiver](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md) – up to the immutable cap of 42,000,000 tokens."</i><sup>4</sup>
 
 [https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol) \
 [https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3](https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
@@ -184,10 +172,9 @@ New tokens can only be minted by the contract owner – [L2MessageReceiver](http
 
 The layer 2 capital contract is the receiver of the capital yield earned by tokens locked in the distribution contract and sent by the layer 1 sender contract.
 
-“L2TokenReceiver.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity. \
+<i>"L2TokenReceiver.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
 
-
-All functions on L2TokenReceiver can only be called by the contract owner – the Morpheus multisig.”^5^
+All functions on L2TokenReceiver can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
 
 [https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol) \
 [https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
@@ -200,14 +187,7 @@ The provider registry contract is a list of providers and their designated TCP/I
 
 | Name | Type | Description |
 |---|---|---|
-| Provider | struct | Complex object containing provider variables.
-
-{
-     (string) Endpoint,
-     (string) Port,
-     (uint) Stake,
-     (uint) RegTimestamp
-} |
+| Provider | struct | Complex object containing provider variables.<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string) Endpoint,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) Port,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) Stake,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) RegTimestamp<br>} |
 | ProviderIds | address[] | Array of registered provider addresses. |
 | Providers | mapping | Mapping of registered providers. (address => Provider) |
 | Stake | uint256  | Minimum required stake to register a new provider. |
@@ -221,11 +201,9 @@ The provider registry contract is a list of providers and their designated TCP/I
 | getProviderIds | none | Returns an array of registered provider addresses. |
 | getProviderList | none | Returns an array of registered providers. |
 | getStakeReq | none | Returns an uint256 of required MOR stake to register. |
-| registerProvider | IP (string), 
-Port (uint) | Receives the stake & adds a provider to the registry lists. |
+| registerProvider | IP (string),<br>Port (uint) | Receives the stake & adds a provider to the registry lists. |
 | unregisterProvider | none | Sends the stake & removes a provider from registry lists. |
-| updateProvider | IP (string), 
-Port (uint) | Updates the mapped provider objects with new values. |
+| updateProvider | IP (string),<br>Port (uint) | Updates the mapped provider objects with new values. |
 | setProviderStakeReq | uint256 | Updates the minimum stake requirement. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
 | getOwner | none | Returns the current owner of the contract. |
@@ -238,18 +216,7 @@ The model registry contract is a list of LLM models available on the Morpheus ne
 
 | Name | Type | Description |
 |---|---|---|
-| Model | struct | Complex object containing model variables.
-
-{
-     (address) Owner,
-     (string) UUID,
-     (string) Name,
-     (string) IPFS,
-     (string[]) Tags,
-     (uint256) RoyaltyFee,
-     (uint256) Stake,
-     (uint256) RegTimestamp
-} |
+| Model | struct | Complex object containing model variables.<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) Owner,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) UUID,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) Name,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) IPFS,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string[]) Tags,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) RoyaltyFee,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) Stake,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) RegTimestamp<br>} |
 | ModelIds | string[] | A string array of model UUIDs. |
 | Models | mapping | Mapping of registered models by UUID. (string => Model) |
 | Tags | string[] | A string array of available tags. |
@@ -267,17 +234,9 @@ The model registry contract is a list of LLM models available on the Morpheus ne
 | getModelsByOwner | Owner (address) | Returns an array of Model objects filtered by given owner. |
 | getModelsByType | Type (string) | Returns an array of Model objects filtered by given type. |
 | getStakeReq | none | Returns an uint256 of required MOR stake to register. |
-| registerModel | UUID (string),
-Name (string),
-IPFS (string),
-Tags (string[]),
-RoyaltyFee (uint256) | Receives the stake & adds a model to the registry lists. |
+| registerModel | UUID (string),<br>Name (string),<br>IPFS (string),<br>Tags (string[]),<br>RoyaltyFee (uint256) | Receives the stake & adds a model to the registry lists. |
 | unregisterModel | none | Sends the stake & removes a model from registry lists. |
-| updateModel | UUID (string),
-Name (string),
-IPFS (string),
-Tags (string[]),
-RoyaltyFee (uint256) | Updates the mapped model objects with new values. |
+| updateModel | UUID (string),<br>Name (string),<br>IPFS (string),<br>Tags (string[]),<br>RoyaltyFee (uint256) | Updates the mapped model objects with new values. |
 | setModelStakeReq | uint256 | Updates the minimum stake requirement. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
 | getOwner | none | Returns the current owner of the contract. |
@@ -290,18 +249,7 @@ The agent registry contract is a list of registered AI agents available for use 
 
 | Name | Type | Description |
 |---|---|---|
-| Agent | struct | Complex object containing Agent variables.
-
-{
-     (address) Owner,
-     (string) UUID,
-     (string) Name,
-     (string) IPFS,
-     (string[]) Tags,
-     (uint256) RoyaltyFee,
-     (uint) Stake,
-     (uint) RegTimestamp
-} |
+| Agent | struct | Complex object containing Agent variables.<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) Owner,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) UUID,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) Name,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) IPFS,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string[]) Tags,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) RoyaltyFee,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) Stake,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) RegTimestamp<br>} |
 | AgentIds | string[] | A string array of agent UUIDs. |
 | Agents | mapping | Mapping of registered agents by UUID. (string => Agent) |
 | Tags | string[] | A string array of available tags. |
@@ -319,17 +267,9 @@ The agent registry contract is a list of registered AI agents available for use 
 | getAgentsByOwner | Owner (address) | Returns an array of Agent objects filtered by given owner. |
 | getAgentsByType | Type (string) | Returns an array of Agent objects filtered by given type. |
 | getStakeReq | none | Returns an uint256 of required MOR stake to register. |
-| registerAgent | UUID (string),
-Name (string),
-IPFS (string),
-Tags (string[]),
-RoyaltyFee (uint256) | Receives the stake & adds an agent to the registry lists. |
+| registerAgent | UUID (string),<br>Name (string),<br>IPFS (string),<br>Tags (string[]),<br>RoyaltyFee (uint256) | Receives the stake & adds an agent to the registry lists. |
 | unregisterAgent | none | Sends the stake & removes an agent from registry lists. |
-| updateAgent | UUID (string),
-Name (string),
-IPFS (string),
-Tags (string[]),
-RoyaltyFee (uint256) | Updates the mapped agent objects with new values. |
+| updateAgent | UUID (string),<br>Name (string),<br>IPFS (string),<br>Tags (string[]),<br>RoyaltyFee (uint256) | Updates the mapped agent objects with new values. |
 | setAgentStakeReq | uint256 | Updates the minimum stake requirement. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
 | getOwner | none | Returns the current owner of the contract. |
@@ -342,18 +282,8 @@ The marketplace contract collects model price information from providers and act
 
 | Name | Type | Description |
 |---|---|---|
-| Bid | struct | Complex object containing bid variables.
-
-{
-     (address) Provider,
-     (string) UUID,
-     (uint256) Nonce,
-     (uint256) BidAmount,
-     (uint) CreatedTimestamp
-     (uint) DeletedTimestamp
-} |
-| Bids | mapping | A mapping of Bid arrays by Provider + UUID + Nonce. 
-(string => Bid[]) |
+| Bid | struct | Complex object containing bid variables.<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) Provider,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) UUID,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) Nonce,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) BidAmount,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) CreatedTimestamp<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint) DeletedTimestamp<br>} |
+| Bids | mapping | A mapping of Bid arrays by Provider + UUID + Nonce. (string => Bid[]) |
 | Providers | mapping | A mapping of Provider arrays by UUID. (string => Address[]) |
 | ProviderModels | mapping | A mapping of Model UUIDs by Provider. (address => string[]) |
 | ProviderAgents | mapping | A mapping of Agent UUIDs by Provider. (address => string[]) |
@@ -368,28 +298,12 @@ The marketplace contract collects model price information from providers and act
 | getBids | UUID (string) | Returns list of Bid objects. |
 | getModelsByProvider | Addr (address) | Returns a list of model bids filtered by provider address. |
 | getAgentsByProvider | Addr (address) | Returns a list of agent bids filtered by provider address. |
-| postModelBid | UUID (string),
-BidAmount (uint256),
-Nonce (uint256) | Adds new Bid object to Bids mapping.
-Adds new UUID to ProviderModels provider  mapping. |
-| postAgentBid | UUID (string),
-BidAmount (uint256),
-Nonce (uint256) | Adds new Bid object to Bids mapping.
-Adds new UUID to ProviderAgents provider  mapping. |
-| deleteModelBid | UUID (string),
-Nonce (uint256) | Removes Bid object from Bids mapping.
-Removes UUID from ProviderModels provider mapping. |
-| deleteAgentBid | UUID (string),
-Nonce (uint256) | Removes Bid object from Bids mapping.
-Removes UUID from ProviderAgents provider mapping. |
-| updateModelBid | UUID (string),
-BidAmount (uint256),
-Nonce (uint256) | Runs deleteModelBid with UUID.
-Runs addModelBid with UUID, BidAmount, & Nonce. |
-| updateAgentBid | UUID (string),
-BidAmount (uint256),
-Nonce (uint256) | Runs deleteAgentBid with UUID.
-Runs addAgentBid with UUID, BidAmount, & Nonce. |
+| postModelBid | UUID (string),<br>BidAmount (uint256),<br>Nonce (uint256) | Adds new Bid object to Bids mapping.<br>Adds new UUID to ProviderModels provider mapping. |
+| postAgentBid | UUID (string),<br>BidAmount (uint256),<br>Nonce (uint256) | Adds new Bid object to Bids mapping.<br>Adds new UUID to ProviderAgents provider mapping. |
+| deleteModelBid | UUID (string),<br>Nonce (uint256) | Removes Bid object from Bids mapping.<br>Removes UUID from ProviderModels provider mapping. |
+| deleteAgentBid | UUID (string),<br>Nonce (uint256) | Removes Bid object from Bids mapping.<br>Removes UUID from ProviderAgents provider mapping. |
+| updateModelBid | UUID (string),<br>BidAmount (uint256),<br>Nonce (uint256) | Runs deleteModelBid with UUID.<br>Runs addModelBid with UUID, BidAmount, & Nonce. |
+| updateAgentBid | UUID (string),<br>BidAmount (uint256),<br>Nonce (uint256) | Runs deleteAgentBid with UUID.<br>Runs addAgentBid with UUID, BidAmount, & Nonce. |
 | setModelBidFee | uint256 | Update the fee for posting a new model bid. |
 | setAgentBidFee | uint256 | Update the fee for posting a new agent bid. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
@@ -403,21 +317,7 @@ The session router contract is responsible for maintaining an active log of curr
 
 | Name | Type | Description |
 |---|---|---|
-| Session | struct | Complex object containing session variables.
-
-{
-     (string) SessionId,
-     (address) User,
-     (address) Provider,
-     (string) UUID,
-     (uint256) Budget,
-     (uint256) Refund,
-     (uint256) Stake,
-     (string) CloseoutReceipt,
-     (uint256) CloseoutType,
-     (uint256) OpenTimestamp,
-     (uint256) CloseTimestamp
-} |
+| Session | struct | Complex object containing session variables.<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) SessionId,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) User,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(address) Provider,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) UUID,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) Budget,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) Refund,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) Stake,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(string) CloseoutReceipt,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) CloseoutType,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) OpenTimestamp,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(uint256) CloseTimestamp<br>} |
 | Sessions | mapping | A mapping of Sessions by SessionId. (string => Session) |
 | ProviderSessions | mapping | A mapping of SessionIds by Provider. (address => string[]) |
 | UserSessions | mapping | A mapping of SessionIds by User. (address => string[]) |
@@ -428,48 +328,35 @@ The session router contract is responsible for maintaining an active log of curr
 
 | Name | Parameters | Description |
 |---|---|---|
-| openSession | Provider (address),
-UUID (string),
-Budget (uint256) | Receives the session stake and creates a Session object.
-Returns SessionId string. |
-| closeSession | SessionId (string),
-Receipt (string),
-Signature (string) | Processes session closeout and returns session stake.
-Add MOR payout to the provider’s claimable balance.
-Return unused budget (refund) to the user balance.
-
-Uses signature to determine if the “CloseoutType” is a provider signed or user signed report. |
+| openSession | Provider (address),<br>UUID (string),<br>Budget (uint256) | Receives the session stake and creates a Session object.<br>Returns SessionId string. |
+| closeSession | SessionId (string),<br>Receipt (string),<br>Signature (string) | Processes session closeout and returns session stake.<br>Add MOR payout to the provider’s claimable balance.<br>Return unused budget (refund) to the user balance.<br>Uses signature to determine if the "CloseoutType" is a provider signed or user signed report. |
 | getClaimBalance | Addr (address) | Returns claimable balance by provider address. |
 | getSpendBalance | Addr (address) | Returns spendable balance by user address. |
 | getTodaysBudget | none | Returns today's MOR  budget. |
 | getComputeTranche | none | Returns total MOR in Compute Tranche |
 | claimAmount | Amt (uint256) | Withdraws MOR from the provider’s claimable balance. |
-| deleteHistory | SessionId (string)
-Index (uint) | Removes SessionId from UserSessions array.
-Clears User address field in Session record. |
+| deleteHistory | SessionId (string),<br>Index (uint) | Removes SessionId from UserSessions array.<br>Clears User address field in Session record. |
 | updateStakeDelay | StakeDelay (uint256) | Updates the number of seconds a stake is delayed when a user closes out a session using a user signed receipt. |
 | transferOwnership | address | Transfers the ownership of the contract to a new address. |
 | getOwner | none | Returns the current owner of the contract. |
 
 Receipt strings will be a signed message from either provider or user and consist of session metrics and bid data. A message signed by the provider will return the user’s stake immediately. A message signed by the user will trigger a delay in the stake return. This mechanic is designed to incentivize users to close out sessions with receipts they receive from providers, but provides a path to reclaim stake if a provider is a bad actor.
 
-<TODO> Assign compute budget spend to third party \
-<TODO> Create reputation endpoints
-
+<TODO Assign compute budget spend to third party> \
+<TODO Create reputation endpoints>
 
 ## Node Architecture
 
 The Morpheus core node is a client-side node that connects providers and users together based upon on-chain routing information. The node consists of five core parts which are illustrated in figure 2: Wallet, API, UI, Proxy Router, and AI Engine.
 
-![Enter image alt description](Images/LNU_Image_2.png)
-
-*Figure 2. High Level Node Block Diagram*
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Lumerin%20Model/figure2.png">
+<i>Figure 2. High Level Node Block Diagram</i>
 
 #### Wallet & Key Storage
 
 The wallet module is a backend system that is responsible for key generation and restore, signing, and interacting with the blockchain. All EVM ABI data and monitored smart contracts will be stored in the wallet module and made accessible to the other modules through the node API. The key storage element is an encrypted file containing the user’s mnemonic, imported keys, and can be used to store all sensitive wallet related information that shouldn’t be shared through the API.
 
-<TODO> Add Key Storage JSON Schema
+<TODO Add Key Storage JSON Schema>
 
 #### Application Programming Interface (API) Bus
 
@@ -481,42 +368,32 @@ The AI Engine API schema is planned to be in the format of the Open AI developer
 
 | Endpoint | Method | Parameters | Response |
 |---|---|---|---|
-| /wallet/addresses | GET | none | {
-     “addresses”: [“0x”, “0x”]
-} |
-|  |  |  |  |
+| /wallet/addresses | GET | none | {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"addresses": ["0x", "0x"]<br>} |
 
 ##### Proxy Router API
 
 | Endpoint | Method | Parameters | Response |
 |---|---|---|---|
-| /proxy/sockets | GET | none | {
-     “sockets”: [“{guid}”, “{guid}”]
-} |
-|  |  |  |  |
+| /proxy/sockets | GET | none | {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sockets": ["{guid}", "{guid}"]<br>} |
 
 ##### AI Engine API
 
 | Endpoint | Method | Parameters | Response |
 |---|---|---|---|
-| /ai/models | GET | none | {
-     “models”: [“model1”, “model2”]
-} |
-|  |  |  |  |
+| /ai/models | GET | none | {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"models": ["model1", "model2"]<br>} |
 
-<TODO> Add API schema documentation
+<TODO Add API schema documentation>
 
 #### User Interface (UI)
 
 The default Morpheus UI is a client-side application built using Electron, Node.js, and React. Since the initial Morpheus ecosystem will be deployed on Arbitrum, the Morpheus UI will have dual wallet features for MOR and aETH. A sample mockup of a proposed user interface can be found in figure 3. The UI can be designed and built in a modular fashion for greater flexibility. Different modules can be added as needed to the navigation bar along the left side of the client window.
 
-![Enter image alt description](Images/b8G_Image_3.png)
-
-*Figure 3. Proposed wallet UI mockup*
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Lumerin%20Model/figure3.png">
+<i>Figure 3. Proposed wallet UI mockup</i>
 
 The Morpherus node API bus exposes a consumable API that any permissioned UI can access. The node may even be run as a daemon service on a central web server to provide Morpheus network access to web and mobile apps.
 
-Proxy Router
+#### Proxy Router
 
 The Proxy Router is a socket management module that listens on a local port for incoming connections and handles the handshake with remote nodes.
 
@@ -537,265 +414,212 @@ The data storage elements
 
 ## Morpheus Protocol
 
-### The Morpheus Protocol is essentially the language and pattern that the Morpheus nodes use to talk to each other and the on-chain ecosystem. The decision trees of the Morpheus protocol can be categorized into three main areas: Provider node communication, user node communication, and session router contract interactions.
+The Morpheus Protocol is essentially the language and pattern that the Morpheus nodes use to talk to each other and the on-chain ecosystem. The decision trees of the Morpheus protocol can be categorized into three main areas: Provider node communication, user node communication, and session router contract interactions.
 
 ### Provider Node Communication
 
 #### Provider Node to User Node
 
-1. **Provider / User Handshake*** \
-*
+1. **Provider / User Handshake**
+    
+    a. Provider’s listening port (default port: 3333) receives an incoming socket connection from a User node.
+    
+    b. Provider receives a session request from the User node and checks if the message signature is valid. If the signature is not valid the provider returns an "Err: Failed Auth" message and closes the socket.
+    
+    <i>{ "method": "response.error", "params": { "message": "Failed to authenticate signature.", "timestamp": 1707379200, signature: "# string" }}</i>
+    
+    | Method | "response.error" | Indicates an error response to a request method. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: error message. |
+    | Parameter (uint) | "timestamp" | Timestamp of message. |
+    | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
+   
+    c. Provider checks the current workload and system constraints to determine if it can service the request. If the provider cannot service the request it returns an "Err: Provider at capacity" message and closes the socket.
 
-1. Provider’s listening port (default port: 3333) receives an incoming socket connection from a User node. \
+    <i>{ "method": "response.error", "params": { "message": "Provider at capacity.", "timestamp": 1707379200, signature: "# string" }}</i>
+   
+    | Method | "response.error" | Indicates an error response to a request method. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: error message. |
+    | Parameter (uint) | "timestamp" | Timestamp of message. |
+    | Parameter (string) | "signature" | Provider signed message. <br>{provider + user + timestamp} |
+   
+    d. Provider sends the User node an accept message which contains the provider’s encryption key. Provider node starts a new session thread with the User node socket and stores the User node’s public key in a thread variable for encrypting the inference responses.
+   
+    <i>{ "method": "response.success", "params": { "message": "020bdffbf477c8f03affb 9ac006eb2c682a75cd017c9723d028733e083a82d5273", "timestamp": 1707379200, signature: "# string" }}</i>
+   
+    | Method | "response.success" | Indicates a success or true response to a request method. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: public key. |
+    | Parameter (uint) | "timestamp" | Timestamp of message. |
+    | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
+   
+2. **User Session**
+   
+    a. Provider receives a prompt message from the User node and checks to see if the session is still open. If the session is closed or doesn’t exist it returns an "Err: Closed Session" message and closes the socket.
+   
+    <i>{ "method": "response.error", "params": { "message": "Session is closed.", "timestamp": 1707379200, signature: "# string" }}</i>
+    
+    | Method | "response.error" | Indicates an error response to a request method. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: error message. |
+    | Parameter (uint) | "timestamp" | Timestamp of message. |
+    | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
+   
+    b. Provider checks to see if the prompt puts the User’s session over its spend limit. If the session is over its spend limit the Provider node returns an "Err: Over spend limit." message but does not close the session.
 
+    <i>{ "method": "response.error", "params": { "message": "Over spend limit.", "timestamp": 1707379200, signature: "# string" }}</i>
+    
+    | Method | "response.error" | Indicates an error response to a request method. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: error message. |
+    | Parameter (uint) | "timestamp" | Timestamp of message. |
+    | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
+   
+    c. Provider decrypts prompt message and sends prompt to AI engine for processing.
 
-2. Provider receives a session request from the User node and checks if the message signature is valid. If the signature is not valid the provider returns an “Err: Failed Auth” message and closes the socket. \
- \
-{ “method”: “response.error”, “params”: { “message”: “Failed to authenticate signature.”, “timestamp”: 1707379200, signature: “# string” }} \
+    d. Provider sends inference back to User Node and updates internal session tracking.
+   
+    { "method": "response.inference", "params": { "message": "Encrypted inference string", "timestamp": 1707379200, signature: "# string"}}
+   
+    | Method | "response.inference" | Used to send inference from provider node to User node. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: inference encrypted using the User’s public key. |
+    | Parameter (uint) | "timestamp" | Timestamp of request. |
+    | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
+   
+3. **Session Closeout**
+    a. Provider receives session close request from User node.
+    b. Provider compiles and sends a session report to the User node.
 
+    <i>{ "method": "response.report", "params": { "message": "Report string", "timestamp": 1707379200, signature: "# string"}}</i>
+    
+    | Method | "response.report" | Used to send a close out report from a Provider node to a User node. |
+    |---|---|---|
+    | Parameter (string) | "message" | Response payload: session report. |
+    | Parameter (uint) | "timestamp" | Timestamp of request. |
+    | Parameter (string) | "signature" | Provider signed message. {report} |
+   
+    The session report will be a summary of the User node session socket activity.<br><br>
+    <i>{ "sessionid": "0x…", "start": 1707379200, "end": 1707456732, "prompts": 3, "tokens": 1650, "reqs": [ { "req": 1707379250, "res": 1707379425, "toks": 620 }, { "req": 1707399127, "res": 1707400563, "toks": 426 }, { "req": 1707450734, "res": 1707455732, "toks": 604} ] }</i>
+    
+    ##### Report Variables
 
-| Method | “response.error” | Indicates an error response to a request method. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: error message. |
-| Parameter (uint) | “timestamp” | Timestamp of message. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
+    | Name | Type | Description |
+    |---|---|---|
+    | "sessionid" | string | User node’s session ID. |
+    | "start" | uint | Timestamp marking start of the session socket. |
+    | "end" | uint | Timestamp marking end of the session socket. |
+    | "prompts" | uint | Number of prompts sent by the User node and received by the Provider node. |
+    | "tokens" | uint | Number of language tokens sent from the Provider node to the User node. |
+    | "reqs" | array | An array of req objects. |
+   
+    ##### Req Object Variables
+   
+    | Name | Type | Description |
+    |---|---|---|
+    | "req" | unit | Timestamp of prompt request message. |
+    | "res" | uint | Timestamp of inference response message. |
+    | "toks" | uint | Number of language tokens provided in the inference response. |
+   
+    c. Provider closes the socket and purges session data from memory.
 
+#### Provider Node to Blockchain
 
+1. **Check Session State**
 
-3. Provider checks the current workload and system constraints to determine if it can service the request. If the provider cannot service the request it returns an “Err: Provider at capacity” message and closes the socket. \
- \
-{ “method”: “response.error”, “params”: { “message”: “Provider at capacity.”, “timestamp”: 1707379200, signature: “# string” }} \
-
-
-| Method | “response.error” | Indicates an error response to a request method. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: error message. |
-| Parameter (uint) | “timestamp” | Timestamp of message. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
-
-
-
-4. Provider sends the User node an accept message which contains the provider’s encryption key. Provider node starts a new session thread with the User node socket and stores the User node’s public key in a thread variable for encrypting the inference responses. \
- \
- { “method”: “response.success”, “params”: { “message”: “020bdffbf477c8f03affb 9ac006eb2c682a75cd017c9723d028733e083a82d5273”, “timestamp”: 1707379200, signature: “# string” }} \
-
-
-| Method | “response.success” | Indicates a success or true response to a request method. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: public key. |
-| Parameter (uint) | “timestamp” | Timestamp of message. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
-
-2. **User Session** \
-
-
-5. Provider receives a prompt message from the User node and checks to see if the session is still open. If the session is closed or doesn’t exist it returns an “Err: Closed Session” message and closes the socket. \
- \
- { “method”: “response.error”, “params”: { “message”: “Session is closed.”, “timestamp”: 1707379200, signature: “# string” }} \
-
-
-| Method | “response.error” | Indicates an error response to a request method. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: error message. |
-| Parameter (uint) | “timestamp” | Timestamp of message. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
-
-6. Provider checks to see if the prompt puts the User’s session over its spend limit. If the session is over its spend limit the Provider node returns an “Err: Over spend limit.” message but does not close the session. \
- \
- { “method”: “response.error”, “params”: { “message”: “Over spend limit.”, “timestamp”: 1707379200, signature: “# string” }} \
-
-
-| Method | “response.error” | Indicates an error response to a request method. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: error message. |
-| Parameter (uint) | “timestamp” | Timestamp of message. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
-
-7. Provider decrypts prompt message and sends prompt to AI engine for processing.
-
-8. Provider sends inference back to User Node and updates internal session tracking. \
- \
-{ “method”: “response.inference”, “params”: { “message”: “Encrypted inference string”, “timestamp”: 1707379200, signature: “# string”}} \
-
-
-| Method | “response.inference” | Used to send inference from provider node to User node. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: inference encrypted using the User’s public key. |
-| Parameter (uint) | “timestamp” | Timestamp of request. |
-| Parameter (string) | “signature” | Provider signed message. 
-{provider + user + timestamp} |
-
-
-
-3. **Session Closeout** \
-
-
-9. Provider receives session close request from User node.
-
-10. Provider compiles and sends a session report to the User node.
-
- \
-{ “method”: “response.report”, “params”: { “message”: “Report string”, “timestamp”: 1707379200, signature: “# string”}} \
-
-
-| Method | “response.report” | Used to send a close out report from a Provider node to a User node. |
-|---|---|---|
-| Parameter (string) | “message” | Response payload: session report. |
-| Parameter (uint) | “timestamp” | Timestamp of request. |
-| Parameter (string) | “signature” | Provider signed message. {report} |
-
- \
-The session report will be a summary of the User node session socket activity. \
- \
-{ “sessionid”: “0x…”, “start”: 1707379200, “end”: 1707456732, “prompts”: 3, “tokens”: 1650, “reqs”: [ { “req”: 1707379250, “res”: 1707379425, “toks”: 620 }, { “req”: 1707399127, “res”: 1707400563, “toks”: 426 }, { “req”: 1707450734, “res”: 1707455732, “toks”: 604} ] } \
- \
-Report Variables
-
-| Name | Type | Description |
-|---|---|---|
-| “sessionid” | string | User node’s session ID. |
-| “start” | uint | Timestamp marking start of the session socket. |
-| “end” | uint | Timestamp marking end of the session socket. |
-| “prompts” | uint | Number of prompts sent by the User node and received by the Provider node. |
-| “tokens” | uint | Number of language tokens sent from the Provider node to the User node. |
-| “reqs” | array | An array of req objects. |
-
- \
-Req Object Variables
-
-| Name | Type | Description |
-|---|---|---|
-| “req” | unit | Timestamp of prompt request message. |
-| “res” | uint | Timestamp of inference response message. |
-| “toks” | uint | Number of language tokens provided in the inference response. |
-
-11. Provider closes the socket and purges session data from memory.
-
-#### Provider Node to Blockchain \
-
-
-1. **Check Session State** \
- \
 Provider uses Session ID provided by the User node to check session status in the on-chain Session Router Contract. \
 
+3. **Check Session Balance**
 
-2. **Check Session Balance** \
- \
 Provider uses Session ID provided by the User node to check session balance in the on-chain Session Router Contract. \
 
+4. **Check User Report**
 
-3. **Check User Report** \
- \
 This method is used if the Provider node wishes to contest a user report. \
 
+5. **Claim Funds**
 
-4. **Claim Funds** \
- \
 Provider claims MOR tokens that have been allocated to its wallet address.
 
 ### User Node Communication
 
 #### User Node to Provider Node
 
-1. **Provider / User Handshake** \
- \
-When a User node first establishes a tcp/ip socket connection with a provider node it will initiate the protocol handshake. \
+1. **Provider / User Handshake** <br><br>
+When a User node first establishes a tcp/ip socket connection with a provider node it will initiate the protocol handshake.
+    a. User node sends the Provider node a session request.
 
+    <i>{ "method": "session.request", "params": { "provider": "0x…", "user": "0x…", "timestamp": 1707379200, "spend": 0.032, "key": "020bdffbf477c8f03affb9 ac006eb2c682a75cd017c9723d028733e083a82d5273", signature: "# string"}}</i>
 
-1. User node sends the Provider node a session request. \
- \
-{ “method”: “session.request”, “params”: { “provider”: “0x…”, “user”: “0x…”, “timestamp”: 1707379200, “spend”: 0.032, “key”: “020bdffbf477c8f03affb9 ac006eb2c682a75cd017c9723d028733e083a82d5273”, signature: “# string”}} \
+    | Method | "session.request" | Used to request permission from provider node to establish a new session socket. |
+    |---|---|---|
+    | Parameter (string) | "provider" | Provider node wallet address. |
+    | Parameter (string) | "user" | User node wallet address. |
+    | Parameter (uint) | "timestamp" | Timestamp of request. |
+    | Parameter (uint) | "spend’ | Max budget for proposed session. (MOR) |
+    | Parameter (string) | "key" | User node’s public encryption key. |
+    | Parameter (string) | "signature" | User signed message.<br>{provider + user + timestamp} |
 
+    b. If the session request is accepted the User node will receive an encryption public key back from the Provider node.
 
-| Method | “session.request” | Used to request permission from provider node to establish a new session socket. |
-|---|---|---|
-| Parameter (string) | “provider” | Provider node wallet address. |
-| Parameter (string) | “user” | User node wallet address. |
-| Parameter (uint) | “timestamp” | Timestamp of request. |
-| Parameter (uint) | “spend’ | Max budget for proposed session. (MOR) |
-| Parameter (string) | “key” | User node’s public encryption key. |
-| Parameter (string) | “signature” | User signed message. 
-{provider + user + timestamp} |
+    c. The User node submits an on-chain transaction to the Session Router Contract to create a new session. If successful the User node will receive a new Session ID back from the contract method.
 
-2. If the session request is accepted the User node will receive an encryption public key back from the Provider node.
+3. **User Session**
+   
+    a. User node sends an encrypted prompt message to the Provider node.
+   
+    <i>{ "method": "session.prompt", "params": { "sessionid": "0x…", "message": "Encrypted user prompt", "timestamp": 1707379200, signature: "# string"}}</i>
 
-3. The User node submits an on-chain transaction to the Session Router Contract to create a new session. If successful the User node will receive a new Session ID back from the contract method.
+   | Method | "session.prompt" | Used to send a user prompt to the Provider node for processing. |
+   |---|---|---|
+   | Parameter (string) | "sessionid" | Active session Id. |
+   | Parameter (string) | "message" | Request payload: user prompt encrypted using the Provider’s public key. |
+   | Parameter (uint) | "timestamp" | Timestamp of prompt. |
+   | Parameter (string) | "signature" | User signed message.<br>{provider + user + timestamp} |
 
-2. **User Session** \
+    b. User node receives inference response back from Provider node.
 
+4. **Session Closeout**
+   
+    a. User node requests a close out report from Provider node.
+   
+    <i>{ "method": "session.close", "params": { "sessionid": "0x…", "timestamp": 1707379200, signature: "# string"}}</i>
 
-4. User node sends an encrypted prompt message to the Provider node. \
- \
-{ “method”: “session.prompt”, “params”: { “sessionid”: “0x…”, “message”: “Encrypted user prompt”, “timestamp”: 1707379200, signature: “# string”}} \
+   | Method | "session.close" | Used to request a closeout report from the Provider node. |
+   |---|---|---|
+   | Parameter (string) | "sessionid" | Active session Id. |
+   | Parameter (uint) | "timestamp" | Timestamp of request. |
+   | Parameter (string) | "signature" | User signed message.<br>{provider + user + timestamp} |
 
+    b. User node receives and audits the closeout report sent from Provider node.
 
-| Method | “session.prompt” | Used to send a user prompt to the Provider node for processing. |
-|---|---|---|
-| Parameter (string) | “sessionid” | Active session Id. |
-| Parameter (string) | “message” | Request payload: user prompt encrypted using the Provider’s public key. |
-| Parameter (uint) | “timestamp” | Timestamp of prompt. |
-| Parameter (string) | “signature” | User signed message. 
-{provider + user + timestamp} |
-
-5. User node receives inference response back from Provider node.
-
-3. **Session Closeout** \
-
-
-6. User node requests a close out report from Provider node. \
- \
-{ “method”: “session.close”, “params”: { “sessionid”: “0x…”, “timestamp”: 1707379200, signature: “# string”}} \
-
-
-| Method | “session.close” | Used to request a closeout report from the Provider node. |
-|---|---|---|
-| Parameter (string) | “sessionid” | Active session Id. |
-| Parameter (uint) | “timestamp” | Timestamp of request. |
-| Parameter (string) | “signature” | User signed message. 
-{provider + user + timestamp} |
-
-7. User node receives and audits the closeout report sent from Provider node.
-
-8. If the User node does not agree with the Provider node’s report it can compile and submit its own report to close the session and reclaim its stake.
+    c. If the User node does not agree with the Provider node’s report it can compile and submit its own report to close the session and reclaim its stake.
 
 #### User Node to Blockchain
 
-1. **Get a list of models.** \
- \
-The User node uses this process to retrieve and cache a list of registered models. \
- \
+1. **Get a list of models.**
 
-
-2. **Get a list of providers and bids for the selected model.** \
- \
-Once a model is selected by the end user. The User node retrieves a list of providers and bids for the selected model. \
- \
-The User node then sorts the list of providers by a combination of their endpoint latency, bid, and reputation. (reputation is derived from session closeout data). \
-
-
-3. **Create new session transaction** \
- \
-Once a provider accepts the User node session request, the User node creates an on-chain transaction to open a new session in the Session Router smart contract. \
-
+   The User node uses this process to retrieve and cache a list of registered models.
+   
+2. **Get a list of providers and bids for the selected model.**
+  
+   Once a model is selected by the end user. The User node retrieves a list of providers and bids for the selected model.<br><br>
+   The User node then sorts the list of providers by a combination of their endpoint latency, bid, and reputation. (reputation is derived from session closeout data).
+   
+3. **Create new session transaction**
+  
+   Once a provider accepts the User node session request, the User node creates an on-chain transaction to open a new session in the Session Router smart contract.
 
 4. **Close session transaction**
 
-When the User node is done with the session socket. The User node will request a closeout report from the Provider node. If the User node agrees with the received closeout report then the User node will use it in its closeout transaction. \
- \
-If the User node does not agree with the received closeout report from the Provider node the User node will submit its own report in the closeout transaction.
+   When the User node is done with the session socket. The User node will request a closeout report from the Provider node. If the User node agrees with the received closeout report then the User node will use it in its closeout transaction.<br><br>If the User node does not agree with the received closeout report from the Provider node the User node will submit its own report in the closeout transaction.
 
 ## Conclusion
 
-The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics. \
- \
-The on-chain architecture can initially be deployed on any EVM chain. Eventually the solidity code will be ported into other ecosystems for greater reach.
+The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics.<br><br>The on-chain architecture can initially be deployed on any EVM chain. Eventually the solidity code will be ported into other ecosystems for greater reach.
 
-References
+#### References
 
 1. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/Distribution.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/Distribution.md)
 
