@@ -10,7 +10,7 @@
 - Smart Agents: MRC for Non Fungible Agents (NFA) (https://github.com/MorpheusAIs/MRC/blob/main/MRC21.md)
 
 ### Contributor Links:
-- Capital: Dashboard for Capital Contributors (https://morpheus.206.189.243.3.sslip.io/#/mainnet/capital)
+- Capital: Dashboard for Capital Contributors (https://dashboard.mor.org/#/mainnet/capital)
 - Code: MRC Repository on Github for new proposals (https://github.com/MorpheusAIs/MRC)
 - Inference: Decentralized Router for Morpheus / Lumerin Code Base (https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 - Smart Agents: Mor.Software Website to Register as a Developer or register your Smart Agent (https://mor.software/)
