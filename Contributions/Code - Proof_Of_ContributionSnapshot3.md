@@ -71,3 +71,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8c3FA50473065f1D90f186cA8ba1Aa76Aee409Bb | https://github.com/polywrap/AutoTx | 35 | Polywrap is developing AutoTx, a personal assistant for planning and executing on-chain transactions. The goal is to integrate AutoTx into the Morpheus application to serve as the first transaction agent usable by users. Additionally AutoTx is easily forkable and modifiable, giving developers a base to build their own agents from. |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://github.com/MorpheusAIs/Docs/pull/145 | 320 | Morpheus core node architecture model and guidance document (draft 1). |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://morlord.com | 10 | Morpheus contribution information app. |
+| 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/JasonFengGit/MOR-Agent | 30 | MOR LLM agent for Blockchain native data |
