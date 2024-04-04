@@ -71,4 +71,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://github.com/MorpheusAIs/Docs/pull/145 | 320 | Morpheus core node architecture model and guidance document (draft 1). |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://morlord.com | 10 | Morpheus contribution information app. |
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/JasonFengGit/MOR-Agent | 30 | MOR LLM agent for Blockchain native data |
+| 0x5AC99845F4cA036Fe51b9944f87C746e995ED2bB | https://docs.google.com/document/d/1H7WjssoSXH0TkkIMW6f5IbezBB1YZrgCLiLDy32lb14 | 10 | Lido rewards program proposal development and initiation |
 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration
