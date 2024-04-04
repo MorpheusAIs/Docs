@@ -73,4 +73,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/JasonFengGit/MOR-Agent | 30 | MOR LLM agent for Blockchain native data |
 | 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/MRC/blob/main/MRC26.md,https://github.com/zanknaf/MorpheusUI | 20 | MRC26, work on morpheus.info.gf site and prompt testing tool development |
 | 0x5AC99845F4cA036Fe51b9944f87C746e995ED2bB | https://docs.google.com/document/d/1H7WjssoSXH0TkkIMW6f5IbezBB1YZrgCLiLDy32lb14 | 10 | Lido rewards program proposal development and initiation |
-| 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration
+| 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration |
+| 0xe64a130C41DbAF4D4953c8879A05CFeB17e2b930 | https://github.com/DecentralizeAI/MRC | 177 | Contribution to MRC ideas and concepts |
