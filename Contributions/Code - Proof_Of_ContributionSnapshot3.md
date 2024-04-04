@@ -72,3 +72,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://github.com/MorpheusAIs/Docs/pull/145 | 320 | Morpheus core node architecture model and guidance document (draft 1). |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | https://morlord.com | 10 | Morpheus contribution information app. |
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/JasonFengGit/MOR-Agent | 30 | MOR LLM agent for Blockchain native data |
+| 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/MRC/blob/main/MRC26.md,https://github.com/zanknaf/MorpheusUI | 20 | MRC26, work on morpheus.info.gf site and prompt testing tool development |
