@@ -72,6 +72,10 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x14589BDFdbe3044501044df5B6d53be2f47e92e5 | https://github.com/JasonFengGit/MOR-Agent | 30 | MOR LLM agent for Blockchain native data |
 | 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/MRC/blob/main/MRC26.md,https://github.com/zanknaf/MorpheusUI | 20 | MRC26, work on morpheus.info.gf site and prompt testing tool development |
 | 0x5AC99845F4cA036Fe51b9944f87C746e995ED2bB | https://docs.google.com/document/d/1H7WjssoSXH0TkkIMW6f5IbezBB1YZrgCLiLDy32lb14 | 10 | Lido rewards program proposal development and initiation |
+| 0x65DF6F7E5897b033CAcF77447f0fe274aa03B156 | https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md, https://github.com/MorpheusAIs/Morpheus/commit/647f110028d99fd6a5a62927cd65114d3336e468|65|	Administration of Socials, Design elements, Decemination of Morpheus materials, infographics, Integrations, ideations of AMM, MRC, testing of 0.0.6 implementation. |
+| 0x5694baAEaCa2C419306c9Bf5dbfdAC7F92c7704c | https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md | 10 |  AnonG updated Design Element Collections and Creation of Assets  |
+| 0xe4D28FE30829A825B7379EF28d5d91174436C899 |   https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md | 20 | AnonP Major Design, Logos and new updated infographics|
+|0xb4d9266Fa58CaB6b87bA3031BE50625f5121c63e |   https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md | 15 | Anonk Major Design work, tshirts, infographics, guides|
 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration |
 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/pull/8 | 100 | Initial smart contract merge, Morpheus plugin and UI update, Proxy router update |
 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration
