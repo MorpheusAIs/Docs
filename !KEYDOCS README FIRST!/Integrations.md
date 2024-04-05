@@ -71,6 +71,7 @@ OKX wallet
 
 **Compute**
 Akash
+Phala
 
 **Forges / Agent Builders**
 Langchain / Langsmith
@@ -78,6 +79,8 @@ Polywrap
 Tensorplex
 Hive network
 Shinkai
+Assisterr
+Vold
 
 **Data**
 Syntropy
@@ -86,6 +89,7 @@ Bagel
 HyperSpaceAI
 Lighthouse
 Inferix
+Rivalz
 
 **Smart Contracts**
 Syntropy
@@ -95,10 +99,12 @@ Sei
 Polygon
 BSC
 Rango
+Kintsu
 
 **Inference**
 Livepeer
 HyperSpaceAI
+6079
 
 ## Morpheus Request for Comments (MRC)
 List of proposals for specific technical functions and integrations for Decentralized AI.
