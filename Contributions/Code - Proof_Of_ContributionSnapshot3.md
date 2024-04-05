@@ -74,3 +74,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8e027FCf704c0881aA52c9AFe161b45B6E14c2Da | https://github.com/MorpheusAIs/MRC/blob/main/MRC26.md,https://github.com/zanknaf/MorpheusUI | 20 | MRC26, work on morpheus.info.gf site and prompt testing tool development |
 | 0x5AC99845F4cA036Fe51b9944f87C746e995ED2bB | https://docs.google.com/document/d/1H7WjssoSXH0TkkIMW6f5IbezBB1YZrgCLiLDy32lb14 | 10 | Lido rewards program proposal development and initiation |
 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration
+
+
+
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | https://github.com/MorpheusAIs/MRC/pull/32, https://github.com/MorpheusAIs/MRC/pull/37,  https://github.com/MorpheusAIs/Docs/pull/117, https://github.com/MorpheusAIs/Docs/pull/128, https://github.com/MorpheusAIs/Docs/pull/135, https://github.com/MorpheusAIs/Docs/pull/135 | 53 | Managing, improving and keeping up to date /Docs and /MRC repositories, update, sync up and coordinating MRC dissussion forum, organization and leading he first Morpheus community meetup in Kyiv, new features integration (roles, automod) to discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contribution to MRCs, FAQ review and update, Lumerin Node architecture lightpaper, new integrations testing |
