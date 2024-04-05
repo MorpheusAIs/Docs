@@ -14,10 +14,12 @@
 
 ## In Progress
 - **Stage 7:** Day 90 of the bootstrapping period the AMM is created using the Protection Fund.
+- **Stage 8:** Additional audit of Smart Contracts during the 90 day bootstrapping period.
 
 ## Pending
-- **Stage 8:** Additional audit of Smart Contracts during the 90 day bootstrapping period.
-- **Stage 9**: Remove admin function from Smart Contracts.
+- **Stage 9**: Audit of the Compute Smart Contract and Router code.
+- **Stage 10**: Audit of the Community Frontend Builders Smart Contract.
 
 ## Post July 2024  
-- **Stage 10:** Additional upgrades to Smart Contracts will require effectively everyone to update the software.
+- **Stage 11**: Remove admin function from Smart Contracts.
+- **Stage 12:** Additional upgrades to Smart Contracts will require effectively everyone to update the software.
