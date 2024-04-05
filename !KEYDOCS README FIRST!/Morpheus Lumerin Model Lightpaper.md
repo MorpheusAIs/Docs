@@ -87,6 +87,7 @@ The provider claims payment from the router.
 
 For detailed technical information, refer to the full documentation and resources available on the provided links:
 - [Github](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+- [Full Model Documentation](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)
 - [Presentation](https://drive.google.com/file/d/1Tute7WQD8djn1S5ZAQEgCTCDnDMOG3Em/view?usp=sharing)
 - [Video](https://youtu.be/l83Zq12tCpg?si=owcmcqLYzhoEFvht) 
 
