@@ -252,4 +252,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://mor.software, https://github.com/MorpheusAIs/Morpheus/issues/106, https://github.com/MorpheusAIs/Morpheus/issues/633, https://github.com/MorpheusAIs/Morpheus/pull/606, https://github.com/MorpheusAIs/Morpheus/pull/576, https://github.com/MorpheusAIs/Morpheus/pull/618, https://github.com/MorpheusAIs/Morpheus/pull/527  | 163 | mor.software MVP, issues and pull requests, onbarding |
 | 0xa884B8Ac0eD93fBB39155754fAC4B4C898CEAD96 | https://www.reddit.com/r/MorpheusAIs/ | 2 | Setting up the reddit community and first post with graphics
 | 0xa884B8Ac0eD93fBB39155754fAC4B4C898CEAD96 | https://www.reddit.com/r/MorpheusAIs/ | 2 | Kept the reddit community updated on the latest info for the last week.
+| 0x6b11a53f72503CfE069818c96f2173506E89B2d0 | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data | 5 | Made the morpheus general dashboard |
 | 0x70305F11944ba4622ce0AE2e4D9D8023f54CeA85 | https://github.com/MorpheusAIs/Lite-Client | 5 | 006 Win build development and testing, Electronjs templating and GH Actions|
