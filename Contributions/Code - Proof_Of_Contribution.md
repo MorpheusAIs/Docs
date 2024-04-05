@@ -253,6 +253,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0435E96350b139A64A67A74c88812F7aA6e1A57f | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data | 5 | developing the dashboard 1/2 devs. |
 | 0xa884B8Ac0eD93fBB39155754fAC4B4C898CEAD96 | https://www.reddit.com/r/MorpheusAIs/ | 2 | Setting up the reddit community and first post with graphics
 | 0xa884B8Ac0eD93fBB39155754fAC4B4C898CEAD96 | https://www.reddit.com/r/MorpheusAIs/ | 2 | Kept the reddit community updated on the latest info for the last week.
+| 0x6b11a53f72503CfE069818c96f2173506E89B2d0 | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data | 5 | Made the morpheus general dashboard |
 | 0x70305F11944ba4622ce0AE2e4D9D8023f54CeA85 | https://github.com/MorpheusAIs/Lite-Client | 5 | 006 Win build development and testing, Electronjs templating and GH Actions|
 | 0x8388298D1B9601CE2da78127605570b4878f2cFa | Security Repo Implementation Request | 8 | Security Advisory Consult for February. Helping with multi-sig setup and security best practices to prepare for deployment and third-party audits |
 | 0x8388298D1B9601CE2da78127605570b4878f2cFa | Security Repo Implementation Request | 5 | Security Advisory Consult for March. Review merge requests security for Moroft.SOL, Solana Integration, and stETH to wETH upgrade. |
