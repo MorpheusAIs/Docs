@@ -4,7 +4,7 @@
 
 ## Summary
 
-The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and Lake Travis System.
+The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC25.md).
 
 The following proposal will explain the key design principles that have been incorporated as well as outline each part of the on-chain ecosystem model, client-side node, and underlying protocol.
 
@@ -40,9 +40,6 @@ Ensuring that the prompt and inference data stream seamlessly between the user a
 
 For providers, protecting their IP address or URL endpoint is paramount to maintaining the integrity and security of the Morpheus network. Utilizing proxies, load balancers, VPNs, or other obfuscation methods helps shield their digital footprint, making it significantly more challenging for malicious actors to target or exploit the system. Similarly, ensuring user nodes are only visible to providers during active sessions enhances privacy and security for all users. This layer of anonymity is crucial; it prevents potential attackers from easily mapping the network or identifying vulnerable points for attacks. Together, these strategies form a robust defense mechanism, bolstering the network's resilience against cyber threats and preserving the confidentiality and integrity of the data flowing through it.
 
-
-
-
 ## Ecosystem Model
 
 The Morpheus ecosystem will consist of several on-chain and off-chain systems. On-chain systems can be divided into two categories: capital systems and compute systems. Capital systems are deployed on blockchains for the purpose of locking up capital in exchange for minted MOR tokens while compute systems are deployed on blockchains for the purposes of creating an AI model and agent market.
@@ -53,7 +50,7 @@ The Morpheus ecosystem will consist of several on-chain and off-chain systems. O
 ### Layer 1 Contracts
 
 #### **Ecosystem Registry**
-The ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
+The ecosystem registry is a reference list of all official Morpheus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
 ##### Variables
 
@@ -106,7 +103,7 @@ Pool 1 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the code tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
-User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
+User accrued MOR is available to claim after May 8th, 2024 at midnight GMT.
 
 3. Community Tranche (Pool 2) \
  \
@@ -114,7 +111,7 @@ Pool 2 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the community tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
-User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
+User accrued MOR is available to claim after May 8th, 2024 at midnight GMT.
 
 
 4. Compute Tranche (Pool 3) \
@@ -122,7 +119,7 @@ User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
 Pool 3 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the compute tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
-Providers can claim up to 1% of the compute tranche every 24 hours starting after May 8th, 2024 at midnight GMT. \
+Providers can claim up to 1% of the compute tranche every 24 hours starting after May 8th, 2024 at midnight GMT.
 
 
 5. Protection Tranche (Pool 4) \
@@ -148,7 +145,7 @@ The layer 1 sender contract facilitates the bridging of tokens and messages to t
 ### Layer 2 Contracts
 
 #### **Ecosystem Registry**
-Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
+Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official us contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
 #### **Layer 2 Minter**
 The layer 2 minter contract owns the Morpheus Token (MOR) contract and is responsible for receiving messages from the layer 1 sender contract and executing the minting of MOR based on those messages.
@@ -391,7 +388,7 @@ The default Morpheus UI is a client-side application built using Electron, Node.
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Lumerin%20Model/figure3.png">
 <i>Figure 3. Proposed wallet UI mockup</i>
 
-The Morpherus node API bus exposes a consumable API that any permissioned UI can access. The node may even be run as a daemon service on a central web server to provide Morpheus network access to web and mobile apps.
+The Morpheus node API bus exposes a consumable API that any permissioned UI can access. The node may even be run as a daemon service on a central web server to provide Morpheus network access to web and mobile apps.
 
 #### Proxy Router
 
@@ -617,7 +614,7 @@ When a User node first establishes a tcp/ip socket connection with a provider no
 
 ## Conclusion
 
-The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics.<br><br>The on-chain architecture can initially be deployed on any EVM chain. Eventually the solidity code will be ported into other ecosystems for greater reach.
+The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics.<br><br>The on-chain architecture can initially be deployed on any EVM chain. Eventually the Solidity code will be ported into other ecosystems for greater reach.
 
 #### References
 
