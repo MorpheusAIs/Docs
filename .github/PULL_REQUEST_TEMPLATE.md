@@ -2,6 +2,7 @@
 <!-- Provide a brief description of the change being made -->
 
 ## Related MRI
+Every change must fall under an MRI. See [Reference Implementations](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md) for more details.
 <!-- Select the Morpheus Reference Implementation that this change falls under -->
 - [ ] MRI Number 1. Smart Contracts on Ethereum / Arbitrum 
 - [ ] MRI Number 2. Smart Agents Tools & Examples
