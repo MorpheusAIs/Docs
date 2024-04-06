@@ -97,3 +97,16 @@ So to offer clarity on the estimate for the number of Coder weights that will ex
 
 **Max weights that can be issued by end of year 16: 50,000 weights**
 Again, this represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
+
+## Bitcoin Halving Schedule As The Basis For This Model
+Rewards in real terms have grown, even as weights decline over time.
+Lets run through the numbers below as an example.
+
+From September 2nd 2023 to February 8th 2024, developers contributed to the Morpheus open source with very little knowledge of what the implied value of weights or MOR would be (if not zero). $50 USD per weight was a rule of thumb just based on what the average developer cost per hour is globally. So say ~ 21,500 weights were earned during this 5 month and 6 day period (5.2 months). That's 4,134 weights per month times $50 implies a value equal to $206,730 USD worth per month total (spread over dozens of Code Contributors).
+
+February 8th to March 8th only about 2,000 weights were issued (half the 4,000+ weights of previous months) however the implied value of a weight increased to $400 USD each in snapshot #2. So the implied value of the weights actually increased 400% in real terms to $800,000 USD of implied value that month, instead of the $200,000 USD of previous months.
+
+This is the same logic as how Bitcoin mining works. The 4 year havling has reduced the BTC block reward to miners from 50 BTC per block, to 25 BTC, to 12.5 BTC and is currently 6.125 BTC. However despite this Bitcoin miner revenues have increase from Millions of USD worth to Billion of USD worth in the past 15 years, because of course the per Bitcoin price has increased from nothing, to $10 to $1,000 to tens of thousands of USD per BTC over that period.
+
+The proposed schedule is 1 year halving for Morpheus coding weights which fits the 16 year MOR supply curve schedule. If the implied value of weights increases by 2X each year the Code rewards will stay the same. If the implied value increases more than 2X, then Code rewards increase (as has happened so far). If the implied value of Coding weights grows less than 2X or declines then yes, there would be less Coding rewards.
+
