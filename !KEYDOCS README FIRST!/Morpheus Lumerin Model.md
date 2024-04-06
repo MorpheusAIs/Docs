@@ -159,25 +159,25 @@ The layer 2 minter contract owns the Morpheus Token (MOR) contract and is respon
 [https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
 
 #### **Morpheus Token (MOR)**
-The MOR contract is a standard ERC20 token contract deployed on Arbitrum.
+The MOROFT contract is a cross-chain ERC20 token.
 
-<i>"MOR.sol, the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the ERC20Capped and ERC20Burnable extensions.
+<i>"MOROFT.sol, the Morpheus token, is a [LayerZero Omnichain Fungible Token](https://docs.layerzero.network/v2/developers/evm/oft/quickstart) (OFT). This allows the token to be transferred across [supported networks](https://docs.layerzero.network/v2/developers/evm/technical-reference/endpoints) such as Ethereum, Arbitrum, BNB Chain, and others without the need for wrapping. 
 
-New tokens can only be minted by the contract owner – [L2MessageReceiver](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md) – up to the immutable cap of 42,000,000 tokens."</i><sup>4</sup>
+Tokens can only be minted by the immutable `minter_` – [`L2MessageReceiver`](L2MessageReceiver.md) – when claimed by users."</i><sup>4</sup>
 
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol) \
-[https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3](https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol)
 
 #### **Layer 2 Capital**
 
 The layer 2 capital contract is the receiver of the capital yield earned by tokens locked in the distribution contract and sent by the layer 1 sender contract.
 
-<i>"L2TokenReceiver.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
+<i>"L2TokenReceiverV2.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from[L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
 
-All functions on L2TokenReceiver can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
+The contract supports swapping tokens with the swap method through Uniswap V3 for either of two token pairs specified in firstSwapParams and secondSwapParams. The former is used to swap bridged wstETH yield for WETH. The latter is used to swap half of the resulting WETH for MOR. In turn, additional liquidity for the MOR/WETH pair is provisioned using the increaseLiquidityCurrentRange method.
 
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol) \
-[https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
+All functions on L2TokenReceiverV2 can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
+
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol)
 
 #### **Provider Registry**
 
@@ -627,8 +627,8 @@ The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for 
 
 3. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md)
 
-4. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOR.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOR.md)
+4. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md)
 
-5. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiver.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiver.md)
+5. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md)
 
 6. [https://platform.openai.com/docs/api-reference/introduction](https://platform.openai.com/docs/api-reference/introduction)
