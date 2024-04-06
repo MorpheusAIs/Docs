@@ -8,7 +8,7 @@ All Code Contributions should include the following four elements:
 1. The Ethereum wallet address to be rewarded.
 2. Link to the Code Contribution (this may be a commit or PR).
 3. The number of [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
-4. Description of Contributions.
+4. Description of Contributions including which Morpheus Reference Implementation the contribution is related to.
 
 Please use the format below (including the pipe (|) symbol) to ensure contributions appear correctly in the table:  
 ```| Wallet Address | Link to Work | Weights Requested (weights) | Description of Contribution |```
