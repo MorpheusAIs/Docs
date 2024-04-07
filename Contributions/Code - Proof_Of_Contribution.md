@@ -258,3 +258,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8388298D1B9601CE2da78127605570b4878f2cFa | Security Repo Implementation Request | 8 | Security Advisory Consult for February. Helping with multi-sig setup and security best practices to prepare for deployment and third-party audits |
 | 0x8388298D1B9601CE2da78127605570b4878f2cFa | Security Repo Implementation Request | 5 | Security Advisory Consult for March. Review merge requests security for Moroft.SOL, Solana Integration, and stETH to wETH upgrade. |
 | 0x0Ba7a85Af6323686a1fE29423bd72c2ce81Fe923 | TigerBuidl | 6 | Building FAQ for Morpheus Community |
+| 0xeB25C57E67BDe01f58ca5056e8A3aE16B2bDB8B7 | @AdonalsiumWilRememberOurPlightEventualy | 1 | Helping with the South by South-West Event |
