@@ -264,5 +264,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 
 
-
 | 0xe27458C8Bb3D9Bf298BC8FE47F0Cfab40bc45963 | https://github.com/MorpheusAIs/Morpheus/commit/5d399dd308d60931510fb5e91131a5358a757ebc, https://github.com/MorpheusAIs/Morpheus/commit/0452d6f6123df411d10bbaba694bf8d1dc289170, https://github.com/MorpheusAIs/Morpheus/commit/0870da9b5f69c77968834a408eba9958c2ce2bf0,  https://github.com/MorpheusAIs/Morpheus/commit/17a623bd46cb54887a9da6c808f3ea5506ce01b3,  https://github.com/jabo38/morpheus-images/issues/4, https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Top%2010%20Reasons%20People%20Get%20Excited%20About%20Morpheus.md |	20 |	Testing 0.0.1-0.0.6 clients and reporting bugs to devs. Editing multiple edits in white paper and other papers. Helping with writing of tutorial for manually deploying stETH via Etherscan on launch day for alternate way to deposit. Testing txs pre launch and launch day with devs. Draft on answering questions for community events. Volunteering 3 days at ETH Denver.|
