@@ -103,3 +103,24 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0Ba7a85Af6323686a1fE29423bd72c2ce81Fe923 | @TigerBuidl | 7 | Building FAQ for Morpheus Community and Work at South by Southwest Conference |
 | 0xeB25C57E67BDe01f58ca5056e8A3aE16B2bDB8B7 | @AdonalsiumWilRememberOurPlightEventualy | 1 | Work at South by South-West |
 | 0xbFC8a0D042c5702c7c075352E9bcA7C14a871448 | Mor.Software | 5 | Repo 8 - Codes, Proofs, Dashboards
+| 0x311FFbcAAD242519ABa4736cb695F28cfe3CB9Bc | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 5 | Implementation 4; Further improvements and projects integrating the TCM
+| 0x90B77ba59889A1EC737B4eBC8C78B69f7578BB46 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 4 | Implementation 4; Project Integration
+| 0x90B77ba59889A1EC737B4eBC8C78B69f7578BB46 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md | 10 | Implementation 8; SXSW Event Planning Participation
+| 0x298a247D7a265BF9e904545209254e4777e531C3 | [Denv](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Top%2010%20Reasons%20People%20Get%20Excited%20About%20Morpheus.md) | 5 | Implementation 6; Capital Expansion Execution
+|0xEB364E3Bd1684F598EcB5d450EAA004F4c71Ea50 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 8 | Implementation 4; Project interviews and outline of onboarding process for MOR20
+| 0x85315CeBaC3A6Fe8eDfaa42f10B7Edbc0062F548 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md | 3 | Implementation 5; Protection Fund Consultations and Audit proces
+| 0x91a4a236031308509be175A8d2b70A3DFe6035A4 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md | 10 | Implementation 5; Establishment of Bug Bounty Program
+| 0x8e00c9A8e39A3CD3C1890AA91177158033181A31 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md | 10 | Implementation 5; Establishment of Bug Bounty Program
+| 0x2342A84Cbb0b5bD5069c3cCaD3347E416167D217 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 35 | Implementation 4; TCM Expansion, Onboarding of Projects 
+| 0x07cCa7340Fc8b6BcE4af6BCA4eae0fA303bf8ab1 | https://github.com/MorpheusAIs/SmartContracts/commit/753accd340ee5cbfe688085899eeb807472cdfe4 | 8 | Implementation 5: Audit of wstETH to wETH on Arbitrum
+| 0xDA7F54D1aA0d8C24ea3950cf5027F436FD7aA622 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md | 10 | Implemtations 8: SXSW Event Planning Participtation
+
+
+
+
+
+
+
+
+
+
