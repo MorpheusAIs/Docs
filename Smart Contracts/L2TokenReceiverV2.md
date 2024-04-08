@@ -1,16 +1,19 @@
-# L2TokenReceiver
+# L2TokenReceiverV2
 
-[`L2TokenReceiver.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol) is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [`L1Sender`](L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
+[`L2TokenReceiverV2.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol) is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [`L1Sender`](L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
 
-All functions on `L2TokenReceiver` can only be called by the contract owner – the Morpheus multisig.
+The contract supports swapping tokens with the `swap` method through Uniswap V3 for either of two token pairs specified in `firstSwapParams` and `secondSwapParams`. The former is used to swap bridged wstETH yield for WETH. The latter is used to swap half of the resulting WETH for MOR. In turn, additional liquidity for the MOR/WETH pair is provisioned using the `increaseLiquidityCurrentRange` method.
+
+All functions on `L2TokenReceiverV2` can only be called by the contract owner – the Morpheus multisig.
 
 ## Variables
 
-| Name                         | Type                        | Description                                                                                                     |
-|------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------------|
-| `router`                     | address                     | Address of the Uniswap V3 router.                                                                               |
-| `nonfungiblePositionManager` | address                     | Address of the Uniswap V3 Nonfungible Position Manager.                                                         |
-| `params`                     | [`SwapParams`](#swapparams) | Parameters used for swaps, including the wrapped deposit token, reward token, pair fee, and slippage tolerance. |
+| Name                         | Type                        | Description                                                                                                  |
+|------------------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------|
+| `router`                     | address                     | Address of the Uniswap V3 router.                                                                            |
+| `nonfungiblePositionManager` | address                     | Address of the Uniswap V3 Nonfungible Position Manager.                                                      |
+| `secondSwapParams`           | [`SwapParams`](#swapparams) | Uniswap V3 parameters for the MOR/WETH pair, including token addresses, pair fee, and slippage tolerance.    |
+| `firstSwapParams`            | [`SwapParams`](#swapparams) | Uniswap V3 parameters for the wstETH/WETH pair, including token addresses, pair fee, and slippage tolerance. |
 
 ## Functions
 
@@ -20,25 +23,27 @@ All functions on `L2TokenReceiver` can only be called by the contract owner – 
 function swap(
     uint256 amountIn_,
     uint256 amountOutMinimum_,
-    uint256 deadline_
+    uint256 deadline_,
+    bool isEditFirstParams_
     ) external onlyOwner returns (uint256)
 ```
 
-Executes a token swap on Uniswap V3 using specified parameters. Used to swap wstETH for MOR.
+Executes a token swap on Uniswap V3 using specified parameters. Used to swap wstETH for WETH or WETH for MOR.
 
 #### Parameters:
 
-| Name                | Type    | Description                                    |
-|---------------------|---------|------------------------------------------------|
-| `amountIn_`         | uint256 | The amount of input token to swap.             |
-| `amountOutMinimum_` | uint256 | The minimum amount of output token to accept.  |
-| `deadline_`         | uint256 | Timestamp after which the transaction reverts. |
+| Name                 | Type    | Description                                                                                                                 |
+|----------------------|---------|-----------------------------------------------------------------------------------------------------------------------------|
+| `amountIn_`          | uint256 | The amount of input token to swap.                                                                                          |
+| `amountOutMinimum_`  | uint256 | The minimum amount of output token to accept.                                                                               |
+| `deadline_`          | uint256 | Timestamp after which the transaction reverts.                                                                              |
+| `isEditFirstParams_` | bool    | Determines if the swap uses `firstSwapParams` (i.e. swaps wstETH for WETH) or `secondSwapParams` (i.e. swaps WETH for MOR). |
 
 #### Return Values:
 
-| Type    | Description                                     |
-|---------|-------------------------------------------------|
-| uint256 | The amount of output tokens received from swap. |
+| Type    | Description                                         |
+|---------|-----------------------------------------------------|
+| uint256 | The amount of output tokens received from the swap. |
 
 ### increaseLiquidityCurrentRange
 
@@ -52,17 +57,17 @@ function increaseLiquidityCurrentRange(
     ) external onlyOwner returns (uint128 liquidity_, uint256 amount0_, uint256 amount1_)
 ```
 
-Increases liquidity in the current range for a Uniswap V3 liquidity position. Used to add MOR/wstETH liquidity.
+Increases liquidity in the current range for a Uniswap V3 liquidity position. Used to add liquidity on the MOR/WETH pair.
 
 #### Parameters:
 
-| Name                     | Type    | Description                                                     |
-|--------------------------|---------|-----------------------------------------------------------------|
-| `tokenId_`               | uint256 | The ID of the NFT position to increase liquidity for.           |
-| `depositTokenAmountAdd_` | uint256 | Amount of the wrapped deposit token to add to the position.     |
-| `rewardTokenAmountAdd_`  | uint256 | Amount of the reward token to add to the position.              |
-| `depositTokenAmountMin_` | uint256 | Minimum amount of the wrapped deposit token that must be added. |
-| `rewardTokenAmountMin_`  | uint256 | Minimum amount of the reward token that must be added.          |
+| Name                     | Type    | Description                                           |
+|--------------------------|---------|-------------------------------------------------------|
+| `tokenId_`               | uint256 | The ID of the NFT position to increase liquidity for. |
+| `depositTokenAmountAdd_` | uint256 | Amount of WETH to add to the position.                |
+| `rewardTokenAmountAdd_`  | uint256 | Amount of MOR to add to the position.                 |
+| `depositTokenAmountMin_` | uint256 | Minimum amount of WETH that must be added.            |
+| `rewardTokenAmountMin_`  | uint256 | Minimum amount of MOR that must be added.             |
 
 #### Return Values:
 
@@ -80,7 +85,7 @@ function collectFees(
     ) external returns (uint256 amount0_, uint256 amount1_)
 ```
 
-Collects fees for a Uniswap V3 liquidity position.
+Collects fees for a Uniswap V3 liquidity position. Used to collect fees from the MOR/WETH pair.
 
 #### Parameters:
 
@@ -119,17 +124,19 @@ Initializes the contract.
 
 ```solidity
 function editParams(
-    SwapParams memory newParams_
+    SwapParams memory newParams_,
+    bool isEditFirstParams_
     ) external onlyOwner
 ```
 
-Updates the swap parameters.
+Updates the swap parameters for `firstSwapParams` or `secondSwapParams`.
 
 #### Parameters:
 
-| Name         | Type                        | Description                            |
-|--------------|-----------------------------|----------------------------------------|
-| `newParams_` | [`SwapParams`](#swapparams) | The new swap parameters to be applied. |
+| Name                 | Type                        | Description                                                      |
+|----------------------|-----------------------------|------------------------------------------------------------------|
+| `newParams_`         | [`SwapParams`](#swapparams) | The new swap parameters to be applied.                           |
+| `isEditFirstParams_` | bool                        | Determines if `firstSwapParams` or `secondSwapParams`is updated. |
 
 ## Events
 
