@@ -102,3 +102,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x5CD4C60f0e566dCa1Ae8456C36a63bc7A8D803de | https://discord.com/oauth2/authorize?client_id=1225160336144076980&permissions=292058032192&scope=bot | 6 | Morpheus AI Discord Bot |
 | 0x0Ba7a85Af6323686a1fE29423bd72c2ce81Fe923 | @TigerBuidl | 7 | Building FAQ for Morpheus Community and Work at South by Southwest Conference |
 | 0xeB25C57E67BDe01f58ca5056e8A3aE16B2bDB8B7 | @AdonalsiumWilRememberOurPlightEventualy | 1 | Work at South by South-West |
+| 0xbFC8a0D042c5702c7c075352E9bcA7C14a871448 | Mor.Software | 5 | Repo 8 - Codes, Proofs, Dashboards
