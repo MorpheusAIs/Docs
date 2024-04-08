@@ -264,3 +264,12 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 
 | 0xe27458C8Bb3D9Bf298BC8FE47F0Cfab40bc45963 | https://github.com/MorpheusAIs/Morpheus/commit/5d399dd308d60931510fb5e91131a5358a757ebc, https://github.com/MorpheusAIs/Morpheus/commit/0452d6f6123df411d10bbaba694bf8d1dc289170, https://github.com/MorpheusAIs/Morpheus/commit/0870da9b5f69c77968834a408eba9958c2ce2bf0,  https://github.com/MorpheusAIs/Morpheus/commit/17a623bd46cb54887a9da6c808f3ea5506ce01b3,  https://github.com/jabo38/morpheus-images/issues/4, https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Top%2010%20Reasons%20People%20Get%20Excited%20About%20Morpheus.md |	20 |	Testing 0.0.1-0.0.6 clients and reporting bugs to devs. Editing multiple edits in white paper and other papers. Helping with writing of tutorial for manually deploying stETH via Etherscan on launch day for alternate way to deposit. Testing txs pre launch and launch day with devs. Draft on answering questions for community events. Volunteering 3 days at ETH Denver.|
+
+0x298a247D7a265BF9e904545209254e4777e531C3 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md | 25 | Implementations 4 and 6. Adding best practices for MOR20
+0x90B77ba59889A1EC737B4eBC8C78B69f7578BB46 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 5 | Implementation 4; Onboarding of project 
+0x1A9D00590E6e781A450F03A8BbEca052909C2f5A | https://discord.com/channels/1151741790408429580/1200174062547247187/1205522663020306543 | 58 | Implementation 6; Morpheus Lens Profile Contribution to the Project 
+
+
+
+
+
