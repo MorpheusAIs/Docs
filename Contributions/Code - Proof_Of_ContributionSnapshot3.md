@@ -120,7 +120,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 
 
-
-
-
-
+| 0x765168b4eE61Eaf6681402439f96A7eB085dE496 | https://github.com/MorpheusAIs/Lite-Client/tree/main, https://github.com/MorpheusAIs/Lite-Client/tree/0.0.6-provisional-darwin-arm-build, https://github.com/MorpheusAIs/Lite-Client/blob/main/.github/workflows/build.yml, lite-client admin | 85 | in service of weights associated with MRI Number 3. Morpheus Local Install Desktop / Mobile |
+| 0x765168b4eE61Eaf6681402439f96A7eB085dE496 | https://mor.software, d-git, MRC 00, MRC 14, MRC 21  | 90 | in service of weights associated with MRI Number 8. Code Proofs & Dashboards |
