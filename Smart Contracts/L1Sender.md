@@ -145,11 +145,11 @@ Stores configuration data for the deposit token (stETH) and its bridge.
 
 #### Fields
 
-| Name       | Type    | Description                                                            |
-|------------|---------|------------------------------------------------------------------------|
-| `token`    | address | The address of the wrapped deposit token on Ethereum (wsETH).          |
-| `gateway`  | address | The address of the Arbitrum Gateway Router.                            |
-| `receiver` | address | The address where tokens are received on Arbitrum (`L2TokenReceiver`). |
+| Name       | Type    | Description                                                              |
+|------------|---------|--------------------------------------------------------------------------|
+| `token`    | address | The address of the wrapped deposit token on Ethereum (wsETH).            |
+| `gateway`  | address | The address of the Arbitrum Gateway Router.                              |
+| `receiver` | address | The address where tokens are received on Arbitrum (`L2TokenReceiverV2`). |
 
 ### RewardTokenConfig
 

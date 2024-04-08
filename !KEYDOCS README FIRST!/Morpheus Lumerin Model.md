@@ -4,7 +4,7 @@
 
 ## Summary
 
-The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and Lake Travis System.
+The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC25.md).
 
 The following proposal will explain the key design principles that have been incorporated as well as outline each part of the on-chain ecosystem model, client-side node, and underlying protocol.
 
@@ -40,9 +40,6 @@ Ensuring that the prompt and inference data stream seamlessly between the user a
 
 For providers, protecting their IP address or URL endpoint is paramount to maintaining the integrity and security of the Morpheus network. Utilizing proxies, load balancers, VPNs, or other obfuscation methods helps shield their digital footprint, making it significantly more challenging for malicious actors to target or exploit the system. Similarly, ensuring user nodes are only visible to providers during active sessions enhances privacy and security for all users. This layer of anonymity is crucial; it prevents potential attackers from easily mapping the network or identifying vulnerable points for attacks. Together, these strategies form a robust defense mechanism, bolstering the network's resilience against cyber threats and preserving the confidentiality and integrity of the data flowing through it.
 
-
-
-
 ## Ecosystem Model
 
 The Morpheus ecosystem will consist of several on-chain and off-chain systems. On-chain systems can be divided into two categories: capital systems and compute systems. Capital systems are deployed on blockchains for the purpose of locking up capital in exchange for minted MOR tokens while compute systems are deployed on blockchains for the purposes of creating an AI model and agent market.
@@ -53,7 +50,7 @@ The Morpheus ecosystem will consist of several on-chain and off-chain systems. O
 ### Layer 1 Contracts
 
 #### **Ecosystem Registry**
-The ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
+The ecosystem registry is a reference list of all official Morpheus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
 ##### Variables
 
@@ -106,7 +103,7 @@ Pool 1 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the code tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
-User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
+User accrued MOR is available to claim after May 8th, 2024 at midnight GMT.
 
 3. Community Tranche (Pool 2) \
  \
@@ -114,7 +111,7 @@ Pool 2 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the community tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
 Users accrue MOR daily in ratio to their weights against total attributed weight. \
-User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
+User accrued MOR is available to claim after May 8th, 2024 at midnight GMT.
 
 
 4. Compute Tranche (Pool 3) \
@@ -122,7 +119,7 @@ User accrued MOR is available to claim after May 8th, 2024 at midnight GMT. \
 Pool 3 started February 8th, 2024 at midnight GMT.  \
 It mints 3,456 MOR every 24 hours to the compute tranche. \
 Minting amount decreases by [0.59255872824](https://etherscan.io/unitconverter?wei=592558728240000000) MOR every 24 hours. \
-Providers can claim up to 1% of the compute tranche every 24 hours starting after May 8th, 2024 at midnight GMT. \
+Providers can claim up to 1% of the compute tranche every 24 hours starting after May 8th, 2024 at midnight GMT.
 
 
 5. Protection Tranche (Pool 4) \
@@ -148,7 +145,7 @@ The layer 1 sender contract facilitates the bridging of tokens and messages to t
 ### Layer 2 Contracts
 
 #### **Ecosystem Registry**
-Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official Morpherus contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
+Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official us contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
 #### **Layer 2 Minter**
 The layer 2 minter contract owns the Morpheus Token (MOR) contract and is responsible for receiving messages from the layer 1 sender contract and executing the minting of MOR based on those messages.
@@ -159,25 +156,25 @@ The layer 2 minter contract owns the Morpheus Token (MOR) contract and is respon
 [https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
 
 #### **Morpheus Token (MOR)**
-The MOR contract is a standard ERC20 token contract deployed on Arbitrum.
+The MOROFT contract is a cross-chain ERC20 token.
 
-<i>"MOR.sol, the Morpheus token, is an OpenZeppelin ERC20 implementation that extends the ERC20Capped and ERC20Burnable extensions.
+<i>"MOROFT.sol, the Morpheus token, is a [LayerZero Omnichain Fungible Token](https://docs.layerzero.network/v2/developers/evm/oft/quickstart) (OFT). This allows the token to be transferred across [supported networks](https://docs.layerzero.network/v2/developers/evm/technical-reference/endpoints) such as Ethereum, Arbitrum, BNB Chain, and others without the need for wrapping. 
 
-New tokens can only be minted by the contract owner – [L2MessageReceiver](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md) – up to the immutable cap of 42,000,000 tokens."</i><sup>4</sup>
+Tokens can only be minted by the immutable `minter_` – [`L2MessageReceiver`](L2MessageReceiver.md) – when claimed by users."</i><sup>4</sup>
 
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOR.sol) \
-[https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3](https://arbiscan.io/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol)
 
 #### **Layer 2 Capital**
 
 The layer 2 capital contract is the receiver of the capital yield earned by tokens locked in the distribution contract and sent by the layer 1 sender contract.
 
-<i>"L2TokenReceiver.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
+<i>"L2TokenReceiverV2.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from[L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
 
-All functions on L2TokenReceiver can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
+The contract supports swapping tokens with the swap method through Uniswap V3 for either of two token pairs specified in firstSwapParams and secondSwapParams. The former is used to swap bridged wstETH yield for WETH. The latter is used to swap half of the resulting WETH for MOR. In turn, additional liquidity for the MOR/WETH pair is provisioned using the increaseLiquidityCurrentRange method.
 
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiver.sol) \
-[https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
+All functions on L2TokenReceiverV2 can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
+
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol)
 
 #### **Provider Registry**
 
@@ -391,7 +388,7 @@ The default Morpheus UI is a client-side application built using Electron, Node.
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Lumerin%20Model/figure3.png">
 <i>Figure 3. Proposed wallet UI mockup</i>
 
-The Morpherus node API bus exposes a consumable API that any permissioned UI can access. The node may even be run as a daemon service on a central web server to provide Morpheus network access to web and mobile apps.
+The Morpheus node API bus exposes a consumable API that any permissioned UI can access. The node may even be run as a daemon service on a central web server to provide Morpheus network access to web and mobile apps.
 
 #### Proxy Router
 
@@ -617,7 +614,7 @@ When a User node first establishes a tcp/ip socket connection with a provider no
 
 ## Conclusion
 
-The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics.<br><br>The on-chain architecture can initially be deployed on any EVM chain. Eventually the solidity code will be ported into other ecosystems for greater reach.
+The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for maximum scalability and decentralization. Key attack vectors are mitigated using a combination of staking and reputation mechanics.<br><br>The on-chain architecture can initially be deployed on any EVM chain. Eventually the Solidity code will be ported into other ecosystems for greater reach.
 
 #### References
 
@@ -627,8 +624,8 @@ The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for 
 
 3. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md)
 
-4. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOR.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOR.md)
+4. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md)
 
-5. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiver.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiver.md)
+5. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md)
 
 6. [https://platform.openai.com/docs/api-reference/introduction](https://platform.openai.com/docs/api-reference/introduction)
