@@ -103,3 +103,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0Ba7a85Af6323686a1fE29423bd72c2ce81Fe923 | @TigerBuidl | 7 | Building FAQ for Morpheus Community and Work at South by Southwest Conference |
 | 0xeB25C57E67BDe01f58ca5056e8A3aE16B2bDB8B7 | @AdonalsiumWilRememberOurPlightEventualy | 1 | Work at South by South-West |
 | 0xbFC8a0D042c5702c7c075352E9bcA7C14a871448 | Mor.Software | 5 | Repo 8 - Codes, Proofs, Dashboards
+| 0x765168b4eE61Eaf6681402439f96A7eB085dE496 | https://github.com/MorpheusAIs/Lite-Client/tree/main, https://github.com/MorpheusAIs/Lite-Client/tree/0.0.6-provisional-darwin-arm-build, https://github.com/MorpheusAIs/Lite-Client/blob/main/.github/workflows/build.yml, lite-client admin | 85 | in service of weights associated with MRI Number 3. Morpheus Local Install Desktop / Mobile |
+| 0x765168b4eE61Eaf6681402439f96A7eB085dE496 | https://mor.software, d-git, MRC 00, MRC 14, MRC 21  | 90 | in service of weights associated with MRI Number 8. Code Proofs & Dashboards |
