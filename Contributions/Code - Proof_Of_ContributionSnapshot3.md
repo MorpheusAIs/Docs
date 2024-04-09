@@ -116,5 +116,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x2342A84Cbb0b5bD5069c3cCaD3347E416167D217 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md | 45 | Implementation 4; TCM Expansion, Onboarding of Projects 
 | 0x07cCa7340Fc8b6BcE4af6BCA4eae0fA303bf8ab1 | https://github.com/MorpheusAIs/SmartContracts/commit/753accd340ee5cbfe688085899eeb807472cdfe4 | 8 | Implementation 5: Audit of wstETH to wETH on Arbitrum
 | 0xDA7F54D1aA0d8C24ea3950cf5027F436FD7aA622 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md | 10 | Implemtations 8: SXSW Event Planning Participtation
+| 0x6b11a53f72503CfE069818c96f2173506E89B2d0 | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data |	5 |	Made the morpheus general dashboard
+| 0x0435E96350b139A64A67A74c88812F7aA6e1A57f | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data | 5	| developing the dashboard 1/2 devs.
 | 0x360067fD0F205b6631BA2489DdF75f8753D04CbB | https://github.com/MorpheusAIs/MRC/pull/26/files) | 10 | Detailed feedback and updates on MRC00 to make it more community friendly and efficient|
-| 0x2546627Aa3cc7Df675F1ac0D6B49867f641B8602 | mor.software, https://github.com/MorpheusAIs/Lite-Client | 2 | site and install preliminary security review
+| 0x2546627Aa3cc7Df675F1ac0D6B49867f641B8602 | mor.software, https://github.com/MorpheusAIs/Lite-Client | 2 | site and install preliminary security review |
