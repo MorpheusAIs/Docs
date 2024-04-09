@@ -3,13 +3,13 @@
 This table is historical for Snapshot 1.  
 Please direct all new pull requests to the latest Snapshot document in the folder.
 
-**Before adding a pull request to this table please read [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+> [!IMPORTANT]  
+> **Before adding a pull request to this table please read [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 &
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**.
 
 ## Snapshot Timelines and Implied Value of a Weight
-**Snapshot 1.**  
-September 2nd 2023 to February 8th 2024  
+**Snapshot 1.** September 2nd 2023 to February 8th 2024   
 Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
 
 ## Structuring your Code Contributions
