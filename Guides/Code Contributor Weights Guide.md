@@ -39,6 +39,8 @@ February 8th to March 8th only about 2,000 weights were issued (half the 4,000+ 
 
 This is the same logic as how Bitcoin mining works. The 4 year havling has reduced the BTC block reward to miners from 50 BTC per block, to 25 BTC, to 12.5 BTC and is currently 6.125 BTC. However despite this Bitcoin miner revenues have increase from Millions of USD worth to Billion of USD worth in the past 15 years, because of course the per Bitcoin price has increased from nothing, to $10 to $1,000 to tens of thousands of USD per BTC over that period.
 
+The proposed schedule is 1 year halving for Morpheus coding weights which fits the 16 year MOR supply curve schedule. If the implied value of weights increases by 2X each year the Code rewards will stay the same. If the implied value increases more than 2X, then Code rewards increase (as has happened so far). If the implied value of Coding weights grows less than 2X or declines then yes, there would be less Coding rewards.
+
 ## Calculating The Implied Value of Weights
 **Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
@@ -104,6 +106,3 @@ Currently secondary markets for MOR are trading at between $100 to 200 USD per M
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
 See the Morstats.info website page where you can run these estimates dynamically. https://morstats.info/code-weights/
-
-The proposed schedule is 1 year halving for Morpheus coding weights which fits the 16 year MOR supply curve schedule. If the implied value of weights increases by 2X each year the Code rewards will stay the same. If the implied value increases more than 2X, then Code rewards increase (as has happened so far). If the implied value of Coding weights grows less than 2X or declines then yes, there would be less Coding rewards.
-
