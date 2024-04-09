@@ -1,4 +1,5 @@
-## Code Provider - Proof of Contribution Table Snapshot 1. September 2nd 2023 to February 8th 2024.
+## Code Provider - Proof of Contribution Table Snapshot 1
+### September 2nd 2023 to February 8th 2024
 
 This table is historical for Snapshot 1.  
 Please direct all new pull requests to the latest Snapshot document in the folder.
