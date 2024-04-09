@@ -1,7 +1,7 @@
 ## Code Provider - Proof of Contribution Table
 
-This table is historical for snapshot 1 and 2.
-Please direct all new pull requests to the current [snapshot 3 file](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md).
+This table is historical for Snapshot 2.  
+Please direct all new pull requests to the latest Snapshot document in the folder.
 
 **Before adding a pull request to this table please read [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 &
@@ -14,9 +14,7 @@ Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 
 **Snapshot 2.**  
 February 8th to March 8th 2024  
 Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).  
-**Snapshot 3.**  
-March 8th to April 8th 2024  
-Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR). 
+
 
 ## Structuring your Code Contributions
 
