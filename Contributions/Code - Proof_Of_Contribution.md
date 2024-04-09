@@ -10,13 +10,13 @@ Please direct all new pull requests to the current [snapshot 3 file](https://git
 ## Snapshot Timelines and Implied Value of a Weight
 **Snapshot 1.**  
 September 2nd 2023 to February 8th 2024  
-Theoretical Implied Value of a Weight = $50 USD per Weight (price is unknown 1MOR = 1MOR).   
+Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
 **Snapshot 2.**  
 February 8th to March 8th 2024  
-Theoretical Implied Value of a Weight = $400 USD per Weight (price is unknown 1MOR = 1MOR).  
+Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).  
 **Snapshot 3.**  
 March 8th to April 8th 2024  
-Theoretical Implied Value of a Weight = $641 USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR). 
 
 ## Structuring your Code Contributions
 
