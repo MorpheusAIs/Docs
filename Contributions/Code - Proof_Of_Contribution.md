@@ -193,7 +193,6 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0xCC5e733cB2E7a59EFC5463575EfC3584D5922486 | https://github.com/MorpheusAIs/Morpheus/tree/0.0.5, https://github.com/MorpheusAIs/Morpheus/blob/006-alpha-fix-2/Contributions/Code%20-%20Proof_Of_Contribution.md | 860 | 0.0.5 build, test, package, sign, publish, diagramming, instructions, 0.0.6-alpha-fix-2 |
 | 0x1461F599ecCeC516cf4704253Ab26dF69003439E | https://github.com/MorpheusAIs/Morpheus/pull/321 @Bullfuencer| 25 | White paper translated to Italian including pictures.
 | 0x80CdcF57f42C6BfB429b245d798ee46b9F71Edea | https://github.com/MorpheusAIs/Morpheus/pull/517 | 70 | First Smart Agent |
-| 0x80CdcF57f42C6BfB429b245d798ee46b9F71Edea | https://github.com/MorpheusAIs/Morpheus/pull/517 | 70 | First Smart Agent |
 | 0xFa126C09DB44851BFa6bD9D70016f499fdc5586D | [https://github.com/MorpheusAIs/Morpheus/pull/522](https://github.com/MorpheusAIs/Morpheus/pull/522) | 8 | UI style adjustments |
 | 0xbac0086453F04Abc25539A1d5D90f797419F9842 | https://github.com/MorpheusAIs/Morpheus/pull/486 | 120 | Fixing the local morpheus client, ollama spawning, asar packaging, Electron CSP |
 | 0xC16C04dE65E2EBA60B78294E23953f5EB17F9202 | [https://github.com/MorpheusAIs/tree/rag-feature-branch](https://github.com/MorpheusAIs/Morpheus/tree/rag-feature-branch)https://github.com/MorpheusAIs/Morpheus/tree/rag-feature-branch | 80  | LLamaIndex, Langchain and JSON RPC APIs |
