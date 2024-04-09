@@ -1,9 +1,8 @@
-## Code Provider - Proof of Contribution Table Snapshot 3 March 8th to April 8th 2024
+## Code Provider - Proof of Contribution Table Snapshot 3 
+### March 8th to April 8th 2024
 
 This table is for code contributions in Snapshot 3.  
-Please direct all new pull requests to the latest Snapshot document in the folder.
-See [snapshot 1 & 2 code contribution details](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md#code-contributions-for-snapshot-1-and-snapshot-2).
-
+Please direct all new pull requests to the latest Snapshot document in the [folder](https://github.com/MorpheusAIs/Docs/edit/main/Code%20Contributions).
 
 > [!IMPORTANT]  
 > **Before adding a pull request to this table please read [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
