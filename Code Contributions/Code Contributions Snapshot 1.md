@@ -1,6 +1,6 @@
 ## Code Provider - Proof of Contribution Table
 
-This table is historical for Snapshot 1.
+This table is historical for Snapshot 1.  
 Please direct all new pull requests to the latest Snapshot document in the folder.
 
 **Before adding a pull request to this table please read [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
