@@ -10,20 +10,21 @@ This table is for code contributions in Snapshot 4.
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**.
 
 ## Snapshot Timelines and Implied Value of a Weight
-**Snapshot 1.**  
-September 2nd 2023 to February 8th 2024  
+**Snapshot 1.** September 2nd 2023 to February 8th 2024  
 Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
-**Snapshot 2.**  
-February 8th to March 8th 2024  
-Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).  
-**Snapshot 3.**  
-March 8th to April 8th 2024  
-Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR).
-**Snapshot 4.** April 8th 2024 to May 8th 2024 
-Theoretical Implied Value of a Weight = $*.** USD per Weight (price is unknown 1MOR = 1MOR).
 
-**NOTE: Weights were rebased by 2,000 X at snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract.**
-https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md
+**Snapshot 2.** February 8th to March 8th 2024  
+Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).
+  
+**Snapshot 3.** March 8th to April 8th 2024  
+Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR).  
+
+**Snapshot 4.** 
+April 8th 2024 to May 8th 2024  
+Theoretical Implied Value of a Weight = $*.** USD per Weight (price is unknown 1MOR = 1MOR). 
+
+> [!NOTE]
+> **Weights were rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md)**
 
 ## Structuring your Code Contributions
 
