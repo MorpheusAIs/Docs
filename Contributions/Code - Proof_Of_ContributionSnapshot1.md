@@ -13,6 +13,9 @@ Please direct all new pull requests to the latest Snapshot document in the folde
 **Snapshot 1.** September 2nd 2023 to February 8th 2024   
 Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
 
+> [!NOTE]
+> **Weights are being rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md)**
+
 ## Structuring your Code Contributions
 
 All Code Contributions should include the following five elements:
