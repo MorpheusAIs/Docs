@@ -23,7 +23,7 @@ Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1
 
 **Snapshot 4.** 
 April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $*.** USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR). 
 
 > [!NOTE]
 > **Weights were rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md)**
@@ -39,10 +39,26 @@ All Code Contributions should include the following five elements:
 
 Example fields below:  
 
-`|               Wallet Address               |     Link to Work    | Weights Requested (weights) | Description of Contribution |`  
-`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Commit #127 | 50                          | Integration of ollama       |`
+`|               Wallet Address             |  MRI   |   Link to Work    | Weights Requested (weights) | Description of Contribution |`  
+`| 0x98eFf980C57c9D333340b36481bF7B8698987c | MRI #3 | Link to Commit #127 | 50                        | Integration of ollama       |`
 
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
+
+> [!IMPORTANT]  
+> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. [Link](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md) to the MRI list.
+
+- MRI Number 1. [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
+- MRI Number 2. [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/SmartAgents)
+- MRI Number 3. [Morpheus Local Install Desktop / Mobile](https://github.com/MorpheusAIs/Morpheus)
+- MRI Number 4. [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+- MRI Number 5. [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
+- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/In%20Progress/MRC15.md)
+- MRI Number 7. [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+- MRI Number 8. [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
+- MRI Number 9. [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
+- MRI Number 10. [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
+
+
 
 > [!NOTE]
 > - Create a pull request and add a row to the following table.
@@ -54,6 +70,6 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 ## Code Contributions for Snapshot 4
 
-| Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
-| -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
+| -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  |  |  |  |
