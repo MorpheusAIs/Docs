@@ -10,7 +10,7 @@
 - MRI Number 5. [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
 
 ## List of New Morpheus Reference Implementations
-- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/In%20Progress/MRC15.md)
+- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC15.md)
 - MRI Number 7. [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 - MRI Number 8. [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 - MRI Number 9. [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
