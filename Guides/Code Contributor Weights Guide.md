@@ -27,7 +27,7 @@ The number of Coder weights that will be capped at 100 Million weights, at the e
 - **Total	100,000,000**
 
 These weights will be divided into even monthly amounts. 
-So for example in Year 2 with 25,000,000 weights available divided by 12 months, the amount of weights available per month will be 2,083,333.
+So for example in Year 2 with 25,000,000 weights available divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333.
 
 **Max weights that can be issued by end of year 16: 100,000,000 weights**
 Again, this represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
