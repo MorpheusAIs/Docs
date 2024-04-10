@@ -30,7 +30,8 @@ The number of Coder weights that will be capped at 100 Million weights, at the e
 Again, this represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
 
 ## Monthly Weights Schedule
-These weights will be divided into even monthly amounts starting in Year 2. For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
+- These weights will be divided into even monthly amounts starting in Year 2 (September 2nd 2024). 
+- For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
 
 ## Bitcoin Halving Schedule As The Basis For This Code Weight Halving Model
 Rewards in real terms have grown, even as weights decline over time.
