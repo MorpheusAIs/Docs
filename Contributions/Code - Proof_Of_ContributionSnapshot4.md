@@ -45,14 +45,14 @@ Example fields below:
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
 > [!IMPORTANT]  
-> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. [Link](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md) to the MRI list.
+> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. 
 
 - MRI Number 1. [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
 - MRI Number 2. [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/SmartAgents)
 - MRI Number 3. [Morpheus Local Install Desktop / Mobile](https://github.com/MorpheusAIs/Morpheus)
 - MRI Number 4. [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
 - MRI Number 5. [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
-- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/In%20Progress/MRC15.md)
+- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC15.md)
 - MRI Number 7. [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 - MRI Number 8. [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 - MRI Number 9. [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
