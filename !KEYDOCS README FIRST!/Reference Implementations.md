@@ -14,4 +14,4 @@
 - MRI Number 7. [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 - MRI Number 8. [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
 - MRI Number 9. [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
-- MRI Number 10. [Interoperability](hhttps://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
+- MRI Number 10. [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
