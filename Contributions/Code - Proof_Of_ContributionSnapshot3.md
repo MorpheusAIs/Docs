@@ -1,4 +1,5 @@
-## Code Provider - Proof of Contribution Table Snapshot 3 March 8th to April 8th 2024
+## Code Provider - Proof of Contribution Table Snapshot 3 
+### March 8th to April 8th 2024
 
 This table is for code contributions in Snapshot 3.  
 Please direct all new pull requests to the latest Snapshot document in the folder.
