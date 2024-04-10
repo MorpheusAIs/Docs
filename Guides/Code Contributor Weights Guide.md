@@ -26,6 +26,7 @@ The number of Coder weights that will be capped at 100 Million weights, at the e
 - Year 16 /	1,525
 - **Total	100,000,000**
 
+## Monthly Weights Schedule
 These weights will be divided into even monthly amounts starting in Year 2. For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
 
 - **Max weights that can be issued by end of year 16: 100,000,000 weights**
