@@ -103,13 +103,17 @@ This is calculated by taking the number of MOR earned by all Coders the first ye
 In theory this results in, $6.89 USD per MOR that equals $400 in USD terms.
 
 ## March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $1.26 USD per Weight
-**Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
+> [!NOTE]
+> **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
+
 The current implied price can be estimated based the implied value set in the secondary market for MOR tokens.
 Currently secondary markets for MOR are trading at between $100 to 200 USD per MOR. By multiplying the number of MOR per day ~ 3,456 (for Coding Rewards) by 365, and then multiply that by the $100 USD price per MOR, we get the total Coder rewards for 1 year and divide by 100,000,000 we get the per weight implied theoretical price of $1.26 USD per weight.
 
 **All told this implies a current value of each weight at $1.26 USD.**
-**Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
+> [!NOTE]
+> **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
-See the Morstats.info website page where you can run these estimates dynamically. https://morstats.info/code-weights/
+See the Morstats.info website page where you can run these estimates dynamically.  
+https://morstats.info/code-weights/
