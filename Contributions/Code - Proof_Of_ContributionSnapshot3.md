@@ -140,3 +140,10 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x0435E96350b139A64A67A74c88812F7aA6e1A57f | https://morpheus-data.vercel.app/, https://github.com/Nitradoo/morpheus-data | 5	| developing the dashboard 1/2 devs.
 | 0x360067fD0F205b6631BA2489DdF75f8753D04CbB | https://github.com/MorpheusAIs/MRC/pull/26/files) | 10 | Detailed feedback and updates on MRC00 to make it more community friendly and efficient|
 | 0x2546627Aa3cc7Df675F1ac0D6B49867f641B8602 | mor.software, https://github.com/MorpheusAIs/Lite-Client | 2 | site and install preliminary security review |
+
+**Snapshot 3 contributions are added to the contract with this [transaction](https://etherscan.io/tx/0x138e7f14bba6b5bc6fb31e8d39e35d8769e468570552a945c3e2a94b0d92154f)**
+
+
+> [!IMPORTANT]  
+> ### This table is closed for adding entries. Contributions added here won't be rewarded.
+
