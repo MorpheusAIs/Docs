@@ -1,5 +1,8 @@
 ## Code Provider - Proof of Contribution Table
 
+> [!IMPORTANT]  
+> ### This table is closed for adding entries. Contributions added here won't be rewarded.
+
 This table is historical for snapshot 1 and 2.
 Please direct all new pull requests to the current [snapshot 3 file](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md).
 
@@ -11,9 +14,11 @@ Please direct all new pull requests to the current [snapshot 3 file](https://git
 **Snapshot 1.**  
 September 2nd 2023 to February 8th 2024  
 Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
+
 **Snapshot 2.**  
 February 8th to March 8th 2024  
 Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).  
+
 **Snapshot 3.**  
 March 8th to April 8th 2024  
 Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR). 
@@ -268,6 +273,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x1A9D00590E6e781A450F03A8BbEca052909C2f5A | https://discord.com/channels/1151741790408429580/1200174062547247187/1205522663020306543 | 58 | Implementation 6; Morpheus Lens Profile Contribution to the Project 
 
 
-
+> [!IMPORTANT]  
+> ### This table is closed for adding entries. Contributions added here won't be rewarded.
 
 
