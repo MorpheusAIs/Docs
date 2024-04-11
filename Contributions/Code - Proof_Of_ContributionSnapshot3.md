@@ -23,7 +23,7 @@ Theoretical Implied Value of a Weight = $0.20 USD per Weight (price is unknown 1
 Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR).
 
 > [!NOTE]
-> **Weights are being rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md)**
+> **Weights are being rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
 
 
 ## Structuring your Code Contributions
