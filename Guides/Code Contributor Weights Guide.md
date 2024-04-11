@@ -60,7 +60,7 @@ $1.26 USD implied value of MOR earned by 1 weight over 12 months via MOR emissio
 This is calculation is in some ways conservative. The MOR rewards keep going for 16 years. But this implied value discounts future emissions and also makes the base assumption the Contribution is maintained for at least 1 year. If a weight is maintained for longer of course the holder would gain additional MOR beyond this estimate or if the weight is not maintained for at least 1 year the holder would gain less MOR than this estimate. And of course the future MOR price is unknown and so the holder takes the risk it could be $0. 
 
 **So keep this in mind if you are bidding on Code work. 
-If you are asking for 100 weights, you are saying the Code is in theory worth $124,100 USD worth of MOR.**
+If you are asking for 1,000 weights, you are saying the Code is in theory worth $1,260 USD worth of MOR.**
 
 ## New Coding Weights
 **Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
