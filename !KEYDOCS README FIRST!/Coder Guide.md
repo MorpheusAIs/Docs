@@ -42,6 +42,6 @@ https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Referen
 ## Code Contributor Table To Include In Pull Requests
 Include an update to the Code Contributor table on GitHub with your Code Contributions with your weights request.
 
-https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md
+https://github.com/MorpheusAIs/Docs/tree/main/Contributions
 
-If a developer is looking for committees, and RFPs they are looking at the wrong project. The nature of Morpheus is [Atomic Governance](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md#atomic-governance). That means experts build what they want and GitHub maintainers act as judges to merge if its in the platform or users decide to use the Smart Agent in an open marketplace. Coders here compete. No guarantees anyone will use the Code until its released.
+If a developer is looking for committees, and RFPs they are looking at the wrong project. The nature of Morpheus is [Atomic Governance](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md#atomic-governance). That means experts build what they want and GitHub maintainers act as judges to merge if its in the platform or users decide to use the Smart Agent in an open marketplace. Coders here compete. No guarantees anyone will use the Code until its released.
