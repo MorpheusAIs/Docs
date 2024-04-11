@@ -48,15 +48,16 @@ The proposed schedule is 1 year halving for Morpheus coding weights which fits t
 **Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
-Weights in theory have an implied value due to the fact that they translate into MOR token emissions.
-3,456 MOR every day (starting on Day 1) are rewarded across all the coders.
-So a coder who has 200 weights out of the current 20,000 weights (200 / 20,000 = 1%) would receive 1% of MOR emitted to Coders each day.
-In other words, they would be earning 34.56 MOR per day or 12,410 MOR over a year (a little less given the decay rate).
+**Implied weight value formula is:**
+- One. Total MOR emissions for Coding per day (started at 3,456).
+- Two. Divide by 100,000,000 (total weights) 
+- Three. Equals pro-rata of MOR earned by 1 weight per day = 0.00003456 MOR per day.
+- Four. Times 365 days for 12 months of MOR emissions for that weight = 0.0126 MOR per year
+- Five. Times the current implied MOR price (for example $100 USD on secondary markets) = $1.26 per weight.
 
-To calculate this into ETH or USD terms is harder, but as an example we know there will be 5,091,984 MOR at day 365.
-If the total Morpheus market cap is $100,000,000 USD, that would imply a per MOR price of ~$20 USD.
-Our example developer who earned 12,410 MOR over the course of the 1st year will have earned $248,200 USD worth of MOR.
-In other words, each weight in this example had an implied value in theory of 248,200 divided by 200 equalling $1,241 per weight over the period of 1 year.
+$1.26 USD implied value of MOR earned by 1 weight over 12 months via MOR emissions.
+
+This is calculation is in some ways conservative. The MOR rewards keep going for 16 years. But this implied value discounts future emissions and also makes the base assumption the Contribution is maintained for at least 1 year. If a weight is maintained for longer of course the holder would gain additional MOR beyond this estimate or if the weight is not maintained for at least 1 year the holder would gain less MOR than this estimate. And of course the future MOR price is unknown and so the holder takes the risk it could be $0. 
 
 **So keep this in mind if you are bidding on Code work. 
 If you are asking for 100 weights, you are saying the Code is in theory worth $124,100 USD worth of MOR.**
