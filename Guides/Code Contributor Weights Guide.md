@@ -55,7 +55,7 @@ No one knows how much MOR will be worth in ETH or USD or any other currency. 1 M
 - Four. Times 365 days for 12 months of MOR emissions for that weight = 0.0126 MOR per year
 - Five. Times the current implied MOR price (for example $100 USD on secondary markets) = $1.26 per weight.
 
-$1.26 USD implied value of MOR earned by 1 weight over 12 months via MOR emissions.
+So in this example: $1.26 USD implied value of MOR earned by 1 weight over 12 months via MOR emissions. This calculation is applied across the average of the data points for the month. When MOR has a free floating market price on May 8th 2024 and beyond then that MOR price can be used to inform the MOR token price part of the formula.
 
 This is calculation is in some ways conservative. The MOR rewards keep going for 16 years. But this implied value discounts future emissions and also makes the base assumption the Contribution is maintained for at least 1 year. If a weight is maintained for longer of course the holder would gain additional MOR beyond this estimate or if the weight is not maintained for at least 1 year the holder would gain less MOR than this estimate. And of course the future MOR price is unknown and so the holder takes the risk it could be $0. 
 
