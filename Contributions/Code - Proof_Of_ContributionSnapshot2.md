@@ -116,7 +116,10 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x3476ee81BA812D56b571bCc2e6122De698084E15 | https://github.com/MorpheusAIs/Docs/pull/19 , https://github.com/MorpheusAIs/Docs/pull/22 , https://github.com/MorpheusAIs/MRC , https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Price%20Discovery.md , https://docs.google.com/document/d/1uMvRT_WA1KqJAkoHbs7fxDkMtYrcdprXrbOmssEXtGg/edit , MorStats.info| 52 | Updated MorStats.info with stETH withdrawals, yield, resources, and price analytics. Proofread, collaborated, and contributed to the following documents: Fair Price Discovery, Fair Launch Process, Waterloo Community Model, Code Contributor Weights Guide|
 | 0x8d7D04B3679074ff3FBE64f92b24aDB31a602b35 | https://mor.software, https://github.com/MorpheusAIs/Morpheus/issues/106, https://github.com/MorpheusAIs/Morpheus/issues/633, https://github.com/MorpheusAIs/Morpheus/pull/606, https://github.com/MorpheusAIs/Morpheus/pull/576, https://github.com/MorpheusAIs/Morpheus/pull/618, https://github.com/MorpheusAIs/Morpheus/pull/527  | 163 | mor.software MVP, issues and pull requests, onbarding |
 
+**Snapshot 2 contributions are added to the contract with [transaction1](https://etherscan.io/tx/0x28b11f5e3d05daba8c7c4fd2bc1fdad35f46294b876553dc595490a856c7a794) and [transaction2](https://etherscan.io/tx/0x5c554afc10497b17b434860103650415b826c2c4ff572c156c24b3fa7bb9e8ec)**
 
-https://etherscan.io/tx/0x28b11f5e3d05daba8c7c4fd2bc1fdad35f46294b876553dc595490a856c7a794
-https://etherscan.io/tx/0x5c554afc10497b17b434860103650415b826c2c4ff572c156c24b3fa7bb9e8ec
+
+> [!IMPORTANT]  
+> ### This table is closed for adding entries. Contributions added here won't be rewarded.
+
 
