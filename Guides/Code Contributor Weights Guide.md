@@ -1,11 +1,11 @@
 # Code Contributor Guide To Earning Weights & Their Implied Value
 
-## Tl;dr
+## TL;DR
 The emissions for Code Contributors are calculated based on "weights". An individual's allocation is equal to the individual's weights divided up by the total number of weights times the daily MOR emissions. Morpheus is a marketplace for Code. Thus, Coders are competing to provide high quality code at the best price, and then maintain that code and their weight in the Code Contributors' rewards.
 
 ## Weights Emissions Schedule & Supply Cap
-The weights earned by Coders are only valuable if they are scarce. 
-The number of Coder weights that will be capped at 100 Million weights, at the end of the Coder reward period (16 years).
+The weights earned by Coders are only valuable if they are scarce.  
+The number of Coder weights is capped at 100 Million weights, at the end of the Coder reward period (16 years).
 
 ## Yearly Coding Weights
 - Year 1 / 50,000,000
@@ -26,11 +26,11 @@ The number of Coder weights that will be capped at 100 Million weights, at the e
 - Year 16 /	1,525
 - **Total	100,000,000**
 
-- This represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 Morpheus Reference Implementations should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
+This represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 [Morpheus Reference Implementations](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md) should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
 
 ## Monthly Weights Schedule
-- These weights will be divided into even monthly amounts starting in Year 2 (September 2nd 2024). 
-- For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
+These weights will be divided into even monthly amounts starting in Year 2 (September 2nd 2024).  
+For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
 
 ## Bitcoin Halving Schedule As The Basis For This Code Weight Halving Model
 Rewards in real terms have grown, even as weights decline over time.
@@ -45,7 +45,8 @@ This is the same logic as how Bitcoin mining works. The 4 year havling has reduc
 The proposed schedule is 1 year halving for Morpheus coding weights which fits the 16 year MOR supply curve schedule. If the implied value of weights increases by 2X each year the Code rewards will stay the same. If the implied value increases more than 2X, then Code rewards increase (as has happened so far). If the implied value of Coding weights grows less than 2X or declines then yes, there would be less Coding rewards.
 
 ## Calculating The Implied Value of Weights
-**Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
+> [!NOTE]
+> **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
 **Implied weight value formula is:**
@@ -63,8 +64,10 @@ This is calculation is in some ways conservative. The MOR rewards keep going for
 If you are asking for 1,000 weights, you are saying the Code is in theory worth $1,260 USD worth of MOR.**
 
 ## New Coding Weights
-**Note the following is all theory, presented as an example for how one could arrive at their own estimate. 
+> [!NOTE]
+> **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
+
 The Morpheus code is constantly growing and changing and so let's calculate an example of a new coder who contributes their code.
 
 Lets take for example the coding work being done on the Compute Proofs for the network.  
