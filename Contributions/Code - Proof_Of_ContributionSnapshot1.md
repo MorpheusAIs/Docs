@@ -187,7 +187,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0xbdDE00C6545B0C2d658961441d0Fe83d894841a7 | https://github.com/MorpheusAIs/Morpheus/tree/betterbrand-patch-4, https://github.com/MorpheusAIs/Morpheus/tree/betterbrand-patch-5, https://github.com/MorpheusAIs/Morpheus/tree/DavidAJohnston-patch-9, https://github.com/MorpheusAIs/Morpheus/tree/DavidAJohnston-patch-8, https://github.com/MorpheusAIs/Morpheus/tree/DavidAJohnston-patch-79 | 398 | ollama instructions, white paper, yellow paper, yellowstone weights and measures |
 | 0x2440C6B5dBE0093E71c8563D399521d056460985 | https://github.com/MorpheusAIs/Morpheus/tree/0.0.4 | 380 | 0.0.4 build, test, package, sign, publish, diagramming, schematic drawings |
 
-**Snapshot 1 contributions are added to the contract with [transaction](https://etherscan.io/tx/0x3865d63f1f4aa46c7c45dccd3ada0f3a81eff5fe66e757ac0fef074269497cab)**
+**Snapshot 1 contributions are added to the contract with this [transaction](https://etherscan.io/tx/0x3865d63f1f4aa46c7c45dccd3ada0f3a81eff5fe66e757ac0fef074269497cab)**
 
 
 > [!IMPORTANT]  
