@@ -66,7 +66,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 - **MRI Number 9:** [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
   - **Maintainer's GitHub Handle:** [ErikVoorhees](https://github.com/ErikVoorhees)
 - **MRI Number 10:** [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
-  - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer)
+  - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer) / [DavidAJohnston](https://github.com/DavidAJohnston)
 
 
 
