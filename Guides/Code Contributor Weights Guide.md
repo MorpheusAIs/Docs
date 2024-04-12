@@ -33,12 +33,12 @@ These weights will be divided into even monthly amounts starting in Year 2 (Sept
 For example with 25,000,000 weights available the 2nd year, divided by 12 months, the amount of weights available months 13 to 24 will be 2,083,333 each month.
 
 ## Bitcoin Halving Schedule As The Basis For This Code Weight Halving Model
-Rewards in real terms have grown, even as weights decline over time.
-Lets run through the numbers below as an example.
+Rewards in real terms have grown, even as weights decline over time.  
+Lets run through the numbers below as an example.  
 
-From September 2nd 2023 to February 8th 2024, developers contributed to the Morpheus open source with very little knowledge of what the implied value of weights or MOR would be (if not zero). $50 USD per weight was a rule of thumb just based on what the average developer cost per hour is globally. So say ~ 21,500 weights were earned during this 5 month and 6 day period (5.2 months). That's 4,134 weights per month times $50 implies a value equal to $206,730 USD worth per month total (spread over dozens of Code Contributors).
+From September 2nd 2023 to February 8th 2024, developers contributed to the Morpheus open source with very little knowledge of what the implied value of weights or MOR would be (if not zero). 2000 weights $0.025 each ($50) was a rule of thumb just based on what the average developer cost per hour is globally. So say ~ 43,000,000 weights were earned during this 5 month and 6 day period (5.2 months). That's 8,269,230 weights per month times $0.025 implies a value equal to $206,730 USD worth per month total (spread over dozens of Code Contributors).
 
-February 8th to March 8th only about 2,000 weights were issued (half the 4,000+ weights of previous months) however the implied value of a weight increased to $400 USD each in snapshot #2. So the implied value of the weights actually increased 400% in real terms to $800,000 USD of implied value that month, instead of the $200,000 USD of previous months.
+February 8th to March 8th only about 4,000,000 weights were issued (half the 8,000,000+ weights of previous months) however the implied value of a weight increased to $0.2 each in snapshot #2. So the implied value of the weights actually increased 400% in real terms to $800,000 USD of implied value that month, instead of the $200,000 USD of previous months.
 
 This is the same logic as how Bitcoin mining works. The 4 year havling has reduced the BTC block reward to miners from 50 BTC per block, to 25 BTC, to 12.5 BTC and is currently 6.125 BTC. However despite this Bitcoin miner revenues have increase from Millions of USD worth to Billion of USD worth in the past 15 years, because of course the per Bitcoin price has increased from nothing, to $10 to $1,000 to tens of thousands of USD per BTC over that period.
 
@@ -73,14 +73,14 @@ The Morpheus code is constantly growing and changing and so let's calculate an e
 Lets take for example the coding work being done on the Compute Proofs for the network.  
 
 In this case there are coders bidding to design, implement, and test the Yellowstone proposal's "Decentralized Router".
-Say the winning bid is 1,000 weights to contribute the code.
-If there are 10 developers involved, each would earn 100 weights. 
+Say the winning bid is 100,000 weights to contribute the code.
+If there are 10 developers involved, each would earn 10,000 weights. 
 
-Given there are already almost 20,000 weights for existing Coders, this would constitute an additional 5% of the Coding weights.
-The new total weights are 21,000 in total and the per weight payout in year 1 would be 0.16 MOR per day, per weight (3,456 divided by 21,000).
-So in this example the Compute coding for 1,000 weights has an implied value of 164.57 MOR per day. 
+Given there are already almost 2,000,000 weights for existing Coders, this would constitute an additional 5% of the Coding weights.
+The new total weights are 2,100,000 in total and the per weight payout in year 1 would be 0.0016 MOR per day, per weight (3,456 divided by 21,000).
+So in this example the Compute coding for 100,000 weights has an implied value of 164.57 MOR per day. 
 Which equals 60,068 MOR over the first year (less with the decay rate).
-Presuming the same $20 per MOR as in the example above that would value this Code contribution at $1,201,360 USD.
+Presuming the $20 per MOR price that would value this Code contribution at $1,201,360 USD.
 Over 10 developers that is a reward of $120,136 USD worth of MOR over the period of the 1st year.
 
 This is really helpful to understand as it demonstrates the great value to Coders who provide their Contributions to the Morpheus network.
@@ -91,15 +91,15 @@ It is important to understand that the implied value is decided by the market. T
 This Protocol Owned Liquidity increases the scarcity of MOR and provides liquidity for Coders, Compute Providers and Community Front End developers.
 
 ## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $0.025 USD per Weight
-In theory, the initial implied value of 1 weight was $50 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
+In theory, the initial implied value of 1 weight was $0.025 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snap shot.
 
-## February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $0.20 USD Per Weight
+## February 8th to March 8th 2024 Implied Value of a Weight Calculation "Snapshot 2" = $0.20 USD per Weight
 In theory, while the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the current implied price can be estimated based on the total stETH deposited.
 At 88,000 stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year. 
 This at least right now implies a per MOR value of 0.00237 stETH per MOR based on real world contributions. Or $6.89 USD at the current 2,900 USD to stETH price on Feb. 21st 2024.
 
-**All told this implies a value of each weight at $400 USD for Snapshot 2 (February 8th to March 8th 2024).**
-This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 21,000 which equals 58 MOR per weight. 
+**All told this implies a value of each weight at $0.20 USD for Snapshot 2 (February 8th to March 8th 2024).**
+This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076) and dividing by 42,000,000 which equals 0.029 MOR per weight. 
 In theory this results in, $6.89 USD per MOR that equals $400 in USD terms.
 
 ## March 8th to April 8th 2024 Implied Value of a Weight Calculation "Snapshot 3" = $1.26 USD per Weight
