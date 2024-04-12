@@ -33,5 +33,5 @@
   - **Maintainer's Discord Handle:** erikvoorhees
   - **Maintainer's GitHub Handle:** [ErikVoorhees](https://github.com/ErikVoorhees)
 - **MRI Number 10:** [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
-  - **Maintainer's Discord Handle:** urklan
-  - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer)
+  - **Maintainer's Discord Handle:** urklan / smartagents
+  - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer) / [DavidAJohnston](https://github.com/DavidAJohnston)
