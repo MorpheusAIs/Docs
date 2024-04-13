@@ -16,17 +16,17 @@ This table is for code contributions in Snapshot 4.
 Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).   
 
 **Snapshot 2.** February 8th to March 8th 2024  
-Theoretical Implied Value of a Weight = $0.25 USD per Weight (price is unknown 1MOR = 1MOR).
+Theoretical Implied Value of a Weight = $0.2 USD per Weight (price is unknown 1MOR = 1MOR).
   
 **Snapshot 3.** March 8th to April 8th 2024  
 Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR).  
 
 **Snapshot 4.** 
 April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $1.26 USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $1.26 (will be recalculated at the end of the month) USD per Weight (price is unknown 1MOR = 1MOR). 
 
 > [!NOTE]
-> **Weights were rebased by 2,000 X at Snapshot 3 to create more granulatriy as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/Accepted/MRC14.md)**
+> **Weights were rebased by 2,000 X at Snapshot 3 to create more granularity as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
 
 ## Structuring your Code Contributions
 
@@ -47,16 +47,26 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 > [!IMPORTANT]  
 > There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. 
 
-- MRI Number 1. [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
-- MRI Number 2. [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/SmartAgents)
-- MRI Number 3. [Morpheus Local Install Desktop / Mobile](https://github.com/MorpheusAIs/Morpheus)
-- MRI Number 4. [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
-- MRI Number 5. [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
-- MRI Number 6. [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC15.md)
-- MRI Number 7. [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
-- MRI Number 8. [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
-- MRI Number 9. [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
-- MRI Number 10. [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
+- **MRI Number 1:** [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
+  - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston) 
+- **MRI Number 2:** [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/SmartAgents)
+  - **Maintainer's GitHub Handle:** [LachsBagel](https://github.com/LachsBagel)
+- **MRI Number 3:** [Morpheus Local Install Desktop / Mobile](https://github.com/MorpheusAIs/Morpheus)
+  - **Maintainer's GitHub Handle:** [betterbrand](https://github.com/betterbrand)
+- **MRI Number 4**: [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+  - **Maintainer's GitHub Handle:** [EnergyHound](https://github.com/EnergyHound)
+- **MRI Number 5**: [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
+  - **Maintainer's GitHub Handle:** [EnergyHound](https://github.com/EnergyHound)
+- **MRI Number 6:** [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC15.md)
+  - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston)
+- **MRI Number 7:** [Compute Proofs Morpheus / Lumerin](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+  - **Maintainer's GitHub Handle:** [rcondron](https://github.com/rcondron)
+- **MRI Number 8:** [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
+  - **Maintainer's GitHub Handle:** [betterbrand](https://github.com/betterbrand)
+- **MRI Number 9:** [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
+  - **Maintainer's GitHub Handle:** [ErikVoorhees](https://github.com/ErikVoorhees)
+- **MRI Number 10:** [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
+  - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer) / [DavidAJohnston](https://github.com/DavidAJohnston)
 
 
 
