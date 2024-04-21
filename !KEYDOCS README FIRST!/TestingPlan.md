@@ -11,16 +11,17 @@
   Link to [Audit Competition](https://www.codehawks.com/contests/clrzgrole0007xtsq0gfdw8if).  
   Link to [Report](https://www.codehawks.com/report/clrzgrole0007xtsq0gfdw8if).
 - **Stage 6:** Smart Contracts deployed on Ethereum / Arbitrum mainnet - **12 p.m. UTC February 8th 2024**.
+- **Stage 7:** Audit of the [MOR OFT](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports/MOR%20OFT%20Token%20Contract) and [L2TokenRecieverV2](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports/L2%20Token%20Receiver%20V2) Smart Contracts. 
 
 ## In Progress
-- **Stage 7:** Additional audit of Smart Contracts during the 90 day bootstrapping period.
-- **Stage 8:** Day 90 of the bootstrapping period the AMM is created using the Protection Fund.
-
+- **Stage 8:** Day 90 of the bootstrapping period the AMM liquidity is deployed based on the [guidance.](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md)
 
 ## Pending
-- **Stage 9**: Audit of the Compute Smart Contract and Router code.
-- **Stage 10**: Audit of the Community Frontend Builders Smart Contract.
+- **Stage 9**: Testnet for the Compute Smart Contract and Router.
+- **Stage 10**: Audit of the Compute Smart Contract and Router code.
+- **Stage 11**: Testnet for the Community Frontend Builders Smart Contract.
+- **Stage 12**: Audit of the Community Frontend Builders Smart Contract.
 
-## Post July 2024  
-- **Stage 11**: Remove admin function from Smart Contracts.
-- **Stage 12:** Additional upgrades to Smart Contracts will require effectively everyone to update the software.
+## Post August 2024  
+- **Stage 13**: Remove admin function from Smart Contracts.
+- **Stage 14:** Additional upgrades to Smart Contracts will require effectively everyone to update the software.
