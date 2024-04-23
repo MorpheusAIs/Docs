@@ -81,5 +81,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 ## Code Contributions for Snapshot 4
 
 | Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
-| -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x779bddc16c673893b5fcf65791df756a90a80f56 | https://github.com/MorpheusAIs/Morpheus/issues/661 | https://github.com/MorpheusAIs/pwa/pull/5| 1000 | Updated favicon |
 |  |  |  |  |
