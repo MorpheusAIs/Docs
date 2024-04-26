@@ -3,7 +3,8 @@
 >[!NOTE]
 > - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
 > - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees.  
-> - Please note that this testing is not incentivized, and participants will not receive any rewards.  
+> - Please note that this testing is not incentivized, and participants will not receive any rewards.
+> - Test tokens have no value and intended fot test purpose only.
 
 ## Introduction
 This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet.
@@ -16,29 +17,30 @@ There are following steps:
 5) Increasing and decresing added liquidity
 
 ## Smart Contracts Addresses
-Arbitrum mainnet chain: 
-MOR_Test_1 (MT1): [0x84efb4db4265966742fa3671aa841a8f21dd2d4f](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f)
-WETH_Test_1 (WT1): [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)
-USDT_Test_1 (UT1): https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16
-ARB_Test_1 (AT1): https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206
+Arbitrum mainnet:  
+**MOR_Test_1 (MT1):** [0x84efb4db4265966742fa3671aa841a8f21dd2d4f](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f)  
+**WETH_Test_1 (WT1):** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)  
+**USDT_Test_1 (UT1):** [0x3d83ba928974e07f35a246d50eae0ae269baef16](https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16)  
+**ARB_Test_1 (AT1):** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206)  
 
-  
-## Get Sepolia ETH
-- To start you should have installed Metamask or another web3 wallet. You need to go to network settings which by default are usually set to Ethereum, then choose the Sepolia testnet as the network.
-- The next step is to fund your address with SepoliaETH. You may use a website like https://sepolia-faucet.pk910.de/# or https://sepoliafaucet.com/ to earn SepoliaETH if you are using a fresh address.
+## Switch Metamask to Arbitrum chain
+You should choose Arbitrum chain in the chain list or add it using [Chainlist](https://chainlist.org/chain/42161) service and clicking **“Add to Metamask”**.  
+You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or buy it on CEX. 
 
-## Mint Mock tokens
-Please note that testing is carried out on the Sepolia testnet, but the mainnet token will be launched on the Arbitrum chain.  
-When you got some SepoliaETH to pay network fees, you need to go to the [MOR] contract, open the “Contract” tab, then the “Write Contract” tab and connect your wallet.
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/change%20chain.png" width=50% height=50%>
 
-[PICTURE]
+## Mint Test tokens
+Test tokens have no value and intended for test purpose only.    
+To mint test tokens you need to go to the [MT1 token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet.
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/mint.png" width=75% height=75%>
 
 It is necessary to select the `4. mint (0x40c10f19)` function that will issue tokens to your address.  
 As parameters:
 - `to_ (address)`: your wallet adress;
 - `amount_ (uint256)`: amount of tokens in WEI, instead of ETH. You can use this unit converter calculator https://eth-converter.com to help you.
 
-Click `Write` and confirm a transaction. 
+Click **"Write"** and confirm a transaction. 
 
 Perform the same actions with [MOR wETH](https://sepolia.etherscan.io/address/0x1f233de18d7bfc28dffe05574627606d2a938a43#writeContract) contract.
 
