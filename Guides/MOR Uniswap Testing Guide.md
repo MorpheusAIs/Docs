@@ -11,10 +11,11 @@ This guide will walk you through the testing main Uniswap functions as swap toke
 
 There are following steps:
 1) Obtaining test tokens
-2) Adding tokens to Metamask and connecting to Uniswap
-3) Swapping tokens
-3) Adding and removing liquidity
-5) Increasing and decresing added liquidity
+2) Adding tokens to Metamask
+3) Connecting to Uniswap
+4) Swapping tokens
+5) Adding and removing liquidity
+6) Increasing and decresing added liquidity
 
 ## Smart Contracts Addresses
 Arbitrum mainnet:  
@@ -30,39 +31,39 @@ You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or bu
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/change%20chain.png" width=50% height=50%>
 
 ## Mint Test tokens
-Test tokens have no value and intended for test purpose only.    
-To mint test tokens you need to go to the [MT1 token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet.
+Test tokens have no value and intended for test purpose only.   
+You can get tokens by asking in [Discord](https://discord.com/channels/1151741790408429580/1183666837460897832) or mint them yourself.   
+To mint test tokens you need to go to the [MOR_Test_1 (MT1) token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/mint.png" width=75% height=75%>
 
 It is necessary to select the `4. mint (0x40c10f19)` function that will issue tokens to your address.  
 As parameters:
 - `to_ (address)`: your wallet adress;
-- `amount_ (uint256)`: amount of tokens in WEI, instead of ETH. You can use this unit converter calculator https://eth-converter.com to help you.
+- `amount_ (uint256)`: amount of tokens in WEI, instead of ETH.  
+You can use this unit converter calculator https://eth-converter.com to help you.
 
 Click **"Write"** and confirm a transaction. 
 
-Perform the same actions with [MOR wETH](https://sepolia.etherscan.io/address/0x1f233de18d7bfc28dffe05574627606d2a938a43#writeContract) contract.
+Perform the same actions with:
+- **WETH_Test_1 (WT1) Contract** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)  
+- **USDT_Test_1 (UT1) Contract** [0x3d83ba928974e07f35a246d50eae0ae269baef16](https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16)  
+- **ARB_Test_1 (AT1) Contract** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206)  
 
-## Add tokens and send tokens from the wallet
-For Metamask wallet, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill  
-MOR Mock `0x781e74ab59498c9b710e1f00512a3d0a747e7fa0` and  
-wETH Mock `0x1f233de18d7bfc28dffe05574627606d2a938a43` contract addresses
+## Add tokens to Metamask 
+To add tokens to Metamask wallet, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and add smart contracts addresses:    
 
-## How to connect to Uniswap on Sepolia testnet?
+**MOR_Test_1 (MT1):** `0x84efb4db4265966742fa3671aa841a8f21dd2d4f`  
+**WETH_Test_1 (WT1):** `0x3b0a436dc056fd17901922147dc1d2f557b81edd`  
+**USDT_Test_1 (UT1):** `0x3d83ba928974e07f35a246d50eae0ae269baef16`  
+**ARB_Test_1 (AT1):** `0xd1e404c02f73c2c9cbadaf400028690f466fe206`
+
+## Connect wallet to Uniswap
 Go to the https://app.uniswap.org and connect your wallet
 
 <img src="/Graphics/Docs Graphics/English/Uniswap guide/Uniswap connect wallet.png" width=100% height=100%>
 
-Click to your address and then settings button
-
-<<img src="/Graphics/Docs Graphics/English/Uniswap guide/Settings button.png" width=100% height=100%>
-
-Turn on “Show testnets”
-
-<img src="/Graphics/Docs Graphics/English/Uniswap guide/Show testnets.png" width=100% height=100%>
-
-Change the network to “Sepolia” (the 3rd in the list)
+Change the network to “Arbitrum”
 
 <img src="/Graphics/Docs Graphics/English/Uniswap guide/Choose Sepolia.png" width=100% height=100%>
 
