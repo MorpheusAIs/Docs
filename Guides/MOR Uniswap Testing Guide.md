@@ -1,23 +1,27 @@
-# MOR Token Contract Testing Guide
+# MOR Token Uniswap Testing Guide
 
-Зачем нужно тестирование
-Не будет наград
-Для примера будет браться метамаск, но принцип такой же самый и для других кошельков
+>[!NOTE]
+> - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
+> - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees.  
+> - Please note that this testing is not incentivized, and participants will not receive any rewards.  
 
 ## Introduction
-This guide will walk you through the testing main Uniswap functions for Mock MOR and Mock wETH tokens on the [CHAIN].  
+This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet.
+
 There are following steps:
-1) Obtaining SepoliaETH
-2) Obtaining mock MOR and wETH tokens
-3) Sending tokens
-3) Swapping tokens on Uniswap
-4) Adding and removing liquidity
+1) Obtaining test tokens
+2) Adding tokens to Metamask and connecting to Uniswap
+3) Swapping tokens
+3) Adding and removing liquidity
 5) Increasing and decresing added liquidity
 
 ## Smart Contracts Addresses
-[CHAIN]
-- MOR Mock: [CONTRACT]
-- wETH Mock: [CONTRACT]
+Arbitrum mainnet chain: 
+MOR_Test_1 (MT1): [0x84efb4db4265966742fa3671aa841a8f21dd2d4f](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f)
+WETH_Test_1 (WT1): [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)
+USDT_Test_1 (UT1): https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16
+ARB_Test_1 (AT1): https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206
+
   
 ## Get Sepolia ETH
 - To start you should have installed Metamask or another web3 wallet. You need to go to network settings which by default are usually set to Ethereum, then choose the Sepolia testnet as the network.
@@ -99,3 +103,11 @@ Add MOR Mock and wETH Mock tokens by entering their smart conctract addresses
 
 
 ## How to remove liquidity from Uniswap?
+
+
+
+
+Additional info
+- what are dexs
+- https://academy.binance.com/en/articles/impermanent-loss-explained 
+https://support.uniswap.org/hc/en-us/articles/8370549680909-How-to-swap-tokens-with-the-Uniswap-Web-app 
