@@ -23,6 +23,7 @@ There are following steps:
 
 ## Smart Contracts Addresses
 Arbitrum mainnet:  
+
 **MOR_Test_1 (MT1):** [0x84efb4db4265966742fa3671aa841a8f21dd2d4f](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f)  
 
 **WETH_Test_1 (WT1):** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)  
@@ -31,12 +32,14 @@ Arbitrum mainnet:
 
 **ARB_Test_1 (AT1):** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206)  
 
+
+
 ## Switch Metamask to Arbitrum chain
 You should choose Arbitrum chain in the chain list or add it using [Chainlist](https://chainlist.org/chain/42161) service and clicking **“Add to Metamask”**.  
 
 You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or buy it on CEX. 
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/change%20chain.png" width=50% height=50%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/change%20chain.png" width=40% height=40%>
 
 
 
@@ -116,23 +119,23 @@ On picture, there is MOR_Test_1 (MT1) `0x84efb4db4265966742fa3671aa841a8f21dd2d4
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20token.png" width=60% height=60%>
 
-Click on the token to add it. If warning message appears, click `I understand`.
+Click on the token to add it. If warning message appears, click **I understand**.
 
 Perform the same actions with **"You receive"** (token you want to buy) field.  
 
 Enter the amount of tokens you want to sell in **"You pay"** field, the amount of tokens you receive will calculate automatically accordingly to current price.  
-Check conditions and click `Swap` 
+Check conditions and click **Swap.** 
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap.png" width=60% height=60%>
 
 In your wallet, approve spending for the token you are swapping, sign message and confirm swap.  
 For more information on token approvals see this [article](https://support.uniswap.org/hc/en-us/articles/8120520483085-What-is-an-approval-transaction).
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve.png" width=75% height=75%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve1.png" width=75% height=75%>
 
 After swap transaction is confirmed, you will see updated balances.  
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
 
 > [!TIP]
 > Make multiple swaps with different combinations of tokens and amounts.
@@ -142,42 +145,51 @@ After swap transaction is confirmed, you will see updated balances.
 ## How to add liquidity to Uniswap?
 Go to the Uniswap web app pool page https://app.uniswap.org/swap and click **+ New position**
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/new%20position.png" width=80% height=80%>
 
 Add any of two test tokens. You can find them with name or with smart contract address.  
-MOR_Test_1 (MT1) and WETH_Test_1 (WT1) selected in screenshot below.
+`MOR_Test_1 (MT1)` selected in screenshot below.
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20token.png" width=60% height=60%>
 
 
 Click **"Edit"** and set [fee tier](https://docs.uniswap.org/concepts/protocol/fees) for your liquidity position.  
 A liquidity pool may or may not exist at the fee tier selected. If the pool already exists, then your liquidity position will be added to the pool.  
 If the pool does not exist, your liquidity position will create a new pool at the fee tier selected.  
 
-
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/select%20tokens.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/fee%20tier.png" width=60% height=60%>
 
 Set the Price Range in which to provide liquidity.  
 You can enter a specific range, or provide liquidity for the full price range.  
 If the price moves out of your set range, then your liquidity position will be concentrated into one of the two assets and not earn fees.
 Learn more about concentrated liquidity [here](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity).
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/price%20range.png" width=60% height=60%>
 
 Enter the amount of tokens you want to deposit into the liquidity pool, or select **“Max”** for the maximum amount of tokens.
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/deposit%20amounts.png" width=60% height=60%>
 
 Next you need to click **"Approve"** and confirm transaction in your wallet to allow your tokens to be used for providing liquidity.  
 After approval transaction is confirmed, click **"Preview"**
-> [!TIP]
-> The best cybersecurity practice suggest to approve only amount you want to spend.
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve2.png" width=60% height=60%>
+
+> [!TIP]
+> The best cybersecurity practice is to approve only amount you want to spend.
 
 Review the liquidity position details, click **“Add”** and confirm the transaction in your wallet.  
 A confirmation notification will appear once the transaction is complete.  
 
-
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
 
 Once completed, you can view and manage your liquidity position from the [Pool page](https://app.uniswap.org/pool).
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/positions.png" width=80% height=80%>
+
 > [!TIP]
 > Try to add liquidity positions with different assets, fee tiers and token amounts.
-
 
 > [!WARNING]  
 > To understand the risks associated with providing liquidity you can read https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2 to get an in-depth look at how to conceptualize a liquidity position.
@@ -198,6 +210,8 @@ Once completed, you can view and manage your liquidity position from the [Pool p
 > Make multiple swaps with different combinations of tokens and amounts.
 
 
+
+Вопросы и обратная связь в Дискорде
 
 
 **Additional info**
