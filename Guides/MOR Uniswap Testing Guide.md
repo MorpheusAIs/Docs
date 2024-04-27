@@ -152,7 +152,6 @@ Add any of two test tokens. You can find them with name or with smart contract a
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20token.png" width=60% height=60%>
 
-
 Click **"Edit"** and set [fee tier](https://docs.uniswap.org/concepts/protocol/fees) for your liquidity position.  
 A liquidity pool may or may not exist at the fee tier selected. If the pool already exists, then your liquidity position will be added to the pool.  
 If the pool does not exist, your liquidity position will create a new pool at the fee tier selected.  
@@ -188,26 +187,58 @@ Once completed, you can view and manage your liquidity position from the [Pool p
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/positions.png" width=80% height=80%>
 
+When a liquidity position is created, it is represented by an NFT. The wallet address that owns the NFT is the owner of the liquidity position. Read more LP NFTs [here](https://support.uniswap.org/hc/en-us/articles/20980786685069-Why-is-liquidity-position-ownership-represented-by-tokens-or-NFTs)
+
 > [!TIP]
 > Try to add liquidity positions with different assets, fee tiers and token amounts.
 
 > [!WARNING]  
-> To understand the risks associated with providing liquidity you can read https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2 to get an in-depth look at how to conceptualize a liquidity position.
+> Providing liquidity on Uniswap with tokens that have value (not testing) involves certain risks that all participants should be aware of before making any decisions. These risks include, but are not limited to: impermanent loss, smart contract risks and market volatility.  
+Before providing liquidity on Uniswap or engaging in any DeFi activities, it is crucial to thoroughly understand these risks and conduct proper research to make informed decisions based on your risk tolerance and financial goals.  
+Read more about liquidity providing risks [here](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2).
 
 
 
-## How to increase or decrease liquidity on Uniswap?
+## How to remove/decrease liquidity from Uniswap?
+Go to the Uniswap web app [pool page](https://app.uniswap.org/swap), where you will see liquidity positions you have.
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/positions.png" width=80% height=80%>
+
+Select the position you want to remove or decrease liquidity from and click **"Remove liquidity"** button.
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/remove%20liquidity.png" width=80% height=80%>
+
+Review the details of your liquidity position. Then enter the percentage amount you would like to decrease your position or select **"Max"** if you want to remove liquidity. Finally click **"Remove"** in two windows to confirm liquidity withdrawal.
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/percentage.png" width=50% height=50%>
+
+Confirm the transaction in the wallet to finalize remove/decrease of liquidity.
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve3.png" width=80% height=80%>
 
 > [!TIP]
-> Make multiple swaps with different combinations of tokens and amounts.
+> Try several scenarious with different pairs and  percentages.
 
 
-## How to remove liquidity from Uniswap?
+## How to increase liquidity on Uniswap?
+Go to the Uniswap web app [pool page](https://app.uniswap.org/swap), select the position you want to Increase liquidity and click **"Increase liquidity"** button.
 
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/remove%20liquidity.png" width=80% height=80%>
+
+Next you might need to click **"Approve"** to confirm transaction in your wallet to allow your tokens to be used for increasing liquidity.  
+After approval transaction is confirmed, click **"Preview"**
 
 > [!TIP]
-> Make multiple swaps with different combinations of tokens and amounts.
+> The best cybersecurity practice is to approve only amount you want to spend.
+
+Review the liquidity position details, click **“Add”** and confirm the transaction in your wallet.  
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
+
+A confirmation notification will appear once the transaction is complete and you can view your increased liquidity position size at [Pool page](https://app.uniswap.org/pool).
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
+
 
 
 
@@ -218,3 +249,4 @@ Once completed, you can view and manage your liquidity position from the [Pool p
 - what are dexs
 - https://academy.binance.com/en/articles/impermanent-loss-explained 
 https://support.uniswap.org/hc/en-us/articles/8370549680909-How-to-swap-tokens-with-the-Uniswap-Web-app 
+https://support.uniswap.org/hc/en-us 
