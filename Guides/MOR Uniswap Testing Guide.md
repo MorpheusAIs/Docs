@@ -223,30 +223,26 @@ Confirm the transaction in the wallet to finalize remove/decrease of liquidity.
 ## How to increase liquidity on Uniswap?
 Go to the Uniswap web app [pool page](https://app.uniswap.org/swap), select the position you want to Increase liquidity and click **"Increase liquidity"** button.
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/remove%20liquidity.png" width=80% height=80%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/increase%20liquidity.png" width=80% height=80%>
 
-Next you might need to click **"Approve"** to confirm transaction in your wallet to allow your tokens to be used for increasing liquidity.  
+Enter amount of tokens you want to increase your position with and click **"Approve"** to allow tokens to be used for increasing liquidity.  
 After approval transaction is confirmed, click **"Preview"**
+
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve%20increase.png" width=60% height=60%>
 
 > [!TIP]
 > The best cybersecurity practice is to approve only amount you want to spend.
 
 Review the liquidity position details, click **“Add”** and confirm the transaction in your wallet.  
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20increase.png" width=45% height=45%>
 
 A confirmation notification will appear once the transaction is complete and you can view your increased liquidity position size at [Pool page](https://app.uniswap.org/pool).
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20success.png" width=50% height=50%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/success%20increase.png" width=45% height=45%>
 
 
+## Additional information
+If you need more information about Uniswap exchange functions, please refer to this page: https://support.uniswap.org/hc/en-us  
 
-
-Вопросы и обратная связь в Дискорде
-
-
-**Additional info**
-- what are dexs
-- https://academy.binance.com/en/articles/impermanent-loss-explained 
-https://support.uniswap.org/hc/en-us/articles/8370549680909-How-to-swap-tokens-with-the-Uniswap-Web-app 
-https://support.uniswap.org/hc/en-us 
+If you identify any issues while testing or need support, please ask in Morpheus' [Discord](https://discord.com/channels/1151741790408429580/1183666837460897832).
