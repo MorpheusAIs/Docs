@@ -99,7 +99,7 @@ Once approved your wallet will be connected!
 
 
 ## How to swap tokens on Uniswap?
-Go to the Uniswap web app https://app.uniswap.org/swap and search for and select the token you wish to swap.
+Go to the Uniswap web app swap page https://app.uniswap.org/swap and search for and select the token you wish to swap.
 
 `0x84efb4db4265966742fa3671aa841a8f21dd2d4f` for **MOR_Test_1 (MT1)** 
 
@@ -140,18 +140,62 @@ After swap transaction is confirmed, you will see updated balances.
 
 
 ## How to add liquidity to Uniswap?
-Go to https://app.uniswap.org/pool 
+Go to the Uniswap web app pool page https://app.uniswap.org/swap and click **+ New position**
 
-Click `+New position`
 
-Add MOR Mock and wETH Mock tokens by entering their smart conctract addresses
+Add any of two test tokens. You can find them with name or with smart contract address.  
+MOR_Test_1 (MT1) and WETH_Test_1 (WT1) selected in screenshot below.
+
+
+Click **"Edit"** and set [fee tier](https://docs.uniswap.org/concepts/protocol/fees) for your liquidity position.  
+A liquidity pool may or may not exist at the fee tier selected. If the pool already exists, then your liquidity position will be added to the pool.  
+If the pool does not exist, your liquidity position will create a new pool at the fee tier selected.  
+
+
+
+Set the Price Range in which to provide liquidity.  
+You can enter a specific range, or provide liquidity for the full price range.  
+If the price moves out of your set range, then your liquidity position will be concentrated into one of the two assets and not earn fees.
+Learn more about concentrated liquidity [here](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity).
+
+
+Enter the amount of tokens you want to deposit into the liquidity pool, or select **“Max”** for the maximum amount of tokens.
+
+
+Next you need to click **"Approve"** and confirm transaction in your wallet to allow your tokens to be used for providing liquidity.  
+After approval transaction is confirmed, click **"Preview"**
+> [!TIP]
+> The best cybersecurity practice suggest to approve only amount you want to spend.
+
+
+Review the liquidity position details, click **“Add”** and confirm the transaction in your wallet.  
+A confirmation notification will appear once the transaction is complete.  
+
+
+
+Once completed, you can view and manage your liquidity position from the [Pool page](https://app.uniswap.org/pool).
+
+> [!TIP]
+> Try to add liquidity positions with different assets, fee tiers and token amounts.
+
+
+> [!WARNING]  
+> To understand the risks associated with providing liquidity you can read https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2 to get an in-depth look at how to conceptualize a liquidity position.
 
 
 
 ## How to increase or decrease liquidity on Uniswap?
 
 
+> [!TIP]
+> Make multiple swaps with different combinations of tokens and amounts.
+
+
 ## How to remove liquidity from Uniswap?
+
+
+> [!TIP]
+> Make multiple swaps with different combinations of tokens and amounts.
 
 
 
