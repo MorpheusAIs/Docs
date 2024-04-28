@@ -16,9 +16,9 @@ There are following steps:
 2) [Adding tokens to Metamask](#add-tokens-to-metamask) 
 3) [Connecting to Uniswap](#connect-wallet-to-uniswap)
 4) [Swapping tokens](#how-to-swap-tokens-on-uniswap)
-5) [Adding and removing liquidity](#how-to-add-liquidity-to-uniswap?)
-6) [Removing or decreasing liquidity](#how-to-remove-or-decrease-liquidity-from-uniswap?)
-7) [Increasing and decresing added liquidity](#how-to-increase-liquidity-on-uniswap?)
+5) [Adding and removing liquidity](#how-to-add-liquidity-to-uniswap)
+6) [Removing or decreasing liquidity](#how-to-remove-or-decrease-liquidity-from-uniswap)
+7) [Increasing and decresing added liquidity](#how-to-increase-liquidity-on-uniswap)
 
 
 
