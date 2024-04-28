@@ -9,15 +9,16 @@
 
 
 ## Introduction
-This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet.
+This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet, but for other Web3 wallets logic remains the same.
 
 There are following steps:
 1) [Obtaining test tokens](#add-tokens-to-metamask)
-2) Adding tokens to Metamask
-3) Connecting to Uniswap
-4) Swapping tokens
-5) Adding and removing liquidity
-6) Increasing and decresing added liquidity
+2) [Adding tokens to Metamask](add-tokens-to-metamask) 
+3) [Connecting to Uniswap](connect-wallet-to-uniswap)
+4) [Swapping tokens](how-to-swap-tokens-on-uniswap?)
+5) [Adding and removing liquidity](how-to-add-liquidity-to-uniswap?)
+6) [Removing or decreasing liquidity](how-to-remove-or-decrease-liquidity-from-uniswap?)
+7) [Increasing and decresing added liquidity](how-to-increase-liquidity-on-uniswap?)
 
 
 
@@ -43,13 +44,13 @@ You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or bu
 
 
 
-## Mint Test tokens
+## Mint test tokens
 Test tokens have no value and intended for test purpose only.  
 
 > [!IMPORTANT]  
 > You can get tokens by asking in [Discord](https://discord.com/channels/1151741790408429580/1183666837460897832) or mint them yourself.  
 
-To mint test tokens you need to go to the [MOR_Test_1 (MT1) token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet by clicking **"Connect to Web3**" button.
+To mint test tokens you need to go to [MOR_Test_1 (MT1) token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet by clicking **"Connect to Web3**" button.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/mint.png" width=75% height=75%>
 
@@ -59,9 +60,10 @@ As parameters:
 - `amount_ (uint256)`: amount of tokens in WEI, instead of ETH.  
 You can use this unit converter calculator https://eth-converter.com to help you.
 
-Click **"Write"** and confirm a transaction. 
+Click **"Write"** and confirm a transaction in your wallet. 
 
 Perform the same actions with:
+
 - **WETH_Test_1 (WT1) Contract** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)
   
 - **USDT_Test_1 (UT1) Contract** [0x3d83ba928974e07f35a246d50eae0ae269baef16](https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16)
@@ -143,11 +145,11 @@ After swap transaction is confirmed, you will see updated balances.
 
 
 ## How to add liquidity to Uniswap?
-Go to the Uniswap web app pool page https://app.uniswap.org/swap and click **+ New position**
+Go to the Uniswap web app pool page https://app.uniswap.org/pool and click **+ New position**
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/new%20position.png" width=80% height=80%>
 
-Add any of two test tokens. You can find them with name or with smart contract address.  
+Add two test tokens you want to add liquidity with. You can find them with name or with smart contract address.   
 `MOR_Test_1 (MT1)` selected in screenshot below.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20token.png" width=60% height=60%>
@@ -161,7 +163,7 @@ If the pool does not exist, your liquidity position will create a new pool at th
 
 Set the Price Range in which to provide liquidity.  
 You can enter a specific range, or provide liquidity for the full price range.  
-If the price moves out of your set range, then your liquidity position will be concentrated into one of the two assets and not earn fees.
+If the price moves out of your set range, then your liquidity position will be concentrated into one of the two assets and not earn fees.  
 Learn more about concentrated liquidity [here](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity).
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/price%20range.png" width=60% height=60%>
@@ -171,7 +173,7 @@ Enter the amount of tokens you want to deposit into the liquidity pool, or selec
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/deposit%20amounts.png" width=60% height=60%>
 
 Next you need to click **"Approve"** and confirm transaction in your wallet to allow your tokens to be used for providing liquidity.  
-After approval transaction is confirmed, click **"Preview"**
+After approval transaction is confirmed, click **"Preview"**.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve2.png" width=60% height=60%>
 
@@ -187,7 +189,8 @@ Once completed, you can view and manage your liquidity position from the [Pool p
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/positions.png" width=80% height=80%>
 
-When a liquidity position is created, it is represented by an NFT. The wallet address that owns the NFT is the owner of the liquidity position. Read more LP NFTs [here](https://support.uniswap.org/hc/en-us/articles/20980786685069-Why-is-liquidity-position-ownership-represented-by-tokens-or-NFTs)
+When a liquidity position is created, it is represented by an NFT. The wallet address that owns the NFT is the owner of the liquidity position.  
+Read more about LP NFTs [here.](https://support.uniswap.org/hc/en-us/articles/20980786685069-Why-is-liquidity-position-ownership-represented-by-tokens-or-NFTs)
 
 > [!TIP]
 > Try to add liquidity positions with different assets, fee tiers and token amounts.
@@ -195,12 +198,12 @@ When a liquidity position is created, it is represented by an NFT. The wallet ad
 > [!WARNING]  
 > Providing liquidity on Uniswap with tokens that have value (not testing) involves certain risks that all participants should be aware of before making any decisions. These risks include, but are not limited to: impermanent loss, smart contract risks and market volatility.  
 Before providing liquidity on Uniswap or engaging in any DeFi activities, it is crucial to thoroughly understand these risks and conduct proper research to make informed decisions based on your risk tolerance and financial goals.  
-Read more about liquidity providing risks [here](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2).
+Read more about liquidity providing risks [here.](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)
 
 
 
-## How to remove/decrease liquidity from Uniswap?
-Go to the Uniswap web app [pool page](https://app.uniswap.org/swap), where you will see liquidity positions you have.
+## How to remove or decrease liquidity from Uniswap?
+Go to the Uniswap web app [pool page](https://app.uniswap.org/pool), where you will see liquidity positions you have.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/positions.png" width=80% height=80%>
 
@@ -208,11 +211,12 @@ Select the position you want to remove or decrease liquidity from and click **"R
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/remove%20liquidity.png" width=80% height=80%>
 
-Review the details of your liquidity position. Then enter the percentage amount you would like to decrease your position or select **"Max"** if you want to remove liquidity. Finally click **"Remove"** in two windows to confirm liquidity withdrawal.
+Review the details of your liquidity position. Then enter the percentage amount you would like to decrease your position or select **"Max"** if you want to remove liquidity.  
+Finally click **"Remove"** two times to confirm liquidity withdrawal.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/percentage.png" width=50% height=50%>
 
-Confirm the transaction in the wallet to finalize remove/decrease of liquidity.
+Confirm the transaction in the wallet to finalize remove or decrease of liquidity.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve3.png" width=80% height=80%>
 
@@ -221,7 +225,7 @@ Confirm the transaction in the wallet to finalize remove/decrease of liquidity.
 
 
 ## How to increase liquidity on Uniswap?
-Go to the Uniswap web app [pool page](https://app.uniswap.org/swap), select the position you want to Increase liquidity and click **"Increase liquidity"** button.
+Go to the Uniswap web app [pool page](https://app.uniswap.org/pool), select the position you want to increase liquidity and click **"Increase liquidity"** button.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/increase%20liquidity.png" width=80% height=80%>
 
@@ -237,7 +241,7 @@ Review the liquidity position details, click **“Add”** and confirm the trans
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/add%20increase.png" width=45% height=45%>
 
-A confirmation notification will appear once the transaction is complete and you can view your increased liquidity position size at [Pool page](https://app.uniswap.org/pool).
+A confirmation notification will appear once the transaction is complete and you can view your increased liquidity position size at the [pool page](https://app.uniswap.org/pool).
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/success%20increase.png" width=45% height=45%>
 
