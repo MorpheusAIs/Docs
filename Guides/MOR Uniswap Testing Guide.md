@@ -6,7 +6,7 @@
 > - Please note that this testing is not incentivized, and participants will not receive any rewards.
 > - Test tokens have no value and intended fot test purpose only.
 
-
+---
 
 ## Introduction
 This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet, but for other Web3 wallets logic remains the same.
@@ -20,7 +20,7 @@ There are following steps:
 6) [Removing or decreasing liquidity](#how-to-remove-or-decrease-liquidity-from-uniswap)
 7) [Increasing and decresing added liquidity](#how-to-increase-liquidity-on-uniswap)
 
-
+---
 
 ## Smart Contracts Addresses
 Arbitrum mainnet:  
@@ -33,7 +33,7 @@ Arbitrum mainnet:
 
 **ARB_Test_1 (AT1):** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206)  
 
-
+---
 
 ## Switch Metamask to Arbitrum chain
 You should choose Arbitrum chain in the chain list or add it using [Chainlist](https://chainlist.org/chain/42161) service and clicking **“Add to Metamask”**.  
@@ -42,7 +42,7 @@ You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or bu
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/change%20chain.png" width=40% height=40%>
 
-
+---
 
 ## Mint test tokens
 Test tokens have no value and intended for test purpose only.  
@@ -50,7 +50,7 @@ Test tokens have no value and intended for test purpose only.
 > [!IMPORTANT]  
 > You can get tokens by asking in [Discord](https://discord.com/channels/1151741790408429580/1183666837460897832) or mint them yourself.  
 
-To mint test tokens you need to go to [MOR_Test_1 (MT1) token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet by clicking **"Connect to Web3**" button.
+To mint test tokens you need to go to [MOR_Test_1 (MT1) token contract](https://arbiscan.io/token/0x84efb4db4265966742fa3671aa841a8f21dd2d4f#writeContract), open the **“Contract”** tab, then the **“Write Contract”** tab and connect your wallet by clicking **"Connect to Web3**" button.
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/mint.png" width=75% height=75%>
 
@@ -64,13 +64,13 @@ Click **"Write"** and confirm a transaction in your wallet.
 
 Perform the same actions with:
 
-- **WETH_Test_1 (WT1) Contract** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd)
+- **WETH_Test_1 (WT1) Contract** [0x3b0a436dc056fd17901922147dc1d2f557b81edd](https://arbiscan.io/token/0x3b0a436dc056fd17901922147dc1d2f557b81edd#writeContract)
   
-- **USDT_Test_1 (UT1) Contract** [0x3d83ba928974e07f35a246d50eae0ae269baef16](https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16)
+- **USDT_Test_1 (UT1) Contract** [0x3d83ba928974e07f35a246d50eae0ae269baef16](https://arbiscan.io/token/0x3d83ba928974e07f35a246d50eae0ae269baef16#writeContract)
   
-- **ARB_Test_1 (AT1) Contract** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206)  
+- **ARB_Test_1 (AT1) Contract** [0xd1e404c02f73c2c9cbadaf400028690f466fe206](https://arbiscan.io/token/0xd1e404c02f73c2c9cbadaf400028690f466fe206#writeContract)  
 
-
+---
 
 ## Add tokens to Metamask 
 To add tokens to Metamask wallet, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and add smart contracts addresses:    
@@ -85,7 +85,7 @@ To add tokens to Metamask wallet, please follow steps from this [guide](https://
 
 After these steps you will be able to see the tokens and their amount in your Metamask wallet.
 
-
+---
 
 ## Connect wallet to Uniswap
 Go to the Uniswap web app https://app.uniswap.org and choose Arbitrum chain in the top right corner of the screen.
@@ -101,7 +101,7 @@ Once approved your wallet will be connected!
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/connect2.png" width=100% height=100%>
 
-
+---
 
 ## How to swap tokens on Uniswap?
 Go to the Uniswap web app swap page https://app.uniswap.org/swap and search for and select the token you wish to swap.
@@ -142,7 +142,7 @@ After swap transaction is confirmed, you will see updated balances.
 > [!TIP]
 > Make multiple swaps with different combinations of tokens and amounts.
 
-
+---
 
 ## How to add liquidity to Uniswap?
 Go to the Uniswap web app pool page https://app.uniswap.org/pool and click **+ New position**
@@ -200,7 +200,7 @@ Read more about LP NFTs [here.](https://support.uniswap.org/hc/en-us/articles/20
 Before providing liquidity on Uniswap or engaging in any DeFi activities, it is crucial to thoroughly understand these risks and conduct proper research to make informed decisions based on your risk tolerance and financial goals.  
 Read more about liquidity providing risks [here.](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)
 
-
+---
 
 ## How to remove or decrease liquidity from Uniswap?
 Go to the Uniswap web app [pool page](https://app.uniswap.org/pool), where you will see liquidity positions you have.
@@ -223,6 +223,7 @@ Confirm the transaction in the wallet to finalize remove or decrease of liquidit
 > [!TIP]
 > Try several scenarious with different pairs and  percentages.
 
+---
 
 ## How to increase liquidity on Uniswap?
 Go to the Uniswap web app [pool page](https://app.uniswap.org/pool), select the position you want to increase liquidity and click **"Increase liquidity"** button.
@@ -245,6 +246,7 @@ A confirmation notification will appear once the transaction is complete and you
 
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/success%20increase.png" width=45% height=45%>
 
+---
 
 ## Additional information
 If you need more information about Uniswap exchange functions, please refer to this page: https://support.uniswap.org/hc/en-us  
