@@ -2,7 +2,7 @@
 
 >[!NOTE]
 > - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
-> - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees.  
+> - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees, depending on network condition.
 > - Please note that this testing is not incentivized, and participants will not receive any rewards.
 > - Test tokens have no value and intended fot test purpose only.
 
@@ -12,7 +12,7 @@
 This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet.
 
 There are following steps:
-1) Obtaining test tokens
+1) [Obtaining test tokens](#add-tokens-to-metamask)
 2) Adding tokens to Metamask
 3) Connecting to Uniswap
 4) Swapping tokens
