@@ -34,7 +34,7 @@ The weights earned by Coders are only valuable if they are scarce. The number of
 
 This represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 [Morpheus Reference Implementations](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Reference%20Implementations.md) should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
 
-***Note**: To help Morpheus launch, there was an extremely large amount of effort required. Many of those efforts also preceded the establishment of the weights guide and thus the original contributors were retroactively given weights at varying $MOR implied prices for their efforts. This was done so at the rate at which efforts were provided to the GitHub maintainers and thus there was not an even distribution of weights month by month. The result of this is that as of the snapshot taking place on April 8, 2024 (which is the 7th month of Morpheus’ fiscal year), there were 48,390,420 total weights distributed. This means that adhering to a hard cap in year 1 would mean there are only 1,609,580 weights left for the subsequent five months, equivalent to 321,916 weights per month. Adhering to the Year 1 cap would result in such a small number of weights in the final months of the year, that it would likely deter new contributions. Therefore, the year 1 cap is being removed and merged into a single cap covering the first two years that is 75,000,000 weights. The total cap of 100,000,000 weights remains unchanged. 
+***Note**: To help Morpheus launch, there was an extremely large amount of effort required. Many of those efforts also preceded the establishment of the weights guide and thus the original contributors were retroactively given weights at varying $MOR implied prices for their efforts. This was done so at the rate at which efforts were provided to the GitHub maintainers and thus there was not an even distribution of weights month by month. The result of this is that as of the snapshot taking place on April 8, 2024 (which is the 7th month of Morpheus’ fiscal year), there were 50,643,667 total weights distributed. This means that adhering to a hard cap in year 1 is not possible. Therefore, the year 1 cap is being removed and merged into a single cap covering the first two years that is 75,000,000 weights. The total cap of 100,000,000 weights remains unchanged. 
 
 ## Year 1 Weights Schedule
 Given the complexities surrounding the Year 1 value of weights, the weights schedule had more nuances than the future years. The following table provides the monthly weights schedule, including the weights distributed each month, the methodology used to determine the weights value, and ultimately the value of the weight at each snapshot. Additional details for each particular month can be found later in the guide where each snapshot is defined. Please note that October 2023 to March 2024 denote an average of monthly weights emitted since much of the early work got folded into the February and March snapshots.
@@ -47,12 +47,12 @@ Given the complexities surrounding the Year 1 value of weights, the weights sche
 |Jan 2024 | 7,820,667 | 31,282,667 | n/a | n/a |n/a  | Cost Paid | $2.05 | $0.025 | 
 |Feb 2024 | 7,820,667 | 39,103,333 | n/a | n/a |n/a  | Cost Paid | $2.05 | $0.025 | 
 |March 2024 | 7,820,667 | 46,924,000 | n/a | n/a |n/a |  stETH Deposited | $6.89 | $0.200 | 
-|April 2024 | 4,536,232 | 51,460,232 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 Opening Price | $33.33 | $0.407 | 
-|May 2024 | 2,500,000 | 53,960,232 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 + Liquidity Support stETH | $64.10 | $0.783 | 
-|June 2024 | 2,250,000 | 56,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
-|July 2024 | 2,000,000 | 58,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
-|Aug 2024 | 1,750,000 | 59,960,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
-|Sept 2024 | 1,500,000 | 61,460,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|April 2024 | 4,536,232 | 50,643,667 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 Opening Price | $33.33 | $0.407 | 
+|May 2024 | 1,432,725 | 52,074,392 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 + Liquidity Support stETH | $64.10 | $0.783 | 
+|June 2024 | 1,432,725 | 53,509,118 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|July 2024 | 1,432,725 | 54,941,843 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|Aug 2024 | 1,432,725 | 56,374,569 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|Sept 2024 | 1,432,725 | 57,807,294 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
 
 ## Monthly Weights Schedule
 These weights will be divided into even monthly amounts starting in Year 2 (September 2nd 2024).  
@@ -61,7 +61,7 @@ The following table outlines the Year 2 and beyond weights schedule:
 
 |Year | Annual Weights Distributed | Monthly Weights Distributed | Cumulative Weights | Annual $MOR Emissions to Code | Total Weights | Annual $MOR Earned per Weight | $MOR Price Method | Implied $MOR Price | Weight Value | 
 |--- | --- | --- | --- | --- | --- | --- | --- | --- |---| 
-|2 |13,539,768 | 1,128,314 | 75,000,000 | 1,143,133 | 100,000,000 | 0.01143 | Live Trading Price | TBD | TBD | 
+|2 |17,192,706 | 1,432,725 | 75,000,000 | 1,143,133 | 100,000,000 | 0.01143 | Live Trading Price | TBD | TBD | 
 |3 |12,500,000 | 1,041,667 | 87,500,000 | 1,064,189 | 100,000,000 | 0.01064 | Live Trading Price | TBD | TBD | 
 |4 |6,250,000 | 520,833 | 93,750,000 | 985,245 | 100,000,000 | 0.00985 | Live Trading Price | TBD | TBD | 
 |5 |3,125,000 | 260,417 | 96,875,000 | 906,302 | 100,000,000 | 0.00906 | Live Trading Price | TBD | TBD | 
