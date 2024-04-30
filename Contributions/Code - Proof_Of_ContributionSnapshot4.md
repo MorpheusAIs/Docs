@@ -83,3 +83,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  |  |  |  |
+| 0x49b6123a10b022d5847335d5ad32eb198a14bc58 | 1, 4 | https://github.com/MorpheusAIs/MOR20/pull/2 | 8000 | Review of & documentation for provisional MOR20 smart contracts, deployment instructions |
