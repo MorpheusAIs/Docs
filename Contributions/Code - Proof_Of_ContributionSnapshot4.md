@@ -82,4 +82,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  |  |  |  |
+| 0x8c3FA50473065f1D90f186cA8ba1Aa76Aee409Bb | 2 | https://github.com/polywrap/AutoTx | 14877 | Polywrap is developing AutoTx, a personal assistant for planning and executing on-chain transactions. The goal is to integrate AutoTx into the Morpheus application to serve as the first transaction agent usable by users. Additionally AutoTx is easily forkable and modifiable, giving developers a base to build their own agents from. |
