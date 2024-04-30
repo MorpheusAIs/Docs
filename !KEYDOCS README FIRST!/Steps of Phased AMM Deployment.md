@@ -3,7 +3,7 @@
 Below is a quick outline of the steps to be taken in the coming days as Morpheus heads into the Token launch. 
 
 The first phase will be the conversion of stETH (Mainnet) to wETH (on Arbitrum)
-The seconf phase will be the creation of the pool on May 8 and the liquidity range. 
+The second phase will be the creation of the pool on May 8 and the liquidity range. 
 
 
 ## Phase 1: Conversion of stETH (on Ethereum Mainnet) to wETH (on Arbitrum)
@@ -21,14 +21,16 @@ When: Will be completed prior to May 6th by the multi-sig
         - Impact to MOR price when the pool is established is $.01 higher due to less slippage
         - Note: This option declined to avoid any risk of delay in receiving funds.
 
-### Step 2: Bridge wETH from Eth Mainnet to Arbitrum using the main bridge - ([Link](https://bridge.arbitrum.io))
+### Step 2: Bridge wETH from Eth Mainnet to Arbitrum using the main bridge
+
+([Link](https://bridge.arbitrum.io))
 
 
 ## Phase 2: Creation of the Liquidity Pool on May 8th. 12:00PM UTC
 
 - Step 1: Create the MOR/wETH Pool.
       - 52% of the stETH accumulated during the bootstrapping phase will be paired with 50,309 MOR tokens on Uniswap
-      - The pool fee will be set to .3%
+      - The pool fee will be set to 0.3%
 - Step 2: Create second liquidity position in MOR/wETH Pool
       - Set a full range up to the initial launch price of MOR
 
@@ -38,7 +40,7 @@ Beware of pools with low liquidity which may result in significant slippage.
 
 BEWARE of Fake Token Pools and SCAMS. The pool address will be posted on all Morpheus channels once it has been established. 
 
-Resources:
+**Resources:**
 
 [Phased AMM Deployment | Fair Price Discorvery Proposal](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md) 
 
