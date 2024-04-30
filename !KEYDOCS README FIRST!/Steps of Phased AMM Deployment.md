@@ -29,10 +29,13 @@ When: Will be completed prior to May 6th by the multi-sig
 ## Phase 2: Creation of the Liquidity Pool on May 8th. 12:00PM UTC
 
 - Step 1: Create the MOR/wETH Pool.
-      - 52% of the stETH accumulated during the bootstrapping phase will be paired with 50,309 MOR tokens on Uniswap
+      - 52% of the wETH (converted from the stETH accumulated during the bootstrapping phase via Phase 1 process above) will be paired with 50,309 MOR tokens on Uniswap
       - The pool fee will be set to 0.3%
+      - Position will be created adopting a 'full range' liquidity position 
+      - This will naturally create the initiation ratio, aka launch price
 - Step 2: Create second liquidity position in MOR/wETH Pool
-      - Set a full range up to the initial launch price of MOR
+      - Single-sided concentrated liquidity position comprised of the remaining 48% wETH (converted from the stETH accumulated during the bootstrapping phase via Phase 1 process above)
+      - As detailed in MRC09, concentrated position is strategically set from 0 to the initiation ratio
 
 Note: The Morpheus multi-sig will establish the main pool on Arbitrum. All liquidity from capital providers will be concentrated there. Presumably, other market participants will create additional liquidity pools elsewhere.
 
