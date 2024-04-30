@@ -11,11 +11,11 @@ When: Will be completed prior to May 6th by the multi-sig
 
 ### Step 1: The multi-sig will convert stETH to wETH using Option A
 
-    - Option A: Use Dex Aggregatior  [Cow Swap](https://swap.cow.fi/#/1/swap/WETH)
+- Option A: Use Dex Aggregatior  [Cow Swap](https://swap.cow.fi/#/1/swap/WETH)
         - This results in slippage of approximately .5 eth 
         - The net negative impact to Mor Price at the creation of the pool will be $.01 lower due to the slippage
 
-    - Option B: Unstake with Lido 
+- Option B: Unstake with Lido 
         - Slippage: None
         - Time to Receive Fund: Up to 5 Days, Dependent on validator queue. ([Source](https://stake.lido.fi/wrap))
         - Impact to MOR price when the pool is established is $.01 higher due to less slippage
@@ -26,14 +26,10 @@ When: Will be completed prior to May 6th by the multi-sig
 
 ## Phase 2: Creation of the Liquidity Pool on May 8th. 12:00PM UTC
 
-After the tokens issued to the protection fund become liquid, a portion of these will be paired with stETH contributed by capital providers during the bootstrapping phase. (See Details)
-The Morpheus multi-sig will create a liquidity pool using Uniswap on Arbitrum
-
-
-    - Step 1: Create the MOR/wETH Pool.
-      - 52% of the stETH accumulated during the bootstrapping phase will be paired with 50,309 MOR tokens
+- Step 1: Create the MOR/wETH Pool.
+      - 52% of the stETH accumulated during the bootstrapping phase will be paired with 50,309 MOR tokens on Uniswap
       - The pool fee will be set to .3%
-    - Step 2: Create second liquidity position in MOR/wETH Pool
+- Step 2: Create second liquidity position in MOR/wETH Pool
       - Set a full range up to the initial launch price of MOR
 
 Note: The Morpheus multi-sig will establish the main pool on Arbitrum. All liquidity from capital providers will be concentrated there. Presumably, other market participants will create additional liquidity pools elsewhere.
