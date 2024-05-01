@@ -1,6 +1,4 @@
-# FAQs
-
-## Answers to Your Burning Questions: Morpheus FAQ
+# Morpheus FAQ: Answers to Your Burning Questions
 
 ## [WHITEPAPER](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) TL;DR
 1) Access to AI has become fundamental to modern life.
