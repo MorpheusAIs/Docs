@@ -23,7 +23,7 @@ Theoretical Implied Value of a Weight = $0.407 USD per Weight (price is unknown 
 
 **Snapshot 4.** 
 April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR).  
 The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
 
 > [!NOTE]
