@@ -1,4 +1,4 @@
-# MOR Token Uniswap Testing Guide
+# MOR Token Uniswap Guide (testing)
 
 >[!NOTE]
 > - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
