@@ -80,6 +80,11 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 ## Code Contributions for Snapshot 4
 
-| Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
+| Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution |
 | -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  |  |  |  |
+| 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | 9 | [MORLORD](https://morlord.com) | 100,000 | Public API endpoints for MOR.org, Marketplace UI prep for beta, community leaderboard |
+| 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 7 | [Morpheus-Lumerin-Node Proxy Router](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/proxy-router) | 200,000 | Proxy API for localhost UIs, Wallet Refactoring from Electron to GO, Node multithread testing, AI engine integrations |
+| 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 3 | [Morpheus-Lumerin-Node Electron Desktop UI](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/ui-desktop) | 150,000 | Chat interface for electron front end, provider & model registry UI for electron front end |
+| 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 1 | [Morpheus-Lumerin-Node Smart Contracts](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/smart-contracts) | 100,000 | Smart contract development and deployment for provider registry, model registry, agent registry, MOR staking and compute sessions |
+| 0xa13984862467DCaa12c47b849C5Da4cB3a8d0915 | 1 | [Morpheus Architecture Guidance Doc](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)| 100,000 | Session router smart contract design updates, node architecture updates, smart contract updates to handle new compute tranche migration strategy |
+| 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
