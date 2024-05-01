@@ -42,7 +42,7 @@ Switch your wallet to Ethereum mainnet first. To mint test tokens you need to go
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/mint.png" width=75% height=75%>
 
 It is necessary to select the `4. mint (0x40c10f19)` function that will issue tokens to your address.  
-As parameters:
+As parameters:  
 - `to_ (address)`: your wallet adress;
 - `amount_ (uint256)`: amount of tokens in WEI, instead of ETH.  
 You can use this unit converter calculator https://eth-converter.com to help you.  
@@ -58,7 +58,8 @@ In case you want to see Mock stETH tokens in your Metamask wallet, please follow
 ---
 
 ## How to deposit stETH into the contract?
-We need to go to the [Mock stETH](https://etherscan.io/address/0x7EC3dda3e83dDD4b9f2cFCfF0A5213Bb8cf31b79#writeContract) contract, open the **"Contract"** tab, then the **"Write Contract"** tab. Don't forget to connect your wallet, which should have enough ETH token to pay for gas.
+We need to go to the [Mock stETH](https://etherscan.io/address/0x7EC3dda3e83dDD4b9f2cFCfF0A5213Bb8cf31b79#writeContract) contract, open the **"Contract"** tab, then the **"Write Contract"** tab.  
+Don't forget to connect your wallet, which should have enough ETH token to pay for gas.
 
 ![stETHContract](https://github.com/antonbosss/fantastic-bassoon/blob/SepoliaTestnetGuide/stethapproval.png)
 
@@ -71,57 +72,76 @@ You can use this unit converter calculator https://eth-converter.com to help you
 
 Click **"Write"** and confirm a transaction.
 
-Next, we need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#writeProxyContract) contract, open the **"Contract"** tab, then the **"Write as Proxy"** tab. Don't forget to connect your wallet, which should have enough ETH token to pay for gas.
+Next, we need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#writeProxyContract) contract, open the **"Contract"** tab, then the **"Write as Proxy"** tab.  
+Don't forget to connect your wallet, which should have enough ETH token to pay for gas.`
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/SepoliaTestnetGuide/stake.png)
 
 It is necessary to select the `stake()` function that will deposit stETH tokens to the smart contract. 
-As parameters:
+As parameters:  
 - `poolId_`: pool identifier, allowed only existed and public pools; for testing purpose enter “0”;
 - `amount_`: amount of tokens in WEI. (2,5 Mock stETH in the example).
 
 Click **"Write"** and confirm a transaction.
 
+---
 
+## How can I get information about how much I deposited? 
+You need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab. Don't forget to connect your wallet.
 
-
-## How can I get information about how much I have deposited? 
-The second function will show how many tokens have been invested by the user, the parameters are similar to the previous function call.  
-The name of the function is `usersData()`. Click "**Query**". Your deposited amount is indicated in WEI next to `deposited` line.
+You need to call `12. usersData()` function that will show how many tokens have been deposited by users' address (or the address of the user you want to know about). Enter pool number (`0`) in `<input> (uint256)` field and your address in `<input> (address)`.  
+Click "**Query**".  
+Your deposited amount will be indicated in WEI next to `deposited` line.
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/main/MorpheusGuide/deposited.png)
 
-
+---
 
 ## What is the amount of MOR rewards earned? 
-You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the “Contract” tab, then the “Read as Proxy” tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+You need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab. Don't forget to connect your wallet.
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/main/MorpheusGuide/rewards.png)
 
-The rewards are earned every block and to check the amount, you need to call the `getCurrentUserReward` function, where you need to enter pool number (`0`) and your address (or the address of the user you want to know about). Click "**Query**". As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com to help you. 
+The rewards are earned every block and to check the amount, you need to call the `2. getCurrentUserReward` function, where you need to enter pool number (`0`) in `poolId_ (uint256)` and your address in `user_ (address)`.  
+Click "**Query**".  
+As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com to help you. 
 
+>[!NOTE]
+> The speed of awarding awards has been artificially increased many times for testing purposes.
 
-
+---
 
 ## How to claim rewards?
-We need to go to the [Distribution](https://sepolia.etherscan.io/address/0x0Ad2fa5D8F420ff6D87192b32d89faf70466b30b#writeProxyContract), open the “Contract” tab, then the “Write as Proxy” tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+We need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#writeProxyContract), open the **"Contract"** tab, then the **"Write as Proxy"** tab.  
+Don't forget to connect your wallet, which should have enough native token to pay for gas.
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/SepoliaTestnetGuide/claim.png)
 
-The mint of the MOR token takes place on the Arbitrum Sepolia network, so we need a Layer Zero bridge to help us do this. 
-
-All the user needs to do is to call the `claim()` function.
+You need to call the `claim()` function.  
 As parameters:
-- `claim`: here you need to specify the amount of native token in ETH that you will send with the transaction and that will be used as payment for the gas for a mint on the destination network. You can specify more, the remainder will be returned to the sender.
+- `claim`: here you need to specify the amount of native token in ETH that you will send with the transaction and that will be used as payment for the gas for a mint on the destination network. You can specify more, the remainder will be returned to the sender;
 - `poolId_`: pool identifier; enter "0" for test purpose;
 - `user_`: the address of the user for whom the tokens will be minted.
   
-Click “Write” and confirm a transaction.
+Click **"Write"** and confirm a transaction.  
 
-Great, our rewards are now in the form of a MOR token on Arbitrum Sepolia, you can import the token address `0xe6d01d086a844a61641c75f1bca572e7aa70e154` to your list in metamask using this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) or check your balance via smart contract as we did with stETH token.
+>[!NOTE]
+> It may take a few minutes for your rewards to appear in your wallet on the Arbitrum chain.
 
+---
 
+## How to verify that I received tokens?
+Switch your wallet to Arbitrum mainnet and go to [Mock MOR](https://arbiscan.io/address/0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E) token contract. Open the **"Contract**" tab, then the **"Read Contract"** tab. 
 
+![stETHContract](https://github.com/antonbosss/fantastic-bassoon/blob/SepoliaTestnetGuide/check-stETH.png)
 
+It is necessary to call the function `balanceOf()` and specify in the `account_` field your address. As a result, you will find out how many tokens are on the wallet reflected in WEI.
+
+Another way of checking is to add Mock MOR token in your Metamask token list. To do this, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill Mock MOR token contract address `0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E`
+
+---
+
+> [!NOTE]  
+> In case you faced with difficulties, find something unclear or have questions, you can get assistance in [Morpheus Discord server](https://discord.com/channels/1151741790408429580/1183666837460897832).
 
 
