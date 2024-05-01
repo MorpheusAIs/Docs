@@ -21,13 +21,11 @@
 ---
 
 ## Contents:
-1) [Obtaining test tokens](#mint-test-tokens)
-2) [Adding tokens to Metamask](#add-tokens-to-metamask) 
-3) [Connecting to Uniswap](#connect-wallet-to-uniswap)
-4) [Swapping tokens](#how-to-swap-tokens-on-uniswap)
-5) [Adding liquidity](#how-to-add-liquidity-to-uniswap)
-6) [Removing or decreasing liquidity](#how-to-remove-or-decrease-liquidity-from-uniswap)
-7) [Increasing and decresing added liquidity](#how-to-increase-liquidity-on-uniswap)
+1) [General questions](#general-questions)
+2) [MOR token and liquidity](#mor-token-and-liquidity) 
+3) [Capital contributors](#capital-contributors)
+4) [Code providers](#code-providers)
+5) [Compute and node running](#compute-and-node-running)
 
 ---
 
@@ -42,7 +40,6 @@ Smart Agent is a term to describe a general purpose AI that can execute Smart Co
 **Who are the founders?**  
 There are no founders. The anonymous authors who called themselves Morpheus, Trinity, and Neo published [the paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md) on September 2nd, 2023, marking the beginning of Morpheus.
 
-
 **Who is on the team?**  
 There is no formal team, company or foundation. Morpheus is fully decentralized and driven by a community of open source contributors.
 
@@ -56,33 +53,34 @@ At the moment, there are no such plans, but it's not ruled out in the future.
 Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. Morpheus is chain agnostic by design, there will be more chains and assets integrated later.
 
 **How can I earn MOR?**  
-By becoming a contributor in one of four categories
-- Capital provider
-- Code provider
-- Community app (interfaces and tools) builder
-- Compute provider
+By becoming a contributor in one of four categories:
+- Capital provider.
+- Code provider.
+- Community app (interfaces and tools) builder.
+- Compute provider.
 
 **What is the purpose of each category of contributors?**  
-- code providers contribute to Morpheus code base for ongoing development, upgrades and improvements;
-- compute providers provide the main resource for AI, which is computation;
-- builders of interfaces, tools and smart agents ensure utilization of network resources and produce innovative AI solutions for users;
-- capital providers generate liquidity streams for the ecosystem.
+- Code providers contribute to Morpheus code base for ongoing development, upgrades and improvements.
+- Compute providers provide the main resource for AI, which is computation.
+- Builders of interfaces, tools and smart agents ensure utilization of network resources and produce innovative AI solutions for users.
+- Capital providers generate liquidity streams for the ecosystem.
 
 **Who can I contact regarding cooperation/marketing proposals?**  
 As the open source project, Morpheus doesn’t have a team or a person responsible for collaborations. You don't need anyone's permission to talk about Morpheus or add value as a Contributor. 
 
 **What is MOR20?**  
-MOR20 is a smart contract standard projects can utilize for fair launches.
+MOR20 is a smart contract standard projects can utilize for fair launches.  
 Please visit the [MOR20 page](https://mor.org/MOR20) for more information.
 
 **Is there a bug bounty program?**  
-There is. White hackers can get up to $150,000 as reward for eligible discoveries in proportion to the severity of the vulnerability. Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md)
+There is. White hackers can get up to $150,000 as reward for eligible discoveries in proportion to the severity of the vulnerability.  
+Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md)
 
 **Are Morpheus contracts audited?**  
 Yes, all Morpheus’ contracts undergo three tier audit process:
-- internal testing
-- specialized cybersecurity company audit
-- [bug bounty](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports) 
+- internal testing;
+- specialized cybersecurity company [audits](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports);
+- bug bounty.
 
 **Where can I find a list of key Morpheus links?**  
 There is dedicated channel [#verified-links](https://discord.com/channels/1151741790408429580/1183934719155515463) in discord.
@@ -101,7 +99,7 @@ MOR is the underlying utility token of the Morpheus network.
 The main utility of the MOR token is access to the network compute resources for holders and rewards for ecosystem contributors. You will also be able to stake MOR towards frontends and smart agents you like, thereby directing community emissions to them and be rewarded in their native tokens. Additionally, MOR will be the main asset for AI projects launched in the Morpheus ecosystem, like ETH for Ethereum. Finally, all settlements between parties are also in MOR.
 
 **Was there a presale, and what is the vesting schedule?**  
-There was no presale, premine or any type of token allocations as it’s a fair launch.
+There was NO presale, premine or any type of token allocations as it’s a fair launch.
 
 **What is a fair launch?**  
 It's a method of launching the Morpheus project with equal conditions for all participants, without premine and allocations for the team, founders, investors, etc. MOR tokens can only be earned or purchased.
@@ -110,18 +108,18 @@ It's a method of launching the Morpheus project with equal conditions for all pa
 42,000,000 tokens that will be released over 16 years.
 
 **Can I know more about tokenomics?**  
-Emissions curve starts at 14,400 MOR per day and decreases by 2.468994701 MOR each day until the reward reaches 0 on day 5,833 (~16 years)
-- 3,456 MOR per day for Capital Providers
-- 3,456 MOR per day for Code Providers
-- 3,456 MOR per day for Compute Providers
-- 3,456 MOR per day for Community Providers
-- 576 MOR per day for Protection Fund
+Emissions curve starts at 14,400 MOR per day and decreases by 2.468994701 MOR each day until the reward reaches 0 on day 5,833 (~16 years):
+- 3,456 MOR per day for Capital Providers;
+- 3,456 MOR per day for Code Providers;
+- 3,456 MOR per day for Compute Providers;
+- 3,456 MOR per day for Community Providers;
+- 576 MOR per day for Protection Fund.
 
 **How to buy MOR?**  
 You can buy MOR on the Uniswap exchange on the Arbitrum chain after May 8th. 
 
 **In which trading pair will liquidity be deployed?**  
-It’s wETH/MOR
+It’s wETH/MOR.
 
 **When will Morpheus be listed on centralized exchanges, like Binance?**  
 It’s best to ask the exchange representatives directly as they make the listing decisions.
@@ -141,7 +139,6 @@ You need to deposit stETH into the Morpheus contract.
 
 **What is stETH?**  
 stETH is a yield generating token that represents an Ethereum token that is staked in Lido.
-
 
 **How do I get stETH?**  
 stETH can either be minted directly through the Lido or bought on exchanges.
@@ -183,7 +180,7 @@ Daily emissions for Capital providers (~3400 MOR) are divided proportionally to 
 **How can I claim my rewards?**  
 You will need to visit the website https://dashboard.mor.org and click on the "Claim MOR" button, which will become active after 12:00 UTC on May 8th. 
 
-Are there any limitations for MOR reward claims, like token lock or vesting?**  
+**Are there any limitations for MOR reward claims, like token lock or vesting?**   
 No, there are no limitations.
 
 **Where can I check my MOR earnings?**  
