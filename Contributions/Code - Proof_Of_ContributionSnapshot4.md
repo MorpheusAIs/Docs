@@ -46,9 +46,11 @@ Example fields below:
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
 > [!IMPORTANT]  
-> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. 
+> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to.
+>  
 > One MRI = one entry.
-> Don't combine multiple MRIs in a single line. Break out contributions into their own line in the table.
+> 
+> Don't combine multiple MRIs in a single line. Break out contributions into their own line in the table.  
 
 - **MRI Number 1:** [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
   - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston) 
