@@ -88,6 +88,9 @@ There is dedicated channel [#verified-links](https://discord.com/channels/115174
 **Where can I get support and ask questions?**  
 Community members would love to assist you in [#tech-support](https://discord.com/channels/1151741790408429580/1183666837460897832) discord channel.
 
+> [!WARNING]  
+> Beware of scams, anyone who message you with proposal to help is likely scammer. 
+
 ---
 
 ## MOR TOKEN AND LIQUIDITY
@@ -210,6 +213,9 @@ There are always risks with smart contracts like bugs or vulnerabilities. To ens
 
 **Who should I contact if I encounter difficulties?**  
 The community is always ready to provide support. Please describe your issue in the Discord [support channel](https://discord.com/channels/1151741790408429580/1183666837460897832)
+
+> [!WARNING]  
+> Beware of scams, anyone who message you with proposal to help is likely scammer. 
 
 ---
 
