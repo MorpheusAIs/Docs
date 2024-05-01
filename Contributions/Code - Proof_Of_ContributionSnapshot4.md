@@ -23,7 +23,8 @@ Theoretical Implied Value of a Weight = $0.407 USD per Weight (price is unknown 
 
 **Snapshot 4.** 
 April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $*.** (to be calculated at the end of the month) USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR). 
+The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
 
 > [!NOTE]
 > **Weights were rebased by 2,000 X at Snapshot 3 to create more granularity as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
@@ -88,3 +89,12 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 1 | [Morpheus-Lumerin-Node Smart Contracts](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/smart-contracts) | 100,000 | Smart contract development and deployment for provider registry, model registry, agent registry, MOR staking and compute sessions |
 | 0xa13984862467DCaa12c47b849C5Da4cB3a8d0915 | 1 | [Morpheus Architecture Guidance Doc](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)| 100,000 | Session router smart contract design updates, node architecture updates, smart contract updates to handle new compute tranche migration strategy |
 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
+
+
+
+
+
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
+| 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
+
