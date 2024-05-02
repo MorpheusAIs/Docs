@@ -93,17 +93,6 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 1 | [Morpheus-Lumerin-Node Smart Contracts](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/smart-contracts) | 100,000 | Smart contract development and deployment for provider registry, model registry, agent registry, MOR staking and compute sessions |
 | 0xa13984862467DCaa12c47b849C5Da4cB3a8d0915 | 1 | [Morpheus Architecture Guidance Doc](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)| 100,000 | Session router smart contract design updates, node architecture updates, smart contract updates to handle new compute tranche migration strategy |
 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
-
-
-
-
-
-
-
-
-
-
-
 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 8 | https://github.com/MorpheusAIs/Docs/pull/191, https://github.com/MorpheusAIs/Docs/pull/194, https://github.com/MorpheusAIs/Docs/pull/195, https://github.com/MorpheusAIs/Docs/pull/196 | 55000 | Sorting of contributions by snapshots, detecting duplicates, mismatches, and outdated entries, developing and creating new table forms for contributions, updating links, and adding content in contributor guides, consulting contributors on improved weights calculation system, help with mor.org prepare to launch |
 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 1 | https://github.com/MorpheusAIs/Docs/pull/208, https://github.com/MorpheusAIs/Docs/pull/229 | 44000 | Assistance in designing smart contracts and liquidity deployment internal test process, creation of community test guide for Uniswap, creation of community MOR claim test guide, creation of community mainnet MOR claim guide, smart contract testing |
 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | 9 | https://github.com/MorpheusAIs/MRC/pull/39, https://github.com/MorpheusAIs/MRC/pull/44, https://github.com/MorpheusAIs/MRC/pull/43, https://github.com/MorpheusAIs/SmartContracts/pull/30, https://github.com/MorpheusAIs/Docs/pull/203, https://github.com/MorpheusAIs/MRC/pull/50, https://github.com/MorpheusAIs/Docs/pull/191, https://github.com/MorpheusAIs/Morpheus/pull/663, https://github.com/MorpheusAIs/Morpheus/pull/229, https://github.com/DefiLlama/DefiLlama-Adapters/pull/10065 
