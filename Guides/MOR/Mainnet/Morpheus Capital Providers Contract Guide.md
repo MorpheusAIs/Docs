@@ -1,23 +1,31 @@
-# The purpose of the guide is to pass you through the process of direct interaction with the Morpheus Capital Providers Distribution Contract 
+# Morpheus Capital Providers Contract Guide
+
+## Introduction
+The purpose of the guide is to pass you through the process of direct interaction with the Morpheus Capital Providers Distribution Contract.
 
 ## Table of contents
-1) Smart Contracts Addresses (Ethereum mainnet).
+1) Smart Contracts addresses.
 2) How to get stETH?
-3) How to deposit stETH into the contract? **DO NOT SEND stETH DIRECTLY TO THE CONTRACT ADDRESS**
-4) Please note: **If you deposit additional stETH the 7 day withdraw clock is restarted for all your stETH from that address.**
-5) What is the amount of MOR rewards earned? 
-6) How can I get information about how much I have deposited?
-7) How to withdraw stETH from the contract?
+3) How to deposit stETH into the contract? 
+4) What is the amount of MOR rewards earned? 
+5) How can I get information about how much I have deposited?
+6) How to withdraw stETH from the contract?
 
+---
 
-## Smart Contracts Addresses (Ethereum mainnet)
+## Smart Contracts Addresses 
+**Ethereum:**
 - Morpheus Distribution Contract: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790) 
 - stETH Contract: [0xae7ab96520de3a18e5e111b5eaab095312d7fe84](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)
+
+---
 
 ## How to get stETH?
 First a user must get staked ETH from [Lido](https://lido.fi/). You can easily get this by swapping ETH for stETH on the Ethereum mainnet by following instructions at their website.  
 
 A user may also buy stETH on different exchanges that support it.  
+
+---
 
 ## How to deposit stETH into the contract?
 You need to go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract, open the “Contract” tab, then the “Write as Proxy” tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
@@ -43,6 +51,11 @@ As parameters:
 
 Click “**Write**” and confirm a transaction.
 
+> [!IMPORTANT]
+> **DO NOT SEND stETH DIRECTLY TO THE CONTRACT ADDRESS**  
+> If you deposit additional stETH the 7-days lock-up is restarted for all your deposited stETH from that address.
+
+---
 
 ## What is the amount of MOR rewards earned? 
 You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the “Contract” tab, then the “Read as Proxy” tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
@@ -51,12 +64,14 @@ You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af988
 
 The rewards are earned every block and to check the amount, you need to call the `getCurrentUserReward` function, where you need to enter pool number (`0`) and your address (or the address of the user you want to know about). Click "**Query**". As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com to help you. 
 
+---
 
 ## How can I get information about how much I have deposited? 
 The second function will show how many tokens have been invested by the user, the parameters are similar to the previous function call. The name of the function is `usersData()`. Click "**Query**". Your deposited amount is indicated in WEI next to `deposited` line.
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/main/MorpheusGuide/deposited.png)
 
+---
 
 ## How to withdraw stETH from the contract?
 `Reminder: you can withdraw funds no earlier than 7 days after the deposit`  
@@ -71,3 +86,8 @@ As parameters:
 - `amount_`: amount of tokens in WEI. You can use this unit converter calculator https://eth-converter.com. In the example on the picture, 0.1 stETH indicated in WEI.
 
 Click “**Write**” and confirm a transaction.
+
+---
+
+> [!NOTE]  
+> In case you faced with difficulties, find something unclear or have questions, you can get assistance in [Morpheus Discord server](https://discord.com/channels/1151741790408429580/1183666837460897832).
