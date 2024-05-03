@@ -52,7 +52,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution                                                                                                                                                                                                                           |
 | -------------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0xA6D60da9ed25509092bA912b523F812E109F3C9c | https://github.com/MorpheusAIs/pwa/pull/3 | 10 | PWA: new pages and chat integration |
+| 0xA6D60da9ed25509092bA912b523F812E109F3C9c | https://github.com/MorpheusAIs/pwa/pull/3 | 20000 | PWA: new pages and chat integration |
 | 0xA6D60da9ed25509092bA912b523F812E109F3C9c | https://github.com/MorpheusAIs/pwa/pull/2 | 40 | Converted mor.org to PWA |
 | 0x75AdC3921610A67538538Dd5d06a4f4a66108583 | https://github.com/MorpheusAIs/Docs/pull/1 | 5 | Moved documents from Morpheus to Docs repo |
 | 0x3a3539aDDCB51a5b1050A3Ca673fBf3d0fb7b005 | Farcaster setup | 2 | Setting up and subscribing to a Farcaster channel - https://warpcast.com/~/channel/mor|
