@@ -21,20 +21,22 @@ The purpose of the guide is to pass you through the process of direct interactio
 ---
 
 ## How to get stETH?
-First, a user must get staked ETH from [Lido](https://lido.fi/). You can easily get this by swapping ETH for stETH on the Ethereum mainnet by following instructions at their website.  
-A user may also buy stETH on different exchanges that support it.  
+First, a user must get stETH (staked ETH) from [Lido](https://lido.fi/).  
+
+You can get this by swapping ETH for stETH on the Ethereum mainnet by following instructions at their website or buy stETH on different exchanges that support it.  
 
 ---
 
 ## How to deposit stETH into the contract?
-You need to go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+You need to go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab.   
+Don't forget to connect your wallet, which should have enough native token to pay for gas.
 
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/approval.png" width=70% height=70%>
 
 Before contributing, you need to give the distribution contract an **"approval"** to transfer your stETH tokens.   
 It is necessary to select the `approve()` function that will add allowance for Distribution contract.  
 As parameters:
-- `spender`: **Distribution contract** address - `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790`
+- `spender`: **Distribution contract** address: `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790`
 - `amount`: amount of tokens in WEI. Should be more or equal to the deposited amount.
   
 You can use this unit converter calculator https://eth-converter.com to help you. In the example on picture, it's 1 ETH in WEI.
@@ -48,7 +50,7 @@ Don't forget to connect your wallet, which should have enough native token to pa
 
 It is necessary to select the `stake()` function that will deposit stETH tokens to the smart contract.   
 As parameters:
-- `poolId_`: pool identifier, allowed only existed and public pools; enter `“0”`;
+- `poolId_`: pool identifier, enter `“0”`for capital providers pool.
 - `amount_`: amount of tokens in WEI. (the same or less than amount you approved)
 
 Click “**Write**” and confirm a transaction.
@@ -60,18 +62,25 @@ Click “**Write**” and confirm a transaction.
 ---
 
 ## What is the amount of MOR rewards earned? 
-You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **“Contract”** tab, then the **“Read as Proxy”** tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+
+You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **“Contract”** tab, then the **“Read as Proxy”** tab. Don't forget to connect your wallet by clicking **"Connect to Web3"** button.
 
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/rewards.png" width=70% height=70%>
 
-The rewards are earned every block and to check the amount, you need to call the `getCurrentUserReward` function, where you need to enter pool number (`0`) and your address (or the address of the user you want to know about). 
-Click "**Query**". As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com to help you. 
+The rewards are earned every block and to check the amount, you need to call the `getCurrentUserReward` function, where you need to enter pool number `0` and your address (or the address of the user you want to know about). 
+
+Click "**Query**".  
+As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com. 
 
 ---
 
 ## How can I get information about how much I have deposited? 
-The second function will show how many tokens have been invested by the user, the parameters are similar to the previous function call. The name of the function is `usersData()`.   
-Click "**Query**". Your deposited amount is indicated in WEI next to `deposited` line.
+
+You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **“Contract”** tab, then the **“Read as Proxy”** tab. Don't forget to connect your wallet by clicking **"Connect to Web3"** button.
+
+Select the `12.usersData()` function that will show how many tokens have been invested by the user, enter your wallet address and `0` number of pool. 
+
+Click "**Query**". Your deposited amount will be indicated in WEI next to `deposited` line.
 
 ![DistributionContract](https://github.com/antonbosss/fantastic-bassoon/blob/main/MorpheusGuide/deposited.png)
 
@@ -82,18 +91,20 @@ Click "**Query**". Your deposited amount is indicated in WEI next to `deposited`
 > [!Note] 
 > You can withdraw funds no earlier than 7 days after the deposit.
 
-You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab.  
+Don't forget to connect your wallet, which should have enough native token to pay for gas.
 
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/withdraw.png" width=70% height=70%>
 
 It is necessary to select the `withdraw()` function that will withdraw the required number of stETH.  
 As parameters:
-- `poolId_`: pool identifier; enter "0" for test purpose;
-- `amount_`: amount of tokens in WEI. You can use this unit converter calculator https://eth-converter.com. In the example on the picture, 0.1 stETH indicated in WEI.
+- `poolId_`: pool identifier; enter `0` for capital providers pool;
+- `amount_`: amount of tokens in WEI. You can use this unit converter calculator https://eth-converter.com.   
+In the example on the picture, 0.1 stETH indicated in WEI.
 
 Click “**Write**” and confirm a transaction.
 
 ---
 
-> [!NOTE]  
-> In case you faced with difficulties, find something unclear or have questions, you can get assistance in [Morpheus Discord server](https://discord.com/channels/1151741790408429580/1183666837460897832).
+> [!TIP]  
+> **In case you faced with difficulties, find something unclear or have questions, you can get assistance in** [**Morpheus Discord server**](https://discord.com/channels/1151741790408429580/1183666837460897832).
