@@ -5,7 +5,7 @@
 2) [**Get information about MOR rewards**](#what-is-the-amount-of-mor-rewards-earned)
 3) [**Claim MOR rewards**](#how-to-claim-rewards)
 4) [**Get Mock MOR on Arbitrum chain**](#how-to-verify-that-i-received-tokens)
-5) [**Add to metamask**]
+5) [**Add to metamask**](#)
 
 ---
 
