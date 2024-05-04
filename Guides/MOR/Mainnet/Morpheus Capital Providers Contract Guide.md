@@ -4,12 +4,12 @@
 The purpose of the guide is to pass you through the process of direct interaction with the Morpheus Capital Providers Distribution Contract.
 
 ## Table of contents
-1) [Smart Contracts addresses](#smart-contracts-addresses)
-2) [How to get stETH?](#how-to-get-steth)
-3) [How to deposit stETH into the contract?](#how-to-deposit-steth-into-the-contract)
-4) [What is the amount of MOR rewards earned?](#what-is-the-amount-of-mor-rewards-earned)
-5) [How can I get information about how much I have deposited?](#how-can-i-get-information-about-how-much-i-have-deposited)
-6) [How to withdraw stETH from the contract?](#how-to-withdraw-steth-from-the-contract)
+1) [**Smart Contracts addresses**](#smart-contracts-addresses)
+2) [**How to get stETH?**](#how-to-get-steth)
+3) [**How to deposit stETH into the contract?**](#how-to-deposit-steth-into-the-contract)
+4) [**What is the amount of MOR rewards earned?**](#what-is-the-amount-of-mor-rewards-earned)
+5) [**How can I get information about how much I have deposited?**](#how-can-i-get-information-about-how-much-i-have-deposited)
+6) [**How to withdraw stETH from the contract?**](#how-to-withdraw-steth-from-the-contract)
 
 ---
 
@@ -56,7 +56,7 @@ As parameters:
 Click “**Write**” and confirm a transaction.
 
 > [!IMPORTANT]
-> **DO NOT SEND stETH DIRECTLY TO THE CONTRACT ADDRESS**  
+> **DO NOT SEND stETH DIRECTLY TO THE CONTRACT ADDRESS AS IT WILL BE LOST**  
 > If you deposit additional stETH the 7-days lock-up is restarted for all your deposited stETH from that address.
 
 ---
@@ -108,3 +108,5 @@ Click “**Write**” and confirm a transaction.
 
 > [!TIP]  
 > **In case you faced with difficulties, find something unclear or have questions, you can get assistance in** [**Morpheus Discord server**](https://discord.com/channels/1151741790408429580/1183666837460897832).
+
+## Beware of scams, Morpheus has no tech support team, no support tickets and will not commence any airdrops. Anyone who message you with proposal to help is likely a scammer.
