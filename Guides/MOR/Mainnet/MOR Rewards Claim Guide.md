@@ -1,7 +1,7 @@
 # MOR Rewards Claim Guide
 
 ## Table of contents
-1) [**Smart Contract Addresse**s](#)
+1) [**Smart Contract Addresses**](#)
 2) [**Get information about MOR rewards**](#what-is-the-amount-of-mor-rewards-earned)
 3) [**Claim MOR rewards**](#how-to-claim-rewards)
 4) [**Get Mock MOR on Arbitrum chain**](#how-to-verify-that-i-received-tokens)
@@ -10,16 +10,13 @@
 ---
 
 ## Introduction
-This guide will walk you through the testing MOR rewards claim process starting from providing capital on Ethereum mainnet to obtaining MOR tokens on Arbitrum chain.   
-Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same. 
-
-Этот гайд описывает процесс прямого взаимодействия с контрактами Морфеус при помощи кошелька Метамаск
+This guide will walk you through the process of testing the MOR rewards claim, starting from providing capital on the Ethereum mainnet to obtaining MOR token rewards on the Arbitrum mainnet chain. The Metamask wallet is used as a reference in this guide, but the logic remains the same for other Web3 wallets.
 
 ---
 
 ## Smart Contract Addresses
 **Ethereum:**
-Distribution: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
+Distribution contract: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
 **Arbitrum:**
 MOR Token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
@@ -27,18 +24,26 @@ MOR Token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/addr
 ---
 
 ## How can I get information about how much I deposited? 
-You need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab. Don't forget to connect your wallet.
+You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab.  
+Don't forget to connect your wallet by clicking on **"Connect to Web3"** button.
 
-You need to call `12. usersData()` function that will show how many tokens have been deposited by users' address (or the address of the user you want to know about). Enter pool number (`0`) in `<input> (uint256)` field and your address in `<input> (address)`.  
+You need to call `12. usersData()` function that will show how many tokens have been deposited by your address (or the address of the user you want to know about). 
+
+As parameters:
+- `<input> (uint256)` - number of capital providers pool (`0`) 
+- `<input> (uint256)` - user wallet address
+  
 Click "**Query**".  
-Your deposited amount will be indicated in WEI next to `deposited` line.
+
+Your deposited amount will be indicated in WEI next to `deposited` line. To convert WEI amount you can use this tool https://eth-converter.com.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/deposited.png" width=55% height=55%>
 
 ---
 
-## What is the amount of MOR rewards earned? 
-You need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab. Don't forget to connect your wallet.
+## How much MOR have I earned as rewards?
+You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab.  
+Don't forget to connect your wallet by clicking on **"Connect to Web3"** button.
 
 The rewards are earned every block and to check the amount, you need to call the `2. getCurrentUserReward` function, where you need to enter pool number (`0`) in `poolId_ (uint256)` and your address in `user_ (address)`.  
 Click "**Query**".  
