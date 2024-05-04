@@ -1,11 +1,11 @@
-# MOR Rewards Claim Guide (in work)
+# MOR Rewards Claim Guide
 
->[!NOTE]
-> - The purpose of the testing is to familiarize users with the MOR claim process with direct interaction with smart contracts.
-> - This testing is conducted on the Ethreum and Arbitrum mainnet (!). Completing all the steps may require $15-25 (at 10-15 gwei gas price) in ETH for fees, depending on network condition.
-> - Please note that this testing is not incentivized, and participants will not receive any rewards.
-> - Test tokens have no value and intended fot test purpose only.
-> 
+## Table of contents
+1) [**Smart Contract Addresse**s](#)
+2) [**Get information about MOR rewards**](#what-is-the-amount-of-mor-rewards-earned)
+3) [**Claim MOR rewards**](#how-to-claim-rewards)
+4) [**Get Mock MOR on Arbitrum chain**](#how-to-verify-that-i-received-tokens)
+5) [**Add to metamask**]
 
 ---
 
@@ -13,16 +13,11 @@
 This guide will walk you through the testing MOR rewards claim process starting from providing capital on Ethereum mainnet to obtaining MOR tokens on Arbitrum chain.   
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same. 
 
-There are following steps:
-1) [Get information about MOR rewards](#what-is-the-amount-of-mor-rewards-earned)
-2) [Claim MOR rewards](#how-to-claim-rewards)
-3) [Get Mock MOR on Arbitrum chain](#how-to-verify-that-i-received-tokens)
-4) Add to metamask
-
+Этот гайд описывает процесс прямого взаимодействия с контрактами Морфеус при помощи кошелька Метамаск
 
 ---
 
-## Smart Contracts Addresses
+## Smart Contract Addresses
 **Ethereum:**
 Distribution: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
@@ -70,7 +65,7 @@ Click **"Write"** and confirm a transaction.
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/claim.png" width=55% height=55%>
 
 >[!NOTE]
-> It may take a few minutes for your rewards to appear in your wallet on the Arbitrum chain.
+> After your Ethereum transaction is confirmed, it may take up to 15 minutes for MOR to appear in your wallet on the Arbitrum chain.
 
 ---
 
@@ -81,7 +76,7 @@ It is necessary to call the function `6. balanceOf()` and specify in the `accoun
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/mor%20balance.png" width=55% height=55%>
 
-Another way of checking is to add Mock MOR token in your Metamask token list. To do this, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill Mock MOR token contract address `0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E`
+Another way of checking is to add MOR token in your Metamask token list. To do this, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill Mock MOR token contract address `0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E`
 
 ---
 
