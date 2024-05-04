@@ -68,6 +68,7 @@ NOUS Research
 Ora(Previously HyperOracle)
 Lumerin
 OKX wallet
+Tensorplex (LST)
 
 **Compute**
 Akash
@@ -81,6 +82,12 @@ Hive network
 Shinkai
 Assisterr
 Vold
+Genlayer
+Minima
+Boltzmann
+Exo
+Synesis One
+Creator bid
 
 **Data**
 Syntropy
@@ -100,11 +107,19 @@ Polygon
 BSC
 Rango
 Kintsu
+Genlayer
 
 **Inference**
 Livepeer
 HyperSpaceAI
 6079
+Netmind
+
+**MOR20**
+Genlayer
+Chainlink
+Synesis One
+Creator bid
 
 ## Morpheus Request for Comments (MRC)
 List of proposals for specific technical functions and integrations for Decentralized AI.
