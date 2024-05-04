@@ -27,11 +27,9 @@ MOR Token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/addr
 You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab.  
 Don't forget to connect your wallet by clicking on **"Connect to Web3"** button.
 
-You need to call `12. usersData()` function that will show how many tokens have been deposited by your address (or the address of the user you want to know about). 
-
-As parameters:
-- `<input> (uint256)` - number of capital providers pool (`0`) 
-- `<input> (uint256)` - user wallet address
+You need to call `12. usersData()` function that will show how many tokens have been deposited by your address (or the address of the user you want to know about) and put as parameters:
+- `<input> (uint256)`: pool identifier; enter (`0`) for capital providers pool;
+- `<input> (uint256)`: user wallet address.
   
 Click "**Query**".  
 
@@ -45,27 +43,28 @@ Your deposited amount will be indicated in WEI next to `deposited` line. To conv
 You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **"Contract"** tab, then the **"Read as Proxy"** tab.  
 Don't forget to connect your wallet by clicking on **"Connect to Web3"** button.
 
-The rewards are earned every block and to check the amount, you need to call the `2. getCurrentUserReward` function, where you need to enter pool number (`0`) in `poolId_ (uint256)` and your address in `user_ (address)`.  
+The rewards are earned every block and to check the amount, you need to call the `2.getCurrentUserReward` function and put as parameters:
+- `poolId_ (uint256)`: pool identifier; enter (`0`) for capital providers pool;
+- `user_ (address)`: user wallet address.
+  
 Click "**Query**".  
-As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com to help you.
+
+As a result, you will find out how many rewards there are at the moment. Amount is in WEI and you can use this unit converter calculator https://eth-converter.com..
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/rewards.png" width=55% height=55%>
-
->[!NOTE]
-> The speed of awarding awards has been artificially increased many times for testing purposes.
 
 ---
 
 ## How to claim rewards?
-We need to go to the [Distribution](https://etherscan.io/address/0x2e1fF173085A5ef12046c27E442f12f79A0092b7#writeProxyContract) contract, open the **"Contract"** tab, then the **"Write as Proxy"** tab.  
-Don't forget to connect your wallet, which should have enough native token to pay for gas.
+Yoy need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract, open the **"Contract"** tab, then the **"Write as Proxy"** tab.  
+Don't forget to connect your wallet by clicking on **"Connect to Web3"** button, which should have enough native token to pay for gas.
 
 Call the `claim()` function and put as parameters:
 - `claim`: here you need to specify the amount of native token in ETH that you will send with the transaction and that will be used as payment for the gas for a mint on the destination network. You can specify more, the remainder will be returned to the sender;
-- `poolId_`: pool identifier; enter "0" for test purpose;
-- `receiver_(address)`: the address of the user for whom the tokens will be minted.
-  
-Click **"Write"** and confirm a transaction.  
+- `poolId_`: pool identifier; enter (`0`) for capital providers pool;
+- `receiver_(address)`: the address of the user for whom the tokens will be minted. **Double check the address as transaction is irreversible.**
+
+Click **"Write"** and confirm the transaction.  
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/claim.png" width=55% height=55%>
 
@@ -75,18 +74,22 @@ Click **"Write"** and confirm a transaction.
 ---
 
 ## How to verify that I received tokens?
-Switch your wallet to Arbitrum mainnet and go to [Mock MOR](https://arbiscan.io/address/0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E) token contract. Open the **"Contract**" tab, then the **"Read Contract"** tab. 
+Switch your wallet to Arbitrum chain, 
 
-It is necessary to call the function `6. balanceOf()` and specify in the `account (address)` field your address. As a result, you will find out how many tokens are on the wallet reflected in WEI.
+Go to [MOR](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86) token contract. Open the **"Contract**" tab, then the **"Read Contract"** tab. 
+
+It is necessary to call the function `6. balanceOf()` and specify in the `account (address)` field your address. 
+
+Click "**Query**".  
+
+As a result, you will find out how many tokens are on the wallet reflected in WEI. To convert WEI amount you can use this tool https://eth-converter.com.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/mor%20balance.png" width=55% height=55%>
 
-Another way of checking is to add MOR token in your Metamask token list. To do this, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill Mock MOR token contract address `0x3c3A26c978Bf6AF40D7c1A36e9cBD3C1c055786E`
-
 ---
 
-## Add tokens to Metamask (optional)
-In case you want to see Mock stETH tokens in your Metamask wallet, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and add smart Mock stETH contract address: `0x7EC3dda3e83dDD4b9f2cFCfF0A5213Bb8cf31b79`   
+## Add tokens to Metamask
+In case you want to see MOR tokens in your Metamask wallet, you need to follow steps from the [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and add MOR smart contract address: `0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86`   
 
 
 > [!NOTE]  
