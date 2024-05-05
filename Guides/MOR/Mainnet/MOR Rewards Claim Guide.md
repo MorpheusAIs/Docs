@@ -80,9 +80,9 @@ To convert WEI you can use this tool https://eth-converter.com.
 ---
 
 ## Add MOR to Metamask
-To add MOR token to your Metamask wallet token list, you need to follow steps from the [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and add MOR smart contract address: `0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86`.
+To add MOR token to your Metamask wallet token list, you need to follow steps from the [guide](https://support.metamask.io/managing-my-tokens/custom-tokens/how-to-display-tokens-in-metamask/#how-to-add-a-custom-token) and add MOR smart contract address: `0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86`.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/mor%20balance.png" width=55% height=55%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/import%20MOR.png" width=45% height=45%>
   
 ---
 
