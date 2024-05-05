@@ -1,17 +1,16 @@
-# MOR Token Uniswap Testing Guide
+# MOR Uniswap Swap Guide
 
->[!NOTE]
-> - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
-> - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees, depending on network condition.
-> - Please note that this testing is not incentivized, and participants will not receive any rewards.
-> - Test tokens have no value and intended fot test purpose only.
+>[!WARNING]
+> **Trading on decentralized exchanges like Uniswap involves inherent risks, including but not limited to slippage and liquidity risk, smart contract risk, and impermanent loss. It's advisable to do your research and understand the risks before engaging in any trading activities.**
 
 ---
 
 ## Introduction
-This guide will walk you through the testing main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet, but for other Web3 wallets logic remains the same.
+This guide will walk you through the main Uniswap functions as swap tokens, add, remove, increase and decrease liquidity with Metamask wallet, but for other Web3 wallets logic remains the same.
 
-There are following steps:
+---
+
+## Table of contents
 1) [Obtaining test tokens](#mint-test-tokens)
 2) [Adding tokens to Metamask](#add-tokens-to-metamask) 
 3) [Connecting to Uniswap](#connect-wallet-to-uniswap)
@@ -35,8 +34,8 @@ Arbitrum mainnet:
 
 ---
 
-## Switch Metamask to Arbitrum chain
-You should choose Arbitrum chain in the chain list or add it using [Chainlist](https://chainlist.org/chain/42161) service and clicking **“Add to Metamask”**.  
+## Switch Metamask to the Arbitrum chain
+Switch your wallet to the Arbitrum chain. If the Arbitrum chain is not added yet, use [ChainList](https://chainlist.org/?search=Arbitrum) and click **"Add to Metamask".**  
 
 You need to have $1-3 in ETH for fees. You can bridge ETH from other chain or buy it on CEX. 
 
