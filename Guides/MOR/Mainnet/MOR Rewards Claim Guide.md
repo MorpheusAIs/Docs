@@ -15,11 +15,11 @@ This guide will walk you through the process of claiming MOR rewards on the Ethe
 ---
 
 ## Smart Contract Addresses
-**Ethereum:**
-Distribution contract: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
+**Ethereum:**  
+Distribution contract: [**0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790**](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
-**Arbitrum:**
-MOR Token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
+**Arbitrum:**  
+MOR Token: [**0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86**](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
 
 ---
 
