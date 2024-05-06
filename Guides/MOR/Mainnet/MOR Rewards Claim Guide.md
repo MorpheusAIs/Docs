@@ -29,7 +29,7 @@ You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af988
 Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button.
 
 The rewards are earned every block and to check the amount, you need to call the `2.getCurrentUserReward` function and input parameters:
-- `poolId_ (uint256)`: pool identifier; enter `0` for capital providers pool;
+- `poolId_ (uint256)`: pool identifier; enter `0` for capital providers pool or `1` for code providers pool;
 - `user_ (address)`: user wallet address.
   
 Click "**Query**"  
@@ -48,7 +48,7 @@ Don't forget to connect your wallet by clicking on the **"Connect to Web3"** but
 
 Find and call the `claim()` function and input the following parameters:
 - `claim`: **0.001** This is the amount of ETH that you will send with the transaction to pay for mint on the destination network. Any excess will be returned to you;
-- `poolId_`: pool identifier; enter `0` for capital providers pool;
+- `poolId_`: pool identifier; enter `0` for capital providers pool or `1` for code providers pool;
 - `receiver_(address)`: Input the address that will receive the minted MOR tokens. 
 
 > [!WARNING]  
