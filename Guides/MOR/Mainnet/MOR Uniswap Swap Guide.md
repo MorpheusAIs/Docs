@@ -11,7 +11,7 @@ This guide will familiarize you with the basic functions of the decentralized ex
 ---
 
 ## Table of contents
-1) [Smart Contract Addresses](#
+1) [Smart Contract Addresses](#smart-contract-addresses)
 3) [Connecting to Uniswap](#connect-wallet-to-uniswap)
 4) [Add MOR to Uniswap](#how-to-swap-tokens-on-uniswap)
 5) [Swap](#how-to-add-liquidity-to-uniswap)
