@@ -31,44 +31,41 @@ As each MRI focuses on a different level of technical expertise, knowledge, and 
 - Generates a healthy level of competition among MRIs, both existing and new ones, to demonstrate and deliver the highest value to Morpheus
 
 ## Allocation Methodology
-As detailed in the Code Contributor Weights Guide, https://github.com/MorpheusAIs/Docs/blob/9d3c789c2ed7511d04d07e1b5411d33edb55d5e7/Guides/Code%20Contributor%20Weights%20Guide.md, the maximum number of weights available for distribution varies monthly in Year 1, and then hits a consistent distribution starting in Year 2 - with this amount being adjusted each year. It is important to establish a fair and transparent process that will manage how weights are allocated among MRIs.
+As detailed in the Code Contributor Weights Guide, https://github.com/MorpheusAIs/Docs/blob/9d3c789c2ed7511d04d07e1b5411d33edb55d5e7/Guides/Code%20Contributor%20Weights%20Guide.md, a maximum number of weights available for distribution has been determined based on an emission schedule. While the maximum amounts have been calculated and set, it is important to establish a fair and transparent process that will manage how weights are allocated among MRIs.
 
-**Allocation Procedures** - The first month where the weights are allocated by MRI will have a default of an even distribution among each MRI. Subsequent months will use the default of the prior month percentage allocations. This will create smoother adjustments across MRIs as the prior month is most likely to resemble the upcoming month compared to any other data point. 
+**Allocation Procedures** - These allocation procedures are noted as the long-term steady state for allocation of weights. This will likely take several months to get fully up and running. In the meantime, the process will continue as it has via Atomic Governance. With that said, the following procedures are noted for the future state. 
 
-For any given month, the allocations can stray away from the default values. This may occur for a variety of reasons: MRIs could wind down or not have much activity expected in an upcoming month, there could be a strong push required to ramp up aspects of an MRI before a major launch or release, an MRI might naturally require more resources, or any other number of reasons.
+Allocations to each MRI will ultimately be determined by staking of the Morpheus token (“MOR”). This will further the goals of decentralization as everyone is equally free to obtain or sell MOR tokens as they see fit.
 
-In order to ensure transparency of the process, the following will be the general steps taken:
-1) Prior month percentage allocations are rolled forward to current month
-2) Any adjustments to number of weights are made (i.e. if MRI 1 has 10% and the total weights for the month drop from 2,500,000 to 2,000,000, then MRI 1 goes from 250,000 weights to 200,000 weights)
-3) Any MRI owner can submit their request for an adjustment in weights. The owner should specify the number of weights they would like to change as well as if there is a particular MRI they think those weights should come from, or if they are requesting an even spread across the other MRI owners.
-  - I.e. MRI owner 1 wants to request 50,000 additional weights for Month 4. They request that these additional weights come as 34,000 from MRI 2 and then 2,000 from MRIs 3 through 10.
-  - Or… MRI owner 1 wants to request 50,000 additional weights for Month 4. They don’t identify a specific MRI that the weights will come from so the implied result would be that the other 9 MRIs all give up 5,556 weights.
-4) Discussions take place among MRI owners and the community. These discussions will talk through the reasoning behind increases/decreases in weights for an MRI. It will give everyone a forum to raise questions, comments, and concerns, as perhaps a community member was planning a big contribution in an upcoming month that was previously unknown.
-5) If a general consensus is reached, then the weights will be adjusted as agreed upon.
-6) If no general consensus can be reached, then the default of the prior month remains in place.
-7) The GitHub maintainer reserves the right to make final decisions if there are varying viewpoints on the weight allocations.
-
-**Atomic Governance** - This document outlines the standard procedures to be followed in the ordinary course of operations. The goal is to create a transparent process that accurately allocates MRIs with weights according to need. However, there might be situations where a general consensus is not reached, but it is in Morpheus’ best interest to make an adjustment to the allocations nonetheless. In these types of situations, the GitHub Maintainer reserves the right to change weight allocations as they deem appropriate.
+In order to ensure transparency of the process, the below list will be the general steps taken. As technical development continues, this list will be continuously updated to reflect any changes.
+1) Anyone can buy or sell MOR tokens throughout the snapshot period.
+2) During the snapshot period, MOR token holders can stake their MOR to any MRI of their choosing.
+3) Staked MOR is used to direct the subsequent snapshot period. I.e. If you stake during the snapshot ending June 8, 2024, the results will direct the weight allocations for the snapshot ending July 8, 2024.
+4) Any staked tokens will be locked until the snapshot period ends.
+5) At the completion of the snapshot period, each MRI will be allocated the percent of the total monthly weights equal to the percent of MOR that was staked.
+  - For example, let's say 1,000,000 MOR was staked across all MRI's during the snapshot period ending June 8, 2024 when 1,432,725 total weights are available. If MRI 3 had 200,000 MOR staked, it would be allocated 20% of the weights (286,545 weights) for the upcoming snapshot period (ending July 8, 2024).
 
 ## Allocation Snapshot
 Similar to the Code Contributors Weights Snapshot used to track weights on a snapshot-by-snapshot basis. This will be updated each snapshot with the results posted to provide clear and transparent information to the community. When necessary, there will also be a small discussion section to highlight any particular notes - such as if there is a big need for weights in a specific MRI one month as a result of major developments.
 
 | MRI | MRC | GitHub Maintainer |Snapshot 5: Ending June 8, 2024|
 |--- |---|---|---|
-| Smart Contracts | Whitepaper | David Johnson | 225,000 |
-| Smart Agent Tools & Examples | Whitepaper | LachsBagel | 225,000 |
-| Morpheus Local Desktop/Mobile | Yellow Paper | BetterBrand | 225,000 |
-| TCM / MOR20 | TCM Paper | Anon 69 | 225,000 |
-| Protection Fund | Whitepaper | EnergyHound | 225,000 |
-| Capital Proofs Extending | Whitepaper | David Johnson | 225,000 |
-| Compute Proofs MOR / Lumerin | Yellowstone | Ryan Condron | 225,000 |
-| Code Proofs & Dashboards | Coding Guide  | David Johnson | 225,000 |
-| Frontend Proofs & Examples | Waterloo Paper | Erik Voorhees | 225,000 |
-| Interoperability | LayerZero | Anon 99 | 225,000 |
-|Total | Total | n/a | 2,250,000|
+| Smart Contracts | Whitepaper | David Johnson | 143,273 |
+| Smart Agent Tools & Examples | Whitepaper | LachsBagel | 143,273 |
+| Morpheus Local Desktop/Mobile | Yellow Paper | BetterBrand | 143,273 |
+| TCM / MOR20 | TCM Paper | Anon 69 | 143,273 |
+| Protection Fund | Whitepaper | EnergyHound | 143,273 |
+| Capital Proofs Extending | Whitepaper | David Johnson | 143,273 |
+| Compute Proofs MOR / Lumerin | Yellowstone | Ryan Condron | 143,273 |
+| Code Proofs & Dashboards | Coding Guide  | David Johnson | 143,273 |
+| Frontend Proofs & Examples | Waterloo Paper | Erik Voorhees | 143,273 |
+| Interoperability | LayerZero | Anon 99 | 143,273 |
+|Total | Total | n/a | 1,432,725 |
 
 ## Additional Considerations
-**Unused Monthly Weights** - If an MRI owner does not distribute all of the weights allocated to their MRI for a particular month, those weights stay with the MRI owner to distribute in a later month. This encourages each MRI owner to use their weights responsibly, without pressure to spend all their weights in a given month which may result in inefficient and unnecessary distributions. The expectation is that each MRI owner will run their MRI as a ‘business.’ They are trying to get the most value out of their allocated weights on behalf of their MRI as well as Morpheus as a broader ecosystem.
+**Unused Monthly Weights** - If an MRI owner does not distribute all of the weights allocated to their MRI for a particular month, those weights stay with the MRI owner to distribute in a later month. This encourages each MRI owner to use their weights responsibly, without pressure to spend all their weights in a given month which may result in inefficient and unnecessary distributions. The ultimate goal is  to get the most value out of weights for Morpheus and the broader ecosystem.
+
+**MOR Staking** - There are ongoing discussions and development in terms of staking the MOR token to direct the Community emissions to smart agents and front-ends. As this work progresses, it will be interconnected with the staking for MRI allocations as well. For example, will a MOR holder have to choose to stake for either MRI allocations or Community rewards or will they be able to stake for both using the same tokens. This will be flushed out in the coming months leading up to when MRI staking and Community staking go live.
 
 **Contributor Weight Submissions to MRI Maintainers** - Each MRI maintainer is in control of their budget, to use how they see fit. Their goal is to utilize weights related to their MRI to accomplish the objectives as laid out via the Code Contributor Weights guide. With that said, to help promote transparency and consistency across all the MRIs, and Morpheus as a whole, the following outline is offered as a suggestion on how to manage monthly weights by MRI. 
 
