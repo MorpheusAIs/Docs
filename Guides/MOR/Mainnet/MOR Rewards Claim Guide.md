@@ -59,8 +59,9 @@ Click **"Write"** and confirm the transaction.
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/claim.png" width=55% height=55%>
 
 >[!NOTE]
-> After your Ethereum transaction is confirmed, it may take up to 15 minutes for MOR to appear in your wallet on the Arbitrum chain.
-> This function claim the whole available balance, you can not claim in parts.
+> **After your Ethereum transaction is confirmed, it may take up to 15 minutes for MOR to appear in your wallet on the Arbitrum chain.**
+>
+> **This function claim the whole available balance, you can not claim in parts.**
 
 ---
 
