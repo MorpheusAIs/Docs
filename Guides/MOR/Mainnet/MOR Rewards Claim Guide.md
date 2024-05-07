@@ -60,6 +60,7 @@ Click **"Write"** and confirm the transaction.
 
 >[!NOTE]
 > After your Ethereum transaction is confirmed, it may take up to 15 minutes for MOR to appear in your wallet on the Arbitrum chain.
+> This function claim the whole available balance, you can not claim in parts.
 
 ---
 
