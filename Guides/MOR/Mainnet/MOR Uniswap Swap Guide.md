@@ -13,9 +13,9 @@ This guide will familiarize you with the basic functions of the decentralized ex
 ## Table of contents
 1) [Smart Contract Addresses](#smart-contract-addresses)
 3) [Connect to Uniswap](#connect-wallet-to-uniswap)
-4) [Add MOR to Uniswap](#how-to-swap-tokens-on-uniswap)
-5) [Swap tokens](#how-to-add-liquidity-to-uniswap)
-6) [Add MOR to Metamask](#how-to-remove-or-decrease-liquidity-from-uniswap)
+4) [Prepare to swap](#prepare-to-swap)
+5) [Swap tokens](#how-to-swap-tokens-on-uniswap)
+6) [Add MOR to Metamask](#add-mor-to-metamask)
 
 ---
 
@@ -46,7 +46,7 @@ Once approved your wallet will be connected!
 
 ---
 
-## How to swap tokens on Uniswap?
+## Prepare to swap
 Go to the Uniswap web app SWAP page [https://app.uniswap.org/swap](https://app.uniswap.org/swap?chain=arbitrum), search for and select tokens you wish to swap.
 
 > [!NOTE]
@@ -54,27 +54,30 @@ Go to the Uniswap web app SWAP page [https://app.uniswap.org/swap](https://app.u
 > 
 > **You can NOT swap MOR until 12:00 UTC May 8th**
 
-Click on **"You pay"** (token you want to sell) field drop-down menu and select wETH token (or another token you want to swap to MOR)
+Click on **You pay** (token you want to sell) field drop-down menu and select wETH token (or another token you want to swap to MOR)
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/select%20weth.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/select%20weth.png" width=75% height=75%>
 
-Perform the same actions with **"You receive"** (token you want to buy) field.  
+Perform the same actions with **You receive** (token you want to buy) field.  
 
 You will not be able to find MOR token in the list, so we need to add it manually. 
 
 For this, input MOR token smart contract address `0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86` into the search field and click on **MOR** to add it.
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/select%20mor.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/select%20mor.png" width=75% height=75%>
 
 If the warning message pops up, read it and click **I understand**. That is the standard warning for new tokens.
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/warning.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/warning.png" width=45% height=45%>
 
-Enter the amount of tokens you want to sell in **"You pay"** field, the amount of tokens you receive will calculate automatically accordingly to the current price.  
+
+## How to swap tokens on Uniswap?
+
+Enter the amount of tokens you want to sell in **You pay** field, the amount of tokens **You receive** will calculate automatically accordingly to the current price.  
 
 Check conditions, click **Swap.** 
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20weth%20mor.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/swap%20weth%20mor.png" width=45% height=45%>
 
 Approve spendings for the token you are swapping, sign message and confirm swap.  
 
@@ -83,7 +86,7 @@ For more information on token approvals see this [article](https://support.unisw
 > [!TIP]
 > The best cybersecurity practice is to approve only amount you want to spend.
 
-<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve%20weth.png" width=75% height=75%>
+<img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve%20weth.png" width=40% height=40%>
 
 After swap transaction is confirmed, you will see updated balances.  
 
