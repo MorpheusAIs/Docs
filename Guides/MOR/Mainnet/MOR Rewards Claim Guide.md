@@ -47,7 +47,7 @@ You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af988
 Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button. Make sure your wallet has enough ETH to cover gas fees.
 
 Find and call the `claim()` function and input the following parameters:
-- `claim`: **0.001** This is the amount of ETH that you will send with the transaction to pay for mint on the destination network. Any excess will be returned to you;
+- `claim`: **0.001** - this is the amount of ETH that you will send with the transaction to pay for mint on the destination network. Any excess will be returned to you;
 - `poolId_`: pool identifier; enter `0` for capital providers pool or `1` for code providers pool;
 - `receiver_(address)`: Input the address that will receive the minted MOR tokens. 
 
