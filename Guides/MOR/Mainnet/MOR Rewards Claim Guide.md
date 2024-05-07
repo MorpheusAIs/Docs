@@ -68,7 +68,7 @@ Click **"Write"** and confirm the transaction.
 ## How to verify that I have received tokens?
 Switch your wallet to the Arbitrum chain. If the Arbitrum chain is not added yet, use [ChainList](https://chainlist.org/?search=Arbitrum) and click **"Add to Metamask".**
 
-Go to [MOR](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86) token contract. Open the **"Contract**" tab, then the **"Read Contract"** tab. 
+Go to [MOR](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86#readContract) token contract. Open the **"Contract**" tab, then the **"Read Contract"** tab. 
 
 It is necessary to call the function `6. balanceOf()` and specify in the `account (address)` field your wallet address. 
 
