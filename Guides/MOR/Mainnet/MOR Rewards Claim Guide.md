@@ -4,7 +4,7 @@
 1) [**Smart Contract Addresses**](#smart-contract-addresses)
 2) [**Get information about MOR rewards**](#how-much-mor-have-i-earned-as-rewards)
 3) [**Claim MOR rewards**](#how-to-claim-rewards)
-4) [**Get Mock MOR on Arbitrum chain**](#how-to-verify-that-i-have-received-tokens)
+4) [**Get MOR on Arbitrum chain**](#how-to-verify-that-i-have-received-tokens)
 5) [**Add MOR to Metamask**](#add-mor-to-metamask)
 
 ---
