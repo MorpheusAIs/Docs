@@ -88,6 +88,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution |
 | -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  |  |  |  |
+| 0x49b6123a10b022d5847335d5ad32eb198a14bc58 | 4 | https://github.com/MorpheusAIs/MOR20/pull/2 | 8000 | Review of & documentation for provisional MOR20 smart contracts, deployment instructions |
 | 0xF5b439173415De7c5395FA6204c1Bbdeb1cbFa53 | MRI #9 | https://github.com/MorpheusAIs/DashBoard/pull/42 | 875 | Improve ux of deposit stEth button. Previously Website was showing disabled button when user had no sthEth which was very ambigious and could result in user churn due to misunderstanding. |
 | 0xA6D60da9ed25509092bA912b523F812E109F3C9c | 3 | [PWA]https://github.com/MorpheusAIs/pwa/pull/3 | 20,000 | PWA: new pages and chat integration |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | 9 | [MORLORD](https://morlord.com) | 100,000 | Public API endpoints for MOR.org, Marketplace UI prep for beta, community leaderboard |
