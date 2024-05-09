@@ -1,4 +1,34 @@
-Snapshot 2
+## Code Provider - Proof of Contribution Table Snapshot 2. 
+### Snapshot 2 - February 8th to March 8th 2024 
+
+This table is historical for Snapshot 2 and has now been closed for new entries.
+Please direct all new pull requests to the latest Snapshot document in the folder.
+
+> [!IMPORTANT]  
+> **If you would like to contribute please post to the latest snapshot after reading [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+&
+**[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**.
+
+## Snapshot Timelines and Implied Value of a Weight
+**Snapshot 1.** September 2nd 2023 to February 8th 2024  
+Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).  
+ 
+**Snapshot 2.** February 8th to March 8th 2024  
+Theoretical Implied Value of a Weight = $0.2 USD per Weight (price is unknown 1MOR = 1MOR).  
+
+> [!NOTE]
+> **Weights were rebased by 2,000 X at Snapshot 3 to create more granularity as fractions of weights were not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
+
+
+Description of Contributions.
+
+Example fields below:  
+
+`|               Wallet Address               |     Link to Work    | Weights Requested (weights) | Description of Contribution |`  
+`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Commit #127 | 50                          | Integration of ollama       |`
+
+
+## Code Contributions for Snapshot 2
  
  **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** 
 ---|---|---|---|---|---|---|---|---|---|---
