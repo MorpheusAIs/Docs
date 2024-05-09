@@ -6,7 +6,7 @@ Morpheus旨在激勵建立首個點對點 (peer-to-peer)的個人專屬AI網絡�
 
 爲了讓儘可能多的人使用到智能代理，並且推進代理基礎設施的去中心化，我們提出開發Morpheus網絡。Morpheus網絡將使用公平發行的代幣（“MOR”代幣），以激勵網絡的四大核心貢獻者——1) 構建互動界面的Builder社區 2) 爲Morpheus相關的軟件和代理貢獻代碼的程序員。3）提供流動性的資本提供方。4）提供計算、存儲和帶寬的供應方。比特幣和以太坊的經歷充分證明，基於稀缺數字代幣的自由、公開的競爭模式，可以爲公共區塊鏈的持續發展，提供長久、可擴展性極高的基礎設施支持。
 
-![MOREmissionSchedule](https://github.com/MorpheusAIs/Morpheus/assets/1563345/94c96cb0-b6e4-4c63-be46-39088c91e168)
+![Whitepaper Infographic 1 - Chinese Traditional](https://github.com/anggagilang11/docs/assets/62389945/124c626c-212b-42ac-b9a3-cfcbe7b395f5)
 
 
 ## 背景與歷史
@@ -46,9 +46,7 @@ MOR代幣的供應量限定爲最多4200萬個代幣。分配基於這四個羣�
 
 MOR代幣供應量上限爲42,000,000個代幣。分配將從所有四個組開始，通過向網絡提供工作證明（勞動）和權益證明（資本）來賺取代幣。沒有預挖任何代幣。沒有早期代幣銷售。只有公平發售。
 
-![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
-
-![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
+![Whitepaper Infographic 2 - Chinese Traditional](https://github.com/anggagilang11/docs/assets/62389945/4e3d1c76-d0bb-4239-8c43-3f58e5b13106)
 
 區塊獎勵將從每天14,400 MOR開始，並每天減少2.468994701 MOR，直到第5,833天獎勵降至0。屆時，大約16年後，如果Morpheus得到廣泛使用，費用將成爲主要的激勵機制——向用戶支付他們數據的費用，向計算提供商、資本提供商和開發者支付的費用。
 
@@ -64,8 +62,7 @@ MOR代幣的供應上限爲4200萬。每天14,400代幣均勻分配給社區用�
 
 剩餘的部分作爲保護協議的專項基金：每天576代幣。
 
-
-![MORSupplyCurve20231019](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/8994c389-dad1-4e46-9b63-e048da8ef172)
+![Whitepaper Infographic 3 - Chinese Traditional](https://github.com/anggagilang11/docs/assets/62389945/e0ea77de-b1cb-45e9-9d96-1d750da596ae)
 
 ## MOR代幣的功能
 
@@ -104,8 +101,8 @@ MOR旨在在Morpheus網絡的諸多環節中提供廣泛的用途。從根本來
 
 這不是一個準確的時間表，而是對每個階段大致的概述。社區的成長和成熟可能需要多年的時間，區塊獎勵在大約16年後終結。這個長期的分配計劃旨在讓代幣獎勵在全球範圍內得到非常儘可能廣泛的推廣。此外，區塊獎勵在漫長的時間中平緩下降，可以給所有參與者足夠的時間來規劃規模，平穩地叢早期的補貼性質的獎勵過渡到賺取費用的模式。
 
+![Whitepaper Infographic 4 - Chinese Traditional](https://github.com/anggagilang11/docs/assets/62389945/54f25db5-7b86-42ff-9820-3d787f9e08ca)
 
-![MorpheusDiagram4](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c261fcf9-366a-4f65-a89d-4fff83a76fe9)
 
 ## MOR的尾部發行
 MOR的尾部發行
