@@ -13,7 +13,8 @@ Eindelijk kan de gemiddelde gebruiker met zijn Smart Agent praten in normale taa
 
 Om Smart Agents voor iedereen toegankelijk te maken en de decentralisatie van hun infrastructuur te vergroten, stellen we de ontwikkeling van het Morpheus netwerk voor. Het Morpheus netwerk zal een eerlijk gelanceerd token (het "MOR" token) bevatten om de vier belangrijkste bijdragers aan het netwerk te stimuleren. Namelijk, de gemeenschap van bouwers die interfaces creëren, programmeurs die bijdragen aan de Morpheus software/agents, kapitaalverschaffers die liquiditeit toevoegen en degenen die berekeningen, opslag en bandbreedte leveren. De geschiedenis van Bitcoin en Ethereum heeft aangetoond dat vrije en open concurrentie voor schaarse digitale tokens een schaalbare infrastructuur kan bieden voor een publieke blockchain over een lange periode.
 
-![MorpheusNetworkDiagram](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img1-Dutch.png)
+![Whitepaper Infographic 1 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/c3df5153-c74f-4e03-ab1a-355590562a97)
+
 
 ## Context en geschiedenis
 Gevestigde bedrijven zoals OpenAI, Microsoft en Google werken met close-sourced large language models, brengen klanten licentiekosten in rekening en verdienen geld aan klantgegevens. Deze modellen zijn gecensureerd, kwetsbaar en werken in ommuurde tuinen. Er is veel vraag naar een open-source large language model dat gratis beschikbaar is. Llama, Falcon en andere open-source LLM's zijn onlangs uitgebracht en benaderen in hoog tempo de nauwkeurigheid van hun close-sourced concurrenten.
@@ -47,7 +48,7 @@ Coders - Zorg voor de intelligentie om de frontends, het kapitaal en de berekeni
 
 De MOR Token Voorraad is beperkt tot een maximum van 42.000.000 tokens die ooit zullen bestaan. De distributie zal beginnen met alle vier groepen die de tokens verdienen door vormen van bewijs van werk (arbeid) en bewijs van inzet (kapitaal) te leveren aan het netwerk. Geen pre-mine. Geen vroege tokenverkoop. Gewoon een eerlijke lancering.
 
-![MOREmissionsCurve2](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img2-Dutch.png)
+![Whitepaper Infographic 2 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/0b31d75e-3e59-4cd5-8ab8-058e6cfbda44)
 
 De blokbeloning begint op 14.400 MOR per dag en daalt dan elke dag met 2,468994701 MOR, totdat de beloning 0 bereikt op dag 5.833. Tegen die tijd (over ongeveer 16 jaar), mits Morpheus op grote schaal wordt gebruikt, zullen de vergoedingen het hebben overgenomen als de primaire stimulans. Vergoedingen betaald aan gebruikers voor hun gegevens, vergoedingen aan rekenproviders, vergoedingen aan kapitaalverstrekkers en vergoedingen aan programmeurs.
 
@@ -58,7 +59,8 @@ De blokbeloning begint op 14.400 MOR per dag en daalt dan elke dag met 2,4689947
 - 3.456 tokens voor kapitaal. Proof stETH rendement bijgedragen, 50% geswapt voor MOR & de rest opgesloten in de AMM als Liquidity Provider. 
 - 3.456 tokens voor de gemeenschap. Bewijs van het bouwen van front-end applicaties & tools die gebruikers betrekken.
 Met de rest opzij gezet voor beschermingsmiddelen: 576 tokens per dag voor dat doel.
-![5050version3](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img3-Dutch.png)
+
+![Whitepaper Infographic 3 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/e15a1ec4-3430-4ed5-a7b7-5545329f8c70)
 
 ## Het nut van het MOR-token
 Het doel is dat MOR breed bruikbaar is in veel van de functies van het Morpheus-netwerk. Als gevolg hiervan biedt het gebruik van het MOR-token een on-chain boekhoudmechanisme om beloningen te berekenen op basis van het werkelijke gebruik van de software.
@@ -89,7 +91,7 @@ Kapitaal - ETH opgesloten in een smart contract dat opbrengst genereert (ETH in 
 
 Merk op dat dit geen tijdlijn is. Elke fase is eerder een beschrijving van een deel van de levenscyclus. Het kan jaren duren voor de gemeenschap om te groeien en volwassen te worden door elke fase en de blokbeloning vervalt na ongeveer 16 jaar. Dit lange distributieschema is bedoeld om de tokens de tijd te geven om wereldwijd op een zeer brede basis beloond te worden. Ook geeft de soepele dagelijkse daling in blokbeloningen over vele jaren alle deelnemers de tijd om grotere schaal te bereiken en over te stappen van de vroege gesubsidieerde beloningen naar het uitsluitend werken op basis van de vergoedingen die ze verdienen.
 
-![MOREmissionSchedule](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img4-Dutch.png)
+![Whitepaper Infographic 4 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/faaed7f1-4ad8-4a78-a631-411dc9bd9605)
 
 ## Staartemissies van MOR
 Al sinds de lancering van Bitcoin discussiëren mensen over "wat gebeurt er als de blokbeloningen eindelijk stoppen?". Om dit nutteloze debat in de context van Morpheus te vermijden en om nieuwe programmeurs, gemeenschaps-, reken- en kapitaalverstrekkers tot ver in de toekomst op één lijn te houden, stellen we een "staartemissie" van MOR-tokens voor. Deze MOR staartemissie zal beginnen nadat de laatste MOR tokens zijn uitgegeven op dag 5.833 van het distributieschema.
@@ -106,16 +108,16 @@ Dit proces herhaalt zich tot in de eeuwigheid.
  
 Resultaat op lange termijn. Ongeveer 1% van de jaarlijkse MOR-beloningen (in verhouding tot het aantal MOR dat dan in omloop is) zal beschikbaar zijn voor toekomstige programmeurs, rekenkracht, gemeenschap & kapitaal.
 
-![MaxMORScenario25](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img5-Dutch.png)
+![Whitepaper Infographic 5 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/2d109de7-0986-4f72-986e-06092b5ec654)
 
 **BELANGRIJKE OPMERKING:** Dit verandert niets aan de aard van de harde leveringslimiet van 42 miljoen MOR. 
 Aangezien het staartemissieschema per definitie slechts een deel is van de verbrande MOR-tokens, kan de MOR-tokens alleen maar schaarser worden met elke periode van 5.833 dagen.
 
-![MOR25ScenarioV9](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img6-Dutch.png)
+![Whitepaper Infographic 6 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/bb0c9bc8-514d-46d5-b5b4-cc742bd72ac3)
 
 Hieronder wordt de verenigde MOR-aanvoerkromme getoond met de eerste periode van 5.833 dagen en de langstaartemissies van jaar 17 tot jaar 256. Uitgaande van het voorbeeld van een gemiddelde verbrandingssnelheid van 25% van MOR over de tijdperken.
 
-![MORSupplyCurve20231019](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img7-Dutch.png)
+![Whitepaper Infographic 7 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/4b45b2cd-5893-49e3-b686-271aff65019b)
 
 ## Bewijs van Gemeenschap, Code, Rekenen & Kapitaal
 De volledige Morpheus node wordt geleverd met een wallet of de gebruiker kan zijn bestaande wallet aansluiten. Dit stelt de gebruiker in staat om transacties te ondertekenen en te versturen die worden aanbevolen door hun Smart Agent. Gebruikers kunnen dus deelnemen aan de bewijzen via de Morpheus software. Kapitaalverschaffers zijn echter niet verplicht om bijvoorbeeld een volledige node te hebben. Ze kunnen direct communiceren met de Smart Contracts op Ethereum / Arbitrum met behulp van stETH.
@@ -176,7 +178,7 @@ De pro-rata MOR-transactievergoedingen die door elke Community Builder worden ve
 Als er bijvoorbeeld 100 Community Builders zijn op dag 1 van de lancering van het netwerk, dan krijgt iedereen een pro-rata beloning gebaseerd op de hoeveelheid MOR die ze hebben verbrand via fees. In dit geval, ervan uitgaande dat elk van de 100 Community Builders 100 MOR heeft verbrand, dan is 1% van de 3.456 MOR tokens elke dag = 34,56 MOR.
 
 ## Morpheus Gebruikers Diagram
-![UpdatedDiagram2UserFlow](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img8-Dutch.png)
+![Whitepaper Infographic 8 - Dutch](https://github.com/anggagilang11/docs/assets/62389945/322c7f19-57ac-47b9-90f2-aa2abf724d5a)
 
 ## Morpheus-beloningen geleverd door Smart Contract op Layer 2 van Ethereum 
 Morpheus Tokens (MOR) zullen oorspronkelijk worden toegekend op de Ethereum Layer 1, en er zal een gewikkeld MOR token (wMOR) bestaan op Arbitrum voor betalingen en andere MOR utility-gerelateerde acties.
