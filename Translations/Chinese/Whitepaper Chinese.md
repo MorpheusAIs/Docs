@@ -12,7 +12,7 @@ Morpheus旨在激励建立首个点对点 (peer-to-peer)的个人专属AI网络�
 
 为了让尽可能多的人使用到智能代理，并且推进代理基础设施的去中心化，我们提出开发Morpheus网络。Morpheus网络将使用公平发行的代币（“MOR”代币），以激励网络的四大核心贡献者——1) 构建互动界面的Builder社区 2) 为Morpheus相关的软件和代理贡献代码的程序员。3）提供流动性的资本提供方。4）提供计算、存储和带宽的供应方。比特币和以太坊的经历充分证明，基于稀缺数字代币的自由、公开的竞争模式，可以为公共区块链的持续发展，提供长久、可扩展性极高的基础设施支持。
 
-![MOREmissionSchedule](https://github.com/MorpheusAIs/Morpheus/assets/1563345/94c96cb0-b6e4-4c63-be46-39088c91e168)
+![Whitepaper Infographic 1 - Chinese](https://github.com/anggagilang11/docs/assets/62389945/1de1b4ac-a848-4150-bd05-c87a0fc605fb)
 
 
 ## 背景与历史
@@ -52,9 +52,8 @@ MOR代币的供应量限定为最多4200万个代币。分配基于这四个群�
 
 MOR代币供应量上限为42,000,000个代币。分配将从所有四个组开始，通过向网络提供工作证明（劳动）和权益证明（资本）来赚取代币。没有预挖任何代币。没有早期代币销售。只有公平发售。
 
-![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
+![Whitepaper Infographic 2 - Chinese](https://github.com/anggagilang11/docs/assets/62389945/b0a4e6d5-543b-49a2-8c02-e3b2f5b1c188)
 
-![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
 
 区块奖励将从每天14,400 MOR开始，并每天减少2.468994701 MOR，直到第5,833天奖励降至0。届时，大约16年后，如果Morpheus得到广泛使用，费用将成为主要的激励机制——向用户支付他们数据的费用，向计算提供商、资本提供商和开发者支付的费用。
 
@@ -71,7 +70,8 @@ MOR代币的供应上限为4200万。每天14,400代币均匀分配给社区用�
 剩余的部分作为保护协议的专项基金：每天576代币。
 
 
-![MORSupplyCurve20231019](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/8994c389-dad1-4e46-9b63-e048da8ef172)
+![Whitepaper Infographic 3 - Chinese](https://github.com/anggagilang11/docs/assets/62389945/196911c9-4f05-4473-9e35-b01643162fd7)
+
 
 ## MOR代币的功能
 
@@ -111,7 +111,8 @@ MOR旨在在Morpheus网络的诸多环节中提供广泛的用途。从根本来
 这不是一个准确的时间表，而是对每个阶段大致的概述。社区的成长和成熟可能需要多年的时间，区块奖励在大约16年后终结。这个长期的分配计划旨在让代币奖励在全球范围内得到非常尽可能广泛的推广。此外，区块奖励在漫长的时间中平缓下降，可以给所有参与者足够的时间来规划规模，平稳地丛早期的补贴性质的奖励过渡到赚取费用的模式。
 
 
-![MorpheusDiagram4](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c261fcf9-366a-4f65-a89d-4fff83a76fe9)
+![Whitepaper Infographic 4 - Chinese](https://github.com/anggagilang11/docs/assets/62389945/2a807487-7b94-46c8-a99d-fcac9e735438)
+
 
 ## MOR的尾部发行
 MOR的尾部发行

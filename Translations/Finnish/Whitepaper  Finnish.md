@@ -13,7 +13,9 @@ Lopulta keskimääräinen käyttäjä voi keskustella älykkään agenttinsa kan
 
 Jotta älykkäät agentit olisivat kaikkien saatavilla ja niiden infrastruktuurin hajauttamiseksi, ehdotamme Morpheus-verkon kehittämistä. Morpheus-verkkoon sisältyy reilusti käynnistetty token (nimeltään "MOR" token) kannustamaan kaikkia neljää verkoston keskeistä osallistujaa. Nämä ovat rakentajayhteisö, joka luo käyttöliittymiä, koodarit, jotka osallistuvat Morpheus-ohjelmistoon/agentteihin, pääomantuottajat, jotka lisäävät likviditeettiä, ja ne, jotka tarjoavat laskentaa, varastointia ja kaistanleveyttä. Bitcoin ja Ethereumin historia on osoittanut, että vapaa ja avoin kilpailu harvinaisista digitaalisista tokeneista voi tarjota skaalautuvan infrastruktuurin julkiselle lohkoketjulle pitkällä aikavälillä.
 
-![MorpheusNetworkDiagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/f0960e25-80e3-42ed-aa1f-ad9792eb672d)
+
+![Whitepaper Infographic 1 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/3f8e538c-ed45-48cc-b82f-238e27aa1052)
+
 
 ## Konteksti ja Historia
 Yritykset kuten OpenAI, Microsoft ja Google pyörittävät suljettulähteellisiä suuria kielimalleja, veloittavat asiakkailta lisenssimaksuja ja hyödyntävät asiakastietoja. Nämä mallit ovat sensuroituja, haavoittuvaisia ja toimivat muurattujen puutarhojen sisällä. On vahva kysyntä avoimelle lähdekoodin suurelle kielimallille, joka olisi saatavilla ilmaiseksi. Llama, Falcon ja muut avoimen lähdekoodin LLM-mallit on äskettäin julkaistu ja ne lähestyvät nopeasti suljettulähteellisiä kilpailijoitaan tarkkuuden suhteen.
@@ -47,7 +49,7 @@ Koodarit - Tarjoavat älykkyyden käyttääkseen käyttöliittymiä, pääomaa j
 
 MOR Tokenin kokonaismäärä on rajoitettu enintään 42 000 000 tokeniin, jotka tulevat koskaan olemaan olemassa. Jakelu alkaa siten, että kaikki neljä ryhmää ansaitsevat tokenit tarjoamalla erilaisia ​​työn todisteita (työvoimaa) ja omistuksen todisteita (pääomaa) verkolle. Ei ennakkomineraalia. Ei varhaista token-myyntiä. Vain oikeudenmukainen käynnistys.
 
-![MOREmissionsCurve2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/3514217c-50ed-4639-8c5d-87ca5cfb5d1b)
+![Whitepaper Infographic 2 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/05da9165-b80e-42be-a715-e03fcafc7c98)
 
 Lohipalkkio alkaa 14,400 MOR:lla päivässä ja laskee sitten 2.468994701 MOR:lla päivässä, kunnes palkkio saavuttaa nollan päivänä 5,833. Siihen mennessä (noin 16 vuoden kuluttua), jos Morpheus on laajassa käytössä, maksut ottavat yli pääasiallisena kannustimena. Maksut käyttäjille heidän tiedoistaan, maksut laskentatoimittajille, maksut pääomatoimittajille ja maksut koodareille.
 
@@ -58,7 +60,8 @@ Lohipalkkio alkaa 14,400 MOR:lla päivässä ja laskee sitten 2.468994701 MOR:ll
 - 3,456 merkkiä pääomalle. Todisteena stETH-tuotoksesta, 50 % vaihdettu MOR:ksi ja loput lukittu AMM:ään likviditeetin tarjoajana.
 - 3,456 merkkiä yhteisölle. Todisteena etupään sovellusten ja työkalujen rakentamisesta, jotka osallistavat käyttäjiä.
 Loput varattu suojavarusteiden resursseille: 576 merkkiä päivässä tätä tarkoitusta varten.
-![5050version3](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c9fe763f-d4e4-4069-b9c9-75e0a777c3ad)
+
+![Whitepaper Infographic 3 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/ed9826b5-de9d-434d-9ed4-d7ae8bb2e485)
 
 ## MOR-tokenin käyttötarkoitus
 Tavoitteena on, että MOR tarjoaa laajaa hyödyllisyyttä monissa Morpheus-verkon toiminnoissa. Siksi MOR-tokenin käyttö tarjoaa ketjukohtaisen laskentamekanismin, jolla lasketaan palkkiot ohjelmiston todellisen käytön perusteella.
@@ -89,7 +92,7 @@ Pääoma - ETH lukittu älykkääseen sopimukseen, joka tuottaa tuottoa (esimerk
 
 Huomaa, että tämä ei ole aikajana. Sen sijaan jokainen vaihe on kuvaus osasta elinkaarta. Yhteisön voi kestää vuosia kasvaa ja kypsyä läpi jokaisen vaiheen, ja lohkopalkkio päättyy noin 16 vuoden kuluttua. Tämä pitkäkestoinen jakeluaikataulu on tarkoitettu antamaan aikaa, jotta tokenit palkitaan hyvin laajasti maailmanlaajuisesti. Lisäksi lohkopalkkioiden tasainen päivittäinen lasku vuosien varrella antaa kaikille osallistujille aikaa saavuttaa mittakaava ja siirtyä varhaisista tukipalkkioista toimimaan yksinomaan ansaitsemillaan maksuilla.
 
-![MOREmissionSchedule](https://github.com/MorpheusAIs/Morpheus/assets/1563345/94c96cb0-b6e4-4c63-be46-39088c91e168)
+![Whitepaper Infographic 4 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/f64c9da8-4304-4364-9462-7a049fae83bc)
 
 ## MOR:n jatkuva liikkeeseenlasku
 Aina Bitcoin julkaisusta lähtien ihmiset ovat väitelleet siitä, "mitä tapahtuu, kun lohkopalkkiot lopulta loppuvat?" Välttääksemme tämän epäolennaisen keskustelun Morpheuksen yhteydessä ja jatkaaksemme uusien kooderien, yhteisön, laskentayksiköiden ja pääomatoimittajien sitouttamista pitkälle tulevaisuuteen, ehdotamme "MOR-tokenien jatkuvaa liikkeeseenlaskua". Tämä MOR-tokenien jatkuva liikkeeseenlasku alkaa sen jälkeen, kun viimeiset MOR-tokenit on laskettu liikkeeseen jakeluaikataulun 5 833. päivänä.
@@ -106,15 +109,15 @@ Tämä prosessi toistuu loputtomiin tulevaisuuteen.
 
 Pitkällä aikavälillä noin 1 % vuotuisista MOR-palkkioista (suhteessa liikkeessä olevien MOR-tokenien määrään) on saatavilla tuleville kooderille, laskentayksiköille, yhteisölle ja pääomalle.
 
-![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
+![Whitepaper Infographic 5 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/df335ed1-e212-4706-af0a-374140141b04)
 
 **TÄRKEÄ HUOMAUTUS:** Tämä ei muuta 42 miljoonan MOR:n kovan tarjonnan luonnetta. Koska häntäemissioaikataulu on määritelmän mukaan vain osa poltettuja MOR-tokeneja, MOR-tokeneista voi tulla vain harvinaisempia jokaista 5,833 päivän jaksoa kohti.
 
-![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
+![Whitepaper Infographic 6 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/642b2872-5448-4b8c-8c9e-742a6d571bcf)
 
 Tässä on esitetty yhtenäistetty MOR-tarjouskäyrä, joka näyttää ensimmäisen 5,833 päivän jakson ja lisää pitkät häntäemissiot vuodelle 17 vuoteen 256. Olettaen esimerkkinä, että MOR:n keskimääräinen polttoaste on 25% epookkeina.
 
-![MORSupplyCurve20231019](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/8994c389-dad1-4e46-9b63-e048da8ef172)
+![Whitepaper Infographic 7 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/517bd5e0-7da1-454d-a018-5efa16f76666)
 
 ## Käyttäjän yhteisön, koodin, laskennan ja pääoman todistus
 Morpheuksen täysi solmu sisältää lompakon tai käyttäjä voi liittää olemassa olevan lompakkonsa. Tämä mahdollistaa käyttäjän allekirjoittaa ja lähettää heidän Smart Agentin suosittelemia tapahtumia. Joten käyttäjät voivat osallistua todisteisiin Morpheus-ohjelmiston kautta. Pääomatoimittajien ei kuitenkaan tarvitse olla täysiverkkosolmuja esimerkiksi. He voivat olla vuorovaikutuksessa suoraan Ethereumin / Arbitrumin älykkäiden sopimusten kanssa käyttämällä stETH:ta.
@@ -167,7 +170,7 @@ Jokaisen yhteisörakentajan poltettujen pro-rata MOR-transaktiomaksujen perustee
 Esimerkiksi, jos verkon käynnistäessä on 100 yhteisörakentajaa päivä 1, silloin jokainen saa osuutensa perustuen siihen määrään MOR-tokeneita, jotka he ovat polttaneet maksuina. Tässä tapauksessa olettaen, että jokainen 100 yhteisörakentajasta on polttanut 100 MOR: ia, niin 1% 3 456 MOR-tokeneista joka päivä = 34,56 MOR.
 
 ## Käyttäjäkaavio
-![UpdatedDiagram2UserFlow](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a02468a7-9284-4ce5-b7e3-f32f476ff9f1)
+![Whitepaper Infographic 8 - Finnish](https://github.com/anggagilang11/docs/assets/62389945/be6b1790-76c0-4904-9683-143df90cf83d)
 
 ## Morpheus-palkinnot toimitetaan älysopimuksen kautta Ethereumin 2 kerroksella.
 stETH:n tallettaminen palkintojen saamiseksi tapahtuu Ethereumin pääverkossa, kun Morpheus-tokenit (MOR) myönnetään Ethereumin toisella kerroksella, Arbitrumilla, maksutarkoituksiin ja muihin MOR:n hyödyntämiseen liittyviin toimiin.
