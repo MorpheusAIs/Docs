@@ -128,8 +128,8 @@ Example fields below:
  3 | 0xFb8b74641b2a7AFCE03aee5e713241325Df9f9ed | Anon | Anon | "15,749\.00" | 1 | 10 | 0\.25 | 0\.75 | 3937 | 11811\.75 |  |  |  |  
  3 | 0xCbcb2a6E6b4ed4a8D281709c831960a31547f738 | Anon | Anon | "7,875\.00" | 1 | 6 | 0\.5 | 0\.5 | 3938 | 3937\.5 |  |  |  |  
  3 | 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | \#132 | "Updating Capital \- Proof of Contribution\.mdlinks, including resolving two 404 errors" | "1,575\.00" | 6 |  | 1 | 0 | 1575 | 0 |  |  |  |  
- 3 | 0x896C20Da40c2A4df9B7C98B16a8D5A95129161a5 | Taco |  | "30,000\.00" | 9 |  | 1 | 0 | 30000 | 0 |  |  |  |  
- 3 | 0x5aca8c74Bd773742639d12a853EFB83A5982A2f8 | Mike Anderson |  | "100,000\.00" | 9 |  | 1 | 0 | 100000 | 0 |  |  |  |  
+ 3 | 0x896C20Da40c2A4df9B7C98B16a8D5A95129161a5 | anon 84 |  | "30,000\.00" | 9 |  | 1 | 0 | 30000 | 0 |  |  |  |  
+ 3 | 0x5aca8c74Bd773742639d12a853EFB83A5982A2f8 | anon 89 |  | "100,000\.00" | 9 |  | 1 | 0 | 100000 | 0 |  |  |  |  
  3 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node | "Casey  <> Akash inference setup build/test/debug,  NY " | "80,000\.00" | 7 |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  | "3,407,439\.00" |  |  |  |  |  |  |  |  |  |  
