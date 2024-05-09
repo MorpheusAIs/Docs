@@ -14,7 +14,8 @@ Morpheus는 스마트 에이전트(Smart Agent)로 알려진 최초의 개인 AI
 
 모두가 스마트 에이전트에 접근할 수 있도록 하고 인프라의 분산화를 높이기 위해 우리는 Morpheus 네트워크 개발을 제안합니다. Morpheus 네트워크에는 네트워크의 주요 기여자 4개의 그룹 모두에게 보상을 제공하기 위해 상당히 출시된 토큰("MOR" 토큰)이 존재합니다. 4개의 주요 기여자 그룹은 1. 인터페이스를 구축하는 빌더, 2. Morpheus 소프트웨어/에이전트에 기여하는 코더, 3. 유동성을 추가하는 자본 제공자, 4. 연산, 스토리지 및 대역폭을 제공하는 커뮤니티 집합입니다. 한정된 가상자산에 대한 자유롭고 공개적인 경쟁이 장기간에 걸쳐 퍼블릭 블록체인을 위한 확장 가능한 인프라를 제공할 수 있다는 것은 비트코인과 이더리움의 역사를 통해 잘 입증되었습니다.
 
-![MorpheusNetworkDiagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/f0960e25-80e3-42ed-aa1f-ad9792eb672d)
+![Whitepaper Infographic 1 - Korean](https://github.com/anggagilang11/docs/assets/62389945/79f5a35c-cca8-4fef-89eb-d6f701764f30)
+
 
 ## 배경 & 역사
 OpenAI, Microsoft, Google과 같은 기존 업체는 소스코드가 공개되지 않은(클로즈드 소스의) 대규모 언어 모델을 실행하고 고객에게 라이선스 비용을 청구하며 고객 데이터로 수익을 창출하고 있습니다. 이 모델은 검열이 존재하고 취약하며 벽으로 둘러싸인 정원처럼 폐쇄된 환경에서 작동합니다. 무료로 제공되는 오픈 소스 대규모 언어 모델에 대한 수요가 높습니다. Llama, Falcon 및 기타 오픈 소스 LLM이 최근 출시되었으며 클로즈드 소스 기반 경쟁업체의 성능에 빠르게 도달해나가고 있습니다.
@@ -48,7 +49,7 @@ MOR은 매일 커뮤니티에 24%, 자본에 24%, 컴퓨팅에 24%, 코더에 24
 
 MOR 토큰 공급은 최대 42,000,000개의 토큰으로 제한됩니다. 분배는 네트워크에 작업 증명(노동) 및 지분 증명(자본) 형식을 제공하여 4개 그룹 모두 토큰을 획득하는 것으로 시작됩니다. 사전 채굴 및 조기 토큰 판매 없이 공정하게 출시(Fair Launch)됩니다.
 
-![MOREmissionsCurve2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/3514217c-50ed-4639-8c5d-87ca5cfb5d1b)
+![Whitepaper Infographic 2 - Korean](https://github.com/anggagilang11/docs/assets/62389945/35c51433-9eb6-4225-b9e7-44a4e0603fc4)
 
 블록 보상은 하루 14,400 MOR부터 시작하여 5,833일째에 보상이 0에 도달할 때까지 매일 2.468994701 MOR씩 감소합니다. 그 때(지금으로부터 약 16년 후)쯤에는 Morpheus가 널리 사용되고, 수수료가 주요 인센티브로 자리잡게 될 것입니다. 수수료는 데이터에 대해 사용자에게 지불되는 수수료, 연산 제공자에 대한 수수료, 자본 제공자에 대한 수수료 및 코더에 대한 수수료로 구분됩니다.
 
@@ -60,7 +61,7 @@ MOR 토큰 공급은 최대 42,000,000개의 토큰으로 제한됩니다. 분�
 - 커뮤니티용 토큰 3,456개. 사용자 참여를 유도하는 프런트엔드 애플리케이션 및 도구를 통해 증명.
 나머지(하루 576개의 토큰)는 보호 자원을 위해 따로 보관됩니다.
 
-![5050version3](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c9fe763f-d4e4-4069-b9c9-75e0a777c3ad)
+![Whitepaper Infographic 3 - Korean](https://github.com/anggagilang11/docs/assets/62389945/b011d599-0fd5-4f67-bc5e-0ded3ea8f618)
 
 ## MOR 토큰 유틸리티
 MOR의 목표는 Morpheus 네트워크의 많은 기능을 통해 광범위한 유틸리티를 제공하는 것입니다. 결과적으로, MOR 토큰의 사용은 소프트웨어의 실제 사용을 기반으로 보상을 계산하는 온체인 회계 메커니즘을 제공합니다.
@@ -91,7 +92,7 @@ MOR의 목표는 Morpheus 네트워크의 많은 기능을 통해 광범위한 �
 
 참고로 이는 타임라인이 아닙니다. 수명주기의 일부에 대한 설명에 가깝습니다. 커뮤니티가 각 단계를 통해 성장하고 성숙하는 데 수년이 걸릴 수 있으며 블록 보상은 약 16년 후에 종료됩니다. 이 긴 배포 일정은 토큰이 전 세계적으로 매우 광범위하게 보상받을 수 있는 시간을 제공하기 위한 것입니다. 또한 수년에 걸쳐 매일 블록 보상이 완만하게 감소함으로써 모든 참가자는 일정 수준의 규모를 달성하고 초기 보조금을 통한 보상에서 자신이 얻은 수수료만으로 운영할 수 있도록 전환하는 시간을 제공합니다.
 
-![MOREmissionSchedule](https://github.com/MorpheusAIs/Morpheus/assets/1563345/94c96cb0-b6e4-4c63-be46-39088c91e168)
+![Whitepaper Infographic 4 - Korean](https://github.com/anggagilang11/docs/assets/62389945/e1a21a03-0a88-4998-a251-8aa9bdb347cf)
 
 ## MOR 토큰의 꼬리 방출
 비트코인이 출시된 이후로 사람들은 "블록 보상이 마침내 중단되면 어떻게 될까요?"에 대해 논쟁을 벌였습니다. Morpheus는 이러한 도움이 되지 않는 논쟁을 피하고 오랫동안 새로운 코더, 커뮤니티, 컴퓨팅 및 자본 제공자를 계속해서 유지하기 위해 우리는 MOR 토큰의 "꼬리 방출"을 제안합니다. 꼬리 방출은 배포 일정의 5,833일째 마지막 MOR 토큰이 방출된 후에 시작됩니다.
@@ -108,16 +109,16 @@ MOR의 목표는 Morpheus 네트워크의 많은 기능을 통해 광범위한 �
 
 장기적인 결과로, 연간 MOR 보상의 약 1%(당시 유통되는 MOR 수에 비례)는 향후 코더, 컴퓨팅, 커뮤니티 및 자본에 사용할 수 있습니다.
 
-![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
+![Whitepaper Infographic 5 - Korean](https://github.com/anggagilang11/docs/assets/62389945/ebcdd94f-8385-4de8-99ee-eda20d8920d4)
 
 **중요 참고사항:** 이 경우에도 절대 MOR 토큰의 4,200만개 최대 공급을 초과할 수 없습니다.
 꼬리 배출 일정은 정의로 보았을 때 소각된 MOR 토큰의 일부일 뿐이므로 MOR 토큰은 5,833일마다 점점 더 부족해질 수 있습니다.
 
-![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
+![Whitepaper Infographic 6 - Korean](https://github.com/anggagilang11/docs/assets/62389945/1f1ba863-5a4e-47eb-b363-5ddd59b50f77)
 
 아래에 처음 5,833일 기간을 보여주고 17년차부터 256년차까지의 긴 꼬리 배출량을 추가한 통합된 MOR 공급 곡선이 나와 있습니다. 해당 배출 주기에 걸쳐 MOR의 평균 소각율이 25%인 것으로 가정합니다.
 
-![MORSupplyCurve20231019](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/8994c389-dad1-4e46-9b63-e048da8ef172)
+![Whitepaper Infographic 7 - Korean](https://github.com/anggagilang11/docs/assets/62389945/177b20aa-a738-42b1-95f3-911aa842307e)
 
 ## 커뮤니티, 코드 및 연산 & 자본에 대한 증명:
 Morpheus 풀노드에는 지갑이 함께 제공되거나 사용자가 기존 지갑을 연결할 수 있습니다. 이를 통해 사용자는 스마트 에이전트가 권장하는 트랜잭션에 서명하거나 전송할 수 있습니다. 즉 사용자는 Morpheus 소프트웨어를 통해 증명에 참여할 수 있습니다. 그러나 예를 들어 자본 공급자는 풀 노드를 가지고 있을 필요가 없습니다. stETH를 사용하여 Ethereum/Arbitrum의 스마트 컨트랙트와 직접 상호 작용할 수 있습니다.
@@ -175,7 +176,7 @@ Yellowstone 연산 모델에서 Morpheus 네트워크는 경쟁 입찰 프로세
 예를 들어, 네트워크가 출시된 첫날에 100명의 커뮤니티 빌더가 있었다면 각 커뮤니티 빌더는 수수료를 통해 소각한 MOR 양에 따라 비례 보상을 받습니다. 이 경우, 100명의 커뮤니티 빌더가 각각 100 MOR을 소각했다고 가정하면 매일 3,456 MOR 토큰의 1% = 34.56 MOR이 됩니다.
 
 ## Morpheus 유저 다이어그램
-![UpdatedDiagram2UserFlow](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a02468a7-9284-4ce5-b7e3-f32f476ff9f1)
+![Whitepaper Infographic 8 - Korean](https://github.com/anggagilang11/docs/assets/62389945/014b280f-e27b-4d3b-b540-74b3c0c50f2d)
 
 ## 이더리움 Layer 2 상의 스마트 컨트랙트 의해 제공되는 Morpheus 보상
 보상을 위한 stETH 예치는 지불 및 기타 MOR 유틸리티 관련 작업을 위해 이더리움 Layer 2인 Arbitrum에서 Morpheus 토큰(MOR) 보상이 지급될 때 Ethereum 메인넷에서 이루어집니다.
