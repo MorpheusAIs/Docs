@@ -5,7 +5,7 @@
 ### Morpheus팀 Trinity, & Neo 작성
 작성 - 2023년 9월 2일
 
-기술 세부정보에 대한 Yello Paper 링크: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
+기술 세부정보에 대한 Yellow Paper 링크: https://github.com/MorpheusAIs/Morpheus/blob/main/YellowPaper.md
 
 ## 소개
 Morpheus는 스마트 에이전트(Smart Agent)로 알려진 최초의 개인 AI로 이루어진 P2P 네트워크를 장려하도록 설계되었습니다. 사용자에게 지갑, Dapp 및 스마트 컨트랙트에 연결할 수 있는 오픈 소스 스마트 에이전트를 제공하게 되면 모든 사람들에게 Web3의 세계를 개방할 수 있게 됩니다.
