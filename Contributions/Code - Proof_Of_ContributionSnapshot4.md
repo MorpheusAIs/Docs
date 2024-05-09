@@ -87,6 +87,8 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | Wallet Address | MRI | Link to Work | Weight of Value Contributed (Weights) | Description of Contribution |
 | -------------- | ------- | ------------ |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  |  |  |  |
+| 0xF5b439173415De7c5395FA6204c1Bbdeb1cbFa53 | MRI #9 | https://github.com/MorpheusAIs/DashBoard/pull/42 | 875 | Improve ux of deposit stEth button. Previously Website was showing disabled button when user had no sthEth which was very ambigious and could result in user churn due to misunderstanding. |
 | 0xA6D60da9ed25509092bA912b523F812E109F3C9c | 3 | [PWA]https://github.com/MorpheusAIs/pwa/pull/3 | 20,000 | PWA: new pages and chat integration |
 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | 9 | [MORLORD](https://morlord.com) | 100,000 | Public API endpoints for MOR.org, Marketplace UI prep for beta, community leaderboard |
 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | 7 | [Morpheus-Lumerin-Node Proxy Router](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/tree/main/proxy-router) | 200,000 | Proxy API for localhost UIs, Wallet Refactoring from Electron to GO, Node multithread testing, AI engine integrations |
