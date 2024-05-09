@@ -17,8 +17,7 @@ Pengguna biasa boleh bercakap dengan Ejen Pintar mereka dalam bahasa biasa dan m
 
 Untuk menjadikan Ejen Pintar boleh diakses oleh semua orang dan meningkatkan desentralisasi infrastruktur mereka, kami mencadangkan pembangunan rangkaian Morpheus. Rangkaian Morpheus akan memasukkan token pelancaran yang mencukupi (“token MOR”) untuk memberi insentif kepada keempat-empat penyumbang utama rangkaian. Iaitu, komuniti pembina yang mencipta antara muka, pengkod yang menyumbang kepada perisian/ejen Morpheus, penyedia modal yang menambah kecairan dan mereka yang membekalkan pengiraan, penyimpanan dan lebar jalur. Ia telah ditunjukkan dengan baik oleh sejarah Bitcoin dan Ethereum bahawa persaingan bebas & terbuka untuk token digital yang terhad boleh menyediakan infrastruktur berskala untuk blok blok awam dalam jangka masa panjang.
 
-![MorpheusNetworkDiagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/f0960e25-80e3-42ed-aa1f-ad9792eb672d)
-
+![Whitepaper Infographic 1 - Malay](https://github.com/anggagilang11/docs/assets/62389945/3a87f1e8-d3a0-4ad4-b2a1-4e75a685385a)
 
 ## Konteks & Sejarah
 
@@ -53,7 +52,7 @@ Penjana kod - Menyediakan kecerdasan untuk menggunakan bahagian hadapan, modal d
 
 Pembekalan Token MOR adalah terhad kepada maksimum 42,000,000 token yang wujud. Pengedaran akan bermula dengan keempat-empat kumpulan memperoleh token dengan memberikan bukti kerja (buruh) dan bukti pemilikan (modal) kepada rangkaian. Tiada pra-perlombongan. Tiada jualan token awal. Hanya pelancaran yang adil.
 
-![MOREmissionsCurve2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/3514217c-50ed-4639-8c5d-87ca5cfb5d1b)
+![Whitepaper Infographic 2 - Malay](https://github.com/anggagilang11/docs/assets/62389945/58af9f5b-51b2-4e9a-837c-3d1668bcab5a)
 
 Ganjaran blok akan bermula daripada 14,400 MOR sehari dan kemudian menurun sebanyak 2.468994701 MOR setiap hari, sehingga ganjaran mencapai 0 pada hari ke-5,833. Pada masa itu (kira-kira 16 tahun dari sekarang) dengan syarat Morpheus digunakan secara meluas, kos akan mengambil alih sebagai insentif utama. Yuran yang dibayar kepada pengguna untuk data mereka, yuran kepada penyedia pengkomputeran, yuran kepada penyedia modal dan yuran kepada pengekod.
 
@@ -66,7 +65,7 @@ Ganjaran blok akan bermula daripada 14,400 MOR sehari dan kemudian menurun seban
 - 3,456 token untuk komuniti. Bukti membina aplikasi & alatan bahagian hadapan yang melibatkan pengguna.
    Dengan bakinya diketepikan untuk sumber perlindungan: 576 token setiap hari untuk tujuan itu.
 
-![5050version3](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c9fe763f-d4e4-4069-b9c9-75e0a777c3ad)
+![Whitepaper Infographic 3 - Malay](https://github.com/anggagilang11/docs/assets/62389945/d3220d58-9758-4871-aaed-d8a0d55305d1)
 
 ## Penggunaan Token MOR
 Matlamatnya adalah untuk MOR menyediakan utiliti yang luas dalam banyak fungsi rangkaian Morpheus. Akibatnya, penggunaan token MOR menawarkan mekanisme perakaunan dalam rantaian untuk mengira ganjaran berdasarkan penggunaan perisian sebenar.
@@ -96,7 +95,7 @@ Semua projek melalui fasa pembangunan. Adalah sangat penting bahawa pada mulanya
 
 Ambil perhatian bahawa ini bukan garis masa. Sebaliknya setiap fasa adalah penerangan sebahagian daripada kitaran hayat. Ia mungkin mengambil masa bertahun-tahun untuk komuniti berkembang dan matang melalui setiap fasa dan ganjaran blok akan tamat tempoh selepas kira-kira 16 tahun. Jadual pengedaran yang panjang ini bertujuan untuk memberi masa kepada token untuk menghargai secara global. Selain itu, penurunan harian yang lancar dalam ganjaran blok selama bertahun-tahun memberikan masa untuk semua peserta mencapai skala dan peralihan daripada ganjaran bersubsidi pada permulaan untuk beroperasi semata-mata atas yuran yang mereka hasilkan.
 
-![MOREmissionSchedule](https://github.com/MorpheusAIs/Morpheus/assets/1563345/94c96cb0-b6e4-4c63-be46-39088c91e168)
+![Whitepaper Infographic 4 - Malay](https://github.com/anggagilang11/docs/assets/62389945/9fc14478-e4fe-4f9b-9dc4-9c28a3640634)
 
 ## Pelepasan Ekor MOR
 Sejak pelancaran Bitcoin, ramai orang telah berdebat tentang "apa yang akan berlaku apabila ganjaran blok akhirnya berhenti?" Untuk mengelakkan perdebatan sia-sia ini dalam konteks Morpheus dan untuk terus menyelaraskan pengkod, komuniti, pengkomputeran & penyedia modal baharu pada masa hadapan, kami mencadangkan "pelepasan ekor" token MOR. Pelepasan ekor MOR ini akan bermula selepas token MOR terakhir dikeluarkan pada hari ke 5,833 jadual pengedaran.
@@ -113,16 +112,16 @@ Proses ini akan terus berulang pada masa hadapan.
 
 Hasil jangka panjang. Kira-kira 1% daripada ganjaran MOR tahunan (berbanding dengan bilangan MOR dalam edaran) akan tersedia kepada pengekod, pengkomputeran, komuniti & modal masa hadapan.
 
-![MaxMORScenario25](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/81c7794a-b5bc-4a9e-bb2d-1f28b98ea079)
+![Whitepaper Infographic 5 - Malay](https://github.com/anggagilang11/docs/assets/62389945/96e7135a-e432-47ef-9f45-ddee3cb9b517)
 
 **NOTA PENTING:** Ini tidak mengubah sifat Had Bekalan keras 42 Juta MOR.
 Oleh kerana jadual pelepasan ekor mengikut definisi hanya sebahagian daripada token MOR yang dibakar, token MOR hanya boleh menjadi semakin berkurangan dengan setiap tempoh 5,833 hari
 
-![MOR25ScenarioV9](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/4813cd02-b104-4a0c-893b-a7fd329fe2a3)
+![Whitepaper Infographic 6 - Malay](https://github.com/anggagilang11/docs/assets/62389945/a8be7dcf-a80f-4127-a0f9-d0d542f9f842)
 
 Ditunjukkan di bawah adalah Keluk Bekalan MOR bersepadu yang menunjukkan tempoh 5,833 hari pertama dan menambah pelepasan ekor panjang dari tahun 17 hingga tahun 256. Dengan mengandaikan contoh kadar pembakaran purata 25% daripada MOR sepanjang tempoh tersebut.
 
-![MORSupplyCurve20231019](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/8994c389-dad1-4e46-9b63-e048da8ef172)
+![Whitepaper Infographic 7 - Malay](https://github.com/anggagilang11/docs/assets/62389945/95e5d8ea-72a7-44cf-bd76-7571da1e8153)
 
 ## Bukti Komuniti, Kod, Pengiraan & Modal
 Nod penuh Morpheus disertakan dengan dompet atau pengguna boleh menyambungkan dompet sedia ada. Ini membolehkan pengguna menandatangani dan menghantar transaksi yang disyorkan oleh Ejen Pintar mereka. Jadi pengguna akan dapat mengambil bahagian dalam pembuktian melalui perisian Morpheus. Walau bagaimanapun Pembekal Modal tidak perlu mempunyai nod penuh contohnya. Mereka boleh berinteraksi secara langsung dengan Kontrak Pintar pada Ethereum / Arbitrum menggunakan stETH.
@@ -204,7 +203,7 @@ Yuran transaksi MOR pro-rata yang dibakar oleh setiap Pembina Komuniti berfungsi
 Sebagai contoh, jika terdapat 100 Pembina Komuniti pada hari pertama rangkaian dilancarkan, maka setiap satu akan mendapat ganjaran pro-rata berdasarkan jumlah MOR yang telah mereka hanguskan melalui yuran. Dalam kes ini, dengan mengandaikan setiap daripada 100 Pembina Komuniti membakar 100 MOR, maka 1% daripada 3,456 token MOR setiap hari = 34.56 MOR.
 
 ## Diagram Pengguna Morpheus
-![UpdatedDiagram2UserFlow](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a02468a7-9284-4ce5-b7e3-f32f476ff9f1)
+![Whitepaper Infographic 8 - Malay](https://github.com/anggagilang11/docs/assets/62389945/a0bf451f-12b7-4206-be20-32b1cfe1978e)
 
 ## Ganjaran Morpheus Dihantar oleh Kontrak Pintar pada Lapisan Ethereum 2
 Deposit StETH untuk memperoleh ganjaran akan dibuat pada mainnet Ethereum, apabila Morpheus Token (MOR) akan diberikan pada Ethereum Layer 2 Arbitrum, untuk tujuan pembayaran dan tindakan berkaitan utiliti MOR yang lain.
