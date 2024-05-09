@@ -1,4 +1,50 @@
-Snapshot 3
+## Code Provider - Proof of Contribution Table Snapshot 3 
+### March 8th to April 8th 2024
+
+## This Snapshot is now Closed for new entries. All Contributions posted here will be denied
+
+This table was for code contributions in Snapshot 3.  
+
+
+Please direct all new pull requests to the latest Snapshot document in the folder.
+See [snapshot 1 & 2 code contribution details](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md#code-contributions-for-snapshot-1-and-snapshot-2).
+
+
+> [!IMPORTANT]  
+> **If you would like to contribute to the project please post to the latest snaphot after reading [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+&
+**[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**.
+
+
+## Snapshot Timelines and Implied Value of a Weight
+**Snapshot 1.** September 2nd 2023 to February 8th 2024  
+Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).  
+
+**Snapshot 2.** February 8th to March 8th 2024  
+Theoretical Implied Value of a Weight = $0.20 USD per Weight (price is unknown 1MOR = 1MOR). 
+ 
+**Snapshot 3.** March 8th to April 8th 2024  
+Theoretical Implied Value of a Weight = $0.407 USD per Weight (price is unknown 1MOR = 1MOR).
+
+> [!NOTE]
+> **Weights were by 2,000 X at Snapshot 3 to create more granularity as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
+
+
+## Structurer of Code Contributions
+
+All Code Contributions included the following five elements:
+
+1. The Ethereum wallet address to be rewarded.
+2. Link to the Code Contribution (this may be a commit or PR).
+3. Number of [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
+4. Description of Contributions.
+
+
+Example fields below:  
+
+`|               Wallet Address               |     Link to Work    | Weights Requested (weights) | Description of Contribution |`  
+`| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Commit #127 | 50                          | Integration of ollama       |`
+
  
  **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** | **** | **** | **** | **** 
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
