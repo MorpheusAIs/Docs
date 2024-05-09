@@ -92,4 +92,3 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | 8 | https://docs.google.com/document/d/196-ew97-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | Drafting, development, discussions, design considerations around d-git and morsoftware |
 | 0x63AE77cCa59BbEdCbEe3F88C51231056e7f9929C | 2 | https://github.com/LachsBagel/moragents | 59509 | Local install for price fetcher and guidance for additional agents by community contributors |
 | 0xE324e1e9CF84A32816dCd3292B9bab599B86b4cb | 2 | https://github.com/LachsBagel/moragents | 24251 | Local install for price fetcher and guidance for additional agents by community contributors |
-
