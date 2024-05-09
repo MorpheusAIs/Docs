@@ -1,4 +1,4 @@
-## Code Provider - Proof of Contribution Table Snapshot 2. 
+## Code Provider - Proof of Contribution Table Snapshot 2
 ### Snapshot 2 - February 8th to March 8th 2024 
 
 This table is historical for Snapshot 2 and has now been closed for new entries.
