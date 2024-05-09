@@ -23,7 +23,8 @@ Theoretical Implied Value of a Weight = $0.407 USD per Weight (price is unknown 
 
 **Snapshot 4.** 
 April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $*.** (to be calculated at the end of the month) USD per Weight (price is unknown 1MOR = 1MOR). 
+Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR).  
+The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
 
 > [!NOTE]
 > **Weights were rebased by 2,000 X at Snapshot 3 to create more granularity as fractions of weights are not supported in the Smart Contract. For more details check [MRC14](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC14.md)**
@@ -45,7 +46,11 @@ Example fields below:
 Please include the "pipe" `|` symbol correctly as seen above so your contribution will format with the table.
 
 > [!IMPORTANT]  
-> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to. 
+> There is new a new MRI column added where the contributor should specify which MRI the contribution is related to.
+>  
+> One MRI = one entry.
+> 
+> Don't combine multiple MRIs in a single line. Break out contributions into their own line in the table.  
 
 - **MRI Number 1:** [Smart Contracts on Ethereum / Arbitrum](https://github.com/MorpheusAIs/SmartContracts)  
   - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston) 
@@ -105,5 +110,3 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 | 0xe924d804cdcdcb483f39601504044c188012f8c8 | 8 | https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC31.md , https://github.com/MorpheusAIs/Docs/pull/200 , https://github.com/MorpheusAIs/Docs/pull/210 | 35000 | (Nebuchadnezzar Crew #2) MRC31: Code Contributor Weights Guide. Revamped the Weights Guide and documentation per MRC31. Year 1 + 2 emissions merge. April 8th revaluation. USD Valuation calculation for May 8th. Smart contract testing and support.|
 | 0xe924d804cdcdcb483f39601504044c188012f8c8 | 8 | https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC31.md , https://github.com/MorpheusAIs/Docs/pull/204 | 35000 | (Nebuchadnezzar Crew #2) MRC31: Weight Maintenance Guide. Guide detailing requirements for maintenance of weights and establishing procedures by which weights become at-risk along with an associated grace period.|
 | 0xe924d804cdcdcb483f39601504044c188012f8c8 | 1 | https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md | 30000 | (Nebuchadnezzar Crew #2) AMM launch. Discussions around strategy, updating design considerations, and final smart contract to ensure clean launch |
-
-
