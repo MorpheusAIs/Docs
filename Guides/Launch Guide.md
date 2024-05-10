@@ -42,6 +42,23 @@ Both approachs have trade offs to consider described below.
 - After the pool was created by the community, it also changed the process that had been planned for deploying the liquidity.
 
 ## Recommendations:
+
+**- 1. Multisig Before Scenario Tips:**
 - If your MOR20 project selects the 1st option and the Multisig does the kick off BEFORE claims go live, then do the kick off at least 3 to 6 hours before.
 - Even with tests, the multisig software and its integrations are often changed and that may alter the process and cause delays.
 - However you can't set up the multisig transaction too long before the event, keep in mind pending transaction expire after only a short period of time.  
+
+**- 2. Multisig AFTER Scenario Tips:**
+- If your MOR20 project selects the 2nd option and the Multisig does the kick off AFTER claims go live.
+- Adding liquidity to from a multisig is very different than doing it from a single address, largely due to the time lag between signers.
+- Uniswap has a series of protections to try and prevent you from making mistakes that can make deploying liquidity in size to a new contract challenging.
+- Uniswap safety checks include "slippage" protection checks and you may have to customize the transaction to allow for greater slippage than normal.
+- Multisig software safety checks include recommendations about the high risk of new contracts and you will have to get through these checks. 
+- Don't put too much effort into registering with tools (such as Dexsceener) until after the liquidity is live.
+- As early price discovery will give highly random data for highs / lows with little volume.
+
+**3. Live Liquidity Tips**
+- If your MOR20 project selects to go live with liquidity at the same time as the token claims.
+- Consider having multiple experts in Uniswap, SAFE, and multisig set ups available.
+- Morpheus is fortunately to have an experienced community of experts who quickly offered potential solutions and were able to debug the issues.
+- Lastly make sure to have multiple back up signers, as hardware failures / errors or signing issues are always possible.
