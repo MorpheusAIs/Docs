@@ -57,7 +57,7 @@ Both approachs have trade offs to consider described below.
 - Don't put too much effort into registering with tools (such as Dexsceener) until after the liquidity is live.
 - As early price discovery will give highly random data for highs / lows with little volume.
 
-**3. Live Liquidity Tips**
+**3. Live Liquidity Tips:**
 - If your MOR20 project selects to go live with liquidity at the same time as the token claims.
 - Consider having multiple experts in Uniswap, SAFE, and multisig set ups available.
 - Morpheus is fortunately to have an experienced community of experts who quickly offered potential solutions and were able to debug the issues.
