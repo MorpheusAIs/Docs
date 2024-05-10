@@ -34,7 +34,7 @@ Both approachs have trade offs to consider described below.
 - After liquidity was added from the Multisig then the price range settled out very quickly.
 
 ## Technical Considerations For Multisig Signers: 
-- Most multisig uses a special software (for example SAFE) for signers.
+- Most multisig set ups require the use of a special software (for example SAFE) for signers.
 - These Multisig software interfaces have integrations with Uniswap for creating pools.
 - The Morpheus community launched a test token on Arbitrum for testing purposes as Uniswap was unavailable on testent.
 - The test tokens worked during the weeks of testing leading up to the claims day.
