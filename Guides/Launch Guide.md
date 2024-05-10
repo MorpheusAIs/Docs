@@ -24,7 +24,7 @@ Both approachs have trade offs to consider described below.
 - Only tokens from the community participate in the Uniswap bootstrapping.
 - This could lead to the price of the token being highly volitile as its starting from a smaller base of tokens.
 
-###3. The Third Option - Liquidity Provided Right at Launch When Claims Go Live
+### 3. The Third Option - Liquidity Provided Right at Launch When Claims Go Live
 - This was the approach taken with the Morpheus MOR token on its claim day at 12 noon UTC on May 8th 2024.
 - This was proposed in MRC09 avoid the challenges of either providing liquidity Before or After claims went live.
 - Bugs in the Uniswap integration with the Multisig software prevented the deployment of Multisig liquidity for about 3 hours.
