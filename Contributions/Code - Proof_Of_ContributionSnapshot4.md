@@ -7,7 +7,7 @@ This table is for code contributions in Snapshot 4.
 [Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Code%20Contributions/Code%20Contributions%20Snapshot%201.md)
 
 > [!IMPORTANT]  
-> **If you would like to make a pull reqest please submit to Snapshot 5 after reading [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
+> **If you would like to make a pull reqest please submit to latest snapshot after reading [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**
 &
 **[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**..
 
