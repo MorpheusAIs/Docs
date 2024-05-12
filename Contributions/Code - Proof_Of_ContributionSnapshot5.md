@@ -89,5 +89,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
  **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** 
 ---|---|---|---|---|---|---|---|---|---|---
- 5 | 0x03C3279D375935AcA163b6Ea3f49C8991F8a7f5f | coderaptor2 | [https://github.com/MorpheusAIs/Docs/pull/258](https://github.com/MorpheusAIs/Docs/pull/258) [https://github.com/MorpheusAIs/Docs/pull/254](https://github.com/MorpheusAIs/Docs/pull/254)[https://github.com/MorpheusAIs/Docs/pull/256](https://github.com/MorpheusAIs/Docs/pull/256)
+ 5 | 0x03C3279D375935AcA163b6Ea3f49C8991F8a7f5f | coderaptor2 | [https://github.com/MorpheusAIs/Docs/pull/258](https://github.com/MorpheusAIs/Docs/pull/258)
+[https://github.com/MorpheusAIs/Docs/pull/254](https://github.com/MorpheusAIs/Docs/pull/254)
+[https://github.com/MorpheusAIs/Docs/pull/256](https://github.com/MorpheusAIs/Docs/pull/256)
  | 90000 | 9 |  |  |  |  | 
