@@ -9,7 +9,7 @@
 - 15.98 wETH added to Protocol Owned Liquidity.
 
  ** MOR POL Transaction # ** | **Address** | **Description** |
----|---|---|---
+|---|---|---|---
  1 | 13,670 |  |  |  |  |  
  2 | 644 |  |  |  |  |  
 
