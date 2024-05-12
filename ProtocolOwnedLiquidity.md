@@ -1,14 +1,10 @@
-# Protocol-Owned Liquidity In Morpheus
+# Protocol-Owned Liquidity (POL) Of Morpheus
 
-## POL Initial Liquidity Provision
-- 13,670 MOR
-- 454 wETH
-
-## POL First Regular Transactions
-- 644 MOR purchased out of the Uniswap pool.
-- 15.98 wETH added to Protocol Owned Liquidity.
-
-
+# Iniitial Protocol Owned Liquidity Deposited to Uniswap on Abritrum on May 8th 2024
+- Every week stETH from yield contributed by Capital Providers is converted into wETH.
+- 50% of the wETH is used to purchase MOR from the Uniswap pool on Abritrum.
+- 50% of the wETH is kept as wETH and added to the liquidity position of the Morpheus POL.
+ 
  **MOR POL Transaction Number** | **Amount** | **Address** 
 ---|---|---
  1 | 13,670 | https://app.uniswap.org/explore/pools/arbitrum/0xE5Cf22EE4988d54141B77050967E1052Bd9c7F7A
