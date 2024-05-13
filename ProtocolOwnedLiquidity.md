@@ -15,7 +15,7 @@ Link on Uniswap Arbitrum: https://app.uniswap.org/explore/pools/arbitrum/0xE5Cf2
  4 | TBD | May 10th 2024 | Transaction ID
  5 | 494 | May 13th 2024 | Transaction ID
 
- **wETH POL Transaction Number** | **Amount** | **Transaction ID** 
+ **wETH POL Transaction Number** | **Amount** | **Date** | **Transaction ID** 
 ---|---|---|--- 
  1 | 454 | May 8th 2024 | Transaction ID
  2 | TBD | May 8th 2024 | Transaction ID
