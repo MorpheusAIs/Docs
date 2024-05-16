@@ -1,6 +1,8 @@
 # Morpheus Delivers Freedom & Liberty For All
 
-Thanks to all those in the Morpheus community Staking, Computing, Building & Coding for Freedom. These 10 values embody the type of communities, projects & freedom tech Morpheus is built to protect.
+Thanks to all those in the Morpheus community Staking, Computing, Building & Coding for Freedom. 
+
+## The following 10 values embody the type of communities, projects & freedom tech Morpheus is built to protect.
 
 - Open Source: The software code underpinning the Morpheus must be freely reviewable, editable & copyable by all.
 - Peer to Peer: A system which allows for direct connection by all and is free of centralized intermediaries in all their functions.
