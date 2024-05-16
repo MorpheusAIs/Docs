@@ -1,4 +1,4 @@
-# Morpheus Delivers Freedom & Liberty For All
+# Morpheus Is Freedom & Liberty For All
 
 Thanks to all those in the Morpheus community Staking, Computing, Building & Coding for Freedom. 
 
