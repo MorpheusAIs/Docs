@@ -103,7 +103,7 @@ Example fields below:
  3 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | \#67 | WhitePaper translated to Slovenian | 1,575\.00 | 1 | 6 | 0\.5 | 0\.5 | 788 | 787\.5 |  |  |  |  
  3 | 0x66c743440673aB280AD2EB3dB51466E76B7a70fB | \#90, \#89 | Fixed typos and broken links | 315\.00 | 9 |  | 1 | 0 | 315 | 0 |  |  |  |  
  3 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | https://github\.com/MorpheusAIs/Morpheus/pull/634/commits/18ca822b43e114204a57ea8b2efadca2552bda1e | New and ongoing technical integrations with Sei, Monad, Hive Network, Tensorplex, Shinkai | 22,049\.00 | 9 |  | 1 | 0 | 22049 | 0 |  |  |  |  
- 3 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | MorpheusAIs/Lite\-Client\#47, MorpheusAIs/Lite\-Client\#49 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet | 6,300\.00 | 3 | 9 | 0\.8 | 0\.2 | 5040 | 1260 |  |  |  |  
+ 3 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | MorpheusAIs/Lite\-Client\#47, MorpheusAIs/Lite\-Client\#49 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet | 6,300\.00 | 3 | 9 | 0\.8 | 0\.2 | 5040 | 1260 |  |  |  |  
  3 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | MorpheusAIs/MRC\#6, MorpheusAIs/MRC\#21, MorpheusAIs/MRC\#13, MorpheusAIs/MRC\#10, \#83, \#77, \#70, MorpheusAIs/MRC\#21, \#108 | Constant management, improving and keeping up to date /Docs and /MRC repositories, setup MRC dissussion forum, setup and customisation of discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contrinution to MRCs | 64,572\.00 | 9 |  | 1 | 0 | 64572 | 0 |  |  |  |  
  3 | 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | \#109 | Update Coder Guide\.md links for Morpheus Request For Comments & Code Proof of Contribution\. Added deep\-linking headers to Code Contributions tables and referenced previous snapshot contributions from the Snapshot 3 doc\. plus misc typos\. | 1,575\.00 | 8 |  | 1 | 0 | 1575 | 0 |  |  |  |  
  3 | 0xACf95647C72ffFc30B91676C414DF1df9DfE180b | MorpheusAIs/Lite\-Client\#61 | Implement user specified wallets | 3,150\.00 | 3 | 9 | 0\.8 | 0\.2 | 2520 | 630 |  |  |  |  
@@ -179,3 +179,4 @@ Example fields below:
  3 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node | Casey  <> Akash inference setup build/test/debug,  NY  | 80,000\.00 | 7 |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  | 3,407,439\.00 |  |  |  |  |  |  |  |  |  |  
+| 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | 10 | MRC28 - wallet integration
