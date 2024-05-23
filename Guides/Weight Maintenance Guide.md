@@ -1,7 +1,8 @@
 # Weight Maintenance Guide (Part of MRC31)
 
 
-**Introduction:** The GitHub repository maintainer rewards contributions with weights, a crucial component of the protocol development. Weights play a pivotal role in motivating ongoing development and collaboration, serving as an incentive mechanism that underpins the operational expansion of the protocol.
+## Introduction
+The GitHub repository maintainer rewards contributions with weights, a crucial component of the protocol development. Weights play a pivotal role in motivating ongoing development and collaboration, serving as an incentive mechanism that underpins the operational expansion of the protocol.
 
 The weight system ensures that contributions are not only recognized when developed but also maintained over time, providing a sustainable framework for growth and enhancement. It's essential for all participants in the past, present, and future to fully understand how this system works and how they can actively maintain their weights. This guide provides a comprehensive overview of the weight maintenance process, outlining clear steps to support the continued expansion and development of Morpheus.
 
@@ -34,7 +35,7 @@ Once added to the list, it begins the grace period which extends for one month f
 
 Failure to update or communicate effectively by the end of the grace period may result in the removal of weights. Subsequently, the scope of work will become available for new participants who can earn weights by taking over and successfully maintaining the contribution.
 
-## **Urgent Updates **
+## **Urgent Updates**
 
 This document outlines the standard procedures to be followed in the ordinary course of development. As Morpheus is a fast evolving ecosystem, there will occasionally be situations that arise that require urgent updates. These could arise when there are errors identified, bug fixes, etc. In these types of one-off situations requiring urgent action, the GitHub Maintainer reserves the right to change, update, fix, or otherwise change any and all code as needed. These types of situations will not follow the standard operating procedures, but will be handled in the manner best needed for Morpheus.  
 
