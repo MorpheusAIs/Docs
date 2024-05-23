@@ -5,27 +5,20 @@
 ### Authored by Morpheus, Trinity, & Neo
 Published - September 2nd 2023
 
----------
 ## Introduction 
 The Smart Agent concept of connecting LLMs and AI Agents to wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. Chatting in normal language with your Smart Agent and having it understand the question or task, is similar to how Google's search engine opened the early internet up to the general public.
 
 To make Smart Agents accessible to everyone and increase decentralization we propose a network & fairly launched token for incentivizing all four of the key contributors to their operation. Namely, the community of users, coders contributing to the Morpheus software / agents, capital providers funding development / operations and those supplying computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
 
----------
-## Morpheus Local Smart Agent Install v.0.0.7 features:
-After connecting Morpheus with your mobile Metamask, you can test the Smart Agent by taking basic actions such as:  
-- "What is my balance?"  
-- "What is my address?"  
-- "Send ETH to Ethereum Address"
-- ask for price of a token listed on Coingecko
-- ask for market cap of a token listed on Coingecko
-- ask for TVL of a token listed on Coingecko
+## Morpheus 0.0.6 Version Release Notes: Mac + Linux + Windows Installs
+This is the first version of Morpheus that brings together an open source LLM (defaults to Llama2) + connecting a user's Metamask wallet + executing on chain transactions via a ETH focused Smart Agent.
 
-Pending features:
-- Web interface
-- Wallet integrations for your existing wallets in-browser
-- Web3 swap agents
-- Chat with local files agent (general purpose)
+After connecting Morpheus to your Meta Mask, you can test it by taking basic actions such as:  
+"What is my balance?"  
+"What is my address?"  
+"Send ETH to Ethereum Address"
+
+Morpheus doesn't have a connection to a block explorer or price oracles yet, so it can't answer general transactions questions. It just answers the above examples based on info from the Meta Mask wallet you connect.
 
 > [!WARNING]
 > Review all transactions before approving them. The LLM makes mistakes, you have human wisdom.  
@@ -33,64 +26,32 @@ Seriously, double check all actions in the Metamask interface before sending mon
 This is an experimental release and the ETH Smart Agent may try and send your money into a black hole.  
 Gas costs are high on Ethereum. Consider testing out 0.0.6 using the Sepolia testnet or Arbitrum.
 
-<img src="/Graphics/Docs%20Graphics/English/README.png" width=50% height=50%>
+---------
+**Linux: There are now two linux builds (RPM and DEB)**
+- Download RPM: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-rpm.zip
+- SHA 256 hash for validation: fa811b823f80c6afc537b608edff99feb1bc68451c0bba9d22f7abedf5e66c0a
+- Version: Morpheus-0.0.6-rpm
+
+
+- Download DEB: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-deb.zip
+- SHA 256 hash for validation: 04044442119e4ab296ffa6c5d3ae297b178197b4855e42dcbd8a4634e2d8d8ad
+- Version: Morpheus-0.0.6-deb
 
 ---------
-## Installs
-### Mac OS M1/2/3 etc. (arm64)
->[!Note]
-> minimum 16GB RAM
+**Mac OS: For Intel & Apple M Series Silicon Chips**
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-x64.dmg
+- SHA 256 hash for validation: 004948f4dcc3702ea41f6050d0d3a86db2198e1ebfd599aca20a9a6cdefcd8e3  
+- Version: morpheus-0.0.6-x64.dmg
 
-1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-   
-2. Follow default settings, can skip surveys, then leave docker desktop running. You can minimize it.
-   
-3. Download [Moragents.zip](https://drive.proton.me/urls/E1KWFPKJ7R#kylZ5O34WMGZ).
-   
-4. Open ZIP, and copy MORagents.app to your Applications folder.
-   > SHA256 506a7fd292b8a4f37d0c9e9fc6810769af3d4e92cd567c1542724f3228328058  MORagents.zip
-   
-5. Open **MORagents** app. Give it a few minutes the first time.
-
-### macOS Intel (x86_64)
-*coming soon*
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-arm64.dmg
+- SHA 256 hash for validation: 2179c229c8f1acca5b8c3e9a813d75f5a42b971c8aff555ad30f0a8ada9dbb1c  
+- Version: morpheus-0.0.6-arm64.dmg
 
 ---------
-### Windows (x86_64)
->[!Note]
-> minimum 16GB RAM
-
-1. Download [MOR Agent Installer](https://drive.proton.me/urls/CN7HB67ZYM#OcQMLZO8oxC1)
-    > SHA256 ae10e62852c2a26608c9d65a719c52e06f33a1c79ecc3ddaf82503910c41ef7c  MOR Agent Installer.zip
-    
-2. Go to downloaded **MOR Agent Installer(.zip)** file and click to "Extract All".
-   
-3. Open Extracted Folder **MOR Agent Installer**.
-   
-4. Click and Run **MOR Agent Setup**.
-This will auto-install Docker Desktop dependency.
-
-5. Open **MOR Agent** from Desktop
-   
-6. Accept Docker's EULA. Surveys are optional, can skip.
-    
-7. Wait for Docker engine to start...
-    
-8. Open **MOR Agent** App from Desktop.  
-First time install requires some extra time to load agent's image.
-
----------
-### Linux
-*coming soon*
-
----------
-### Build it Yourself
-1. [MacOS](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_MACOS_DEV_BUILD.md)
-2. [Windows](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_WINDOWS_DEV_BUILD.md)
-
-
-#### Troubleshooting
-If the app shows connections errors to agent fetcher. Please ensure Docker Desktop is running, then close and reopen **MOR Agent** from desktop.
+**Windows:**
+- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6_x86_64_win.zip
+- SHA 256 hash for validation: 37cb37a7a8443da87541fb1896d9f23112fecff650e3cfc053d51938a1e326a3
+- Version: morpheus-0.0.6_x86_64_win
 
 ---------
 ## Key documents list:
