@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 2 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | artfuljars | Windows and MacOS moragents builds and packaging | [moragents builds project](https://github.com/LachsBagel/moragents/blob/e499b416e2b3612f3779ae2bdb31d5b925d277e5/AGENTABILITIES.md?plain=1#L30) | 50000 |
