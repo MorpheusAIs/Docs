@@ -113,7 +113,7 @@ Agent code can run from anywhere as long as it has access to the resources it ne
 - [Lake Travis - Decentralized AI Inference System](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
 - [Morpheus Lumerin Model](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
 
-**Where can I get support and ask questions?**  
+### Where can I get support and ask questions?
 Community members would love to assist you in [**#tech-support**](https://discord.com/channels/1151741790408429580/1183666837460897832) discord channel.
 
 > [!WARNING]  
