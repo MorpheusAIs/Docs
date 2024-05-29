@@ -1,5 +1,17 @@
 # Frequently Asked Questions about Morpheus Compute
 
+### What do compute providers do?
+The main role of compute providers is to provide a vital AI resource for inference, which is computation.
+
+### How can I get involved with Morpheus as a computer provider? 
+You can’t yet as Compute part is in active development.
+
+### How will code providers be rewarded?
+Morpheus network pays compute providers only for compute actually provided through a competitive bid process.
+
+### Is Morpheus Compute Node the same node other blockchains have?
+No, Morpheus node is not that type of node that runs blockchain and processes transactions.
+
 ### When will the Compute testnet be launched?
 The first Compute testnet launched in May. Next version is scheduled to be launched in June 2024 and run through July 2024.
 
