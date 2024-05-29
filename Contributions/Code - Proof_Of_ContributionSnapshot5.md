@@ -1,11 +1,11 @@
 ## Code Provider - Proof of Contribution Table Snapshot #5
-### May 8th to June 8th 2024 (Now Closed)
+### May 8th to June 8th 2024
 
 This table is for code contributions in Snapshot 5.  
-[Snapshot 4](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot4.md)
-[Snapshot 3](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md)
-[Snapshot 2](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot2.md)
-[Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot1.md)
+[Snapshot 4](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot4.md)  
+[Snapshot 3](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md)  
+[Snapshot 2](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot2.md)  
+[Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot1.md)  
 
 > [!IMPORTANT]  
 > **If you would like to make a pull reqest please submit to latest snapshot after reading   
@@ -27,7 +27,7 @@ Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 
 The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
 
 **Snapshot 5.** May 8th 2024 to June 8th 2024   
-TO BE ANNOUNCED. Don't submit any contributions until Implied Value of a Weight is calculated.
+Theoretical Implied Value of a Weight = $1.2 USD per Weight (price is unknown 1MOR = 1MOR). 
 The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
 
 ## Structuring of Code Contributions
