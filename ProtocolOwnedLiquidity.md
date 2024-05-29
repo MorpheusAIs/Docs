@@ -1,7 +1,7 @@
 # Protocol-Owned Liquidity (POL) Of Morpheus
 Link on Uniswap Arbitrum: https://app.uniswap.org/explore/pools/arbitrum/0xE5Cf22EE4988d54141B77050967E1052Bd9c7F7A
 
-## Iniitial Protocol Owned Liquidity Deposited to Uniswap on Abritrum on May 8th 2024
+## Initial Protocol Owned Liquidity Deposited to Uniswap on Abritrum on May 8th 2024
 - Every week stETH from yield contributed by Capital Providers is converted into wETH.
 - 50% of the wETH is used to purchase MOR from the Uniswap pool on Abritrum.
 - This MOR is added to the liquidity position of the Morpheus POL.
