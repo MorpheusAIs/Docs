@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 8 |0xEb4E7939C3bCC0635b8531e3C0a6bD42de95cfeF | Stan909 | (Nebuchadnezzar Crew #1) Per MRC31, creation of the framework for weight allocation by MRI. Document outlines the allocation methodology, snapshot procedures, and additional considerations for framework | https://github.com/MorpheusAIs/Docs/pull/259 | 20000 | 
