@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+| 5 | 2 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | dorianjanezic | Helping with the development of MORAgents local build install; identifying and providing a correct command for installing smart agent docker image | https://discord.com/channels/1151741790408429580/1220404152165994648/1239497522846896210, https://discord.com/channels/1151741790408429580/1167520984849469530/1242529458339057684 | 2000
