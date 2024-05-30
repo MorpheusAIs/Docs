@@ -95,4 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
- 5 | 2 | 0xFFB10ca22F32BcB0054c0aE729E54D1d49b94D54 | ArtemUpnode | Desktop client with a collection of smart agents with the ability to connect different HSMs to manage the device and sign messages and transactions (YubiHSM Beta v0.1.0) | https://github.com/ArtemUpnode/HSM-Agents-Hub | 110000 | 
+ 5 | 2 | 0xFFB10ca22F32BcB0054c0aE729E54D1d49b94D54 | ArtemUpnode | Desktop client with a collection of smart agents with the ability to connect different HSMs to manage the device and sign messages and transactions (YubiHSM Beta v0.1.0) | https://github.com/ArtemUpnode/HSM-Agents-Hub | 122000 | 
