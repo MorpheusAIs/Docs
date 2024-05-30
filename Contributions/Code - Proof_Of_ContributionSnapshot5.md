@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 1 | 0xFFB10ca22F32BcB0054c0aE729E54D1d49b94D54 | ArtemUpnode | Draft MRC34 and additional docs, beginning of active research and discussion of Smart Agent Domains implementation with the team. Fixes in other MRCs. And some helpful comments in PRs/Issues | [MRC34](https://github.com/MorpheusAIs/MRC/blob/main/MRC34.md), [docs](https://docs.google.com/document/d/18ZVOZQLh8g3rHX8XkTMgIVepy65Ad2OFk4RPM392nJ8/edit?usp=sharing), [Fixes](https://github.com/MorpheusAIs/MRC/pull/52) | 45000 |
