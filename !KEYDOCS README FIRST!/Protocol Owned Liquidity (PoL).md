@@ -1,4 +1,4 @@
-# Protocol-Owned Liquidity (POL) Of Morpheus
+# Protocol-owned Liquidity Generation Events (POLG)
 Link on Uniswap Arbitrum: https://app.uniswap.org/explore/pools/arbitrum/0xE5Cf22EE4988d54141B77050967E1052Bd9c7F7A
 
 ## Initial Protocol Owned Liquidity Deposited to Uniswap on Abritrum on May 8th 2024
