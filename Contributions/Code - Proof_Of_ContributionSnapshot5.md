@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 8 |0x80AC5d6B29EC148cb1f71a18C2A4F0A0c7DEddF0 | mor-codes | MRI Weight Analysis (Overall & By Snapshot) | https://colab.research.google.com/drive/1v6DvKvcTDDt5IdWGNaSNURyUjPFdc5bZ?usp=sharing | 15000 | 
