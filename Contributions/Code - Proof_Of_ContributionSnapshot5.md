@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 9 |0xEb4E7939C3bCC0635b8531e3C0a6bD42de95cfeF | Stan909 | Morstats updates for MOR price feed, stETH APY calculation from DexScreener, historical data feed from Coin Gecko for weight valuation, resources update and collaboration. Updated guide and open sourced all code. | https://morstats.info/ , https://morstats.info/mor-price/ , https://github.com/MorpheusAIs/Docs/blob/main/Guides/Morstats%20Info%20Capital%20Providers%20Guide.md , https://github.com/MorpheusAIs/Docs/pull/281 | 10000 | 
