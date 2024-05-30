@@ -12,6 +12,9 @@ Arbitrum mainnet
 ### Where can I buy the token?
 The main liquidity pool is settled in [wETH/MOR](https://app.uniswap.org/explore/tokens/arbitrum/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86) trading pair on Uniswap Arbitrum chain
 
+### Can I buy MOR if I don’t have wETH, but ETH and USDC?
+Yes, you can buy the token using any liquid token available on the Uniswap exchange. In this case, your token will be exchanged for wETH and then for MOR.
+
 ### How can I check that these links are legitimate?
 All the relevant and verified links are available in the [Morpheus Discord server](https://discord.com/channels/1151741790408429580/1183934719155515463)
 
@@ -56,3 +59,4 @@ Community members would love to assist you in [**#tech-support**](https://discor
 
 > [!WARNING]  
 > Beware of scams, anyone who message you with proposal to help is likely scammer. 
+
