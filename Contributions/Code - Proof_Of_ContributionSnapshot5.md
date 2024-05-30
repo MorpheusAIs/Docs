@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 2 | 0xFEB8a258D5ca5F0132A31894bd6F3b9F06Dc4Bef | framedintent | Finetuned Mistral 7B Instruct v0.3 model for Morpheus Smart Agents | https://github.com/framedintent/MorphyLLM | 30000 | 
