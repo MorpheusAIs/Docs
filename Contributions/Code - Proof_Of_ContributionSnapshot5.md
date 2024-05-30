@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 9 |0x70a565fC6924c831131e00cAc9086326510AA610 | Sekoya-Labs | Development and maintenance of Morcheck.xyz, a platform enabling users to securely and efficiently verify wallet values and contributions in MOR and USD. The service also provides additional dashboard metrics for enhanced reference. Since its launch two weeks ago, Morcheck.xyz has registered approximately 10,000 checks and attracted 1,250 unique visitors. | morcheck.xyz | 50000 |
