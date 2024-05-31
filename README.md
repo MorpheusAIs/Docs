@@ -5,37 +5,78 @@
 ### Authored by Morpheus, Trinity, & Neo
 Published - September 2nd 2023
 
----------
+---
 ## Introduction 
 The Smart Agent concept of connecting LLMs and AI Agents to wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. Chatting in normal language with your Smart Agent and having it understand the question or task, is similar to how Google's search engine opened the early internet up to the general public.
 
 To make Smart Agents accessible to everyone and increase decentralization we propose a network & fairly launched token for incentivizing all four of the key contributors to their operation. Namely, the community of users, coders contributing to the Morpheus software / agents, capital providers funding development / operations and those supplying computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
 
----------
-## Morpheus Local Smart Agent Install v.0.0.7 features:
-After connecting Morpheus with your mobile Metamask, you can test the Smart Agent by taking basic actions such as:  
-- "What is my balance?"  
-- "What is my address?"  
-- "Send ETH to Ethereum Address"
-- ask for price of a token listed on Coingecko
-- ask for market cap of a token listed on Coingecko
-- ask for TVL of a token listed on Coingecko
+---
+## Morpheus Local Smart Agent Install v.0.0.8
 
-Pending features:
-- Web interface
-- Wallet integrations for your existing wallets in-browser
-- Web3 swap agents
+## Features
+**Current:**
+- Fetch price, market cap, and TVL of coins and tokens supported on CoinGecko.
+- Web interface (macOS only).
+- Wallet integrations for your existing wallets in-browser (macOS only):
+   - MetaMask
+   - Rainbow
+   - Coinbase Wallet
+   - WalletConnect
+- Web3 swap agent (macOS only).
+
+**Pending:**
+- Web interface (Windows)
+- Wallet integrations for your existing wallets in-browser (Windows)
+- Web3 swap agents (Windows)
 - Chat with local files agent (general purpose)
+
+## Example queries
+
+After connecting Morpheus with your web3 wallet, you can test the **Data Smart Agent** with prompts such as:  
+
+- What is my balance?
+  
+- What is my address?
+  
+- Send ETH to [Ethereum Address]
+  
+- What is the price of Ethereum / Price of ETH (or other token listed on Coingecko)
+  
+- What is the market cap of DOGE / MC of DOGE (or other token listed on Coingecko)
+  
+- What is the fully diluted valuation of Solana / FDV SOL (or other token listed on Coingecko)
+  
+- What is the total value locked in Uniswap / TVL of Uniswap (or other token listed on Coingecko)
+
+
+For the **Swap Smart Agent**, a typical flow looks like this:
+
+- A user requests a swap, e.g "I want to swap ETH for USDC".
+
+- The agent requests any missing information, e.g. in this case the amount is missing.
+
+- Once all the information has been collected, the agent looks up the assets on the current chain, retrieves contract addresses and generates a quote if available.
+
+- The quote is shown to the user, who may either proceed or cancel.
+
+- If the user accepts the quote, the swap may proceed. The back-end will generate transactions which will be sent to the front-end to be signed by the user's wallet.
+
+- If the allowance for the token being sold is too low, an approval transaction will be generated first.
+
 
 > [!WARNING]
 > Review all transactions before approving them. The LLM makes mistakes, you have human wisdom.  
-Seriously, double check all actions in the Metamask interface before sending money.  
-This is an experimental release and the ETH Smart Agent may try and send your money into a black hole.  
-Gas costs are high on Ethereum. Consider testing out 0.0.6 using the Sepolia testnet or Arbitrum.
+>
+> Seriously, double check all actions in the Metamask interface before sending money. 
+> 
+> This is an experimental release and the ETH Smart Agent may try and send your money into a black hole.  
+>
+> Gas costs are high on Ethereum. Consider testing out 0.0.8 using the Sepolia testnet or Arbitrum.
 
 <img src="/Graphics/Docs%20Graphics/English/README.png" width=50% height=50%>
 
----------
+---
 ## Installs
 ### Mac OS M1/2/3 etc. (arm64)
 >[!Note]
@@ -45,39 +86,45 @@ Gas costs are high on Ethereum. Consider testing out 0.0.6 using the Sepolia tes
    
 2. Follow default settings, can skip surveys, then leave docker desktop running. You can minimize it.
    
-3. Download [Moragents.zip](https://drive.proton.me/urls/E1KWFPKJ7R#kylZ5O34WMGZ).
+3. Download [Moragents.zip](https://drive.proton.me/urls/X35VBE3GWW#mtrqT6rAzZbi).
    
-4. Open ZIP, and copy MORagents.app to your Applications folder.
-   > SHA256 506a7fd292b8a4f37d0c9e9fc6810769af3d4e92cd567c1542724f3228328058  MORagents.zip
+4. Open ZIP, and copy MORagents.app to your Applications folder.  
+   > SHA256 96c2510e4f7a752c613b322be0a107958ee34814415e3e7b950b426298379a7a MORagents.zip
    
-5. Open **MORagents** app. Give it a few minutes the first time.
+5. Open **MORagents** app. Give it a few minutes the first time and then it should open your browser.  
+   If there's an issue, try opening the MORagents app again.
 
+---
 ### macOS Intel (x86_64)
 *coming soon*
 
----------
+---
 ### Windows (x86_64)
 >[!Note]
 > minimum 16GB RAM
+> 
+> Windows version will be updated in the coming days to 0.0.8 (swap agent and price fetching).
+>
+> Currently, the following is Windows MORagents 0.0.7 (price fetching only)
 
 1. Download [MOR Agent Installer](https://drive.proton.me/urls/CN7HB67ZYM#OcQMLZO8oxC1)
     > SHA256 ae10e62852c2a26608c9d65a719c52e06f33a1c79ecc3ddaf82503910c41ef7c  MOR Agent Installer.zip
     
-2. Go to downloaded **MOR Agent Installer(.zip)** file and click to "Extract All".
+2. Go to downloaded **MOR Agent Installer(.zip)** file and click to **"Extract All"**.
    
 3. Open Extracted Folder **MOR Agent Installer**.
    
-4. Click and Run **MOR Agent Setup**.
-This will auto-install Docker Desktop dependency.
+4. Click and Run **MOR Agent Setup**.  
+   This will auto-install Docker Desktop dependency.
 
-5. Open **MOR Agent** from Desktop
+5. Open **MOR Agent** from Desktop.
    
 6. Accept Docker's EULA. Surveys are optional, can skip.
     
 7. Wait for Docker engine to start...
     
 8. Open **MOR Agent** App from Desktop.  
-First time install requires some extra time to load agent's image.
+   First time install requires some extra time to load agent's image.
 
 ---------
 ### Linux
@@ -88,8 +135,7 @@ First time install requires some extra time to load agent's image.
 1. [MacOS](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_MACOS_DEV_BUILD.md)
 2. [Windows](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_WINDOWS_DEV_BUILD.md)
 
-
-#### Troubleshooting
+### Troubleshooting
 If the app shows connections errors to agent fetcher. Please ensure Docker Desktop is running, then close and reopen **MOR Agent** from desktop.
 
 ---------
@@ -112,14 +158,16 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 - [Bug Bounty Program](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md)
 - [FAQs](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs.md)
 
+---
 ## Code:
 -	Morpheus Local Install: https://github.com/MorpheusAIs/Node
 -	Smart Contracts: https://github.com/MorpheusAIs/SmartContracts
 -	Frontend Dashboard: https://github.com/MorpheusAIs/DashBoard
-- Technical Documentation https://github.com/MorpheusAIs/Docs
-- Morpheus Request for Comments: https://github.com/MorpheusAIs/MRC
-- Morpheus Lumerin (Compute) Node: https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
+-  Technical Documentation https://github.com/MorpheusAIs/Docs
+-  Morpheus Request for Comments: https://github.com/MorpheusAIs/MRC
+-  Morpheus Lumerin (Compute) Node: https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
 
+---
 ## Morpheus Smart Contract addresses:
 **Ethereum:**
 - Distribution: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
@@ -135,6 +183,6 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 > [!Note]
 > For the MOR token contract its owner is L2MessageReceiver
 
-
+---
 ## Morpheus Network Diagram
 ![DiagramupdatedwithstETH](https://github.com/MorpheusAIs/Morpheus/assets/1563345/31711e49-0b57-4b41-b231-ee673dbf6664)
