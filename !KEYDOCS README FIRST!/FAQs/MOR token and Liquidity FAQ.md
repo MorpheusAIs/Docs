@@ -57,6 +57,8 @@ The main utility of the MOR token is access to the network compute resources for
 ### Where can I get support and ask questions?
 Community members would love to assist you in [**#tech-support**](https://discord.com/channels/1151741790408429580/1183666837460897832) discord channel.
 
+### If you did not find the answer to your question, you can add it through this [form.](https://forms.gle/6yt5ps3kAfUfkF4N8) 
+
 > [!WARNING]  
 > Beware of scams, anyone who message you with proposal to help is likely scammer. 
 
