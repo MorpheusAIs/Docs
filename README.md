@@ -49,10 +49,12 @@ After connecting Morpheus with your web3 wallet, you can test the **Data Smart A
   
 - What is the total value locked in Uniswap / TVL of Uniswap (or other token listed on Coingecko)
 
+<img src="/Graphics/Docs%20Graphics/English/README/Data%20agent.png" width=50% height=50%>
+
 
 For the **Swap Smart Agent**, a typical flow looks like this:
 
-- A user requests a swap, e.g "I want to swap ETH for USDC".
+- A user requests a swap, e.g "I want to swap ETH for WBTC".
 
 - The agent requests any missing information, e.g. in this case the amount is missing.
 
@@ -64,6 +66,11 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 
 - If the allowance for the token being sold is too low, an approval transaction will be generated first.
 
+<img src="/Graphics/Docs%20Graphics/English/README/agent_clarify3.png" width=80% height=80%>
+<img src="/Graphics/Docs%20Graphics/English/README/wallet_integration1.png" width=90% height=90%>
+<img src="/Graphics/Docs%20Graphics/English/README/successful_swap2.png" width=90% height=90%>
+
+
 
 > [!WARNING]
 > Review all transactions before approving them. The LLM makes mistakes, you have human wisdom.  
@@ -74,7 +81,6 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 >
 > Gas costs are high on Ethereum. Consider testing out 0.0.8 using the Sepolia testnet or Arbitrum.
 
-<img src="/Graphics/Docs%20Graphics/English/README.png" width=50% height=50%>
 
 ---
 ## Installs
