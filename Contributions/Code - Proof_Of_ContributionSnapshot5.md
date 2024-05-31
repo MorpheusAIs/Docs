@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 8 |0xEb4E7939C3bCC0635b8531e3C0a6bD42de95cfeF | Stan909 | Collaboration and development of long-term incentive framework focused on locking mechanism. Analysis and discussion surrounding MRC36. Publishing of design of alternative framework enhancing MOR staking value proposition through locking of tokens. | https://docs.google.com/document/d/1AxuDePhxhrFQn3rQaqLLecRNWFNL9xspXMIsLJVapK4/edit | 25000 | 
