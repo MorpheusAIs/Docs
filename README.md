@@ -1,4 +1,4 @@
-![MorpheusLogoWide](https://github.com/MorpheusAIs/Docs/assets/1563345/c7f922fb-418e-4396-a2fe-e7af5f695e9b)
+<img src="/Graphics/MOR gradient logo.png" width=100% height=100%>
 
 # Morpheus
 ## A Network For Powering Smart Agents
@@ -146,32 +146,30 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 
 ---------
 ## Key documents list:
+- [Morpheus Fundamentals](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Fundamentals)
+- [Capital Providers](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers)
+- [Compute Providers](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers)
+- [Code Providers](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Code%20Providers)
+- [FAQs](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/FAQs)
 - [White Paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md)
 - [Yellow Paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
-- [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 - [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
-- [Code Contributions Best Practices](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)
-- [Coder Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
-- [Fair Launch](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Fair%20Launch.md)
-- [Multisig](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Multisig.md)
+- [Morpheus Launch Phases](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Launch%20Phases.md)
+- [Morpheus Multisig Account](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Multisig.md)
 - [Protection Fund Details](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
-- [TestingPlan](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TestingPlan.md)
-- [Mastery of Tokenomics](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Mastery%20of%20Tokenomics.md)
-- [Morpheus Meetup Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Meetup%20Guide.md)
-- [Phased AMM Deployment and Fair Price Discovery](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md)
-- [Morpheus Asset Integration Framework](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/The%20Morpheus%20Asset%20Integration%20Framework.md)
-- [Morpheus Lumerin Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)
+- [Morpheus Testing Plan](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Morpheus%20Testing%20Plan.md)
 - [Bug Bounty Program](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md)
-- [FAQs](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs.md)
+- [Morpheus Meetup Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Meetup%20Guide.md)
 
 ---
 ## Code:
--	Morpheus Local Install: https://github.com/MorpheusAIs/Node
+-	Morpheus Smart Agent Local Install: https://github.com/MorpheusAIs/moragents
 -	Smart Contracts: https://github.com/MorpheusAIs/SmartContracts
 -	Frontend Dashboard: https://github.com/MorpheusAIs/DashBoard
 -  Technical Documentation https://github.com/MorpheusAIs/Docs
 -  Morpheus Request for Comments: https://github.com/MorpheusAIs/MRC
 -  Morpheus Lumerin (Compute) Node: https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
+-  Morpheus MOR20 Contracts: https://github.com/MorpheusAIs/MOR20  
 
 ---
 ## Morpheus Smart Contract addresses:
@@ -185,10 +183,9 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 - MOR OFT: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
 - L2TokenReceiverV2: [0x47176b2af9885dc6c4575d4efd63895f7aaa4790](https://arbiscan.io/address/0x47176b2af9885dc6c4575d4efd63895f7aaa4790)
 - L2MessageReceiver: [0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
-- Multisig  Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)  
-> [!Note]
-> For the MOR token contract its owner is L2MessageReceiver
+- Multisig  Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956) 
 
 ---
 ## Morpheus Network Diagram
-![DiagramupdatedwithstETH](https://github.com/MorpheusAIs/Morpheus/assets/1563345/31711e49-0b57-4b41-b231-ee673dbf6664)
+<img src="/Graphics/MOR network diagram.png" width=100% height=100%>
+
