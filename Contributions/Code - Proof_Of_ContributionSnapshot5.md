@@ -95,4 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
- 5 | 8 |0x80AC5d6B29EC148cb1f71a18C2A4F0A0c7DEddF0 | mor-codes | Fix broken snapshot 1-4 tables, publish normalized CSV files for data analyst to analyze the weight data easily and incorporate new snapshot data with MRI to mor.codes | https://github.com/MorpheusAIs/Docs/pull/269, https://github.com/mor-codes/Morpheus-Code-Contribution-CSV, https://mor.codes | 20000 | 
+ 5 | 8 |0x80AC5d6B29EC148cb1f71a18C2A4F0A0c7DEddF0 | mor-codes | Fix broken snapshot 1-4 tables, publish normalized CSV files for data analyst to analyze the weight data easily and incorporate new snapshot data with MRI to mor.codes | https://github.com/MorpheusAIs/Docs/pull/269, https://github.com/mor-codes/Morpheus-Code-Contribution-CSV, https://mor.codes | 50000 | 
