@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 9 |0x5CD4C60f0e566dCa1Ae8456C36a63bc7A8D803de | polupoker | Discord & Telegram Bots development | https://discord\.com/oauth2/authorize?client\_id=1225160336144076980&permissions=292058032192&scope=bot, https://t.me/morpheus_ai_info_bot | 7000 | 
