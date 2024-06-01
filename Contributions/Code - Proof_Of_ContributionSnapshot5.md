@@ -94,4 +94,8 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
- 5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+5 | 9 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | rcondron | \[MORLORD\]\(https://morlord\.com\) updates, testnet API endpoints, Marketplace UI for testnet, Provider registry for testnet | \[MORLORD\]\(https://morlord\.com\) | 100000 | 
+5 | 7, 3, 1 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | rcondron | Testnet launch!, UI updates, QA checks for user <> provider connection | \(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/proxy\-router\), \[Morpheus\-Lumerin\-Node Electron Desktop UI\]\(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/ui\-desktop\), \[Morpheus\-Lumerin\-Node Smart Contracts\]\(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/smart\-contracts\), \[Morpheus Architecture Guidance Doc\]\(https://github\.com/MorpheusAIs/Docs/blob/main/\!KEYDOCS%20README%20FIRST\!/Morpheus%20Lumerin%20Model\.md\) | 450000 | 
+5 | 1 | 0x3386Ab7D6AfaE6cEaBE0213ae35b46036C1E67ac | rcondron | Node design updates, session router design updates for evergreen sessions, new provider report schema, new smart contract structures | \[Morpheus Architecture Guidance Doc\]\(https://github\.com/MorpheusAIs/Docs/blob/main/\!KEYDOCS%20README%20FIRST\!/Morpheus%20Lumerin%20Model\.md\) | 150000 |
+ 
