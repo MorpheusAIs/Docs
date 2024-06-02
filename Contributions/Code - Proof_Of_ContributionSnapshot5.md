@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 8 |0xefc7d0a88AA9AA7c161CF93B78dAD64f86d9358d | rethereum1 | Creation of a MOR ERC20 token dashboard. The dashboard connects directly to the blockchain and pulls information on: MOR Transfers, MOR claimed, MOR token accumulation, the liquidity orderbook of all MOR univ2 & uniV3 LPs, detailed breakdown of each LP, MOR live trade tracker & trades by size, MOR token holders treemap & list | (https://parsec.fi/layout/BT/brknrAI5) | 13,000 | 
