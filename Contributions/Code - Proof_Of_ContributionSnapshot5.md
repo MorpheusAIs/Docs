@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 7 |0x22E0225540ccf80aB3C4F029F3dE75dB785754A3 | NirmaanAI | End-to-End Full-Stack Development of the Morpheus-Lumerin Marketplace Dashboard with Detailed Statistics and Pages for Marketplace, Models and Providers. Complete UI & Frontend Development along with Complete Backend Development using on-chain data from the Lumerin Testnet Node Smart Contracts. In-depth Documentation for both FE & BE also included. | [Added Nirmaan Dashboard : Backend and Frontend](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node/pull/15) | 90000 |
