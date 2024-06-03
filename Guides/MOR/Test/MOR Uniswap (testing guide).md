@@ -4,7 +4,7 @@
 > - The purpose of the testing is to familiarize users with the swapping process and liquidity operations of the Uniswap decentralized exchange, as well as to identify any issues that users may encounter.  
 > - This testing is conducted on the Arbitrum mainnet. Completing all the steps may require $1-3 in ETH for fees, depending on network condition.
 > - Please note that this testing is not incentivized, and participants will not receive any rewards.
-> - Test tokens have no value and intended fot test purpose only.
+> - Test tokens have no value and intended for test purpose only.
 
 ---
 
@@ -18,7 +18,7 @@ There are following steps:
 4) [Swapping tokens](#how-to-swap-tokens-on-uniswap)
 5) [Adding liquidity](#how-to-add-liquidity-to-uniswap)
 6) [Removing or decreasing liquidity](#how-to-remove-or-decrease-liquidity-from-uniswap)
-7) [Increasing and decresing added liquidity](#how-to-increase-liquidity-on-uniswap)
+7) [Increasing and decreasing added liquidity](#how-to-increase-liquidity-on-uniswap)
 
 ---
 
@@ -56,7 +56,7 @@ To mint test tokens you need to go to [MOR_Test_1 (MT1) token contract](https://
 
 It is necessary to select the `4. mint (0x40c10f19)` function that will issue tokens to your address.  
 As parameters:
-- `to_ (address)`: your wallet adress;
+- `to_ (address)`: your wallet address;
 - `amount_ (uint256)`: amount of tokens in WEI, instead of ETH.  
 You can use this unit converter calculator https://eth-converter.com to help you.
 
@@ -221,7 +221,7 @@ Confirm the transaction in the wallet to finalize remove or decrease of liquidit
 <img src="/Graphics/Docs%20Graphics/English/Uniswap%20Guide/approve3.png" width=80% height=80%>
 
 > [!TIP]
-> Try several scenarious with different pairs and  percentages.
+> Try several scenarios with different pairs and  percentages.
 
 ---
 

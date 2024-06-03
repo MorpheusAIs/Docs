@@ -4,7 +4,7 @@
 > - The purpose of the testing is to familiarize users with the MOR claim process with direct interaction with smart contracts.
 > - This testing is conducted on the Ethreum and Arbitrum mainnet (!). Completing all the steps may require $15-25 (at 10-15 gwei gas price) in ETH for fees, depending on network condition.
 > - Please note that this testing is not incentivized, and participants will not receive any rewards.
-> - Test tokens have no value and intended fot test purpose only.
+> - Test tokens have no value and intended for test purpose only.
 
 ---
 
@@ -43,7 +43,7 @@ Switch your wallet to Ethereum mainnet first. To mint test tokens you need to go
 
 It is necessary to select the `4. mint (0x40c10f19)` function that will issue tokens to your address.  
 As parameters:  
-- `to_ (address)`: your wallet adress;
+- `to_ (address)`: your wallet address;
 - `amount_ (uint256)`: amount of tokens in WEI, instead of ETH.  
 You can use this unit converter calculator https://eth-converter.com to help you.  
 On the screenshot, 10 stETH (or 10000000000000000000 in WEI) is going to be minted.

@@ -188,7 +188,7 @@ Manual Review
 
 ## Recommended Mitigation Steps :
 
-Add proper access control to `_authorizeUpgrade()` function since it is used for authorization at the time of changing implementation contract address. This can be mitigated by using 'OwnableUpgradeable' of openzeppelin and add `onlyOwner` modifier to the `_authorizeUpgrade()` function so. Only owner can be authorized to upgrade the implementation address. Add one initalizer function also to initialize the owner.
+Add proper access control to `_authorizeUpgrade()` function since it is used for authorization at the time of changing implementation contract address. This can be mitigated by using 'OwnableUpgradeable' of openzeppelin and add `onlyOwner` modifier to the `_authorizeUpgrade()` function so. Only owner can be authorized to upgrade the implementation address. Add one initializer function also to initialize the owner.
 
 ```diff
 

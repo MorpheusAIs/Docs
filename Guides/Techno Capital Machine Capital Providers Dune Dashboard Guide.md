@@ -54,7 +54,7 @@ This code simply uses blocks of code from number 3) but includes a window functi
 This approach calculates the cumulative total of stETH (or any specified token) within the contract over time.
 
 5) Largest Depositors and Recent Transactions
-The first query utilises two CTEs and combines them in the final SELECT statement. The first CTE, `quantum`, selects the depositing addresses in the `from` field and sums across the `value` field for the total of stETH deposited. The second CTE also selects the depositing addresses but instead of summing values, it keeps a 'count' of occurences. The final SELECT statement combines both CTEs in one table. To modify, follow the instructions below: 
+The first query utilises two CTEs and combines them in the final SELECT statement. The first CTE, `quantum`, selects the depositing addresses in the `from` field and sums across the `value` field for the total of stETH deposited. The second CTE also selects the depositing addresses but instead of summing values, it keeps a 'count' of occurrences. The final SELECT statement combines both CTEs in one table. To modify, follow the instructions below: 
 
 - Update Contract Address: Replace the `to` value with the contract address where deposits are being made for your project.
 
@@ -62,7 +62,7 @@ The first query utilises two CTEs and combines them in the final SELECT statemen
 
 - Adapt for Different Tokens: Change the `contract_address` in the WHERE clause to the address of the token you are analyzing.
 
-The recent transactions query simply retrives the Event-Transfee table (a popular Dune table tracking all ERC20 transfer events from genesis) orders by the block time, and limits to the last 100 transfers. Adjust the `to` field to the relevant depositing address.
+The recent transactions query simply retrieves the Event-Transfee table (a popular Dune table tracking all ERC20 transfer events from genesis) orders by the block time, and limits to the last 100 transfers. Adjust the `to` field to the relevant depositing address.
 
 6) Return on Investment
 The query is structured into several Common Table Expressions (CTEs) and a final calculation that combines these components:

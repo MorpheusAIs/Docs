@@ -6,7 +6,7 @@ MorStats.info serves as a home page for capital providers. It offers real-time d
 
 ## Home Page
 The landing page provides the following six key pieces of data:
-1) Boostrap End - The countdown shows how many days, hours, minutes, and seconds remain in the 90 day bootstrapping period that began on February 8, 2024 at 12:00 PM UTC and is scheduled to end on May 8, 2024 at 12:00 PM UTC.
+1) Bootstrap End - The countdown shows how many days, hours, minutes, and seconds remain in the 90 day bootstrapping period that began on February 8, 2024 at 12:00 PM UTC and is scheduled to end on May 8, 2024 at 12:00 PM UTC.
 2) Morpheus Staked Ethereum - API pull from Etherscan that returns the stETH contained within the multi-sig wallet representing the total contributions.
 3) Days Since Kickoff - The number of days elapsed since the bootstrap period kicked off on February 8, 2024 at 12:00 PM UTC.
 4) Today's Daily Emissions - The number of MOR tokens emitted for the current day. This is calculated by day 1 emissions of 14,400 with an emission reduction of 2.468994701 each subsequent day.
@@ -42,8 +42,8 @@ Details surrounding the newly released code weight guidance and emission schedul
 
 ## MOR Price Projection Page
 Opening Price - Per the recently released guidance for the Automated Market Maker launch, this page details how users can calculate the expected opening price.
-1) Default amounts are included, but users can input their own esimates for Average Staked ETH, Annual Yield %, ETH Price, and optionally their own Staked ETH amount.
-2) The caluclate will step users through the process of applying 52% of the stETH yield against the Protection Fund MOR, and thus reaching a USD per MOR value.
+1) Default amounts are included, but users can input their own estimates for Average Staked ETH, Annual Yield %, ETH Price, and optionally their own Staked ETH amount.
+2) The calculate will step users through the process of applying 52% of the stETH yield against the Protection Fund MOR, and thus reaching a USD per MOR value.
 3) Any user who optionally inputs their own stETH amount will get to see the estimated total value of the MOR they'll earn during bootstrapping. 
 
 Market Cap Method - Detailed Schedule the projected MOR price based on various overall market capitalization amounts. This provides a dropdown with two calculation methodologies and associated tables: Capital Provider stETH Yield Method and the Market Cap vs Supply Method. This provides two different ways for the community to think through potential prices.
