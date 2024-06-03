@@ -30,7 +30,8 @@ This code base is leveraging the existing Lumerin code base built for hashrate d
 
 - https://streameth.org/watch?event=decentralize_ai_day__eth_denver_2024&session=65df6584bf97e02da98d28a5
 
-This will come online after the MOR token goes live May 8th 2024. This represents the 2nd phase of Morpheus where Decentralized Compute goes live.
+This will come online after the MOR token goes live May 8th 2024.  
+This represents the 2nd phase of Morpheus where Decentralized Compute goes live.
 
 ## 2. [CAPITAL / MOR20 SMART CONTRACTS](https://www.mor20.org/):
 The other popular use case for Morpheus is for builders to leverage the Smart Contacts & Dashboard that Morpheus built for its fair launch. Letting other open source projects rally their communities to provide stETH and contribute yield to bootstrap their own efforts.
@@ -45,7 +46,7 @@ Developers can register themselves or their Smart Agents at Mor.Software as a st
 - https://mor.software/
 
 The latestly the tools for Smart Agents are under development here:
-- https://github.com/MorpheusAIs/SmartAgents
+- https://github.com/MorpheusAIs/moragents 
 
 If you want to experiment with the existing local Reference version of Morpheus, its connections to wallets and Smart Contracts, check out this repo: 
 - https://github.com/MorpheusAIs/Morpheus 
