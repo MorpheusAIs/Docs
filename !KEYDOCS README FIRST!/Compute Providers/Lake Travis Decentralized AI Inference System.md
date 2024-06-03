@@ -1,17 +1,4 @@
-# Morpheus MRC-25: Lake Travis Decentralized AI Inference System Proposal
-**March 9th, 2024  
-LachsBagel  
-lachsbagel@proton.me**
-
----
-
-## Status
-**April 1, 2024: IN PROGRESS**
-
----
-
-
-
+# Lake Travis Decentralized AI Inference System Proposal: MRC25
 
 ### Abstract
 
@@ -20,7 +7,7 @@ In the evolving landscape of decentralized AI, the "Lake Travis Decentralized AI
 The system known as the Lake Travis Decentralized AI Inference System will be referred to as the "Lake Travis System.”
 
 
-#### Summary of Enhancements
+### Summary of Enhancements
 
 1. **Decentralized Model Registry**:
 	- A pivotal feature of the Lake Travis proposal is the establishment of a decentralized model registry. Compute providers will download models from this registry to host model weights and definitions. This not only facilitates compute consumption but also promotes a distributed file-sharing network by allowing providers to act as nodes in an InterPlanetary File System (IPFS) [3], enhancing the ecosystem's robustness and decentralization.
@@ -30,7 +17,7 @@ The system known as the Lake Travis Decentralized AI Inference System will be re
 
 2. **Router Transparency and Model Popularity Tracking**:
 	- The Lake Travis System borrows the concept of an on-chain router. However, sessions are established off-chain to ensure users' computation privacy from the world. This also allows all requests and responses to operate with the lowest latency possible as they do not rely on on-chain block resolution times.
-		- Lake Travis proposes that router requests publicly record, not the content, but the details of which model is being requested and the duration of session times. This critical adjustment ensures the visibility of the most sought-after models, guiding compute providers on which models to prioritize for serving and at competitive pricing offerings.
+	- Lake Travis proposes that router requests publicly record, not the content, but the details of which model is being requested and the duration of session times. This critical adjustment ensures the visibility of the most sought-after models, guiding compute providers on which models to prioritize for serving and at competitive pricing offerings.
 	- Lake Travis introduces a significant evolution from the Yellowstone model by transitioning the Pass/Fail metric from a user-substantiated decision to an inferred attribute, determined by data analytics rather than manual scoring. This refinement suggests that the active participation of users in scoring performance may not be necessary. Instead, Lake Travis computes analytics to ensure fidelity.  This facilitates the identification of potentially malicious actors through the detection of anomalous session durations with respect to given models or agents, ensuring a more streamlined and efficient quality control process.
 	- For complete transparency, reports will be public.
     
@@ -55,7 +42,7 @@ The system known as the Lake Travis Decentralized AI Inference System will be re
 6. **Cryptographic Transaction Security**:
 	- Reinforcing security measures, all cryptographic transactions initiated by a smart agent or Large Language Model (LLM) require a signature from the user's web3 wallet. This provision ensures that agents or models do not possess private keys or the capability to sign transactions, upholding the network's integrity and users' sovereignty over their digital assets. The Lake Travis System hereby recommends all third-party developers who wish to engage with cryptographic and otherwise high value assets request user confirmation before the execution of any such operation. Preferably the design of the model or agent should preclude the ingestion or observability of any private key, password, passphrase, passcode, or any other special knowledge or object which would otherwise allow an automated system to perform an irrecoverable action.
 
-#### Goals
+### Goals
 The goals are largely adapted from [1].
 - Enable users to have a pro-rata quantity of allocated compute available to them each day before depleting their MOR holdings.
 - Achieve efficient, scalable, and sustainable provision of permissionless compute resources for AI inference.
@@ -65,7 +52,7 @@ The goals are largely adapted from [1].
 - Incentivize AI model and agent developers to open source their work.
 - Demonstrate an economically sound fundamental demand for MOR.
 
-#### Actors
+### Actors
 The following is adapted from [1].
 - Users / Clients
 	- Have requests to be processed
@@ -86,7 +73,7 @@ The following is adapted from [1].
 - Morpheus Compute Contract
 	- Permissionless smart contract which receives emissions of MOR, tracks credits and debits to Providers and Model / Agent Builders, and pays Providers and Model / Agent Builders
 
-#### Workflow
+### Workflow
 This is adapted heavily from [2].
 1. Users, Providers, and Router all create MOR pub keys (this is their identity, all messages signed as such).
 2. If User HODLs any balance of MOR, User may submit a signed Request for Compute “RFC” message to the Router. User specifies model or agent as well as any price or latency preferences.
@@ -101,7 +88,7 @@ This is adapted heavily from [2].
 12. Router instructs Compute Contract to credit Provider and Agent / Model Builder with MOR
 13. (Some time later) Provider and Agent / Model Builder requests payment of MOR from Compute Contract and Compute Contract sends MOR payment if valid
 
-#### Outcome
+### Outcome
 - Model / Agent Builders:
 	- Compensated while open-sourcing their innovations
 	- Don't need to be concerned about infrastructure considerations
@@ -117,12 +104,12 @@ This is adapted heavily from [2].
 	- Incentivizes in-demand models / agents to have more compute availability without a central arbiter
 	- Has liquidity provided to it by the TCM funding approach [7] and excess demand from Users
 
-#### Reconciling Yellowstone with Lake Travis
+### Reconciling Yellowstone with Lake Travis
 This proposal seeks not only to introduce these enhancements but also to seamlessly integrate them within the existing Yellowstone framework.
 
 The Lake Travis System delineates between local AI inference — equipped with smart rank features, including trusted contracts and a RAG system [5] — and decentralized inference, where the model registry is open for any model uploads and hosting by compute providers. This distinction aims to balance the openness of decentralized innovation with the reliability and security of trusted, local computation.
 
-#### Conclusion and Contributions
+### Conclusion and Contributions
 
 The "Lake Travis Decentralized AI Inference System" directly advances upon the Morpheus "Yellowstone" Compute Model's limitations by introducing a nuanced pricing structure that measures compute resources based on session length, ensuring flexibility and fairness.
 
