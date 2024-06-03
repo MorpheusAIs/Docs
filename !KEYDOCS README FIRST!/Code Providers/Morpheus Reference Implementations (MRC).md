@@ -7,7 +7,7 @@
   - **Maintainer's Discord Handle:** smartagents
   - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston) 
 
-- **MRI Number 2:** [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/SmartAgents)
+- **MRI Number 2:** [Smart Agents Tools & Examples](https://github.com/MorpheusAIs/moragents)
   - **Maintainer's Discord Handle:** lachsbagel
   - **Maintainer's GitHub Handle:** [LachsBagel](https://github.com/LachsBagel)
 
@@ -22,6 +22,7 @@
 - **MRI Number 5**: [Protection Fund](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
   - **Maintainer's Discord Handle:** storm.father
   - **Maintainer's GitHub Handle:** [EnergyHound](https://github.com/EnergyHound)
+
 - **MRI Number 6:** [Capital Proofs Extended beyond Lido stETH](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC15.md)
   - **Maintainer's Discord Handle:** smartagents
   - **Maintainer's GitHub Handle:** [DavidAJohnston](https://github.com/DavidAJohnston)
@@ -37,6 +38,7 @@
 - **MRI Number 9:** [Frontend Proofs & Examples](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md)
   - **Maintainer's Discord Handle:** erikvoorhees
   - **Maintainer's GitHub Handle:** [ErikVoorhees](https://github.com/ErikVoorhees)
+
 - **MRI Number 10:** [Interoperability](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC16.md)
   - **Maintainer's Discord Handle:** urklan / smartagents
   - **Maintainer's GitHub Handle:** [RuslanProgrammer](https://github.com/RuslanProgrammer) / [DavidAJohnston](https://github.com/DavidAJohnston)
