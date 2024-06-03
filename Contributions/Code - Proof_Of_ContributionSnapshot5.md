@@ -94,4 +94,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
- 5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 |
+ 5 | 4 |0xAaFc100CbB00Fe186C5f3d6E992f9BA93fCE7474 | Noide | Apply for Morpehus listing on CoinGecko | [Discord Message](https://discord.com/channels/1151741790408429580/1167520984849469530/1240788757339439287) | 5000 | 
