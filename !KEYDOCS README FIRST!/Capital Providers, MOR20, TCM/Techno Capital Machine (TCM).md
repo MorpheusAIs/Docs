@@ -6,13 +6,13 @@ Today, there is no easy way for developers who create software to get rewarded f
 
 This proposal for a Techno Capital Machine is meant to create a platform for developers to create and deploy their software.  It does so in a way so that the TCM first handles all the infrastructure and payments before rewarding the developer based on the popularity of the program.
 
-The Morpheus community is leveraging this framework of the Techno Capital Machine (TCM) and using it to accelerate the development of Decentralized AI. Beyond AI development, the TCM concept is pertinent to all Smart Contracts, Decentralized Applications, and Web3 programs. See a link to the detailed tokenomics here: [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
+The Morpheus community is leveraging this framework of the Techno Capital Machine (TCM) and using it to accelerate the development of Decentralized AI. Beyond AI development, the TCM concept is pertinent to all Smart Contracts, Decentralized Applications, and Web3 programs. The detailed tokenomics in in [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md).
 
 The model has been well validated during the Morpheus Fair Launch, with over $200 Million USD of stETH Contributed in the first 10 days of the project.
 
 The term Techno Capital Machine is inspired by renowned philosopher [Beff Jezos](https://twitter.com/BasedBeffJezos) and has been first implemented by the Morpheus community.
 
-## Tl;dr
+## TL;DR
 - Developer launches an open source project using the Techno Capital Machine.
 - Using TCM, the developer deploys a native token to power their project.
 - Users staking stETH can choose to allocate their yield to projects. 
@@ -26,7 +26,7 @@ How to launch your decentralized, open source project in 2024:
 ## TCM As A Solution
 Let’s coalesce to create a frictionless way for developers to launch projects using the Techno Capital Machine, shall we?  
 
-The process for a new project is simple:
+**The process for a new project is simple:**
 1. Deploy Smart Contracts to direct Capital yield toward the new open source project via a Fair Launch.
 2. Add the token to Uniswap to generate liquidity via a Fair Price Discovery mechanism.
 3. Leverage the available decentralized Compute, Code, and Community which already are involved in open source and freedom tech. 
@@ -61,8 +61,7 @@ For example, the Coder can choose whether or not to merge any open source contri
 ## Atomic Voice & Exit
 The Atomic Governance Model is very different from a DAO model. This practically looks like: 
 - 1. Proposals get made for improvements, general discussion takes place. https://github.com/MorpheusAIs/MRC
-- 2. Then repository owners watch for people with real knowledge / skill and pull them into the coding planning to technically design an implementation.  
-- 3. Once the best technical design for coding up a proposal is identified and the developers confirm they can code it and test it in an expected time, then work begins.
+- 2. Then repository owners watch for people with real knowledge / skill and pull them into the coding planning to technically design an implementation. - 3. Once the best technical design for coding up a proposal is identified and the developers confirm they can code it and test it in an expected time, then work begins.
 - 4. The broader coding community can add issues, submit pull requests and contribute to the effort.
 - 5. No broad vote on the proposal, its design, or its code is sought. Its much more a consensus by experts and judged by repo owner in the Atomic Governance model.
 - 6. After the code is developed and deployed every user maintains the right to use or not use it. To fork the code and otherwise create a different version or opt out of the project.
@@ -70,9 +69,10 @@ The Atomic Governance Model is very different from a DAO model. This practically
 This TCM framework is much better aligned with a purely free market approach to building, rather than trying to build consensus and achieve coordination among a large number of people which is very time-consuming and difficult especially at an early stage where the software needs to quickly change and iterate until it gets to a good product market fit and even afterward to adapt to new market conditions.
 
 ## Fair Price Discovery Mechanism with Deep Liquidity
-The community has designed a process to launch a Uniswap Automated Market Maker (AMM) pool at a fair price with deep liquidity. Additional details can be found at MRC 09 https://github.com/MorpheusAIs/MRC?tab=readme-ov-file#mrc-09-amm-launch-process. 
+The community has designed a process to launch a Uniswap Automated Market Maker (AMM) pool at a fair price with deep liquidity.  
+Additional details can be found at [MRC 09](https://github.com/MorpheusAIs/MRC/blob/main/IMPLEMENTED/MRC09.md).
 
-The basics of this approach include:
+**The basics of this approach include:**
 - Bootstrapping the MOR side of Uniswap AMM liquidity from the 4% of emissions dedicated to the Protection Fund. The Protection Fund is set to become claimable by Day 88 of the Fair Launch in order to perform this function.
 - 52% of Morpheus' earned yield from Capital Providers' stETH is also added to the AMM pool. 52% represents the emissions in circulation at the completion of the Boostrapping Phase: Code (24%), Capital (24%), Protection Fund (4%) are circulating while Compute (24%) and Community (24%) are not yet circulating.
 - Opening price is set at the price where 52% of yield = 100% of Protection Fund MOR.
@@ -88,7 +88,7 @@ In the Morpheus context the Capital Providers continue to earn rewards for 16 ye
 ## Links To Smart Contract Code and Examples
 [Smart Contracts for Capital Providers](https://github.com/MorpheusAIs/SmartContracts) offering stETH and earning native project tokens.
 
-[Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) for bidding on Compute.
+[Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) for bidding on Compute.
 
 Example [Proof of Code Contribution.](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_Contribution.md)
 
