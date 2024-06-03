@@ -4,16 +4,16 @@
 ## Quick Links Section
 
 ### User Links:
-- Capital: MOR20 Smart Contracts Github Repo (https://github.com/MorpheusAIs/SmartContracts)
-- Code: Documentation for Building Morpheus (https://github.com/MorpheusAIs/Docs)
-- Inference: Dashboard for Compute (https://github.com/MorpheusAIs/DashBoard)
-- Smart Agents: MRC for Non Fungible Agents (NFA) (https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC21.md)
+- Capital: [MOR20 Smart Contracts Github Repo](https://github.com/MorpheusAIs/MOR20)
+- Code: [Documentation for Building Morpheus](https://github.com/MorpheusAIs/Docs)
+- Inference: [Dashboard for Compute](https://github.com/MorpheusAIs/DashBoard)
+- Smart Agents: [Local Smart Agents](https://github.com/MorpheusAIs/Docs/blob/main/README.md)
 
 ### Contributor Links:
-- Capital: Dashboard for Capital Contributors (https://dashboard.mor.org/#/mainnet/capital)
-- Code: MRC Repository on Github for new proposals (https://github.com/MorpheusAIs/MRC)
-- Inference: Decentralized Router for Morpheus / Lumerin Code Base (https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
-- Smart Agents: Mor.Software Website to Register as a Developer or register your Smart Agent (https://mor.software/)
+- Capital: [Dashboard for Capital Contributors](https://dashboard.mor.org/#/mainnet/capital)
+- Code: [MRC Repository on Github for new proposals](https://github.com/MorpheusAIs/MRC)
+- Inference: [Decentralized Router for Morpheus / Lumerin Code Base](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node) 
+- Smart Agents: [Mor.Software Website](https://mor.software/) to Register as a Developer or register your Smart Agent
 
 ## Intro & Purpose:
 At its heart everything contributors are adding to the Morpheus platform from Code to Capital to Compute is designed to empower builders to create and deploy Smart Agents to users. Smart Agents that are directed by individuals, permissionless, open source, and provide unrestricted intelligence to the world.
