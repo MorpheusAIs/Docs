@@ -11,4 +11,4 @@ https://morlord.com/
 
 ![PriceperMOR](https://github.com/MorpheusAIs/Docs/assets/1563345/4ee35840-632f-4fc7-8d8f-641f816cbcc8)
 
-![RSDRate](https://github.com/MorpheusAIs/Docs/assets/1563345/3db4cd5c-84ef-4f4c-91c8-7869cc30a98b)
+![CurrentRSDrate](https://github.com/MorpheusAIs/Docs/assets/1563345/974c2dfe-09d3-4087-88d4-151798e65647)
