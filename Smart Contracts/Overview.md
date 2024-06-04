@@ -24,7 +24,7 @@ With the exception of the MOR token and LinearDistributionIntervalDecrease libra
 |---------------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | `MOROFT`            | -                                                                                                                    | [0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86) |
 | `L2MessageReceiver` | [0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427) | [0x2Efd4430489e1a05A89c2f51811aC661B7E5FF84](https://arbiscan.io/address/0x2Efd4430489e1a05A89c2f51811aC661B7E5FF84) |
-| `L2TokenReceiverV2` | TBD                                                                                                                  | TBD                                                                                                                  |
+| `L2TokenReceiverV2` | [0x47176b2af9885dc6c4575d4efd63895f7aaa4790](https://arbiscan.io/address/0x47176b2af9885dc6c4575d4efd63895f7aaa4790) | - |
 
 ## Ethereum Contracts
 
