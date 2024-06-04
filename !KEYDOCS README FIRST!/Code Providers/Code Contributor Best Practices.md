@@ -3,25 +3,10 @@
 > [!IMPORTANT]
 > Before contributing Code to Morpheus related GitHub repositories please read this quick guide on best practices.
 
-## Structuring your Code Contributions.
-All Code Contributions should include the following four elements:
-1. The Ethereum wallet address to be rewarded.
-2. Link to the Code Contribution (this may be a commit or PR).
-3. The number of [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
-4. Description of Contributions including which Morpheus Reference Implementation the contribution is related to.
-
-Please use the format below (including the pipe (|) symbol) to ensure contributions appear correctly in the table:  
-```| Wallet Address | Link to Work | Weights Requested (weights) | Description of Contribution |```
-
-**Example:**  
-```| 0x98eFf980C57c9D333340b3856481bF7B8698987c | [PR 1](https://github.com/MorpheusAIs/Morpheus/pull/1) | 50 | Integration of ollama |```
-
-## Best Practices
-
 ### 1. The Key Is To Add Value To Get Merged / Rewarded
 Weights are NOT based on the Labor Theory of Value. It doesn't matter how many hours are worked but rather the value produced by the work. That's why the repository owner has to actually merge in the code (the product of the work) for it to count toward rewards. The repository owner acts as the "customer" in the marketplace. Look at other contributors to the repo and gauge the needs of the repository owner or read the current proposals in the MRC repository to see what future coding work is being proposed: https://github.com/MorpheusAIs/MRC
 
-Please read the [Code Contributor Weights Guide.](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) to understand the implied value per weight which is updated each month.
+Please read the [Code Contributor Weights Guide.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md) to understand the implied value per weight which is updated each month.
 
 ### 2. Be Reasonable and Competitive 
 If the Code contributor is asking too many weights for the Contribution or the quality of the contribution cannot be assessed or is of low quality, it is likely to be rejected by the repository owner.
