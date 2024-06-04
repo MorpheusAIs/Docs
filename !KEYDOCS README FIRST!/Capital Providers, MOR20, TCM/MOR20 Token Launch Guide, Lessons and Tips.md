@@ -61,6 +61,7 @@ All three approachs have trade offs to consider described below.
 - If your MOR20 project selects the 1st option and the Multisig does the kick off BEFORE claims go live, then do the kick off at least 3 to 6 hours before.
 - Even with tests, the multisig software and its integrations are often changed and that may alter the process and cause delays.
 - However you can't set up the multisig transaction too long before the event, keep in mind pending transaction expire after only a short period of time.  
+
 **2. Multisig Deploys Liquidity AFTER Scenario Tips:**
 - If your MOR20 project selects the 2nd option and the Multisig does the kick off AFTER claims go live.
 - Adding liquidity to from a multisig is very different than doing it from a single address, largely due to the time lag between signers.
