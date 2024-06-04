@@ -4,7 +4,7 @@
 
 ## Summary
 
-The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC25.md).
+The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md).
 
 The following proposal will explain the key design principles that have been incorporated as well as outline each part of the on-chain ecosystem model, client-side node, and underlying protocol.
 
@@ -78,7 +78,7 @@ The ecosystem registry is a reference list of all official Morpheus contracts de
 The token distribution contract is responsible for attributing MOR to the different tokenomic model tranches.
 
 
-<i>"Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+<i>"Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
 Distribution utilizes [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [LinearDistributionIntervalDecrease](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/LinearDistributionIntervalDecrease.md) is used to calculate pool rewards."</i> <sup>1</sup> 
  
