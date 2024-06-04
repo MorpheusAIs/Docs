@@ -1,6 +1,8 @@
 # Deep dive into Morpheus Tokenomics
+
 ## Introduction:
 Tokenomics serves as the backbone of Web3 projects, shaping their dynamics and benefits. A journey through the evolution of tokenomics, starting with Bitcoin, reveals its pivotal role.  
+
 Tokenomics models over time:
 - **Bitcoin Era:** Bitcoin introduced decentralized currency, emphasizing scarcity and value through capped supply and Proof-of-Work.
 - **Ethereum and Smart Contracts:** Ethereum expanded tokenomics, enabling programmable assets through smart contracts, leading to the tokenization trend.
@@ -10,11 +12,14 @@ Tokenomics models over time:
 
 ## What’s the Problem?
 The significance of effective tokenomics becomes apparent when exploring the challenges posed by flawed models, impacting user engagement, project business model and long term sustainability.
+
 Attracting and retaining users becomes a challenge because poor tokenomics discourages users from active engagement by failing to provide clear benefits or incentives and a lack of utility or tangible value diminishes project appeal. Which also leads to unreasonably high marketing costs.
+
 Tokenomic flaws can result in economic misalignments, leading to unfair distribution of value and impacting the overall health of the ecosystem. Under such conditions, the business model stops working, jeopardizing the sustainability of the project and, as a result, endless pivoting or bankruptcy.
 
 ## Is there a way out?
 Morpheus addresses these challenges through a comprehensive solution, intertwining various components that leverage MOR tokens effectively, thereby creating both internal and external demand. 
+
 Morpheus tokenomics incorporates elements from all models: 
 1. Inspired by Bitcoin, it incorporates an emission cap of 42 000 000 with gradual token release starting from 14,400 MOR per day and then declining by 2.468994701 MOR each day, until the reward reaches 0 on day 5,833 (about 16 years). This schedule is aligned with project growth and prevents excessive supply.
 2. From Ethereum, it ensures transparency and strict adherence to set conditions through smart contracts.
@@ -23,7 +28,7 @@ Morpheus tokenomics incorporates elements from all models:
 
  ![meme](https://github.com/antonbosss/fantastic-bassoon/blob/main/tokenomics-doc/meme-tokenomics1.jpg) 
 
-## Techno Capital Machine tokenomics engine
+## Techno Capital Machine Tokenomics Engine
 Morpheus introduces a novel token distribution mechanism called the Techno Capital Machine (TCM). It distributes tokens fairly while accruing value that is used to provision Protocol-Owned Liquidity (POL).
 
 Here is an overview of the TCM mechanism:
@@ -71,7 +76,7 @@ Morpheus’ tokenomics presents a holistic framework, avoiding pitfalls and buil
 
 ## To read:
 1. [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) 
-2. [Techno Capital Machine paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+2. [Techno Capital Machine paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md)
 3. [Protection Plan Details](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
  
 
