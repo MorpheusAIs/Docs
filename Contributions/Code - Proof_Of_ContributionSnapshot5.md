@@ -95,3 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 1 | 0x26180446C2f754256ff383b4a2558a6774551295 | mrscoder24 | Reinstate erroneously removed weights from Snapshot #1: Translations of some KEYDOCS | https://github.com/MorpheusAIs/Morpheus/commits?author=mrscoder24 | 38000 |
