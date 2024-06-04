@@ -4,6 +4,9 @@
 ### Erik Voorhees
 ### January 3rd 2024
 
+> [!Note]
+> The content presented in this document were supplemented and expanded in the [Lake Travis Decentralized AI Inference System](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md) document.
+
 ## Summary
 In the Yellowstone Compute Model, the Morpheus network pays Providers only for Compute actually provided through a competitive bid process, and allocates the scarce production of IPS (inferences/seconds) pro rata to MOR token holders based on balance, rather than on payment. This drastically improves UX while minimizing Sybil vulnerability. Yellowstone also imbues the important metrics of time and a Pass/Fail test to ensure Providers are adequately prompt and accurate. Yellowstone preserves privacy by never sending prompts or results through the Router, and minimizes blockchain transactions to permit a large scale of operation. Through this model, MOR achieves fundamental value as it enables perpetual (though not unlimited) access to permissionless compute, without requiring transactions per inference. 
 
