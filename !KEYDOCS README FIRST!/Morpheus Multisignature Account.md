@@ -19,8 +19,9 @@ Following the recommendations of the cybersecurity experts and auditors involved
 - Identities of the key holders will not be doxxed for obvious personal security reasons.
 
 ## 3. Resulting Multisig Addresses:
-- Multisig Address for Ethereum: 0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E
-- Multisig Address for Arbitrum: 0x151c2b49CdEC10B150B2763dF3d1C00D70C90956
+- Multisig Address for Ethereum: [0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E](https://etherscan.io/address/0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E)
+- Multisig Address for Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)
+- Multisig Address for Base: [0xf3ef00168dd40eae68a7e670d56c7b8724e0c183](https://basescan.org/address/0xf3ef00168dd40eae68a7e670d56c7b8724e0c183)
 
 ## 4. How The Multisig Is Likely To Evolve
 To be clear the key holders have little meaningful power over the Smart Contracts. On purpose most of the functions of the Smart Contracts cannot be changed by the admin (controlled by the multisig) and as the Smart Contracts evolve and mature it is anticipated that the admin key may not be required at all. This step of becoming non-upgradable should be taken carefully as it will make the Smart Contracts much harder for the community to upgrade in the future.
