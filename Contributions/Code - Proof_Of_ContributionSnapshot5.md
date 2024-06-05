@@ -8,9 +8,9 @@ This table is for code contributions in Snapshot 5.
 [Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot1.md)  
 
 > [!IMPORTANT]  
-> **If you would like to make a pull reqest please submit to latest snapshot after reading   
-[The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md)**  
-**[The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md)**
+> If you would like to make a pull reqest please submit to latest snapshot after reading   
+> [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Best%20Practices.md)
+> [The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md)
 
 ## Snapshot Timelines and Implied Value of a Weight
 **Snapshot 1.** September 2nd 2023 to February 8th 2024  
@@ -27,7 +27,7 @@ Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 
 
 **Snapshot 5.** May 8th 2024 to June 8th 2024   
 Theoretical Implied Value of a Weight = $1.2 USD per Weight (price is unknown 1MOR = 1MOR).  
-The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
+The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md#calculating-the-implied-value-of-weights)
 
 ## Structuring of Code Contributions
 
@@ -39,7 +39,7 @@ All Code Contributions to include the following elements:
 4. Handle of a contributor GitHub.
 5. Full description of a contribution.
 6. Proof of the Code Contribution (this may be a commit or PR).
-7. Amount of [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md) requested (as a number – do not include the word "weights").
+7. Amount of [weights](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md#calculating-the-implied-value-of-weights) requested (as a number – do not include the word "weights").
 
 Example fields below:  
 
