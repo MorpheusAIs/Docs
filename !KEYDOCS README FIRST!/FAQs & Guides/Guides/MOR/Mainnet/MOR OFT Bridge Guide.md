@@ -47,7 +47,7 @@ Switch your wallet to the Arbitrum chain, go to [Arbitrum MOR contract](https://
 - `_payInLzToken (bool)`: false
 
 For example:  
-`[30184,"0x000000000000000000000000f3ef00168DD40Eae68A7E670d56C7b8724E0c183", "1000000000000000000", "1000000000000000000", "0x", "0x", "0x"]`, where you need to replace:
+`[30184,"0x000000000000000000000000f3ef00168DD40Eae68A7E670d56C7b8724E0c183", "1000000000000000000", "1000000000000000000", "0x", "0x", "0x"]`, where you need to input:
 - `0x000000000000000000000000f3ef00168DD40Eae68A7E670d56C7b8724E0c183` - 0x_24zeros_the rest of the receiver address after 0x, no spaces needed  
 - `"1000000000000000000", "1000000000000000000"` - two identical amounts of MOR you want to bridge reflected in WEI units (the smallest denomination of ETH).
 
