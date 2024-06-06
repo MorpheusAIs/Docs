@@ -98,3 +98,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  5 | 2 | 0x63AE77cCa59BbEdCbEe3F88C51231056e7f9929C | LachsBagel | local install 0.0.8 | https://github.com/MorpheusAIs/moragents/pull/14 | 20000 |
  5 | 2 | 0x622805409A2632b7Ca58c970925e009555567891 | object335 | Rag Agent - local install example agent | https://github.com/object335/morpheus_rag_agent | 100000
  5 | 2 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | artfuljars | Windows and MacOS moragents builds and packaging | [moragents builds project](https://github.com/LachsBagel/moragents/blob/e499b416e2b3612f3779ae2bdb31d5b925d277e5/AGENTABILITIES.md?plain=1#L30) | 50000 |
+ 5 | 7 | 0xFEB8a258D5ca5F0132A31894bd6F3b9F06Dc4Bef | framedintent | Agent registry interface, gin api, testing rlimits and close todo | https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/pull/86, https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/pull/92 | 30000 |
