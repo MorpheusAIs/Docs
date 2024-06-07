@@ -24,7 +24,7 @@ Morpheus is chain agnostic, which means that developers can deploy their DAPPs o
 ## How to bridge?
 There is a two-steps smart contract interaction process to bridge MOR between chains: 
 
-1. Getting fee you have to pay for bridge in native tokens
+1. Getting fee you have to pay for bridge in native tokens.
 
 2. Executing bridge with `send` function.
 
@@ -175,7 +175,44 @@ Save the resulting value as you will need it for the next step.
 
 
 ### Executing Base => Arbitrum MOR Bridge Transaction
-Switch your wallet to the Base chain, go to [Base MOR contract](https://basescan.org/token/0x7431ada8a591c955a994a21710752ef9b882b8e3#writeContract) **"Write contract"** tab and connect your wallet by clicking on the **"Connect to Web3"** button. 
+To execute `call` function we will use REMIX Ethereum Integrated Development Environment.
+
+Switch your wallet to the Base chain and visit **https://remix.ethereum.org/**.  
+Open **"WORKSPACES"** drop-down menu and select **"Clone"**.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Paste Morpheus Smart Contracts repository address https://github.com/MorpheusAIs/SmartContracts and clicl **"Ok"**.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Wait when the repository is cloned, open **"contracts"** folder and click on **"MOROFT.sol"** contract.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Compile the contract after code is opened.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Wait until compulation is over and connect your web3 wallet, that has to be switched to the Base chain.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Paste the address of the MOR smart contract on the Base chain in **"At Address"** field and click the **"At Address"** blue button.  
+If done right, smart contract should appear under the Deployed/Unpinned Contracts section. 
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+Paste the fee you got at the previous step (only first number without zero) in the **"VALUE"** field.  
+For example, if you got `1032569491872306,0` - you need to paste only `1032569491872306`
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Bridge%20Guide/arb-eth-fee.png" width=100% height=100%>
+
+
+
+
+
+ [Base MOR contract](https://basescan.org/token/0x7431ada8a591c955a994a21710752ef9b882b8e3#writeContract) **"Write contract"** tab and connect your wallet by clicking on the **"Connect to Web3"** button. 
 
 Find function `11.send (0xc7c7f5b3)` and enter as parameters:
 - `send`: but converted to ETH units with https://eth-converter.com;
