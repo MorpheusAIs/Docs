@@ -94,22 +94,12 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** |  **Proof of Contribution** | **Weights Requested**  
 ---|---|---|---|---|---|---
  5 | 3 | 0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
-
-
-
-
-
-
-
-
  5 | 4 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonbosss | MOR launch support, coordination and tech assistance, implementation of extra the anti-spam and anti-scam measures on launch, daily monitoring of fake MOR tokens; added information about MOR token to Geckoterminal; applied and paid for MOR listing at Dexscreener and Dappradar; MOR20 Dashboard testing and feedback; assisterr MOR20 onboarding and assistance | https://dexscreener.com/arbitrum/0xe5cf22ee4988d54141b77050967e1052bd9c7f7a, https://www.geckoterminal.com/arbitrum/pools/0xe5cf22ee4988d54141b77050967e1052bd9c7f7a, https://www.loom.com/share/13e055ab70694184a79e37a72cba7d00?sid=917ee6a1-7ef1-458e-ba52-f6bc5ef101be, https://dappradar.com/dapp/morpheus  | 12000 
  5 | 1 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonbosss | bought and sent to multisig MOR.ARB handle to prevent squatting | https://arbiscan.io//tx/0x296d3676741cee699761fd19071236321949fb6269bd9ab9288a2ae58147f015 | 900
  5 | 8 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonbosss | MOR.Software terms of reference review and feedback | https://mor.software/ | 400
  5 | 9 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonbosss | Re-work of the General, Capital, Code, MOR token and PoL FAQs; compute test launch FAQ; new README for 0.0.8 release doc; Github structure optimization, update of links and content; administration and moderation of socials, tech assistance, facilitation of discussions, sharing and coordination of the information exchange; organization and managing of the Discord AMA and events; added, setup and paid for telegram Combot premium subscription; integration of new MOR token data for Discord and Telegram info bot. | https://github.com/MorpheusAIs/Morpheus/pull/666, https://github.com/MorpheusAIs/MorpheusLinux/pull/4, https://github.com/MorpheusAIs/Docs/pull/292, https://github.com/MorpheusAIs/Docs/pull/261, https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/FAQs | 17000 
-
-
-
-
- 
-
- 
+ 5 | 3 |0xf93de9fb07f5762a1e3db9a5c687595111928d77 | mordeveloper | Description of Contribution | Proof of contribution links | 1250 | 
+ 5 | 2 | 0x63AE77cCa59BbEdCbEe3F88C51231056e7f9929C | LachsBagel | local install 0.0.8 | https://github.com/MorpheusAIs/moragents/pull/14 | 20000 |
+ 5 | 2 | 0x622805409A2632b7Ca58c970925e009555567891 | object335 | Rag Agent - local install example agent | https://github.com/object335/morpheus_rag_agent | 100000
+ 5 | 2 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | artfuljars | Windows and MacOS moragents builds and packaging | [moragents builds project](https://github.com/LachsBagel/moragents/blob/e499b416e2b3612f3779ae2bdb31d5b925d277e5/AGENTABILITIES.md?plain=1#L30) | 50000 |
+ 5 | 9 | 0xE4708c48B2E1FDee9DD60A08F3E89aee45B93906 | Tigerbuidl | This month its been a lot of integrations work (events such as Consensus). On boarding contributors to the ecosystem (via Discord). Support for engagement with developers (DeAI Day related work). And Posting Talks and speeches at events on Youtube (@morpheusintern) | 29000 |
