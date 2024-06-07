@@ -6,7 +6,7 @@ Morpheus is chain agnostic, which means that developers can deploy their DAPPs o
 
 
 
-## MOR Token Smart Contract Addresses and LayerZero codes:
+## MOR Token Smart Contract Addresses and LayerZero Codes:
 **Ethereum** 
 - Smart Contract address: [**0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0**](https://etherscan.io/address/0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0) 
 - LayerZero Code: **30101**
