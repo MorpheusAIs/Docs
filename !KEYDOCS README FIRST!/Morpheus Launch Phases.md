@@ -29,7 +29,7 @@ These are significant and interrelated projects as adding yield sources necessit
 
 ### Testing Plan
 Outlined here is the testing plan for the Morpheus Smart Contracts:
-https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TestingPlan.md
+https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Morpheus%20Testing%20Plan.md
 
 ### History
 February 8th 2024 is the 28th Anniversary of "A Declaration of the Independence of Cyberspace" (February 8th 1996). 
