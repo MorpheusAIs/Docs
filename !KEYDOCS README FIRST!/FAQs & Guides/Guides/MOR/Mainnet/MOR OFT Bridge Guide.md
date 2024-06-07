@@ -1,4 +1,4 @@
-# MOR OFT Bridge Guide.md
+# MOR OFT Bridge Guide
 
 ## Introduction
 Morpheus is chain agnostic, which means that developers can deploy their DAPPs on any blockchain that suits them. To achieve this goal, the MOR token has been integrated with the Wormhole and LayerZero OFT standards. This guide will walk you through the process of bridging the MOR token using LayerZero technology between Arbitrum, Ethereum, and Base chains using smart contracts.
@@ -9,15 +9,15 @@ Morpheus is chain agnostic, which means that developers can deploy their DAPPs o
 ## MOR Token Smart Contract Addresses and LayerZero codes:
 **Ethereum** 
 - Smart Contract address: [**0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0**](https://etherscan.io/address/0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0) 
-- LayerZero Code: 30101
+- LayerZero Code: **30101**
 
 **Arbitrum** 
 - Smart Contract address: [**0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86**](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
-- LayerZero Code: 30110
+- LayerZero Code: **30110**
 
 **Base** 
 - Smart Contract address: [**0x7431ada8a591c955a994a21710752ef9b882b8e3**](https://basescan.org/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
-- LayerZero Code: 30184
+- LayerZero Code: **30184**
 
 > [!WARNING]
 > **The MOR token is launched only on Arbitrum, Ethereum and Base chains, and only the tokens with the addresses listed above are genuine. All other tokens on any chain are most likely scams.**
@@ -36,12 +36,12 @@ There is a two-steps smart contract interaction process to bridge MOR between ch
 
 Below the list of all possible routes, click on the one you are interested in to jump directly to the instructions:
 
-1. [**Arbitrum to Base**]()
-2. [**Arbitrum to Ethereum**]()
-3. [**Base to Arbitrum**]()
-4. [**Base to Ethereum**]()
-5. [**Ethereum to Arbitrum**]()
-6. [**Ethereum to Base**]()
+1. [**Arbitrum to Base**](#arbitrum-to-base-mor-token-bridge)
+2. [**Arbitrum to Ethereum**](#arbitrum-to-ethereum-mor-token-bridge)
+3. [**Base to Arbitrum**](#base-to-arbitrum-mor-token-bridge)
+4. [**Base to Ethereum**](#base-to-ethereum-mor-token-bridge)
+5. [**Ethereum to Arbitrum**](#ethereum-to-arbitrum-mor-token-bridge)
+6. [**Ethereum to Base**](#ethereum-to-base-mor-token-bridge)
 
 
 
