@@ -89,7 +89,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** 
 ---|---|---|---|---|---|---|---|---|---|---
  4 | 0xf93de9fb07f5762a1e3db9a5c687595111928d77 | NoiseColor | \[MRC28 Thread\]\(https://discord\.com/channels/1151741790408429580/1220404152165994648\) \[Link to prototype\]\(https://www\.figma\.com/proto/Vl5nU87wTIHk78KWJGh6xl/Morpheus?page\-id=38%3A48&type=design&node\-id=98\-4005&viewport=1327%2C\-927%2C0\.16&t=z0DHtCOraZjmmluK\-1&scaling=min\-zoom&starting\-point\-node\-id=98%3A4005\)\| | 16000 | 9 |  |  |  |  |  
- 4 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | dorianjanezic | "https://github\.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28\.md, https://morpheus\.info\.gf/" | 4000 | 9 |  |  |  |  |  
+ 4 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | dorianjanezic | "https://github\.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28\.md, https://morpheus\.info\.gf/" | 4000 | 9 |  |  |  |  |  
  4 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | Crash42069 | https://github\.com/MorpheusAIs/Docs/pull/238 | 30000 | 4 |  |  |  |  |  
  4 | 0x65DF6F7E5897b033CAcF77447f0fe274aa03B156 | Potentiated | https://github\.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library\.md | 30000 | 4 |  |  |  |  |  
  4 | 0x147D486BE9d39cB92c1FB46e6a0F13e5E057A9e6 | quertc | https://github\.com/MorpheusAIs/Morpheus/issues/662 | 650 | 3 |  |  |  |  |  
