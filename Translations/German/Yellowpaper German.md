@@ -25,31 +25,31 @@ Erste Interaktion mit Morpheus 22. Oktober 2023.
 ![FirstInteractionWithMorpheus20231022](https://github.com/MorpheusAIs/Morpheus/assets/1563345/35509f3a-4346-4f58-bb60-f7881fd10f7e)
 
 ## Morpheus-Smart-Contracts
-Bei Kettenaktionen, die durch den Morpheus-Smart-Contract validiert werden müssen.
+Aktionen auf der Blockchain, die durch den Morpheus-Smart-Contract validiert werden müssen.
 
-1. Fork des N2 Yield Smart Contract wird auf Arbitrum wieder eingesetzt
-- A) Sperre ETH durch Thorchain, spende Erlöse an Programmierer + Compute-Anbieter.
-- B) Berechnung des Anteils der gespendeten ETH 
+1. Fork des N2 Yield Smart Contracts (erneut auf Arbitrum implementiert):
+  A) ETH durch Thorchain sperren, Erträge an Programmierer + Rechenzentrumsbetreiber spenden.
+  B) Pro-rata-Berechnung der gespendeten ETH
 
-2. Endgültig nachweisbare Zerstörung von MOR:
-- A) Brennadresse oder Brennfunktion für MOR-Tokens.
+2. Ewige nachweisbare Zerstörung von MOR:
+  A) Brennadresse oder Brennfunktion für MOR-Token.
 
-3. ERC20 Mustervertrag für die Ausstellung von MOR
-- A) Mint MOR Token täglich an Capital + Gemeinschaft anteilig zum gespendeten ETH Ertrag.
-- B) Mint MOR-Token täglich an Programmierer + Compute-Anbieter anteilig zu MOR über Gebühren verbrannt.
+3. ERC20-Vorlagenvertrag für die Ausgabe von MOR:
+  A) Täglich MOR-Token an Kapital + Gemeinschaft ausgeben, anteilig zu den gespendeten ETH-Erträgen.
+  B) Täglich MOR-Token an Programmierer + Rechenzentrumsbetreiber ausgeben, anteilig zu durch Gebühren verbrannten MOR.
 
-4. Beweis für Morpheus - Demonstration von Datenschutz, Open Source und Sicherheit
-- A) Veröffentlichen Sie eine Liste der geprüften Agenten und ihre Smart Rank-Bewertungen.
-- B) Veröffentlichung der Liste der geprüften LLMs und ihrer Smart Rank-Bewertungen.
-- C) Veröffentlichen Sie eine Liste von Smart Contracts und deren Smart Rank-Bewertungen.
-- D) Veröffentlichen Sie eine Liste der Prompts und ihrer Smart Rank-Bewertungen.
+4. Beweis von Morpheus – Demonstration von Privatsphäre, Open Source und Sicherheit:
+  A) Liste der geprüften Agenten und ihrer Smart-Rank-Bewertungen veröffentlichen.
+  B) Liste der geprüften LLMs und ihrer Smart-Rank-Bewertungen veröffentlichen.
+  C) Liste der Smart Contracts und ihrer Smart-Rank-Bewertungen veröffentlichen.
+  D) Liste der Prompts und ihrer Smart-Rank-Bewertungen veröffentlichen.
 
-5. Sicherungsfonds
-- A) Verteilen Sie MOR & ETH im Falle von Hacks, Fehlern, Bugs oder anderen Angriffen, die Verluste verursachen. 
-- B) Vordefinierte Szenarien für die Auszahlung. Richtlinien für Forking/Rollback in extremen Fällen.
-- C) Entwickler, die für die Ermittlung von Fällen von Angriffen und deren Abhilfe zuständig sind. 
-- D) Mittel für Bug Bounties / weiße Hut-Hacker.
-- E) Mittel für den Schutz vor nationalstaatlichen Akteuren.
+5. Schutzfonds:
+  A) MOR & ETH in Fällen von Hacks, Fehlern, Bugs oder anderen Angriffen, die Verluste verursachen, verteilen.
+  B) Vordefinierte Szenarien für Auszahlungen. Richtlinien für Forks/Rollbacks in Extremfällen.
+  C) Entwickler sind verantwortlich für die Feststellung von Angriffen und deren Behebung.
+  D) Mittel für Bug-Bounties / White-Hat-Hacker.
+  E) Mittel zum Schutz vor staatlichen Akteuren.
 
 ## Morpheus Smart Contract Diagramme
 Diagramme und Beschreibungen der MOR-Prägung und -Brennung.
