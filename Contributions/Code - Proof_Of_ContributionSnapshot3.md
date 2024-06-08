@@ -178,4 +178,4 @@ Example fields below:
 | 3 | 0x896C20Da40c2A4df9B7C98B16a8D5A95129161a5 | anon 84 |  | 30000 | 9 |  | 1 | 0 | 30000 | 0 |
 | 3 | 0x5aca8c74Bd773742639d12a853EFB83A5982A2f8 | anon 89 |  | 100000 | 9 |  | 1 | 0 | 100000 | 0 |
 | 3 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | https://github.com/MorpheusAIs/Morpheus-Lumerin-Node | Casey <> Akash inference setup build/test/debug, NY | 80000 | 7 |  | 1 | 0 | 80000 | 0 |
-| 3 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | MRC28 - wallet integration | 0 |  | 1 | 0 | 0 | 0 |
+| 3 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | MRC28 - wallet integration | 0 | 1 |  | 1 | 0 | 0 | 0 |
