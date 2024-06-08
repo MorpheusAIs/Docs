@@ -91,7 +91,8 @@ Example fields below:
 `|               Wallet Address               |     Link to Work    | Weights Requested (weights) | Description of Contribution |`  
 `| 0x98eFf980C57c9D333340b3856481bF7B8698987c | Link to Commit #127 | 50                          | Integration of ollama       |`
 
- 
+## Code Contributions for Snapshot 3
+
 | **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** |
 |----------|---------|---------|-------------|-----------------|-------------|---------------|---------------------|----------------|--------------------|----------------------|
 | 3 | 0x8388298D1B9601CE2da78127605570b4878f2cFa | Security Repo Implementation Request | Security Advisory Consult for March. Review merge requests security for Moroft.SOL, Solana Integration, and stETH to wETH upgrade. | 7875 | 5 |  | 1 | 0 | 7875 | 0 |
@@ -103,7 +104,7 @@ Example fields below:
 | 3 | 0xb627956e21Ac0599a9db21BB4A841D49a1c4d27D | #67 | WhitePaper translated to Slovenian | 1575 | 1 | 6 | 0.5 | 0.5 | 788 | 787.5 |
 | 3 | 0x66c743440673aB280AD2EB3dB51466E76B7a70fB | #90, #89 | Fixed typos and broken links | 315 | 9 |  | 1 | 0 | 315 | 0 |
 | 3 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | https://github.com/MorpheusAIs/Morpheus/pull/634/commits/18ca822b43e114204a57ea8b2efadca2552bda1e | New and ongoing technical integrations with Sei, Monad, Hive Network, Tensorplex, Shinkai | 22049 | 9 |  | 1 | 0 | 22049 | 0 |
-| 3 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | MorpheusAIs/Lite-Client#47, MorpheusAIs/Lite-Client#49 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet | 6300 | 3 | 9 | 0.8 | 0.2 | 5040 | 1260 |
+| 3 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | MorpheusAIs/Lite-Client#47, MorpheusAIs/Lite-Client#49 | Fixed React warning for rendering the QR Modal to connect MetaMask wallet | 6300 | 3 | 9 | 0.8 | 0.2 | 5040 | 1260 |
 | 3 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | MorpheusAIs/MRC#6, MorpheusAIs/MRC#21, MorpheusAIs/MRC#13, MorpheusAIs/MRC#10, #83, #77, #70, MorpheusAIs/MRC#21, #108 | Constant management, improving and keeping up to date /Docs and /MRC repositories, setup MRC dissussion forum, setup and customisation of discord community bot, administration and moderation of socials, tech assistance, facilitation of discussions, contrinution to MRCs | 64572 | 9 |  | 1 | 0 | 64572 | 0 |
 | 3 | 0x9dc9f9Bd590c4534dDdD61947b8a74584F8760A3 | #109 | Update Coder Guide.md links for Morpheus Request For Comments & Code Proof of Contribution. Added deep-linking headers to Code Contributions tables and referenced previous snapshot contributions from the Snapshot 3 doc. plus misc typos. | 1575 | 8 |  | 1 | 0 | 1575 | 0 |
 | 3 | 0xACf95647C72ffFc30B91676C414DF1df9DfE180b | MorpheusAIs/Lite-Client#61 | Implement user specified wallets | 3150 | 3 | 9 | 0.8 | 0.2 | 2520 | 630 |
@@ -177,3 +178,4 @@ Example fields below:
 | 3 | 0x896C20Da40c2A4df9B7C98B16a8D5A95129161a5 | anon 84 |  | 30000 | 9 |  | 1 | 0 | 30000 | 0 |
 | 3 | 0x5aca8c74Bd773742639d12a853EFB83A5982A2f8 | anon 89 |  | 100000 | 9 |  | 1 | 0 | 100000 | 0 |
 | 3 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | https://github.com/MorpheusAIs/Morpheus-Lumerin-Node | Casey <> Akash inference setup build/test/debug, NY | 80000 | 7 |  | 1 | 0 | 80000 | 0 |
+| 3 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md | MRC28 - wallet integration | 0 |  | 1 | 0 | 0 | 0 |

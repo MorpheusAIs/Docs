@@ -1,28 +1,52 @@
 # مورفیوس ییلو پیپر
 
 یہ کاغذ مورفیوس کے مکمل نوڈ، مورفیوس سمارٹ کنٹریکٹ، اور متعلقہ ثبوتوں کی تکنیکی تفصیلات بیان کرتا ہے۔
-گمنام ڈویلپرز مورفیوس، ٹرینٹی اور نیو کے ذریعہ تحریر کردہ وائٹ پیپر میں پیش کیا گیا ہے۔ وائٹ پیپر یہاں موجود ہے: [https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md](https://github.com/SmartAgentProtocol/SmartAgents/blob/main/MorpheusWP.md)
 
-## مقامی ورژن 0.0.5 مورفیوس اب زندہ ہے:
----------
-**میک کے لئے مورفیوس ورژن 0.0.5**
-- گوگل ڈرائیو سے ڈاؤنلوڈ کریں: [https://drive.google.com/file/d/1x-wR4HWjKqT_g6VRjrWPXu3rVm9ukOc9](https://drive.google.com/file/d/1x-wR4HWjKqT_g6VRjrWPXu3rVm9ukOc9/view?usp=sharing)
-- توثیق کے لئے SHA-256 ہیش: 9092d543023fb95086cf4a7039d42cbcbbdf5283d670c4de6396b3d89e57b064
-- ورژن: Morpheus-0.0.5-x64.dmg
+گمنام ڈویلپرز مورفیوس، ٹرینٹی اور نیو کے ذریعہ تحریر کردہ وائٹ پیپر میں پیش کیا گیا ہے۔ وائٹ پیپر یہاں موجود ہے: https://github.com/MorpheusAIs/SmartAgents/blob/main/MorpheusWP.md
+
+## مقامی ورژن 0.0.6 مورفیوس اب لائیو ہے:
 
 ---------
-**لینکس ڈیبیان کے لئے مورفیوس ورژن 0.0.5**
-- ڈاؤنلوڈ: [https://drive.google.com/file/d/1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB/view?usp=sharing](https://drive.google.com/file/d/1PQ3n7LXeJHe_jmkYLDUQ9fWjZQTWbHCB/view?usp=sharing)
-- ہدایات: انسٹال کرنے کے لئے، اس کمانڈ کو چلائیں:
-`sudo dpkg -i /path/to/your/morpheus.deb`
-نوٹ: اوپر دی گئی کمانڈ میں، "/path/to/your/morpheus.deb" کو آپ کی morpheus_0.0.5_amd64.deb فائل کے راستے سے تبدیل کریں۔
-- توثیق کے لئے SHA-256 ہیش:
-b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5
-ورژن: morpheus_0.0.5_amd64.deb
+
+&rlm; **Linux: اب دو لینکس بلڈز (RPM اور DEB) موجود ہیں**
+
+&rlm; - RPM ڈاؤنلوڈ کریں: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-rpm.zip
+
+- توثیق کے لئے SHA 256 ہیش: fa811b823f80c6afc537b608edff99feb1bc68451c0bba9d22f7abedf5e66c0a 
+
+- ورژن: Morpheus-0.0.6-rpm
+
+&rlm; - DEB ڈاؤنلوڈ کریں: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-deb.zip
+
+- توثیق کے لئے SHA 256 ہیش: 04044442119e4ab296ffa6c5d3ae297b178197b4855e42dcbd8a4634e2d8d8ad
+
+- ورژن: Morpheus-0.0.6-deb
+
 ---------
 
-مورفیوس کے ساتھ پہلا تعامل 22 اکتوبر 2023 کو ہوا۔
-![پہلا تعامل مورفیوس کے ساتھ 20231022](https://github.com/MorpheusAIs/Morpheus/assets/1563345/35509f3a-4346-4f58-bb60-f7881fd10f7e)
+&rlm; **Mac OS: Intel اور Apple M سیریز سلیکن چپس کے لئے**
+
+- ڈاؤنلوڈ کریں: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-x64.dmg
+
+- توثیق کے لئے SHA 256 ہیش: 004948f4dcc3702ea41f6050d0d3a86db2198e1ebfd599aca20a9a6cdefcd8e3
+
+- ورژن: morpheus-0.0.6-x64.dmg
+
+- ڈاؤنلوڈ کریں: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-arm64.dmg  
+
+- توثیق کے لئے SHA 256 ہیش: 2179c229c8f1acca5b8c3e9a813d75f5a42b971c8aff555ad30f0a8ada9dbb1c
+
+- ورژن: morpheus-0.0.6-arm64.dmg
+
+---------
+
+**ونڈوز:**
+
+- ڈاؤنلوڈ کریں: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6_x86_64_win.zip
+
+- توثیق کے لئے SHA 256 ہیش: 37cb37a7a8443da87541fb1896d9f23112fecff650e3cfc053d51938a1e326a3
+
+- ورژن: morpheus-0.0.6_x86_64_win
 
 ## مورفیوس سمارٹ کنٹریکٹس
 چین پر عملدرآمد کے لیے مورفیوس سمارٹ کنٹریکٹ کی تصدیق کی ضرورت ہوتی ہے۔

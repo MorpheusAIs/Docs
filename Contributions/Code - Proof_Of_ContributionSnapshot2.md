@@ -29,7 +29,7 @@ Example fields below:
 
 
 ## Code Contributions for Snapshot 2
- 
+
 | **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** |
 |----------|---------|---------|-------------|-----------------|-------------|---------------|---------------------|----------------|--------------------|----------------------|
 | 2 | 0xb75DB2216E7047C7b6bebE1057CF7c99e5D87eD0 | TheOracle-Potentiated | Adminitration of social channels, growth, API dev sourcing for integrations, calls with protocols,onboarded devs for protocols, Operating work for Design tile library and inforgraphics | 160000 | 9 |  | 1 | 0 | 160000 | 0 |
@@ -100,7 +100,7 @@ Example fields below:
 | 2 | 0xe4C6B02b6095A18D4FF867218A31ff7b11C3e828 | https://www.dropbox.com/scl/fi/jlb5934fcqd4iemeh1a3m/MTV.ADB.1.25.24.EG-Influence-Project-Growth-Revised.mp4?rlkey=596j3zz2pxxoeo6qxca97vb6b&dl=0 | Educational materials: downloadable/reusable vertical micro content on the TCM explainer vid | 10000 | 4 |  | 1 | 0 | 10000 | 0 |
 | 2 | 0xe4C6B02b6095A18D4FF867218A31ff7b11C3e828 | https://www.youtube.com/playlist?list=PLko1NeTe2LV7rWl49Z34qeuTK7zlrf8DE | Educational materials: batch of micro content of David Johnston's NABs speech. Downloadable/reusable for marketing/education purposes | 10000 | 4 |  | 1 | 0 | 10000 | 0 |
 | 2 | 0xe4D28FE30829A825B7379EF28d5d91174436C899 | https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md, (https://morpheus-dashboard.vercel.app/) | AnonP Major Design work for Sigils, Posters Design, Sticker Design, Dashboard Designs, Logos and new updated infographics | 40000 | 9 |  | 1 | 0 | 40000 | 0 |
-| 2 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | MorpheusAIs/Lite-Client#48 , https://github.com/MorpheusAIs/Node/pull/48/commits/7eb5f9aff2264981d9c59338040927bb5f3ddbc3 | improvement of user journey and UX/UI | 4000 | 6 |  | 1 | 0 | 4000 | 0 |
+| 2 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | MorpheusAIs/Lite-Client#48 , https://github.com/MorpheusAIs/Node/pull/48/commits/7eb5f9aff2264981d9c59338040927bb5f3ddbc3 | improvement of user journey and UX/UI | 4000 | 6 |  | 1 | 0 | 4000 | 0 |
 | 2 | 0xFa126C09DB44851BFa6bD9D70016f499fdc5586D | MorpheusAIs/Morpheus#522 | UI style adjustments | 16000 | 6 |  | 1 | 0 | 16000 | 0 |
 | 2 | 0xFA47FA4f95110Bce0B7716056f41e5D982BBfBba | MorpheusAIs/Morpheus#317, MorpheusAIs/Morpheus#285 | Tranlation for Central Asia | 50000 | 1 | 6 | 0.5 | 0.5 | 25000 | 25000 |
 | 2 | 0x298a247D7a265BF9e904545209254e4777e531C3 | MorpheusAIs/Morpheus#597 | Spell check and natural language corrections (Snapshot 2) | 4000 | 1 | 10 | 0.25 | 0.75 | 1000 | 3000 |
@@ -110,3 +110,4 @@ Example fields below:
 | 2 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | MorpheusAIs/Morpheus-Lumerin-Node#8 | Router design, smart contract coding, Morpheus plugin and UI update, Proxy router Install | 1500000 | 7 |  | 1 | 0 | 1500000 | 0 |
 | 2 | 0xEB364E3Bd1684F598EcB5d450EAA004F4c71Ea50 | Outlining of Mor20 Project Integrations | Outlining of Mor20 Project Integrations \| Prep for NY | 20000 | 4 |  | 1 | 0 | 20000 | 0 |
 | 2 | 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3 | https://github.com/MorpheusAIs/Morpheus-Lumerin-Node | Morpheus <> Akash inference setup, Denver summit and speaking | 80000 | 7 |  | 1 | 0 | 80000 | 0 |
+
