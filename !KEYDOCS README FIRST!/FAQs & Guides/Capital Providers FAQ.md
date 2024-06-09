@@ -81,9 +81,10 @@ No, you don’t, but you will not earn rewards any longer as you are not the Cap
 ### Has the contract I deposit stETH into been audited?  
 Yes, both the community and a dedicated auditor have reviewed the Smart Contracts, see the reports on [GitHub.](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports)
 
-### How will the stETH deposit contract is managed?  
+### How is the stETH deposit contract managed?  
 There are 4 of 7 multisig managed by community trusted open source contributors. 
-The multisig address is [MOR.ETH](https://etherscan.io/address/0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E)
+The multisig address is [MOR.ETH](https://etherscan.io/address/0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E)  
+Details about multisignature account are [here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Multisignature%20Account.md)
 
 ### What are the risks of providing capital?  
 There are always risks with smart contracts like bugs or vulnerabilities. To ensure a high level of security, the contracts have undergone multiple levels of audits, including community audit, cybersecurity company audit, as well as a public bug bounty campaign. Security reports are publicly available on GitHub. That's also why the Protection Fund 4% of emissions exists.
