@@ -89,7 +89,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  **Snapshot** | **Address** | **Contact** | **Description** | **Rebased Weights** | **Primary MRI** | **Secondary MRI** | **Primary MRI Percent** | **Second Percent** | **Primary MRI Amount** | **Secondary MRI Amount** 
 ---|---|---|---|---|---|---|---|---|---|---
  4 | 0xf93de9fb07f5762a1e3db9a5c687595111928d77 | NoiseColor | \[MRC28 Thread\]\(https://discord\.com/channels/1151741790408429580/1220404152165994648\) \[Link to prototype\]\(https://www\.figma\.com/proto/Vl5nU87wTIHk78KWJGh6xl/Morpheus?page\-id=38%3A48&type=design&node\-id=98\-4005&viewport=1327%2C\-927%2C0\.16&t=z0DHtCOraZjmmluK\-1&scaling=min\-zoom&starting\-point\-node\-id=98%3A4005\)\| | 16000 | 9 |  |  |  |  |  
- 4 | 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9 | dorianjanezic | "https://github\.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28\.md, https://morpheus\.info\.gf/" | 4000 | 9 |  |  |  |  |  
+ 4 | 0x4317C2A305857eD8A9Bc2Db3190083584C916bd2 | dorianjanezic | "https://github\.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28\.md, https://morpheus\.info\.gf/" | 4000 | 9 |  |  |  |  |  
  4 | 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03 | Crash42069 | https://github\.com/MorpheusAIs/Docs/pull/238 | 30000 | 4 |  |  |  |  |  
  4 | 0x65DF6F7E5897b033CAcF77447f0fe274aa03B156 | Potentiated | https://github\.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library\.md | 30000 | 4 |  |  |  |  |  
  4 | 0x147D486BE9d39cB92c1FB46e6a0F13e5E057A9e6 | quertc | https://github\.com/MorpheusAIs/Morpheus/issues/662 | 650 | 3 |  |  |  |  |  
@@ -114,7 +114,7 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  4 | 0xA6D60da9ed25509092bA912b523F812E109F3C9c | Devorce99 | PWA: new pages and chat integration | 20000 | 3 |  |  |  |  |  
  4 | 0xe36B28c72C1F7f8a4D87cA5d64B63233875173a4 | xfactor20 | https://docs\.google\.com/document/d/179Hfe\_CUICLBBUY00WnlJu1KSmggkclH\_5XEeQDphM0/edit | 10000 | 3 |  |  |  |  |  
  4 | 0xae855e324087A34E96bB9127d2e17c1A12873020 | openempires | \[MRC31 Thread\]\(https://discord\.com/channels/1151741790408429580/1228539984844165140\) | 5000 | 8 |  |  |  |  |  
- 4 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | ryanleung | https://docs\.google\.com/document/d/196\-ew97\-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | 8 |  |  |  |  |  
+ 4 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | artfuljars | https://docs\.google\.com/document/d/196\-ew97\-Z436c9xWBtNuWC6ngnaYs6QOfxoGRulLYrY/edit | 20000 | 8 |  |  |  |  |  
  4 | 0x0D56bAF5Ec33E9EA364BD1e1Ce7AffBF2d457Ec8 | rcondron | \[MORLORD\]\(https://morlord\.com\) | 100000 | 9 |  |  |  |  |  
  4 | 0x8bfA2307C282f114F4F3384FE88957EB4ED47588 | rcondron | "\(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/proxy\-router\), \[Morpheus\-Lumerin\-Node Electron Desktop UI\]\(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/ui\-desktop\), \[Morpheus\-Lumerin\-Node Smart Contracts\]\(https://github\.com/MorpheusAIs/Morpheus\-Lumerin\-Node/tree/main/smart\-contracts\), \[Morpheus Architecture Guidance Doc\]\(https://github\.com/MorpheusAIs/Docs/blob/main/\!KEYDOCS%20README%20FIRST\!/Morpheus%20Lumerin%20Model\.md\)" | 450000 | 7 | 3 | 1 |  |  |  
  4 | 0xa13984862467DCaa12c47b849C5Da4cB3a8d0915 | rcondron | \[Morpheus Architecture Guidance Doc\]\(https://github\.com/MorpheusAIs/Docs/blob/main/\!KEYDOCS%20README%20FIRST\!/Morpheus%20Lumerin%20Model\.md\) | 100000 | 1 |  |  |  |  |  
