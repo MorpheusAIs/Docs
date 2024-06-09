@@ -6,8 +6,12 @@ MOR is the underlying utility token of the Morpheus network.
 ### In what network is the MOR token located? 
 Arbitrum mainnet
 
-### What is the address of the MOR smart contract? 
-[0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86](https://arbiscan.io/token/0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86)
+### What are the addresses of the MOR token smart contract? 
+Arbitrum: [0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86](https://arbiscan.io/token/0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86)
+
+Ethereum: [0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0](https://etherscan.io/address/0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0)
+
+Base: [0x7431ada8a591c955a994a21710752ef9b882b8e3](https://basescan.org/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
 
 ### Where can I buy the token?
 The main liquidity pool is settled in [wETH/MOR](https://app.uniswap.org/explore/tokens/arbitrum/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86) trading pair on Uniswap Arbitrum chain
@@ -37,12 +41,12 @@ The rewards are distributed as follows:
 - 4% (576 MOR) for Protection Fund.
 
 ### Where can I get data about MOR relevant data on Morpheus emissions and supply?
-You can get these data from [Morpheus CoinGecko page](https://www.coingecko.com/en/coins/morpheusai) or community websites:  
+You can get these data from [Morpheus CoinGecko page](https://www.coingecko.com/en/coins/morpheusai), [Morpheus CoinMarketCap page](https://coinmarketcap.com/currencies/morpheus/) or community websites:  
 - https://morlord.com/  
 - https://morstats.info/  
 - https://morcheck.xyz/ 
 
-### When will Morpheus be listed on centralized exchanges, like Binance?  
+### When will Morpheus be listed on tier-1 centralized exchanges, like Binance?  
 It’s best to ask the exchange representatives directly as they make the listing decisions.
 
 ### What is Protocol Owned Liquidity (PoL)?  
