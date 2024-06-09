@@ -6,6 +6,8 @@
 ## **Monthly Weight Bidding Schedule**
 To streamline the process of offering and accepting code contributions, please follow the following schedule:
 
+### TLDR: Propose work beginning of the month, if accepted, do the work, submit completed code at the end of the month, get the code judged and rewarded. 
+
 - By the 7th - Maintainers judge contributions from previous month.
 
 - By the ~8th - Morpheus smart contract updated with new weights
