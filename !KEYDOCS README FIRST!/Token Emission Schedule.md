@@ -1,9 +1,9 @@
 # Token Emission Schedule Reference Doc
+
 ## Introduction:
-As defined within the Morpheus Whitepaper (https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) and Mastery of Tokenomics (https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Mastery%20of%20Tokenomics.md), MOR utilizes an emission schedule where block reward will start at 14,400 MOR per day and then decline by 2.468994701 MOR each day until the reward reaches 0 on day 5,833. 
+As defined within the Morpheus [Whitepaper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) and [Mastery of Tokenomics](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Fundamentals/Mastery%20of%20Tokenomics.md), MOR utilizes an emission schedule where block reward will start at 14,400 MOR per day and then decline by 2.468994701 MOR each day until the reward reaches 0 on day 5,833. 
 
 For ease of reference and calculations, below is a table defining the emissions, and total suppy for a given date. 
-
 
 
 | Day | Date | Capital Emission | Code Emission | Compute Emission | Community Emission | Protection Emission | Total Emission | Total Supply |
