@@ -15,7 +15,7 @@ This is a Bid for weights form (R&D version, pre MOR.Software)
 
 - By the 15th - Maintainers will accept or reject new bids
 
-- By the 31st - Contributors submit form Y describing a delivered contribution by filling out this form https://forms.gle/51Bsd4QWoURAXEc7A
+- By the 31st - Contributors submit form Y describing a delivered contribution by filling out this form https://forms.gle/51Bsd4QWoURAXEc7A and add the normal information on Github to the snapshot file for that month.
 
 *Note: The smart contract gets updated on or around the 8th to the 9th of the month reflecting the previous month's deliverables.
 
