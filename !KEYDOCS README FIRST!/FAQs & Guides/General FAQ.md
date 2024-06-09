@@ -78,7 +78,7 @@ Please visit the [MOR20 page](https://mor.org/MOR20) for more information.
 
 ### Is there a bug bounty program?  
 There is. White hackers can get up to $150,000 as reward for eligible discoveries in proportion to the severity of the vulnerability.  
-Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Bug%20Bounty%20Program.md)
+Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Bug%20Bounty%20Program.md)
 
 ### Are Morpheus contracts audited?  
 Yes, all Morpheus’ contracts undergo three tier audit process:
