@@ -123,3 +123,5 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
  5 | 8 |0x256cfAE8091aeF65EF77089CF717571D3309ae0a |	Betterbrand |	https://github.com/MorpheusAIs: MRC, LC/Node |	MRI 8, NFA, MRC, GH |  25,000 |   
  5 | 8 |0x0d00486197600e94876C3D4542dDe6703a9018E4	| joeyzengazi | AI Day	| event | 2,500 |
  5 | 8 |0x478aC52c212d5e98EdF0e5877f50AfF38f1f647E	| Taddy Mason | AI Day	| event | 2,500 |
+ 5 | 1 |0xae855e324087A34E96bB9127d2e17c1A12873020 | @Mechaverse | Elaboration of the MRC36. Processing of the feedback received.  | [MRC36](https://github.com/MorpheusAIs/MRC/blob/main/MRC36.md), [MRC36 Debate](https://discord.com/channels/1151741790408429580/1241081832808910878) | 6500 |
+ 5 | 8 |0xae855e324087A34E96bB9127d2e17c1A12873020 | @Mechaverse | Assistance in  5 cases of weights discrepancy and hack.  Implied weight value calculation and future system. | DM with those affected and with MRIs maintainers. [Thread on the debate and conclusions](https://discord.com/channels/1151741790408429580/1167520984849469530/1245685132468289577), [Implied value of Weight Snapshot5](https://github.com/MorpheusAIs/Docs/pull/272) | 1000 |
