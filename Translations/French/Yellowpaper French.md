@@ -16,22 +16,22 @@ Présenté tel que rédigé dans le livre blanc contribué par les développeurs
 - Instructions : Pour installer, exécutez cette commande :
 sudo dpkg -i /chemin/vers/votre/morpheus.deb
 NOTE : Dans la commande ci-dessus, remplacez "/chemin/vers/votre/morpheus.deb" par votre chemin vers le fichier morpheus_0.0.5_amd64.deb.
-- Hachage SHA pour la vérification :
+-Hachage SHA-256 pour la vérification :
 b227e7bcb21ec9e8e2b4bf9510a2e1f224953fe5
 Version : morpheus_0.0.5_amd64.deb
 ---------
 
-Première interaction avec Morpheus le 22 octobre 2023.
+Première interaction avec Morpheus le 22 octobre 2023 :
 ![PremièreInteractionAvecMorpheus20231022](https://github.com/MorpheusAIs/Morpheus/assets/1563345/35509f3a-4346-4f58-bb60-f7881fd10f7e)
 
 ## Contrats intelligents Morpheus
 Actions on-chain devant être validées par le contrat intelligent Morpheus.
 
 1. Fork du contrat intelligent N2 Yield redéployé sur Arbitrum
-- A) Verrouiller l'ETH via Thorchain, faire un don de rendement aux codeurs + fournisseurs de calcul.
+- A) Verrouiller l'ETH via Thorchain, faire un don de rendements aux développeurs et aux fournisseurs de calcul.
 - B) Calculer la part pro rata de l'ETH donné 
 
-2. Destruction prouvable à jamais de MOR :
+2. Destruction irréversible prouvée de MOR :
 - A) Adresse de destruction ou fonction de destruction pour les jetons MOR.
 
 3. Contrat modèle ERC20 pour l'émission de MOR
