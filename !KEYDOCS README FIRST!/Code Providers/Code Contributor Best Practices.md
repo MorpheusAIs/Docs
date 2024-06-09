@@ -3,6 +3,24 @@
 > [!IMPORTANT]
 > Before contributing Code to Morpheus related GitHub repositories please read this quick guide on best practices.
 
+## **Monthly Weight Bidding Schedule**
+To streamline the process of offering and accepting code contributions, please follow the following schedule:
+
+### TLDR: Propose work beginning of the month, if accepted, do the work, submit completed code at the end of the month, get the code judged and rewarded. 
+
+- By the 7th - Maintainers judge contributions from previous month.
+
+- By the ~8th - Morpheus smart contract updated with new weights
+
+- By the 9th - Contributors submit new bids by filling out this form https://forms.gle/ZBmPXq4jZ3L6qwqR8
+This is a Bid for weights form (R&D version, pre MOR.Software)
+
+- By the 15th - Maintainers will accept or reject new bids
+
+- By the 31st - Contributors submit form Y describing a delivered contribution by filling out this form https://forms.gle/51Bsd4QWoURAXEc7A and add the normal information on Github to the snapshot file for that month.
+
+*Note: The smart contract gets updated on or around the 8th to the 9th of the month reflecting the previous month's deliverables.
+
 ### 1. The Key Is To Add Value To Get Merged / Rewarded
 Weights are NOT based on the Labor Theory of Value. It doesn't matter how many hours are worked but rather the value produced by the work. That's why the repository owner has to actually merge in the code (the product of the work) for it to count toward rewards. The repository owner acts as the "customer" in the marketplace. Look at other contributors to the repo and gauge the needs of the repository owner or read the current proposals in the MRC repository to see what future coding work is being proposed: https://github.com/MorpheusAIs/MRC
 
