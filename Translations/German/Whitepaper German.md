@@ -23,9 +23,9 @@ Was diesen Open-Source-LLMs derzeit fehlt, ist eine standardisierte grafische Ob
 Dem lokalen Ansatz fehlt jedoch noch eine API, auf der Entwickler aufbauen können, und die Cloud-Lösung, bei der ein Netzwerk von Nutzern die Software auf leistungsfähiger Hardware ausführen kann, um Anwendungsfälle wie Light-Clients zu ermöglichen, bei denen der Nutzer nicht den vollständigen Knoten oder Smart Agent lokal herunterladen muss.
 
 ## Auftritt Morpheus
-Morpheus wird diese APIs und dezentralen Cloud-Funktionen bereitstellen, indem es ein Netzwerk und einen Token einführt, um Menschen zu belohnen, die diese öffentliche Blockchain-Infrastruktur für die Smart-Agent-Gemeinschaft bereitstellen. Als Implementierung des Smart-Agent-Protokoll versucht Morpheus, die Ressourcen zu sammeln, die für Open-Source-basierte persönliche KI erforderlich sind, um die Fähigkeiten der Technologieunternehmen, die heute geschlossene GPT-Modelle anbieten, zu erreichen und zu übertreffen.
+Morpheus wird diese APIs und dezentralen Cloud-Funktionen bereitstellen, indem es ein Netzwerk und einen Token einführt, um Menschen zu belohnen, die diese öffentliche Blockchain-Infrastruktur für die Smart-Agent-Gemeinschaft bereitstellen. Als Implementierung des Smart-Agent-Protokolls versucht Morpheus, die Ressourcen zu sammeln, die für Open-Source-basierte persönliche KI erforderlich sind, um die Fähigkeiten der Technologieunternehmen, die heute geschlossene GPT-Modelle anbieten, zu erreichen und zu übertreffen.
 
-Morpheus hat auf Anhieb viele Vorteile. Als Web3-Native kann der Nutzer Crypto kaufen oder verkaufen, Stablecoins senden, auf Smart Contracts zugreifen, Dapps und DeFi-Dienste nutzen, an die heute kein LLM angeschlossen ist. Regulatorische Hindernisse, denen sich zentralisierte Unternehmen gegenübersehen, hindern sie daran, den Nutzern diese Tools anzubieten, so dass ihre Modelle zwar über Aufgaben plaudern, aber nicht im Namen des Nutzers in einem Web3-Kontext handeln können. Der Betrieb auf der dezentralen öffentlichen Infrastruktur ist billiger, als Chat GPT eine Lizenzgebühr für jeden neuen Nutzer zu zahlen.
+Morpheus hat auf Anhieb viele Vorteile. Als Web3-Native ermöglicht es dem Nutzer, Krypto zu kaufen oder zu verkaufen, Stablecoins senden, auf Smart Contracts zugreifen, Dapps und DeFi-Dienste nutzen, an die heute kein LLM angeschlossen ist. Regulatorische Hindernisse, denen sich zentralisierte Unternehmen gegenübersehen, hindern sie daran, den Nutzern diese Tools anzubieten, so dass ihre Modelle zwar über Aufgaben plaudern, aber nicht im Namen des Nutzers in einem Web3-Kontext handeln können. Der Betrieb auf der dezentralen öffentlichen Infrastruktur ist billiger, als Chat GPT eine Lizenzgebühr für jeden neuen Nutzer zu zahlen.
 
 Morpheus ist die Linux-Alternative für Entwickler, die in der Lage sein wollen, schnell und kostenlos neue Agenten/LLMs aufzusetzen. Der Nutzer kann das Eigentum an seinen geschäftlichen oder persönlichen Daten behalten. Dadurch werden Lecks, Hacks und Angriffe von Konkurrenten vermieden. Durch die Belohnung von Entwicklern für die Bereitstellung von Code nicht nur für Morpheus, sondern auch für die Entwicklung speziellerer Agenten, wird sich für die Nutzer eine Art App Store/Agent Store entwickeln. Mit der Persistenz von Daten, Eingabeaufforderungen und der Historie im Besitz des Nutzers wird das Smart Agent Protocol zur besten Lösung für die Interoperabilität in der Welt der LLMs und Agenten.
 
@@ -38,7 +38,7 @@ Dies spiegelt die Tatsache wider, dass Morpheus, um zu wachsen, Folgendes brauch
 
 Gemeinschaft - Entwickler erstellen Frontends/Tools und bringen Anwendungen in das Morpheus-Ökosystem ein.
 
-Kapital - Bringt die Mittel für Berechnungenr und Code.
+Kapital - Bringt die Mittel für Berechnungen und Code.
 
 Berechnungen - Anbieter von Ausrüstung und Strom.
 
@@ -103,7 +103,7 @@ Wenn beispielsweise 25 % der MOR-Token während des zweiten Zeitraums verbrannt 
 
 Dieser Prozess wiederholt sich bis in die Zukunft hinein.
 
-Langfristiges Ergebnis. Etwa 1 % der jährlichen MOR-Belohnungen (im Verhältnis zur Anzahl der dann im Umlauf befindlichen MOR) wird für zukünftige Programmierer, Berechnungenr, Gemeinschaft und Kapital zur Verfügung stehen.
+Langfristiges Ergebnis. Etwa 1 % der jährlichen MOR-Belohnungen (im Verhältnis zur Anzahl der dann im Umlauf befindlichen MOR) wird für zukünftige Programmierer, Berechnungen, Gemeinschaft und Kapital zur Verfügung stehen.
 
 ![MaxMORScenario25](https://github.com/0xgroundfloor/Morpheus-Images/blob/main/img5-German.png)
 
@@ -119,7 +119,7 @@ Nachfolgend ist die vereinheitlichte MOR-Versorgungskurve dargestellt, die den e
 Der Morpheus-Vollknoten wird mit einer Brieftasche geliefert, oder der Nutzer kann seine bestehende Brieftasche anschließen. Dies ermöglicht es dem Nutzer, die von seinem Smart Agent empfohlenen Transaktionen zu unterzeichnen und zu senden. Die Nutzer können also über die Morpheus-Software an den Proofs teilnehmen. Kapitalgeber sind jedoch nicht verpflichtet, einen vollständigen Knoten zu besitzen. Sie können direkt mit den Smart Contracts auf Ethereum / Arbitrum über stETH interagieren.
 
 ## Kapitalnachweis & Belohnung:
-TDie Definition eines Kapitalanbieters ist, dass jemand dem Morpheus-Netzwerk stETH-Erträge zur Verfügung stellt, die zu protokolleigener Liquidität werden. Dieser Smart Contract des Kapitalanbieters wird 50 % der erzeugten stETH-Rendite an die Morpheus-Swap-Funktion weitergeben. Der Swap kauft die MOR-Token von einem Automated Market Maker (AMM) und fügt sie dann dem AMM-Pool hinzu, während die anderen 50% der stETH-Rendite in den AMM als Liquidität-Anbieter gesperrt werden. Dies wird Liquidität für all die Programmierer, Gemeinschaft-Mitglieder und Computing-Anbieter  bereitstellen.
+Die Definition eines Kapitalanbieters ist, dass jemand dem Morpheus-Netzwerk stETH-Erträge zur Verfügung stellt, die zu protokolleigener Liquidität werden. Dieser Smart Contract des Kapitalanbieters wird 50 % der erzeugten stETH-Rendite an die Morpheus-Swap-Funktion weitergeben. Der Swap kauft die MOR-Token von einem Automated Market Maker (AMM) und fügt sie dann dem AMM-Pool hinzu, während die anderen 50% der stETH-Rendite in den AMM als Liquidität-Anbieter gesperrt werden. Dies wird Liquidität für all die Programmierer, Gemeinschaft-Mitglieder und Computing-Anbieter  bereitstellen.
 
 Alle stETH-Erträge, die Sie mit Ihrer Einzahlung erwirtschaften, werden in protokolleigene Liquidität (PoL) umgewandelt. Die Rendite verbleibt als PoL auf unbestimmte Zeit, aber Sie können Ihr stETH jederzeit abheben.
 
@@ -208,7 +208,7 @@ Frühzeitig erkennen, dass Software nie perfekt ist, und 4 % der MOR-Ressourcen 
 Für einen breiteren Schutz könnte eine Integration mit Nexus Mutual oder einem ähnlichen Smart Contract / dezentralen Schutznetzwerk in Betracht gezogen werden, um Randfälle mit Agenten / Smart Contracts abzudecken, die in einen Morpheus Agenteshop aufgenommen oder durch den SmartContractRank-Algorithmus besser eingestuft werden wollen.
 
 ## Speicher für Persistenz und Geldbörsen für Wiederherstellung
-Anstatt persönliche Daten im Morpheus-Netzwerk selbst zu speichern, was kostspielig wäre und eine zentralisierende Kraft darstellen würde, werden Einzelpersonen die privaten Schlüssel besitzen, die den Zugang zu ihren Daten, Aufforderungen und ihrer Geldbörse kontrollieren. Die Daten selbst werden unter Verwendung des IPFS-Standards und des Filecoin-Netzwerks zur dezentralen Langzeitspeicherung gespeichert. Durch die Nutzung des Filecoin EVM und DeFi kann eine permanente, wiederkehrende Speicherung vereinbart werden. Alternativ können die Benutzer jährlich ENS-Stil für die Speicherung zu zahlen. Der Ansatz und die Beibehaltung der privaten Web3-Brieftasche als Schlüssel für die Bewegung/Wiederherstellung dieser Daten auf verschiedenen Geräten, wenn der Benutzer Berechnungenr oder Telefone wechselt.
+Anstatt persönliche Daten im Morpheus-Netzwerk selbst zu speichern, was kostspielig wäre und eine zentralisierende Kraft darstellen würde, werden Einzelpersonen die privaten Schlüssel besitzen, die den Zugang zu ihren Daten, Aufforderungen und ihrer Geldbörse kontrollieren. Die Daten selbst werden unter Verwendung des IPFS-Standards und des Filecoin-Netzwerks zur dezentralen Langzeitspeicherung gespeichert. Durch die Nutzung des Filecoin EVM und DeFi kann eine permanente, wiederkehrende Speicherung vereinbart werden. Alternativ können die Benutzer jährlich ENS-Stil für die Speicherung zu zahlen. Der Ansatz und die Beibehaltung der privaten Web3-Brieftasche als Schlüssel für die Bewegung/Wiederherstellung dieser Daten auf verschiedenen Geräten, wenn der Benutzer Berechnungen oder Telefone wechselt.
 
 ## Morpheus Tech Stack, Smart Contract & Entwicklung
 Die Morpheus-Implementierung des Smart-Agent-Protokolls wird ein direkter Fork des bestehenden lokal betriebenen Repo sein. Die wichtigste Änderung wird darin bestehen, SmartContractRank zu aktualisieren, um das Wissen über den MOR-Token und seine Funktionen bei der Versorgung eines Netzwerks von Smart Agent einzubeziehen.
@@ -244,7 +244,7 @@ Diese Schritte werden dafür sorgen, dass 1.286.111 MOR zu Beginn des 91. Tages 
 Sobald MOR-Tokens einforderbar und versendbar sind, kann das Morpheus-Netzwerk MOR-Transaktionen ermöglichen, um für API-Aufrufe und kundenspezifische Agenten zu bezahlen und den Einsatz der Teilnehmer im Netzwerk zu validieren.
 
 ## Schlussfolgerung
-Wir stehen kurz vor einem wichtigen Moment in der Geschichte. Mit Morpheus wird jeder über eine leistungsstarke persönliche KI verfügen, die in der Lage ist, mit ihm zu denken und Maßnahmen zu seinem Vorteil zu ergreifen. So wie der Personal Berechnungenr und die Suchmaschine den Einzelnen befähigt haben, haben wir heute mit persönlichen KIs die gleiche Chance. Das Smart-Agent-Protokoll bringt mit LLMs, Agenten und Web3 die richtige Mischung von Fähigkeiten zusammen. Morpheus erweitert diese Fähigkeiten zu einem öffentlichen Netz, das die massenhafte Verbreitung und Nutzung von Smart Agent beschleunigen kann.
+Wir stehen kurz vor einem wichtigen Moment in der Geschichte. Mit Morpheus wird jeder über eine leistungsstarke persönliche KI verfügen, die in der Lage ist, mit ihm zu denken und Maßnahmen zu seinem Vorteil zu ergreifen. So wie der Personal Berechnungen und die Suchmaschine den Einzelnen befähigt haben, haben wir heute mit persönlichen KIs die gleiche Chance. Das Smart-Agent-Protokoll bringt mit LLMs, Agenten und Web3 die richtige Mischung von Fähigkeiten zusammen. Morpheus erweitert diese Fähigkeiten zu einem öffentlichen Netz, das die massenhafte Verbreitung und Nutzung von Smart Agent beschleunigen kann.
 
 Wir glauben, dass die wirtschaftliche Angleichung der Anreize letztlich der Weg ist, wie wir die besten Ergebnisse aus dem Aufkommen der AGI erzielen können. Helfen Sie uns, eine quelloffene, erlaubnisfreie und freie Zukunft für alle zu sichern.
 
