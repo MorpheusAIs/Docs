@@ -3,15 +3,15 @@
 # Morpheus
 ## A Network For Powering Smart Agents
 ### Authored by Morpheus, Trinity, & Neo
-Published - September 2nd 2023
+Published - September 2nd 2023  
 Link to Yellow Paper Technical Details: [https://github.com/MorpheusAIs/Docs/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
 
 ## Introduction 
-Morpheus is designed to incentivize the first peer-to-peer network of personal general purpose AIs that can execute Smart Contracts on behalf of a user, known as [Smart Agents.](https://github.com/SmartAgentProtocol/SmartAgents/blob/main/White%20Paper.md) Providing users open-source Smart Agents to connect to their wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. 
+Morpheus is designed to incentivize the first peer-to-peer network of personal general purpose AIs that can execute Smart Contracts on behalf of a user, known as [Smart Agents.](https://github.com/MorpheusAIs/moragents) Providing users open-source Smart Agents to connect to their wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. 
 
-The user’s Web3 wallet for key management & to sign recommended transactions when interacting with the Smart Agent.
-A Large Language Model trained on Web3 data including Blockchains, Wallets, Dapps, DAOs, & Smart Contracts.
-The [SmartContractRank](https://www.smartcontractrank.org/) algorithm to score & recommend the best Smart Contracts to the user.
+The user’s Web3 wallet for key management & to sign recommended transactions when interacting with the Smart Agent.  
+A Large Language Model trained on Web3 data including Blockchains, Wallets, Dapps, DAOs, & Smart Contracts.  
+The [SmartContractRank](https://www.smartcontractrank.org/) algorithm to score & recommend the best Smart Contracts to the user.  
 Longterm memory of user data & connected applications stored locally or via decentralized cloud to provide a broader context to Smart Agent actions.
 
 Finally, the average user can talk with their Smart Agent in normal language and have it understand the question and take an action based on their intent/approval.  This moment is similar to how Google's search engine opened the early internet up to the general public through their easy to use web interface in the late 1990s.
@@ -57,12 +57,19 @@ The MOR Token Supply is limited to a maximum of 42,000,000 tokens that will ever
 The block reward will start at 14,400 MOR per day and then decline by 2.468994701 MOR each day until the reward reaches 0 on day 5,833. By that time (about 16 years from now) provided Morpheus is in wide use, the fees will have taken over as the primary incentive. Fees paid to users for their data, fees to compute providers, fees to capital providers and fees to coders.
 
 **42 Million supply cap for the MOR tokens.**
+
 14,400 tokens per day evenly distributed between community, capital, code, and compute. 
+
 - 3,456 tokens for compute. Proof of transactions for API calls served. 
+
 - 3,456 tokens for code. Proof of code committed and merged into Morpheus repo. 
+
 - 3,456 tokens for capital. Proof of stETH yield contributed, 50% swapped for MOR & paired with the rest 50% to lock in the AMM as a Protocol-owned Liquidity (PoL). 
+
 - 3,456 tokens for community. Proof of building front end applications & tools that engage users.
+
 With the remainder set aside for protection resources: 576 tokens per day for that purpose.
+
 ![5050version3](https://github.com/MorpheusAIs/Morpheus/assets/1563345/c9fe763f-d4e4-4069-b9c9-75e0a777c3ad)
 
 ## The Utility of the MOR Token
@@ -133,10 +140,10 @@ As a result, the Capital Provider will receive MOR tokens (calculated every bloc
 
 It has been proposed to refer to this process of yield contribution, swap and adding liquidity as the "TCM". Short for the "techno-capital machine" in honor of the e/acc philosopher [Beff Jezos](https://twitter.com/BasedBeffJezos). 
 
-See the link to the detailed explanation of Tеchno Capital Machine here: [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+See the link to the detailed explanation of Tеchno Capital Machine here: [TCM](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md)
 
 ## Code Proof, Registration & Reward:
-The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Coder Guide.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
+The definition of a Coder is someone who has downloaded and run the Morpheus full node, connected their wallet, and contributed an agent, smart contract or other software to the Morpheus Network. The code must adhere to [Coder Guide.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Coder%20Guide.md)
 
 The Coder will send a MOR transaction to the Coder Smart Contract to register their agent / smart contract or software. 
 The Coder will include in the memo of the transaction the following metadata. 
@@ -186,7 +193,7 @@ The Router is a software application that has a MOR address and negotiates the 2
 
 For the first year following the Capital Contract's bootstrapping period, the top 100 Compute providers may be entitled to a prorated amount of 2.4% of MOR emissions.  This is calculated by the routers and accounted for in the compute contract.
 
-For detailed information visit the [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
+For detailed information visit the [Yellowstone Compute Model paper](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md)
 
 ## Community Builder Proof, Registration & Reward:
 The definition of a Community Builder is they have downloaded and run the Morpheus full node, connected their wallet and are using the Morpheus API to provide user front ends & developer tools. Their contributions provided can be calculated by including a signed transaction generated by the Smart Agent with the return of the output from the MOR transaction.
