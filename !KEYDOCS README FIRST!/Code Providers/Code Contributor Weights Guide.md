@@ -180,11 +180,6 @@ No one knows how much MOR will be worth in ETH or USD or any other currency. 1 M
 
 April 8th to May 8th - The implied price for snapshot 4 is estimated based methodology as defined by MRC09, which establishes the opening price for $MOR trading. The one variation between May 8th valuation and April 8th valuation is that the May 8th valuation accounts for 100% of the stETH yield instead of 52%. The reason for this is that the remaining 48% is included as part of the Liquidity Support Range which can be utilized by the AMM as needed. Please see MRC09 for additional details. To provide transparency and consistency for all Code providers, this price will be based on trailing monthly averages for inputs, resulting in $64.10 per $MOR which equates to $0.783 per weight.
 
-## April 8th to May 8th 2024 Implied Value of a Weight "Snapshot 4" = $0.783 USD per Weight
-> [!NOTE]
-> **The following is all theory, presented as an example for how one could arrive at their own estimate. 
-No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
-
 ## May 8th to June 8th 2024 Implied Value of a Weight "Snapshot 5" = $1.186 USD per Weight
 The implied price for snapshot 5 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $1.186 USD per weight which is based on the average price from May 8th to May 27th which was $97.07.
 > [!NOTE]
