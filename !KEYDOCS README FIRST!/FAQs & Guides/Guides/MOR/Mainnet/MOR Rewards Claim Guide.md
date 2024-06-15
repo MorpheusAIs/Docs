@@ -6,7 +6,7 @@
 3) [**Claim MOR rewards**](#how-to-claim-rewards)
 4) [**Get MOR on Arbitrum chain**](#how-to-verify-that-i-have-received-tokens)
 5) [**Add MOR to Metamask**](#add-mor-to-metamask)
-!KEYDOCS README FIRST!/FAQs & Guides/
+
 ---
 
 ## Introduction
