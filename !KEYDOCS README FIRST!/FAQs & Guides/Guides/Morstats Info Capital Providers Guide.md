@@ -310,6 +310,126 @@ Below are several code snippets that are useful for anyone else looking to build
                 '<tr><td>Your MOR Earned</td><td>' + formatNumber(userMorEarned) + ' MOR</td></tr>' +
                 '<tr><td>Your MOR Value</td><td>$' + formatNumber(userTotalValue) + '</td></tr>';
 
+## Coin Gecko Historical Price Feed 
+	// Your CoinGecko API endpoint for market chart data
+	$endpoint = 'https://api.coingecko.com/api/v3/coins/morpheusai/contract/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86/market_chart?vs_currency=usd&days=9';
+
+	// Make the request
+	$response = wp_remote_get($endpoint);
+
+	// Check for errors
+	if (is_wp_error($response)) {
+	    $error_message = $response->get_error_message();
+	    echo "Something went wrong: $error_message";
+	} else {
+	    $body = wp_remote_retrieve_body($response);
+	    $data = json_decode($body);
+
+	    // Output the data
+	    if (isset($data->prices)) {
+	        $prices = $data->prices;
+	        // Reverse the order of prices array
+	        $prices = array_reverse($prices);
+	        foreach ($prices as $price) {
+	            // Convert milliseconds to seconds for Unix timestamp
+	            $timestamp_seconds = $price[0] / 1000;
+	            // Format price with $ symbol and 2 decimal places
+	            $formatted_price = '$' . number_format($price[1], 2);
+	            echo gmdate('Y-m-d H:i:s', $timestamp_seconds) . ' UTC: ' . $formatted_price . '<br>';
+	        }
+	    } else {
+	        echo "Prices data not found in the response.";
+	    }
+	}
+
+## stETH APY - DexScreener Pricing
+
+	$api_key = 'Insert Your API Key';
+	$token_address = '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84';
+	$address = '0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790';
+
+	// Set the initial values
+	$initial_number = 3456;
+	$reduction_rate = 0.5925587;
+
+	$today_date = new DateTime();
+	$start_date = new DateTime('2024-02-08'); // February 8, 2024
+
+	// Calculate the number of days between the start date and today
+	$days_difference = $start_date->diff($today_date)->days;
+
+	// Calculate the emissions for today
+	$emissions = max(0, $initial_number - ($days_difference * $reduction_rate));
+
+	// API endpoint for getting token balance
+	$api_url = "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress={$token_address}&address={$address}&tag=latest&apikey={$api_key}";
+
+	// Make API request
+	$response = wp_remote_get($api_url);
+
+	// Check for errors
+	if (is_wp_error($response)) {
+	    echo 'Error fetching data from Etherscan: ' . $response->get_error_message();
+	} else {
+	    // Parse the JSON response
+	    $data = json_decode(wp_remote_retrieve_body($response), true);
+
+	    // Check if the request was successful
+	    if ($data['status'] == 1) {
+	        $token_balance_wei = $data['result'];
+	        $token_balance = $token_balance_wei / 1e18; // Convert wei to MOR
+
+	        // Calculate MOR earned per stETH contributed
+	        $mor_per_steth =  $emissions / $token_balance;
+	        $yearly_mor_per_steth = $mor_per_steth * 365;
+
+	        // Fetch MOR token price
+	        $mor_token_address = '0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86';
+	        $eth_token_address = '0x5300000000000000000000000000000000000004';
+
+	        // Fetch MOR token price
+	        $mor_api_url = "https://api.dexscreener.io/latest/dex/tokens/{$mor_token_address}";
+	        $mor_response = wp_remote_get($mor_api_url);
+	        if (is_wp_error($mor_response)) {
+	            $mor_price_output = 'Error fetching MOR price data: ' . $mor_response->get_error_message();
+	        } else {
+	            $mor_data = json_decode(wp_remote_retrieve_body($mor_response), true);
+	            if (!empty($mor_data['pairs'][0]['priceUsd'])) {
+	                $mor_price = (float)$mor_data['pairs'][0]['priceUsd'];
+	                $mor_price_output = $mor_price;
+	            } else {
+	                $mor_price_output = 'MOR price data not available';
+	            }
+	        }
+
+	        // Fetch ETH token price
+	        $eth_api_url = "https://api.dexscreener.io/latest/dex/tokens/{$eth_token_address}";
+	        $eth_response = wp_remote_get($eth_api_url);
+	        if (is_wp_error($eth_response)) {
+	            $eth_price_output = 'Error fetching ETH price data: ' . $eth_response->get_error_message();
+	        } else {
+	            $eth_data = json_decode(wp_remote_retrieve_body($eth_response), true);
+	            if (!empty($eth_data['pairs'][0]['priceUsd'])) {
+	                $eth_price = (float)$eth_data['pairs'][0]['priceUsd'];
+	                $eth_price_output = $eth_price;
+	            } else {
+	                $eth_price_output = 'ETH price data not available';
+	            }
+	        }
+
+	        // Calculate USD per stETH
+	        $usd_per_steth = $yearly_mor_per_steth * $mor_price_output;
+
+	        // Calculate APY
+	        $apy = ($usd_per_steth / $eth_price_output) * 100; // Convert to percentage
+
+	        // Output APY formatted as percentage with two decimal places
+	        echo number_format($apy, 2) . '%';
+	    } else {
+	        echo 'Etherscan API request failed: ' . $data['message'];
+	    }
+	}
+ 
 ## Snapshot Calculator
     <script>
     function calculate() {
