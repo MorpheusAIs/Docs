@@ -33,7 +33,7 @@ The stETH yield earned by Morpheus is an integral part that allows the AMM Initi
 
 To optimize the deployment of resources during this nascent stage, it is proposed that 52% of yield earned by Morpheus from the Capital Providers, accrued by day 88 (Note: Day 88 is used so that the pool can be created prior to MOR being claimable and transferable. This gives the developers sufficient time to prepare the pool prior to launch on Day 91), and be paired with all MOR acquired by the Protection Fund within the same timeframe. This strategy aligns with the long-term liquidity provisioning goals set forth in both the Whitepaper and TCM, albeit modified to account for the actual circulating supply at day 90.
 
-The strategy for managing the remaining 48% of the stETH (converted to wETH) earned involves its allocation to a Uniswap V3 concentrated liquidity range that is strategically positioned from 0 to the initiation ratio, thereby bolstering wETH liquidity within the pool and facilitating efficient market activity. This Liquidity Support Range (LSR) acts as extra liquidity support - any decrease in the MOR to wETH price will move the price into the LSR and help to reduce price impact. The LSR will be reassessed and adjusted once per week based on the prevailing market price. If the market price exceeds the upper limit of the LSR, the upper bound will be recalibrated to sit at the new price level, at the time of rebalance. Should the market price fall within the LSR, no adjustments will be made until the next weekly review. This mechanism is designed to last for 30 days, after which, the LSR will transition to encompass the full range (AMM Balancing Phase), enhancing overall market stability and liquidity.
+The strategy for managing the remaining 48% of the stETH (converted to wETH) earned, as well as any remaining MOR from the Protection Fund, involves its allocation to Uniswap V3 concentrated liquidity ranges that are strategically positioned from 0 to the current trading price (for wETH) and then the current trading price to infinity (for MOR), thereby bolstering liquidity within the pool and facilitating efficient market activity. This Liquidity Support Ranges (LSR) act as extra liquidity support - any decrease or increase in the MOR to wETH price will move the price into the LSR and help to reduce price impact. The LSR will be reassessed and adjusted once per week based on the prevailing market price. If the market price exceeds the upper limit of the LSR, the upper bound will be recalibrated to sit at the new price level, at the time of rebalance. Should the market price fall within the LSR, no adjustments will be made until the next weekly review. This mechanism is designed to last for 30 days, after which, the LSR will transition to encompass the full range (AMM Balancing Phase), enhancing overall market stability and liquidity.
 
 This approach ensures a measured and strategic deployment of resources, fostering a robust and liquid market environment that aligns with the long-term objectives of the TCM and the broader Morpheus ecosystem.
 
@@ -44,9 +44,7 @@ Post the AMM Initiation Phase, in adherence to Morpheus's Whitepaper, the Capita
 
 ## AMM Balancing Phase (Day 120 - 220)
 
-The goal for the Liquidity Support Range is to expand to a full-range position at the completion of the AMM Initiation Phase (Day 120), the Liquidity Support could be in two situations:
-1. The price is above the Liquidity Support Range, meaning that the Liquidity Support Range consists of 100% wETH and 0% MOR
-2. The price falls somewhere within the Liquidity Support Range, meaning the balance consists of greater than 0% MOR
+The goal for the Liquidity Support Range is to expand to a full-range position at the completion of the AMM Initiation Phase (Day 120). The AMM Balancing Phase will look at the combination of the lower bound support (concentrated wETH) and upper bound support (concentrated MOR). The first step will be to combine the total assets in both positions and add the maximum amount of assets to the existing full range position. Following that step, only one asset will remain.
 
 To transition from a concentrated position requires a 50-50 balance of wETH and MOR. Therefore, Morpheus will need some mechanism to achieve this ratio.
 #### Scenario 1: Should the Liquidity Support Range comprise over 50% wETH at the end of the AMM Initiation Phase, the following strategy will be implemented:
@@ -56,6 +54,9 @@ The surplus wETH will be incrementally distributed across the subsequent 100 day
 The additional MOR holdings will be retained by Morpheus for future pairing with incoming daily yield earned, effectively eliminating the need to convert half of the stETH yield into MOR in the open market. This continues daily until excess MOR is depleted.
 
 Regardless of which scenario occurs, once equilibrium is achieved, the AMM Balancing Phase comes to an end. 
+
+> [!NOTE]
+> **At the conclusion of the AMM Initiation Phase, there was excess wETH compared to MOR, resulting in the outcome noted in Scenario 1 above. 
 
 ## Long Term Steady State (Day 220+)
 
