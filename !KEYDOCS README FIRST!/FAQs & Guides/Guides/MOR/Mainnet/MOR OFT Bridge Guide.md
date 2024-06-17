@@ -72,6 +72,8 @@ Save the resulting value as you will need it for the next step.
 
 
 ### Executing Arbitrum => Base MOR Bridge Transaction
+[![Bridge MOR from Arbitrum to Base](https://img.youtube.com/vi/s6442XvK-m8/0.jpg)](https://www.youtube.com/watch?v=s6442XvK-m8)
+
 Switch your wallet to the Arbitrum chain, go to [Arbitrum MOR contract](https://arbiscan.io/token/0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86#writeContract ) **"Write contract"** tab and connect your wallet by clicking on the **"Connect to Web3"** button. 
 
 Find function `11.send (0xc7c7f5b3)` and enter as parameters:
@@ -156,6 +158,7 @@ Double-check all fields, click **"Write"** and confirm the transaction.
 
 ---
 ## Base to Arbitrum MOR Token Bridge
+[![Bridge MOR from Base to Arbitrum](https://img.youtube.com/vi/K2n0tWzP_Mw/0.jpg)](https://www.youtube.com/watch?v=K2n0tWzP_Mw)
 ### Getting Layer Zero Fee For Base => Arbitrum Bridge
 Switch your wallet to Base chain, go to [Base MOR contract](https://basescan.org/token/0x7431ada8a591c955a994a21710752ef9b882b8e3#readContract) **"Read contract"** tab, find function `25.quoteSend` and enter as parameters:
 - `_sendParam (tuple)`: [30110,"**0x**000000000000000000000000**RECEIVER-ADDRESS**", "**MOR AMOUNT IN WEI**", "**MOR AMOUNT IN WEI**", "0x", "0x", "0x"]
