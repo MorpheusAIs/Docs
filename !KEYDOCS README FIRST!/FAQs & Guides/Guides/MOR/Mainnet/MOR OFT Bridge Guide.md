@@ -77,7 +77,6 @@ Save the resulting value as you will need it for the next step.
 
 
 ### Executing Arbitrum => Base MOR Bridge Transaction
-
 Switch your wallet to the Arbitrum chain, go to [Arbitrum MOR contract](https://arbiscan.io/token/0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86#writeContract ) **"Write contract"** tab and connect your wallet by clicking on the **"Connect to Web3"** button. 
 
 Find function `11.send (0xc7c7f5b3)` and enter as parameters:
