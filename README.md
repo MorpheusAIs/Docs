@@ -12,26 +12,33 @@ The Smart Agent concept of connecting LLMs and AI Agents to wallets, Dapps, & sm
 To make Smart Agents accessible to everyone and increase decentralization we propose a network & fairly launched token for incentivizing all four of the key contributors to their operation. Namely, the community of users, coders contributing to the Morpheus software / agents, capital providers funding development / operations and those supplying computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
 
 ---
-## Morpheus Local Smart Agent Install v.0.0.8
+## Smart Agent Development Principles:
+- **Agents cannot execute decisions.**  
+Agents can only construct transaction payloads for a user's approval.
 
-## Features
-**Current:**
+- **Local installation.**   
+ Agents should run on the user's laptop, typically with 8-16 GB of RAM. This allows for faster execution and better performance.
+
+- **No private keys.**    
+Agents must not have access to private keys or be able to execute transactions independently. User's cryptographic approval is essential for any transaction.
+
+---
+## Morpheus Local Smart Agent Features v.0.0.8 
+
+### Current
 - Fetch price, market cap, and TVL of coins and tokens supported on CoinGecko.
-- Web interface (macOS only).
-- Wallet integrations for your existing wallets in-browser (macOS only):
+- Web interface.
+- Wallet integrations for your existing wallets in-browser:
    - MetaMask
    - Rainbow
    - Coinbase Wallet
    - WalletConnect
 - Web3 swap agent (macOS only).
 
-**Pending:**
-- Web interface (Windows)
-- Wallet integrations for your existing wallets in-browser (Windows)
-- Web3 swap agents (Windows)
+### Pending
 - Chat with local files agent (general purpose)
 
-## Example queries
+### Example queries
 
 After connecting Morpheus with your web3 wallet, you can test the **Data Smart Agent** with prompts such as:  
 
@@ -107,30 +114,30 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 ---
 ### Windows (x86_64)
 >[!Note]
-> minimum 16GB RAM
-> 
-> Windows version will be updated in the coming days to 0.0.8 (swap agent and price fetching).
->
-> Currently, the following is Windows MORagents 0.0.7 (price fetching only)
+> Minimum 16GB RAM is required.
 
-1. Download [MOR Agent Installer](https://drive.proton.me/urls/CN7HB67ZYM#OcQMLZO8oxC1)
-    > SHA256 ae10e62852c2a26608c9d65a719c52e06f33a1c79ecc3ddaf82503910c41ef7c  MOR Agent Installer.zip
-    
-2. Go to downloaded **MOR Agent Installer(.zip)** file and click to **"Extract All"**.
-   
-3. Open Extracted Folder **MOR Agent Installer**.
-   
-4. Click and Run **MOR Agent Setup**.  
+ 1. Use Chrome to download [MORagentsWindowsInstaller.zip](https://drive.proton.me/urls/9BE8X1ZMTG#Oh1SfTeklH4W)
+    > SHA256 0a5f5e3a288d45854c83994fa4afa4c713019229d99d67f28442fc56a5de1b20 MORagentsWindowsInstaller.zip
+
+2. Go to downloaded **MORagentsWindowsInstaller(.zip)** file and click to **"Extract All"**.
+
+3. Open Extracted Folder **MORagentsWindowsInstaller**.
+   You may need to disable your anti-virus software before proceeding.
+
+4. Click and Run **MORagentsSetup.exe**
    This will auto-install Docker Desktop dependency.
 
-5. Open **MOR Agent** from Desktop.
-   
-6. Accept Docker's EULA. Surveys are optional, can skip.
-    
+5. Open **MORagents** from Desktop.
+
+6. Accept Docker's EULA
+   Surveys are optional, can skip
+
 7. Wait for Docker engine to start...
-    
-8. Open **MOR Agent** App from Desktop.  
-   First time install requires some extra time to load agent's image.
+
+8. Open **MORagents** App from Desktop
+   First time installation requires some extra time to load agent's image.  
+   If anything hangs for >10min, please try opening the MORagents app again from the Desktop.
+
 
 ---------
 ### Linux
