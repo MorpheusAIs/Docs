@@ -149,6 +149,7 @@ The table below repsents a summary of the data for each snapshot. Additional inf
 | Feb 2024 to March 2024 | stETH Deposited | $6.89 | $0.20 |
 | March 2024 to April 2024 | MRC09 Opening Price | $33.33 | $0.407 |
 | April 2024 to May 2024 | MRC09 Opening Price + Liquidity Support stETH | $64.10 | $0.783 |
+| May 2024 to June 2024 | Average Trading Price | $97.07 | $1.186 |
 
 ## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $0.025 USD per Weight
 In theory, the initial implied value of 1 weight was $0.025 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snapshot.
@@ -178,6 +179,11 @@ The implied price for snapshot 3 is estimated based on methodology as defined by
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
 April 8th to May 8th - The implied price for snapshot 4 is estimated based methodology as defined by MRC09, which establishes the opening price for $MOR trading. The one variation between May 8th valuation and April 8th valuation is that the May 8th valuation accounts for 100% of the stETH yield instead of 52%. The reason for this is that the remaining 48% is included as part of the Liquidity Support Range which can be utilized by the AMM as needed. Please see MRC09 for additional details. To provide transparency and consistency for all Code providers, this price will be based on trailing monthly averages for inputs, resulting in $64.10 per $MOR which equates to $0.783 per weight.
+
+## May 8th to June 8th 2024 Implied Value of a Weight "Snapshot 5" = $1.186 USD per Weight
+The implied price for snapshot 5 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $1.186 USD per weight which is based on the average price from May 8th to May 27th which was $97.07.
+> [!NOTE]
+> **There is an ongoing discussion of exactly how to calculate the average snapshot price for weight valuation. Which price to use (open, close, random sampling, etc), how many data points (weekly, daily, hourly, etc) and other nuances are being discussed in the community.**
 
 See the Morstats.info website page where you can run these estimates dynamically.  
 https://morstats.info/code-weights/
