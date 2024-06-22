@@ -95,4 +95,4 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 | **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution**   | **Weights Requested** |
 | ------------ | ------- | ------------------------------------------ | ----------------- | ------------------------------- | --------------------------- | --------------------- |
-| 6            | 3       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee        | Description of Contribution     | Proof of contribution links | 1250                  |
+| 6            | 8       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee        | Description of Contribution     | Proof of contribution links | 1250                  |
