@@ -3,7 +3,7 @@
 ### June 8th to July 8th 2024
 
 This table is for code contributions in Snapshot 6.
-[Snapshot 5](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot5.md)
+[Snapshot 5](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot5.md)  
 [Snapshot 4](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot4.md)  
 [Snapshot 3](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md)  
 [Snapshot 2](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot2.md)  
