@@ -1,4 +1,4 @@
-## Code Provider - Proof of Contribution Table Snapshot #5
+## Code Provider - Proof of Contribution Table Snapshot #5 (Closed for submissions)
 ### May 8th to June 8th 2024
 
 This table is for code contributions in Snapshot 5.  
