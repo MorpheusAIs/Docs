@@ -22,4 +22,4 @@
 
 [Morpheus Ecosystem Badges](https://github.com/MorpheusAIs/Docs/Graphics/logos/MorpheusEcosystemLogo.md)
 
-[Full Design Library Here](https://github.com/MorpheusAIs/Docs/Graphics/logos/Design%20Library.md)
+[Full Design Library Here](https://github.com/MorpheusAIs/Docs/Graphics/Design%20Library.md)
