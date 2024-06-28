@@ -1,37 +1,29 @@
 ## Code Provider - Proof of Contribution Table Snapshot #6
-
-### June 8th to July 8th 2024
+### June 1th to June 30th 2024
 
 This table is for code contributions in Snapshot 6.  
-[Snapshot 5](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot5.md)  
-[Snapshot 4](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot4.md)  
-[Snapshot 3](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md)  
-[Snapshot 2](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot2.md)  
-[Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot1.md)
+[Snapshot 1](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot1.md) | [Snapshot 2](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot2.md) | [Snapshot 3](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot3.md) | [Snapshot 4](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot4.md) | [Snapshot 5](https://github.com/MorpheusAIs/Docs/blob/main/Contributions/Code%20-%20Proof_Of_ContributionSnapshot5.md)  
 
 > [!IMPORTANT]  
-> If you would like to make a pull reqest please submit to latest snapshot after reading  
-> [The Best Practices Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Best%20Practices.md) > [The Code Contributors Weights Guide](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md)
+> If this is your first pull reqest please read these documents first:
+> 
+> [**Coder Guide**](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Coder%20Guide.md)
+>  
+> [**The Best Practices Guide**](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Best%20Practices.md)
+> 
+> [**The Code Contributors Weights Guide**](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md)
+>   
+> [**MRC:37 Weight Time**](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC37.md)
 
-## Snapshot Timelines and Implied Value of a Weight
+## Theoretical Implied Value of a Weight per Snapshot
+**Snapshot 1:** $0.025 USD per Weight  
+**Snapshot 2:** $0.2 USD per Weight  
+**Snapshot 3:** $0.407 USD per Weight  
+**Snapshot 4:** $0.783 USD per Weight  
+**Snapshot 5:** $0.783 USD per Weight  
+**Snapshot 5:** $0.423 USD per Weight (average price from the 8th to the 22nd of June: $36.13514 USD).
 
-**Snapshot 1.** September 2nd 2023 to February 8th 2024  
-Theoretical Implied Value of a Weight = $0.025 USD per Weight (price is unknown 1MOR = 1MOR).
-
-**Snapshot 2.** February 8th to March 8th 2024  
-Theoretical Implied Value of a Weight = $0.2 USD per Weight (price is unknown 1MOR = 1MOR).
-
-**Snapshot 3.** March 8th to April 8th 2024  
-Theoretical Implied Value of a Weight = $0.407 USD per Weight (price is unknown 1MOR = 1MOR).
-
-**Snapshot 4.** April 8th 2024 to May 8th 2024  
-Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR).
-
-**Snapshot 5.** May 8th 2024 to June 8th 2024  
-Theoretical Implied Value of a Weight = $0.783 USD per Weight (price is unknown 1MOR = 1MOR).
-
-Theoretical Implied Value of a Weight = $0.423 USD per Weight (average price from the 8th to the 22nd of June: $36.13514 USD).
-The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md#year-1-weights-schedule).
+The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md#calculating-the-implied-value-of-weights).
 
 ## Structuring of Code Contributions
 
@@ -93,6 +85,6 @@ Please include the "pipe" `|` symbol correctly as seen above so your contributio
 
 ## Code Contributions for Snapshot 6
 
-| **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution**   | **Weights Requested** |
-| ------------ | ------- | ------------------------------------------ | ----------------- | ------------------------------- | --------------------------- | --------------------- |
-| 6            | 8       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee        | Description of Contribution     | Proof of contribution links | 1250                  |
+| **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution**   | **Weights Requested** | **Weight Time** |
+| ---------- | ----- | ------------------------------------------ | ----------------- | ---------------------------------- | --------------------------- | ------------- | -------- |
+| 6            | 8       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee   | Description of Contribution     | Proof of contribution links | 1250  | 3  |
