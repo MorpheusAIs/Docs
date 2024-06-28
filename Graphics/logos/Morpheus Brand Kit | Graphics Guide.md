@@ -16,10 +16,10 @@
 
 [Link to Black Logo on White](https://github.com/MorpheusAIs/Morpheus/assets/1563345/f82a5648-8bd4-4ff3-815b-885cc1c6dc15 ) 
 
-[Link to White Logo with transparent background](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/Morpheus%20Logo%20-%20White.svg)
+[Link to White Logo with transparent background](https://github.com/MorpheusAIs/Docs/Graphics/logos/Morpheus%20Logo%20-%20White.svg)
 
-[Other Common Logo Files](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/LogoFiles.md  )
+[Other Common Logo Files](https://github.com/MorpheusAIs/Docs/Graphics/logos/LogoFiles.md)
 
-[Morpheus Ecosystem Badges](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/MorpheusEcosystemLogo.md  )
+[Morpheus Ecosystem Badges](https://github.com/MorpheusAIs/Docs/Graphics/logos/MorpheusEcosystemLogo.md)
 
-[Full Design Library Here](https://github.com/MorpheusAIs/Docs/blob/main/Graphics/Design%20Library.md)
+[Full Design Library Here](https://github.com/MorpheusAIs/Docs/Graphics/logos/Design%20Library.md)
