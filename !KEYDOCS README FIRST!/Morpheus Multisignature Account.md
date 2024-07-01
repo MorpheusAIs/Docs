@@ -32,7 +32,7 @@ Lastly, as the goal of the Morpheus community is always to move toward “atomic
 - Morpheus multisig upgraded to 5 of 9 signatures
 - As part of the path toward ever greater decentralization the Multisig has been upgraded to include additional signers / back ups.
 
-## The same critera apply as before: 
+## The same criteria apply as before: 
 - Key holders are Anon.
 - None of the key holders are from the same company, project or foundation.
 - Key holders are spread geographically across continents.
