@@ -27,3 +27,16 @@ Following the recommendations of the cybersecurity experts and auditors involved
 To be clear the key holders have little meaningful power over the Smart Contracts. On purpose most of the functions of the Smart Contracts cannot be changed by the admin (controlled by the multisig) and as the Smart Contracts evolve and mature it is anticipated that the admin key may not be required at all. This step of becoming non-upgradable should be taken carefully as it will make the Smart Contracts much harder for the community to upgrade in the future.
 
 Lastly, as the goal of the Morpheus community is always to move toward “atomic governance” everyone looks forward to multiple implementations of every aspect of the Morpheus code base from Smart Contracts to Node software; this is welcomed and encouraged. The 24% MOR emissions for Coders will include these multiple implementations, presuming they honor the same tokenomics and fair launch ownership records of the Morpheus community.
+
+## 5. July 1st 2024 Upgrade
+- Morpheus Multisig Upgraded to 5 of 9 Signatures
+- As part of the path toward ever greater decentralization the Multisig has been upgraded to include additional signers / back ups.
+
+## The same critera apply as before: 
+- 1. Signers are Anon.
+- 2. None of the signers are from the same company, project or foundation.
+- 3. Signers are spread geographically across continents.
+- 4. Signers act as neutral experts in a non-governance function. 
+
+## The multisig signers only act in line with what Atomic Governance process has already approved. 
+Effectuating Protocol Owned Liquidity, Smart Contract upgrades, and monthly Weight Assignments in accordance with Morpheus Reference Implementations Maintainers judgements on MRCs & code upgrades.
