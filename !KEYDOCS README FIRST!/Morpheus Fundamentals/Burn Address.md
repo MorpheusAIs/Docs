@@ -1,4 +1,4 @@
-# Burn Address
+# MOR Burn Address
 The Morpheus White paper proposed a burning function for MOR in order to increase scarcity. Though the details of how the burning function were left for future implementation. 
 
 ## Now in MRC 43 the Burn Address has been added to play a part in the function of the Protocol Owned Liquidity.
