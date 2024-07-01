@@ -33,10 +33,10 @@ Lastly, as the goal of the Morpheus community is always to move toward “atomic
 - As part of the path toward ever greater decentralization the Multisig has been upgraded to include additional signers / back ups.
 
 ## The same critera apply as before: 
-- 1. Signers are Anon.
-- 2. None of the signers are from the same company, project or foundation.
-- 3. Signers are spread geographically across continents.
-- 4. Signers act as neutral experts in a non-governance function. 
+- Key holders are Anon.
+- None of the key holders are from the same company, project or foundation.
+- Key holders are spread geographically across continents.
+- Key holders act as neutral experts in a non-governance function. 
 
 ## The multisig signers only act in line with what Atomic Governance process has already approved. 
 Effectuating Protocol Owned Liquidity, Smart Contract upgrades, and monthly Weight Assignments in accordance with Morpheus Reference Implementations Maintainers judgements on MRCs & code upgrades.
