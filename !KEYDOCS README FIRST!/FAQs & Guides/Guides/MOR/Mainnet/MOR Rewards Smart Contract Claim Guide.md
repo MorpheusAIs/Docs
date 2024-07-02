@@ -1,4 +1,4 @@
-# MOR Rewards Claim Guide
+# MOR Rewards Smart Contract Claim Guide
 
 ## Table of contents
 1) [**Smart Contract Addresses**](#smart-contract-addresses)
