@@ -182,8 +182,11 @@ April 8th to May 8th - The implied price for snapshot 4 is estimated based metho
 
 ## May 8th to June 8th 2024 Implied Value of a Weight "Snapshot 5" = $1.186 USD per Weight
 The implied price for snapshot 5 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $1.186 USD per weight which is based on the average price from May 8th to May 27th which was $97.07.
+
+## June 8th to July 8th 2024 Implied Value of a Weight "Snapshot 6" = $0.60 USD per Weight
+The implied price for snapshot 6 is estimated based on the average trading price of $MOR throughout the prior month. This implied value of a weight came out to $0.60 USD per weight which is based on the average price during the month of June of $49.50.
 > [!NOTE]
-> **There is an ongoing discussion of exactly how to calculate the average snapshot price for weight valuation. Which price to use (open, close, random sampling, etc), how many data points (weekly, daily, hourly, etc) and other nuances are being discussed in the community.**
+> **There is an ongoing discussion of exactly how to calculate the average snapshot price for weight valuation. Which price to use (open, close, random sampling, etc), how many data points (weekly, daily, hourly, etc) and other nuances are being discussed in the community, as transparency, simplicity, and automation remain focal points of the process.**
 
 See the Morstats.info website page where you can run these estimates dynamically.  
 https://morstats.info/code-weights/
