@@ -24,7 +24,7 @@ Instead of navigating complex quadratic voting processes, DAOs, or politically s
 
 ## _For the Devs_
 ### 5.	Ample Funds to Pay the Builders on Day One 
-[Contributors providing computing power or models](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Builders%20Guide.mdd) are compensated immediately upon launch, eliminating the need for a lengthy marketing grind and user acquisition. The stETH depositors have already bootstrapped the ecosystem. 
+[Contributors providing computing power or models](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Builders%20Guide.md) are compensated immediately upon launch, eliminating the need for a lengthy marketing grind and user acquisition. The stETH depositors have already bootstrapped the ecosystem. 
 
 ### 6.	The Morpheus App Store for AI 
 Morpheus acts as a marketplace for compute providers and AI code. Built on principles of free market competition and decentralization, it rewards contributors directly without intermediaries or centralized control. With a free market approach, the best models and compute providers acquire the most consumers. 
