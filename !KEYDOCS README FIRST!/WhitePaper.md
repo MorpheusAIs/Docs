@@ -1,5 +1,9 @@
 ![Morpheuslogo](https://github.com/MorpheusAIs/Morpheus/assets/1563345/235b9c04-f3b1-4520-a328-2070c9c890ab)
 
+> [!NOTE]
+> ### Some parts of the whitepaper can be outdated due to latest technical and tokenomics improvements.
+> ### Updated version is in development.
+
 # Morpheus
 ## A Network For Powering Smart Agents
 ### Authored by Morpheus, Trinity, & Neo
