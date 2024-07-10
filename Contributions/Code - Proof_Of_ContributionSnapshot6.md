@@ -74,6 +74,7 @@ All Code Contributions to include the following elements:
 | **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution**   | **Weights Requested** | **Weight Time** |
 | ---------- | ----- | ------------------------------------------ | ----------------- | ---------------------------------- | --------------------------- | ------------- | -------- |
 | 6            | 8       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee   | Description of Contribution     | Proof of contribution links | 1250  | 3  |
+| 6 | 2 | 0xA84471C5bAbC4Edd9f59cB4eC180a178AAdCEDac | object335 | RAG agent - final version, back-end & front-end, adapted to use ollama | https://github.com/MorpheusAIs/moragents/pull/34 | 100000 |  |
 | 6            | 2       | 0xBdCfeB717DeAaae0aEAA1D4c80c4E46C9231063f | MuncleUscles   | FeedBuzz - Intelligent Log Aggregation   | https://github.com/yeagerai/feedbuzz-contracts | 50000  |   |
 | 6            | 2       | 0x096904182208dFAeD937361ae83d45De5A1f4c9C                     | IoDmitri          | Model verification algorithm to detect bad actors on the network                    | https://github.com/MorpheusAIs/HideNSeek       | 150000       |          |
 | 6            | 2      | 0x48d0EAc727A7e478f792F16527012452a000f2bd  | lachsbagel  | Pioneering Work in Model Verification | https://github.com/MorpheusAIs/HideNSeek | 50000 | |
