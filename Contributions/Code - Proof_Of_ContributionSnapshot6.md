@@ -79,3 +79,4 @@ All Code Contributions to include the following elements:
 | 6            | 2       | 0x096904182208dFAeD937361ae83d45De5A1f4c9C                     | IoDmitri          | Model verification algorithm to detect bad actors on the network                    | https://github.com/MorpheusAIs/HideNSeek       | 150000       |          |
 | 6            | 2      | 0x48d0EAc727A7e478f792F16527012452a000f2bd  | lachsbagel  | Pioneering Work in Model Verification | https://github.com/MorpheusAIs/HideNSeek | 50000 | |
 | 6 | 2 | 0xC3B82270Db1b77B4bE28a83d0963e02c38A9d13f | artfuljars | ollama in wizards + unit testing framework for moragents under the guidance of Lachsbagel | https://github.com/MorpheusAIs/moragents/pull/35, https://github.com/MorpheusAIs/moragents/pull/36 | 80000 | |
+| 6 | 2 | 0x48d0EAc727A7e478f792F16527012452a000f2bd | lachsbagel | coordination and architecture | https://github.com/MorpheusAIs/moragents/blob/main/AGENTABILITIES.md | 50000 | |
