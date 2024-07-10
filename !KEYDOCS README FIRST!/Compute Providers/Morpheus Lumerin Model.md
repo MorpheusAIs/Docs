@@ -4,7 +4,7 @@
 
 ## Summary
 
-The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md).
+The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC25.md).
 
 The following proposal will explain the key design principles that have been incorporated as well as outline each part of the on-chain ecosystem model, client-side node, and underlying protocol.
 
@@ -78,7 +78,7 @@ The ecosystem registry is a reference list of all official Morpheus contracts de
 The token distribution contract is responsible for attributing MOR to the different tokenomic model tranches.
 
 
-<i>"Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+<i>"Distribution.sol is the core contract of the [Techno Capital Machine](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
 Distribution utilizes [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [LinearDistributionIntervalDecrease](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/LinearDistributionIntervalDecrease.md) is used to calculate pool rewards."</i> <sup>1</sup> 
  
@@ -147,13 +147,16 @@ The layer 1 sender contract facilitates the bridging of tokens and messages to t
 #### **Ecosystem Registry**
 Same as the layer 1 ecosystem registry, the layer 2 ecosystem registry is a reference list of all official us contracts deployed on that blockchain as well as a list of ecosystem registries deployed on other blockchains.
 
-#### **Layer 2 Minter**
-The layer 2 minter contract owns the Morpheus Token (MOR) contract and is responsible for receiving messages from the layer 1 sender contract and executing the minting of MOR based on those messages.
+#### **Layer 2 Receiver V2**
+The layer 2 Receiver contract owns the Morpheus Token (MOR) contract and is responsible for receiving messages from the layer 1 sender contract and executing the minting of MOR based on those messages.
 
-<i>"L2MessageReceiver.sol is an implementation of the [ILayerZeroReceiver](https://layerzero.gitbook.io/docs/evm-guides/evm-solidity-interfaces/ilayerzeroreceiver) interface used to receive messages via LayerZero. It receives instructions to mint MOR tokens (e.g. to Capital Providers) from [L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) on Ethereum."</i> <sup>3</sup>
+<i>"L2TokenReceiverV2.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from L1Sender via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
+The contract supports swapping tokens with the swap method through Uniswap V3 for either of two token pairs specified in firstSwapParams and secondSwapParams. The former is used to swap bridged wstETH yield for WETH. The latter is used to swap half of the resulting WETH for MOR. In turn, additional liquidity for the MOR/WETH pair is provisioned using the increaseLiquidityCurrentRange method.
+All functions on L2TokenReceiverV2 can only be called by the contract owner – the Morpheus multisig."</i> <sup>3</sup>
 
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2MessageReceiver.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2MessageReceiver.sol) \
-[https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
+[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol]
+(https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol)
+[https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://arbiscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
 #### **Morpheus Token (MOR)**
 The MOROFT contract is a cross-chain ERC20 token.
@@ -163,18 +166,8 @@ The MOROFT contract is a cross-chain ERC20 token.
 Tokens can only be minted by the immutable `minter_` – [`L2MessageReceiver`](L2MessageReceiver.md) – when claimed by users."</i><sup>4</sup>
 
 [https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/MOROFT.sol)
-
-#### **Layer 2 Capital**
-
-The layer 2 capital contract is the receiver of the capital yield earned by tokens locked in the distribution contract and sent by the layer 1 sender contract.
-
-<i>"L2TokenReceiverV2.sol is a component of the Techno Capital Machine. It is responsible for receiving wstETH yield from[L1Sender](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md) via the native Arbitrum bridge and managing Protocol-Owned Liquidity.
-
-The contract supports swapping tokens with the swap method through Uniswap V3 for either of two token pairs specified in firstSwapParams and secondSwapParams. The former is used to swap bridged wstETH yield for WETH. The latter is used to swap half of the resulting WETH for MOR. In turn, additional liquidity for the MOR/WETH pair is provisioned using the increaseLiquidityCurrentRange method.
-
-All functions on L2TokenReceiverV2 can only be called by the contract owner – the Morpheus multisig."</i> <sup>5</sup>
-
-[https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/L2TokenReceiverV2.sol)
+[https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86]
+(https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
 
 #### **Provider Registry**
 
@@ -310,7 +303,7 @@ The marketplace contract collects model price information from providers and act
 
 #### **Session Router**
 
-The session router contract is responsible for maintaining an active log of current of past user sessions. Session closeout data can be used to generate a reputation score for a provider, model, and agent. Imports data from Provider Registry, Model Registry, Agent Registry, and MOR Token contracts.<br><br>User stakes MOR token to the Session Router Contract to use their ratio of the daily compute budget. User’s can only unstake MOR in ratio to the compute budget not used.
+The session router contract is responsible for maintaining an active log of current and past user sessions. Session closeout data can be used to generate a reputation score for a provider, model, and agent. Imports data from Provider Registry, Model Registry, Agent Registry, and MOR Token contracts.<br><br>User stakes MOR token to the Session Router Contract when creating a new session in order to use their ratio of the daily compute budget. User’s can only unstake MOR in ratio to the compute budget not used.<br><br>User sessions are billed by the second regardless of resource usage. A User’s stake in a session will deterministically dictate how long the session is for based on the model’s per second bid price. When the stake posted creates a budget that lasts for more than 24 hours it is considered an evergreen session. An evergreen session renews its compute budget at 0:00 GMT each day. Since, by design, the compute budget drops incrementally each day the stake will eventually inflate to less than 24 hours at which point the session budget will expire and no longer renew. Since an evergreen session locks in a Provider's bid a maximum session length will initially be set to 7 days.<br><br>Note: Another potential option is to allow a Provider to update their bids with the effects being applied to evergreen sessions at 0:00 GMT of the following day. This may open up an attack vector for providers to drain the budget of an evergreen session prematurely though. Until these dynamics are worked out the initial system will remain with locked-in bids for a maximum of 7 days.
 
 ##### Variables
 
@@ -467,7 +460,7 @@ The Morpheus Protocol is essentially the language and pattern that the Morpheus 
     | Parameter (uint) | "timestamp" | Timestamp of message. |
     | Parameter (string) | "signature" | Provider signed message.<br>{provider + user + timestamp} |
    
-    b. Provider checks to see if the prompt puts the User’s session over its spend limit. If the session is over its spend limit the Provider node returns an "Err: Over spend limit." message but does not close the session.
+    b. Provider checks to see if the User’s session is over budget. If the session is over its spend limit the Provider node returns an “Err: Over spend limit.” message and closes the socket.Provider does not close the session on-chain.
 
     <i>{ "method": "response.error", "params": { "message": "Over spend limit.", "timestamp": 1707379200, signature: "# string" }}</i>
     
@@ -558,9 +551,11 @@ When a User node first establishes a tcp/ip socket connection with a provider no
 
     c. The User node submits an on-chain transaction to the Session Router Contract to create a new session. If successful the User node will receive a new Session ID back from the contract method.
 
+   The user must stake a portion of their MOR balance to set a session budget. The session budget can automatically be calculated based on the desired duration of session and the select model or agent bid.
+
 3. **User Session**
    
-    a. User node sends an encrypted prompt message to the Provider node.
+    a. User node sends an encrypted prompt message to the Provider node. User data is encrypted using the Providers supplied public key.
    
     <i>{ "method": "session.prompt", "params": { "sessionid": "0x…", "message": "Encrypted user prompt", "timestamp": 1707379200, signature: "# string"}}</i>
 
@@ -618,7 +613,7 @@ The Morpheus Lumerin Model is a simple yet dynamic architecture that allows for 
 
 2. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L1Sender.md)
 
-3. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2MessageReceiver.md)
+3. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/L2TokenReceiverV2.md)
 
 4. [https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md](https://github.com/MorpheusAIs/Docs/blob/main/Smart%20Contracts/MOROFT.md)
 
