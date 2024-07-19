@@ -76,6 +76,25 @@ All Code Contributions to include the following elements:
 | 6            | 8       | 0x2e84B79dd9773d712f9D20a98C4ee76541B9533D | dannweeeee   | Description of Contribution     | Proof of contribution links | 1250  | 3  |
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | 6 | 6 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonboss | Detailed guide on how to claim MOR from the dashboard website as there were several requests from community members who are not familiar with Arbitrum chain. This guide will also be placed on the capital claim mor.org page. Maintenance and updates over time weight period | https://github.com/MorpheusAIs/Docs/pull/333 | 2500  | 7 |
 | 6 | 1 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonboss | Technical specification and providing assistance to a developer for a dashboard to track and collect statistics for balances/sales/claims/transfers and liquidity of Morpheus contributors. Full maintenance and updates over time weight period | https://parsec.fi/layout/BT/brknrAI5 | 3500 | 12 |
 | 6 | 9 | 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038 | antonboss | Collect, prepare and review with maintainers information about Morpheus achievements, developments and progress starting from the May 8th for Morpheus digest that will be published at the mor.org website. The digest will be compiled every month until Jan 2025 | https://docs.google.com/document/d/1jZfNqAMW5qxvjR4vQti_xArnZXvl1UFGKTrOxZw7tdg/edit?usp=sharing | 21000  | 7 |
