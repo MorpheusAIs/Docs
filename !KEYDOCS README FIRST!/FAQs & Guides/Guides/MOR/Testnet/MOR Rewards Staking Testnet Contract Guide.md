@@ -1,5 +1,18 @@
 # MOR Rewards Staking Testnet Contract Guide
 
+Convertation
+Mint
+APproval
+Deposit capital and lock (new deposit)
+Existed deposit
+Withdraw
+Claim rewards
+How to check multiplier
+How to check claimLock time
+
+How to check balance (link)
+How to check rewards (link)
+
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Sepolia Ethereum testnet for reward staking purpose.  
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same.
