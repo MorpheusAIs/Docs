@@ -38,12 +38,13 @@ Input as parameters:
 - `_amount (uint256)`: amount of tokens in Wei. Should be more or equal to the amount of stETH you want to deposit.
   
 > [!NOTE]
-> Wei is the smallest unit of ETH. One ether = 1,000,000,000,000,000,000 Wei
+> Wei is the smallest unit of ETH.  
+> One Ether = 1,000,000,000,000,000,000 Wei
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approve.png" width=70% height=70%>
 
 You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.   
-On the screenshot, 10 stETH (or 10000000000000000000 WEI) is going to be minted.
+On the screenshot, 10 stETH (or 10000000000000000000 Wei) is going to be minted.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
 
@@ -62,12 +63,12 @@ Input as parameters:
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/stake.png" width=70% height=70%>
 
-To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
-- set the Date and click **"Convert"**.
+- set the Date & Time and click **"Convert"**.
 
-On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -75,7 +76,9 @@ That effectively means that the user stake their MOR rewards until Jul-22-2025 1
 Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
-> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
+>
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -105,12 +108,12 @@ Input as parameters:
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/capital%20lockclaim.png" width=70% height=70%>
 
-To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
-- set the Date and click **"Convert"**.
+- set the Date & Time and click **"Convert"**.
 
-On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -120,6 +123,8 @@ Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> 
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -147,12 +152,12 @@ Input as parameters:
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/weights%20lockclaim.png" width=70% height=70%>
 
-To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
-- set the Date and click **"Convert"**.
+- set the Date & Time and click **"Convert"**.
 
-On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+On the picture Date & Time**Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -161,6 +166,8 @@ Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+>
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -180,13 +187,13 @@ Find and select the `3. getCurrentUserMultiplier` function and input as paramete
 - `poolId_ (uint 256)`: pool identifier, enter `0` for capital contributors pool or `1` for code contributors pool;
 - `user_ (address)`: paste wallet address you want to know Power Factor for.
 
-Click “**Query**” and wait until value calculated.
+Click “**Query**” and wait until the value calculated.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/user%20multiplier.png" width=70% height=70%>
 
 On the picture you can see value `uint256 :  51255802852192050990000000`  
-To convert it to more human friendly value click on it to open converter and divide MEther value by ten.  
-`51.3 / 10 = 5,13` Power Factor multiplier for the given address in the capital providers pool.
+To convert it to more human friendly value click on it to open the converter and divide MEther value by ten.  
+51.3 / 10 = `5,13` Power Factor multiplier for the given address in the capital providers pool.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/convert%20multiplier.png" width=60% height=60%>
 
@@ -202,7 +209,7 @@ Find and select the `14. usersData` function and input as parameters:
 - `<input> (address)`: paste wallet address you want to know MOR rewards stake time for.
 - `<input> (uint 256)`: pool identifier, enter `0` for capital contributors pool or `1` for code contributors pool;
 
-Click “**Query**” and wait until value calculated.  
+Click “**Query**” and wait until the value calculated.  
 The end time for staking will be indicated in the `claimLockEnd uint128` line.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/claimlockend.png" width=60% height=60%>
@@ -214,7 +221,7 @@ To convert the Timestamp to the Date and Time you can use **https://etherscan.io
 - paste value you got to the Timestamp field;
 - click **"Convert"**.
 
-On the picture the Timestamp **1799928036** converted to Date and Time **Jan-14-2027 12:00:36 PM**.  
+On the picture the Timestamp **1799928036** converted to Date & Time **Jan-14-2027 12:00:36 PM**.  
 Put it simply, the user staked their MOR rewards until Jan-14-2027 12:00:36 PM
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/timestamp%20to%20date.png" width=60% height=60%>
