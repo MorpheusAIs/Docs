@@ -76,7 +76,7 @@ In case you want to see mock stETH token in your Metamask wallet, please follow 
 ## Stake rewards for new Capital Deposit
 
 Before contributing mock stETH, you need to give the Distribution contract an **approval**, for this you need to:
-- go to the [mock stETH Contract](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract) contract;
+- go to the [mock stETH](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract) contract;
 - open the **“Contract”** tab, then the **“Write Contract”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
