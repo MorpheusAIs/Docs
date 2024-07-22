@@ -12,7 +12,7 @@ See link for details: https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS
 
 ## Ethereum Burn Address Selected
 The following Burn Adddress has been selected for use by the Morpheus project.
-https://etherscan.io/address/0x000000000000000000000000000000000000dead
+https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0x000000000000000000000000000000000000dead 
 
 This is an address commonly used by Ethereum projects for the purpose of burning tokens.
 
