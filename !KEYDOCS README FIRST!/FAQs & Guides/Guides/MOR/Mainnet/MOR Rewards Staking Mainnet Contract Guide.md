@@ -1,7 +1,7 @@
 # MOR Rewards Staking Mainnet Contract Guide
 
 ## Introduction
-This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Sepolia Ethereum testnet for reward staking purpose.  
+This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Ethereum mainnet for reward staking purpose.  
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same.
 
 ## Table of contents
@@ -19,23 +19,23 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 **Ethereum Mainnet:**
 
-- Morpheus Distribution Contract: [0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
+- Morpheus Distribution Contract: [**0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790**](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790)
 
-- stETH Contract:  
+- stETH Contract: [**0xae7ab96520de3a18e5e111b5eaab095312d7fe84**](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)
 
 ---
 
 ## Stake rewards for new Capital Deposit
 
-Before contributing mock stETH, you need to give the Distribution contract an **approval**, for this you need to:
-- go to the [mock stETH Contract](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract) contract;
+Before contributing stETH, you need to give the Morpheus Distribution contract an **approval**, for this you need to:
+- go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
-Select the `1.approve()` function that will add allowance for the Distribution contract to spend users' mock stETH.  
+Select the `3.approve()` function that will add allowance for the Distribution contract to spend users' stETH.  
 Input as parameters:
-- `spender`: **Distribution contract** address: `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790`;
-- `amount`: amount of tokens in Wei. Should be more or equal to the amount of mock stETH you want to deposit.
+- `_spender (address)`: **Distribution contract** address: `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790`;
+- `_amount (uint256)`: amount of tokens in Wei. Should be more or equal to the amount of stETH you want to deposit.
   
 > [!NOTE]
 > Wei is the smallest unit of ETH. One ether = 1,000,000,000,000,000,000 Wei
@@ -43,14 +43,14 @@ Input as parameters:
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approve.png" width=70% height=70%>
 
 You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.   
-On the screenshot, 10 stETH (or 10000000000000000000 in WEI) is going to be minted.
+On the screenshot, 10 stETH (or 10000000000000000000 WEI) is going to be minted.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
 
 Click “**Write**” and confirm the transaction.
 
 After confirmation, you need to:
-- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -94,7 +94,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Capital Deposit
 
 If you are already a Capital Provider, i.e have stETH deposited before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
-- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -136,7 +136,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Code Weights
 
 If you are a Code provider and have weights assigned before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
-- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -173,7 +173,7 @@ Click “**Write**” and confirm the transaction.
 ## Check Power Factor Multiplier
 
 In order to check your Power Factor multiplier directly with smart contract please follow these steps:
-- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract;
 - open the **“Contract”** tab, then the **“Read as Proxy”** tab.
 
 Find and select the `3. getCurrentUserMultiplier` function and input as parameters:
@@ -195,7 +195,7 @@ To convert it to more human friendly value click on it to open converter and div
 ## Check MOR rewards stake time
 
 In you want to know for how long MOR rewards are staked (if staked) for a certain address you need to:
-- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract;
 - open the **“Contract”** tab, then the **“Read as Proxy”** tab.
 
 Find and select the `14. usersData` function and input as parameters:
