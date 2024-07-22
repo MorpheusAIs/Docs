@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6f0df0cc-2715-4b05-95ec-c569b519dd83)# MOR Rewards Staking Testnet Contract Guide
+# MOR Rewards Staking Testnet Contract Guide
 
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Sepolia Ethereum testnet for reward staking purpose.  
