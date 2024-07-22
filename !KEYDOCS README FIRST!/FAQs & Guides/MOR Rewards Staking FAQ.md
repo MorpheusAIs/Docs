@@ -8,6 +8,13 @@ In simple terms, Morpheus contributors can stake MOR reward claims for a future 
 ### How is the Power Factor determined?
 The Power Factor mirrors the dilution rate due to daily emissions contributors experience while staking the MOR rewards. The equation can be found in the [MRC42](https://github.com/antonbosss/MRC/blob/main/IN%20PROGRESS/MRC42.md#the-time-power-factor-shortened-power).
 
+### What is the maximum Power Factor multiplier?
+The maximum Power Factor multiplier is 10.7x if staked for 6 years.
+
+### For how long can I stake my rewards?
+There are no limits, but Power factor starts to grow from 1x after six months of staking and reach its maximum of 10.7x if rewards are staked for six years.
+While there are no limits, the reasonable range is from six months to six years.
+
 ### Can I stake MOR that I already have in my wallet?
 No, only future MOR reward claims can participate in this staking.
 
@@ -16,9 +23,6 @@ All four types of Morpheus contributions (Code, Capital, Compute, or Builders) c
 
 ### I'm a contributor, do I have to stake my rewards?
 Staking rewards is not mandatory, but without it, you will not gain Power Factor.
-
-### For how long can I stake my rewards?
-The rewards can be staked for up to 16 years.
 
 ### Can I decrease or increase the staking period?
 No, the MOR staking period can only be increased.
