@@ -125,6 +125,8 @@ Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
+>
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -169,6 +171,8 @@ Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
+>
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -210,6 +214,8 @@ Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
+>
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
