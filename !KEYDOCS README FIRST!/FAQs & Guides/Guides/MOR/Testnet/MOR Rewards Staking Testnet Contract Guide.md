@@ -82,7 +82,7 @@ Before contributing mock stETH, you need to give the Distribution contract an **
 
 Select the `1.approve()` function that will add allowance for the Distribution contract to spend users' mock stETH.  
 Input as parameters:
-- `spender (address)`: **Distribution contract** address: `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790`;
+- `spender (address)`: **Distribution contract** address: `0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524`;
 - `amount (uint256)`: amount of tokens in Wei. Should be more or equal to the amount of mock stETH you want to deposit.
   
 > [!NOTE]
