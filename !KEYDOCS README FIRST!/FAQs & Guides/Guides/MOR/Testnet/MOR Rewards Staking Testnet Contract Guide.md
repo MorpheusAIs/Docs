@@ -6,7 +6,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ## Table of contents
 1) [**Smart Contracts addresses.**](#smart-contracts-addresses)
-2) [**Mint mock stETH?**](#mint-mock-steth)
+2) [**Mint mock stETH.**](#mint-mock-steth)
 3) [**Add mock stETH to Metamask.**](#add-mock-steth-to-metamask-optional)
 4) [**Stake rewards for new Capital Deposit.**](#stake-rewards-for-new-capital-deposit)
 5) [**Stake rewards for existing Capital Deposit.**](#stake-rewards-for-existing-capital-deposit)
@@ -37,30 +37,34 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 Switch your wallet to Ethereum Sepolia testnet first.  
 
-If you don't have it added to your wallet, you can use this [link](https://chainlist.org/?testnets=true&search=Sepolia), scroll down, find Sepolia and click **"Add to Metamask"**.
+If you don't have it added to your wallet, you can use this [link](https://chainlist.org/?testnets=true&search=Sepolia).  
+Scroll down, find Sepolia and click **"Add to Metamask"**.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/mint%20mock%20steth.png" width=80% height=80%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/add%20sepolia.png" width=50% height=50%>
 
 To mint test tokens you need to:
 
-- go to [Mock stETH Contract](https://etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract); 
+- go to [Mock stETH Contract](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract); 
 - open the **"Contract"** tab, then the **"Write Contract"** tab;
 - connect your wallet by clicking **"Connect to Web3"** button.
 
 It is necessary to select the `4. mint ()` function that will issue tokens to your address.  
 As parameters:  
-- `to_ (address)`: your wallet adress;
-- `amount_ (uint256)`: amount of tokens in Wei, instead of ETH.  
+- `_account (address)`: your wallet address;
+- `_amount (uint256)`: amount of tokens in Wei, instead of ETH.  
 
 > [!NOTE]
-> Wei is the smallest unit of ETH. One ether = 1,000,000,000,000,000,000 Wei
+> Wei is the smallest unit of ETH.  
+> One Ether = 1,000,000,000,000,000,000 Wei
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/mint%20mock%20steth.png" width=70% height=70%>
 
 You can use https://etherscan.io/unitconverter for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.   
-On the screenshot, 10 stETH (or 10000000000000000000 in WEI) is going to be minted.
+On the screenshot, 10 stETH (or 10000000000000000000 Wei) is going to be minted.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
 
 Click **"Write"** and confirm the transaction in your wallet. 
-
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/mint%20mock%20steth.png" width=55% height=55%>
 
 ---
 
@@ -73,7 +77,7 @@ In case you want to see mock stETH token in your Metamask wallet, please follow 
 
 Before contributing mock stETH, you need to give the Distribution contract an **approval**, for this you need to:
 - go to the [mock stETH Contract](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract) contract;
-- open the **“Contract”** tab, then the **“Write as Proxy”** tab;
+- open the **“Contract”** tab, then the **“Write Contract”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
 Select the `1.approve()` function that will add allowance for the Distribution contract to spend users' mock stETH.  
@@ -82,17 +86,20 @@ Input as parameters:
 - `amount`: amount of tokens in Wei. Should be more or equal to the amount of mock stETH you want to deposit.
   
 > [!NOTE]
-> Wei is the smallest unit of ETH. One ether = 1,000,000,000,000,000,000 Wei
+> Wei is the smallest unit of ETH.  
+> One Ether = 1,000,000,000,000,000,000 Wei
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approve.png" width=70% height=70%>
 
 You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.   
-On the screenshot, 10 stETH (or 10000000000000000000 in WEI) is going to be minted.
+On the screenshot, 10 stETH (or 10000000000000000000 Wei) is going to be minted.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
 
 Click “**Write**” and confirm the transaction.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/approval.png" width=70% height=70%>
-
 After confirmation, you need to:
-- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -102,7 +109,7 @@ Input as parameters:
 - `amount_ (uint 256)`: amount of tokens in Wei. (the same or less than amount you approved).
 - `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward. If you don't want to stake MOR rewards, type `0` in the field.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/stake.png" width=70% height=70%>
 
 To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
@@ -112,9 +119,9 @@ To convert Data to Timestamp and vice versa you can use **https://etherscan.io/b
 On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
-Click “**Write**” and confirm the transaction.
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
@@ -136,7 +143,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Capital Deposit
 
 If you are already a Capital Provider, i.e have stETH deposited before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
-- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Sepolia Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -145,7 +152,7 @@ Input as parameters:
 - `poolId_ (uint 256)`: pool identifier, enter `0` for capital providers pool;
 - `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/capital%20lockclaim.png" width=70% height=70%>
 
 To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
@@ -155,9 +162,10 @@ To convert Data to Timestamp and vice versa you can use **https://etherscan.io/b
 On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
+
 Click “**Write**” and confirm the transaction.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
@@ -177,7 +185,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Code Weights
 
 If you are a Code provider and have weights assigned before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
-- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- go to the [Sepolia Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
 
@@ -186,7 +194,7 @@ Input as parameters:
 - `poolId_ (uint 256)`: pool identifier, enter `1` for code contributors pool;
 - `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/weights%20lockclaim.png" width=70% height=70%>
 
 To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
@@ -196,9 +204,9 @@ To convert Data to Timestamp and vice versa you can use **https://etherscan.io/b
 On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
-Click “**Write**” and confirm the transaction.
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
 > **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
@@ -214,7 +222,7 @@ Click “**Write**” and confirm the transaction.
 ## Check Power Factor Multiplier
 
 In order to check your Power Factor multiplier directly with smart contract please follow these steps:
-- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- go to the [Sepolia Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
 - open the **“Contract”** tab, then the **“Read as Proxy”** tab.
 
 Find and select the `3. getCurrentUserMultiplier` function and input as parameters:
@@ -223,20 +231,20 @@ Find and select the `3. getCurrentUserMultiplier` function and input as paramete
 
 Click “**Query**” and wait until value calculated.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/user%20multiplier.png" width=70% height=70%>
 
 On the picture you can see value `uint256 :  51255802852192050990000000`  
 To convert it to more human friendly value click on it to open converter and divide MEther value by ten.  
 `51.3 / 10 = 5,13` Power Factor multiplier for the given address in the capital providers pool.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/convert%20multiplier.png" width=60% height=60%>
 
 ---
 
 ## Check MOR rewards stake time
 
 In you want to know for how long MOR rewards are staked (if staked) for a certain address you need to:
-- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- go to the [Sepolia Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
 - open the **“Contract”** tab, then the **“Read as Proxy”** tab.
 
 Find and select the `14. usersData` function and input as parameters:
@@ -246,7 +254,7 @@ Find and select the `14. usersData` function and input as parameters:
 Click “**Query**” and wait until value calculated.  
 The end time for staking will be indicated in the `claimLockEnd uint128` line.
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/claimlockend.png" width=60% height=60%>
 
 On the picture you can see value `claimLockEnd   uint128 :  1799928036`  
 To convert the Timestamp to the Date and Time you can use **https://etherscan.io/blockdateconverter**:
@@ -258,7 +266,7 @@ To convert the Timestamp to the Date and Time you can use **https://etherscan.io
 On the picture the Timestamp **1799928036** converted to Date and Time **Jan-14-2027 12:00:36 PM**.  
 Put it simply, the user staked their MOR rewards until Jan-14-2027 12:00:36 PM
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/timestamp%20to%20date.png" width=60% height=60%>
 
 ---
 
