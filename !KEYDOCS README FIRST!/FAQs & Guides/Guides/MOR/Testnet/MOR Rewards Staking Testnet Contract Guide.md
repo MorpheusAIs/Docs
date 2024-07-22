@@ -1,34 +1,19 @@
-![image](https://github.com/user-attachments/assets/1f4ba052-5a19-40e8-8c00-c98324b7e3cf)# MOR Rewards Staking Testnet Contract Guide
+![image](https://github.com/user-attachments/assets/6f0df0cc-2715-4b05-95ec-c569b519dd83)# MOR Rewards Staking Testnet Contract Guide
 
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Sepolia Ethereum testnet for reward staking purpose.  
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same.
 
 ## Table of contents
-1) [**Smart Contracts addresses**](#smart-contracts-addresses)
+1) [**Smart Contracts addresses.**](#smart-contracts-addresses)
 2) [**Mint mock stETH?**](#mint-mock-steth)
-3) Add mock stETH to Metamask
-4) [**Stake with new Capital Deposit**](#how-to-deposit-steth-into-the-contract)
-5) [**What is the amount of MOR rewards earned?**](#what-is-the-amount-of-mor-rewards-earned)
-6) [**How can I get information about how much I have deposited?**](#how-can-i-get-information-about-how-much-i-have-deposited)
-7) [**How to withdraw stETH from the contract?**](#how-to-withdraw-steth-from-the-contract)
-
-APproval
-Deposit capital and lock (new deposit)
-
-Existed deposit
-
-Withdraw
-Claim rewards
-How to check multiplier
-How to check claimLock time
-
-How to check balance (link)
-How to withdraw capital 
-How to check rewards (link)
-
-https://etherscan.io/blockdateconverter
-https://etherscan.io/unitconverter 
+3) [**Add mock stETH to Metamask.**](#add-mock-steth-to-metamask-(optional))
+4) [**Stake rewards for new Capital Deposit.**]()
+5) [**Stake rewards for existing Capital Deposit.**]()
+6) [**Stake rewards for existing Code Weights.**]()
+7) [**Check Power Factor Multiplier.**]()
+8) [**Check MOR rewards stake time.**]()
+9) [**Additional Guide links.**]()
 
 ---
 
@@ -84,7 +69,7 @@ In case you want to see mock stETH token in your Metamask wallet, please follow 
 
 --- 
 
-## Stake with new Capital Deposit
+## Stake rewards for new Capital Deposit
 
 Before contributing mock stETH, you need to give the Distribution contract an **approval**, for this you need to:
 - go to the [mock stETH Contract](https://sepolia.etherscan.io/address/0xa878Ad6FF38d6fAE81FBb048384cE91979d448DA#writeContract) contract;
@@ -117,13 +102,13 @@ Find and select the `10.stake()` function that will deposit stETH tokens into th
 Input as parameters:
 - `poolId_ (uint 256)`: pool identifier, enter `0` for capital providers pool;
 - `amount_ (uint 256)`: amount of tokens in Wei. (the same or less than amount you approved).
-- `claimLockEnd_ (uint 128)`: timestamp of the reward unlock period, i.e. when you will be able to claim your MOR reward. If you don't want to stake MOR rewards, type `0` in the field.
+- `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward. If you don't want to stake MOR rewards, type `0` in the field.
 
 To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
 - set the Date and click **"Convert"**.
-- 
+
 On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**. That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
@@ -131,78 +116,162 @@ On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp *
 Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
-> **Double check the correctness of the date to timestamp convertion as the operation is irreversible**
-> 
-
+> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
-**The transaction will ONLY stake your future rewards. Nothing changes the ability to withdraw capital contribution (beyond the normal 7 days delay). However, when you withdraw stETH, you will no longer get rewards.**
-> **If you deposit additional stETH, the 7-days lock-up is restarted for all your deposited stETH from that address.**
-> 
 > **MOR Rewards Staking period cannot be decreased, but can be increased.**
 >
 > **If you don't want to stake MOR rewards, just type `0` in the field `claimLockEnd_ (uint 128)`.**
+>
+> **Any new transaction with the Distribution contract (withdraw capital, add capital, prolong stalking) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
+>
+> **The transaction will ONLY stake your future rewards. Nothing changes the ability to withdraw capital contribution (beyond the normal 7 days delay). However, when you withdraw stETH, you will no longer get rewards.**
+>
+> **If you deposit additional stETH, the 7-days lock-up is restarted for all your deposited stETH from that address and Power multiplier is recalculated.**
 
 ---
 
-## What is the amount of MOR rewards earned? 
+## Stake rewards for existing Capital Deposit
 
-You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **“Contract”** tab, then the **“Read as Proxy”** tab. 
+If you are already a Capital Provider, i.e have stETH deposited before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
+- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- open the **“Contract”** tab, then the **“Write as Proxy”** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button.  
 
-Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button.
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
 
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/rewards.png" width=70% height=70%>
+Find and select the `6.lockClaim()` function that will stake rewards for your existing deposit.   
+Input as parameters:
+- `poolId_ (uint 256)`: pool identifier, enter `0` for capital providers pool;
+- `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
 
-The rewards are earned every block and to check the amount, you need to call the `2.getCurrentUserReward` function, where you need to enter pool number `0` and your address (or the address of the user you want to know about). 
+To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+- select Timestamp & Date;
+- select Date & Time to Timestamp;
+- set the Date and click **"Convert"**.
 
-Click "**Query**".  
+On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**. That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
-As a result, you will find out how many rewards there are at the moment.  
-Amount is in WEI and you can use this unit converter calculator https://eth-converter.com. 
-
----
-
-## How can I get information about how much I have deposited? 
-
-You need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract, open the **“Contract”** tab, then the **“Read as Proxy”** tab. 
-
-Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button.
-
-Select the `12.usersData()` function that will show how many tokens have been invested by the user, enter your wallet address and `0` as the pool identifier. 
-
-Click "**Query**". 
-
-Your deposited amount will be indicated in WEI next to `deposited` line.
-
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposited.png" width=60% height=60%>
-
----
-
-## How to withdraw stETH from the contract?
-
-> [!Note] 
-> **You can withdraw funds no earlier than 7 days after the deposit.**
-
-Go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab.  
-
-Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button.  
-Make sure your wallet has enough ETH to cover gas fees.
-
-<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/withdraw.png" width=70% height=70%>
-
-It is necessary to select the `13.withdraw()` function that will withdraw the required number of stETH.  
-Input parameters:
-- `poolId_`: pool identifier; enter `0` for capital providers pool;
-- `amount_`: amount of tokens in WEI. You can use this unit converter calculator https://eth-converter.com.  
- 
-In the example on the picture, 0.1 stETH indicated in WEI.
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
 
 Click “**Write**” and confirm the transaction.
+
+> [!IMPORTANT]
+> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> 
+> **You will not be able to withdraw MOR rewards until the end of the staking period.**
+>
+> **MOR Rewards Staking period cannot be decreased, but can be increased.**
+>
+> **Any new transaction with the Distribution contract (withdraw capital, add capital, prolong stalking) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
+>
+> **The transaction will ONLY stake your future rewards. Nothing changes the ability to withdraw capital contribution (beyond the normal 7 days delay). However, when you withdraw stETH, you will no longer get rewards.**
+>
+> **If you deposit additional stETH, the 7-days lock-up is restarted for all your deposited stETH from that address and Power multiplier is recalculated.**
+
+---
+
+## Stake rewards for existing Code Weights
+
+If you are a Code provider and have weights assigned before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
+- go to the [Distribution](https://etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#writeProxyContract) contract;
+- open the **“Contract”** tab, then the **“Write as Proxy”** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button.  
+
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+
+Find and select the `6.lockClaim()` function that will stake rewards for your existing deposit.   
+Input as parameters:
+- `poolId_ (uint 256)`: pool identifier, enter `1` for code contributors pool;
+- `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
+
+To convert Data to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+- select Timestamp & Date;
+- select Date & Time to Timestamp;
+- set the Date and click **"Convert"**.
+
+On the picture Date **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**. That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
+
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+
+Click “**Write**” and confirm the transaction.
+
+> [!IMPORTANT]
+> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> 
+> **You will not be able to withdraw MOR rewards until the end of the staking period.**
+>
+> **MOR Rewards Staking period cannot be decreased, but can be increased.**
+>
+> **Any new transaction with the Distribution contract (add weights for new contribution or decrease weights due to Weight Time expiration) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
+
+---
+
+## Check Power Factor Multiplier
+
+In order to check your Power Factor multiplier directly with smart contract please follow these steps:
+- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- open the **“Contract”** tab, then the **“Read as Proxy”** tab.
+
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+
+Find and select the `3. getCurrentUserMultiplier` function and input as parameters:
+- `poolId_ (uint 256)`: pool identifier, enter `0` for capital contributors pool or `1` for code contributors pool;
+- `user_ (address)`: paste wallet address you want to know Power Factor for.
+
+Click “**Query**” and wait until value calculated.
+
+On the picture you can see value `uint256 :  51255802852192050990000000`  
+To convert it to more human friendly value click on it to open converter and divide MEther value by ten.  
+51.3 / 10 = 5,13 Power Factor multiplier for the given address in the capital providers pool.
+
+---
+
+## Check MOR rewards stake time
+
+In you want to know for how long MOR rewards are staked (if staked) for a certain address you need to:
+- go to the [Distribution](https://sepolia.etherscan.io/address/0x7C46d6BEBF3DCd902Eb431054E59908a02Aba524#readProxyContract) contract;
+- open the **“Contract”** tab, then the **“Read as Proxy”** tab.
+
+Find and select the `14. usersData` function and input as parameters:
+- `<input> (address)`: paste wallet address you want to know MOR rewards stake time for.
+- `<input> (uint 256)`: pool identifier, enter `0` for capital contributors pool or `1` for code contributors pool;
+
+Click “**Query**” and wait until value calculated.
+The end time for staking will be indicated in the `claimLockEnd uint128` line.
+
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+
+On the picture you can see value `claimLockEnd   uint128 :  1799928036`  
+To convert the Timestamp to the Date and Time you can use **https://etherscan.io/blockdateconverter**:
+- select Timestamp & Date;
+- select Timestamp to Date & Time;
+- paste value you got to the Timestamp field;
+- click **"Convert"**.
+
+On the picture the Timestamp **1799928036** converted to Date and Time **Jan-14-2027 12:00:36 PM**.  
+Put it simply, the user staked their MOR rewards until Jan-14-2027 12:00:36 PM
+
+<img src="/Graphics/Docs%20Graphics/English/Morpheus%20Capital%20Providers%20Contract%20Guide/deposit.png" width=70% height=70%>
+
+---
+
+## Additional Guide links
+
+Here are links to the smart contract operations you might be interested in:
+1. [How to claim MOR rewards.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs%20%26%20Guides/Guides/MOR/Mainnet/MOR%20Rewards%20Claim%20Guide.md#how-to-claim-rewards)
+
+2. [How to check earned MOR rewards.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs%20%26%20Guides/Guides/MOR/Mainnet/MOR%20Rewards%20Claim%20Guide.md#how-much-mor-have-i-earned-as-rewards)
+     
+3. [How to check deposited stETH amount.]((https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs%20%26%20Guides/Guides/MOR/Mainnet/Morpheus%20Capital%20Providers%20Contract%20Guide.md#how-can-i-get-information-about-how-much-i-have-deposited)
+
+4. [How to withdraw stETH.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/FAQs%20%26%20Guides/Guides/MOR/Mainnet/Morpheus%20Capital%20Providers%20Contract%20Guide.md#how-to-withdraw-steth-from-the-contract)
 
 ---
 
 > [!TIP]  
 > **In case you face with difficulties, find something unclear or have questions, you can get assistance in** [**Morpheus Discord server**](https://discord.com/channels/1151741790408429580/1183666837460897832).
 
-## Beware of scams, Morpheus has no tech support team, no support tickets and will not commence any airdrops. Anyone who message you with proposal to help is likely a scammer.
+## Beware of scams, Morpheus has no tech support team, no support tickets and will not commence any airdrops.  
+## Anyone who message you with proposal to help is likely a scammer.
