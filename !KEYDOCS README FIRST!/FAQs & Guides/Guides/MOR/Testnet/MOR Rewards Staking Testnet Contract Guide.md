@@ -241,7 +241,7 @@ Click “**Query**” and wait until value calculated.
 
 On the picture you can see value `uint256 :  51255802852192050990000000`  
 To convert it to more human friendly value click on it to open converter and divide MEther value by ten.  
-51.3 / 10 = `5,13` Power Factor multiplier for the given address in the capital providers pool.
+51.3 / 10 = `5.13` Power Factor multiplier for the given address in the capital providers pool.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/convert%20multiplier.png" width=60% height=60%>
 
