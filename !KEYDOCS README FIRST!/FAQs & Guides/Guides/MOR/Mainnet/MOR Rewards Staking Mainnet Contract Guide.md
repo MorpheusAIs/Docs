@@ -1,7 +1,8 @@
 # MOR Rewards Staking Mainnet Contract Guide
 
 ## Introduction
-This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Ethereum mainnet for reward staking purpose.  
+This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Ethereum mainnet for the reward staking purpose.  
+
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same.
 
 ## Table of contents
@@ -39,10 +40,11 @@ Input as parameters:
 - `_amount (uint256)`: amount of tokens in Wei. Should be more or equal to the amount of stETH you want to deposit.
   
 > [!NOTE]
-> Wei is the smallest unit of ETH.  
+> Wei is the smallest unit of ETH.
+> 
 > One Ether = 1,000,000,000,000,000,000 Wei.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approve.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approvemainnet.png" width=70% height=70%>
 
 You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.  
 
