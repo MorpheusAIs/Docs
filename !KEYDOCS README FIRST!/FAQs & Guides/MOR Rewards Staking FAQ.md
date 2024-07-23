@@ -1,4 +1,5 @@
 # MOR Rewards Staking (MRS) FAQ
+
 ### Why does Morpheus need rewards staking?
 The MRS has been introduced as a community initiative to close the negative feedback loop at the capital providers bucket and separate the real contributors from short-term opportunists.
 
