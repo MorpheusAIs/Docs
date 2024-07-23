@@ -1,4 +1,4 @@
-# MOR Rewards Staking Mainnet Contract Guide
+# MOR Capital Rewards Staking Mainnet Contract Guide
 
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Ethereum mainnet for the reward staking purpose.  
@@ -9,10 +9,9 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 1) [**Smart Contract addresses.**](#smart-contract-addresses)
 2) [**Stake rewards for new Capital Deposit.**](#stake-rewards-for-new-capital-deposit)
 3) [**Stake rewards for existing Capital Deposit.**](#stake-rewards-for-existing-capital-deposit)
-4) [**Stake rewards for existing Code Weights.**](#stake-rewards-for-existing-code-weights)
-5) [**Check Power Factor Multiplier.**](#check-power-factor-multiplier)
-6) [**Check MOR rewards stake time.**](#check-mor-rewards-stake-time)
-7) [**Additional Guide links.**](#additional-guide-links)
+4) [**Check Power Factor Multiplier.**](#check-power-factor-multiplier)
+5) [**Check MOR rewards stake time.**](#check-mor-rewards-stake-time)
+6) [**Additional Guide links.**](#additional-guide-links)
 
 ---
 
@@ -141,47 +140,6 @@ Click “**Write**” and confirm the transaction.
 > **The transaction will ONLY stake your future rewards. Nothing changes the ability to withdraw capital contribution (beyond the normal 7 days delay). However, when you withdraw stETH, you will no longer get rewards.**
 >
 > **If you deposit additional stETH, the 7-days lock-up is restarted for all your deposited stETH from that address and Power multiplier is recalculated.**
-
----
-
-## Stake rewards for existing Code Weights
-
-If you are a Code provider and have weights assigned before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
-- make sure you switched your wallet to the Ethereum mainnet;
-- go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
-- open the **“Contract”** tab, then the **“Write as Proxy”** tab;
-- connect your wallet by clicking the **"Connect to Web3"** button.  
-
-Find and select the `6.lockClaim()` function that will stake rewards for your existing deposit.   
-Input as parameters:
-- `poolId_ (uint 256)`: pool identifier, enter `1` for code contributors pool;
-- `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
-
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/weights%20lockclaim.png" width=70% height=70%>
-
-To convert Data & Time to Timestamp and vice versa you should use **https://etherscan.io/blockdateconverter**:
-- select Timestamp & Date;
-- select Date & Time to Timestamp;
-- set the Date & Time and click **"Convert"**.
-
-On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
-
-That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
-
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
-
-Click “**Write**” and confirm the transaction.
-
-> [!IMPORTANT]
-> **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
->
-> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after approximately six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
-> 
-> **You will not be able to withdraw MOR rewards until the end of the staking period.**
->
-> **MOR Rewards Staking period cannot be decreased, but can be increased.**
->
-> **Any new transaction with the Distribution contract (add weights for new contribution or decrease weights due to Weight Time expiration) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
 
 ---
 
