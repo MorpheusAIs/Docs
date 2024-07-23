@@ -5,7 +5,7 @@ This guide will walk you through the process of direct interaction with the Morp
 Metamask wallet is used in this guide, but for other Web3 wallets logic remains the same.
 
 ## Table of contents
-1) [**Smart Contracts addresses.**](#smart-contracts-addresses)
+1) [**Smart Contract addresses.**](#smart-contract-addresses)
 2) [**Stake rewards for new Capital Deposit.**](#stake-rewards-for-new-capital-deposit)
 3) [**Stake rewards for existing Capital Deposit.**](#stake-rewards-for-existing-capital-deposit)
 4) [**Stake rewards for existing Code Weights.**](#stake-rewards-for-existing-code-weights)
@@ -15,7 +15,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ---
 
-## Smart Contracts Addresses 
+## Smart Contract Addresses 
 
 **Ethereum Mainnet:**
 
@@ -28,6 +28,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 ## Stake rewards for new Capital Deposit
 
 Before contributing stETH, you need to give the Morpheus Distribution contract an **approval**, for this you need to:
+- make sure you switched your wallet to the Ethereum mainnet;
 - go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
@@ -39,11 +40,12 @@ Input as parameters:
   
 > [!NOTE]
 > Wei is the smallest unit of ETH.  
-> One Ether = 1,000,000,000,000,000,000 Wei
+> One Ether = 1,000,000,000,000,000,000 Wei.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/approve.png" width=70% height=70%>
 
-You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.   
+You can use **https://etherscan.io/unitconverter** for calculations. Enter desirable amount in the `Ether` field and copy value from the `Wei` field.  
+
 On the screenshot, 10 stETH (or 10000000000000000000 Wei) is going to be minted.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
@@ -51,6 +53,7 @@ On the screenshot, 10 stETH (or 10000000000000000000 Wei) is going to be minted.
 Click “**Write**” and confirm the transaction.
 
 After confirmation, you need to:
+- make sure you switched your wallet to the Ethereum mainnet;
 - go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
@@ -63,12 +66,13 @@ Input as parameters:
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/stake.png" width=70% height=70%>
 
-To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+To convert Data & Time to Timestamp and vice versa you should use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
 - set the Date & Time and click **"Convert"**.
 
-On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.
+
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -78,15 +82,13 @@ Click “**Write**” and confirm the transaction.
 > [!IMPORTANT]
 > **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
 >
-> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after approximately six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
 > **MOR Rewards Staking period cannot be decreased, but can be increased.**
 >
-> **If you don't want to stake MOR rewards, just type `0` in the field `claimLockEnd_ (uint 128)`.**
->
-> **Any new transaction with the Distribution contract (withdraw capital, add capital, prolong stalking) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
+> **Any new transaction with the Distribution contract (withdraw capital, add capital, prolong staking) will trigger Power Factor multiplier recalculation based on conditions and stake time on the transaction execution moment.**
 >
 > **The transaction will ONLY stake your future rewards. Nothing changes the ability to withdraw capital contribution (beyond the normal 7 days delay). However, when you withdraw stETH, you will no longer get rewards.**
 >
@@ -97,6 +99,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Capital Deposit
 
 If you are already a Capital Provider, i.e have stETH deposited before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
+- make sure you switched your wallet to the Ethereum mainnet;
 - go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
@@ -114,6 +117,7 @@ To convert Data & Time to Timestamp and vice versa you can use **https://ethersc
 - set the Date & Time and click **"Convert"**.
 
 On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -122,9 +126,9 @@ Click “**Write**” and confirm the transaction.
 
 
 > [!IMPORTANT]
-> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
 > 
-> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after approximately six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -141,6 +145,7 @@ Click “**Write**” and confirm the transaction.
 ## Stake rewards for existing Code Weights
 
 If you are a Code provider and have weights assigned before reward staking went live and want to stake your future rewards to gain Power Factor multiplier, please follow these steps:
+- make sure you switched your wallet to the Ethereum mainnet;
 - go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract;
 - open the **“Contract”** tab, then the **“Write as Proxy”** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.  
@@ -152,12 +157,13 @@ Input as parameters:
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/weights%20lockclaim.png" width=70% height=70%>
 
-To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
+To convert Data & Time to Timestamp and vice versa you should use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
 - set the Date & Time and click **"Convert"**.
 
-On the picture Date & Time**Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
+
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/date%20to%20timestamp.png" width=70% height=70%>
@@ -165,9 +171,9 @@ That effectively means that the user stake their MOR rewards until Jul-22-2025 1
 Click “**Write**” and confirm the transaction.
 
 > [!IMPORTANT]
-> **Double check the correctness of the Date to the Timestamp convertion as the operation is irreversible.**
+> **Double check the correctness of the Date & Time to the Timestamp convertion as the operation is irreversible.**
 >
-> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
+> **To calculate your Power multiplier use this [chart](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md#example-chart-of-power-factors-over-time). Power Factor starts to grow after approximately six months of staking and reach its maximum of 10.7x if rewards staked for six years.**
 > 
 > **You will not be able to withdraw MOR rewards until the end of the staking period.**
 >
@@ -180,6 +186,7 @@ Click “**Write**” and confirm the transaction.
 ## Check Power Factor Multiplier
 
 In order to check your Power Factor multiplier directly with smart contract please follow these steps:
+- make sure you switched your wallet to the Ethereum mainnet;
 - go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#readProxyContract) contract;
 - open the **“Contract”** tab, then the **“Read as Proxy”** tab.
 
@@ -192,7 +199,9 @@ Click “**Query**” and wait until the value calculated.
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/user%20multiplier.png" width=70% height=70%>
 
 On the picture you can see value `uint256 :  51255802852192050990000000`  
+
 To convert it to more human friendly value click on it to open the converter and divide MEther value by ten.  
+
 51.3 / 10 = `5,13` Power Factor multiplier for the given address in the capital providers pool.
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/convert%20multiplier.png" width=60% height=60%>
@@ -210,18 +219,21 @@ Find and select the `14. usersData` function and input as parameters:
 - `<input> (uint 256)`: pool identifier, enter `0` for capital contributors pool or `1` for code contributors pool;
 
 Click “**Query**” and wait until the value calculated.  
+
 The end time for staking will be indicated in the `claimLockEnd uint128` line.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/claimlockend.png" width=60% height=60%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/claimlockend.png" width=75% height=75%>
 
-On the picture you can see value `claimLockEnd   uint128 :  1799928036`  
-To convert the Timestamp to the Date and Time you can use **https://etherscan.io/blockdateconverter**:
+On the picture above you can see value `claimLockEnd   uint128 :  1799928036`  
+
+To convert the Timestamp to the Date & Time you should use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
 - select Timestamp to Date & Time;
 - paste value you got to the Timestamp field;
 - click **"Convert"**.
 
-On the picture the Timestamp **1799928036** converted to Date & Time **Jan-14-2027 12:00:36 PM**.  
+On the picture below the Timestamp **1799928036** converted to Date & Time **Jan-14-2027 12:00:36 PM**.
+
 Put it simply, the user staked their MOR rewards until Jan-14-2027 12:00:36 PM
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/timestamp%20to%20date.png" width=60% height=60%>
@@ -244,5 +256,5 @@ Here are links to the smart contract operations you might be interested in:
 > [!TIP]  
 > **In case you face with difficulties, find something unclear or have questions, you can get assistance in** [**Morpheus Discord server**](https://discord.com/channels/1151741790408429580/1183666837460897832).
 
-## Beware of scams, Morpheus has no tech support team, no support tickets and will not commence any airdrops.  
-## Anyone who message you with proposal to help is likely a scammer.
+## Beware of scams! Morpheus has neither tech support team, nor support tickets and will not commence any airdrops.  
+## Anyone who messages you with proposal to help is likely a scammer.
