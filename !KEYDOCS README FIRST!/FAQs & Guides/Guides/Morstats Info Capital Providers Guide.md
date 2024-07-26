@@ -6,12 +6,17 @@ MorStats.info serves as a home page for capital providers. It offers real-time d
 
 ## Home Page
 The landing page provides the following six key pieces of data:
-1) Boostrap End - The countdown shows how many days, hours, minutes, and seconds remain in the 90 day bootstrapping period that began on February 8, 2024 at 12:00 PM UTC and is scheduled to end on May 8, 2024 at 12:00 PM UTC.
-2) Morpheus Staked Ethereum - API pull from Etherscan that returns the stETH contained within the multi-sig wallet representing the total contributions.
-3) Days Since Kickoff - The number of days elapsed since the bootstrap period kicked off on February 8, 2024 at 12:00 PM UTC.
-4) Today's Daily Emissions - The number of MOR tokens emitted for the current day. This is calculated by day 1 emissions of 14,400 with an emission reduction of 2.468994701 each subsequent day.
-5) Total Circulating Supply - The total number of MOR tokens that are technically circulating (although not yet distributed). This is represented by 14,400 on Day 1 with an emission reduction of 2.468994701 each subsequent day.
-6) Today's Capital Emissions - The number of MOR tokens emitted for the current day that are distributed to the Capital Providers. This is calculated by day 1 emissions of 14,400 with an emission reduction of 2.468994701 each subsequent day, with 24% of that supply going to Capital Providers.
+1) *Removed once bootstrap ended* - Boostrap End - The countdown shows how many days, hours, minutes, and seconds remain in the 90 day bootstrapping period that began on February 8, 2024 at 12:00 PM UTC and is scheduled to end on May 8, 2024 at 12:00 PM UTC.
+2) $MOR Price - API pull from DexScreener. Code provided below in "Code Snippet" section provided.
+3) Morpheus Staked Ethereum - API pull from Etherscan that returns the stETH contained within the multi-sig wallet representing the total contributions.
+4) stETH APY - Implied APY based on amount of stETH deposited, prevailing $MOR price, and daily emissions. Code provided below in "Code Snippet" section provided.
+6) *Removed once bootstrap ended* - Days Since Kickoff - The number of days elapsed since the bootstrap period kicked off on February 8, 2024 at 12:00 PM UTC.
+7) *Removed once bootstrap ended* - Today's Daily Emissions - The number of MOR tokens emitted for the current day. This is calculated by day 1 emissions of 14,400 with an emission reduction of 2.468994701 each subsequent day.
+8) Total Circulating Supply - The total number of MOR tokens that are technically circulating (although not yet distributed). This is represented by 14,400 on Day 1 with an emission reduction of 2.468994701 each subsequent day.
+9) *Removed once bootstrap ended* - Today's Capital Emissions - The number of MOR tokens emitted for the current day that are distributed to the Capital Providers. This is calculated by day 1 emissions of 14,400 with an emission reduction of 2.468994701 each subsequent day, with 24% of that supply going to Capital Providers.
+10) Market Cap - Total market capitalization based circulating supply and prevailiing $MOR price. Code provided below in "Code Snippet" section provided.
+11) FDV - Fully Diluted Value - Based on max supply of 42M tokens and prevailiing $MOR price. Code provided below in "Code Snippet" section provided.
+12) Protocol Owned Liquidity - Details on the pool IDs from Uniswap related to protocol owned liquidity. Please note, to view much of the pool information, users must be connected to the Arbitrum network.
 
 ## Staked ETH Page
 The primary calculation page for Capital Providers to understand their expected MOR emissions:
@@ -40,11 +45,10 @@ Details surrounding the newly released code weight guidance and emission schedul
 2) User Value - Users can enter their own estimates for MOR price alongside their Code Weights. The resulting output provides total MOR Emissions, total cumulative weights, user weights, the monthly estimated MOR earned by user, and the estimated USD earned. This helps to provide a framework for users to better think through the value of weights.
 3) Weights Snapshot - This documents the snapshots that have been completed for assigning values to weights on a monthly basis. The top table will document the official analysis as each month completes. At the bottom, users can input their own estimates for how much stETH will be deposited and ETH prices: these two inputs allow a user to calculate an expected USD per weight.
 
-## MOR Price Projection Page
-Opening Price - Per the recently released guidance for the Automated Market Maker launch, this page details how users can calculate the expected opening price.
-1) Default amounts are included, but users can input their own esimates for Average Staked ETH, Annual Yield %, ETH Price, and optionally their own Staked ETH amount.
-2) The caluclate will step users through the process of applying 52% of the stETH yield against the Protection Fund MOR, and thus reaching a USD per MOR value.
-3) Any user who optionally inputs their own stETH amount will get to see the estimated total value of the MOR they'll earn during bootstrapping. 
+## MOR Price Menu
+Details surrouding the price of the $MOR token
+1) Market Cap Method - Table detailing the implied price of $MOR based on a variety of market cap and supply combinations. Can be used for the community to get an idea on estimated price action in the future when $MOR has different circulating supply and value.
+2) $MOR Price - Lists the current price (from DexScreener - code found below in "Code Snippet" section), and average price (based on Coingecko data feed - code found below in "Code Snippet" section). All data leveraged for the average price is also provided with the date, time, and price from the historical data feed pulled. 
 
 Market Cap Method - Detailed Schedule the projected MOR price based on various overall market capitalization amounts. This provides a dropdown with two calculation methodologies and associated tables: Capital Provider stETH Yield Method and the Market Cap vs Supply Method. This provides two different ways for the community to think through potential prices.
 1) Estimated Market Cap
@@ -476,3 +480,28 @@ Below are several code snippets that are useful for anyone else looking to build
             document.getElementById("userBalance").innerHTML = ethers.utils.formatUnits(balance, 18) + " MOR"
 			document.getElementById("loading").style.display = "none"
         }
+
+## $MOR Price Feed from DexScreener
+	// Dexscreener API endpoint for the MOR token
+	$mor_token_address = '0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86';
+	$api_url = "https://api.dexscreener.io/latest/dex/tokens/{$mor_token_address}";
+	
+	// Make the API request
+	$response = wp_remote_get($api_url);
+	
+	// Check for errors
+	if (is_wp_error($response)) {
+	    echo 'Error fetching price data: ' . $response->get_error_message();
+	    return;
+	}
+	
+	// Parse the JSON response
+	$data = json_decode(wp_remote_retrieve_body($response), true);
+	
+	// Check if the price data is available
+	if (!empty($data['pairs'][0]['priceUsd'])) {
+	    $mor_price = (float)$data['pairs'][0]['priceUsd'];
+	    echo "$" . number_format($mor_price, 2);
+	} else {
+	    echo 'Price data not available';
+	}
