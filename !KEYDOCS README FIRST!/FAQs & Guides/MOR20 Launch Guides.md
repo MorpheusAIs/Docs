@@ -1,33 +1,44 @@
-# MOR20 Launch Guides
+# Launch Guide for MOR20 Contracts Testnet Deployment
 
-These guide has been developed to help MOR20 developers with deploying their MOR20 contracts via the Morpheus Ecosystem Dashboard (https://morpheus-dev.206.189.243.3.nip.io/#/mor20-ecosystem?network=testnet)
+## Table of contents
+1) [**Introduction**]()
+2) [**Links**]()
+3) [**Getting Started**]()
+4) [**General Config**]()
+5) [**Arbitrum Config**]()
+6) [**Uniswap Settings**]()
+7) [Arbitrum Deployment]()
+8) [Ethereum Config]()
+9) [Pool Creation]()
+10) [Testing]()
 
-## Link for PDF of Testnet Launch Guide:
-https://drive.google.com/file/d/1-XUOaKwwgogP-4JHyPx8kGJbU-gM0i2z/view?usp=drive_link
-
-## Launch Guide for MOR20 Testnet Deployment
-
-### Intro
+## Introduction
 This guide has been developed to assist MOR20 developers with their deployment using the Morpheus MOR20 ecosystem. MOR20 allows users to replicate the Morpehus tokenomics ecosystem for their project. This guide does not provide any recommendations, only information about the deployment steps and settings that were utilized for the MOR token. 
 
 To successfully deploy a MOR20 token, you will provide the form with token information to launch the token on the Arbitrum network. You will also provide information to automatically generate the associated smart contracts that power the tokenomics, including the pools with staking functionality and varying token emissions as well as the automated swaps via uniswap. These deployments will require transactions on both the Ethereum and Arbitrum networks.
 
 This version of the guide is for deployment on the Ethereum and Arbitrum Sepolia testnets. You will need sepolia eth on both networks for testing. 
 
-### Getting Started
+## Links
+- These guide has been developed to help MOR20 developers with deploying their MOR20 contracts via the Morpheus Ecosystem Dashboard (https://morpheus-dev.206.189.243.3.nip.io/#/mor20-ecosystem?network=testnet)
+
+## Link for PDF of Testnet Launch Guide:
+https://drive.google.com/file/d/1-XUOaKwwgogP-4JHyPx8kGJbU-gM0i2z/view?usp=drive_link
+
+## Getting Started
 
 1) Go to https://morpheus-dev.206.189.243.3.nip.io/#/mor20-ecosystem?network=testnet
 2) Click ”Ethereum Sepolia” for testnet deployment
 3) Click "Create Contract"
    ![image](https://github.com/user-attachments/assets/5e9438b6-fa31-4abd-8479-fdcb64f13db1)
 
-### General Config
+## General Config
 
 1) Name your project
 2) Click "Next"
    ![image](https://github.com/user-attachments/assets/7cb4e6cc-09e7-4039-b854-ad6b6a421586)
 
-### Arbitrum Config
+## Arbitrum Config
 
 1) Choose the name of your token, this is what will show on the blockchain
 2) Choose your token symbol, this is traditionally 3 or 4 letters (i.e. "MOR")
@@ -35,7 +46,7 @@ This version of the guide is for deployment on the Ethereum and Arbitrum Sepolia
 4) Enter the Arbitrum wallet address or safe address that will be used as the administrator for the token and smart contracts
    ![image](https://github.com/user-attachments/assets/0502b4f7-dbc4-4f46-a629-3d398d3d9361)
 
-### Uniswap Settings
+## Uniswap Settings
 
 The MOR20 ecosystem works where users will “stake” a yield generating asset (i.e. stETH for MOR) into the MOR20 contract. The yield will then be “claimed” by the MOR20 project and bridged to Arbitrum. The MOR20 project will then swap some of that asset to the token used as a trading pair for the project.
 
@@ -48,7 +59,7 @@ Note: Uniswap pools have inherent fees set by liquidity providers, these vary by
 Gotcha: Ensure the addresses above are on the arbitrum sepolia network, or else the transaction will fail
 ![image](https://github.com/user-attachments/assets/bd3e2c1c-d128-4e61-b396-fc2cbbc1a078)
 
-### Arbitrum Deployment
+## Arbitrum Deployment
 
 1) When uniswap settings are verified, click "deploy" to initiate the first transaction
 2) Verify the wallet is set to the arbitrum sepolia network (reminder: this is for test purposes only)
@@ -57,7 +68,7 @@ Gotcha: Ensure the addresses above are on the arbitrum sepolia network, or else 
 5) You will reveive confirmation of successful transaction and a link to the smart contract
    ![image](https://github.com/user-attachments/assets/561a2504-14b1-4442-8f75-29361c6305d0)
 
-### Ethereum Config
+## Ethereum Config
 
 1) Similar to the earlier step on Arbitrum, Enter the Ethereum wallet address or safe address that will be used as the administrator for the test token and smart contracts
 2) Choose if you would like the contract to be upgradeable, similar to the decision on the arbitrum configuration
@@ -90,7 +101,7 @@ This is where the "pools" will be created. These pools determine how token emiss
 Congratulations on deploying your MOR20 smart contracts
 ![image](https://github.com/user-attachments/assets/b6f2de33-82e6-49a8-98db-d9605c8ee4b8)
 
-### Testing
+## Testing
 If you would like to manually test staking within the contract and review token emissions, you can continue with this guide. For any testing, you will need to use stETHmock, a test token created to simulate stETH on Sepolia. 
 
 1) In your distribution contract on sepolia etherscan, the address of the token is available under "Read As Proxy" and 1. deposittoken
