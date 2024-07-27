@@ -3,16 +3,16 @@
 ### March 16th 2024
 
 ## Table of Contents
-1. [Summary](#summary)
-2. [Design Principles](#design-principles)
-3. [Ecosystem Model](#ecosystem-model)
-   3.1. [Layer 1 Contracts](#layer-1-contracts)
-   3.2. [Layer 2 Contracts](#layer-2-contracts)
-4. [Node Architecture](#node-architecture)
-5. [Morpheus Protocol](#morpheus-protocol)
-   5.1. [Provider Node Communication](#provider-node-communication)
-   5.2. [User Node Communication](#user-node-communication)
-9. [Conclusion](#conclusion)
+1. [**Summary**](#summary)
+2. [**Design Principles**](#design-principles)
+3. [**Ecosystem Model**](#ecosystem-model)  
+3.1 [**Layer 1 Contracts**](#layer-1-contracts)  
+3.2 [**Layer 2 Contracts**](#layer-2-contracts)  
+6. [**Node Architecture**](#node-architecture)
+7. [**Morpheus Protocol**](#morpheus-protocol)    
+5.1. [**Provider Node Communication**](#provider-node-communication)   
+5.2. [**User Node Communication**](#user-node-communication)    
+8. [**Conclusion**](#conclusion)  
 
 ## Summary
 
