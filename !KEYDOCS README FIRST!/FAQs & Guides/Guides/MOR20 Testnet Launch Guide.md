@@ -1,16 +1,16 @@
 # Launch Guide for MOR20 Contracts Testnet Deployment
 
 ## Table of contents
-1) [**Introduction**]()
-2) [**Links**]()
-3) [**Getting Started**]()
-4) [**General Config**]()
-5) [**Arbitrum Config**]()
-6) [**Uniswap Settings**]()
-7) [**Arbitrum Deploymen**t]()
-8) [**Ethereum Config**]()
-9) [**Pool Creation**]()
-10) [**Testing**]()
+1) [**Introduction**](#introduction)
+2) [**Links**](#links)
+3) [**Getting Started**](#getting-started)
+4) [**General Config**](#general-config)
+5) [**Arbitrum Config**](#arbitrum-config)
+6) [**Uniswap Settings**](#uniswap-settings)
+7) [**Arbitrum Deploymen**t](#arbitrum-deployment)
+8) [**Ethereum Config**](#ethereum-config)
+9) [**Pool Creation**](#pool-creation)
+10) [**Testing**](#testing)
 
 ## Introduction
 This guide has been developed to assist MOR20 developers with their deployment using the Morpheus MOR20 ecosystem. MOR20 allows users to replicate the Morpehus tokenomics ecosystem for their project. This guide does not provide any recommendations, only information about the deployment steps and settings that were utilized for the MOR token. 
