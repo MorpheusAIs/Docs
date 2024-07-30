@@ -35,7 +35,7 @@ This table is for code contributions in Snapshot 6.
 **Snapshot 3:** $0.407 USD per Weight  
 **Snapshot 4:** $0.783 USD per Weight  
 **Snapshot 5:** $0.783 USD per Weight  
-**Snapshot 5:** $0.6 USD per Weight (average price of June is $49.5 USD).
+**Snapshot 6:** $0.6 USD per Weight (average price of June is $49.5 USD).
 
 The weight calculation method explained [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Weights%20Guide.md#calculating-the-implied-value-of-weights).
 
