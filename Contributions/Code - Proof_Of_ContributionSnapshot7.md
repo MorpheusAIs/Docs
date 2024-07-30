@@ -76,4 +76,4 @@ All Code Contributions to include the following elements:
 
 | **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution**   | **Weights Requested** | **Weight Time** | **Stake Time**
 | ---------- | ----- | ------------------------------------------ | ----------------- | ---------------------------------- | --------------------------- | ------------- | -------- | ------ |
-| 6            | 8       | 0x0000000000000000000000000000000example | contributor  | Description of Contribution  | Proof of contribution links | 1250  | 3 | 48 |
+| 7            | 8       | 0x0000000000000000000000000000000example | contributor  | Description of Contribution  | Proof of contribution links | 1250  | 3 | 48 |
