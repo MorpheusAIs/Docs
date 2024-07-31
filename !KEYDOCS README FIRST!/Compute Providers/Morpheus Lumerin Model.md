@@ -2,6 +2,18 @@
 ### Ryan Condron
 ### March 16th 2024
 
+## Table of Contents
+1. [**Summary**](#summary)
+2. [**Design Principles**](#design-principles)
+3. [**Ecosystem Model**](#ecosystem-model)  
+3.1 [**Layer 1 Contracts**](#layer-1-contracts)  
+3.2 [**Layer 2 Contracts**](#layer-2-contracts)  
+6. [**Node Architecture**](#node-architecture)
+7. [**Morpheus Protocol**](#morpheus-protocol)    
+5.1. [**Provider Node Communication**](#provider-node-communication)   
+5.2. [**User Node Communication**](#user-node-communication)    
+8. [**Conclusion**](#conclusion)  
+
 ## Summary
 
 The Morpheus Lumerin Model utilizes the Lumerin protocol routing pattern to create a peer-to-peer, decentralized, and anonymous ecosystem for connecting AI users with AI model and agent compute providers. This model seeks to incorporate aspects of the original Morpheus white paper and yellow paper as well as core concepts from the [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md) and [Lake Travis System](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC25.md).
