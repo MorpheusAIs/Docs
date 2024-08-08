@@ -1,4 +1,4 @@
-# MOR Capital Rewards Staking Mainnet Contract Guide
+# MOR Code Rewards Staking Mainnet Contract Guide
 
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Ethereum mainnet for the reward staking purpose.  
