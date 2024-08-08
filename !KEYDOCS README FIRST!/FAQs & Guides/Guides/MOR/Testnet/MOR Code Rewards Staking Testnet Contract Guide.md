@@ -1,4 +1,4 @@
-# MOR Capital Rewards Staking Testnet Contract Guide
+# MOR Code Rewards Staking Testnet Contract Guide
 
 ## Introduction
 This guide will walk you through the process of direct interaction with the Morpheus Distribution Smart Contract on Sepolia testnet for the reward staking purpose.  
