@@ -7,7 +7,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ## Table of contents
 1) [**Smart Contract Addresses**](#smart-contract-addresses)
-2) [**Stake Сode MOR Rewards**](#stake-code-mor-rewards)
+2) [**Stake Сode MOR Rewards**](#stake-сode-mor-rewards)
 3) [**Check Power Factor Multiplier**](#check-power-factor-multiplier)
 4) [**Check MOR Rewards Stake Time**](#check-mor-rewards-stake-time)
 5) [**Additional Guide links**](#additional-guide-links)
