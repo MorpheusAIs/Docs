@@ -7,7 +7,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ## Table of contents
 1) [**Smart Contract Addresses**](#smart-contract-addresses)
-2) [**Stake Сode MOR Rewards**](#stake-code-mor-rewards)
+2) [**Stake Сode MOR Rewards**](#stake-сode-mor-rewards)
 3) [**Check Power Factor Multiplier**](#check-power-factor-multiplier)
 4) [**Check MOR Rewards Stake Time**](#check-mor-rewards-stake-time)
 
@@ -35,7 +35,7 @@ Input as parameters:
 - `poolId_ (uint 256)`: pool identifier, enter `1` for Code providers pool;
 - `claimLockEnd_ (uint 128)`: timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/capital%20lockclaim.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Mainnet/сode%20lockclaim.png" width=55% height=55%>
 
 To convert Data & Time to Timestamp and vice versa you can use **https://etherscan.io/blockdateconverter**:
 - select Timestamp & Date;
@@ -77,7 +77,7 @@ Find and select the `3. getCurrentUserMultiplier` function and input as paramete
 
 Click “**Query**” and wait until the value calculated.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/user%20multiplier.png" width=70% height=70%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Mainnet/code%20user%20multiplier.png" width=55% height=55%>
 
 On the picture you can see value `uint256 :  51255802852192050990000000`  
 
@@ -103,7 +103,7 @@ Click “**Query**” and wait until the value calculated.
 
 The end time for staking will be indicated in the `claimLockEnd uint128` line.
 
-<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/claimlockend.png" width=75% height=75%>
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Mainnet/codelockend.png" width=95% height=95%>
 
 On the picture above you can see value `claimLockEnd   uint128 :  1799928036`  
 
