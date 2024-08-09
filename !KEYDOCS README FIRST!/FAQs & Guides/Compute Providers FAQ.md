@@ -1,42 +1,58 @@
 # Frequently Asked Questions about Morpheus Compute
 
+## Testnet
+
 ### What do compute providers do?
-The main role of compute providers is to provide a vital AI resource for inference, which is computation.
+The main role of compute providers is to provide computation, a vital AI resource for inference, in decentralized way.
 
-### How can I get involved with Morpheus as a computer provider? 
-You can’t yet as Compute part is in active development.
-
-### How will code providers be rewarded?
-Morpheus network pays compute providers only for compute actually provided through a competitive bid process.
-
-### Is Morpheus Compute Node the same node other blockchains have?
-No, Morpheus node is not that type of node that runs blockchain and processes transactions.
-
-### When will the Compute testnet be launched?
-The first Compute testnet launched in May. Next version is scheduled to be launched in June 2024 and run through July 2024.
+### Is the Compute testnet launched?
+Yes, it started in June 2024 on Arbitrum Sepolia.
 
 ### What is the purpose of the Compute testnet?
 The Compute testnet aims to test the network’s infrastructure under various conditions, validate the performance and reliability of compute providers, ensure all compensation and incentive systems are working correctly, and ensure the proper functioning of the Compute Contract and proxy Router.
 
-### How long will the Compute testnet last?
-The Compute testnet will last approximately 6-8 weeks but could last longer if any fixes or adjustments need to be implemented. A big dependency is on smart contract auditing turn around time and the amount of fixes that need to be addressed in each audit.
+### At what stage is the compute testnet right now? What’s the status?
+The developers and community are actively working to bring the documentation up to speed so everyone with appropriate hardware can participate. The backend server and front end UI are functional and the pieces are in place. The testnet grows as more providers sign on by providing their private compute AI engines. There are already some hosted models running now that consumers running the UI or API can connect to by staking and using Sepoia Testnet tokens (saMOR and saETH which you can get via https://morfaucet.xyz/ and the Arbitrum Sapolia faucet links) to purchase bids and run inference.
 
-### Who can participate in the Compute testnet?
-The Compute testnet will be open to select community partners initially and then open to the general public for the last couple weeks.
+### How long will the Compute testnet last?
+As long as necessary to get a robust testnet ecosystem in place where primary aspects of the provider and consumer software are running as expected. Some version of the testnet will likely live on in the future after mainnet to test new features.
+
+### Are there any restrictions (like whitelists) to join testnet?
+As of right now, anyone can connect to the smart contract running on Arbiturm Sepolia testnet which is currently 0x8e19288d908b2d9f8d7c539c74c899808ac3de45.  
+More information are in [Morpheus-Lumerin-Node repository.](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+
+### I have no technical knowledge, how can I participate? What steps do I need to take to become a Compute provider?
+At this stage, you may be better off waiting until the developers and early adopter technicians have worked through the early technical challenges to provide you a better user experience in the future that requires minimal technical know-how.
+
+### Can I be a compute provider in the testnet from my laptop?
+In the beginning, most likely not. Being a computer provider implies that you have a significant investment in hardware, GPU and development for your own models that you want to distribute on Morpheus.  If you have that, then you probably have the technical know-how to run the proxy-router.
 
 ### Can users of Smart Agents participate in the Compute testnet or is it only for Compute providers?
-Compute providers and general users are both welcome to participate although performance and reliability of the testnet providers will be highly variable.
-
-### On which network will the Compute testnet be conducted?
-The Compute testnet will be deployed and tested on Arbitrum Sepolia.
+In the future, the various smart agents and chat UI will interact with decentralized compute and there will likely be options to connect to mainnet or testnet compute.
 
 ### Will there be any rewards for participating in the Compute testnet?
 No, participants of the Compute testnet are not entitled to any rewards or compensation.
 
+## Mainnet
+### What will the process look like when the compute goes live? / Will I need to just download and install the node and click one button to share compute power of my PC?
+In the beginning, compute will likely be provided by serious hardware providers with dedicated servers. Over time, as staking and reputation systems develop to ensure quality of service, anyone will ideally be able to download the software and both consume and provide models which are compatible with their computer resources. The client will be an all-in-one UI for providing and consuming models via decentralized nodes communicating peer-to-peer offering up and consuming bids for compute models.
+
+### I want to consume Morpheus` decentralized compute in the future. What do I need for this?
+In the future, the Morpheus Ai tools will have both local and remote options for interacting with your own locally hosted models or connecting to the decentralized network of nodes via peer to peer routing using reputation and staking which involves offers and bids for compute of various models. The providers will be rewarded for their contributions by the network and the consumers will lock their MOR to open a session with the providers, unlocking their MOR at the end of the session.
+
+### How will compute providers be rewarded?
+Morpheus network pays compute providers only for compute actually provided through a competitive bid process.
+
+### How much can I earn as compute provider?
+Depends on what types of models you offer and how many concurrent sessions your hardware can serve.
+
+### Is Morpheus Compute Node the same node other blockchains have?
+No, Morpheus node is not that type of node that runs blockchain and processes transactions.
+
 ### When will the Compute mainnet be launched?
 Compute mainnet is estimated to launch in Q3 2024 once the testnet audits are fully cleared and core node software is ready for a stable production deployment.
 
-### What is the whitelist for?
+### What is the whitelist in mainnet for?
 The whitelist is a temporary mechanism to ensure good actors seed the provider pool. Once seeded the whitelist will be removed and the MOR stake mechanism will take over to ensure economic alignment.
 
 ### How can I get on the whitelist?
@@ -59,9 +75,6 @@ The reputation system will take into account metrics such as response performanc
 
 ### What penalties are in place for bad actors?
 Bad actor penalties are currently constrained to degraded reputation scores.
-
-### How much can I earn as a Compute provider?
-Depends on what types of models you offer and how many concurrent sessions your hardware can serve.
 
 ### Will the launch of the Compute mainnet lead to a large influx of tokens into the market and a possible dump?
 No, that won't happen. Since the budget is 1% of the previous day's Сompute contract balance.
@@ -87,9 +100,6 @@ Morpheus Smart Agents will be incredibly light weight and not need specialized h
 ### Can I provide computation with ASICs?
 No
 
-### I don’t have deep technical knowledge, can I still be a Compute provider?
-Yes, but you will probably need to wait for future iterations of the UI that obfuscate a lot of the technical lift.
-
 ### What steps do I need to take to become a Compute provider?
 1. Run a Morpheus node on a computer and make sure your ports are configured for inbound traffic. 
 2. Download and configure the model you want to provide
@@ -111,7 +121,8 @@ Agent code can run from anywhere as long as it has access to the resources it ne
 ### Where can I get more information?
 - [Yellowstone Compute Model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Yellowstone%20Compute%20Model.md)
 - [Lake Travis - Decentralized AI Inference System](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
-- [Morpheus Lumerin Model](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
+- [Morpheus Lumerin Model document](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
+- [Compute Node Repository](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node}
 
 ### Where can I get support and ask questions?
 Community members would love to assist you in [**#tech-support**](https://discord.com/channels/1151741790408429580/1183666837460897832) discord channel.
