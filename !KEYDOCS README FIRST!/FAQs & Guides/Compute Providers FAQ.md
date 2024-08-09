@@ -25,7 +25,7 @@ More information are in [Morpheus-Lumerin-Node repository.](https://github.com/M
 At this stage, you may be better off waiting until the developers and early adopter technicians have worked through the early technical challenges to provide you a better user experience in the future that requires minimal technical know-how.
 
 ### Can I be a compute provider in the testnet from my laptop?
-In the beginning, most likely not. Being a computer provider implies that you have a significant investment in hardware, GPU and development for your own models that you want to distribute on Morpheus.  If you have that, then you probably have the technical know-how to run the proxy-router.
+In the beginning, most likely not. Being a compute provider implies that you have a significant investment in hardware, GPU and development for your own models that you want to distribute on Morpheus.  If you have that, then you probably have the technical know-how to run the proxy-router.
 
 ### Can users of Smart Agents participate in the Compute testnet or is it only for Compute providers?
 In the future, the various smart agents and chat UI will interact with decentralized compute and there will likely be options to connect to mainnet or testnet compute.
@@ -35,7 +35,7 @@ No, participants of the Compute testnet are not entitled to any rewards or compe
 
 ## Mainnet
 ### What will the process look like when the compute goes live? / Will I need to just download and install the node and click one button to share compute power of my PC?
-In the beginning, compute will likely be provided by serious hardware providers with dedicated servers. Over time, as staking and reputation systems develop to ensure quality of service, anyone will ideally be able to download the software and both consume and provide models which are compatible with their computer resources. The client will be an all-in-one UI for providing and consuming models via decentralized nodes communicating peer-to-peer offering up and consuming bids for compute models.
+In the beginning, compute will likely be provided by serious hardware providers with dedicated servers. Over time, as staking and reputation systems develop to ensure quality of service, anyone will ideally be able to download the software and both consume and provide models which are compatible with their compute resources. The client will be an all-in-one UI for providing and consuming models via decentralized nodes communicating peer-to-peer offering up and consuming bids for compute models.
 
 ### I want to consume Morpheus` decentralized compute in the future. What do I need for this?
 In the future, the Morpheus Ai tools will have both local and remote options for interacting with your own locally hosted models or connecting to the decentralized network of nodes via peer to peer routing using reputation and staking which involves offers and bids for compute of various models. The providers will be rewarded for their contributions by the network and the consumers will lock their MOR to open a session with the providers, unlocking their MOR at the end of the session.
@@ -85,7 +85,7 @@ Compute Contract is the smart contract that has a MOR address, receives all emit
 ### What is the Compute Proxy Router?
 Compute Route is the software application that has a MOR address and negotiates the 2-sided market between Users and Providers. The Router registers and tracks Provider addresses and bids, processes Requests from Users and instructs the Compute Contract to credit eligible Providers for payment in MOR.
 
-### I have a powerful gaming computer, can I be a Compute provider?
+### I have a powerful gaming compute, can I be a Compute provider?
 Yes, absolutely, but keep in mind if you are providing compute it is important to have your system online and stable otherwise you will hurt your reputation. 
 
 ### What is the minimum and recommended hardware configuration to be a Compute provider?
@@ -101,7 +101,7 @@ Morpheus Smart Agents will be incredibly light weight and not need specialized h
 No
 
 ### What steps do I need to take to become a Compute provider?
-1. Run a Morpheus node on a computer and make sure your ports are configured for inbound traffic. 
+1. Run a Morpheus node on a compute and make sure your ports are configured for inbound traffic. 
 2. Download and configure the model you want to provide
 3. Register as a provider in the on-chain provider registry.
 4. Claim rewards periodically from the session router contract. 
