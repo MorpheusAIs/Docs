@@ -25,6 +25,11 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ---
 
+> [!IMPORTANT]
+> **If you already have unclaimed MOR in your address, when you Stake the MOR Rewards, it will lock those already earned MOR + the future MOR rewards for the same amount of time. In short, every unclaimed MOR gets locked, present and future.**
+
+---
+
 ## Stake rewards for new Capital Deposit
 
 Before contributing stETH, you need to give the Morpheus Distribution contract an **approval**, for this you need to:
