@@ -16,21 +16,21 @@
 7) Follow the white rabbit. Free your mind.
 
 ## [FAIR LAUNCH](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Launch%20Phases.md)
-1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. All earning of MOR rewards starts at the same time with the same conditions for everyone.
-   
-2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts to move to Ethereum mainnet.
-   
-3) Bootstrap period goes for 90 days, MOR tokens are claimable on May 8th.
-   
-4) stETH can be deposited and withdrawn after a 7-day lockup period.
-   
-5) Capital and Code rewards go live first.
-    
-6) Compute rewards start in Q3.
-    
-7) Community (app builders and smart agents) rewards start after Compute.
-    
+1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. 
+All earning of MOR rewards starts at the same time with the same conditions for everyone.
 
+2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts.
+
+3) Bootstrap period went for 90 days, MOR tokens are claimable started from May 8th.
+
+4) Capital (stETH) can be deposited and withdrawn after a 7-day lockup period.
+
+5) Only Capital and Code rewards go live in Frontier Phase.
+
+6) Compute rewards start in Homestead (Q3).
+
+7) Community (front end builders and smart agents) rewards start in Metropolis Phase (Q4)
+    
 ---
 
 ## GENERAL QUESTIONS
