@@ -16,7 +16,7 @@
 7) Follow the white rabbit. Free your mind.
 
 ## [FAIR LAUNCH](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Launch%20Phases.md)
-1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale. 
+1) There is no pre-mine, no token sale, no allocations, no VC investments, and no private sale.  
 All earning of MOR rewards starts at the same time with the same conditions for everyone.
 
 2) Launch date is February 8th 2024 for Capital Providers and Code Providers Smart Contracts.
@@ -54,7 +54,7 @@ Neither of these. Morpheus is not a blockchain, but rather a chain agnostic set 
 At the moment, there are no such plans, but it's not ruled out in the future.
 
 ### Why did you choose Ethereum and Arbitrum for the launch?  
-Ethereum security and capital wise. Pool of stETH was found to be greatest on Arbitrum as well as cheap transaction costs which is vital for using MOR to pay for inference of AI models. Morpheus is chain agnostic by design, there will be more chains and assets integrated later.
+Ethereum has been chosen security and capital wise, while Arbitrum is the biggest L2 with cheap transaction costs which is vital for using MOR to pay for inference of AI models. It's important to keep in mind that Morpheus is chain agnostic by design and can be integrated with numerous chains and assets.
 
 ### How can I earn MOR?  
 By becoming a contributor in one of four categories:
@@ -80,15 +80,12 @@ Please visit the [MOR20 page](https://mor.org/MOR20) for more information.
 There is. White hackers can get up to $150,000 as reward for eligible discoveries in proportion to the severity of the vulnerability.  
 Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Bug%20Bounty%20Program.md)
 
-### Are Morpheus contracts audited?  
-Yes, all Morpheus’ contracts undergo three tier audit process:
-- developers testing;
-- specialized cybersecurity company [audits](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports);
-- bug bounty.
-All the security audits can be found [here](https://github.com/antonbosss/Docs/tree/main/Security%20Audit%20Reports).
+### Are Morpheus contracts audited?
+Yes, additionally to three tier initial audit process, any improvements or adjustments to the contracts undergo a cybersecurity audit.  
+The list of audits is available on [GitHub](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports).
 
 ### Where can I find a list of key Morpheus links?  
-There is dedicated channel [#verified-links](https://discord.com/channels/1151741790408429580/1183934719155515463) in discord.
+There is dedicated channel [#verified-links](https://discord.com/channels/1151741790408429580/1183934719155515463) in Discord.
 
 ### Where can I get support and ask questions?  
 Community members would love to assist you in [#tech-support](https://discord.com/channels/1151741790408429580/1183666837460897832) discord channel.
@@ -96,5 +93,5 @@ Community members would love to assist you in [#tech-support](https://discord.co
 ### If you did not find the answer to your question, you can add it through this [form.](https://forms.gle/6yt5ps3kAfUfkF4N8) 
 
 > [!WARNING]  
-> Beware of scams, anyone who message you with proposal to help is likely scammer. 
+> ## Beware of scams, anyone who message you with proposal to help is likely scammer. 
 
