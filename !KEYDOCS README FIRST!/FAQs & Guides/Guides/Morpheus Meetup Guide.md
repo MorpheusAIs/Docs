@@ -5,22 +5,26 @@ Organizing a crypto meetup can be an exciting opportunity to connect with like-m
 ## Meetup Formats:
 ### Casual Meetup at a Bar or Cafe:
 An informal gathering held at a local bar, cafe, or restaurant where attendees can mingle, network, and discuss crypto-related topics in a relaxed setting. Typical duration is 2-3 hours, allowing attendees to drop in and out as they please. Open discussions, lightning talks, or informal presentations. Consider incorporating networking activities to facilitate connections.
+
 ### Interactive Workshop at a Coworking Space:
 A hands-on workshop hosted at a coworking space or community center, focusing on specific topics or skill-building exercises related to Morpheus (how to run and use node Morpheus node, for example).   
 Typical duration is 2-4 hours, providing ample time for interactive sessions and group activities. You could also prepare tutorials and make a mini-hackathon where attendees can learn new concepts, collaborate on projects, and gain practical experience.
+
 ### Panel Discussion and Networking:
 A moderated panel discussion featuring industry (DeAI / AI / Web3) experts, followed by networking opportunities for attendees to connect with panelists and fellow enthusiasts.  
 Typical duration is 2-3 hours, with time allocated for both the panel and networking sessions. It’s important to cover trending topics or relevant narratives, followed by Q&A sessions and informal networking over refreshments.
+
 ### Community Roundtable and Knowledge Exchange:
 A collaborative forum where community members come together to share insights, discuss challenges, and brainstorm solutions related to DeAI / AI / Morpheus related topics, regulation, or industry trends.   
 Typical duration is 2-3 hours, with a mix of structured discussion sessions and open-floor exchanges. You can break out groups for deeper dives into niche areas, and facilitated knowledge-sharing sessions.
-### Project Showcase and Demo Day (at the later stages of Morpheus development):
+
+### Project Showcase and Demo Day:
 A showcase event highlighting innovative solutions, projects, tools, smart agents or initiatives within the Morpheus ecosystem. Attendees have the opportunity to demo their projects and receive feedback from the community.  
 Typical duration is 3-4 hours, allowing each presenter sufficient time to showcase their work and engage with the audience. Consider incorporating a voting mechanism or audience choice awards for standout projects.  
 
 
 > [!Note] 
-> Regardless of the format chosen, emphasize that the meetup is intended to be an inclusive and engaging gathering, not a formal half-day conference. Encourage attendees to participate actively and contribute to the community-driven atmosphere.
+> **Regardless of the format chosen, emphasize that the meetup is intended to be an inclusive and engaging gathering, not a formal half-day conference. Encourage attendees to participate actively and contribute to the community-driven atmosphere.**
 
 ## Preparation:
 1) **Set format.** Define the format that fits the best to your audience. Is it an educational, networking-focused meetup, or a mix of both? 
@@ -30,7 +34,7 @@ Typical duration is 3-4 hours, allowing each presenter sufficient time to showca
 5) **Realization plan.** Think through all the details in advance, such as location signage, potential attendee questions, an adequate amount of refreshments, and also create a budget.
 
 > [!Tip]
-> - a good solution may be to hold the meetup as part of a larger event or conference;
+> - A good solution may be to hold the meetup as part of a larger event or conference;
 > - partner with experienced organizers or community members to gain insights and support in planning and executing your meetup;
 > - if the meetup lasts 3-4 hours, it is important to schedule a break;
 > - plan enough time before the event for registration and after it for networking, regardless of the format;
@@ -44,7 +48,7 @@ Typical duration is 3-4 hours, allowing each presenter sufficient time to showca
 4) **Facilitate Networking.** Allocate time for attendees to network and exchange ideas. Consider icebreaker activities or group exercises to facilitate connections among participants.
    
 > [!TIP]
-> - one separate presentation should not exceed 15-20 minutes, as participants tend to  lose focus beyond this time;
+> - One separate presentation should not exceed 15-20 minutes, as participants tend to lose focus beyond this time;
 > - it is important to mix and alternate different activity formats to maintain the dynamics of the meetup;
 > - act as the moderator of the meetup and add your comments to keep the conversation engaging;
 > - manage the time effectively; agree with the speakers on a signal to indicate when their speaking time is approaching its end;
@@ -77,9 +81,8 @@ Typical duration is 3-4 hours, allowing each presenter sufficient time to showca
    g) attendance and participation metrics;  
    h) testimonials and quotes.
 4) The number of hours worked is not as important as the value produced by the work. If no value is created, no weights are credited.
-5) Before organizing the meetup, familiarize yourself with the Code Contributor Best Practices and post in the “Issues” section about the need for a Morpheus Meetup in your city.
-6) The expected number of rewarded weights is 1 to 4. 1 weight per 1 hour of the meetup and the resulting report, data, notes, analysis, on boarding of Smart Agent developers.
-7) This is a one time reward for each city. Meetups should be community led after the first meetup because it generates value for them. Hopefully the first meeting sparks an interest by local Code Contributors, Compute Providers, Capital Providers and Front End builders to meetup on a regular basis.
+5) Before organizing the meetup, familiarize yourself with the [Code Contributor Best Practices](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Code%20Contributor%20Best%20Practices.md) and discuss with the repository maintainer the need for a Morpheus Meetup in your city and weights to be assigned.
+6) This is a one time reward for each city. Meetups should be community led after the first meetup because it generates value for them. Hopefully the first meeting sparks an interest by local Code Contributors, Compute Providers, Capital Providers and Front End builders to meetup on a regular basis.
 
 **To be clear anyone can hold a Morpheus Meetup. No permission is required. There is no team. The community drives this project in a permissionless manner.**
 
@@ -103,7 +106,7 @@ Jakarta, Indonesia
 Delhi, India  
 Manila, Philippines  
 Hong Kong  
-Singapore  
+~~Singapore~~  
 Kuala Lumpur, Malaysia  
 Bangkok, Thailand  
 Auckland, New Zealand  
@@ -118,8 +121,8 @@ Perth, Australia
 Istanbul, Turkey  
 
 ## Europe (24)
-Kyiv, Ukraine (held on March 21, 2024)
-London, United Kingdom  
+~~Kyiv, Ukraine~~  
+~~London, United Kingdom~~  
 Paris, France  
 Berlin, Germany  
 Rome, Italy  
@@ -128,7 +131,7 @@ Amsterdam, Netherlands
 Stockholm, Sweden  
 Vienna, Austria  
 Dublin, Ireland  
-Brussels, Belgium  
+~~Brussels, Belgium~~  
 Munich, Germany  
 Barcelona, Spain  
 Copenhagen, Denmark  
@@ -155,11 +158,11 @@ Tel Aviv, Israel
 Dubai, UAE  
 
 ## North + South America (24)
-New York City, USA  
+~~New York City, USA~~  
 Austin, USA  
 Los Angeles, USA  
 Chicago, USA  
-Toronto, Canada  
+~~Toronto, Canada~~    
 Mexico City, Mexico  
 São Paulo, Brazil  
 Buenos Aires, Argentina  
@@ -177,5 +180,5 @@ Boston, USA
 Vancouver, Canada  
 Quebec City, Canada  
 Panama City, Panama  
-San Juan, Puerto Rico  
+~~San Juan, Puerto Rico~~    
 Raleigh, USA  
