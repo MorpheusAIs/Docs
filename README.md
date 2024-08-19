@@ -23,23 +23,24 @@ Agents can only construct transaction payloads for a user's approval.
 Agents must not have access to private keys or be able to execute transactions independently. User's cryptographic approval is essential for any transaction.
 
 ---
-## Morpheus Local Smart Agent Features v.0.0.8 
-
+## Morpheus Local Smart Agent Features v.0.0.9
 ### Current
 - Fetch price, market cap, and TVL of coins and tokens supported on CoinGecko.
-- Web interface.
+- Web interface (Сhrome, Brave)
 - Wallet integrations for your existing wallets in-browser:
    - MetaMask
    - Rainbow
    - Coinbase Wallet
    - WalletConnect
-- Web3 swap agent (macOS only).
+- Web3 swap agent.
+- Chat with local PDF files
 
 ### Pending
-- Chat with local files agent (general purpose)
+- [FeedBuzz](https://github.com/yeagerai/feedbuzz-contracts) - AI filtered logging system to surface user demand and failure modes for new functionality
+- [Delegating agent](https://github.com/MorpheusAIs/moragents/pull/45) which can maintain user's persona/interests as well as coordinating to task agents and tools.
+- X/Twitter Posting Agent - an agent which generates spicy tweets with an X integration for one-click posting.
 
 ### Example queries
-
 After connecting Morpheus with your web3 wallet, you can test the **Data Smart Agent** with prompts such as:  
 
 - What is my balance?
@@ -56,7 +57,11 @@ After connecting Morpheus with your web3 wallet, you can test the **Data Smart A
   
 - What is the total value locked in Uniswap / TVL of Uniswap (or other token listed on Coingecko)
 
+- Can you give me a short summary of the PDF? *after uploading the document
+
 <img src="/Graphics/Docs%20Graphics/English/README/Data%20agent.png" width=50% height=50%>
+
+![image](https://github.com/user-attachments/assets/48b7f04d-df86-4bad-8017-4c8ba83666d0)
 
 
 For the **Swap Smart Agent**, a typical flow looks like this:
@@ -82,7 +87,7 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 > [!WARNING]
 > Review all transactions before approving them. The LLM makes mistakes, you have human wisdom.  
 >
-> Seriously, double check all actions in the Metamask interface before sending money. 
+> Seriously, double check all actions in your wallet interface before sending money. 
 > 
 > This is an experimental release and the ETH Smart Agent may try and send your money into a black hole.  
 >
@@ -93,19 +98,29 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 ## Installs
 ### Mac OS M1/2/3 etc. (arm64)
 >[!Note]
-> minimum 16GB RAM
+> Minimum 16GB RAM is required
 
-1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+**1.** Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
    
-2. Follow default settings, can skip surveys, then leave docker desktop running. You can minimize it.
+**2.** Follow default settings, can skip surveys, then leave docker desktop running. You can minimize it.
    
-3. Download [Moragents.zip](https://drive.proton.me/urls/X35VBE3GWW#mtrqT6rAzZbi).
+**3.** Download and install [MORagents009.pkg](https://drive.proton.me/urls/762Z6QFNH4#68MKubcGeDtf) 
    
-4. Open ZIP, and copy MORagents.app to your Applications folder.  
-   > SHA256 96c2510e4f7a752c613b322be0a107958ee34814415e3e7b950b426298379a7a MORagents.zip
+**4.** Open ZIP, and copy MORagents.app to your Applications folder.  
+   > SHA256 5200350bba351a40cfac5552476bad1bb67d32ff069a4d9ebc0b3556367673b7  MORagents009.pkg
+
+**5.** Wait several minutes for background files to download and then your browser should automatically open to **http://localhost:3333**
    
-5. Open **MORagents** app. Give it a few minutes the first time and then it should open your browser.  
-   If there's an issue, try opening the MORagents app again.
+> [!Note]
+> After installation is complete, the MORagents app icon will bounce for several minutes on your dock, and then stop. This is normal behavior as it's downloading a large 9GB file in the background. You can open "Activity Monitor" and in the Network tab see that it's downloading
+   
+**6.** Open the "MORagents" app from Mac search bar.
+ 
+> [!TIP]
+>  For easier access: Right-click MORagents icon on dock -> Options -> Keep in Dock
+
+#### Troubleshooting
+If the app shows connections errors in connecting to agents. Please ensure Docker Desktop is running, then close and reopen **MORagents** from desktop.
 
 ---
 ### macOS Intel (x86_64)
@@ -114,45 +129,41 @@ For the **Swap Smart Agent**, a typical flow looks like this:
 ---
 ### Windows (x86_64)
 >[!Note]
-> Minimum 16GB RAM is required.
+> Minimum 16GB RAM is required
 
- 1. Use Chrome to download [MORagentsWindowsInstaller.zip](https://drive.proton.me/urls/9BE8X1ZMTG#Oh1SfTeklH4W)
-    > SHA256 0a5f5e3a288d45854c83994fa4afa4c713019229d99d67f28442fc56a5de1b20 MORagentsWindowsInstaller.zip
+ 1. Use Chrome to download [MORagentsSetupWindows009.zip](https://drive.proton.me/urls/8X58WAH80G#ib5r3K4WalDA)
+    > SHA256 6b8bd78571df2f5e8c6e516102aa05b1121d0214fdfb75a2be16146c22e0d2c52 MORagentsSetupWindows009.zip
 
-2. Go to downloaded **MORagentsWindowsInstaller(.zip)** file and click to **"Extract All"**.
+2. Go to downloaded **MORagentsSetupWindows009(.zip)** file and double click to open
 
-3. Open Extracted Folder **MORagentsWindowsInstaller**.
-   You may need to disable your anti-virus software before proceeding.
+3. Double click **MORagentsSetup.exe**  
+   - You may need to click "More info" -> "Run anyway"
+   - If that still doesn't work, try temporarily disabling your antivirus and open the *.exe again
 
-4. Click and Run **MORagentsSetup.exe**
-   This will auto-install Docker Desktop dependency.
+4. Click and Run **MORagentsSetup.exe** to auto-install Docker Desktop dependency.
 
 5. Open **MORagents** from Desktop.
 
-6. Accept Docker's EULA
-   Surveys are optional, can skip
+6. Wait for Docker engine to start...
 
-7. Wait for Docker engine to start...
-
-8. Open **MORagents** App from Desktop
+7. Open **MORagents** App from Desktop
    First time installation requires some extra time to load agent's image.  
-   If anything hangs for >10min, please try opening the MORagents app again from the Desktop.
+   
 
+#### Troubleshooting
+If anything hangs for >10min, please try opening the MORagents app again from the Desktop.
 
 ---------
 ### Linux
 *coming soon*
 
 ---------
-### Build it Yourself
+### Build It Yourself
 1. [MacOS](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_MACOS_DEV_BUILD.md)
 2. [Windows](https://github.com/MorpheusAIs/Docs/blob/main/Guides/README_WINDOWS_DEV_BUILD.md)
 
-### Troubleshooting
-If the app shows connections errors to agent fetcher. Please ensure Docker Desktop is running, then close and reopen **MOR Agent** from desktop.
-
 ---------
-## Key documents list:
+## Key Documents List:
 - [Morpheus Fundamentals](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Fundamentals)
 - [Capital Providers](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers)
 - [Compute Providers](https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers)
@@ -173,10 +184,10 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 -	Morpheus Smart Agent Local Install: https://github.com/MorpheusAIs/moragents
 -	Smart Contracts: https://github.com/MorpheusAIs/SmartContracts
 -	Frontend Dashboard: https://github.com/MorpheusAIs/DashBoard
--  Technical Documentation https://github.com/MorpheusAIs/Docs
--  Morpheus Request for Comments: https://github.com/MorpheusAIs/MRC
--  Morpheus Lumerin (Compute) Node: https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
--  Morpheus MOR20 Contracts: https://github.com/MorpheusAIs/MOR20  
+- Technical Documentation https://github.com/MorpheusAIs/Docs
+- Morpheus Request for Comments: https://github.com/MorpheusAIs/MRC
+- Morpheus Lumerin (Compute) Node: https://github.com/MorpheusAIs/Morpheus-Lumerin-Node
+- Morpheus MOR20 Contracts: https://github.com/MorpheusAIs/MOR20  
 
 ---
 ## Morpheus Smart Contract addresses:
@@ -191,7 +202,8 @@ If the app shows connections errors to agent fetcher. Please ensure Docker Deskt
 - MOR token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
 - L2TokenReceiverV2: [0x47176b2af9885dc6c4575d4efd63895f7aaa4790](https://arbiscan.io/address/0x47176b2af9885dc6c4575d4efd63895f7aaa4790)
 - L2MessageReceiver: [0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
-- Multisig  Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956) 
+- Multisig  Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)
+- MOR burn address: [0x000000000000000000000000000000000000dead](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0x000000000000000000000000000000000000dead)
 
 **Base:**
 - MOR token: [0x7431ada8a591c955a994a21710752ef9b882b8e3](https://basescan.org/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
