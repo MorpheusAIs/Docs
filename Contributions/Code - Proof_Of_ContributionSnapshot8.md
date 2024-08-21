@@ -75,7 +75,7 @@ All Code Contributions to include the following elements:
 
 ## Code Contributions for Snapshot 8
 
-| **Snapshot** | **MRI** | **Wallet Address**                         | **GitHub Handle** | **Description of Contribution**        | **Proof of Contribution**   | **Weights Requested** | **Weight Time** |
-| ---------- | ----- | ------------------------------------------ | ----------------- | ---------------------------------- | --------------------------- | ------------- | -------- | 
-| 7            | 8       | 0x0000000000000000000000000000000example | @contributor  | I've done ..... | http:// Link to proof | 1250 | 3 |
+| **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution** | **Weights Requested** | **Weight Time** |
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 7 | 8 | 0x0000000000000000000000000000000example | @contributor  | I've done ..... | http:// Link to proof | 1250 | 3 |
 
