@@ -35,7 +35,12 @@ The weights earned by Coders are only valuable if they are scarce. The number of
 This represents the MAX weights that can be earned in a period. It's the total buy signal in the Coding markeplace. Github maintainers of the 10 [Morpheus Reference Implementations](https://github.com/antonbosss/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Reference%20Implementations%20(MRI).md) should seek to get contributions for something less than this maximum number. And keep in mind if anyone fails to maintain their Code weights WILL be earned by others or returned to the Coding weight reserve.
 
 > [!Note] 
-> To help Morpheus launch, there was an extremely large amount of effort required. Many of those efforts also preceded the establishment of the weights guide and thus the original contributors were retroactively given weights at varying $MOR implied prices for their efforts. This was done so at the rate at which efforts were provided to the GitHub maintainers and thus there was not an even distribution of weights month by month. The result of this is that as of the snapshot taking place on April 8, 2024 (which is the 7th month of Morpheus’ fiscal year), there were 48,390,420 total weights distributed. This means that adhering to a hard cap in year 1 would mean there are only 1,609,580 weights left for the subsequent five months, equivalent to 321,916 weights per month. Adhering to the Year 1 cap would result in such a small number of weights in the final months of the year, that it would likely deter new contributions. Therefore, the year 1 cap is being removed and merged into a single cap covering the first two years that is 75,000,000 weights. The total cap of 100,000,000 weights remains unchanged. 
+> To help Morpheus launch, there was an extremely large amount of effort required. Many of those efforts also preceded the establishment of the weights guide and thus the original contributors were retroactively given weights at varying $MOR implied prices for their efforts. This was done so at the rate at which efforts were provided to the GitHub maintainers and thus there was not an even distribution of weights month by month. The result of this is that as of the snapshot taking place on April 8, 2024 (which is the 7th month of Morpheus’ fiscal year), there were 48,390,420 total weights distributed. This means that adhering to a hard cap in year 1 would mean there are only 1,609,580 weights left for the subsequent five months, equivalent to 321,916 weights per month. Adhering to the Year 1 cap would result in such a small number of weights in the final months of the year, that it would likely deter new contributions. Therefore, the year 1 cap is being removed and merged into a single cap covering the first two years that is 75,000,000 weights. The total cap of 100,000,000 weights remains unchanged.
+
+> [!Note] 
+> The weight schedule as laid out in this guide focuses on the base weights. Several MRCs have implemented Rewards Staking which assign a Power Factor to claim locks which calculate a multiplier to be applied to base weights awarded.
+> Staking of weights can be handled directly on-chain (via the Lock Claim function) or using a user-friendly interface such as https://www.mor.software/staking.
+> Please review [!KEYDOCS README FIRST!/FAQs & Guides/MOR Rewards Staking FAQ.md](https://github.com/MorpheusAIs/Docs/blob/fdcf6070e73f822a144ae784b2a214aa6da65f46/!KEYDOCS%20README%20FIRST!/FAQs%20%26%20Guides/MOR%20Rewards%20Staking%20FAQ.md) as a starting point for FAQs surrounding this process.
 
 ## Year 1 Weights Schedule
 Given the complexities surrounding the Year 1 value of weights, the weights schedule had more nuances than the future years. The following table provides the monthly weights schedule, including the weights distributed each month, the methodology used to determine the weights value, and ultimately the value of the weight at each snapshot. Additional details for each particular month can be found later in the guide where each snapshot is defined. Please note that October 2023 to March 2024 denote an average of monthly weights emitted since much of the early work got folded into the February and March snapshots.
@@ -50,8 +55,8 @@ Given the complexities surrounding the Year 1 value of weights, the weights sche
 |March 2024 | 7,820,667 | 46,924,000 | n/a | n/a |n/a |  stETH Deposited | $6.89 | $0.200 | 
 |April 2024 | 4,536,232 | 51,460,232 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 Opening Price | $33.33 | $0.407 | 
 |May 2024 | 2,500,000 | 53,960,232 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 + Liquidity Support stETH | $64.10 | $0.783 | 
-|June 2024 | 2,250,000 | 56,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
-|July 2024 | 2,000,000 | 58,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|June 2024 | 2,250,000 | 56,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $49.50 | $0.60 | 
+|July 2024 | 2,000,000 | 58,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $22.20 | $0.27 | 
 |Aug 2024 | 1,750,000 | 59,960,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
 |Sept 2024 | 1,500,000 | 61,460,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
 
@@ -146,23 +151,25 @@ The table below repsents a summary of the data for each snapshot. Additional inf
 |Snapshot Period | Methodology | Implied $MOR Price | USD per Weight | 
 |--- | --- | --- | --- |
 | Oct 2023 to Feb 2024 | Cost Paid | $2.05 | $0.025 |
-| Feb 2024 to March 2024 | stETH Deposited | $6.89 | $0.20 |
-| March 2024 to April 2024 | MRC09 Opening Price | $33.33 | $0.407 |
-| April 2024 to May 2024 | MRC09 Opening Price + Liquidity Support stETH | $64.10 | $0.783 |
-| May 2024 to June 2024 | Average Trading Price | $97.07 | $1.186 |
+| Feb 2024 | stETH Deposited | $6.89 | $0.20 |
+| March 2024 | MRC09 Opening Price | $33.33 | $0.407 |
+| April 2024 | MRC09 Opening Price + Liquidity Support stETH | $64.10 | $0.783 |
+| May 2024 | Average Trading Price | $97.07 | $1.186 |
+| June 2024 | Average Trading Price | $49.50 | $0.60 |
+| July 2024 | Average Trading Price | $22.20 | $0.27 |
 
 ## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $0.025 USD per Weight
 In theory, the initial implied value of 1 weight was $0.025 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snapshot.
 
-## February 8th to March 8th 2024 Implied Value of a Weight "Snapshot 2" = $0.20 USD per Weight
+## February 2024 Implied Value of a Weight "Snapshot 2" = $0.20 USD per Weight
 In theory, while the exact price of MOR will not be known until May 8th when the Uniswap pool AMM goes live, the implied price for snapshot 2 is estimated based on the total stETH deposited.  
 At 88,000 deposited stETH annually providing 2,904 stETH in yield balanced against the 1,222,076 MOR earned by all Capital Providers the first year, implied a value of 0.00237 stETH per MOR based on real world contributions. Or $6.89 USD at $2,900 USD to stETH price on Feb. 21st 2024.
 
-**All told this implies a value of each weight at $0.20 USD for Snapshot 2 (February 8th to March 8th 2024).**
+**All told this implies a value of each weight at $0.20 USD for Snapshot 2 (February 2024).**
 This is calculated by taking the number of MOR earned by all Coders the first year (1,222,076 MOR) and dividing by 42,000,000 which equals 0.029 MOR per weight. 
 In theory this results in, $6.89 USD per MOR that equals $0.20 in USD terms.
 
-## March 8th to April 8th 2024 Implied Value of a Weight "Snapshot 3" = $0.407 USD per Weight
+## March 2024 Implied Value of a Weight "Snapshot 3" = $0.407 USD per Weight
 > [!NOTE]
 > **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
@@ -171,19 +178,25 @@ The implied price for snapshot 3 is estimated based on methodology as defined by
 
 **All told this implies a current value of each weight at $0.407 USD.**
 
-**Please note, this will require a one-time adjustment to the original weights in this snapshot. All contributors for the March 8th to April 8th snapshot will see their contributions multiplied by 3.09582 in the next Smart Contract update on May 8th. This was calculated by applying the $0.407 value per weight as described above instead of the original $1.26 value per weight based on secondary markets. It was deteremined that the secondary markets have too low of volume and too thin of order books that they could be subject to manipulation and are not the most reliable source of estimated pricing**
+**Please note, this will require a one-time adjustment to the original weights in this snapshot. All contributors for the March 2024 snapshot will see their contributions multiplied by 3.09582 in the next Smart Contract update on May 8th. This was calculated by applying the $0.407 value per weight as described above instead of the original $1.26 value per weight based on secondary markets. It was deteremined that the secondary markets have too low of volume and too thin of order books that they could be subject to manipulation and are not the most reliable source of estimated pricing**
 
-## April 8th to May 8th 2024 Implied Value of a Weight "Snapshot 4" = $0.783 USD per Weight
+## April 2024 Implied Value of a Weight "Snapshot 4" = $0.783 USD per Weight
 > [!NOTE]
 > **The following is all theory, presented as an example for how one could arrive at their own estimate. 
 No one knows how much MOR will be worth in ETH or USD or any other currency. 1 MOR = 1 MOR**
 
-April 8th to May 8th - The implied price for snapshot 4 is estimated based methodology as defined by MRC09, which establishes the opening price for $MOR trading. The one variation between May 8th valuation and April 8th valuation is that the May 8th valuation accounts for 100% of the stETH yield instead of 52%. The reason for this is that the remaining 48% is included as part of the Liquidity Support Range which can be utilized by the AMM as needed. Please see MRC09 for additional details. To provide transparency and consistency for all Code providers, this price will be based on trailing monthly averages for inputs, resulting in $64.10 per $MOR which equates to $0.783 per weight.
+April 2024 - The implied price for snapshot 4 is estimated based methodology as defined by MRC09, which establishes the opening price for $MOR trading. The one variation between May 8th valuation and April 8th valuation is that the May 8th valuation accounts for 100% of the stETH yield instead of 52%. The reason for this is that the remaining 48% is included as part of the Liquidity Support Range which can be utilized by the AMM as needed. Please see MRC09 for additional details. To provide transparency and consistency for all Code providers, this price will be based on trailing monthly averages for inputs, resulting in $64.10 per $MOR which equates to $0.783 per weight.
 
-## May 8th to June 8th 2024 Implied Value of a Weight "Snapshot 5" = $1.186 USD per Weight
+## May 2024 Implied Value of a Weight "Snapshot 5" = $1.186 USD per Weight
 The implied price for snapshot 5 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $1.186 USD per weight which is based on the average price from May 8th to May 27th which was $97.07.
 > [!NOTE]
 > **There is an ongoing discussion of exactly how to calculate the average snapshot price for weight valuation. Which price to use (open, close, random sampling, etc), how many data points (weekly, daily, hourly, etc) and other nuances are being discussed in the community.**
 
 See the Morstats.info website page where you can run these estimates dynamically.  
 https://morstats.info/code-weights/
+
+## June 2024 Implied Value of a Weight "Snapshot 6" = $0.60 USD per Weight
+The implied price for snapshot 6 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $0.60 USD per weight which is based on the average price which was $49.50.
+
+## July 2024 Implied Value of a Weight "Snapshot 7" = $0.27 USD per Weight
+The implied price for snapshot 7 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $0.27 USD per weight which is based on the average price which was $22.20.
