@@ -10,11 +10,12 @@ See link for details: https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS
 - The 50% of the MOR left after Protocol owned Liquidity Generation Event in the Multisignature account will be locked for 16 years. In order to function as the basis for [the #2 epochs Tail Emissions](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md#tail-emissions-of-mor).
 - The other 50% of the MOR left after Protocol owned Liquidity Generation Event will be sent to a permanent burn address and destroyed forever.
 
-## Ethereum Burn Address Selected
-The following Burn Adddress has been selected for use by the Morpheus project.
-https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0x000000000000000000000000000000000000dead 
-
+## Burn and Epoch 2 Lock Addresses
+- **Burn address:** [0x000000000000000000000000000000000000dead](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0x000000000000000000000000000000000000dead)  
 This is an address commonly used by Ethereum projects for the purpose of burning tokens.
+
+- **Epoch 2 tail emissions lock address:** [0xb1972e86b3380fd69dcb395f98d39fbf1a5f305a](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0xb1972e86b3380fd69dcb395f98d39fbf1a5f305a)  
+The address manages by multisignature account, but will be replaced by lock smart contract in the near future.
 
 ## History
 The first MOR purchased for the purpose of Burning were those bought on June 24th 2024 and second set of purchases begun on July 1st 2024.

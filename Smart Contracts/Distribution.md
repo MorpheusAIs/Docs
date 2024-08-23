@@ -1,10 +1,12 @@
-# Distribution
+# DistributionV3
 
-[`Distribution.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/Distribution.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+[`DistributionV3.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/DistributionV2.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
-`Distribution` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
+`DistributionV3` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
 
 This contract is also used to track other MOR emissions through private pools. For instance, pool `1` is a private pool used to track Code emissions, where deposit "amounts" correspond to [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md).
+
+As of V3, this contract also allows users to lock MOR emissions for a chosen period of time. During this period, emissions cannot be claimed; however a multiplier of up to 10.7x is applied.
 
 ## Public Variables
 
@@ -16,6 +18,7 @@ This contract is also used to track other MOR emissions through private pools. F
 | `poolsData`                   | mapping(uint256 => [`PoolData`](#pooldata))                     | Ongoing tracking data for all pools.                              |
 | `usersData`                   | mapping(address => mapping(uint256 => [`UserData`](#userdata))) | Ongoing tracking data for user participation in pools.            |
 | `totalDepositedInPublicPools` | uint256                                                         | The total amount of the deposit token in all public pools.        |
+| `totalVirtualDeposited` | uint256                                                         | The total "virtual" amount of the deposit token in all pools after accounting for claim lock multipliers.        |
 
 ## Functions
 
@@ -36,6 +39,25 @@ Allows users to stake the deposit token (stETH) in a public pool.
 |-----------|---------|----------------------------------------|
 | `poolId_` | uint256 | The ID of the public pool to stake in. |
 | `amount_` | uint256 | The amount of deposit tokens to stake. |
+
+
+### lockClaim
+
+```solidity
+function lockClaim(
+    uint256 poolId_,
+    uint128 claimLockEnd_
+    ) external poolExists(poolId_)
+```
+
+Locks the user's claim for a specified period, during which a multiplier is applied. This incentivizes users to delay claiming emissions for higher returns.
+
+#### Parameters
+
+| Name      | Type    | Description                            |
+|-----------|---------|----------------------------------------|
+| `poolId_` | uint256 | The ID of the public pool to lock for. |
+| `claimLockEnd_` | uint128 | The timestamp until which the claim is locked. Must be in the future. |
 
 ### claim
 
@@ -180,6 +202,56 @@ Calculates the reward for a specified pool and period. Uses the [`LinearDistribu
 | Type    | Description                             |
 |---------|-----------------------------------------|
 | uint256 | The total reward amount for the period. |
+
+### getClaimLockPeriodMultiplier
+
+```solidity
+function getClaimLockPeriodMultiplier(
+    uint256 poolId_,
+    uint128 claimLockStart_,
+    uint128 claimLockEnd_
+    ) public view returns (uint256)
+```
+
+Calculates the multiplier based on the duration between the start and end of the claim lock period. This multiplier is applied to the user’s stake (or weights) for emissions calculations.
+
+#### Parameters
+
+| Name         | Type    | Description                        |
+|--------------|---------|------------------------------------|
+| `poolId_`    | uint256 | The ID of the pool.                |
+| `claimLockStart_` | uint128 | The start timestamp of the claim lock period. |
+| `claimLockEnd_`   | uint128 | The end timestamp of the claim lock period.   |
+
+#### Return Values
+
+| Type    | Description                             |
+|---------|-----------------------------------------|
+| uint256 | The multiplier applied to the user's virtual deposit. |
+
+### getCurrentUserMultiplier
+
+```solidity
+function getCurrentUserMultiplier(
+    uint256 poolId_,
+    address user_
+    ) public view returns (uint256)
+```
+
+Returns the current reward multiplier for a user based on their claim lock period.
+
+#### Parameters
+
+| Name         | Type    | Description                        |
+|--------------|---------|------------------------------------|
+| `poolId_`    | uint256 | The ID of the pool.                |
+| `user_` | address | The address of the user. |
+
+#### Return Values
+
+| Type    | Description                             |
+|---------|-----------------------------------------|
+| uint256 | The reward multiplier currently applied to the user. |
 
 ### manageUsersInPrivatePool
 

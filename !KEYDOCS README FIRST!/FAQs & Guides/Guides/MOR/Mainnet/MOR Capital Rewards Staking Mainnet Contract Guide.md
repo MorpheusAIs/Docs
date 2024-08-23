@@ -25,6 +25,11 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ---
 
+> [!IMPORTANT]
+> **If you already have unclaimed MOR in your address, when you Stake the MOR Rewards, it will lock those already earned MOR + the future MOR rewards for the same amount of time. In short, every unclaimed MOR gets locked, present and future.**
+
+---
+
 ## Stake rewards for new Capital Deposit
 
 Before contributing stETH, you need to give the Morpheus Distribution contract an **approval**, for this you need to:
@@ -72,6 +77,9 @@ To convert Data & Time to Timestamp and vice versa you should use **https://ethe
 - select Date & Time to Timestamp;
 - set the Date & Time and click **"Convert"**.
 
+>[!WARNING]
+> **Etherscan UI only converts 10 digits timestamps. If you want to go with custom timestamp, for instance "1818181818", you need to carefully verify that the number consists of 10 digit numbers as 11 digits will result in centuries of MOR reward staking.**
+
 On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.
 
 That effectively means that the user stake their MOR rewards until Jul-22-2025 12:00:59 PM UTC.
@@ -116,6 +124,9 @@ To convert Data & Time to Timestamp and vice versa you can use **https://ethersc
 - select Timestamp & Date;
 - select Date & Time to Timestamp;
 - set the Date & Time and click **"Convert"**.
+
+>[!WARNING]
+> **Etherscan UI only converts 10 digits timestamps. If you want to go with custom timestamp, for instance "1818181818", you need to carefully verify that the number consists of 10 digit numbers as 11 digits will result in centuries of MOR reward staking.**
 
 On the picture Date & Time **Jul-22-2025 12:00:59 PM UTC** converted to the Timestamp **1753185659**.  
 
@@ -191,6 +202,9 @@ To convert the Timestamp to the Date & Time you should use **https://etherscan.i
 - select Timestamp to Date & Time;
 - paste value you got to the Timestamp field;
 - click **"Convert"**.
+
+>[!WARNING]
+> **Etherscan UI only converts 10 digits timestamps. If you want to go with custom timestamp, for instance "1818181818", you need to carefully verify that the number consists of 10 digit numbers as 11 digits will result in centuries of MOR reward staking.**
 
 On the picture below the Timestamp **1799928036** converted to Date & Time **Jan-14-2027 12:00:36 PM**.
 

@@ -24,7 +24,7 @@ Instead of navigating complex quadratic voting processes, DAOs, or politically s
 
 ## _For the Devs_
 ### 5.	Ample Funds to Pay the Builders on Day One 
-[Contributors providing computing power or models](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Builders%20Guide.mdd) are compensated immediately upon launch, eliminating the need for a lengthy marketing grind and user acquisition. The stETH depositors have already bootstrapped the ecosystem. 
+[Contributors providing computing power or models](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Builders%20Guide.md) are compensated immediately upon launch, eliminating the need for a lengthy marketing grind and user acquisition. The stETH depositors have already bootstrapped the ecosystem. 
 
 ### 6.	The Morpheus App Store for AI 
 Morpheus acts as a marketplace for compute providers and AI code. Built on principles of free market competition and decentralization, it rewards contributors directly without intermediaries or centralized control. With a free market approach, the best models and compute providers acquire the most consumers. 
@@ -32,7 +32,7 @@ Morpheus acts as a marketplace for compute providers and AI code. Built on princ
 ### 7.	Scales Like an Ecosystem, but Runs Like Contract
 Morpheus's [decentralized contracts govern](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md#ecosystem-model) and control [ecosystem funds](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/The%20Morpheus%20Asset%20Integration%20Framework.md) efficiently with minimal overhead. While not as complex as L1 or L2 solutions to build from scratch and maintain, its marketplace model enables exponential scalability. Only recently has blockchain development technology matured to the point where this kind of project is possible. 
 
-## _For the Entrepeneurs_
+## _For the Entrepreneurs_
 ### 8.	Community Building Rewards 
 Morpheus incentivizes those who further the adoption of Morpheus. Referrers who [help others deposit stETH also receive rewards](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC08.md#2-capital-front-ends), decentralizing community leadership and fostering a global network of contributors while helping to increase funds for operations. 
 
