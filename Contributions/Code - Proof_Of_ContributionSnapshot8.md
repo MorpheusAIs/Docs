@@ -77,5 +77,5 @@ All Code Contributions to include the following elements:
 
 | **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution** | **Weights Requested** | **Weight Time** |
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 8 | 7 | 0xc5cc33d8d834b9f45eec8ff8bc7aae8e5f949d81 | @eddiedunn  | I have created morfaucet.xyz site | https://morfaucet.xyz/ | 10000 | 1 |
+| 8 | 7 | 0xc5cc33d8d834b9f45eec8ff8bc7aae8e5f949d81 | @eddiedunn  | I have created morfaucet.xyz site | https://morfaucet.xyz/ | 10000 | 6 |
 
