@@ -1,3 +1,5 @@
+# Frequently Asked Questions about Application Builders
+
 ### Who are Morpheus application builders?
 They are developers or teams behind end-user applications (smart agents, dashboards, frontends, tools, etc.) at various stages of development, which are integrated with Morpheus and serve the community's needs.
 
