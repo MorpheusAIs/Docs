@@ -22,7 +22,12 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 - **Builders Contract:** [0x649B24D0b6F5A4c3852fD4C0dD91308902E5fe8a](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a)
 - **Builders Treasury Contract:** [0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6](https://sepolia.arbiscan.io/address/0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6)
 - **FeeConfig Contract:** [0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A](https://sepolia.arbiscan.io/address/0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A)
-- **FeeTreasury Contract:** [0x901F2d23823730fb7F2356920e0E273EFdCdFe17](https://sepolia.arbiscan.io/address/0x901F2d23823730fb7F2356920e0E273EFdCdFe17)
+
+
+Create pool (with staking and without)
+How to stake builder rewards?
+How to deposit to builders
+How to withdraw from builder pool?
 
 ---
 
