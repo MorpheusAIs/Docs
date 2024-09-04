@@ -18,6 +18,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 7) [**Get information about Builder pool**](#check-mor-rewards-stake-time)
 8) [**Deposit test MOR to Builder pool**](#check-mor-rewards-stake-time)
 9) [**Withdraw test MOR from Builder pool**](#additional-guide-links)
+10) [**How to use Timestamp and Date converter**](#additional-guide-links)
 
 **Pay fees for withdrawal**
 
@@ -33,7 +34,18 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 ---
 
 ## Builder pool creation
+Users deposit MOR in Builder pools, that should be registered first.
+To create a Builder pool please follow these steps:
 
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
+- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button.
 
+Find and select the `2.createBuilderPool()` and input as parameters below `builderPool_(tuple)`:
+- 
+- poolId_ (uint 256): pool identifier, enter 0 for capital providers pool;
+claimLockEnd_ (uint 128): timestamp of the reward unlock time, i.e. when you will be able to claim your MOR reward.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/capital%20lockclaim.png" width=60% height=60%> 
 ---
 
