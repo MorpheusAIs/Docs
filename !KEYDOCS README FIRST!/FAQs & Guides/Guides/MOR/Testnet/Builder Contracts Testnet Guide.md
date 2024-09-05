@@ -8,17 +8,17 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ## Table of Contents
 1) [**Smart Contracts Addresses**](#smart-contracts-addresses)
-## For Builders
+### For Builders
 2) [**Builder Pool Creation**](#builder-pool-creation)
 3) [**Get Pool Id**](#get-pool-id)
-4) [**Edit builder pool before it goes live**](#edit-builder-pool-before-it-goes-live)
-5) [**Get MOR rewards**](#get-mor-rewards)
-## For End Users
-6) [**Get test MOR**](#check-power-factor-multiplier)
-7) [**Get information about Builder pool**](#get-information-about-builder-pool)
-8) [**Deposit test MOR to Builder pool**](#deposit-test-mor-to-builder-pool)
-9) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
-10) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
+4) [**Get MOR rewards**](#get-mor-rewards)
+### For End Users
+5) [**Get test MOR**](#get-test-mor)
+6) [**Get information about Builder pool**](#get-information-about-builder-pool)
+7) [**Deposit test MOR to Builder pool**](#deposit-test-mor-to-builder-pool)
+8) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
+9) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
+10) [**How to use Unit Converter**](#how-to-use-unit-converter)
 
 ---
 
@@ -45,10 +45,12 @@ Find and select the `2.createBuilderPool()` function and input the following par
 - `poolStart`: input the timestamp in the future for the pool launch; 
 - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
 - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards, enter `0`;
-- `minimalDeposit`: set the minimum amount of MOR required to join your pool.
+- `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 ETH = 1000000000000000000 WEI.
 
 > [!NOTE]  
+> **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
+> **You won’t be able to create a pool if the pool name has already been registered**
 
 <img src="https://github.com/user-attachments/assets/bf02fdba-914c-4404-bb60-7c78f5f5897a" width=80% height=80%> 
 
@@ -71,21 +73,6 @@ You will find the pool Id next to `bytes32:`
 
 > [!IMPORTANT]  
 > **The pool name MUST be exactly the same you entered in the previous step**
-
----
-
-## Edit Builder Pool Before it Goes Live
-Pool admins can edit pool parameters (except name of the pool) before it is started.  
-Follow these steps:  
-
-- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
-- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
-- connect your wallet by clicking the **"Connect to Web3"** button;
-- find and select the `5.editBuilderPool()` function;
-- fill in new parameters similar to [Builder Pool Creation](#builder-pool-creation)
-
-> [!IMPORTANT]  
-> **Parameters of a pool that has already started CAN NOT be changed**
 
 ---
 
@@ -132,3 +119,14 @@ On the picture Date **Jul-22-2025 12:00:59 PM UTC** is converted to the Timestam
 On the picture the Timestamp **1753185659** is converted to the Date & Time **Jul-22-2025 12:00:59 PM UTC**  .  
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/timestamp%20to%20date(new).png" width=70% height=70%>
+
+---
+
+## How to use Unit Converter
+To convert values to WEI and vice versa you can use **https://etherscan.io/unitconverter**.  
+
+Enter desirable amount in the `Ether` field and copy value from the `Wei` field or enter amount in the `Wei` field and copy value from the `Ether` field.
+
+For example, on the screenshot, 10 ETH represented as 10000000000000000000 Wei.
+
+<img src="/Graphics/Docs%20Graphics/English/MOR%20Rewards%20Staking%20Guides/Testnet/wei%20convert.png" width=70% height=70%>
