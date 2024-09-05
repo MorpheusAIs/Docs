@@ -11,14 +11,14 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 ## For Builders
 2) [**Builder Pool Creation**](#builder-pool-creation)
 3) [**Get Pool Id**](#get-pool-id)
-4) [**Edit builder pool before it goes live**](#stake-rewards-for-new-capital-deposit)
-5) [**Get MOR rewards**](#stake-rewards-for-existing-capital-deposit)
+4) [**Edit builder pool before it goes live**](#edit-builder-pool-before-it-goes-live)
+5) [**Get MOR rewards**](#get-mor-rewards)
 ## For End Users
 6) [**Get test MOR**](#check-power-factor-multiplier)
-7) [**Get information about Builder pool**](#check-mor-rewards-stake-time)
-8) [**Deposit test MOR to Builder pool**](#check-mor-rewards-stake-time)
-9) [**Withdraw test MOR from Builder pool**](#additional-guide-links)
-10) [**How to use Timestamp and Date converter**](#additional-guide-links)
+7) [**Get information about Builder pool**](#get-information-about-builder-pool)
+8) [**Deposit test MOR to Builder pool**](#deposit-test-mor-to-builder-pool)
+9) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
+10) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
 
 ---
 
@@ -42,7 +42,7 @@ To create a Builder pool, please follow these steps:
 Find and select the `2.createBuilderPool()` function and input the following parameters under `builderPool_(tuple)`:
 - `name`: choose a unique name for your pool;
 - `admin`: enter the wallet address for rewards and pool management;
-- `poolStart`: input the timestamp for the pool launch; 
+- `poolStart`: input the timestamp in the future for the pool launch; 
 - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
 - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards, enter `0`;
 - `minimalDeposit`: set the minimum amount of MOR required to join your pool.
@@ -74,7 +74,18 @@ You will find the pool Id next to `bytes32:`
 
 ---
 
-## Edit builder pool before it goes live
+## Edit Builder Pool Before it Goes Live
+Pool admins can edit pool parameters (except name of the pool) before it is started.  
+Follow these steps:  
+
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
+- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button;
+- find and select the `5.editBuilderPool()` function;
+- fill in new parameters similar to [Builder Pool Creation](#builder-pool-creation)
+
+> [!IMPORTANT]  
+> **Parameters of a pool that has already started CAN NOT be changed**
 
 ---
 
