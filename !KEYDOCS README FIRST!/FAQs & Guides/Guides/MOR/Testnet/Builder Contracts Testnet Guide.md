@@ -28,6 +28,7 @@ This guide will walk you through the main functions of the Morpheus Application 
 **Arbitrum Sepolia Testnet:**
 
 - **Test MOR Contract:** [0x34a285A1B1C166420Df5b6630132542923B5b27E](https://sepolia.arbiscan.io/token/0x34a285A1B1C166420Df5b6630132542923B5b27E)
+  
 - **Builders Contract:** [0x649B24D0b6F5A4c3852fD4C0dD91308902E5fe8a](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a)
 
 
@@ -40,13 +41,13 @@ To create a Builder pool, please follow these steps:
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
 - open the **"Contract"** tab, then select the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.
-- - find and select the `2.createBuilderPool()` function, then input the following parameters:
+- find and select the `3.createBuilderPool()` function, then input the following parameters:
   - `name`: choose a unique name for your pool;
   - `admin`: enter the wallet address for rewards and pool management;
   - `poolStart`: input the timestamp in the future for the pool launch;
-  - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
-  - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards and get power factor, enter `0`;
-  - `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 MOR = 1000000000000000000 WEI;
+  - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit; `1800` is minimum for testnet;
+  - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e. when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards and get power factor, enter `0`;
+  - `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. (1 MOR = 1000000000000000000 WEI); If want to have no minimal deposit, enter `0`;
 - click **"Write"** and confirm the transaction in your wallet.
 
 > [!TIP]  
@@ -54,7 +55,7 @@ To create a Builder pool, please follow these steps:
 > 
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
 
-<img src="https://github.com/user-attachments/assets/bf02fdba-914c-4404-bb60-7c78f5f5897a" width=80% height=80%> 
+<img src="https://github.com/user-attachments/assets/8b62ac89-6858-4c0c-8e4c-5f5aa75e5bb9" width=80% height=80%> 
 
 > [!IMPORTANT]  
 > **You won’t be able to create a pool if the pool name has already been registered**
