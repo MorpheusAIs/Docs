@@ -200,42 +200,47 @@ The next step is MOR deposit into a Builder pool:
 <img src="https://github.com/user-attachments/assets/e98aed41-fc95-4c92-af5f-aa8a5f70c7cf" width=60% height=60%> 
 
 > [!IMPORTANT]
+> **You can not deposit amount less than minimum set by the Pool owner**
 > **Builders have the discretion to decide how to incentivize their users to stake MOR and determine what benefits to provide**
 
 ---
 
 ## Get Information about Deposited MOR
-You should know a Builder Pool ID to be able to stake MOR towards it.  
-If you want to know the pool conditions like admin address, start time, is there a lock for your deposit, are Builder's rewards staked and minimal deposit, you need to follow these steps: 
+If you want to know amount of MOR deposited in a Builders pool, follow these steps: 
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) page;
 - open the **"Contract"** tab, then select the **"Read as Proxy"** tab;
-- find and select the `1. builderPools` function, then input the following parameters:
-  - `builderPoolId_ (bytes32)`: Pool ID you want to get information about;
+- find and select the `17.usersData` function, then input the following parameters:
+  - `user (address)`: address you want to get information about ;
+  - `builderPoolId (bytes32)`: Builder Pool ID where MOR is deposited;
 - click **"Query"**.
 
-You will find the Pool ID under `[ builderPools(bytes32) method Response ]` line.
+You will find deposited amount next to `**deposited** uint256:`
 
 > [!TIP]  
-> **To understand what each of parameters mean head to [**Builder Pool Creation**](#builder-pool-creation)**
+> **To convert value, click on it and find `ETH (1)` field in the opened window**
 
-<img src="https://github.com/user-attachments/assets/0d327cc8-4997-44bb-98b6-1529b16d5164" width=60% height=60%>
+<img src="https://github.com/user-attachments/assets/0b77a1a6-df77-4e81-ad3a-4d5132125a3e" width=60% height=60%>
 
 ---
 
 ## Withdraw test MOR from Builder Pool
-If rewards were not staked with the `claimLockEnd` function when the pool was created, Builders can claim MOR rewards by following these steps:
+If your MOR deposit is not locked according to the Builder Pool settings, you can withdraw it by following these steps:
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
 - open the **"Contract"** tab, then select the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button;
-- find and select the `2.claim()` function, then input the following parameters:
-  - `builderPoolId_ (bytes32)`: pool id;
-  - `receiver_ (address)`: address on the Arbitrum Sepolia chain where you want to receive the rewards;
+- find and select the `14.withdraw()` function, then input the following parameters:
+  - `builderPoolId_ (bytes32)`: Pool ID you want to withdraw MOR from;
+  - `amount_ (uint256)`: amount of tokens in WEI. (1 MOR = 1000000000000000000 WEI);
 - click **"Write"** and confirm the transaction in your wallet.
 
-<img src="https://github.com/user-attachments/assets/f39b0ccd-d880-4da9-ad9e-1a7e7dc02053" width=60% height=60%> 
+> [!TIP]  
+> **Click [here](#how-to-use-unit-converter) to use WEI Unit Converter**
+
+<img src="https://github.com/user-attachments/assets/ce526392-ad3f-4fd9-8923-d9b6428d09cf" width=60% height=60%> 
 
 > [!IMPORTANT]
-> **A 1% fee will be charged on the claim amount as payment to the Morpheus Protocol-Owned Liquidity.**
+> **A 1% fee will be charged on the claim amount as payment to the Morpheus Protocol-Owned Liquidity**
+> **If you do a partial withdrawal, the remaining balance must be greater than the minimum pool deposit**
 
 ---
 
