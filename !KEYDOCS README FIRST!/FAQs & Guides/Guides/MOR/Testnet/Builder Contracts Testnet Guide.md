@@ -12,12 +12,13 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 2) [**Builder Pool Creation**](#builder-pool-creation)
 3) [**Edit Builder Pool Before it Goes Live**](#edit-builder-pool-before-it-goes-live)
 4) [**Get Pool Id**](#get-pool-id)
-5) [**Get MOR rewards**](#get-mor-rewards)
+5) [**Get Information about Pool Rewards**](#get-information-pool-rewards)
+6) [**Claim MOR rewards**](#claim-mor-rewards)
 ### For End Users
 5) [**Get test MOR**](#get-test-mor)
-6) [**Get information about Builder pool**](#get-information-about-builder-pool)
+6) [**Get Information about Builder pool**](#get-information-about-builder-pool)
 7) [**Deposit test MOR to Builder pool**](#deposit-test-mor-to-builder-pool)
-8) [**Get information about Deposited MOR**](#get-information-about-deposited-mor)
+8) [**Get Information about Deposited MOR**](#get-information-about-deposited-mor)
 9) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
 10) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
 11) [**How to use Unit Converter**](#how-to-use-unit-converter)
@@ -26,8 +27,11 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 
 ## Smart Contracts Addresses 
 **Arbitrum Sepolia Testnet:**
+
 - **Test MOR Contract:** [0x34a285A1B1C166420Df5b6630132542923B5b27E](https://sepolia.arbiscan.io/token/0x34a285A1B1C166420Df5b6630132542923B5b27E)
+- 
 - **Builders Contract:** [0x649B24D0b6F5A4c3852fD4C0dD91308902E5fe8a](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a)
+- 
 - **Builders Treasury Contract:** [0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6](https://sepolia.arbiscan.io/address/0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6)
 - **FeeConfig Contract:** [0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A](https://sepolia.arbiscan.io/address/0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A)
 
@@ -109,7 +113,18 @@ You will find the pool Id next to `bytes32:`
 
 ---
 
-## Get MOR Rewards
+## Get Information about Pool Rewards
+You can , you will need to obtain the pool ID to allow users to deposit MOR. 
+Follow these steps:  
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) contract;
+- open the **"Contract"** tab, then the **"Read as Proxy"** tab;
+- find and select the `11.getPoolId` function;
+- input the name of your pool under `builderPoolName_ (string)` field;
+- click **"Query"**.
+
+---
+
+## Claim MOR Rewards
 
 + fees
 
