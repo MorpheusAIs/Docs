@@ -10,15 +10,17 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 1) [**Smart Contracts Addresses**](#smart-contracts-addresses)
 ### For Builders
 2) [**Builder Pool Creation**](#builder-pool-creation)
-3) [**Get Pool Id**](#get-pool-id)
-4) [**Get MOR rewards**](#get-mor-rewards)
+3) [**Edit Builder Pool Before it Goes Live**](#edit-builder-pool-before-it-goes-live)
+4) [**Get Pool Id**](#get-pool-id)
+5) [**Get MOR rewards**](#get-mor-rewards)
 ### For End Users
 5) [**Get test MOR**](#get-test-mor)
 6) [**Get information about Builder pool**](#get-information-about-builder-pool)
 7) [**Deposit test MOR to Builder pool**](#deposit-test-mor-to-builder-pool)
-8) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
-9) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
-10) [**How to use Unit Converter**](#how-to-use-unit-converter)
+8) [**Get information about Deposited MOR**](#get-information-about-deposited-mor)
+9) [**Withdraw test MOR from Builder pool**](#withdraw-test-mor-from-builder-pool)
+10) [**How to use Timestamp and Date converter**](#how-to-use-timestamp-and-date-converter)
+11) [**How to use Unit Converter**](#how-to-use-unit-converter)
 
 ---
 
@@ -45,17 +47,45 @@ Find and select the `2.createBuilderPool()` function and input the following par
 - `poolStart`: input the timestamp in the future for the pool launch; 
 - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
 - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards, enter `0`;
-- `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 ETH = 1000000000000000000 WEI.
+- `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 MOR = 1000000000000000000 WEI.
 
-> [!NOTE]  
+> [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
+> 
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
-> **You won’t be able to create a pool if the pool name has already been registered**
+
 
 <img src="https://github.com/user-attachments/assets/bf02fdba-914c-4404-bb60-7c78f5f5897a" width=80% height=80%> 
 
+> [!IMPORTANT]  
+> **You won’t be able to create a pool if the pool name has already been registered**
+>
+> **Once a user reaches the minimum deposit, they can continue to deposit any amount**
+>
+> **Lock period triggers with every deposit**
+
+
 Click **"Write"** and confirm the transaction in your wallet.
 
+---
+
+## Edit Builder Pool Before it Goes Live
+Pool admins can edit pool parameters (except name and admin address of the pool) before it is started.  
+Follow these steps:  
+
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
+- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button;
+- find and select the `5.editBuilderPool()` function;
+- fill in new parameters similar to [Builder Pool Creation](#builder-pool-creation);
+- click **"Write"** and confirm the transaction in your wallet.
+
+
+> [!IMPORTANT]  
+> **Parameters of a pool that has already started CAN NOT be changed**
+>
+> **`poolStart`can not be decreased**
+> 
 ---
 
 ## Get Pool Id
@@ -67,34 +97,41 @@ Follow these steps:
 - input the name of your pool under `builderPoolName_ (string)` field;
 - click **"Query"**.
 
+> [!IMPORTANT]  
+> **The pool name MUST be exactly the same you entered in the previous step**
+
 You will find the pool Id next to `bytes32:`
 
 <img src="https://github.com/user-attachments/assets/b3a34b65-97d6-421a-9760-77134922ef98" width=60% height=60%> 
 
-> [!IMPORTANT]  
-> **The pool name MUST be exactly the same you entered in the previous step**
+> [!TIP]  
+> **To check your pool parameters, you can use `1. builderPools` [here](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) and click "query"**
 
 ---
 
-## Get MOR rewards
+## Get MOR Rewards
 
 + fees
 
 ---
 
-## Get test MOR
+## Get Test MOR
 
 ---
 
-## Get information about Builder pool
+## Get Information about Builder Pool
 
 ---
 
-## Deposit test MOR to Builder pool
+## Deposit Test MOR to Builder Pool
 
 ---
 
-## Withdraw test MOR from Builder pool
+## Get Information about Deposited MOR
+
+---
+
+## Withdraw test MOR from Builder Pool
 + fees
 
 ---
