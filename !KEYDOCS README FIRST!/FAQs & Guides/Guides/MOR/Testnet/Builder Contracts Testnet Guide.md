@@ -55,7 +55,7 @@ To create a Builder pool, please follow these steps:
 > 
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
 
-<img src="https://github.com/user-attachments/assets/8b62ac89-6858-4c0c-8e4c-5f5aa75e5bb9" width=80% height=80%> 
+<img src="https://github.com/user-attachments/assets/8b62ac89-6858-4c0c-8e4c-5f5aa75e5bb9" width=60% height=60%> 
 
 > [!IMPORTANT]  
 > **You won’t be able to create a pool if the pool name has already been registered**
