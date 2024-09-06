@@ -41,23 +41,22 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 Users can deposit MOR into Builder pools, which need to be registered first.  
 To create a Builder pool, please follow these steps:
 
-- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
-- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
+- open the **"Contract"** tab, then select the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.
-
-Find and select the `2.createBuilderPool()` function and input the following parameters under `builderPool_(tuple)`:
-- `name`: choose a unique name for your pool;
-- `admin`: enter the wallet address for rewards and pool management;
-- `poolStart`: input the timestamp in the future for the pool launch; 
-- `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
-- `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards, enter `0`;
-- `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 MOR = 1000000000000000000 WEI.
+- - find and select the `2.createBuilderPool()` function, then input the following parameters:
+  - `name`: choose a unique name for your pool;
+  - `admin`: enter the wallet address for rewards and pool management;
+  - `poolStart`: input the timestamp in the future for the pool launch;
+  - `withdrawLockPeriodAfterDeposit`: enter the duration in seconds if you want to lock users' MOR after deposit;
+  - `claimLockEnd`: input the timestamp for the builder reward unlock time, i.e., when you will be able to claim the pool's MOR rewards. If you don't want to stake MOR rewards, enter `0`;
+  - `minimalDeposit`: set the minimum amount of MOR required to join your pool in WEI. 1 MOR = 1000000000000000000 WEI;
+- click **"Write"** and confirm the transaction in your wallet.
 
 > [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
 > 
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
-
 
 <img src="https://github.com/user-attachments/assets/bf02fdba-914c-4404-bb60-7c78f5f5897a" width=80% height=80%> 
 
@@ -68,37 +67,33 @@ Find and select the `2.createBuilderPool()` function and input the following par
 >
 > **Lock period triggers with every deposit**
 
-
-Click **"Write"** and confirm the transaction in your wallet.
-
 ---
 
 ## Edit Builder Pool Before it Goes Live
 Pool admins can edit pool parameters (except name and admin address of the pool) before it is started.  
 Follow these steps:  
 
-- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
-- open the **"Contract"** tab, then the **"Write as Proxy"** tab;
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
+- open the **"Contract"** tab, then select the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button;
-- find and select the `5.editBuilderPool()` function;
-- fill in new parameters similar to [Builder Pool Creation](#builder-pool-creation);
+- find and select the `5.editBuilderPool()` function, then input the following parameters:
+  - adjusted parameters similar to the [Builder Pool Creation](#builder-pool-creation);
 - click **"Write"** and confirm the transaction in your wallet.
-
 
 > [!IMPORTANT]  
 > **Parameters of a pool that has already started CAN NOT be changed**
 >
 > **`poolStart`can not be decreased**
-> 
+
 ---
 
 ## Get Pool Id
 After the pool is deployed, you will need to obtain the pool ID to allow users to deposit MOR. 
 Follow these steps:  
-- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) contract;
-- open the **"Contract"** tab, then the **"Read as Proxy"** tab;
-- find and select the `11.getPoolId` function;
-- input the name of your pool under `builderPoolName_ (string)` field;
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) page;
+- open the **"Contract"** tab, then select the **"Read as Proxy"** tab;
+- find and select the `11.getPoolId` function, then input the following parameters:
+  - `builderPoolName_ (string)`: name of the pool;
 - click **"Query"**.
 
 > [!IMPORTANT]  
@@ -115,10 +110,10 @@ You will find the pool Id next to `bytes32:`
 
 ## Get Information about Pool Rewards
 Builders can get information about accrued by their pools MOR rewards with these steps:  
-- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) contract;
-- open the **"Contract"** tab, then the **"Read as Proxy"** tab;
-- find and select the `7.getCurrentBuilderReward` function;
-- input the pool id under `builderPoolId_ (bytes32)` field;
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) page;
+- open the **"Contract"** tab, then select the **"Read as Proxy"** tab;
+- find and select the `7.getCurrentBuilderReward` function, then input the following parameters:
+  - `builderPoolId_ (bytes32)`: pool id;
 - click **"Query"**.
 
 You will find the pool Id next to `uint256:`
@@ -131,15 +126,24 @@ You will find the pool Id next to `uint256:`
 ---
 
 ## Claim MOR Rewards
+If rewards were not staked with the `claimLockEnd` function when the pool was created, Builders can claim MOR rewards by following these steps:
+- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
+- open the **"Contract"** tab, then select the **"Write as Proxy"** tab;
+- connect your wallet by clicking the **"Connect to Web3"** button;
+- find and select the `2.claim()` function, then input the following parameters:
+  - `builderPoolId_ (bytes32)`: pool id;
+  - `receiver_ (address)`: address on the Arbitrum Sepolia chain where you want to receive the rewards;
+- click **"Write"** and confirm the transaction in your wallet.
 
+<img src="https://github.com/user-attachments/assets/f39b0ccd-d880-4da9-ad9e-1a7e7dc02053" width=60% height=60%> 
 
-![Screenshot 2024-09-06 130021](https://github.com/user-attachments/assets/f39b0ccd-d880-4da9-ad9e-1a7e7dc02053)
-
-+ fees
+> [!IMPORTANT]
+> **A 2% fee will be charged on the claim amount as payment to the Morpheus Protocol-Owned Liquidity.**
 
 ---
 
 ## Get Test MOR
+
 
 ---
 
