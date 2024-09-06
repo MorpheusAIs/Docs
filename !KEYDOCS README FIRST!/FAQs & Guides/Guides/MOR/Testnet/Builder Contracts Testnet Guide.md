@@ -67,7 +67,7 @@ To create a Builder pool, please follow these steps:
 ---
 
 ## Edit Builder Pool Before it Goes Live
-Pool admins can edit pool parameters (except name and admin address of the pool) before it is started.  
+Pool admins can edit pool parameters (except for the pool name and admin address) before the pool has started.  
 Follow these steps:  
 
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) page;
@@ -84,8 +84,8 @@ Follow these steps:
 
 ---
 
-## Get Pool Id
-After the pool is deployed, you will need to obtain the Pool ID to allow users to deposit MOR. 
+## Get Pool ID
+After the pool is deployed, you will need to obtain the Pool ID to allow users to deposit MOR.  
 Follow these steps:  
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) page;
 - open the **"Contract"** tab, then select the **"Read as Proxy"** tab;
@@ -115,10 +115,10 @@ Builders can get information about accrued by their pools MOR rewards with these
 
 You will find the Pool ID next to `uint256:`
 
+<img src="https://github.com/user-attachments/assets/911cec9b-7088-41d9-9b7e-ba909ca34bb8" width=60% height=60%> 
+
 > [!TIP]  
 > **To convert value, click on it and find `ETH (1)` field in the opened window**
-
-<img src="https://github.com/user-attachments/assets/911cec9b-7088-41d9-9b7e-ba909ca34bb8" width=60% height=60%> 
 
 ---
 
@@ -162,7 +162,7 @@ You will find the relevant pool details under the `[ builderPools(bytes32) metho
 > [!TIP]  
 > **To understand what each parameter means head to the [**Builder Pool Creation**](#builder-pool-creation) section**
 
-<img src="https://github.com/user-attachments/assets/0d327cc8-4997-44bb-98b6-1529b16d5164" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/0d327cc8-4997-44bb-98b6-1529b16d5164" width=80% height=80%> 
 
 ---
 
@@ -176,13 +176,13 @@ Follow these steps:
 - connect your wallet by clicking the **"Connect to Web3"** button;
 - find and select the `1.approve()` function, then input the following parameters:
   - `spender (address)`: **Builders Contract** address `0x649B24D0b6F5A4c3852fD4C0dD91308902E5fe8a`;
-  - `amount (uint256)`: amount of tokens in WEI. 1 MOR = 1000000000000000000 WEI. Should be more or equal to the amount you want to deposit. 
+  - `amount (uint256)`: amount of tokens to approve in WEI. (1 MOR = 1000000000000000000 WEI) Should be more or equal to the amount you want to deposit. 
 - click **"Write"** and confirm the transaction in your wallet.
 
 > [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to use WEI Unit Converter**
 
-<img src="https://github.com/user-attachments/assets/6ad245c2-b46e-49d8-af05-514455376187" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/6ad245c2-b46e-49d8-af05-514455376187" width=50% height=50%> 
 
 ### Step 2. Deposit MOR to a Builder Pool.
 The next step is MOR deposit into a Builder pool:
@@ -191,19 +191,20 @@ The next step is MOR deposit into a Builder pool:
 - connect your wallet by clicking the **"Connect to Web3"** button;
 - find and select the `4.deposit()` function, then input the following parameters:
   - `builderPoolId_ (bytes32)`:  Pool ID where you want to deposit MOR;
-  - `amount (uint256)`: amount of tokens in WEI. 1 MOR = 1000000000000000000 WEI. Should be less or equal to the amount you approved at previous step. 
+  - `amount (uint256)`: amount of MOR to deposit in WEI. (1 MOR = 1000000000000000000 WEI) Should be less or equal to the amount you approved at previous step. 
 - click **"Write"** and confirm the transaction in your wallet.
 
 <img src="https://github.com/user-attachments/assets/e98aed41-fc95-4c92-af5f-aa8a5f70c7cf" width=60% height=60%> 
 
 > [!IMPORTANT]
 > **You can not deposit amount less than minimum set by the Pool owner**
+> 
 > **Builders have the discretion to decide how to incentivize their users to stake MOR and determine what benefits to provide**
 
 ---
 
 ## Get Information about Deposited MOR
-If you want to know amount of MOR deposited in a Builders pool, follow these steps: 
+If you want to know amount of MOR deposited in a Builder pool, follow these steps: 
 - go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) page;
 - open the **"Contract"** tab, then select the **"Read as Proxy"** tab;
 - find and select the `17.usersData` function, then input the following parameters:
@@ -211,12 +212,12 @@ If you want to know amount of MOR deposited in a Builders pool, follow these ste
   - `builderPoolId (bytes32)`: Builder Pool ID where MOR is deposited;
 - click **"Query"**.
 
-You will find deposited amount next to `**deposited** uint256:`
+You will find deposited amount next to `deposited uint256:`
+
+<img src="https://github.com/user-attachments/assets/0b77a1a6-df77-4e81-ad3a-4d5132125a3e" width=60% height=60%>
 
 > [!TIP]  
 > **To convert value, click on it and find `ETH (1)` field in the opened window**
-
-<img src="https://github.com/user-attachments/assets/0b77a1a6-df77-4e81-ad3a-4d5132125a3e" width=60% height=60%>
 
 ---
 
@@ -227,7 +228,7 @@ If your MOR deposit is not locked according to the Builder Pool settings, you ca
 - connect your wallet by clicking the **"Connect to Web3"** button;
 - find and select the `14.withdraw()` function, then input the following parameters:
   - `builderPoolId_ (bytes32)`: Pool ID you want to withdraw MOR from;
-  - `amount_ (uint256)`: amount of tokens in WEI. (1 MOR = 1000000000000000000 WEI);
+  - `amount_ (uint256)`: amount of tokens to withdraw in WEI. (1 MOR = 1000000000000000000 WEI);
 - click **"Write"** and confirm the transaction in your wallet.
 
 > [!TIP]  
@@ -237,6 +238,7 @@ If your MOR deposit is not locked according to the Builder Pool settings, you ca
 
 > [!IMPORTANT]
 > **A 1% fee will be charged on the claim amount as payment to the Morpheus Protocol-Owned Liquidity**
+> 
 > **If you do a partial withdrawal, the remaining balance must be greater than the minimum pool deposit**
 
 ---
