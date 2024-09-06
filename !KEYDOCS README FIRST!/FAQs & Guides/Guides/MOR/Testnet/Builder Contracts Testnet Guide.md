@@ -29,9 +29,9 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 **Arbitrum Sepolia Testnet:**
 
 - **Test MOR Contract:** [0x34a285A1B1C166420Df5b6630132542923B5b27E](https://sepolia.arbiscan.io/token/0x34a285A1B1C166420Df5b6630132542923B5b27E)
-- 
 - **Builders Contract:** [0x649B24D0b6F5A4c3852fD4C0dD91308902E5fe8a](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a)
-- 
+
+  
 - **Builders Treasury Contract:** [0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6](https://sepolia.arbiscan.io/address/0x1C4b1025bf5b13e6CeD0dcf53f82ed01B5c27fB6)
 - **FeeConfig Contract:** [0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A](https://sepolia.arbiscan.io/address/0x6F9ea6F9B81feEe17604F7878f1Db22134a3E56A)
 
@@ -41,7 +41,7 @@ Metamask wallet is used in this guide, but for other Web3 wallets logic remains 
 Users can deposit MOR into Builder pools, which need to be registered first.  
 To create a Builder pool, please follow these steps:
 
-- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
+- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
 - open the **"Contract"** tab, then the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button.
 
@@ -77,7 +77,7 @@ Click **"Write"** and confirm the transaction in your wallet.
 Pool admins can edit pool parameters (except name and admin address of the pool) before it is started.  
 Follow these steps:  
 
-- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
+- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#writeProxyContract) contract;
 - open the **"Contract"** tab, then the **"Write as Proxy"** tab;
 - connect your wallet by clicking the **"Connect to Web3"** button;
 - find and select the `5.editBuilderPool()` function;
@@ -95,7 +95,7 @@ Follow these steps:
 ## Get Pool Id
 After the pool is deployed, you will need to obtain the pool ID to allow users to deposit MOR. 
 Follow these steps:  
-- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) contract;
+- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) contract;
 - open the **"Contract"** tab, then the **"Read as Proxy"** tab;
 - find and select the `11.getPoolId` function;
 - input the name of your pool under `builderPoolName_ (string)` field;
@@ -114,17 +114,26 @@ You will find the pool Id next to `bytes32:`
 ---
 
 ## Get Information about Pool Rewards
-You can , you will need to obtain the pool ID to allow users to deposit MOR. 
-Follow these steps:  
-- go to the Arbitrum Sepolia [Builders Contract](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract ) contract;
+Builders can get information about accrued by their pools MOR rewards with these steps:  
+- go to the Arbitrum Sepolia [Builders](https://sepolia.arbiscan.io/address/0x649b24d0b6f5a4c3852fd4c0dd91308902e5fe8a#readProxyContract) contract;
 - open the **"Contract"** tab, then the **"Read as Proxy"** tab;
-- find and select the `11.getPoolId` function;
-- input the name of your pool under `builderPoolName_ (string)` field;
+- find and select the `7.getCurrentBuilderReward` function;
+- input the pool id under `builderPoolId_ (bytes32)` field;
 - click **"Query"**.
+
+You will find the pool Id next to `uint256:`
+
+> [!TIP]  
+> **To convert value, click on it and find `ETH (1)` field in the opened window**
+
+<img src="https://github.com/user-attachments/assets/911cec9b-7088-41d9-9b7e-ba909ca34bb8" width=60% height=60%> 
 
 ---
 
 ## Claim MOR Rewards
+
+
+![Screenshot 2024-09-06 130021](https://github.com/user-attachments/assets/f39b0ccd-d880-4da9-ad9e-1a7e7dc02053)
 
 + fees
 
