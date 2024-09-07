@@ -78,4 +78,5 @@ All Code Contributions to include the following elements:
 | **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution** | **Weights Requested** | **Weight Time** |
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 7 | 8 | 0x0000000000000000000000000000000example | @contributor  | I've done ..... | http:// Link to proof | 1250 | 3 |
+| 8 | 8 | 0x22E0225540ccf80aB3C4F029F3dE75dB785754A3 | NirmaanAI  | Developed MOR Explorer V1 - Integrated supply and staking pages. End-to-end Frontend & Backend Development + API Code. Gitbook Catalog created which includes FE and BE examples along with the API reference including all endpoint specs and examples. | [MOR Explorer Code PR](https://github.com/MorpheusAIs/stats-graphs-and-endpoints/pull/1), [MOR Explorer Hosted Webapp](https://mor-explorer-frontend.pages.dev/), [MOR Explorer GitBook Catalog](https://nirmaans-organization.gitbook.io/morpheus-explorer) | 53000 | 11 |
 
