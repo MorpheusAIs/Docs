@@ -77,5 +77,5 @@ All Code Contributions to include the following elements:
 
 | **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution** | **Weights Requested** | **Weight Time** |
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 7 | 8 | 0x0000000000000000000000000000000example | @contributor  | I've done ..... | http:// Link to proof | 1250 | 3 |
+| 8 | 9 | 0x5CD4C60f0e566dCa1Ae8456C36a63bc7A8D803de | polupoker  | Discord & Telegram Bots development | [http:// Link to proof](https://discord\.com/oauth2/authorize?client\_id=1225160336144076980&permissions=292058032192&scope=bot, https://t.me/morpheus_ai_info_bot) | 15000 | 24 |
 
