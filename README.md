@@ -1,4 +1,4 @@
-<img src="/Graphics/MOR gradient logo.png" width=100% height=100%>
+<p align="center"> <img src="https://github.com/user-attachments/assets/1acd0683-cc00-4034-bb50-2b3568278d95" width=70% height=70%>
 
 # Morpheus
 ## A Network For Powering Smart Agents
