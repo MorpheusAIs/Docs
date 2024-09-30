@@ -57,8 +57,8 @@ Given the complexities surrounding the Year 1 value of weights, the weights sche
 |May 2024 | 2,500,000 | 53,960,232 | 1,222,076 | 100,000,000 | 0.01222 | MRC09 + Liquidity Support stETH | $64.10 | $0.783 | 
 |June 2024 | 2,250,000 | 56,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $49.50 | $0.60 | 
 |July 2024 | 2,000,000 | 58,210,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $22.20 | $0.27 | 
-|Aug 2024 | 1,750,000 | 59,960,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
-|Sept 2024 | 1,500,000 | 61,460,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | TBD | TBD | 
+|Aug 2024 | 1,750,000 | 59,960,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $19.71 | $0.24 | 
+|Sept 2024 | 1,500,000 | 61,460,232 | 1,222,076 | 100,000,000 | 0.01222 | Live Trading Price | $22.05 | $0.27 | 
 
 ## Monthly Weights Schedule
 These weights will be divided into even monthly amounts starting in Year 2 (September 2nd 2024).  
@@ -157,6 +157,8 @@ The table below repsents a summary of the data for each snapshot. Additional inf
 | May 2024 | Average Trading Price | $97.07 | $1.186 |
 | June 2024 | Average Trading Price | $49.50 | $0.60 |
 | July 2024 | Average Trading Price | $22.20 | $0.27 |
+| August 2024 | Average Trading Price | $19.71 | $0.24 |
+| September 2024 | Average Trading Price | $22.05 | $0.27 |
 
 ## September 2nd 2023 to February 8th 2024 Implied Value of a Weight "Snapshot 1" = $0.025 USD per Weight
 In theory, the initial implied value of 1 weight was $0.025 USD before there was a market-determined price as that is the average real cost paid to auditors & developers sponsored by Morpheus community members. However now that there is a real-world implied value of 1 weight this ought to be considered in each monthly snapshot.
@@ -203,3 +205,6 @@ The implied price for snapshot 6 is estimated based on the average trading price
 
 ## July 2024 Implied Value of a Weight "Snapshot 7" = $0.27 USD per Weight
 The implied price for snapshot 7 is estimated based on the average trading price of $MOR throughout the snapshot period. This implied value of a weight came out to $0.27 USD per weight which is based on the average price which was $22.20.
+
+## Snapshot 8 and Beyond Implied Value of a Weight 
+As the snapshot process has hit it's stride and consistently applies the average trading price methodology, the implied value will be tracked via the above table. Only if there are unique circumstances or specific notes will additional footnotes be added for an individual snapshot.
