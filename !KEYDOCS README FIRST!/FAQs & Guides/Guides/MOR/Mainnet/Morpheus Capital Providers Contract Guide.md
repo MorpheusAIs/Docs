@@ -1,4 +1,4 @@
-# Morpheus Capital Providers Contract Guide
+# Capital Providers Contract Guide
 
 ## Introduction
 The purpose of the guide is to pass you through the process of direct interaction with the Morpheus Capital Providers Distribution Contract.
