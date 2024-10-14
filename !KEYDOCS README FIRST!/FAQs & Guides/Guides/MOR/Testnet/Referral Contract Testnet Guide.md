@@ -90,7 +90,7 @@ After confirmation, you need to:
 > [!TIP]  
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
 
-<img src="https://github.com/user-attachments/assets/f72b33b3-b07e-4543-b387-5c80034befcb" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/f72b33b3-b07e-4543-b387-5c80034befcb" width=75% height=75%> 
 
 ---
 
@@ -123,7 +123,7 @@ You can check the referral bonus for and address by following these steps:
 > [!TIP]  
 > **To convert value, click on it and find `ETH (1)` field in the opened window**
 
-<img src="https://github.com/user-attachments/assets/11bcd917-6569-4fb4-89d1-21ed57195865" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/11bcd917-6569-4fb4-89d1-21ed57195865" width=75% height=75%> 
 
 ---
 
@@ -142,7 +142,7 @@ To claim them, please follow these steps:
 >[!NOTE]
 > It may take a few minutes for your rewards to appear in your wallet on the Arbitrum Sepolia chain.|
 
-<img src="https://github.com/user-attachments/assets/102ffabd-373a-49d1-8a74-027beb6f481c" width=55% height=55%>
+<img src="https://github.com/user-attachments/assets/102ffabd-373a-49d1-8a74-027beb6f481c" width=85% height=85%>
 
 ---
 
