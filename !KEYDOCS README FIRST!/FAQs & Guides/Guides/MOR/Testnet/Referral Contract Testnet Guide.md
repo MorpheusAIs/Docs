@@ -57,8 +57,7 @@ To mint mock stETH, please follow these steps:
 > [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
 
-<img src="![image](https://github.com/user-attachments/assets/f2636955-5498-41f6-ad83-9d30d1256f19)
-" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/f2636955-5498-41f6-ad83-9d30d1256f19" width=60% height=60%> 
 
 ---
 ## Deposit stETH with Referral Address
@@ -75,8 +74,7 @@ Before depositing stETH, you need to give the Morpheus Distribution contract an 
 > [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
 
-<img src="![image](https://github.com/user-attachments/assets/b5c2983f-fc4b-4032-83ee-4b3844bf4a0d)
-" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/b5c2983f-fc4b-4032-83ee-4b3844bf4a0d" width=60% height=60%> 
 
 After confirmation, you need to:
 - go to the [Distribution](https://sepolia.etherscan.io/address/0x7c46d6bebf3dcd902eb431054e59908a02aba524#writeProxyContract) contract;
@@ -92,8 +90,7 @@ After confirmation, you need to:
 > [!TIP]  
 > **Click [here](#how-to-use-timestamp-and-date-converter) to learn how to use Timestamp and Date Converter**
 
-<img src="![Screenshot 2024-10-14 222303](https://github.com/user-attachments/assets/f72b33b3-b07e-4543-b387-5c80034befcb)
-" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/f72b33b3-b07e-4543-b387-5c80034befcb" width=60% height=60%> 
 
 ---
 
@@ -109,8 +106,7 @@ You can check the referral bonus for and address by following these steps:
 > [!TIP]  
 > **To convert value, click on it, find `MEther` and multiply it by ten**
 
-<img src="![Screenshot 2024-10-14 230740](https://github.com/user-attachments/assets/559cbd4f-1116-4b5e-98ce-5af9d42cac4c)
-" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/559cbd4f-1116-4b5e-98ce-5af9d42cac4c" width=60% height=60%> 
 
 ---
 
@@ -127,8 +123,7 @@ You can check the referral bonus for and address by following these steps:
 > [!TIP]  
 > **To convert value, click on it and find `ETH (1)` field in the opened window**
 
-<img src="![image](https://github.com/user-attachments/assets/11bcd917-6569-4fb4-89d1-21ed57195865)
-" width=60% height=60%> 
+<img src="https://github.com/user-attachments/assets/11bcd917-6569-4fb4-89d1-21ed57195865" width=60% height=60%> 
 
 ---
 
@@ -147,8 +142,7 @@ To claim them, please follow these steps:
 >[!NOTE]
 > It may take a few minutes for your rewards to appear in your wallet on the Arbitrum Sepolia chain.|
 
-<img src="![Screenshot 2024-10-14 232621](https://github.com/user-attachments/assets/102ffabd-373a-49d1-8a74-027beb6f481c)
-" width=55% height=55%>
+<img src="https://github.com/user-attachments/assets/102ffabd-373a-49d1-8a74-027beb6f481c" width=55% height=55%>
 
 ---
 
