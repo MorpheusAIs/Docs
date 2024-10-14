@@ -57,7 +57,8 @@ To mint mock stETH, please follow these steps:
 > [!TIP]  
 > **Click [here](#how-to-use-unit-converter) to learn how to use WEI Unit Converter**
 
-<img src="https://github.com/user-attachments/assets/911cec9b-7088-41d9-9b7e-ba909ca34bb8" width=60% height=60%> 
+<img src="![image](https://github.com/user-attachments/assets/f2636955-5498-41f6-ad83-9d30d1256f19)
+" width=60% height=60%> 
 
 ---
 ## Deposit stETH with Referral Address
