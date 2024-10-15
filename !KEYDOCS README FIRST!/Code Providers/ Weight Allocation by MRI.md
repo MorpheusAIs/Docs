@@ -8,7 +8,7 @@ As Morpheus began its bootstrapping, weights were distributed from a single pool
 ## Morpheus Reference Implementations (MRIs)
 The key document which goes into detail regarding the MRI system and design can be found [here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Morpheus%20Reference%20Implementations%20(MRC).md)
 
-In summary, there are currently 10 existing MRIs:
+In summary, there are currently 10 existing MRIs last updated October 15th 2024:
 
 - 1  	MOR Distribution Smart Contracts
 - 2  	Smart Agents
