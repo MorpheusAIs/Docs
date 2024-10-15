@@ -1,12 +1,16 @@
-# DistributionV3
+# DistributionV4
 
-[`DistributionV3.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/DistributionV2.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
+[`DistributionV4.sol`](https://github.com/MorpheusAIs/SmartContracts/blob/main/contracts/DistributionV2.sol) is the core contract of the [Techno Capital Machine](../!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md). It allows Capital Providers to stake stETH (Lido Staked ETH) on Ethereum and claim MOR rewards to Arbitrum.
 
-`DistributionV3` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
+`DistributionV4` utilizes [`L1Sender`](L1Sender.md) to bridge stETH yield and relay MOR claims to Arbitrum. [`LinearDistributionIntervalDecrease`](LinearDistributionIntervalDecrease.md) is used to calculate pool rewards.
 
 This contract is also used to track other MOR emissions through private pools. For instance, pool `1` is a private pool used to track Code emissions, where deposit "amounts" correspond to [weights](https://github.com/MorpheusAIs/Docs/blob/main/Guides/Code%20Contributor%20Weights%20Guide.md).
 
-As of V3, this contract also allows users to lock MOR emissions for a chosen period of time. During this period, emissions cannot be claimed; however a multiplier of up to 10.7x is applied.
+## Version History
+
+The V3 version of the contract introduces the ability to lock MOR emissions for a chosen period of time. During this period, emissions cannot be claimed; however a multiplier of up to 10.7x is applied.
+
+The V4 version of the contract introduces two new lock periods -- `claimLockPeriodAfterClaim` and `claimLockPeriodAfterStake` -- for each pool. Initially, these are set to 90 days for the capital pool (pool 0) and 0 for all other pools. During this period after claiming or staking, emissions are locked and cannot be claimed.
 
 ## Public Variables
 
@@ -19,6 +23,8 @@ As of V3, this contract also allows users to lock MOR emissions for a chosen per
 | `usersData`                   | mapping(address => mapping(uint256 => [`UserData`](#userdata))) | Ongoing tracking data for user participation in pools.            |
 | `totalDepositedInPublicPools` | uint256                                                         | The total amount of the deposit token in all public pools.        |
 | `totalVirtualDeposited` | uint256                                                         | The total "virtual" amount of the deposit token in all pools after accounting for claim lock multipliers.        |
+| `claimLockPeriodAfterClaim` | uint128 | The period in seconds during which emissions cannot be claimed after claiming. |
+| `claimLockPeriodAfterStake` | uint128 | The period in seconds during which emissions cannot be claimed after staking. |
 
 ## Functions
 
