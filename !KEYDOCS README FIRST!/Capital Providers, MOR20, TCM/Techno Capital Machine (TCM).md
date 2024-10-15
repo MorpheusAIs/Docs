@@ -21,7 +21,8 @@ The term Techno Capital Machine is inspired by renowned philosopher [Beff Jezos]
 - The native tokens are then paired with the other 50% of the yield and deposited to a liquidity pool on an AMM.
 
 How to launch your decentralized, open source project in 2024:
-![TCMin2024](https://github.com/MorpheusAIs/Morpheus/assets/1563345/26c16eed-a5f6-4605-a628-57b96c2530be)
+
+<img src="https://github.com/MorpheusAIs/Morpheus/assets/1563345/26c16eed-a5f6-4605-a628-57b96c2530be" width=70% height=70%>
 
 ## TCM As A Solution
 Let’s coalesce to create a frictionless way for developers to launch projects using the Techno Capital Machine, shall we?  
