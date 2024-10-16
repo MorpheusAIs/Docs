@@ -77,5 +77,9 @@ All Code Contributions to include the following elements:
 
 | **Snapshot** | **MRI** | **Wallet Address** | **GitHub Handle** | **Description of Contribution** | **Proof of Contribution** | **Weights Requested** | **Weight Time** |
 | --- | --- | --- | --- | --- | --- | --- | --- | 
+
+| 7 | 8 | 0x0000000000000000000000000000000example | @contributor  | I've done ..... | http:// Link to proof | 1250 | 3 |
+| 8 | 7 | 0x34dC5FE4fCe0f074bB2922CA2a0fB12Be780EaAE | Stan909  | Created the Compute Tokenomics initial framework which went on to become the bulk of MRC40. Framework was developed via research and discussions around various approaches to handling the tokenomics and rewards for Compute providers | (https://docs.google.com/document/d/1jUkI5il-hf1RsrJ9IcHreEy43MyOpkAnHbui67NE3jY/edit#heading=h.wci5qg2k2nr8) , https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC40.md| 15000 | 18 |
+| 8 | 1 | 0x34dC5FE4fCe0f074bB2922CA2a0fB12Be780EaAE | Stan909  | Analytics and community support surrounding code and capital staking rollout. Creation of tables, dashboards, and disuccsion. | https://github.com/MorpheusAIs/MRC/pull/74 , https://morstats.info/staked_eth/| 5000 | 18 |
 | 8 | 9 | 0x5CD4C60f0e566dCa1Ae8456C36a63bc7A8D803de | polupoker  | Discord & Telegram Bots development | [http:// Link to proof](https://discord\.com/oauth2/authorize?client\_id=1225160336144076980&permissions=292058032192&scope=bot, https://t.me/morpheus_ai_info_bot) | 15000 | 24 |
 
