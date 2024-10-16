@@ -10,17 +10,18 @@ The key document which goes into detail regarding the MRI system and design can 
 
 In summary, there are currently 10 existing MRIs last updated October 15th 2024:
 
-- 1  	MOR Distribution Smart Contracts
-- 2  	Smart Agents
-- 3  	UI/UX (Local, Web, & Mobile)
-- 4  	MOR20
-- 5  	Protection Fund
-- 6  	Capital Tools
-- 7  	Routing Node & Compute Market
-- 8  	Code Tools
-- 9  	Builder Tools
-- 10  MOR Interoperability
-
+### Names of Each MRI & Weights
+- 1  	MOR Distribution: 8,000,000
+- 2  	Smart Agents: 12,000,000
+- 3  	UI/UX (Local, Web, & Mobile): 14,000,000
+- 4  	MOR20: 8,000,000
+- 5  	Protection Fund: 8,000,000
+- 6  	Capital Tools: 10,000,000
+- 7  	Routing Node & Compute Market: 14,000,000 
+- 8  	Code Tools: 10,000,000
+- 9  	Builder Tools: 10,000,000
+- 10  MOR Interoperability: 6,000,000
+**Total 100,000,000 Weights**
 
 As Morpheus evolves, so will these MRIs. Some may accomplish their goals and fade away to maintenance roles, others may shift based on the overall changes to the ecosystem, and more will come into the fold as there are new opportunities and obstacles that develop for Morpheus. This is to be expected and should continue to foster an environment of healthy competition - furthering the point that weights are valuable and highly sought after. As Morpheus transitions into that period, these guides will expand on documentation in order to define the steps taking for MRIs to be added and/or removed entirely.
 
