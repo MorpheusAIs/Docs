@@ -1,7 +1,7 @@
-# Application Builders Contract Testnet Guide
+# Referral Contract Testnet Guide
 
 ## Introduction
-This guide will walk you through the main functions of the Morpheus Application Builders Smart Contract on Arbitrum Sepolia from both, Builder and End User sides.
+This guide will walk you through the main functions of the Morpheus Referral Smart Contract on Sepolia testnet.
 
 ---
 
