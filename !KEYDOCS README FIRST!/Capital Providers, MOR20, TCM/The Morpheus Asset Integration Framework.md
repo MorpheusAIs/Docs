@@ -30,7 +30,7 @@ For assets not native to Ethereum, the presence of existing cross-chain infrastr
 Will the MOR token / liquidity pool be established on the new venue? If so, points #3 and #4 below should be satisfied. Regardless, the proposal should detail the logistics of cross-chain MOR minting or transferring yield from the newly added network to Arbitrum, to be utilized as Protocol-Owned Liquidity (PoL).
 
 - **Liquidity Pool Initiation.**  
-The new asset proposal should outline a clear initiation plan for the liquidity pool on the new venue. This period serves as a buffer, ensuring that the asset's integration proceeds smoothly and efficiently. Morpheus itself was started with a similar bootstrapping period, details of which can be found at https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md. 
+The new asset proposal should outline a clear initiation plan for the liquidity pool on the new venue. This period serves as a buffer, ensuring that the asset's integration proceeds smoothly and efficiently. Morpheus itself was started with a similar bootstrapping period, details of which can be found [here.](/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md) 
 
 The primary topics for this pool initiation plan will include:  
 - Timeline
