@@ -1,11 +1,11 @@
 # Sample Compute Provider Build:
 
 ## Table of Contents
-1. [**Summary**] (#Summary)
-2. [**Sample Build**] (#Sample-Build)
-3. [**Build and Configuration**] (#Build-and-Configuration)
-4. [**LLM Configuration**] (#LLM-Configuration)
-5. [**Proxy Router Configuration**] (#Proxy-Router-Configuration)
+1. [**Summary**] (#summary)
+2. [**Sample Build**] (#sample-build)
+3. [**Build and Configuration**] (#build-and-configuration)
+4. [**LLM Configuration**] (#configuration-for-llms)
+5. [**Proxy Router Configuration**] (##proxy-router)
 
 ## Summary
 
