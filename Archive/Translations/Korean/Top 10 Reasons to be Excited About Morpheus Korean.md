@@ -29,7 +29,7 @@
 코인의 유동성 공급을 위해 언제든지 자금을 인출할 수 있는 기존의 유동성 공급자와는 달리, 모피어스에서는 [커뮤니티가 스테이킹해 발생된 stETH 수익이 유니스왑의 유동성 풀로 바로 전달](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Phased%20AMM%20Deployment%20and%20Fair%20Price%20Discovery.md)되어 매일 증가합니다. 이러한 성장은 고래 투자자들에게 매력적인 지표입니다. 
 
 ### 6. 실사용이 가능한 MOR의 유용성
-MOR 홀더는 토큰 소유 비율에 따라 [매일 무료 AI 컴퓨팅에 액세스](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Korean/Yellowstone%20Compute%20Model%20Korean.md)할 수 있습니다. MOR을 소유하면 반복적인 수수료 없이도 네트웤ㄴ느의 컴퓨팅 파워에 직접적으로 액세스할 수 있습니다.
+MOR 홀더는 토큰 소유 비율에 따라 [매일 무료 AI 컴퓨팅에 액세스](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Korean/Yellowstone%20Compute%20Model%20Korean.md)할 수 있습니다. MOR을 소유하면 반복적인 수수료 없이도 네트워크의 컴퓨팅 파워에 직접적으로 액세스할 수 있습니다.
 
 ### 7. 그리고 MOR을 스테이킹할 수 있다는 점
 MOR 홀더는 복잡한 4진법 투표 절차, DAO 또는 정치적으로 동요되는 커뮤니티 펀드를 다룰필요 없이 자신이 지지하는 새로운 프로젝트에 [토큰을 스테이킹](https://github.com/MorpheusAIs/Docs/blob/main/Translations/Korean/Techno%20Capital%20Machine%20TCM%20Korean.md)하고 노력에 대한 보상 수령에 따라 직접적으로 투표합니다. 
