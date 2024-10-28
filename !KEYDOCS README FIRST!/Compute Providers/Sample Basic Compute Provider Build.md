@@ -1,17 +1,19 @@
 # Sample Compute Provider Build:
 
 ## Table of Contents
-1. Summary
-2. Sample Build
-3. Build and Configuration
-4. LLM Configuration
-5. Proxy Router Configuration
+1. [**Summary**](#summary)
+2. [**Sample Build**](#sample-build)
+3. [**Build and Configuration**](#build-and-configuration)
+4. [**LLM Configuration**](#configuration-for-llms)
+5. [**Proxy Router Configuration**](#proxy-router)
 
 ## Summary
 
 The below information describes a sample basic compute build that can be used to provide compute within the Morpheus Compute ecosystem. The Morpheus Compute ecosystem is an open marketplace, where compute providers of all sizes and capabilities can enter “bids” or offers for consumers to execute prompts against the LLM they are hosting. As the ecosystem scales, providers will likely consolidate towards models in the highest demand, and this sample build may or may not be capable of hosting those models effectively. 
 
 For more information on the Morpheus Compute Node, visit the githubs here: https://github.com/MorpheusAIs/Docs/tree/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers, https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/tree/dev/docs
+
+**It is important to note: This is a live document that will continue to be updates as both hardware and LLM hosting optimizations are identified. This can and will be changed without prior notice, and should be used as a basic guide rather than perscriptive instructions.**
 
 
 ## Sample Build
@@ -91,7 +93,7 @@ model_file_name=tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 
 For this example, this is the direct input for a single GPU: ```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 8192 --threads 8```
 
-For this example, this is the direct input for a dual GPU: ```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 135168 --threads 8 --parallel 22```
+For this example, this is the direct input for a dual GPU: ```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 98304 --threads 8 --parallel 16 --flash-attn```
 
 Note: ctx-size, n-gpu-layers, and parallel are dependent on your GPU selection. Threads are based on your CPU selection. 
 
