@@ -1,5 +1,8 @@
 # The 5 phases of Morpheus launch match those of Ethereum - Genesis, Frontier, Homestead, Metropolis & Serenity
 
+![image](https://github.com/user-attachments/assets/77feb435-0f0f-43b3-ba3d-a63f0324a339)
+
+
 ## Genesis
 **September 2nd 2023 to February 8th 2024**  
 Morheus whitepaper released, first local install in October 2023. Following successful audits and testnet deployments, smart contracts for the Morpheus (MOR) token and its fair launch were deployed to Ethereum and Arbitrum mainnet on February 7th 2024. 
@@ -26,10 +29,6 @@ As Morpheus is intended to be chain-agnostic, it is worth considering proposals 
 These are significant and interrelated projects as adding yield sources necessitates adding the MOR token to other chains in a way where cross-chain messaging is possible. 
 
 ---
-
-### Testing Plan
-Outlined here is the testing plan for the Morpheus Smart Contracts:
-https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Morpheus%20Testing%20Plan.md
 
 ### History
 February 8th 2024 is the 28th Anniversary of "A Declaration of the Independence of Cyberspace" (February 8th 1996). 

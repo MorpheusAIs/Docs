@@ -1,4 +1,4 @@
-# MOR Uniswap Swap Guide
+# MOR Token Uniswap Swap Guide
 
 >[!WARNING]
 > **Trading on decentralized exchanges like Uniswap involves inherent risks, including but not limited to slippage and liquidity risk, smart contract risk, impermanent loss, scams. It's advisable to do your research and understand the risks before engaging in any trading activities.**

@@ -11,6 +11,10 @@
 - **Morpheus Arbitrum** [**Multisignature**](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Multisignature%20Account.md) **wallet**: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)
 - **Uniswap Arbitrum liquidity pool:** [0xE5Cf22EE4988d54141B77050967E1052Bd9c7F7A](https://app.uniswap.org/explore/pools/arbitrum/0xE5Cf22EE4988d54141B77050967E1052Bd9c7F7A)
 
+### Base
+- **MOR token:** [0x7431ada8a591c955a994a21710752ef9b882b8e3](https://basescan.org/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
+- **Multisig Base:** [0xf3ef00168dd40eae68a7e670d56c7b8724e0c183](https://basescan.org/address/0xf3ef00168dd40eae68a7e670d56c7b8724e0c183)
+
 ## PoL Generation Mechanics
 ### Pre-launch Bootstrapping Phase
 Morpheus’ Fair Launch kicked off on February 8, 2024 at 12:00 UTC with the beginning of the liquidity Bootstrapping phase. The goal of this phase is to generate yield for Morpheus via the [Techno Capital Machine (TCM) model](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md). 
