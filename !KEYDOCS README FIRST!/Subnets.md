@@ -6,5 +6,5 @@
 - Subnets may open the ability for MOR holders to Stake toward their Subnets and share the rewards (still under development).
 - Morpheus is agnostic to where Subnets serve the Inference from, so users of Akash and other GPU networks are welcome to become providers.
 
-## Technical Documentation on Ranking.
+## Technical Documentation on Ranking
 https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?usp=sharing
