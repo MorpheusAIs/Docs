@@ -73,7 +73,8 @@ To install llama.cpp and host your model locally, follow these instructions:
 
 **1) Install llama.cpp**
 
-```git clone https://github.com/ggerganov/llama.cpp.git
+```
+git clone https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
 make -j 8 LLAMA_CUDA=1
 ```
@@ -86,7 +87,7 @@ model_file_name=tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 wget -O models/${model_file_name} ${model_url}/${model_collection}/resolve/main/${model_file_name}
 ```
 
-For this example, this is the direct input: 
+For this example, this is the direct input:  
 ```wget -o models/Hermes-3-Llama-3.1-8B.Q8_0.gguf https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf```
 
 **3) Host Model**
@@ -97,11 +98,14 @@ model_file_name=tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 ./llama-server -m models/${model_file_name} --host ${model_host} --port ${model_port} --n-gpu-layers 99 --ctx-size 8192 --threads 8
 ```
 
-For this example, this is the direct input for a single GPU: ```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 8192 --threads 8```
+For this example, this is the direct input for a single GPU:  
+```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 8192 --threads 8```
 
-For this example, this is the direct input for a dual GPU: ```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 98304 --threads 8 --parallel 16 --flash-attn```
+For this example, this is the direct input for a dual GPU:  
+```./llama-server -m models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf --host 127.0.0.1 --port 8080 --n-gpu-layers 99 --ctx-size 98304 --threads 8 --parallel 16 --flash-attn```
 
-Note: ctx-size, n-gpu-layers, and parallel are dependent on your GPU selection. Threads are based on your CPU selection. 
+> [!Note]
+> ctx-size, n-gpu-layers, and parallel are dependent on your GPU selection. Threads are based on your CPU selection. 
 
 **4) Interact with Model**
 
