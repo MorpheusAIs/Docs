@@ -9,4 +9,16 @@
 ## Technical Documentation on Ranking
 https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?usp=sharing
 
+## MOR Staking Requirement For Subnets To Earn MOR Emissions 
+- A certain level of minimum Staking of MOR will prevent bad actors from hurting the Morpheus Inference users with bad sessions & other attacks.
+- This brings up the question of "how much economic alignment with Morpheus" is required to block most bad actors.
+- An alaysis of existing ETH Staking requirements of 32 ETH per validator would suggest around 6,400 MOR presuming 0.005 ETH per MOR.
+- Though the risks around an ETH validator today are perhaps less than that of an earlier stage project such as Morpheus.
+- With this in mind 10,000 MOR seems like an appropriate level to require. 
+- With over 1,000,000 MOR claimed and "in circulation" that enables over 100+ potential Subnets.
+
+- This requirement should only apply to earning new MOR emissions from the protocol.
+- Anyone is free to set a direct session with a Compute Provider and pay MOR directly.
+- Also each Subnet operator will not be required to directly own 10,000 MOR, they can instead borrow it from users via Delegration.
+
 ## There Will Also Be Builder Subnets (Under Development)
