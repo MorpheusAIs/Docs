@@ -275,7 +275,22 @@ parallel=16
 http://<model_host>:<model_port>
 ```
 
-Upon completion of setup of the LLM, you will need to conduct the following transactions within the proxy-router
+Upon completion of setup of the LLM, you will need to conduct the following transactions within the proxy-router:
+
+*  6) `Create Provider`
+  
+  ![Screenshot 2024-11-11 at 10 55 48 PM](https://github.com/user-attachments/assets/45fc8d82-f39f-4244-ae04-ab7ba5d6ed55)
+
+*  7) `Create Model` (if it does not exist)
+  
+  ![Screenshot 2024-11-11 at 10 55 59 PM](https://github.com/user-attachments/assets/3c95721b-4e33-45c9-a503-f5326b863cb0)
+
+*  8) `Create Bid` (what cost are you willing to accept for offering your compute)
+  
+  ![Screenshot 2024-11-11 at 10 56 12 PM](https://github.com/user-attachments/assets/654e77aa-281a-4e04-aa27-5c7afa71e7f2)
+
+
+  When complete, your subnet will be ready for consumers to create sessions and interact with your model!
 
 ---
 
@@ -289,19 +304,7 @@ Upon completion of setup of the LLM, you will need to conduct the following tran
 
 4. [Morpheus Lumerin Node Github.](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 
-5. https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Sample%20Basic%20Compute%20Provider%20Build.md
-
-*  6) Create Provider
-  
-  ![Screenshot 2024-11-11 at 10 55 48 PM](https://github.com/user-attachments/assets/45fc8d82-f39f-4244-ae04-ab7ba5d6ed55)
-
-*  7) Create Model (if it does not exist)
-  
-  ![Screenshot 2024-11-11 at 10 55 59 PM](https://github.com/user-attachments/assets/3c95721b-4e33-45c9-a503-f5326b863cb0)
-
-*  8) Create Bid (what cost are you willing to accept for offering your compute)
-  
-  ![Screenshot 2024-11-11 at 10 56 12 PM](https://github.com/user-attachments/assets/654e77aa-281a-4e04-aa27-5c7afa71e7f2)
+5. [Sample Compute Provider Build.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Sample%20Basic%20Compute%20Provider%20Build.md)
 
 
-  When complete, your subnet will be ready for consumers to create sessions and interact with your model!
+
