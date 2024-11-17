@@ -1,4 +1,4 @@
-# Intro to Morpehus Compute Node
+# Intro to Morpheus Compute Node
 
 ## Table of Contents
 1. [**Summary**](#summary)
