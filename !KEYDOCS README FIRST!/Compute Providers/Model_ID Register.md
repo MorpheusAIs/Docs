@@ -27,7 +27,7 @@ NousReseach Models
 | Model Name| Filename | URL | Model ID |
 | :---------------- | :----------: | :----------: | ----: |
 | Hermes-3-Llama-3.1-70B | Hermes-3-Llama-3.1-70B.Q5_K_M.gguf | [https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B-GGUF/resolve/main/Hermes-3-Llama-3.1-70B.Q5_K_M.gguf] | 0xc823a1b04ea113fffa28b3663f12976fda0285e2a3df90303a3bd7488e7fdeed |
-| Hermes-3-Llama-3.1-8B | Hermes-3-Llama-3.1-8B.Q8_0.gguf | Hermes-3-Llama-3.1-8B.Q8_0.gguf | [https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q8_0.gguf] | 0x790d53e2386b9c6a8a20d133f20e0e9f30c3bbcd58443866adbdde242bdb1b8c |
+| Hermes-3-Llama-3.1-8B | Hermes-3-Llama-3.1-8B.Q8_0.gguf | [https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q8_0.gguf] | 0x790d53e2386b9c6a8a20d133f20e0e9f30c3bbcd58443866adbdde242bdb1b8c |
 | Hermes-2-Pro-Llama-3-8B | Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q8_0.gguf | [https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q8_0.gguf] | 0xfc91411c689d11319171c2e29f9d8533cd87348b6c5d15016c230df266af3d0a |
 
 Qwen Models
