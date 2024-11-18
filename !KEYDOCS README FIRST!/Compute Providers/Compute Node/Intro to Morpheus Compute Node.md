@@ -97,7 +97,7 @@ A Morpheus Compute Subnet is a specific Compute Provider who is offering "Infere
 
 Subnets will be eligible to receive a portion of the daily compute emissions defined in the Yellowstone model. Staked MOR will be locked within the proxy router contracts for 1 year. 
 
-More information on subnets is available [here](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Subnets.md)
+More information on subnets is available [here](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Subnets.md)
 
 ---
 
