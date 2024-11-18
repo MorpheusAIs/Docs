@@ -124,7 +124,9 @@ For this example: ```http://127.0.0.1:8080```
 ---
 
 ## Proxy Router
-The configuration of the proxy router will not be described in this document. Please review [this github](https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/blob/dev/docs/02-provider-setup.md) and [Intro to Morpheus Compute Node](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Intro%20to%20Morpheus%20Compute%20Node.md#provider-setup)
+The configuration of the proxy router will not be described in this document. 
+
+Please review [this github](https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/blob/dev/docs/02-provider-setup.md) and [Intro to Morpheus Compute Node](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Intro%20to%20Morpheus%20Compute%20Node.md#provider-setup)
 
 
 > [!TIP]
