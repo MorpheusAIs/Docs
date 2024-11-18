@@ -223,7 +223,7 @@ Detailed instructions on how to setup a provider are [here.](https://github.com/
 cp models-config.json.example models-config.json
 vi models-config.json
 ```
-*  4) Edit this file and be sure to include the **MODEL_ID**, which you can find on the top of this document for commonly hosted models, or your own MODEL_ID if you are hosting a new model. Include the modelName, apiType (typically openai), and the apiUrl (where you are hosting the LLM)
+*  4) Edit this file and be sure to include the **MODEL_ID**, which you can find in the [**Model_ID Registry**](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Model_ID%20Registry.md#model-id-registry), or your own MODEL_ID if you are hosting a new model. Include the `modelName`, `apiType` (typically openai), and the `apiUrl` (where you are hosting the LLM).
 *  5) Build and run the proxy-router
 ```
 ./build.sh 
