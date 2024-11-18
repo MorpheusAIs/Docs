@@ -296,15 +296,15 @@ Upon completion of setup of the LLM, you will need to conduct the following tran
 
 ## Important Links
 
-1. [Lake Travis Decentralized AI Inference System.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
+1. [Lake Travis Decentralized AI Inference System](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
 
-2. [Morpheus Lumerin Model.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
+2. [Morpheus Lumerin Model](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
    
-3. [Morpheus "Yellowstone" Compute Model.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) 
+3. [Morpheus "Yellowstone" Compute Model](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) 
 
-4. [Morpheus Lumerin Node Github.](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
+4. [Morpheus Lumerin Node Github](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 
-5. [Sample Compute Provider Build.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Sample%20Basic%20Compute%20Provider%20Build.md)
+5. [Sample Compute Provider Build](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Sample%20Basic%20Compute%20Provider%20Build.md)
 
 6. [Model ID Registry](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Model_ID%20Registry.md)
  
