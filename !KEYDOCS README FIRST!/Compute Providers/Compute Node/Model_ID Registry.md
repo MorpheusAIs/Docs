@@ -7,7 +7,7 @@ Within the Mopheus Compute Node, users can add new models to the marketplace. Fo
 
 Ideally, all providers hosting the same model utilize the same model_ID for that model, allowing users to match with the best provider for their session. 
 
-When opening sessions by Model_ID (expected common path), the value of the system increases exponentially when providers use standard Model_IDs 
+When opening sessions by Model_ID (expected common path, see basic instructions [here](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Intro%20to%20Morpheus%20Compute%20Node.md#provider-setup)), the value of the system increases exponentially when providers use standard Model_IDs 
 #### Value to users: 
 User matches with the best provider, utilizing ranking of a larger subset of providers.
 #### Value to providers: 
