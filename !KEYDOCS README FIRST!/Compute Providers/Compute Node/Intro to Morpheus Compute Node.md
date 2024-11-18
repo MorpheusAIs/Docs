@@ -296,19 +296,22 @@ Upon completion of setup of the LLM, you will need to conduct the following tran
 
 ## Important Links
 
-1. [Lake Travis Decentralized AI Inference System.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
+1. [Lake Travis Decentralized AI Inference System.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Lake%20Travis%20Decentralized%20AI%20Inference%20System.md)
 
-2. [Morpheus Lumerin Model.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
+2. [Morpheus Lumerin Model.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Morpheus%20Lumerin%20Model.md)
    
-3. [Morpheus "Yellowstone" Compute Model.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) 
+3. [Morpheus "Yellowstone" Compute Model.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Yellowstone%20Compute%20Model.md) 
 
 4. [Morpheus Lumerin Node Github.](https://github.com/MorpheusAIs/Morpheus-Lumerin-Node)
 
-5. [Sample Compute Provider Build.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Sample%20Basic%20Compute%20Provider%20Build.md)
+5. [Sample Compute Provider Build.](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Sample%20Basic%20Compute%20Provider%20Build.md)
 
 6. [Model ID Register](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Model_ID%20Register.md)
  
+7. [Compute Providers Ranking](https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?tab=t.0#heading=h.m15gchuzoli8)
 
-8. [Compute Providers Ranking](https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?tab=t.0#heading=h.m15gchuzoli8) 
+
+> [!TIP]
+> ### If you encounter any difficulties or have any questions, you can get support in [#compute-providers Discord chat.](https://discord.com/channels/1151741790408429580/1167520834139738289)
 
 
