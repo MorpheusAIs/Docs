@@ -1,20 +1,24 @@
-# Model ID Register
+# Model ID Registry
 
 ## Introduction
-Within the Mopheus Compute Node, users can add new models to the marketplace. For the simplicity of consumers, some model_IDs have been pre-seeded into the marketplace. Consumers have the option of initiating sessions with providers by Bid_ID (meaning a specific provider/model pair), or by Model_ID (all providers hosting a specific model). Ideally, all providers hosting the same model utilize the same model_ID for that model, allowing users to match with the best provider for their session. 
+Within the Mopheus Compute Node, users can add new models to the marketplace. For the simplicity of consumers, some model_IDs have been pre-seeded into the marketplace. Consumers have the option of initiating sessions with providers by:  
+- `Bid_ID` (meaning a specific provider/model pair), or by   
+- `Model_ID` (all providers hosting a specific model).
+
+Ideally, all providers hosting the same model utilize the same model_ID for that model, allowing users to match with the best provider for their session. 
 
 When opening sessions by Model_ID (expected common path), the value of the system increases exponentially when providers use standard Model_IDs 
 #### Value to users: 
-User matches with best provider, utilizing ranking of a larger subset of providers
+User matches with the best provider, utilizing ranking of a larger subset of providers.
 #### Value to providers: 
-Provider has higher liklihood to match with a consumer, entering a larger pool of demand
+Provider has higher liklihood to match with a consumer, entering a larger pool of demand.
 
 > [!NOTE]
 > If you are a provider and using one of the below models, **DO NOT** create a new model within the proxy router. Use the Model_ID below for your models-config.json file
 >
 > If you are a provider and using a model that is not on the list below, edit this file and submit a pull request to faciliate larger scale use
 
-## Common Models
+## Standard Marketplace Models
 
 ### Meta Llama Models
 | Model Name| Filename | URL | Model ID |
