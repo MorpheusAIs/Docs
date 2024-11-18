@@ -164,7 +164,7 @@ Detailed consumer setup instructions located [here](https://github.com/MorpheusA
 2) Run a launch command via CLI to start the program:
   - `mor-launch.exe` for windows;
   - `./mor-launch` for linux and macOS.
-4) Following this setup, you will need to connect your existing wallet or create a new wallet in the UI. 
+3) Following this setup, you will need to connect your existing wallet or create a new wallet in the UI. 
 
 **Advanced approach:**  
 
