@@ -306,6 +306,9 @@ Upon completion of setup of the LLM, you will need to conduct the following tran
 
 5. [Sample Compute Provider Build.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Sample%20Basic%20Compute%20Provider%20Build.md)
 
-6. [Compute Providers Ranking](https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?tab=t.0#heading=h.m15gchuzoli8) 
+6. [Model ID Register](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Model_ID%20Register.md)
+ 
+
+8. [Compute Providers Ranking](https://docs.google.com/document/d/1jQPcGcjpO-vu9PTiMKyEqXOwRyuE_gzmQq56irXd3Zc/edit?tab=t.0#heading=h.m15gchuzoli8) 
 
 
