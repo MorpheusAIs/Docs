@@ -16,7 +16,7 @@
 ## Summary
 The Morpheus Compute Node is a vital component of the Morpheus Ecosystem. It leverages the Lumerin protocol routing pattern to establish a peer-to-peer, decentralized, and anonymous network that connects AI users with providers of AI models and agents. Specifically, it facilitates transactions between consumers (users seeking to execute LLM prompts) and compute providers (those offering the computational resources needed to process these prompts).
 
-After a successful testnet phase, the Compute Node is set to officially launch on mainnet on November 17th 2024, marking a significant milestone for the ecosystem.
+After a successful testnet phase, the Compute Node is set to officially launch on mainnet on November 18th 2024, marking a significant milestone for the ecosystem.
 
 ![Screenshot 2024-11-11 at 10 49 55 PM](https://github.com/user-attachments/assets/2080c13e-5b63-4577-a630-d191a07f6882)
 
