@@ -7,6 +7,8 @@
 4. [**LLM Configuration**](#configuration-for-llms)
 5. [**Proxy Router Configuration**](#proxy-router)
 
+---
+
 ## Summary
 The below information describes a sample basic compute build that can be used to provide compute within the Morpheus Compute ecosystem. The Morpheus Compute ecosystem is an open marketplace, where compute providers of all sizes and capabilities can enter “bids” or offers for consumers to execute prompts against the LLM they are hosting. As the ecosystem scales, providers will likely consolidate towards models in the highest demand, and this sample build may or may not be capable of hosting those models effectively. 
 
@@ -17,6 +19,7 @@ For more information on the Morpheus Compute Node, visit the githubs:
 > [!NOTE]
 > **This is a live document that will continue to be updates as both hardware and LLM hosting optimizations are identified. This can and will be changed without prior notice, and should be used as a basic guide rather than perscriptive instructions.**
 
+---
 
 ## Sample Build
 This computer was developed to optimize for cost, while meeting minimum requirements to effectively host a commonly used LLM (8B parameter, multi GPU for larger model or larger number of parallel prompts). This was designed with consideration for dual GPU capacity, although some further improvements could be made for optimization (noted below). This compute build delivers ~80TPS on the 8B parameter models. Estimated cost with all new parts $4500. 
@@ -44,12 +47,12 @@ Following the addition of the second GPU, I may have made the following decision
 > [!NOTE]
 > **RTX3090 GPUs are no longer being sold new (generally), and the RTX4090 is the upgraded model. Since GPU VRAM is our largest bottleneck for large models, finding an RTX3090 is a more economical option (used cards can be found in secondary markets). When the RTX5090 launches, if it contains more than 24GB RAM, it may be a more optimal solution (at an expectedly much higher cost).**
 
+---
 
 ## Build and configuration
 _Connect all the parts together_
 
 ![signal-2024-10-25-005008_002](https://github.com/user-attachments/assets/afca6e73-a0f4-4ff7-aa45-b7f4e30d0386)
-
 
 To fit everything in the case and achieve proper air flow, the following key notes are recommended:
 * Motherboard in “upper” position
@@ -61,6 +64,8 @@ To fit everything in the case and achieve proper air flow, the following key not
 * GPU with AIO radiator in lower PCIe slot
 * GPU with AIO radiator installed before standard GPU
 * Makeshift support for GPUs required, as standard support systems will not fit
+
+---
 
 ## Configuration for LLMs 
 This system was configured with Ubuntu latest build (https://ubuntu.com/download/desktop). Nvidia toolkit installation is required to support CUDA functionality along with all common dependency packages (i.e. Git, Go, etc.)
@@ -116,8 +121,10 @@ For this example: ```http://127.0.0.1:8080```
 > [!IMPORTANT]
 > **When providing compute to the Morpheus Compute Node, it is recommended to manage your operational security. Many providers will choose to implement network security between their LLM hosting and the Proxy Router (if on a different machine), and within their hosting of the proxy router. A simple execution could be the utilization of a small AWS EC2 instance to host the proxy router, providing a level of separation between external proxy router communication and the provider’s network. This is purely up to the provider, and Morpheus will not provide any official guidance or recommendations for this**. 
 
+---
+
 ## Proxy Router
-The configuration of the proxy router will not be described in this document. Please review [this github](https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/blob/dev/docs/02-provider-setup.md), and any accompanying github documents for instructions for this installation. 
+The configuration of the proxy router will not be described in this document. Please review [this github](https://github.com/Lumerin-protocol/Morpheus-Lumerin-Node/blob/dev/docs/02-provider-setup.md) and [Intro to Morpheus Compute Node](/!KEYDOCS%20README%20FIRST!/Compute%20Providers/Compute%20Node/Intro%20to%20Morpheus%20Compute%20Node.md#provider-setup)
 
 
 > [!TIP]
