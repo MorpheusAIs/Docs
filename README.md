@@ -108,11 +108,10 @@ After connecting Morpheus with your web3 wallet, you can test the **Data Smart A
 - MOR token: [0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86](https://arbiscan.io/address/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86)
 - L2TokenReceiverV2: [0x47176b2af9885dc6c4575d4efd63895f7aaa4790](https://arbiscan.io/address/0x47176b2af9885dc6c4575d4efd63895f7aaa4790)
 - L2MessageReceiver: [0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427](https://arbiscan.io/address/0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427)
-- Multisig  Arbitrum: [0x151c2b49CdEC10B150B2763dF3d1C00D70C90956](https://arbiscan.io/address/0x151c2b49CdEC10B150B2763dF3d1C00D70C90956)
+- Multisig  Arbitrum: [0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E](https://arbiscan.io/address/0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E)
 - MOR burn address: [0x000000000000000000000000000000000000dead](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0x000000000000000000000000000000000000dead)
+- MOR lock address [0xb1972e86b3380fd69dcb395f98d39fbf1a5f305a](https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86?a=0xb1972e86b3380fd69dcb395f98d39fbf1a5f305a)
 
 **Base:**
 - MOR token: [0x7431ada8a591c955a994a21710752ef9b882b8e3](https://basescan.org/address/0x7431ada8a591c955a994a21710752ef9b882b8e3)
-- Multisig Base: [0xf3ef00168dd40eae68a7e670d56c7b8724e0c183](https://basescan.org/address/0xf3ef00168dd40eae68a7e670d56c7b8724e0c183)
-
-
+- Multisig Base: [0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E](https://basescan.org/address/0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E)
