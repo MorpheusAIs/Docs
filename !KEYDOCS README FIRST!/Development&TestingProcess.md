@@ -1,4 +1,5 @@
-# Defining "Stages" of Design, Development, Testnet, Audit, Deployment & Checks.
+# Defining "Stages" of: 
+## Design, Development, Testnet, Audit, Deployment & Checks.
 
 ## Morpheus Open Source Development Best Practices 
 
