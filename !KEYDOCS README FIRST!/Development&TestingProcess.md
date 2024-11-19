@@ -1,4 +1,4 @@
-# Defining "Stages" of Development, Testnet, Audit, Deployment & Dashboards.
+# Defining "Stages" of Design, Development, Testnet, Audit, Deployment & Checks.
 
 ## Morpheus Open Source Development Best Practices 
 
@@ -8,6 +8,7 @@
 ### Stage 2B. Begin Dashboard Development: Once backend coding is complete (runs in parrell to Testnet and auditing :Frontend 
 
 ### Stage 3. Testnet for Code: Once testnet testers verify backend is functioning as expected ship to auditor. :Backend
+
 ### Stage 4A. Audit for Code: The auditor completes their work and remediations are completed. :Backend
 ### Stage 4B. Dashboard Testing: Deploy Dashboard for Testing before Code goes to mainnet :Frontend 
 
