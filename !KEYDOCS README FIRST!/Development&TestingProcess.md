@@ -1,4 +1,4 @@
-# Defining "Stages" of: 
+# Defining the six "Stages" of new Code: 
 ## Design, Development, Testnet, Audit, Deployment & Checks.
 
 ## Morpheus Open Source Development Best Practices 
