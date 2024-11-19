@@ -1,4 +1,4 @@
-# Defining "Stages" Development, Testnet, Audit, Deployment & Dashboards.
+# Defining "Stages" of Development, Testnet, Audit, Deployment & Dashboards.
 
 ## Morpheus Open Source Development Best Practices 
 
