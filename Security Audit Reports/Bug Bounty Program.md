@@ -6,7 +6,7 @@ Calling All Independent Security Researchers (White Hat Hackers and Auditors)
 
 Here in the Morpheus Community we’re a bit obsessed with the concept of strong property rights. In the land of Web3, white hat hackers, coders, and contributors help make sure things work the way they should.
 
-The Morpheus smart contracts have undergone a thorough multi-tiered audit and mitigation process. However the contract and interface is operating in a dynamic environment with new technologies that may contain vulnerabilities that have yet to be discovered. 
+The Morpheus smart contracts have undergone a thorough multi-tiered audit and mitigation process. However the contract and interface are operating in a dynamic environment with new technologies that may contain vulnerabilities that have yet to be discovered. 
 
 In short, we can use your help. If you’re able to find and help resolve vulnerabilities that could put Morpheus community members at risk, we want to get you paid.
 
@@ -81,4 +81,4 @@ When working with us according to this program, you can expect us to:
 [Public Audit](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Code%20Hawks%20Public%20Audit.md)
 
 
-[Open Zepellin Audit of Mor Token](https://github.com/EnergyHound/Docs/blob/main/Security%20Audit%20Reports/OpenZepellin%20Audit%20of%20MOR%20Token%20Contract.pdf)
+[Open Zeppelin Audit of Mor Token](https://github.com/EnergyHound/Docs/blob/main/Security%20Audit%20Reports/OpenZepellin%20Audit%20of%20MOR%20Token%20Contract.pdf)
