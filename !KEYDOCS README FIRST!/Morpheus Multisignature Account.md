@@ -40,3 +40,11 @@ Lastly, as the goal of the Morpheus community is always to move toward “atomic
 
 ## The multisig signers only act in line with what Atomic Governance process has already approved. 
 Effectuating Protocol Owned Liquidity, Smart Contract upgrades, and monthly Weight Assignments in accordance with Morpheus Reference Implementations Maintainers judgements on MRCs & code upgrades.
+
+## Compute Multisig for Reserve of MOR
+Compute Reserve Multisig Address: arb1:0x18B68344a9D235185EE3EC53d28E83260cC0282F
+
+The purpose of the Reserve is to bifurate the holding of MOR for Compute Rewards between the Reserve and the Active Funding address that pays Compute Rewards.
+That way in case of a bug or game theory where a bad actor Compute Provider is able to earn lots of MOR, they can only get the amount of MOR in the Active Funding Address which will leave the Compute Reserve uneffected. The Active Funding Address is starting with 2,500 MOR as a balance that can be refreshed and increased as needed by the Compute Reseerve.
+
+Active Funding Multisig Address: arb1:0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E
