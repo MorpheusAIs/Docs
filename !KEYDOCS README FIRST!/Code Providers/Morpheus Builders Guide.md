@@ -51,7 +51,7 @@ The latestly the tools for Smart Agents are under development here:
 If you want to experiment with the existing local Reference version of Morpheus, its connections to wallets and Smart Contracts, check out this repo: 
 - https://github.com/MorpheusAIs/Morpheus 
 
-## 4. Builder Subnets
+## 4. Builder Subnets / Smart Agents / Frontend Applications
 ### Example January 15th to February 15th 2025 Builder MOR Emissions Calculations
 - 100581.214107997160000000 MOR Emitted in the Builder pool during the period.
 - 630,513.0539 MOR Staked to 75 Builders as of 12 midnight EST February 15th/16th 2025
