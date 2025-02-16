@@ -60,8 +60,8 @@ If you want to experiment with the existing local Reference version of Morpheus,
 - 100,581.214107997160000000 MOR times 50.3271%
 - 26.829275% for Base
 - 73.170726% on ARB
-- 13,580.88456595 MOR for BASE Builder Subnets sent to Builder Treasury
-- 37,038.76394024 MOR for ARB Builder Subnets sent to Builder Treasury
+- 13,580.88456595 MOR for BASE Builder Subnets sent to Builder Treasury Address 0x9eba628581896ce086cb8f1A513ea6097A8FC561
+- 37,038.76394024 MOR for ARB Builder Subnets sent to Builder Treasury Address 0xCBE3d2c3AdE62cf7aa396e8cA93D2A8bff96E257
 
 ## Other Ways to Contribute To Morpheus
 If you have improvements you want to propose to the Morpheus Reference Implementations, the Morpheus Request for Comments (MRC) repository is here:
