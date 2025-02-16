@@ -1,6 +1,17 @@
 # Morpheus Builders Guide
 ![Builders Guide Decision Tree 3](https://github.com/MorpheusAIs/Docs/assets/1563345/466ec65d-37c8-4ba1-bdd8-831886aac995)
 
+Example January 15th to February 15th 2025 Builder MOR Emissions Calculations
+- 100581.214107997160000000 MOR Emitted in the Builder pool during the period.
+- 630,513.0539 MOR Staked to 75 Builders as of 12 midnight EST February 15th/16th 2025
+- Base: 169,162.08 MOR Staked
+- Arb: 461,350.98 MOR Staked
+- 100,581.214107997160000000 MOR times 50.3271%
+- 26.829275% for Base
+- 73.170726% on ARB
+- 13,580.88456595 MOR for BASE Builder Subnets sent to Builder Treasury
+- 37,038.76394024 MOR for ARB Builder Subnets sent to Builder Treasury
+
 ## Quick Links Section
 
 ### User Links:
