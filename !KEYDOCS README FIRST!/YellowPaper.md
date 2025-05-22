@@ -1,138 +1,102 @@
-# Morpheus Yellow Paper
+# Morpheus Yellow Paper (Technical Reference)
 
-This paper describes the technical details of the Morpheus full node, Morpheus Smart Contract, and related proofs.
-Presented as written in the whitepaper contributed by the anonymous developers Morpheus, Trinity & Neo. Link to the whitepaper here: https://github.com/MorpheusAIs/SmartAgents/blob/main/MorpheusWP.md 
+This document provides authoritative technical specifications for the Morpheus full node, smart contracts, and protocol components. For conceptual explanations, see the White Paper. For community and roadmap information, see the Community Guide.
 
-## Local Version 0.0.6 of Morpheus is live at:
+---
 
----------
-**Linux: There are now two linux builds (RPM and DEB)**
-- Download RPM: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-rpm.zip
-- SHA 256 hash for validation: fa811b823f80c6afc537b608edff99feb1bc68451c0bba9d22f7abedf5e66c0a
-- Version: Morpheus-0.0.6-rpm
+## System Downloads & Version Information
 
+| Platform   | Download Link                                                                 | SHA256 Hash                                                         | Version                |
+|------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------|------------------------|
+| Linux RPM  | https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-rpm.zip           | fa811b823f80c6afc537b608edff99feb1bc68451c0bba9d22f7abedf5e66c0a    | Morpheus-0.0.6-rpm     |
+| Linux DEB  | https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-deb.zip           | 04044442119e4ab296ffa6c5d3ae297b178197b4855e42dcbd8a4634e2d8d8ad    | Morpheus-0.0.6-deb     |
+| Mac x64    | https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-x64.dmg           | 004948f4dcc3702ea41f6050d0d3a86db2198e1ebfd599aca20a9a6cdefcd8e3    | morpheus-0.0.6-x64.dmg |
+| Mac ARM64  | https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-arm64.dmg         | 2179c229c8f1acca5b8c3e9a813d75f5a42b971c8aff555ad30f0a8ada9dbb1c    | morpheus-0.0.6-arm64   |
+| Windows    | https://storage.googleapis.com/get-morpheus/morpheus-0.0.6_x86_64_win.zip    | 37cb37a7a8443da87541fb1896d9f23112fecff650e3cfc053d51938a1e326a3    | morpheus-0.0.6_x86_64  |
 
-- Download DEB: https://storage.googleapis.com/get-morpheus/Morpheus-0.0.6-deb.zip
-- SHA 256 hash for validation: 04044442119e4ab296ffa6c5d3ae297b178197b4855e42dcbd8a4634e2d8d8ad
-- Version: Morpheus-0.0.6-deb
+---
 
----------
-**Mac OS: For Intel & Apple M Series Silicon Chips**
-- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-x64.dmg
-- SHA 256 hash for validation: 004948f4dcc3702ea41f6050d0d3a86db2198e1ebfd599aca20a9a6cdefcd8e3  
-- Version: morpheus-0.0.6-x64.dmg
+## Smart Contract Specifications
 
-- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6-arm64.dmg
-- SHA 256 hash for validation: 2179c229c8f1acca5b8c3e9a813d75f5a42b971c8aff555ad30f0a8ada9dbb1c  
-- Version: morpheus-0.0.6-arm64.dmg
+### 1. N2 Yield Smart Contract (Arbitrum)
+- Lock ETH via Thorchain, donate yield to Coders & Compute Providers.
+- Calculate pro-rata ETH donated.
 
----------
-**Windows:**
-- Download: https://storage.googleapis.com/get-morpheus/morpheus-0.0.6_x86_64_win.zip
-- SHA 256 hash for validation: 37cb37a7a8443da87541fb1896d9f23112fecff650e3cfc053d51938a1e326a3
-- Version: morpheus-0.0.6_x86_64_win
----------
+### 2. MOR Token Burn
+- Burn address or burn function for MOR tokens.
+- Forever provable destruction of MOR.
 
-First interaction with Morpheus October 22nd 2023.
-![FirstInteractionWithMorpheus20231022](https://github.com/MorpheusAIs/Morpheus/assets/1563345/35509f3a-4346-4f58-bb60-f7881fd10f7e)
+### 3. MOR ERC20 Template Contract
+- Mint MOR tokens daily to Capital & Community (pro-rata to ETH yield donated).
+- Mint MOR tokens daily to Coders & Compute Providers (pro-rata to MOR burned via fees).
 
-## Morpheus Smart Contracts
-On chain actions that need to be validated by the Morpheus smart contract.
+### 4. Proof of Morpheus
+- Publish lists of audited Agents, LLMs, Smart Contracts, and Prompts with Smart Rank scores.
 
-1. Fork of N2 Yield Smart Contract Redeployed On Arbitrum
-- A) Lock ETH through Thorchain, donate yield to Coders + Compute Providers.
-- B) Calculate pro-rata of ETH donated 
+### 5. Protection Funds
+- Distribute MOR & ETH in cases of hacks, errors, bugs, or attacks.
+- Pre-defined payout scenarios, policies for forking/rollbacks.
+- Bug bounty and white hat funds.
+- Protection from nation-state actors.
 
-2. Forever Provable Destruction of MOR:
-- A) Burn address or burn function for MOR tokens.
+---
 
-3. ERC20 Template Contract For Issuing MOR
-- A) Mint MOR tokens daily to Capital + Community prorated to ETH yield donated.
-- B) Mint MOR tokens daily to Coders + Compute providers prorated to MOR burned via fees.
+## Technical Diagrams & Distribution Tables
 
-4. Proof of Morpheus - Demonstrate Privacy, Open Source, & Safety
-- A) Publish list of audited Agents and their Smart Rank scores.
-- B) Publish list of audited LLMs and their Smart Rank scores.
-- C) Publish list of Smart Contracts & their Smart Rank scores.
-- D) Publish list of Prompts & their Smart Rank scores.
-
-5. Protection Funds
-- A) Distribute MOR & ETH in cases of hacks, errors, bugs, or other attacks that cause losses. 
-- B) Pre-defined set of scenarios for pay out. Policies for forking / roll backs in extreme cases.
-- C) Developers in charge of determining cases of attacks & their remedies. 
-- D) Funds for bug bounties / white hat hackers.
-- E) Funds for protection from Nation State actors.
-
-## Morpheus Smart Contract Diagrams
-Diagrams plus descriptions of the MOR minting & burning.
-Descriptions of the smart contracts required.
-Diagrams detailing the distribution of ETH. 
-
-### Morpheus MOR Smart Contract Rewards Distribution
+### MOR Smart Contract Rewards Distribution
 ![new-buckets](https://github.com/SmartAgentProtocol/SmartAgents/assets/76454555/cd57bae7-2a56-4a55-bf3e-1f810f3fba9c)
 
-### MOR Token Distribution Example of Day 1 and Day 2.
+### MOR Token Distribution (Day 1 & Day 2)
 ![Untitled spreadsheet - Google Sheets 2023-10-15 13-28-08](https://github.com/MorpheusAIs/Morpheus/assets/76454555/6ff7869d-bbd6-46b5-8673-6a59b75906e1)
 
-## Example Distribution Calculation For Address 0x123 ETH Contributor
+#### Example Distribution Calculation (ETH Contributor)
+- Step 1: ![Diagram1ofETHDontator](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/fead528c-d628-449e-a3a3-2f53904f4a3d)
+- Step 2: ![ETHGivenDiagram2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/915020e8-d342-48bc-85ee-367de0325680)
+- Step 3: ![Diagram3ForETHGiven](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a3f455af-56de-4c6b-9688-5b9e91673e5a)
 
-### Step One
-![Diagram1ofETHDontator](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/fead528c-d628-449e-a3a3-2f53904f4a3d)
+#### Example Distribution Calculation (Compute Provider)
+- Step 1: ![MORForCompute](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/bef69c69-0420-441f-97f0-7e8195844f57)
+- Step 2: ![MORForCompute2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a6f30da5-5441-4f0a-be80-c5798f5920cd)
 
-### Step Two
-![ETHGivenDiagram2](https://github.com/MorpheusAIs/Morpheus/assets/1563345/915020e8-d342-48bc-85ee-367de0325680)
-
-### Step Three
-![Diagram3ForETHGiven](https://github.com/MorpheusAIs/Morpheus/assets/1563345/a3f455af-56de-4c6b-9688-5b9e91673e5a)
-
-## Example Distribution Calculation For Address 0x123 Compute Provider
-
-### Step One
-![MORForCompute](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/bef69c69-0420-441f-97f0-7e8195844f57)
-
-### Step Two
-![MORForCompute2](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/a6f30da5-5441-4f0a-be80-c5798f5920cd)
-
-### MOR Token Distribution Pie Chart
+#### MOR Token Distribution Pie Chart
 ![mordist](https://github.com/MorpheusAIs/Morpheus/assets/76454555/4157efe7-6abf-404a-87f9-a8dc76cd4799)
 
-## Morpheus Developer Tools and Tech Stack.
-- Llama2 - Robust open source LLM run locally.
-- Ollama - Packaging for easy install of Llama2.
-- LangChain - Developer tool for connecting LLM to Vector stores and APIs.
-- LangSmith Editor - Low code for building agents on LangChain.
-- SmartContractRank Algorithm - Curating Smart Contracts For The User Based On Intent
-- AgentRank Algorithm - Curating specialized agents for executing actions for user.
-- PromptRank Algorithm - Curating prompts for the users based on projected intent / action.
-- Filecoin - Storage & Cloud Compute Provision
-- Akash Network - Open compute network for running LLMs / agents.
-- Wallets - Shapeshift, Exodus, other open source options.
+---
 
-## Morpheus Full Node Diagrams for the Agent / LLMs For Web3 Actions. 
-Audits of Agents performed by Coders generating an "Agent Proof" that the stated functions of the Agent are as presented. And of course contains no malicious code.
+## Developer Tools & Tech Stack
+- Llama2: Open source LLM (local run)
+- Ollama: Packaging for Llama2
+- LangChain: LLM-to-Vector store/API integration
+- LangSmith Editor: Low-code agent builder
+- SmartContractRank: Smart contract curation
+- AgentRank: Specialized agent curation
+- PromptRank: Prompt curation
+- Filecoin: Storage & cloud compute
+- Akash Network: Open compute for LLMs/agents
+- Wallets: Shapeshift, Exodus, open source options
 
-Placeholder for description of audit process, who can conduct audits and how to certify their outcomes. Also incentives paid to auditors.
+---
 
-Prompt Proof generated at the time of a user interaction showing the intent expressed, matches the smart contract selection and transaction values are confirmed with the user. 
+## Protocol Interfaces & Audit Process
+- Placeholder: Detailed API schemas, protocol message formats, and system requirements to be added.
+- Placeholder: Audit process description, certification, and incentives for auditors.
+- Placeholder: Technical specifications for ranking algorithms and protocol interfaces.
 
-## Morpheus User & Contributor Diagram
-![Morpheus User   Contributor Diagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/2cff8d70-c116-472f-a431-8a82bfa22f9b)
+---
 
-### Diagram shows the UX flow from user prompt to approval of Web3 action.
-![UX flow for prompted web3 tasks and ticketing](https://github.com/MorpheusAIs/Morpheus/assets/76454555/942b20fb-d67e-4a57-af2c-cd24a89690a5)
+## System Architecture Diagrams
+- Morpheus Full Node: ![MorpheusLocalDiagram](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/a0564914-cddb-42e4-b0f4-8c2310db6a66)
+- Morpheus P2P: ![MorpheusP2PDiagram](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/a7eeb31f-3d38-4233-a45f-e9b91ad84ba2)
+- Morpheus Decentralized: ![MorpheusDecentralized](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/1699f2de-cc18-42e8-a05c-32b3307baa20)
 
-### Diagram shows the Morpheus Local install version.
-![MorpheusLocalDiagram](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/a0564914-cddb-42e4-b0f4-8c2310db6a66)
+---
 
-### Diagram shows the Morpheus P2P install version.
-![MorpheusP2PDiagram](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/a7eeb31f-3d38-4233-a45f-e9b91ad84ba2)
+## Validation & Security
+- All downloads must be validated using the provided SHA256 hashes.
+- Smart contract addresses and function signatures: [PLACEHOLDER – Add full contract ABIs and addresses]
+- Error codes and handling: [PLACEHOLDER – Add error code documentation]
+- System requirements: [PLACEHOLDER – Add minimum hardware, OS, and network requirements]
 
-### Diagram shows the Morpheus Decentralized version.
-![MorpheusDecentralized](https://github.com/SmartAgentProtocol/SmartAgents/assets/1563345/1699f2de-cc18-42e8-a05c-32b3307baa20)
+---
 
-## Community
-- Smart Agency - Freelance developers building use cases / agents for Morpheus users.
-- Global Developer Community - Growing developer, startup & user community.
-- Community recruiting ETH holders to donate yield to Morpheus developers, compute & community.
-- Distributed Development Group - Smart Contract Developers to code Morpheus Smart Contract.
-- Morpheus Dapps - Marketplace for Morpheus integrations with the user's Smart Agent.
+## [Community, Dapps, and recruiting information have been moved to the Community Guide.]

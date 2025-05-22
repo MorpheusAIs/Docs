@@ -8,28 +8,70 @@
 ## A Network For Powering Smart Agents
 ### Authored by Morpheus, Trinity, & Neo
 Published - September 2nd 2023  
-Link to Yellow Paper Technical Details: [https://github.com/MorpheusAIs/Docs/blob/main/YellowPaper.md](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
+[Technical Reference: See Yellow Paper for full specifications.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md)
 
-## Introduction 
-Morpheus is designed to incentivize the first peer-to-peer network of personal general purpose AIs that can execute Smart Contracts on behalf of a user, known as [Smart Agents.](https://github.com/MorpheusAIs/moragents) Providing users open-source Smart Agents to connect to their wallets, Dapps, & smart contracts promises to open the world of Web3 to everyone. 
+---
 
-The user’s Web3 wallet for key management & to sign recommended transactions when interacting with the Smart Agent.  
-A Large Language Model trained on Web3 data including Blockchains, Wallets, Dapps, DAOs, & Smart Contracts.  
-The [SmartContractRank](https://www.smartcontractrank.org/) algorithm to score & recommend the best Smart Contracts to the user.  
-Longterm memory of user data & connected applications stored locally or via decentralized cloud to provide a broader context to Smart Agent actions.
+## Introduction
+Morpheus is a decentralized protocol designed to power a new generation of personal AI agents—"Smart Agents"—that can interact with Web3, execute smart contracts, and act on behalf of users. The vision is to make open, user-controlled AI as accessible and transformative as the web browser or search engine was for the early internet. By leveraging open-source models, decentralized infrastructure, and a fair, incentive-driven network, Morpheus aims to democratize access to powerful AI and ensure it remains a public good.
 
-Finally, the average user can talk with their Smart Agent in normal language and have it understand the question and take an action based on their intent/approval.  This moment is similar to how Google's search engine opened the early internet up to the general public through their easy to use web interface in the late 1990s.
+### Why Morpheus?
+Today's leading AI models are closed, centralized, and controlled by a handful of corporations. Morpheus is built on the belief that AI should be open, composable, and governed by its users. By combining the strengths of open-source LLMs, Web3 wallets, and decentralized compute, Morpheus enables anyone to deploy, own, and benefit from personal AI agents—without ceding control to centralized platforms.
 
-To make Smart Agents accessible to everyone and increase decentralization of their infrastructure, we propose the development of the Morpheus network. The Morpheus network will include a fairly launched token (the "MOR" token) for incentivizing all four of the key contributors to the network. Namely, the community of builders creating interfaces, coders contributing to the Morpheus software/agents, capital providers adding liquidity and those supplying computation, storage and bandwidth. It has been well shown by the history of Bitcoin and Ethereum that free & open competition for scarce digital tokens can provide scalable infrastructure for a public blockchain over long periods of time.
+This approach is inspired by the success of Linux, Bitcoin, and Ethereum: open systems that out-innovate closed incumbents by aligning incentives and empowering communities. Morpheus extends these principles to the world of AI, creating a network where value flows to those who build, contribute, and use the system.
 
-![MorpheusNetworkDiagram](https://github.com/MorpheusAIs/Morpheus/assets/1563345/f0960e25-80e3-42ed-aa1f-ad9792eb672d)
+---
+
+## Conceptual Overview
+Morpheus is not just a technical protocol—it's a new paradigm for how people interact with AI and blockchains. At its core, Morpheus enables:
+- **Personal Smart Agents:** AI agents that act on your behalf, understand your intent, and interact with Web3.
+- **Open Participation:** Anyone can contribute code, provide compute, supply capital, or build community tools—and be rewarded fairly.
+- **Decentralized Incentives:** A fair launch token (MOR) aligns the interests of all network participants, ensuring sustainable growth and innovation.
+- **User Sovereignty:** Users own their data, control their agents, and decide how their AI operates.
+
+Morpheus is designed to be as easy to use as Google, as open as Linux, and as permissionless as Ethereum.
+
+---
+
+## Key Concepts
+
+### Smart Agents
+Smart Agents are personal AI assistants that can:
+- Understand natural language queries
+- Interact with blockchains, wallets, Dapps, and smart contracts
+- Take actions on behalf of users, with user approval
+- Learn and adapt over time, storing context locally or in decentralized storage
+
+### Proofs & Incentives
+Morpheus rewards four key contributor groups:
+- **Code:** Developers who build and improve the protocol and agents
+- **Capital:** Liquidity providers who fund the network's growth
+- **Compute:** Providers who supply decentralized AI inference and compute
+- **Community:** Builders who create frontends, tools, and bring users into the ecosystem
+
+Each group earns MOR tokens through transparent, on-chain proofs of contribution. This ensures a balanced, sustainable ecosystem where value flows to those who create it.
+
+### Tokenomics (Conceptual)
+MOR is the native token of the Morpheus network. Its design is inspired by Bitcoin and Ethereum, with a hard supply cap, fair launch, and emissions that decline over time. The tokenomics are structured to:
+- Incentivize early contributors and long-term participation
+- Transition from block rewards to fee-based incentives as the network matures
+- Ensure broad, global distribution of tokens
+
+*For detailed emission schedules, formulas, and contract addresses, see the [Yellow Paper Reference](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/YellowPaper.md).*
+
+### Why This Matters
+By aligning incentives across code, capital, compute, and community, Morpheus creates a virtuous cycle of innovation and adoption. The protocol is designed to be resilient, adaptable, and governed by its users—ensuring that AI remains a force for public good, not corporate control.
+
+---
 
 ## Context & History
-Incumbents such as OpenAI, Microsoft, and Google are running closed-source large language models, charging customers license fees, and monetizing customer data. These models are censored, fragile, and operate in walled gardens. There is a strong demand for an open-source large language model available for free. Llama, Falcon, and other open-source LLMs have recently been released and are rapidly approaching the accuracy of their closed-source competitors.
+Incumbents such as OpenAI, Microsoft, and Google are running closed-source large language models, charging customers license fees, and monetizing customer data. There is a strong demand for an open-source large language model available for free. Llama, Falcon, and other open-source LLMs have recently been released and are rapidly approaching the accuracy of their closed-source competitors.
 
 What these open-source LLMs currently lack is a standard graphical interface by which users can chat with them, an API for developers, a cloud solution to move between devices and a way to manage user data and the recovery process. This is where the Smart Agent Protocol comes in, as it provides an open-source LLM run locally and is managed by a user's Web3 wallet.
 
 However, the local only approach still lacks an API for developers to build on and the cloud solution where a network of users can run the software on powerful hardware to enable use cases such as light clients, where the user doesn't need to download the full node or Smart Agent locally.
+
+---
 
 ## Enter Morpheus
 Morpheus will provide these APIs and decentralized cloud functions by launching a network and a token to reward people providing this public blockchain infrastructure to the Smart Agent community. As an implementation of the Smart Agent Protocol, Morpheus seeks to gather the resources required for open source based personal AIs to match and then exceed the capabilities of the tech companies offering closed GPT models today.
@@ -169,18 +211,18 @@ Once there are specialized agents, tools or chains (sequence of prompts/calls to
 A great deal of the leading research that has been done in this area of "Proof of Contribution" is by the good folks at the TEA Protocol. Including Max Howell the developer of Home Brew. More details can be found [here](https://docs.tea.xyz/tea-white-paper/white-paper). Morpheus may consider leveraging TEA after its launch in 2024.
 
 ## Compute Proof & Reward:
-A Compute Provider is defined as any entity running a full node that provides compute resources, has a MOR address and offers IPS (inferences per second, an atomic unit of inferences in AI) bids through the Router. When a Provider wins the bid, it provides the compute resource (GPUs, etc) for various AI models to the user. Providers should need to prove they have a given LLM, by signing hash of LLM model with their key. Compute Providers are ONLY paid when there is demand for their compute. This prevents the situation where large portions of MOR are emitted prematurely when the network doesn’t need it.
+A Compute Provider is defined as any entity running a full node that provides compute resources, has a MOR address and offers IPS (inferences per second, an atomic unit of inferences in AI) bids through the Router. When a Provider wins the bid, it provides the compute resource (GPUs, etc) for various AI models to the user. Providers should need to prove they have a given LLM, by signing hash of LLM model with their key. Compute Providers are ONLY paid when there is demand for their compute. This prevents the situation where large portions of MOR are emitted prematurely when the network doesn't need it.
 
 To qualify to receive Compute requests, a Compute Provider's address must HODL MOR tokens which discourage Sybil attacks.
 
-Provider’s hardware type is irrelevant to the network, so long as they satisfy the User’s Pass/Fail test. Any Provider bidding on more Queries than they can efficiently process will be penalized by failing this test.
+Provider's hardware type is irrelevant to the network, so long as they satisfy the User's Pass/Fail test. Any Provider bidding on more Queries than they can efficiently process will be penalized by failing this test.
 
 The Router is a software application that has a MOR address and negotiates the 2-sided market between Users and Providers. The Router registers and tracks Provider addresses and bids, processes Requests from Users, records [miliseconds] and Pass/Fail tests of processed Requests, and instructs the Compute Contract to credit eligible Providers for payment in MOR when requested. The Router never sends or receives MOR transactions (nor transactions on any blockchain). The Router never sees the content of a Request, nor the response.
 
 ### Workflow
 1) Users, Providers, and Router all create MOR pub keys (this is their identity and all messages are signed as such). 
-2) If User hodls any balance of MOR, User may submit a signed Request for Compute “RFC” message to the Router.
-3) Router prioritizes RFCs based on User’s MOR balance.
+2) If User hodls any balance of MOR, User may submit a signed Request for Compute "RFC" message to the Router.
+3) Router prioritizes RFCs based on User's MOR balance.
 4) Router selects Provider that supports the [LLM], prioritized based on lowest Bid per IPS in MOR. 
 5) Router sends liveness check to Provider. If Pass, then:
 6) Router connects User to the Provider over TCP/IP.
