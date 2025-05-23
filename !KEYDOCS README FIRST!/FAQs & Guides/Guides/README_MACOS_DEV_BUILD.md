@@ -1,3 +1,5 @@
+This is a platform-specific how-to guide. For general protocol guides, see morpheus-how-to-guides.md.
+
 ## For Developers
 
 This README will guide you on building a Docker container for agent execution as well as a desktop UI app.

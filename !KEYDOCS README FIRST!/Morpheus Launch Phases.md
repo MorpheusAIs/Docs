@@ -1,5 +1,7 @@
 # Morpheus Launch Phases: A Phased Evolution for Decentralized AI
 
+This document provides historical/phased context. For current protocol concepts, see morpheus-explanation.md. For technical details, see morpheus-reference.md.
+
 ## Introduction
 Morpheus is a decentralized protocol designed to power personal AI agents and applications, leveraging the composability and security of Web3. Its launch is structured in multiple phases, inspired by Ethereum's own evolutionary roadmap. This phased approach allows Morpheus to incrementally introduce new capabilities, ensure robust security, and adapt to community-driven innovation. Each phase is designed to address specific technical and ecosystem milestones, mirroring the proven path of Ethereum while introducing unique features for decentralized AI.
 

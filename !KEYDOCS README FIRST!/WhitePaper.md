@@ -1,3 +1,5 @@
+ARCHIVED: This whitepaper has been superseded by the modular Diátaxis documentation. For up-to-date information, see morpheus-explanation.md, morpheus-reference.md, morpheus-how-to-guides.md, and morpheus-tutorials.md.
+
 ![Morpheuslogo](https://github.com/MorpheusAIs/Morpheus/assets/1563345/235b9c04-f3b1-4520-a328-2070c9c890ab)
 
 > [!NOTE]

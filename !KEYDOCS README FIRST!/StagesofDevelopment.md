@@ -1,3 +1,5 @@
+This is a process-specific how-to. For general how-to guides, see morpheus-how-to-guides.md.
+
 # How to Contribute Code to Morpheus: The Six-Stage Development Process
 
 This guide explains the step-by-step process for contributing new code or dashboards to the Morpheus project, following open source best practices. Use this as a checklist to ensure your work meets project standards from planning to deployment.

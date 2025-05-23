@@ -1,6 +1,8 @@
 # Morpheus Yellow Paper (Technical Reference)
 
-This document provides authoritative technical specifications for the Morpheus full node, smart contracts, and protocol components. For conceptual explanations, see the White Paper. For community and roadmap information, see the Community Guide.
+This is the technical reference (Yellow Paper). For conceptual explanations, see morpheus-explanation.md. For practical guides, see morpheus-how-to-guides.md and morpheus-tutorials.md.
+
+This document provides authoritative technical specifications for the Morpheus full node, smart contracts, and protocol components. For community and roadmap information, see the Community Guide.
 
 ---
 

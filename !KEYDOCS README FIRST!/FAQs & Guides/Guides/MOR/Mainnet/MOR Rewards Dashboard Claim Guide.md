@@ -1,5 +1,7 @@
 # MOR Rewards Dashboard Claim Guide
 
+This is a step-by-step how-to guide. For conceptual background, see morpheus-explanation.md. For technical reference, see morpheus-reference.md.
+
 >[!IMPORTANT]
 > **You need to be extremely careful during the rewards claim process, as any mistakes could result in the loss of your funds without the possibility of recovery.**
 
