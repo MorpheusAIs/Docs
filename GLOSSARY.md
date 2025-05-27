@@ -32,6 +32,21 @@
 - A mechanism for permanently removing MOR tokens from circulation through a dedicated burn address (0x000000000000000000000000000000000000dead) to increase token scarcity.
 - Related: [*MOR Token*](#mor-token), [*Tail Emission*](#tail-emission)
 
+**Builder**
+- A project that is incentive-aligned with the Morpheus ecosystem and end users.
+- Responsible for creating and maintaining decentralized smart agents.
+- Related: [*Builder Subnet*](#builder-subnet), [*Smart Agent*](#smart-agent)
+
+**Builder Subnet**
+- An on-chain registered entity that can participate in builder emissions from the Morpheus protocol.
+- Enables projects to receive continuous protocol emissions.
+- Related: [*Builder*](#builder), [*Builder Emissions*](#builder-emissions)
+
+**Builder Emissions**
+- Continuous token distributions from the Morpheus protocol to registered Builder Subnets.
+- Distributed based on subnet participation and performance.
+- Related: [*Builder Subnet*](#builder-subnet), [*MOR Token*](#mor-token)
+
 ## C
 
 **Capital Provider**
@@ -97,6 +112,16 @@
 - Related: [*Compute Provider*](#compute-provider), [*Compute Marketplace*](#compute-marketplace)
 
 ## L
+
+**Light Client**
+- A lightweight version of the Morpheus client that enables users to interact with the network without running a full node.
+- Primary interface for running Super Agents in a decentralized, privacy-preserving manner.
+- Key features:
+  - Local and private AI processing
+  - Sovereign user control
+  - Reduced resource requirements
+  - Integration with Super Agents
+- Related: [*Full Node*](#full-node), [*Smart Agent*](#smart-agent), [*Super Agent*](#super-agent)
 
 **Liquidity Position**
 - A stake in an AMM liquidity pool, specifically referring to the full-range positions owned by the Morpheus protocol.
@@ -169,6 +194,18 @@
 **SmartContractRank Algorithm**
 - A system for scoring and recommending Smart Contracts based on user intent.
 - Related: [*AgentRank Algorithm*](#agentrank-algorithm), [*PromptRank Algorithm*](#promptrank-algorithm)
+
+**Super Agent**
+- A powerful, AI-driven personal advocate operating on the Morpheus decentralized network.
+- Runs through Light Clients to ensure privacy, autonomy, and censorship resistance.
+- Key capabilities:
+  - Cryptocurrency portfolio optimization
+  - Smart contract negotiation
+  - Freelance opportunity sourcing
+  - Document analysis and summarization
+  - Market data analysis
+  - Social media management
+- Related: [*Light Client*](#light-client), [*Smart Agent*](#smart-agent), [*Protocol-owned Liquidity*](#protocol-owned-liquidity-pol)
 
 ## T
 
