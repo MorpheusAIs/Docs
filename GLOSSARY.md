@@ -181,7 +181,7 @@
 - Related: [*Block Rewards*](#block-rewards), [*MOR Token*](#mor-token), [*Burn Function*](#burn-function)
 
 **TCM (Techno-Capital Machine)**
-- The process of yield contribution, token swapping, and liquidity addition that powers the Morpheus network's capital provision system.
+- The process of yield contribution, token swapping, and liquidity addition that powers the Morpheus network's capital provision system, named in honor of e/acc philosopher Beff Jezos.
 - Key components:
   - Yield generation from stETH
   - Automated MOR token purchases
