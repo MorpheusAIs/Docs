@@ -1,5 +1,7 @@
 # Answers to Your Burning Questions: Morpheus FAQ
 
+This FAQ provides quick answers and context. For in-depth guides, tutorials, and technical reference, see morpheus-how-to-guides.md, morpheus-tutorials.md, and morpheus-reference.md.
+
 ## [WHITEPAPER](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/WhitePaper.md) TL;DR
 1) Access to AI has become fundamental to modern life.
    
@@ -70,7 +72,7 @@ By becoming a contributor in one of four categories:
 - Capital providers generate liquidity streams for the ecosystem.
 
 ### Who can I contact regarding cooperation/marketing proposals?  
-As the open source project, Morpheus doesn’t have a team or a person responsible for collaborations. You don't need anyone's permission to talk about Morpheus or add value as a Contributor. 
+As the open source project, Morpheus doesn't have a team or a person responsible for collaborations. You don't need anyone's permission to talk about Morpheus or add value as a Contributor. 
 
 ### What is MOR20?  
 MOR20 is a smart contract standard projects can utilize for fair launches.  

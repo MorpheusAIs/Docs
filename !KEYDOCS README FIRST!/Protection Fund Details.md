@@ -1,7 +1,9 @@
+This is a reference for the Protection Fund. For general protocol reference, see morpheus-reference.md.
+
 # Morpheus Protection Fund Proposal
 
 ## Introduction
-The Morpheus white paper sets aside 4% of all MOR emissions for the purpose of a “Protection Fund” and delegates to the Code Providers to act as oracles in the case of its resources being needed.
+The Morpheus white paper sets aside 4% of all MOR emissions for the purpose of a "Protection Fund" and delegates to the Code Providers to act as oracles in the case of its resources being needed.
 Type of actions:
 - Payment of bug bounty to avoid attacks.
 - Payment of audits before new Smart Contracts are deployed.
@@ -16,7 +18,7 @@ Before the Smart Contracts go live on the Ethereum network here defined are the 
 1. Bugs discovered and responsibly disclosed to the developers of a Morpheus Capital, Code, Compute, Community or Protection Fund Smart Contract.
 2. Payment of audits before new Smart Contracts are deployed on the Morpheus network.
 3. User losses of MOR or stETH in the case of an exploited Morpheus Smart Contract.
-4. Making whole providers who didn’t receive MOR emissions in the case of a failure of the Morpheus Smart Contract.
+4. Making whole providers who didn't receive MOR emissions in the case of a failure of the Morpheus Smart Contract.
 
 Amounts of payments from the protection fund should be in proportion to the bug, loss or emission error.
 
@@ -33,7 +35,7 @@ Once a payment is triggered the software will message the developers to authoriz
 ## Plan In Case of a Significant Loss Event
 A Significant Loss Event is defined as an event in which the MOR losses exceed the total resources of the Protection Fund. In this case, rather than make a payout of MOR the Code Providers should deploy new Smart Contracts and correct the MOR balances effected manually. This would effectively cause a hard fork in the code / MOR balances and all Providers, token hodlers and other infrastructure providers would have to update their code to the new Smart Contracts.
 
-In the case of stETH lost in a Significant Loss Event, the Protection Fund shall pay out to the maximum extent possible on a pro rata basis to the amount of each person’s losses.
+In the case of stETH lost in a Significant Loss Event, the Protection Fund shall pay out to the maximum extent possible on a pro rata basis to the amount of each person's losses.
 
 ## Conclusion
 Bugs and errors in software are a reality and mark the history from the two unintentional hard forks of Bitcoin to The DAO during the early days of Ethereum. 

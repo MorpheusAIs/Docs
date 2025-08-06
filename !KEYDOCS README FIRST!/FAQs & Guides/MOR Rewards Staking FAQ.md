@@ -1,55 +1,72 @@
-# MOR Rewards Staking (MRS) FAQ
+# MOR Rewards Staking (MRS) Reference
 
-### Why does Morpheus need rewards staking?
-The MRS has been introduced as a community initiative to close the negative feedback loop at the capital providers bucket and separate the real contributors from short-term opportunists.
+---
 
-### How does MOR Rewards Staking (MRS) work?
-In simple terms, Morpheus contributors can stake MOR reward claims for a future date. In exchange, contributors get a "Power Factor" or just "Power" that amplifies their MOR rewards.
+## Overview & Purpose
+MOR Rewards Staking (MRS) is a mechanism that allows Morpheus contributors to stake their future MOR reward claims for a defined period. In return, contributors receive a "Power Factor" multiplier that amplifies their MOR rewards. MRS is designed to:
+- Incentivize long-term commitment
+- Distinguish real contributors from short-term opportunists
+- Close the negative feedback loop in the capital providers bucket
 
-### How is the Power Factor determined?
-The Power Factor mirrors the dilution rate due to daily emissions contributors experience while staking the MOR rewards. The equation can be found in the [MRC42](https://github.com/antonbosss/MRC/blob/main/IN%20PROGRESS/MRC42.md#the-time-power-factor-shortened-power).
+---
 
-### What is the maximum Power Factor multiplier?
-The maximum Power Factor multiplier is 10.7x if staked for 6 years.
+## Eligibility & Participation
+- All four types of Morpheus contributors (Code, Capital, Compute, Community/Builders) are eligible for MRS.
+- Capital and Code staking are live first; Compute and Builder staking will follow.
+- Only future MOR reward claims can be staked (not MOR already in your wallet).
+- Staking is optional, but only staked rewards receive the Power Factor multiplier.
 
-### For how long can I stake my rewards?
-There are no limits, but Power factor starts to grow from 1x after six months of staking and reach its maximum of 10.7x if rewards are staked for six years.
-While there are no limits, the reasonable range is from six months to six years.
+---
 
-### Can I stake MOR that I already have in my wallet?
-No, only future MOR reward claims can participate in this staking.
+## Power Factor & Staking Mechanics
+- The Power Factor is a multiplier applied to staked MOR rewards, increasing with longer staking periods.
+- The Power Factor mirrors the dilution rate due to daily emissions contributors experience while staking.
+- The maximum Power Factor is 10.7x for a 6-year stake.
+- The Power Factor equation is defined in [MRC42](https://github.com/antonbosss/MRC/blob/main/IN%20PROGRESS/MRC42.md#the-time-power-factor-shortened-power).
 
-### Who is eligible for rewards staking?
-All four types of Morpheus contributions (Code, Capital, Compute, or Builders) can participate in MRS. Capital and Code will go live first, with Compute and Builder rewards staking following afterward.
+| Staking Period      | Power Factor Multiplier |
+|---------------------|------------------------|
+| 6 months            | 1x                     |
+| 6 years             | 10.7x                  |
+| (interpolated)      | (grows with time)      |
 
-### I'm a contributor, do I have to stake my rewards?
-Staking rewards is not mandatory, but without it, you will not gain Power Factor.
+- The Power Factor starts at 1x after six months and increases up to 10.7x at six years. There is no upper limit, but the reasonable range is 6 months to 6 years.
 
-### Can I decrease or increase the staking period?
-No, the MOR staking period can only be increased.
+---
 
-### Can I withdraw rewards earlier?
-The user is not able to withdraw their MOR rewards until the end of the MRS period.
+## Staking Periods & Multipliers
+- Staking periods can only be increased, not decreased.
+- Rewards cannot be withdrawn until the end of the staking period.
+- The staking period is set at the time of staking and is locked in.
 
-### MRC states that every transaction will recalculate Power. I’d like to know more.
-Not every transaction will trigger recalculation, but only transactions with the Distribution contract, due to the technical specifics of the contract. 
-For example, depositing or withdrawing stETH for capital providers, or increasing or decreasing weights for code contributors.
+---
 
-### If I want to buy or sell MOR from the wallet where rewards are staked, will this trigger recalculation?
-No, because these transactions do not call functions of the Distribution contract.
+## Claiming & Withdrawal Rules
+- Only future MOR reward claims are eligible for staking.
+- Staked rewards cannot be withdrawn early.
+- For capital contributors, stETH can be withdrawn at any time (subject to the normal 7-day lock), but MOR rewards will stop accruing if stETH is withdrawn.
 
-### Do staking rewards affect MOR emissions?
-No, MRS has no impact on daily MOR emissions, but due to staking, fewer MOR tokens will flow into circulation.
+---
 
-### What should I do to stake my reward?
-You will be able to do that via the dashboard or directly through the smart contract. If you are a code provider, you can also submit the staking time with your contribution submission.
+## Technical Details & Contract Behavior
+- Not every transaction triggers Power Factor recalculation—only those interacting with the Distribution contract (e.g., depositing/withdrawing stETH, increasing/decreasing code weights).
+- Buying or selling MOR from the wallet where rewards are staked does not affect the Power Factor unless it interacts with the Distribution contract.
+- MRS does not impact daily MOR emissions, but staking reduces the amount of MOR entering circulation.
 
-### I'm a capital contributor. If I stake my reward, will I be able to withdraw stETH?
-Nothing changes the ability of capital contributors to withdraw their stETH (beyond the normal 7 days), only the claiming of MOR rewards is delayed. However, when you withdraw stETH, you will no longer get rewards.
+---
 
-### I'd like to have more information about MRS.
-You are welcome to read the full version of the proposal [MRC42](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md).
+## Impact on Emissions & Circulation
+- Staking does not change the total daily MOR emissions.
+- Staked rewards are locked, reducing the circulating supply of MOR during the staking period.
 
-### I have a question I didn’t find the answer to.
-Please ask it in the Discord in the [#capital-providers](https://discord.com/channels/1151741790408429580/1167520881908666569) or [#code-providers](https://discord.com/channels/1151741790408429580/1167520984849469530) channel.
+---
+
+## References & Support
+- Full proposal: [MRC42](https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC42.md)
+- [Morpheus Dashboard – Staking Interface](#) *(placeholder for dashboard link)*
+- For questions, use the [#capital-providers](https://discord.com/channels/1151741790408429580/1167520881908666569) or [#code-providers](https://discord.com/channels/1151741790408429580/1167520984849469530) channels on Discord.
+
+---
+
+## [Placeholder: Add contract addresses and dashboard links as available]
 

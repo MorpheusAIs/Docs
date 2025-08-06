@@ -1,5 +1,7 @@
 # Capital Providers Contract Guide
 
+This is a contract-specific how-to guide. For conceptual background, see morpheus-explanation.md. For technical reference, see morpheus-reference.md.
+
 ## Introduction
 The purpose of the guide is to pass you through the process of direct interaction with the Morpheus Capital Providers Distribution Contract.
 
@@ -28,7 +30,7 @@ Alternatively, a user can swap stETH on Ethereum DEXes or buy stETH on centraliz
 ---
 
 ## How to deposit stETH into the contract?
-You need to go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab.   
+You need to go to the [stETH](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84#writeProxyContract) contract, open the **"Contract"** tab, then the **"Write as Proxy"** tab.   
 
 Don't forget to connect your wallet by clicking on the **"Connect to Web3"** button.  
 Make sure your wallet has enough ETH to cover gas fees.
@@ -44,7 +46,7 @@ Input parameters:
   
 You can use this unit converter calculator https://eth-converter.com to help you. In the example on the image, it is 1 ETH in WEI.
 
-Click “**Write**” and confirm the transaction.
+Click "**Write**" and confirm the transaction.
 
 After confirmation, you need to go to the [Distribution](https://etherscan.io/address/0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790#writeProxyContract) contract, open the **“Contract”** tab, then the **“Write as Proxy”** tab.   
 
