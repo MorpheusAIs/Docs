@@ -27,7 +27,7 @@ All three approaches have trade offs to consider described below.
 ### 1. Multisig Kickoff BEFORE Claims Go Live
 - In this scenario the Multisig starts the Uniswap pool. 
 - All the liquidity and tokens set aside for launch can be seeded at once.
-- However the ONLY tokens from the Multisig can be a seller in the Uniswap pool as no other claims are live yet.
+- However ONLY the tokens from the Multisig can be a seller in the Uniswap pool as no other claims are live yet.
 - There will ONLY be buy pressure on the token as others can only put wETH to work in the pool. 
 - This could lead to the price of the token rising too much in the absence of any other sellers.
 - This could also be seen as dumping the tokens on the community and no other token holders would be able to sell until claims go live. 
@@ -40,7 +40,7 @@ All three approaches have trade offs to consider described below.
 
 ### 3. The Third Option - Liquidity Is Provided Simultaneously When Claims Go Live
 - This was the approach taken with the Morpheus MOR token on its claim day at 12 noon UTC on May 8th 2024.
-- This was proposed in MRC09 avoid the challenges of either providing liquidity Before or After claims went live.
+- This was proposed in MRC09 to avoid the challenges of either providing liquidity Before or After claims went live.
 - Bugs in the Uniswap integration with the Multisig software prevented the deployment of Multisig liquidity for about 3 hours.
 - Thus the Morpheus launch defaulted into a scenario #2 community kick off model. 
 - Due to this the community created the first Uniswap pools, however they were very illiquid as not many tokens were deposited.
@@ -64,7 +64,7 @@ All three approaches have trade offs to consider described below.
 
 **2. Multisig Deploys Liquidity AFTER Scenario Tips:**
 - If your MOR20 project selects the 2nd option and the Multisig does the kick off AFTER claims go live.
-- Adding liquidity to from a multisig is very different than doing it from a single address, largely due to the time lag between signers.
+- Adding liquidity from a multisig is very different than doing it from a single address, largely due to the time lag between signers.
 - Uniswap has a series of protections to try and prevent you from making mistakes that can make deploying liquidity in size to a new contract challenging.
 - Uniswap safety checks include "slippage" protection checks and you may have to customize the transaction to allow for greater slippage than normal.
 - Multisig software safety checks include recommendations about the high risk of new contracts and you will have to get through these checks. 
@@ -74,5 +74,5 @@ All three approaches have trade offs to consider described below.
 **3. Simultaneously Liquidity Deployment Tips:**
 - If your MOR20 project selects to go live with liquidity at the same time as the token claims.
 - Consider having multiple experts in Uniswap, SAFE, and multisig set ups available.
-- Morpheus is fortunately to have an experienced community of experts who quickly offered potential solutions and were able to debug the issues.
+- Morpheus is fortunate to have an experienced community of experts who quickly offered potential solutions and were able to debug the issues.
 - Lastly make sure to have multiple back up signers, as hardware failures / errors or signing issues are always possible.
