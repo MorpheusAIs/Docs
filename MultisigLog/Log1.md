@@ -1,9 +1,9 @@
 # Example Log:
 
 ## Steps To Include:
-- list of transactions gets outlined and proposed on git
-- secret key is posted on multisig secure comms channel
-- prior agreed upon time period for execution 
-- who is proposer and who is final executor is outlined 
-- what is going to happen in the smart contract
-- local confirmation of hashes by each party
+- List of transactions gets outlined and proposed on git
+- Secret key is posted on multisig secure comms channel
+- Prior agreed upon time period for execution 
+- Who is proposer and who is final executor is outlined 
+- What is going to happen in the smart contract
+- Local confirmation of hashes by each party
