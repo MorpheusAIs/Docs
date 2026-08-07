@@ -79,7 +79,7 @@ MOR20 is a smart contract standard projects can utilize for fair launches.
 Please visit the [MOR20 page](https://mor.org/MOR20) for more information.
 
 ### Is there a bug bounty program?  
-There is. White hackers can get up to $150,000 as reward for eligible discoveries in proportion to the severity of the vulnerability.  
+There is. White hat researchers can get up to $100,000 as reward for eligible discoveries (smart-contract exploits with a working PoC), in proportion to demonstrated impact and subject to Protection Fund liquidity.  
 Learn more about [here.](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/Bug%20Bounty%20Program.md)
 
 ### Are Morpheus contracts audited?
