@@ -2,7 +2,7 @@
 
 **Status:** Patched on BASE mainnet (2026-07-31). This file is the Protection Fund incident record for a bounty. It is not a request for a new fix.
 
-**Proposal:** review for accuracy, then merge.
+**Payout:** first installment **$3,000 USDC sent** 2026-08-18 (Arbitrum). Remaining **$12,000** over four monthly payments. Protection Fund reimbursed the paying address (three txs below).
 
 ## Summary
 
@@ -80,7 +80,31 @@ First valid report on this unique issue. Under Bug Bounty Program v2, the first 
 | Paid by (on behalf of the Protection Fund) | `0x65485DEECeAF608C8304978CA0FCA1C49f5308aE` |
 | Paid to | `0x18f61d9C2b3303d2C6cEafBEF81302c1016C6b9C` |
 
-Code Providers: signal TRUE/FALSE on this record within 7 days of merge. If a majority of participating weight validates TRUE, authorize the schedule above. Each monthly transfer is recorded on this file (or as a PR comment) by tx hash.
+Code Providers: signal TRUE/FALSE on this record within 7 days of merge. If a majority of participating weight validates TRUE, authorize the remaining schedule. Each monthly transfer is recorded below by tx hash.
+
+## Payout log
+
+Chain: **Arbitrum One**. Native USDC `0xaf88d065e77c8cC2239327C5EDb3A432268e5831`.
+
+### Protection Fund reimbursement (to the paying address)
+
+These three transfers reimbursed `0x65485DEECeAF608C8304978CA0FCA1C49f5308aE` for paying the submitter.
+
+| When (UTC) | Amount | From | To | Tx |
+|---|---:|---|---|---|
+| 2026-08-18 18:33 | 2,000 MOR | mint / claim (`execute302`) | `0x6548…308aE` | [`0x8289acf2…054720`](https://arbiscan.io/tx/0x8289acf2e7c05c4a7c760c23581b0b7e88b3a348ff821980b2c6486586054720) |
+| 2026-08-18 19:11 | 1 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0x22dea25d…4bb1cf`](https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf) |
+| 2026-08-18 19:15 | 1,999 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0xd5e461ce…c5cf05`](https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05) |
+
+### Installment 1 of 5 — $3,000 USDC to submitter (sent)
+
+| When (UTC) | Amount | From | To | Tx |
+|---|---:|---|---|---|
+| 2026-08-18 18:57 | 10 USDC | `0x6548…308aE` | `0x18f6…6b9C` | [`0x69bd1f65…103580`](https://arbiscan.io/tx/0x69bd1f65fc9dd119abb7374e6ad101dfb95da3a9ad90191790205d1970103580) |
+| 2026-08-18 19:27 | 2,990 USDC | `0x6548…308aE` | `0x18f6…6b9C` | [`0x0000e9b0…217087`](https://arbiscan.io/tx/0x0000e9b0072808144d920afc420baed0924dcac11fb52afc25736c1515217087) |
+| **Total** | **3,000 USDC** | | | |
+
+Remaining: **4 × $3,000 USDC**.
 
 ## What this record is not
 
