@@ -106,6 +106,21 @@ These three transfers reimbursed `0x65485DEECeAF608C8304978CA0FCA1C49f5308aE` fo
 
 Remaining: **4 × $3,000 USDC**.
 
+## Addendum — Arbiscan URLs (for approval)
+
+Arbitrum One. Submitted for `@DavidAJohnston` to approve as the on-chain record of installment 1 and the Protection Fund reimbursement.
+
+**Protection Fund reimbursement (MOR → paying address `0x6548…308aE`):**
+
+1. https://arbiscan.io/tx/0x8289acf2e7c05c4a7c760c23581b0b7e88b3a348ff821980b2c6486586054720
+2. https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf
+3. https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05
+
+**Installment 1 — $3,000 USDC to submitter `0x18f6…6b9C`:**
+
+4. https://arbiscan.io/tx/0x69bd1f65fc9dd119abb7374e6ad101dfb95da3a9ad90191790205d1970103580
+5. https://arbiscan.io/tx/0x0000e9b0072808144d920afc420baed0924dcac11fb52afc25736c1515217087
+
 ## What this record is not
 
 - Not [SmartContracts #63](https://github.com/MorpheusAIs/SmartContracts/issues/63) / [#64](https://github.com/MorpheusAIs/SmartContracts/issues/64) ([@Apollyon13X](https://github.com/Apollyon13X)).
