@@ -86,15 +86,15 @@ Code Providers: signal TRUE/FALSE on this record within 7 days of merge. If a ma
 
 Chain: **Arbitrum One**. Native USDC `0xaf88d065e77c8cC2239327C5EDb3A432268e5831`.
 
-### Protection Fund reimbursement (to the paying address)
+### Protection Fund reimbursement
 
-These three transfers reimbursed `0x65485DEECeAF608C8304978CA0FCA1C49f5308aE` for paying the submitter.
+These three transactions reimbursed the paying address for installment 1.
 
 | When (UTC) | Amount | From | To | Tx |
 |---|---:|---|---|---|
-| 2026-08-18 18:33 | 2,000 MOR | mint / claim (`execute302`) | `0x6548…308aE` | [`0x8289acf2…054720`](https://arbiscan.io/tx/0x8289acf2e7c05c4a7c760c23581b0b7e88b3a348ff821980b2c6486586054720) |
 | 2026-08-18 19:11 | 1 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0x22dea25d…4bb1cf`](https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf) |
 | 2026-08-18 19:15 | 1,999 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0xd5e461ce…c5cf05`](https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05) |
+| 2026-08-18 19:27 | 300 MOR | `0x6548…308aE` | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | [`0x882505c7…1798b1`](https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1) |
 
 ### Installment 1 of 5 — $3,000 USDC to submitter (sent)
 
@@ -110,11 +110,11 @@ Remaining: **4 × $3,000 USDC**.
 
 Arbitrum One. Submitted for `@DavidAJohnston` to approve as the on-chain record of installment 1 and the Protection Fund reimbursement.
 
-**Protection Fund reimbursement (MOR → paying address `0x6548…308aE`):**
+**Protection Fund reimbursement:**
 
-1. https://arbiscan.io/tx/0x8289acf2e7c05c4a7c760c23581b0b7e88b3a348ff821980b2c6486586054720
-2. https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf
-3. https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05
+1. https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1
+2. https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05
+3. https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf
 
 **Installment 1 — $3,000 USDC to submitter `0x18f6…6b9C`:**
 
