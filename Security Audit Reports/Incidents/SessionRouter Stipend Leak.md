@@ -2,7 +2,7 @@
 
 **Status:** Patched on BASE mainnet (2026-07-31). This file is the Protection Fund incident record for a bounty. It is not a request for a new fix.
 
-**Payout:** first installment **$3,000 USDC sent** 2026-08-18 (Arbitrum). Remaining **$12,000** over four monthly payments. Protection Fund reimbursed the paying address (three txs below).
+**Payout:** first installment **$3,000 USDC sent** 2026-08-18 (Arbitrum). Remaining **$12,000** over four monthly payments. Protection Fund reimbursed the paying address (2,000 MOR sent, 300 MOR overpayment returned; net 1,700 MOR).
 
 ## Summary
 
@@ -88,13 +88,15 @@ Chain: **Arbitrum One**. Native USDC `0xaf88d065e77c8cC2239327C5EDb3A432268e5831
 
 ### Protection Fund reimbursement
 
-These three transactions reimbursed the paying address for installment 1.
+The Protection Fund sent **2,000 MOR** to the paying address (`1 + 1,999`). That was **300 MOR over** the amount needed for installment 1. The paying address returned the **300 MOR overpayment** to the Fund.
 
-| When (UTC) | Amount | From | To | Tx |
+Net reimbursement: **1,700 MOR**.
+
+| When (UTC) | Amount | Direction | Note | Tx |
 |---|---:|---|---|---|
-| 2026-08-18 19:11 | 1 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0x22dea25d…4bb1cf`](https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf) |
-| 2026-08-18 19:15 | 1,999 MOR | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | `0x6548…308aE` | [`0xd5e461ce…c5cf05`](https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05) |
-| 2026-08-18 19:27 | 300 MOR | `0x6548…308aE` | `0xb19B3b7B23fA14F6A5fCFD1B9A03a4105E242169` | [`0x882505c7…1798b1`](https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1) |
+| 2026-08-18 19:11 | 1 MOR | Fund `0xb19B…2169` → paying address `0x6548…308aE` | Fund send (probe) | [`0x22dea25d…4bb1cf`](https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf) |
+| 2026-08-18 19:15 | 1,999 MOR | Fund `0xb19B…2169` → paying address `0x6548…308aE` | Fund send (remainder) | [`0xd5e461ce…c5cf05`](https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05) |
+| 2026-08-18 19:27 | 300 MOR | paying address `0x6548…308aE` → Fund `0xb19B…2169` | **return of Fund overpayment** | [`0x882505c7…1798b1`](https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1) |
 
 ### Installment 1 of 5 — $3,000 USDC to submitter (sent)
 
@@ -110,11 +112,11 @@ Remaining: **4 × $3,000 USDC**.
 
 Arbitrum One. Submitted for `@DavidAJohnston` to approve as the on-chain record of installment 1 and the Protection Fund reimbursement.
 
-**Protection Fund reimbursement:**
+**Protection Fund reimbursement** (2,000 MOR sent; 300 MOR returned as overpayment; net 1,700 MOR):
 
-1. https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1
-2. https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05
-3. https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf
+1. https://arbiscan.io/tx/0x22dea25d55b1183e791d24b4c4ac477a316370d0a37da162b62c5d8e2d4bb1cf — 1 MOR Fund → paying address
+2. https://arbiscan.io/tx/0xd5e461ceb3257cf49da7d049e2465c9e123e4d667ea5cd30f931c98340c5cf05 — 1,999 MOR Fund → paying address
+3. https://arbiscan.io/tx/0x882505c7c1807bd70d261d943eab3a6651e67dd0ea4975873dbbe47d9c1798b1 — 300 MOR paying address → Fund (**overpayment returned**)
 
 **Installment 1 — $3,000 USDC to submitter `0x18f6…6b9C`:**
 
