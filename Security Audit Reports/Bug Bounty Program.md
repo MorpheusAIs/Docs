@@ -46,9 +46,12 @@ The following are **categorically ineligible**. Submitting them does not start a
 - Attacks requiring a compromised user (phishing, malware, leaked private keys, malicious token approvals granted by the user)
 - Attacks requiring control of block production, validator collusion, chain reorganization, or a >51% attack
 - Front-running and MEV, unless the PoC demonstrates a loss to the protocol or to third-party users that is not merely ordering priority
-- Griefing and denial-of-service that does not result in permanent loss or permanent lock of funds
+- Griefing and denial-of-service that does not result in permanent loss or permanent lock of funds.
 - Bugs in third-party protocols we integrate with (Aave, Uniswap, LayerZero, Chainlink, etc.), unless the flaw is in **Morpheus's own use** of that integration and the PoC demonstrates it against a Morpheus address
 - Rounding, precision loss, and dust. **Exception:** if your PoC demonstrates that the rounding error compounds through a shared invariant (share rate, yield accounting, price-per-token) into a material drain, it is in scope and will be treated as High or Critical. The exception requires the PoC, not the argument.
+- A condition that clears on its own, because an oracle round lands, a lock expires, a period rolls over or a permissionless call can be repeated,
+is not a freeze, whatever the value sitting behind it. If your finding is that a transaction reverts and succeeds on retry, it is out of scope and
+the size of the balance it touches does not change that.
 
 **Not a submission:**
 
@@ -70,7 +73,8 @@ Your PoC must:
 3. Run to a passing result with **one command**, from a clean clone, with no manual setup beyond an RPC URL.
 4. **Assert the loss**: the test must contain an assertion on the attacker's balance before and after, or on the protocol invariant that breaks. A test that merely reverts, or that prints a suspicious value, is not a PoC.
 5. Use **no privileged accounts**. No `vm.prank` as owner, admin, or multisig. The attacker must be an address that anyone can control.
-6. Be delivered as a **public GitHub repository or gist**, linked in the report — not as an attachment, screenshot, or code block in an email.
+6. Be delivered as a **public GitHub repository or gist**, linked in the report, not as an attachment, screenshot, or code block in an email.
+7. If your PoC advances time on a fork (`vm.warp`), it must not rely on state that would have moved on live chain. Oracles, rebasing balances and streaming accruals are frozen in a fork, so warping past a heartbeat makes every feed stale by construction and proves nothing about how often that happens in production. Where frequency is part of your claim, measure it against chain history and show the measurement.
 
 We run your test. If it does not pass on our machine, the report is closed.
 
@@ -98,6 +102,9 @@ Every submission must state a specific, defensible amount at risk. "Potentially 
 
 If the amount at risk is bounded by a parameter (a cap, a balance, an allowance), state the current on-chain value of that parameter and the block at which you read it.
 
+For any finding whose impact is that funds are unavailable rather than lost, the impact number is a **duration**, not a balance. State how long the condition lasts, how you measured it and what ends it. An amount of TVL sitting behind a temporary revert is not an amount at risk and a report that
+leads with one will be assessed on the duration it failed to state. 
+
 ---
 
 ## 3. Severity and rewards
@@ -106,14 +113,14 @@ Rewards are paid from the Protection Fund, in proportion to demonstrated impact,
 
 | Severity | Definition — all require a working PoC | Reward |
 |---|---|---|
-| **Critical** | Direct theft of user funds or treasury assets; unauthorized minting of MOR; permanent freeze of funds at protocol scale; drain that scales with TVL or with treasury balance | Up to **$100,000**, capped at 10% of demonstrated funds at risk |
-| **High** | Theft or permanent lock of a bounded but material amount of funds; measurable over-issuance of rewards; loss requiring realistic preconditions the attacker can create | **$10,000 – $50,000** |
-| **Medium** | Temporary freeze of funds with recovery possible; quantified loss to a subset of users; griefing with a demonstrated, measurable cost borne by others | **$2,500 – $10,000** |
-| **Low** | Quantified loss below $10,000 total, with a working PoC | **$500 – $2,500** |
+| **Critical** | Direct theft of user funds or treasury assets; unauthorized minting of MOR; permanent freeze of funds at protocol scale; drain that scales with TVL or with treasury balance | **Up to $100,000**, capped at 10% of demonstrated funds at risk |
+| **High** | Theft or permanent lock of a bounded but material amount of funds; measurable over-issuance of rewards; loss requiring realistic preconditions the attacker can create | **Up to $50,000** |
+| **Medium** | Freeze of funds that persists until a privileged action or an external repair, which your PoC must show lasting at least 24 hours without one; quantified loss to a subset of users; griefing with a demonstrated, measurable cost borne by others | **Up to $10,000** |
+| **Low** | Quantified loss below $10,000 total, with a working PoC | **Up to $2,500** |
 
 **The amounts above are indicative, not a price list.** They describe the range we expect a tier to land in. The actual reward is set case by case on the demonstrated impact, the quality of the report and PoC, and the state of the Protection Fund — it may fall below or, for an exceptional finding, above the stated range.
 
-Notes:
+**Notes:**
 
 - A finding whose maximum extractable value is bounded and small is Low, no matter how elegant the exploit or how easy it is to execute. Scale determines reward, not cleverness.
 - Where impact depends on a changeable on-chain value (an allowance, a balance, a TVL), the reward is assessed against the value at the time of the report, and we may re-assess if that value is materially different at the time of the fix.
