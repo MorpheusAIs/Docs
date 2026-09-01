@@ -19,7 +19,7 @@ The compute marketplace is infrastructure serving that. It is not the mission. T
 
 ---
 
-**Problem set Zero** sits above the compute-contract problems. It is **product-market fit**, and demand **outside circular-flow capital**: not treasury-funded sessions, not yield paid in MOR, not usage by addresses that are themselves emission earners. A retained **external** dollar. Every problem set below is scored against whether it moves that, or only rearranges the circle.
+**Problem set Zero** sits above the compute-contract problems. It is **product-market fit**, and demand **outside circular-flow capital**: not treasury-funded sessions, not yield paid in MOR, not usage by addresses that are themselves emission earners. A retained **external** dollar. The structure must be one **both a willing consumer and a willing supplier will participate in** — a buyer who pays, and a provider who offers hardware at a market ask, not donated below-market compute from early contributors. Every problem set below is scored against whether it moves that, or only rearranges the circle.
 
 ---
 
@@ -95,6 +95,16 @@ Permissionless participation is mission-bound. “Anything gameable and profitab
 
 Identity cost is **not** upstream of the payment default. A wash trade extracts nothing unless a third party pays. Identity cost protects the residual subsidised lane and the reputation layer.
 
+### Who will supply — stake-to-list has divorced ask from demand
+
+A market requires **both** a willing consumer **and** a willing supplier. Problem set Zero covers the consumer. This is the supplier half on the compute contract.
+
+**The situation:** listing compute currently requires staking MOR. That requirement has **nerfed** providers who have excess hardware and would sell it at a market ask. They will not lock token inventory in order to plug a GPU into the network. Remaining supply is largely **donated** by early contributors, **not compensated at market prices** for the hardware they run.
+
+**What that divorces:** the **ask** — the price a compute provider would charge for their hardware — from **demand** — what a paying user would buy. Staking-to-supply is not a price. It is a ticket to stand in the room. When the ticket is MOR, the people with spare capacity stay outside, and the people already inside subsidise the network with underpriced compute.
+
+This is not an argument that provider stake must go to zero on the **issuance** lane (that still hits the earnings-cap / rotation-guard / security-budget collision). It is an argument that **stake as a condition of offering hardware into a paying market** fails the both-willing test. Two lanes again: free enough to **sell compute to a paying user** at an ask; costly to **claim emissions**.
+
 ### What is asked of reviewers — and what is not
 
 1. Is the ordering right? Does any proposed mechanism survive the payer default staying wrong?
@@ -102,6 +112,7 @@ Identity cost is **not** upstream of the payment default. A wash trade extracts 
 3. Does any live proposal to relax the earnings cap acknowledge that it also removes the rotation guard? What replaces the guard?
 4. Any objection to gating on already-decoded throughput / latency, other than sequencing?
 5. Should a listing carry a hardware or performance claim? Cheap to add; unenforceable until sampled.
+6. Does staking MOR as a condition of **supplying** compute fail the both-willing test — i.e. does it keep excess-capacity providers out and leave only donated, below-market supply? If stake remains on the paying lane, what is the replacement path for a provider who will sell hardware at an ask but will not lock token?
 
 **Not asked:** watermark formulas, window lengths, thresholds, new-provider grace. Those follow the ordering.
 
@@ -165,15 +176,18 @@ Sorted by who can relax them.
 14. Unlocks are forced selling on a calendar.
 15. You cannot have good tokenomics, profitable customer acquisition, and sustainable growth at once. Something is always subsidised. Name it.
 
+16. **Both sides must be willing.** A structure only a consumer will use, or only a supplier will donate into, is not a market. The consumer must choose to buy; the supplier must choose to offer hardware at an **ask**. If either side is there only because of emissions, lockups, or obligation, you have circular-flow capital, not a market.
+
 **Design rules (always)**
 
 1. A listing is a warranty; warranties need sampling.
-2. The protocol does not judge quality. It verifies that a counterparty with something at stake did.
-3. Watch the failure that looks like success: rejections to zero, provider count growing, ratings high, governance “responsive.”
-4. Renegotiate promises in the open; never let one lapse quietly.
-5. Disclosed dilution is capital formation; undisclosed or undelivered dilution is expropriation.
-6. No emission-parameter change ships without a written maximum extraction rate available to a participant who contributes nothing.
-7. No mechanism that *actually* presumes two distinct interests ships before identity costs something on the lane where that presumption matters.
+2. **The structure must be one in which both a willing consumer and a willing supplier will participate.** Test: would a buyer with external money use it, and would a provider with excess capacity plug in **at a market price**, without being an early contributor donating hardware? If either answer is no, the design has failed this rule — even if sessions exist.
+3. The protocol does not judge quality. It verifies that a counterparty with something at stake did.
+4. Watch the failure that looks like success: rejections to zero, provider count growing, ratings high, governance “responsive.”
+5. Renegotiate promises in the open; never let one lapse quietly.
+6. Disclosed dilution is capital formation; undisclosed or undelivered dilution is expropriation.
+7. No emission-parameter change ships without a written maximum extraction rate available to a participant who contributes nothing.
+8. No mechanism that *actually* presumes two distinct interests ships before identity costs something on the lane where that presumption matters.
 
 **Mandates (promises that invalidate rather than merely cost):** providers paid only on demand · rewards only after the software is live · stETH stakers earn emissions until openly renegotiated · global mint-and-burn · fair-launch terms (unretrieved, bind at the broadest reading) · indestructible access.
 
@@ -184,6 +198,8 @@ These are the live defaults and this phase’s scoring rule. They constrain *thi
 **This phase’s objective (not a class).** Close zero-to-one on one paying product. Kyle: one niche, one dollar, then tens of thousands a month. David: usage and real revenue; fit judged on specific products. Commercial floor already in use: on the order of **$10–15 thousand a month from paying clients**; tighter, **three paying clients**, one node with fit then three. Token design cannot manufacture this. The agent layer cannot be the excuse for no dollar. The hosted API cannot *become* the mission.
 
 **Current posture (revisable):** the network is the objective; the API gateway is a **node** (signup can convert while renewal churn runs 80–95% — node retention, not a protocol verdict). Pay follows results; 30-day paid-pilot gate. Capacity in hours, not per-token. Builders emissions walking down is an **unmeasured** quality experiment. Staking MOR for inference access is still the live utility door — do not demote it before an external-dollar path exists.
+
+**Stake-to-supply (this contract):** requiring MOR stake to list compute has kept providers with **excess capacity** off the network. They will not lock token to sell hardware. What remains is largely **donated** by early contributors, **below market price**. That divorces the provider’s **ask** (price of the hardware) from **demand** (what a paying user would buy). Fails the both-willing rule on the supply side. Distinct from staking-for-**access** (consumer utility). Distinct from stake-to-**claim issuance** (emissions lane).
 
 **Live disagreement:** one principal reads early fit into open-weight models; others read no fit because people do not stay and pay. Settled by **external dollars that survive an incentive cut**.
 
@@ -196,7 +212,7 @@ These are the live defaults and this phase’s scoring rule. They constrain *thi
 | User-funded **default** (mints reliance daily) | Fee-share *mechanism*, once **externally** funded |
 | Pre-register subsidy graduation + sunset | Router/rating rebuild |
 | Earnings-cap **scope** (and the rotation guard it carries) | Identity *mechanism* (registry design) |
-| Identity *direction* on the record: free entry to serve paying users; cost to claim issuance | Agent and model registries |
+| Identity *direction* on the record: free entry to **sell compute to a paying user** at an ask; cost to **claim issuance** — stake-to-list on the paying lane is the live failure | Agent and model registries |
 | Delivery gate on already-decoded throughput / time-to-first-token | Model-fidelity fingerprinting |
 | Claim field on a listing | Onboarding polish |
 | User-funded session ratio **in dollars**, excluding emission-earning payers | |
@@ -224,6 +240,7 @@ These are the live defaults and this phase’s scoring rule. They constrain *thi
 | Staking as access vs easy as Google | Split the instrument. Do not remove access-as-**long** until an external-dollar fee is live |
 | Subsidy-to-fee transition vs no dial | Build the dial or renegotiate the promise openly |
 | Annual return cap vs paying demand | Rescope the cap off the paying lane. Name the replacement rotation guard **before** the cap moves |
+| **Stake-to-supply vs both-willing market** | Requiring MOR stake to list compute is Sybil defence / security budget. | Providers with excess capacity will not lock token to sell hardware at an ask. Remaining supply is donated by early contributors below market price. Ask and demand are divorced. | Stake-to-list is not a price. It is a ticket. The people with spare GPUs stay outside. Zero stake on the **issuance** lane still hits the cap/rotation-guard collision. | Two lanes: offer hardware into a **paying** market at an ask without buying the ticket in MOR; stake (or equivalent cost) to **claim emissions**. Measure: would a non-contributor with idle capacity plug in at a posted ask? |
 
 **Design and sequencing trade-offs**
 
