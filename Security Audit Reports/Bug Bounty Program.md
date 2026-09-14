@@ -198,6 +198,8 @@ When you work with us under this program, you can expect us to:
 
 **Last updated: 2026-08-07.** All addresses below were read from chain on that date. Report against the address in the "Address" column; where that address is a proxy or a diamond, its current implementation or facet code is in scope through it.
 
+**Scope is address _and_ chain.** Several in-scope addresses are deterministic deployment twins: the same address hosts a different contract on a different chain. For example `0xE30279b79392AEfF7fDf1883C23d52eBA9D88A75` is the ProviderRegistry facet on Base and the RewardPool implementation on Ethereum Mainnet. Pin the chain as well as the address, and state both in your report.
+
 ### Ethereum Mainnet — Capital
 
 | Contract | Address | Type |
