@@ -16,7 +16,7 @@
 
 Morpheus ($MOR) is a decentralized AI ecosystem that was designed to incentivize the first peer-to-peer network of personal general-purpose AIs that can execute Smart Contracts on behalf of a user, known as Smart Agents. Morpheus implemented a unique decentralized infrastructure that incentivizes community contribution within each layer of their ecosystem. Morpheus utilizes LayerZero OFT and wormhole standards to allow for deployment across various blockchains, natively and has been deployed on Arbitrum, Ethereum and Base chains. MOR20 was subsequently launched, which provides the opportunity for new tokens to be launched using that same tokenomics infrastructure while leveraging the audited technology that powers MOR and the associated smart contracts.
 
-Morpheus identified a methodology to “bootstrap” the liquidity for the project through user contributions. As opposed to traditional projects, where “founders” raise capital for liquidity, $MOR allows users to stake yield generating assiets (such as Lido staked eth aka stETH) and divert the yield to the project in exchange for token emissions. This allows contributors to gain $MOR tokens without ever risking their principle.
+Morpheus identified a methodology to “bootstrap” the liquidity for the project through user contributions. As opposed to traditional projects, where “founders” raise capital for liquidity, $MOR allows users to stake yield generating assiets (such as Lido staked ETH aka stETH) and divert the yield to the project in exchange for token emissions. This allows contributors to gain $MOR tokens without ever risking their principle.
 
 FREE YOUR MIND
 
@@ -33,11 +33,11 @@ FREE YOUR MIND
 The unique tokenomic flexibility and builder incentivization are what make MOR20 tokens different. MOR20 tokens utilize fully customizable “pools”, used to emit tokens to specific users or groups. These pools are used to incentivize project activity, like providing capital (i.e. stETH for $MOR) or contributing to the development of the project. Every day, tokens are emitted to each of these pools and can be claimed by the respective contributors. 
 
 Morpheus utilizes the following pools for the $MOR token:
-	CAPITAL: Stake yield generating asset (i.e. stETH) to earn a percentage of Capital Emissions
-	CODE: Contribute to building the project to earn a % of Code Emissions including: infrastructure development, feature 	recommendations and development, github documentation,  code development, and a variety of other contribution types.
-	COMPUTE: Provide compute resources to power the decentralized AI demand to earn a percentage of Compute Emissions
-	COMMUNITY: Build smart agents to support the functionality and features within the AI platform, improving the overall offering. 	While collecting fees for utilization of their agent, they also can earn a percentage of Community Emissions
-	PROTECTION: Support the auditing and long term protection of the project in the case of any bad actors.
+- CAPITAL: Stake yield generating asset (i.e. stETH) to earn a percentage of Capital Emissions
+- CODE: Contribute to building the project to earn a % of Code Emissions including: infrastructure development, feature recommendations and development, github documentation,  code development, and a variety of other contribution types.
+- COMPUTE: Provide compute resources to power the decentralized AI demand to earn a percentage of Compute Emissions.
+- APP. BUILDERS: Build smart agents to support the functionality and features within the AI platform, improving the overall offering. While collecting fees for utilization of their agent, they also can earn a percentage of Community Emissions.
+- PROTECTION FUND: Support the auditing and long term protection of the project in the case of any bad actors.
 
 Together, these buckets enable a true community based approach where contributors earn token emissions in a “proof of work” fashion – aligning project and user incentives to create a project in a class of it’s own.
 
@@ -82,7 +82,7 @@ The MOR20 tokens incorporate “upgradeability” features, allowing for long-te
 
 MOR20 projects choose whether to support upgradeability, which leverage updates made to the native Morpheus $MOR token. Morpheus will never be able to modify a MOR20 contract unilaterally, as this would require signature from the MOR20 contract owner, if they choose to make the upgrades. 
 
-Future-proofing allows MOR20 tokens to be flexible and support the long-term viability of the project. Ethereum for example has made numerous upgrades to their blockchain to support new features and technologies. 
+Future-proofing allows MOR20 tokens to be flexible and support the long-term viability of the project. Ethereum, for example, has made numerous upgrades to their blockchain to support new features and technologies. 
 
 ![image](https://github.com/user-attachments/assets/cfab95d0-e186-4b0f-8dfc-2b4781eb18d8)
 
