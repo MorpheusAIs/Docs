@@ -34,6 +34,9 @@ Last updated: 2026-11-17
 | MOR-KI-006 | Distributor | One stale Chainlink feed reverts the price update for all pools |
 | MOR-KI-007 | Distributor | External call before state write in yield withdraw |
 | MOR-KI-008 | L1SenderV2 | claim() reverting after LayerZero V1 default send version change |
+| MOR-KI-022 | DepositPool (all pools) | Raised reward weight kept after the claim lock ends, until the next stake, withdraw or claim |
+| MOR-KI-023 | DepositPool (all pools) | Stake or withdraw on a locked position restarts the claim lock |
+| MOR-KI-024 | DepositPool (all pools) | claimFor callable by any address when a claim receiver is set |
 
 ## Compute (Base, LumerinDiamond)
 
@@ -48,6 +51,8 @@ Last updated: 2026-11-17
 | MOR-KI-015 | SessionRouter | Direct payouts counted in providersTotalClaimed |
 | MOR-KI-017 | ProviderRegistry | Restake does not reset the provider reward limiter |
 | MOR-KI-018 | SessionRouter | Same stake cycled through many sessions per UTC day |
+| MOR-KI-025 | SessionRouter | Provider signature expiry not enforced |
+| MOR-KI-026 | ModelRegistry | Model cannot be deregistered while another provider's bid on it is active |
 
 ## Builders (Base)
 
@@ -55,6 +60,8 @@ Last updated: 2026-11-17
 | --- | --- | --- |
 | MOR-KI-019 | BuildersV4 | Subnet withdraw lock raised after deposits |
 | MOR-KI-020 | BuildersV4 | Reward counters restarted at the V2 to V4 upgrade |
+| MOR-KI-027 | BuildersV4 | Subnet created with another address as admin |
+| MOR-KI-028 | BuildersV4 | No fee charged on claim |
 
 ## Off-chain
 

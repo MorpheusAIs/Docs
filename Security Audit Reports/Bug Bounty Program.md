@@ -91,6 +91,7 @@ Your PoC must:
 5. Use **no privileged accounts**. No `vm.prank` as owner, admin, or multisig. The attacker must be an address that anyone can control.
 6. Be delivered as **one or more Foundry test files (`.t.sol`) attached to the email**, or as a link to a GitHub repository or gist. No archives, binaries, screenshots, or code pasted into the email body.
 7. If your PoC advances time on a fork (`vm.warp`), it must not rely on state that would have moved on live chain. In a fork, oracle rounds do not land and rebasing balances such as stETH do not rebase, while accruals computed from `block.timestamp`, such as Aave aToken balances, keep growing. Warping past a heartbeat therefore makes every feed stale by construction and skews yield between pools, and proves nothing about how often that happens in production. Where frequency is part of your claim, measure it against chain history and show the measurement.
+8. Not write contract state or code directly. No `vm.store`, `vm.etch` or `vm.mockCall` on any Morpheus or oracle address. Giving the attacker a token balance is allowed. State the amount and where an attacker would get it under PRECONDITIONS. Capital the attack spends or cannot get back is its cost. A report where that cost is higher than the loss caused is closed.
 
 We run your test inside our own Foundry project, in an isolated environment with `ffi` disabled and network access limited to our RPC. Your `foundry.toml` and any scripts are not used. If the test does not pass in that environment, the report is closed.
 
@@ -203,7 +204,6 @@ When you work with us under this program, you can expect us to:
 - Extend **Safe Harbor** for research related to this program: we will not threaten or bring legal action against anyone making a good-faith effort to comply with it
 - Work with you to understand and validate a report that meets the submission requirements, with a timely initial response
 - Remediate confirmed vulnerabilities in a timely manner
-- Publicly recognize your contribution if you are the first to report a unique issue and your report triggers a code or configuration change
 
 ---
 
