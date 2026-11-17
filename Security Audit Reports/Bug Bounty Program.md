@@ -1,14 +1,30 @@
-# Morpheus Bug Bounty Program ($100,000)
+# Morpheus Bug Bounty Program Guidelines
 
-**Version 2 — effective 2026-08-07. Supersedes all prior versions.**
+**Version 3 — effective 2026-11-17. Supersedes all prior versions.**
 
 Calling all independent security researchers.
+
+**Submissions go to security@mor.org only. Reports sent to devs@mor.org or any other address are not read and get no reply.**
+
+## TL;DR
+
+- Up to the equivalent of **$50,000 in MOR** from the Protection Fund, capped at 10% of demonstrated funds at risk, at the Code Maintainers' discretion and subject to available Fund liquidity. No reward is guaranteed.
+- **Smart contracts only.** Only the addresses in Appendix A. Frontend, APIs, agents, testnets, and infrastructure are out of scope.
+- **No PoC, no submission.** Foundry test, mainnet fork, pinned block, passing assertion on the loss, .t.sol file attached or linked.
+- **No admin-key, centralization, gas, style, or theoretical findings.** Ever.
+- Fixed template, quantified impact in tokens and USD
+- Send to security@mor.org. Non-conforming reports are closed without review.
+- Do not disclose publicly before the fix is live
+
+---
 
 ## Synopsis
 
 The Morpheus community cares about strong property rights. The Morpheus smart contracts have undergone a multi-tiered audit and mitigation process, but they operate in a dynamic environment that may still contain undiscovered vulnerabilities.
 
-This program pays for **one thing**: a reproducible exploit against deployed Morpheus smart contract bytecode that causes a measurable loss of funds. Nothing else. Read the Scope and Submission Requirements sections in full before submitting — reports that do not meet them are closed without review and without response.
+This program pays for **one thing**: a reproducible exploit against deployed Morpheus smart contract bytecode that causes a measurable loss of funds. Nothing else. \
+\
+Read the Scope and Submission Requirements sections in full before submitting — reports that do not meet them are closed without review and without response.
 
 ---
 
@@ -20,11 +36,11 @@ This program pays for **one thing**: a reproducible exploit against deployed Mor
 
 Where a listed address is a proxy or an EIP-2535 diamond, scope includes the implementation or facet code it currently delegates to, reached **through the listed address**. Report against the proxy; an implementation or facet address that is not reachable through a listed proxy is out of scope.
 
-Your report must target the **deployed bytecode** at the listed address. Findings that exist only in a GitHub repository, in an unreleased branch, or in a version that is not currently deployed are **not eligible**, even if the code is labelled "Morpheus".
+Your report must target the **deployed bytecode** at the listed address. Findings that exist only in a GitHub repository, in an unreleased branch, or in a version that is not currently deployed are **not eligible**, even if the code is labelled "Morpheus". "Currently deployed" means deployed at the block your PoC pins and still deployed when we receive your report.
 
 ### 1.2 Out of scope — non-exhaustive, and read it anyway
 
-The following are **categorically ineligible**. Submitting them does not start a discussion; the report is closed.
+The following are **ineligible**.
 
 **Not smart contracts:**
 
@@ -37,18 +53,21 @@ The following are **categorically ineligible**. Submitting them does not start a
 
 **Not a vulnerability:**
 
-- Anything requiring an admin key, owner role, multisig signature, or privileged role. Centralization risk, admin key compromise, "the owner could rug", governance capture, and timelock design are **out of scope in all forms**. If your attack starts with "assume the owner is malicious", stop. **Narrow exception:** a bug that lets an *unprivileged* address acquire a privileged role, bypass an access-control check, or hijack a proxy is in scope and is Critical — because it does not assume a malicious owner, it creates one. This requires a PoC in which the attacker starts with no special permissions.
+- Anything requiring an admin key, owner role, multisig signature, or privileged role. Centralization risk, admin key compromise, "the owner could rug", governance capture, and timelock design are **out of scope in all forms**. If your attack starts with "assume the owner is malicious", stop.\
+**Narrow exception:** a bug that lets an *unprivileged* address acquire a privileged role, bypass an access-control check, or hijack a proxy is in scope and is Critical — because it does not assume a malicious owner, it creates one. This requires a PoC in which the attacker starts with no special permissions.
 - Gas optimization, code style, naming, missing events, missing NatSpec, missing zero-address checks, floating pragma, unused variables, or any finding whose impact is readability or gas
 - Raw output from static analyzers (Slither, Mythril, Aderyn, Semgrep, etc.) or from any automated tool, submitted without an exploit
 - Theoretical, speculative, or "could become exploitable if X changes" issues
 - Best-practice deviations, missing input validation, and design opinions with no demonstrated loss
-- Known issues: anything already known to us at the time of your submission. This covers findings from any prior audit or security review of Morpheus, anything publicly disclosed anywhere, and anything an earlier researcher has already reported (first valid report wins). If we close your report as known, we will say which of these it falls under. The audits [here](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports) are a starting point for your own de-duplication, not the complete list.
+- Known issues: anything already known to us at the time of your submission. This covers findings from any prior audit or security review of Morpheus, anything publicly disclosed anywhere, and anything an earlier researcher has already reported (first valid report wins). If we close your report as known, we will say which of these it falls under. The audits [here](https://github.com/MorpheusAIs/Docs/tree/main/Security%20Audit%20Reports) are a starting point for your own de-duplication, not the complete list. Issues already known to us are listed in the public [known-issues registry](https://github.com/MorpheusAIs/Docs/blob/main/Security%20Audit%20Reports/KNOWN_ISSUES.md): a report that matches a listed entry is closed with a link to its ID, without further review.
 - Attacks requiring a compromised user (phishing, malware, leaked private keys, malicious token approvals granted by the user)
 - Attacks requiring control of block production, validator collusion, chain reorganization, or a >51% attack
 - Front-running and MEV, unless the PoC demonstrates a loss to the protocol or to third-party users that is not merely ordering priority
-- Griefing and denial-of-service that does not result in permanent loss or permanent lock of funds
+- Griefing and denial-of-service that does not result in permanent loss or permanent lock of funds.
 - Bugs in third-party protocols we integrate with (Aave, Uniswap, LayerZero, Chainlink, etc.), unless the flaw is in **Morpheus's own use** of that integration and the PoC demonstrates it against a Morpheus address
 - Rounding, precision loss, and dust. **Exception:** if your PoC demonstrates that the rounding error compounds through a shared invariant (share rate, yield accounting, price-per-token) into a material drain, it is in scope and will be treated as High or Critical. The exception requires the PoC, not the argument.
+- A condition that clears on its own — because an oracle round lands, a lock expires, a period rolls over, or a permissionless call can be repeated — is not a freeze, whatever the value sitting behind it. If your finding is that a transaction reverts and succeeds on retry, it is out of scope, and the size of the balance it touches does not change that.
+- Edge cases and corner conditions with no demonstrated loss. A finding that only bites in combination with a separate unproven assumption, a configuration you cannot bring about, or a protocol state that never actually occurs on-chain is out of scope. If the edge case is real, reproduce it on a mainnet fork at current on-chain state with the loss asserted; described as a possibility, it is closed.
 
 **Not a submission:**
 
@@ -65,16 +84,17 @@ A submission that does not contain **every item below** is closed on sight. This
 
 Your PoC must:
 
-1. Be a **Foundry test** (`forge test`). Hardhat is accepted; nothing else is.
+1. Be a **Foundry test** (`forge test`). Nothing else is accepted, including Hardhat.
 2. Run against a **mainnet fork pinned to a specific block** (`vm.createSelectFork(RPC, BLOCK)`), targeting the deployed address from Appendix A.
-3. Run to a passing result with **one command**, from a clean clone, with no manual setup beyond an RPC URL.
+3. Run to a passing result with **a single `forge test`**, using forge-std only. Declare any interfaces you need inside the test file, and read the RPC URL from `vm.envString("RPC_URL")`. No other setup.
 4. **Assert the loss**: the test must contain an assertion on the attacker's balance before and after, or on the protocol invariant that breaks. A test that merely reverts, or that prints a suspicious value, is not a PoC.
 5. Use **no privileged accounts**. No `vm.prank` as owner, admin, or multisig. The attacker must be an address that anyone can control.
-6. Be delivered as a **public GitHub repository or gist**, linked in the report — not as an attachment, screenshot, or code block in an email.
+6. Be delivered as **one or more Foundry test files (`.t.sol`) attached to the email**, or as a link to a GitHub repository or gist. No archives, binaries, screenshots, or code pasted into the email body.
+7. If your PoC advances time on a fork (`vm.warp`), it must not rely on state that would have moved on live chain. In a fork, oracle rounds do not land and rebasing balances such as stETH do not rebase, while accruals computed from `block.timestamp`, such as Aave aToken balances, keep growing. Warping past a heartbeat therefore makes every feed stale by construction and skews yield between pools, and proves nothing about how often that happens in production. Where frequency is part of your claim, measure it against chain history and show the measurement.
 
-We run your test. If it does not pass on our machine, the report is closed.
+We run your test inside our own Foundry project, in an isolated environment with `ffi` disabled and network access limited to our RPC. Your `foundry.toml` and any scripts are not used. If the test does not pass in that environment, the report is closed.
 
-### 2.2 Required: the report itself — maximum one page
+### 2.2 Required: the report itself
 
 Use exactly these headings:
 
@@ -86,11 +106,11 @@ IMPACT:      <amount at risk, in tokens AND USD at time of writing, with the
 PRECONDITIONS: <what must be true on-chain for the attack to work; state
               honestly if it requires capital, timing, or a specific state>
 ATTACK:      <numbered steps, maximum 10 lines>
-POC:         <link to public repo/gist>
+POC:         <attached .t.sol file(s), or link to repo/gist>
 FIX:         <one sentence or a diff>
 ```
 
-Reports longer than one page, or that do not follow this structure, are closed unread. Length is not evidence of rigor.
+Reports that do not follow this structure are closed unread.
 
 ### 2.3 The impact number
 
@@ -98,33 +118,36 @@ Every submission must state a specific, defensible amount at risk. "Potentially 
 
 If the amount at risk is bounded by a parameter (a cap, a balance, an allowance), state the current on-chain value of that parameter and the block at which you read it.
 
+For any finding whose impact is that funds are unavailable rather than lost, the impact number is a **duration**, not a balance. State how long the condition lasts, how you measured it, and what ends it. An amount of TVL sitting behind a temporary revert is not an amount at risk, and a report that leads with one will be assessed on the duration it failed to state.
+
 ---
 
 ## 3. Severity and rewards
 
-Rewards are paid from the Protection Fund, in proportion to demonstrated impact, at the Morpheus community's sole discretion. **Every tier requires a passing PoC and a quantified impact number.** Severity is assigned by us, based on the demonstrated effect — not by the reporter.
+Rewards are paid from the Protection Fund, in proportion to demonstrated impact. **Every tier requires a passing PoC and a quantified impact number.** Severity and reward are decided by the Morpheus Code Maintainers, based on the demonstrated effect — not by the reporter.
 
-| Severity | Definition — all require a working PoC | Reward |
-|---|---|---|
-| **Critical** | Direct theft of user funds or treasury assets; unauthorized minting of MOR; permanent freeze of funds at protocol scale; drain that scales with TVL or with treasury balance | Up to **$100,000**, capped at 10% of demonstrated funds at risk |
-| **High** | Theft or permanent lock of a bounded but material amount of funds; measurable over-issuance of rewards; loss requiring realistic preconditions the attacker can create | **$10,000 – $50,000** |
-| **Medium** | Temporary freeze of funds with recovery possible; quantified loss to a subset of users; griefing with a demonstrated, measurable cost borne by others | **$2,500 – $10,000** |
-| **Low** | Quantified loss below $10,000 total, with a working PoC | **$500 – $2,500** |
+| Severity | Definition — all require a working PoC |
+| --- | --- |
+| **Critical** | Direct theft of user funds or treasury assets; unauthorized minting of MOR; permanent freeze of funds at protocol scale; drain that scales with TVL or with treasury balance |
+| **High** | Theft or permanent lock of a bounded but material amount of funds; measurable over-issuance of rewards; loss requiring realistic preconditions the attacker can create |
+| **Medium** | Freeze of funds that persists until a privileged action or an external repair, which your PoC must show lasting at least 24 hours without one; quantified loss to a subset of users, below $50,000 total; griefing with a demonstrated, measurable cost borne by others. A condition that any address can clear with a permissionless call is not a freeze. |
+| **Low** | Quantified loss below $10,000 total, with a working PoC |
 
-**The amounts above are indicative, not a price list.** They describe the range we expect a tier to land in. The actual reward is set case by case on the demonstrated impact, the quality of the report and PoC, and the state of the Protection Fund — it may fall below or, for an exceptional finding, above the stated range.
+**Rewards are discretionary, and no reward is guaranteed.** The tiers define severity, not prices. The maximum reward for a single finding is the equivalent of $50,000, paid in MOR, and never more than 10% of the demonstrated funds at risk. Within that limit, the Code Maintainers set the reward case by case on the demonstrated impact, the quality of the report and PoC, and the MOR and liquidity available in the Protection Fund. The MOR amount is fixed on the day of the reward decision.
 
-Notes:
+**Notes:**
 
 - A finding whose maximum extractable value is bounded and small is Low, no matter how elegant the exploit or how easy it is to execute. Scale determines reward, not cleverness.
 - Where impact depends on a changeable on-chain value (an allowance, a balance, a TVL), the reward is assessed against the value at the time of the report, and we may re-assess if that value is materially different at the time of the fix.
 - The first researcher to submit a valid report on a unique issue is the only one eligible. Duplicates receive no reward.
-- **Rewards are subject to available Protection Fund liquidity.** Amounts are denominated in USD and paid in MOR or another asset held by the Fund, valued at the time of payout. Where the Fund's liquid balance is below the assessed reward, we will pay what is available and agree a schedule for the remainder; the tiers above are ceilings, not a guaranteed cash reserve.
+- **Rewards are subject to available Protection Fund liquidity.** Where the Fund's liquid balance is below the assessed reward, we will pay what is available and agree a schedule for the remainder.
+- Reports received before this version took effect are assessed under the version in force when they were received.
 
 ---
 
 ## 4. Disclosure process
 
-Submit to **devs@mor.org** with the subject line:
+Submit to **security@mor.org** with the subject line:
 
 ```
 [BOUNTY] <Contract name> — <one-line impact>
@@ -132,9 +155,11 @@ Submit to **devs@mor.org** with the subject line:
 
 **What happens next:**
 
-1. **Format check (automatic, within 3 business days).** Missing PoC link, missing impact number, out-of-scope target, or a report that ignores the Section 2.2 template → closed with a single-line reason. No appeal, no discussion.
+1. **Format check (Repo Maintainers, within 3 business days).** Missing PoC, missing impact number, out-of-scope target, or a report that ignores the Section 2.2 template → closed with a single-line reason. No appeal, no discussion.
 2. **Reproduction.** We run your PoC. If it passes, we confirm receipt and begin assessment.
-3. **Assessment and reward decision** within 14 business days of a passing PoC.
+3. **Assessment and reward decision** by the Code Maintainers within 14 business days of a passing PoC.
+
+The time frames above are service targets, not commitments. Missing one does not change the outcome of a report.
 
 We respond in substance only to submissions that pass step 1. We will not explain why an out-of-scope or PoC-less report was rejected beyond the one-line reason, and we will not review revised versions of a report that was closed for scope.
 
@@ -166,7 +191,7 @@ To distinguish good-faith research from malicious activity, you must:
 
 - Act in good faith under the terms of this program and any other relevant agreement. Where there is any inconsistency between this program and another agreement, a good-faith determination will be made.
 - Avoid violating the privacy of others, disrupting our systems, destroying data, or harming user experience
-- Use only devs@mor.org to discuss vulnerabilities with us
+- Use only security@mor.org to discuss vulnerabilities with us
 - Keep the details of any discovered vulnerability confidential until it is fixed and we have confirmed you may disclose
 - Test only against forks and testnets. Do not execute an exploit against mainnet contracts.
 - Interact only with accounts you own or have explicit permission to use
@@ -174,7 +199,7 @@ To distinguish good-faith research from malicious activity, you must:
 
 When you work with us under this program, you can expect us to:
 
-- Pay rewards for eligible discoveries based on demonstrated severity and impact, at the Morpheus community's sole discretion
+- Pay rewards from the Protection Fund for eligible discoveries, based on demonstrated severity and impact, as decided by the Code Maintainers
 - Extend **Safe Harbor** for research related to this program: we will not threaten or bring legal action against anyone making a good-faith effort to comply with it
 - Work with you to understand and validate a report that meets the submission requirements, with a timely initial response
 - Remediate confirmed vulnerabilities in a timely manner
@@ -182,26 +207,15 @@ When you work with us under this program, you can expect us to:
 
 ---
 
-## TL;DR
-
-- Up to **$100,000** from the Protection Fund, capped at 10% of demonstrated funds at risk and subject to available Fund liquidity
-- **Smart contracts only.** Only the addresses in Appendix A. Frontend, APIs, agents, testnets, and infrastructure are out of scope.
-- **No PoC, no submission.** Foundry test, mainnet fork, pinned block, passing assertion on the loss, public link.
-- **No admin-key, centralization, gas, style, or theoretical findings.** Ever.
-- One page, fixed template, quantified impact in tokens and USD
-- Send to devs@mor.org. Non-conforming reports are closed without review.
-- Do not disclose publicly before the fix is live
-
----
-
 ## Appendix A — In-scope contract addresses
 
-**Last updated: 2026-08-07.** All addresses below were read from chain on that date. Report against the address in the "Address" column; where that address is a proxy or a diamond, its current implementation or facet code is in scope through it.
+**Last updated: 2026-10-27.**\
+All addresses below were read from chain on that date. Report against the address in the "Address" column; where that address is a proxy or a diamond, its current implementation or facet code is in scope through it.
 
 ### Ethereum Mainnet — Capital
 
 | Contract | Address | Type |
-|---|---|---|
+| --- | --- | --- |
 | MOR token | `0xcBB8f1BDA10b9696c57E13BC128Fe674769DCEc0` | token |
 | DepositPool (stETH) | `0x47176B2Af9885dC6C4575d4eFd63895f7Aaa4790` | ERC1967 proxy |
 | DepositPool (wETH) | `0x9380d72aBbD6e0Cc45095A2Ef8c2CA87d77Cb384` | ERC1967 proxy |
@@ -218,7 +232,7 @@ All five DepositPool proxies currently share implementation `0xdB10dAEF167eA2233
 ### Arbitrum One — cross-chain
 
 | Contract | Address | Type |
-|---|---|---|
+| --- | --- | --- |
 | MOR token | `0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86` | token |
 | L2MessageReceiver | `0xd4a8ECcBe696295e68572A98b1aA70Aa9277d427` | ERC1967 proxy |
 | L2TokenReceiverV2 | `0x47176b2af9885dc6c4575d4efd63895f7aaa4790` | ERC1967 proxy |
@@ -226,13 +240,13 @@ All five DepositPool proxies currently share implementation `0xdB10dAEF167eA2233
 ### Base — token
 
 | Contract | Address | Type |
-|---|---|---|
+| --- | --- | --- |
 | MOR token (MOROFT) | `0x7431aDa8a591C955a994a21710752EF9b882b8e3` | token, non-upgradeable |
 
 ### Base — Builders
 
 | Contract | Address | Type |
-|---|---|---|
+| --- | --- | --- |
 | BuildersV4 | `0x42BB446eAE6dca7723a9eBdb81EA88aFe77eF4B9` | ERC1967 proxy |
 | BuildersTreasuryV2 | `0x9eba628581896ce086cb8f1A513ea6097A8FC561` | ERC1967 proxy |
 | RewardPool (Builders) | `0xDC99a8596e395E52aba2BD08C623E1e428Dc3980` | ERC1967 proxy |
@@ -242,15 +256,22 @@ All five DepositPool proxies currently share implementation `0xdB10dAEF167eA2233
 ### Base — Inference marketplace
 
 | Contract | Address | Type |
-|---|---|---|
+| --- | --- | --- |
 | LumerinDiamond | `0x6aBE1d282f72B474E54527D93b979A4f64d3030a` | EIP-2535 diamond |
+| LinearDistributionIntervalDecrease | `0x5c13A8F743c333896c19A0cD00A34D40a0436667` | external library (SessionRouter via LumerinDiamond) |
 
-All marketplace logic is reached through the diamond. Its five facets as of 2026-08-07 — ProviderRegistry `0xE30279b79392AEfF7fDf1883C23d52eBA9D88A75`, ModelRegistry `0xb7994dE339AEe515C9b2792831CD83f3C9D8df87`, Marketplace `0x5B660aB78f3AC743953F9E68630A2D66e7b45F64`, Delegation `0x345B8B23c38F70f1d77560C60493Bb583f012Cb0`, SessionRouter `0x3a3952f0E57b343F00b31F7dA039eF16389B7260` — are in scope through the diamond, not as standalone targets. Facets may be replaced by upgrade; pin your fork block and state which facet set you tested.
+All marketplace logic is reached through the diamond. Its five facets as of 2026-10-27:\
+ProviderRegistry `0xE30279b79392AEfF7fDf1883C23d52eBA9D88A75`;\
+ModelRegistry `0xb7994dE339AEe515C9b2792831CD83f3C9D8df87`;\
+Marketplace `0x5B660aB78f3AC743953F9E68630A2D66e7b45F64`;\
+Delegation `0x345B8B23c38F70f1d77560C60493Bb583f012Cb0`;\
+SessionRouter `0x3a3952f0E57b343F00b31F7dA039eF16389B7260`.\
+These facets are in scope through the diamond, not as standalone targets.\
+Facets may be replaced by upgrade; pin your fork block and state which facet set you tested.
 
-**Explicitly not in scope:** multisig wallets (`0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E` on all chains), the deployer EOA (`0x040EF6Fb6592A70291954E2a6a1a8F320FF10626`), the funding account (`0x5160C0311A95E0A1072FA85Df23712A7BA1cD4b1`), the burn address, the lock address, the DelegateFactory / ProvidersDelegate contracts (not initialised, zero TVL), and any contract not listed above.
-
----
-
-## Resources
-
-- [Protection Fund Details](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md)
+**Explicitly not in scope:** \
+multisig wallets (`0x1FE04BC15Cf2c5A2d41a0b3a96725596676eBa1E` on all chains), \
+the deployer EOA (`0x040EF6Fb6592A70291954E2a6a1a8F320FF10626`), \
+the funding account (`0x5160C0311A95E0A1072FA85Df23712A7BA1cD4b1`), \
+the burn address, the lock address, \
+the DelegateFactory / ProvidersDelegate contracts (not initialised, zero TVL), and any contract not listed above.
