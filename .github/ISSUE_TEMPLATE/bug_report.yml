@@ -1,0 +1,64 @@
+name: Bug report
+description: Report something that is broken.
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security issues go to private vulnerability reporting, not here. Questions and ideas go to Discussions.
+  - type: input
+    id: component
+    attributes:
+      label: Repository area or component
+      description: Which repository, service, module, or area is affected?
+      placeholder: e.g. proxy-router, provider, marketplace API, docs
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Which version or commit are you reporting against?
+      placeholder: e.g. v0.1.0, 1a2b3c4
+    validations:
+      required: true
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network
+      description: Which network is involved?
+      options:
+        - Base mainnet
+        - Base Sepolia
+        - Local only
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: Describe the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What should have happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant logs. Remove secrets, keys, and mnemonics.
+    validations:
+      required: false

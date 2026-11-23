@@ -4,6 +4,8 @@
 ## A Network For Powering Smart Agents
 ### Authored by Morpheus, Trinity, & Neo
 
+**Community:** questions and ideas go in [Morpheus Discussions](https://github.com/orgs/MorpheusAIs/discussions).
+
 ---
 ## Introduction 
 On September 2nd, 2023, a group of anonymous authors who identified themselves as Morpheus, Trinity, and Neo published [a groundbreaking paper](/!KEYDOCS%20README%20FIRST!/MOR%20-%20Network%20For%20Powering%20Smart%20Agents.pdf), marking the inception of the Morpheus, **"A Network For Powering Smart Agents"**.
