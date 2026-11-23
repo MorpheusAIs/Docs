@@ -2,6 +2,8 @@
 
 Reports that match an entry below are closed with a reference to its ID and are not eligible for a reward. Entries are not removed. Some entries are already fixed, others are scheduled for a fix according to priority, and others are by design. If an entry has been fixed and your PoC reproduces it against the current deployment, it is a regression and is treated as a new report.
 
+An entry covers the root cause and every variation of it. A different entry point, parameter, amount or impact estimate built on the same root cause is the same issue.
+
 This list is not exhaustive. Some known issues are still under review or under fix and are not listed. A report that matches no entry here is not automatically new.
 
 Findings in the published audits below count as known issues as well, whether or not an entry is listed here:
@@ -20,7 +22,7 @@ Findings in the published audits below count as known issues as well, whether or
 
 Scope is defined by the bounty rules (Appendix A and section 1.2), not by this file.
 
-Last updated: 2026-11-17
+Last updated: 2026-11-23
 
 ## Capital (Ethereum)
 
@@ -62,6 +64,7 @@ Last updated: 2026-11-17
 | MOR-KI-020 | BuildersV4 | Reward counters restarted at the V2 to V4 upgrade |
 | MOR-KI-027 | BuildersV4 | Subnet created with another address as admin |
 | MOR-KI-028 | BuildersV4 | No fee charged on claim |
+| MOR-KI-029 | BuildersV4 | Subnet name registered first by another address |
 
 ## Off-chain
 
