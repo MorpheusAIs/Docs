@@ -15,7 +15,7 @@
   - **Maintainer's Discord Handle:** scott_b_
   - **Maintainer's GitHub Handle:** [betterbrand](https://github.com/betterbrand)
 
-- **MRI Number 4**: [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md)
+- **MRI Number 4**: [TCM / MOR20 Token Standard for Fair Launches](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Capital%20Providers%2C%20MOR20%2C%20TCM/Techno%20Capital%20Machine%20(TCM).md)
   - **Maintainer's Discord Handle:** storm.father
   - **Maintainer's GitHub Handle:** [EnergyHound](https://github.com/EnergyHound)
 
@@ -31,7 +31,7 @@
   - **Maintainer's Discord Handle:** rcondron
   - **Maintainer's GitHub Handle:** [rcondron](https://github.com/rcondron)
 
-- **MRI Number 8:** [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Coder%20Guide.md)
+- **MRI Number 8:** [Code Proofs & Dashboards](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/Coder%20Guide.md)
   - **Maintainer's Discord Handle:** scott_b_
   - **Maintainer's GitHub Handle:** [betterbrand](https://github.com/betterbrand)
 
